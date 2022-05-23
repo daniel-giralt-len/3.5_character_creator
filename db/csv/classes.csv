@@ -1,4 +1,4 @@
-name, link, isPrestige, book, bookLink
+id, name, link, isPrestige, book, bookLink
 1,Abjurant Champion,/classes/complete-mage--58/abjurant-champion/,true,Complete Mage,/rulebooks/supplementals-35--5/complete-mage--58/
 2,Abjurer Variant,/classes/unearthed-arcana--90/abjurer-variant/,false,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
 3,Abolisher,/classes/lords-of-madness--72/abolisher/,true,Lords of Madness,/rulebooks/supplementals-35--5/lords-of-madness--72/
