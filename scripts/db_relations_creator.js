@@ -2,7 +2,7 @@ const fs = require('fs')
 const dbs = require('../db/json/dbs.json')
 const invertedIndices = require('../db/json/invertedIndices.json')
 
-const s = 0
+const s = 1
 
 if(s===0){
     dbs.rulebooks = dbs.rulebooks.map(({edition, editionLink, ...rest}) => {
