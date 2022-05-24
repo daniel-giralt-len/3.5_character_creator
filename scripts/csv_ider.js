@@ -22,4 +22,4 @@ const populateId = path => {
     ['races', './db/csv/races.csv'],
     ['rulebooks', './db/csv/rulebooks.csv'],
     ['skillTricks', './db/csv/skillTricks.csv'],
-].forEach(([name, path]) => populateId(path))
+].forEach(([path]) => populateId(path))

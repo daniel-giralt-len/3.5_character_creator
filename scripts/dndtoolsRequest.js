@@ -22,19 +22,10 @@ const getListable = async (mainUrl, {url: subUrl}, pageNumber) => {
 }
 
 const cleanHtml = (html, i) => {
-    try{
-        const regex = new RegExp(/<table class="common">.*<\/table>/g)
-        const oneLineHtml = html.replace(/\n/g,'')
-        const result = oneLineHtml.match(regex)
-        return result[0]
-    
-    }catch(e){
-        console.log('page not working',i)
-        //console.log(oneLineHtml)
-        //throw e
-        //return ''
-    }
-
+    const regex = new RegExp(/<table class="common">.*<\/table>/g)
+    const oneLineHtml = html.replace(/\n/g,'')
+    const result = oneLineHtml.match(regex)
+    return result[0]
 }
 
 const writeHtml = ({name},html) => {
@@ -51,6 +42,5 @@ const doIt = async item => {
 }
 
 (async () => {
-    //doIt({name:'feats', url: 'feats', pages: 181})
     listables.forEach(l => doIt(l))
 })();
