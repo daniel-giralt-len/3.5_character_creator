@@ -221,8 +221,7 @@
       "name": "Arcane Devotee",
       "link": "/classes/players-guide-to-faerun--22/arcane-devotee/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "29",
@@ -581,8 +580,7 @@
       "name": "Beholder Mage",
       "link": "/classes/monster-compendium-monsters-of-faerun--21/beholder-mage/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-30--6/monster-compendium-monsters-of-faerun--21/"
+      "book": "/rulebooks/forgotten-realms-30--6/monster-compendium-monsters-of-faerun--21/"
     },
     {
       "id": "74",
@@ -637,8 +635,7 @@
       "name": "Black Blood Hunter",
       "link": "/classes/players-guide-to-faerun--22/black-blood-hunter/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "81",
@@ -925,8 +922,7 @@
       "name": "Celebrant of Sharess",
       "link": "/classes/players-guide-to-faerun--22/celebrant-of-sharess/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "117",
@@ -1101,8 +1097,7 @@
       "name": "Cognition Thief",
       "link": "/classes/players-guide-to-faerun--22/cognition-thief/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "139",
@@ -1645,8 +1640,7 @@
       "name": "Divine Champion",
       "link": "/classes/players-guide-to-faerun--22/divine-champion/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "207",
@@ -1669,8 +1663,7 @@
       "name": "Divine Disciple",
       "link": "/classes/players-guide-to-faerun--22/divine-disciple/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "210",
@@ -1725,8 +1718,7 @@
       "name": "Divine Seeker",
       "link": "/classes/players-guide-to-faerun--22/divine-seeker/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "217",
@@ -1763,7 +1755,7 @@
     {
       "id": "221",
       "name": "Doomlord",
-      "link": "/classes/planar-handbook--79/doomlord/ ",
+      "link": "/classes/planar-handbook--79/doomlord/",
       "isPrestige": "true",
       "book": "Planar Handbook",
       "bookLink": "/rulebooks/supplementals-35--5/planar-handbook--79/"
@@ -2589,8 +2581,7 @@
       "name": "Evereskan Tomb Guardian",
       "link": "/classes/players-guide-to-faerun--22/evereskan-tomb-guardian/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "325",
@@ -2693,8 +2684,7 @@
       "name": "Eye of Horus-re",
       "link": "/classes/players-guide-to-faerun--22/eye-of-horus-re/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "338",
@@ -3301,8 +3291,7 @@
       "name": "Hammer of Moradin",
       "link": "/classes/players-guide-to-faerun--22/hammer-of-moradin/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "414",
@@ -3325,8 +3314,7 @@
       "name": "Harper Agent",
       "link": "/classes/players-guide-to-faerun--22/harper-agent/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "417",
@@ -3341,8 +3329,7 @@
       "name": "Harper Paragon",
       "link": "/classes/players-guide-to-faerun--22/harper-paragon/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "419",
@@ -3373,8 +3360,7 @@
       "name": "Hathran",
       "link": "/classes/players-guide-to-faerun--22/hathran/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "423",
@@ -3725,8 +3711,7 @@
       "name": "Incantatrix",
       "link": "/classes/players-guide-to-faerun--22/incantatrix/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "467",
@@ -3877,8 +3862,7 @@
       "name": "Justiciar of Tyr",
       "link": "/classes/players-guide-to-faerun--22/justiciar-of-tyr/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "486",
@@ -4317,8 +4301,7 @@
       "name": "Maiden of Pain",
       "link": "/classes/players-guide-to-faerun--22/maiden-of-pain/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "541",
@@ -4357,8 +4340,7 @@
       "name": "Martyred Champion of Ilmater",
       "link": "/classes/players-guide-to-faerun--22/martyred-champion-of-ilmater/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "546",
@@ -4621,8 +4603,7 @@
       "name": "Monk of the Long Death",
       "link": "/classes/players-guide-to-faerun--22/monk-of-the-long-death/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "579",
@@ -4677,8 +4658,7 @@
       "name": "Morninglord of Lathander",
       "link": "/classes/players-guide-to-faerun--22/morninglord-of-lathander/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "586",
@@ -5179,7 +5159,7 @@
     {
       "id": "648",
       "name": "Planar Ranger",
-      "link": "/classes/unearthed-arcana--90/planar-ranger/ ",
+      "link": "/classes/unearthed-arcana--90/planar-ranger/",
       "isPrestige": "false",
       "book": "Unearthed Arcana",
       "bookLink": "/rulebooks/supplementals-35--5/unearthed-arcana--90/"
@@ -5341,8 +5321,7 @@
       "name": "Purple Dragon Knight",
       "link": "/classes/players-guide-to-faerun--22/purple-dragon-knight/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "669",
@@ -5661,8 +5640,7 @@
       "name": "Runecaster",
       "link": "/classes/players-guide-to-faerun--22/runecaster/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "709",
@@ -5941,8 +5919,7 @@
       "name": "Shaaryan Hunter",
       "link": "/classes/players-guide-to-faerun--22/shaaryan-hunter/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "744",
@@ -5965,8 +5942,7 @@
       "name": "Shadow Adept",
       "link": "/classes/players-guide-to-faerun--22/shadow-adept/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "747",
@@ -6013,8 +5989,7 @@
       "name": "Shadow Thief of Amn",
       "link": "/classes/players-guide-to-faerun--22/shadow-thief-of-amn/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "753",
@@ -6293,8 +6268,7 @@
       "name": "Slime Lord",
       "link": "/classes/players-guide-to-faerun--22/slime-lord/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "788",
@@ -6469,8 +6443,7 @@
       "name": "Spellguard of Silverymoon",
       "link": "/classes/players-guide-to-faerun--22/spellguard-of-silverymoon/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "810",
@@ -7885,8 +7858,7 @@
       "name": "Yathrinshee",
       "link": "/classes/players-guide-to-faerun--22/yathrinshee/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     },
     {
       "id": "987",
@@ -7917,8 +7889,7 @@
       "name": "Zhentarim Spy",
       "link": "/classes/players-guide-to-faerun--22/zhentarim-spy/",
       "isPrestige": "true",
-      "book": "",
-      "bookLink": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
+      "book": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/"
     }
   ],
   "editions": [
@@ -9525,11 +9496,10 @@
     },
     {
       "id": "223",
-      "name": "Bind Vestige",
-      "link": "Improved",
-      "book": "/feats/tome-of-magic--89/bind-vestige-improved--208/",
-      "bookLink": "Tome of Magic",
-      "undefined": "/rulebooks/supplementals-35--5/tome-of-magic--89/"
+      "name": "Bind Vestige Improved",
+      "link": "/feats/tome-of-magic--89/bind-vestige-improved--208/",
+      "book": "Tome of Magic",
+      "bookLink": "/rulebooks/supplementals-35--5/tome-of-magic--89/"
     },
     {
       "id": "224",
@@ -9673,19 +9643,17 @@
     },
     {
       "id": "244",
-      "name": "Blindsight",
-      "link": "5-foot Radius",
-      "book": "/feats/sword-and-fist-a-guidebook-to-monks-and-fighters--50/blindsight-5-foot-radius--228/",
-      "bookLink": "Sword and Fist: A Guidebook to Monks and Fighters",
-      "undefined": "/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/"
+      "name": "Blindsight 5-foot Radius",
+      "link": "/feats/sword-and-fist-a-guidebook-to-monks-and-fighters--50/blindsight-5-foot-radius--228/",
+      "book": "Sword and Fist: A Guidebook to Monks and Fighters",
+      "bookLink": "/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/"
     },
     {
       "id": "245",
-      "name": "Blindsight",
-      "link": "5-ft. Radius",
-      "book": "/feats/deities-and-demigods--39/blindsight-5-ft-radius--3588/",
-      "bookLink": "Deities and Demigods",
-      "undefined": "/rulebooks/supplementals-30--7/deities-and-demigods--39/"
+      "name": "Blindsight 5-ft. Radius",
+      "link": "/feats/deities-and-demigods--39/blindsight-5-ft-radius--3588/",
+      "book": "Deities and Demigods",
+      "bookLink": "/rulebooks/supplementals-30--7/deities-and-demigods--39/"
     },
     {
       "id": "246",
@@ -14463,11 +14431,10 @@
     },
     {
       "id": "928",
-      "name": "Elan Resistance",
-      "link": "Enhanced",
-      "book": "/feats/complete-psionic--59/elan-resistance-enhanced--816/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Elan Resistance Enhanced",
+      "link": "/feats/complete-psionic--59/elan-resistance-enhanced--816/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "929",
@@ -14958,10 +14925,6 @@
       "link": "/feats/complete-arcane--55/energy-substitution--880/",
       "book": "Complete Arcane",
       "bookLink": "/rulebooks/supplementals-35--5/complete-arcane--55/"
-    },
-    {
-      "id": "999",
-      "name": "<th>Feat name</th><th>Short description</th><th>Rulebook</th>"
     },
     {
       "id": "1000",
@@ -19263,11 +19226,10 @@
     },
     {
       "id": "1614",
-      "name": "Hostile Mind",
-      "link": "Improved",
-      "book": "/feats/complete-psionic--59/hostile-mind-improved--1411/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Hostile Mind Improved",
+      "link": "/feats/complete-psionic--59/hostile-mind-improved--1411/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "1615",
@@ -19439,11 +19401,10 @@
     },
     {
       "id": "1639",
-      "name": "Illithid Legacy",
-      "link": "Greater",
-      "book": "/feats/complete-psionic--59/illithid-legacy-greater--3268/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Illithid Legacy Greater",
+      "link": "/feats/complete-psionic--59/illithid-legacy-greater--3268/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "1640",
@@ -21966,10 +21927,6 @@
       "bookLink": "/rulebooks/supplementals-35--5/weapons-of-legacy--91/"
     },
     {
-      "id": "2000",
-      "name": "<th>Feat name</th><th>Short description</th><th>Rulebook</th>"
-    },
-    {
       "id": "2001",
       "name": "Lesser Legacy",
       "link": "/feats/expedition-to-the-demonweb-pits--99/lesser-legacy--3760/",
@@ -22356,19 +22313,17 @@
     },
     {
       "id": "2056",
-      "name": "Lurk Augment",
-      "link": "Extra",
-      "book": "/feats/complete-psionic--59/lurk-augment-extra--1805/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Lurk Augment Extra",
+      "link": "/feats/complete-psionic--59/lurk-augment-extra--1805/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "2057",
-      "name": "Lurk Augment",
-      "link": "Ranged",
-      "book": "/feats/complete-psionic--59/lurk-augment-ranged--1806/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Lurk Augment Ranged",
+      "link": "/feats/complete-psionic--59/lurk-augment-ranged--1806/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "2058",
@@ -23520,11 +23475,10 @@
     },
     {
       "id": "2222",
-      "name": "Mind Strike",
-      "link": "Swift",
-      "book": "/feats/complete-psionic--59/mind-strike-swift--1957/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Mind Strike Swift",
+      "link": "/feats/complete-psionic--59/mind-strike-swift--1957/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "2223",
@@ -24313,7 +24267,7 @@
     {
       "id": "2335",
       "name": "Nocturnal Caster",
-      "link": "/feats/tome-of-magic--89/nocturnal-caster--2062/ ",
+      "link": "/feats/tome-of-magic--89/nocturnal-caster--2062/",
       "book": "Tome of Magic",
       "bookLink": "/rulebooks/supplementals-35--5/tome-of-magic--89/"
     },
@@ -28973,10 +28927,6 @@
       "bookLink": "/rulebooks/supplementals-35--5/unearthed-arcana--90/"
     },
     {
-      "id": "3001",
-      "name": "<th>Feat name</th><th>Short description</th><th>Rulebook</th>"
-    },
-    {
       "id": "3002",
       "name": "Slow (trait)",
       "link": "/feats/unearthed-arcana--90/slow-trait--2649/",
@@ -30784,11 +30734,10 @@
     },
     {
       "id": "3260",
-      "name": "Synad Multitask",
-      "link": "Enhanced",
-      "book": "/feats/complete-psionic--59/synad-multitask-enhanced--2877/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Synad Multitask Enhanced",
+      "link": "/feats/complete-psionic--59/synad-multitask-enhanced--2877/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "3261",
@@ -32228,7 +32177,7 @@
     {
       "id": "3466",
       "name": "Versatile Performer",
-      "link": "/feats/complete-adventurer--54/versatile-performer--3056/ ",
+      "link": "/feats/complete-adventurer--54/versatile-performer--3056/",
       "book": "Complete Adventurer",
       "bookLink": "/rulebooks/supplementals-35--5/complete-adventurer--54/"
     },
@@ -33179,11 +33128,10 @@
     },
     {
       "id": "3602",
-      "name": "Xeph Burst",
-      "link": "Extra",
-      "book": "/feats/complete-psionic--59/xeph-burst-extra--3175/",
-      "bookLink": "Complete Psionic",
-      "undefined": "/rulebooks/supplementals-35--5/complete-psionic--59/"
+      "name": "Xeph Burst Extra",
+      "link": "/feats/complete-psionic--59/xeph-burst-extra--3175/",
+      "book": "Complete Psionic",
+      "bookLink": "/rulebooks/supplementals-35--5/complete-psionic--59/"
     },
     {
       "id": "3603",
@@ -33420,8 +33368,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "2",
@@ -33430,8 +33377,7 @@
       "book": "Book of Exalted Deeds",
       "bookLink": "/rulebooks/supplementals-35--5/book-of-exalted-deeds--52/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "3",
@@ -33440,8 +33386,7 @@
       "book": "Dragon Compendium",
       "bookLink": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "4",
@@ -33450,8 +33395,7 @@
       "book": "Dragon Compendium",
       "bookLink": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "5",
@@ -33460,8 +33404,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "6",
@@ -33470,8 +33413,7 @@
       "book": "Monster Manual v.3.5",
       "bookLink": "/rulebooks/core-35--1/monster-manual-v35--5/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "7",
@@ -33480,8 +33422,7 @@
       "book": "Dragon Compendium",
       "bookLink": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "8",
@@ -33490,8 +33431,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "9",
@@ -33500,8 +33440,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "10",
@@ -33510,8 +33449,7 @@
       "book": "Races of Stone",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-stone--82/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "11",
@@ -33520,8 +33458,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "12",
@@ -33530,8 +33467,7 @@
       "book": "Races of Stone",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-stone--82/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "13",
@@ -33540,8 +33476,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "14",
@@ -33550,8 +33485,7 @@
       "book": "Forgotten Realms Campaign Setting",
       "bookLink": "/rulebooks/forgotten-realms-30--6/forgotten-realms-campaign-setting--19/",
       "edition": "Forgotten Realms (3.0)",
-      "editionLink": "/rulebooks/forgotten-realms-30--6/",
-      "undefined": ""
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "15",
@@ -33560,8 +33494,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "16",
@@ -33570,8 +33503,7 @@
       "book": "Savage Species",
       "bookLink": "/rulebooks/supplementals-30--7/savage-species--47/",
       "edition": "Supplementals (3.0)",
-      "editionLink": "/rulebooks/supplementals-30--7/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "17",
@@ -33580,8 +33512,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "18",
@@ -33590,8 +33521,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "19",
@@ -33600,8 +33530,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "20",
@@ -33610,8 +33539,7 @@
       "book": "Player&#39;s Handbook v.3.5",
       "bookLink": "/rulebooks/core-35--1/players-handbook-v35--6/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "21",
@@ -33620,8 +33548,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "22",
@@ -33630,8 +33557,7 @@
       "book": "Book of Vile Darkness",
       "bookLink": "/rulebooks/supplementals-30--7/book-of-vile-darkness--37/",
       "edition": "Supplementals (3.0)",
-      "editionLink": "/rulebooks/supplementals-30--7/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "23",
@@ -33640,8 +33566,7 @@
       "book": "Races of Eberron",
       "bookLink": "/rulebooks/eberron-35--3/races-of-eberron--10/",
       "edition": "Eberron (3.5)",
-      "editionLink": "/rulebooks/eberron-35--3/",
-      "undefined": ""
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "24",
@@ -33650,8 +33575,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "25",
@@ -33660,8 +33584,7 @@
       "book": "Underdark",
       "bookLink": "/rulebooks/forgotten-realms-35--4/underdark--34/",
       "edition": "Forgotten Realms (3.5)",
-      "editionLink": "/rulebooks/forgotten-realms-35--4/",
-      "undefined": ""
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "26",
@@ -33670,8 +33593,7 @@
       "book": "Dragon Compendium",
       "bookLink": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "27",
@@ -33680,8 +33602,7 @@
       "book": "Monster Manual v.3.5",
       "bookLink": "/rulebooks/core-35--1/monster-manual-v35--5/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "28",
@@ -33690,8 +33611,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "29",
@@ -33700,8 +33620,7 @@
       "book": "Monster Manual v.3.5",
       "bookLink": "/rulebooks/core-35--1/monster-manual-v35--5/",
       "edition": "Core (3.5)",
-      "editionLink": "/rulebooks/core-35--1/",
-      "undefined": ""
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "30",
@@ -33710,8 +33629,7 @@
       "book": "Savage Species",
       "bookLink": "/rulebooks/supplementals-30--7/savage-species--47/",
       "edition": "Supplementals (3.0)",
-      "editionLink": "/rulebooks/supplementals-30--7/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "31",
@@ -33720,8 +33638,7 @@
       "book": "Races of the Wild",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-the-wild--84/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "32",
@@ -33730,8 +33647,7 @@
       "book": "Magic of Incarnum",
       "bookLink": "/rulebooks/supplementals-35--5/magic-of-incarnum--74/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "33",
@@ -33740,8 +33656,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "34",
@@ -33750,8 +33665,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "35",
@@ -33760,8 +33674,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "36",
@@ -33770,8 +33683,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "37",
@@ -33780,8 +33692,7 @@
       "book": "Dragon Compendium",
       "bookLink": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "38",
@@ -33790,8 +33701,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "39",
@@ -33800,8 +33710,7 @@
       "book": "Races of Destiny",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "40",
@@ -33810,8 +33719,7 @@
       "book": "Oriental Adventures",
       "bookLink": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
       "edition": "Oriental Adventures (3.0)",
-      "editionLink": "/rulebooks/oriental-adventures--8/",
-      "undefined": ""
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "41",
@@ -33820,8 +33728,7 @@
       "book": "Book of Vile Darkness",
       "bookLink": "/rulebooks/supplementals-30--7/book-of-vile-darkness--37/",
       "edition": "Supplementals (3.0)",
-      "editionLink": "/rulebooks/supplementals-30--7/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "42",
@@ -33830,759 +33737,765 @@
       "book": "Races of Stone",
       "bookLink": "/rulebooks/supplementals-35--5/races-of-stone--82/",
       "edition": "Supplementals (3.5)",
-      "editionLink": "/rulebooks/supplementals-35--5/",
-      "undefined": ""
+      "editionLink": "/rulebooks/supplementals-35--5/"
     }
   ],
   "rulebooks": [
     {
       "id": "1",
-      "spanishName": "",
-      "name": "Book of Challenges: Dungeon Rooms Puzzles and Traps",
-      "link": "/rulebooks/supplementals-30--7/book-of-challenges-dungeon-rooms-puzzles-and-traps--36/",
-      "edition": "1"
+      "name": "Arms and Equipment Guide",
+      "link": "/rulebooks/supplementals-30--7/arms-and-equipment-guide--35/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "2",
-      "spanishName": "Libro de Obras Elevadas",
-      "name": "Book of Exalted Deeds",
-      "link": "/rulebooks/supplementals-35--5/book-of-exalted-deeds--52/",
-      "edition": "2"
+      "name": "Book of Challenges: Dungeon Rooms Puzzles and Traps",
+      "link": "/rulebooks/supplementals-30--7/book-of-challenges-dungeon-rooms-puzzles-and-traps--36/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "3",
-      "spanishName": "",
-      "name": "Book of Vile Darkness",
-      "link": "/rulebooks/supplementals-30--7/book-of-vile-darkness--37/",
-      "edition": "1"
+      "name": "Book of Exalted Deeds",
+      "link": "/rulebooks/supplementals-35--5/book-of-exalted-deeds--52/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "4",
-      "spanishName": "",
-      "name": "Champions of Ruin",
-      "link": "/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/",
-      "edition": "3"
+      "name": "Book of Vile Darkness",
+      "link": "/rulebooks/supplementals-30--7/book-of-vile-darkness--37/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "5",
-      "spanishName": "",
-      "name": "Champions of Valor",
-      "link": "/rulebooks/forgotten-realms-35--4/champions-of-valor--28/",
-      "edition": "3"
+      "name": "Champions of Ruin",
+      "link": "/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "6",
-      "spanishName": "",
-      "name": "City of Splendors: Waterdeep",
-      "link": "/rulebooks/forgotten-realms-35--4/city-of-splendors-waterdeep--16/",
-      "edition": "3"
+      "name": "Champions of Valor",
+      "link": "/rulebooks/forgotten-realms-35--4/champions-of-valor--28/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "7",
-      "spanishName": "Entornos urbanos",
-      "name": "CityScape",
-      "link": "/rulebooks/supplementals-35--5/cityscape--53/",
-      "edition": "2"
+      "name": "City of Splendors: Waterdeep",
+      "link": "/rulebooks/forgotten-realms-35--4/city-of-splendors-waterdeep--16/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "8",
-      "spanishName": "El Aventurero completo",
-      "name": "Complete Adventurer",
-      "link": "/rulebooks/supplementals-35--5/complete-adventurer--54/",
-      "edition": "2"
+      "name": "CityScape",
+      "link": "/rulebooks/supplementals-35--5/cityscape--53/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "9",
-      "spanishName": "El Arcano completo",
-      "name": "Complete Arcane",
-      "link": "/rulebooks/supplementals-35--5/complete-arcane--55/",
-      "edition": "2"
+      "name": "Complete Adventurer",
+      "link": "/rulebooks/supplementals-35--5/complete-adventurer--54/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "10",
-      "spanishName": "",
-      "name": "Complete Champion",
-      "link": "/rulebooks/supplementals-35--5/complete-champion--57/",
-      "edition": "2"
+      "name": "Complete Arcane",
+      "link": "/rulebooks/supplementals-35--5/complete-arcane--55/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "11",
-      "spanishName": "El Divino completo",
-      "name": "Complete Divine",
-      "link": "/rulebooks/supplementals-35--5/complete-divine--56/",
-      "edition": "2"
+      "name": "Complete Champion",
+      "link": "/rulebooks/supplementals-35--5/complete-champion--57/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "12",
-      "spanishName": "",
-      "name": "Complete Mage",
-      "link": "/rulebooks/supplementals-35--5/complete-mage--58/",
-      "edition": "2"
+      "name": "Complete Divine",
+      "link": "/rulebooks/supplementals-35--5/complete-divine--56/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "13",
-      "spanishName": "",
-      "name": "Complete Psionic",
-      "link": "/rulebooks/supplementals-35--5/complete-psionic--59/",
-      "edition": "2"
+      "name": "Complete Mage",
+      "link": "/rulebooks/supplementals-35--5/complete-mage--58/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "14",
-      "spanishName": "",
-      "name": "Complete Scoundrel",
-      "link": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "edition": "2"
+      "name": "Complete Psionic",
+      "link": "/rulebooks/supplementals-35--5/complete-psionic--59/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "15",
-      "spanishName": "El Combatente completo",
-      "name": "Complete Warrior",
-      "link": "/rulebooks/supplementals-35--5/complete-warrior--61/",
-      "edition": "2"
+      "name": "Complete Scoundrel",
+      "link": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "16",
-      "spanishName": "",
-      "name": "Defenders of the Faith: A Guidebook to Clerics and Paladins",
-      "link": "/rulebooks/supplementals-30--7/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins--38/",
-      "edition": "1"
+      "name": "Complete Warrior",
+      "link": "/rulebooks/supplementals-35--5/complete-warrior--61/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "17",
-      "spanishName": "",
-      "name": "Deities and Demigods",
-      "link": "/rulebooks/supplementals-30--7/deities-and-demigods--39/",
-      "edition": "1"
+      "name": "Defenders of the Faith: A Guidebook to Clerics and Paladins",
+      "link": "/rulebooks/supplementals-30--7/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins--38/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "18",
-      "spanishName": "",
-      "name": "Draconomicon",
-      "link": "/rulebooks/supplementals-35--5/draconomicon--92/",
-      "edition": "2"
+      "name": "Deities and Demigods",
+      "link": "/rulebooks/supplementals-30--7/deities-and-demigods--39/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "19",
-      "spanishName": "",
-      "name": "Dragon Compendium",
-      "link": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
-      "edition": "2"
+      "name": "Draconomicon",
+      "link": "/rulebooks/supplementals-35--5/draconomicon--92/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "20",
-      "spanishName": "",
-      "name": "Dragon Magic",
-      "link": "/rulebooks/supplementals-35--5/dragon-magic--62/",
-      "edition": "2"
+      "name": "Dragon Compendium",
+      "link": "/rulebooks/supplementals-35--5/dragon-compendium--109/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "21",
-      "spanishName": "",
-      "name": "Dragonlance Campaign Setting",
-      "link": "/rulebooks/dragonlance--9/dragonlance-campaign-setting--98/",
-      "edition": "4"
+      "name": "Dragon Magic",
+      "link": "/rulebooks/supplementals-35--5/dragon-magic--62/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "22",
-      "spanishName": "",
-      "name": "Dragonmarked",
-      "link": "/rulebooks/eberron-35--3/dragonmarked--7/",
-      "edition": "5"
+      "name": "Dragonlance Campaign Setting",
+      "link": "/rulebooks/dragonlance--9/dragonlance-campaign-setting--98/",
+      "edition": "Dragonlance (3.5)",
+      "editionLink": "/rulebooks/dragonlance--9/"
     },
     {
       "id": "23",
-      "spanishName": "",
-      "name": "Dragons of Ebberon",
-      "link": "/rulebooks/eberron-35--3/dragons-ebberon--112/",
-      "edition": "5"
+      "name": "Dragonmarked",
+      "link": "/rulebooks/eberron-35--3/dragonmarked--7/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "24",
-      "spanishName": "",
-      "name": "Dragons of Faerun",
-      "link": "/rulebooks/forgotten-realms-35--4/dragons-of-faerun--26/",
-      "edition": "3"
+      "name": "Dragons of Ebberon",
+      "link": "/rulebooks/eberron-35--3/dragons-ebberon--112/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "25",
-      "spanishName": "",
-      "name": "Drow of the Underdark",
-      "link": "/rulebooks/supplementals-35--5/drow-of-the-underdark--93/",
-      "edition": "2"
+      "name": "Dragons of Faerun",
+      "link": "/rulebooks/forgotten-realms-35--4/dragons-of-faerun--26/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "26",
-      "spanishName": "",
-      "name": "Dungeon Master&#39;s Guide II",
-      "link": "/rulebooks/supplementals-35--5/dungeon-masters-guide-ii--40/",
-      "edition": "2"
+      "name": "Drow of the Underdark",
+      "link": "/rulebooks/supplementals-35--5/drow-of-the-underdark--93/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "27",
-      "spanishName": "",
-      "name": "Dungeon Master&#39;s Guide v.3.5",
-      "link": "/rulebooks/core-35--1/dungeon-masters-guide-v35--4/",
-      "edition": "6"
+      "name": "Dungeon Master&#39;s Guide II",
+      "link": "/rulebooks/supplementals-35--5/dungeon-masters-guide-ii--40/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "28",
-      "spanishName": "",
-      "name": "Dungeonscape",
-      "link": "/rulebooks/supplementals-35--5/dungeonscape--63/",
-      "edition": "2"
+      "name": "Dungeon Master&#39;s Guide v.3.5",
+      "link": "/rulebooks/core-35--1/dungeon-masters-guide-v35--4/",
+      "edition": "Core (3.5)",
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "29",
-      "spanishName": "",
-      "name": "Eberron Campaign Setting",
-      "link": "/rulebooks/eberron-35--3/eberron-campaign-setting--12/",
-      "edition": "5"
+      "name": "Dungeonscape",
+      "link": "/rulebooks/supplementals-35--5/dungeonscape--63/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "30",
-      "spanishName": "",
-      "name": "Elder Evils",
-      "link": "/rulebooks/supplementals-35--5/elder-evils--110/",
-      "edition": "2"
+      "name": "Eberron Campaign Setting",
+      "link": "/rulebooks/eberron-35--3/eberron-campaign-setting--12/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "31",
-      "spanishName": "",
-      "name": "Enemies and Allies",
-      "link": "/rulebooks/supplementals-30--7/enemies-and-allies--17/",
-      "edition": "1"
+      "name": "Elder Evils",
+      "link": "/rulebooks/supplementals-35--5/elder-evils--110/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "32",
-      "spanishName": "",
-      "name": "Epic Level Handbook",
-      "link": "/rulebooks/supplementals-30--7/epic-level-handbook--41/",
-      "edition": "1"
+      "name": "Enemies and Allies",
+      "link": "/rulebooks/supplementals-30--7/enemies-and-allies--17/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "33",
-      "spanishName": "",
-      "name": "Exemplars of Evil",
-      "link": "/rulebooks/supplementals-35--5/exemplars-of-evil--64/",
-      "edition": "2"
+      "name": "Epic Level Handbook",
+      "link": "/rulebooks/supplementals-30--7/epic-level-handbook--41/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "34",
-      "spanishName": "",
-      "name": "Expanded Psionics Handbook",
-      "link": "/rulebooks/supplementals-35--5/expanded-psionics-handbook--65/",
-      "edition": "2"
+      "name": "Exemplars of Evil",
+      "link": "/rulebooks/supplementals-35--5/exemplars-of-evil--64/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "35",
-      "spanishName": "",
-      "name": "Expedition to Castle Ravenloft",
-      "link": "/rulebooks/supplementals-35--5/expedition-to-castle-ravenloft--102/",
-      "edition": "2"
+      "name": "Expanded Psionics Handbook",
+      "link": "/rulebooks/supplementals-35--5/expanded-psionics-handbook--65/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "36",
-      "spanishName": "",
-      "name": "Expedition to the Demonweb Pits",
-      "link": "/rulebooks/supplementals-35--5/expedition-to-the-demonweb-pits--99/",
-      "edition": "2"
+      "name": "Expedition to Castle Ravenloft",
+      "link": "/rulebooks/supplementals-35--5/expedition-to-castle-ravenloft--102/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "37",
-      "spanishName": "",
-      "name": "Explorer&#39;s Handbook",
-      "link": "/rulebooks/eberron-35--3/explorers-handbook--100/",
-      "edition": "5"
+      "name": "Expedition to the Demonweb Pits",
+      "link": "/rulebooks/supplementals-35--5/expedition-to-the-demonweb-pits--99/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "38",
-      "spanishName": "",
-      "name": "Eyes of the Lich Queen",
-      "link": "/rulebooks/eberron-35--3/eyes-lich-queen--113/",
-      "edition": "5"
+      "name": "Explorer&#39;s Handbook",
+      "link": "/rulebooks/eberron-35--3/explorers-handbook--100/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "39",
-      "spanishName": "",
-      "name": "Faiths &amp; Pantheons",
-      "link": "/rulebooks/forgotten-realms-30--6/faiths-pantheons--18/",
-      "edition": "7"
+      "name": "Eyes of the Lich Queen",
+      "link": "/rulebooks/eberron-35--3/eyes-lich-queen--113/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "40",
-      "spanishName": "",
-      "name": "Faiths of Eberron",
-      "link": "/rulebooks/eberron-35--3/faiths-of-eberron--8/",
-      "edition": "5"
+      "name": "Faiths &amp; Pantheons",
+      "link": "/rulebooks/forgotten-realms-30--6/faiths-pantheons--18/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "41",
-      "spanishName": "",
-      "name": "Feats",
-      "link": "/rulebooks/supplementals-30--7/feats--111/",
-      "edition": "1"
+      "name": "Faiths of Eberron",
+      "link": "/rulebooks/eberron-35--3/faiths-of-eberron--8/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "42",
-      "spanishName": "",
-      "name": "Fiend Folio",
-      "link": "/rulebooks/supplementals-30--7/fiend-folio--42/",
-      "edition": "1"
+      "name": "Feats",
+      "link": "/rulebooks/supplementals-30--7/feats--111/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "43",
-      "spanishName": "",
-      "name": "Fiendish Codex I: Hordes of the Abyss",
-      "link": "/rulebooks/supplementals-35--5/fiendish-codex-i-hordes-of-the-abyss--66/",
-      "edition": "2"
+      "name": "Fiend Folio",
+      "link": "/rulebooks/supplementals-30--7/fiend-folio--42/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "44",
-      "spanishName": "",
-      "name": "Fiendish Codex II: Tyrants of the Nine Hells",
-      "link": "/rulebooks/supplementals-35--5/fiendish-codex-ii-tyrants-of-the-nine-hells--67/",
-      "edition": "2"
+      "name": "Fiendish Codex I: Hordes of the Abyss",
+      "link": "/rulebooks/supplementals-35--5/fiendish-codex-i-hordes-of-the-abyss--66/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "45",
-      "spanishName": "",
-      "name": "Five Nations",
-      "link": "/rulebooks/eberron-35--3/five-nations--101/",
-      "edition": "5"
+      "name": "Fiendish Codex II: Tyrants of the Nine Hells",
+      "link": "/rulebooks/supplementals-35--5/fiendish-codex-ii-tyrants-of-the-nine-hells--67/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "46",
-      "spanishName": "",
-      "name": "Forgotten Realms Campaign Setting",
-      "link": "/rulebooks/forgotten-realms-30--6/forgotten-realms-campaign-setting--19/",
-      "edition": "7"
+      "name": "Five Nations",
+      "link": "/rulebooks/eberron-35--3/five-nations--101/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "47",
-      "spanishName": "",
-      "name": "Frostburn",
-      "link": "/rulebooks/supplementals-35--5/frostburn--68/",
-      "edition": "2"
+      "name": "Forgotten Realms Campaign Setting",
+      "link": "/rulebooks/forgotten-realms-30--6/forgotten-realms-campaign-setting--19/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "48",
-      "spanishName": "",
-      "name": "Ghostwalk",
-      "link": "/rulebooks/supplementals-30--7/ghostwalk--94/",
-      "edition": "1"
+      "name": "Frostburn",
+      "link": "/rulebooks/supplementals-35--5/frostburn--68/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "49",
-      "spanishName": "",
-      "name": "Heroes of Battle",
-      "link": "/rulebooks/supplementals-35--5/heroes-of-battle--69/",
-      "edition": "2"
+      "name": "Ghostwalk",
+      "link": "/rulebooks/supplementals-30--7/ghostwalk--94/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "50",
-      "spanishName": "",
-      "name": "Heroes of Horror",
-      "link": "/rulebooks/supplementals-35--5/heroes-of-horror--70/",
-      "edition": "2"
+      "name": "Heroes of Battle",
+      "link": "/rulebooks/supplementals-35--5/heroes-of-battle--69/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "51",
-      "spanishName": "",
-      "name": "Libris Mortis: The Book of the Dead",
-      "link": "/rulebooks/supplementals-35--5/libris-mortis-the-book-of-the-dead--71/",
-      "edition": "2"
+      "name": "Heroes of Horror",
+      "link": "/rulebooks/supplementals-35--5/heroes-of-horror--70/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "52",
-      "spanishName": "",
-      "name": "Lords of Darkness",
-      "link": "/rulebooks/forgotten-realms-30--6/lords-of-darkness--95/",
-      "edition": "7"
+      "name": "Libris Mortis: The Book of the Dead",
+      "link": "/rulebooks/supplementals-35--5/libris-mortis-the-book-of-the-dead--71/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "53",
-      "spanishName": "",
-      "name": "Lords of Madness",
-      "link": "/rulebooks/supplementals-35--5/lords-of-madness--72/",
-      "edition": "2"
+      "name": "Lords of Darkness",
+      "link": "/rulebooks/forgotten-realms-30--6/lords-of-darkness--95/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "54",
-      "spanishName": "",
-      "name": "Lost Empires of Faerun",
-      "link": "/rulebooks/forgotten-realms-35--4/lost-empires-of-faerun--30/",
-      "edition": "3"
+      "name": "Lords of Madness",
+      "link": "/rulebooks/supplementals-35--5/lords-of-madness--72/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "55",
-      "spanishName": "Compendio de objetos magicos",
-      "name": "Magic Item Compendium",
-      "link": "/rulebooks/supplementals-35--5/magic-item-compendium--73/",
-      "edition": "2"
+      "name": "Lost Empires of Faerun",
+      "link": "/rulebooks/forgotten-realms-35--4/lost-empires-of-faerun--30/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "56",
-      "spanishName": "",
-      "name": "Magic of Eberron",
-      "link": "/rulebooks/eberron-35--3/magic-of-eberron--9/",
-      "edition": "5"
+      "name": "Magic Item Compendium",
+      "link": "/rulebooks/supplementals-35--5/magic-item-compendium--73/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "57",
-      "spanishName": "",
-      "name": "Magic of Faerun",
-      "link": "/rulebooks/forgotten-realms-30--6/magic-of-faerun--20/",
-      "edition": "7"
+      "name": "Magic of Eberron",
+      "link": "/rulebooks/eberron-35--3/magic-of-eberron--9/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "58",
-      "spanishName": "",
-      "name": "Magic of Incarnum",
-      "link": "/rulebooks/supplementals-35--5/magic-of-incarnum--74/",
-      "edition": "2"
+      "name": "Magic of Faerun",
+      "link": "/rulebooks/forgotten-realms-30--6/magic-of-faerun--20/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "59",
-      "spanishName": "",
-      "name": "Manual of the Planes",
-      "link": "/rulebooks/supplementals-30--7/manual-of-the-planes--43/",
-      "edition": "1"
+      "name": "Magic of Incarnum",
+      "link": "/rulebooks/supplementals-35--5/magic-of-incarnum--74/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "60",
-      "spanishName": "",
-      "name": "Masters of the Wild: A Guidebook to Barbarians Druids and Rangers",
-      "link": "/rulebooks/supplementals-30--7/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/",
-      "edition": "1"
+      "name": "Manual of the Planes",
+      "link": "/rulebooks/supplementals-30--7/manual-of-the-planes--43/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "61",
-      "spanishName": "",
-      "name": "Miniatures Handbook",
-      "link": "/rulebooks/supplementals-35--5/miniatures-handbook--75/",
-      "edition": "2"
+      "name": "Masters of the Wild: A Guidebook to Barbarians Druids and Rangers",
+      "link": "/rulebooks/supplementals-30--7/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "62",
-      "spanishName": "Manual de monstruos",
-      "name": "Monster Manual",
-      "link": "/rulebooks/core-35--1/monster-manual--107/",
-      "edition": "6"
+      "name": "Miniatures Handbook",
+      "link": "/rulebooks/supplementals-35--5/miniatures-handbook--75/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "63",
-      "spanishName": "Manual de monstruos II",
-      "name": "Monster Manual II",
-      "link": "/rulebooks/supplementals-35--5/monster-manual-ii--45/",
-      "edition": "2"
+      "name": "Monster Manual",
+      "link": "/rulebooks/core-35--1/monster-manual--107/",
+      "edition": "Core (3.5)",
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "64",
-      "spanishName": "Manual de monstruos III",
-      "name": "Monster Manual III",
-      "link": "/rulebooks/supplementals-35--5/monster-manual-iii--76/",
-      "edition": "2"
+      "name": "Monster Manual II",
+      "link": "/rulebooks/supplementals-35--5/monster-manual-ii--45/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "65",
-      "spanishName": "Manual de monstruos IV",
-      "name": "Monster Manual IV",
-      "link": "/rulebooks/supplementals-35--5/monster-manual-iv--77/",
-      "edition": "2"
+      "name": "Monster Manual III",
+      "link": "/rulebooks/supplementals-35--5/monster-manual-iii--76/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "66",
-      "spanishName": "Manual de monstruos V",
-      "name": "Monster Manual V",
-      "link": "/rulebooks/supplementals-35--5/monster-manual-v--78/",
-      "edition": "2"
+      "name": "Monster Manual IV",
+      "link": "/rulebooks/supplementals-35--5/monster-manual-iv--77/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "67",
-      "spanishName": "",
-      "name": "Monster Manual v.3.5",
-      "link": "/rulebooks/core-35--1/monster-manual-v35--5/",
-      "edition": "6"
+      "name": "Monster Manual V",
+      "link": "/rulebooks/supplementals-35--5/monster-manual-v--78/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "68",
-      "spanishName": "",
-      "name": "Oriental Adventures",
-      "link": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
-      "edition": "8"
+      "name": "Monster Manual v.3.5",
+      "link": "/rulebooks/core-35--1/monster-manual-v35--5/",
+      "edition": "Core (3.5)",
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "69",
-      "spanishName": "",
-      "name": "Planar Handbook",
-      "link": "/rulebooks/supplementals-35--5/planar-handbook--79/",
-      "edition": "2"
+      "name": "Oriental Adventures",
+      "link": "/rulebooks/oriental-adventures--8/oriental-adventures--96/",
+      "edition": "Oriental Adventures (3.0)",
+      "editionLink": "/rulebooks/oriental-adventures--8/"
     },
     {
       "id": "70",
-      "spanishName": "",
-      "name": "Player&#39;s Guide to Eberron",
-      "link": "/rulebooks/eberron-35--3/players-guide-to-eberron--13/",
-      "edition": "5"
+      "name": "Planar Handbook",
+      "link": "/rulebooks/supplementals-35--5/planar-handbook--79/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "71",
-      "spanishName": "",
-      "name": "Player&#39;s Handbook 3.0",
-      "link": "/rulebooks/core-30--10/players-handbook-30--106/",
-      "edition": "9"
+      "name": "Player&#39;s Guide to Eberron",
+      "link": "/rulebooks/eberron-35--3/players-guide-to-eberron--13/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "72",
-      "spanishName": "Manual del jugador II",
-      "name": "Player&#39;s Handbook II",
-      "link": "/rulebooks/supplementals-35--5/players-handbook-ii--80/",
-      "edition": "2"
+      "name": "Player&#39;s Handbook 3.0",
+      "link": "/rulebooks/core-30--10/players-handbook-30--106/",
+      "edition": "Core (3.0)",
+      "editionLink": "/rulebooks/core-30--10/"
     },
     {
       "id": "73",
-      "spanishName": "Manual del jugador",
-      "name": "Player&#39;s Handbook v.3.5",
-      "link": "/rulebooks/core-35--1/players-handbook-v35--6/",
-      "edition": "6"
+      "name": "Player&#39;s Handbook II",
+      "link": "/rulebooks/supplementals-35--5/players-handbook-ii--80/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "74",
-      "spanishName": "",
-      "name": "Power of Faerun",
-      "link": "/rulebooks/forgotten-realms-35--4/power-of-faerun--31/",
-      "edition": "3"
+      "name": "Player&#39;s Handbook v.3.5",
+      "link": "/rulebooks/core-35--1/players-handbook-v35--6/",
+      "edition": "Core (3.5)",
+      "editionLink": "/rulebooks/core-35--1/"
     },
     {
       "id": "75",
-      "spanishName": "",
-      "name": "Psionics Handbook 3.0",
-      "link": "/rulebooks/supplementals-30--7/psionics-handbook-30--46/",
-      "edition": "1"
+      "name": "Power of Faerun",
+      "link": "/rulebooks/forgotten-realms-35--4/power-of-faerun--31/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "76",
-      "spanishName": "",
-      "name": "Races of Destiny",
-      "link": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
-      "edition": "2"
+      "name": "Psionics Handbook 3.0",
+      "link": "/rulebooks/supplementals-30--7/psionics-handbook-30--46/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "77",
-      "spanishName": "",
-      "name": "Races of Eberron",
-      "link": "/rulebooks/eberron-35--3/races-of-eberron--10/",
-      "edition": "5"
+      "name": "Races of Destiny",
+      "link": "/rulebooks/supplementals-35--5/races-of-destiny--81/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "78",
-      "spanishName": "",
-      "name": "Races of Faerun",
-      "link": "/rulebooks/forgotten-realms-30--6/races-of-faerun--23/",
-      "edition": "7"
+      "name": "Races of Eberron",
+      "link": "/rulebooks/eberron-35--3/races-of-eberron--10/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "79",
-      "spanishName": "",
-      "name": "Races of Stone",
-      "link": "/rulebooks/supplementals-35--5/races-of-stone--82/",
-      "edition": "2"
+      "name": "Races of Faerun",
+      "link": "/rulebooks/forgotten-realms-30--6/races-of-faerun--23/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "80",
-      "spanishName": "",
-      "name": "Races of the Dragon",
-      "link": "/rulebooks/supplementals-35--5/races-of-the-dragon--83/",
-      "edition": "2"
+      "name": "Races of Stone",
+      "link": "/rulebooks/supplementals-35--5/races-of-stone--82/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "81",
-      "spanishName": "",
-      "name": "Races of the Wild",
-      "link": "/rulebooks/supplementals-35--5/races-of-the-wild--84/",
-      "edition": "2"
+      "name": "Races of the Dragon",
+      "link": "/rulebooks/supplementals-35--5/races-of-the-dragon--83/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "82",
-      "spanishName": "",
-      "name": "Red Hand of Doom",
-      "link": "/rulebooks/supplementals-35--5/red-hand-doom--115/",
-      "edition": "2"
+      "name": "Races of the Wild",
+      "link": "/rulebooks/supplementals-35--5/races-of-the-wild--84/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "83",
-      "spanishName": "",
-      "name": "Return to the Temple of Elemental Evil",
-      "link": "/rulebooks/supplementals-30--7/return-to-the-temple-of-elemental-evil--103/",
-      "edition": "1"
+      "name": "Red Hand of Doom",
+      "link": "/rulebooks/supplementals-35--5/red-hand-doom--115/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "84",
-      "spanishName": "",
-      "name": "Sandstorm",
-      "link": "/rulebooks/supplementals-35--5/sandstorm--85/",
-      "edition": "2"
+      "name": "Return to the Temple of Elemental Evil",
+      "link": "/rulebooks/supplementals-30--7/return-to-the-temple-of-elemental-evil--103/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "85",
-      "spanishName": "",
-      "name": "Savage Species",
-      "link": "/rulebooks/supplementals-30--7/savage-species--47/",
-      "edition": "1"
+      "name": "Sandstorm",
+      "link": "/rulebooks/supplementals-35--5/sandstorm--85/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "86",
-      "spanishName": "",
-      "name": "Secrets of Sarlona",
-      "link": "/rulebooks/eberron-35--3/secrets-of-sarlona--14/",
-      "edition": "5"
+      "name": "Savage Species",
+      "link": "/rulebooks/supplementals-30--7/savage-species--47/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "87",
-      "spanishName": "",
-      "name": "Secrets of Xen&#39;drik",
-      "link": "/rulebooks/eberron-35--3/secrets-of-xendrik--15/",
-      "edition": "5"
+      "name": "Secrets of Sarlona",
+      "link": "/rulebooks/eberron-35--3/secrets-of-sarlona--14/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "88",
-      "spanishName": "",
-      "name": "Serpent Kingdoms",
-      "link": "/rulebooks/forgotten-realms-35--4/serpent-kingdoms--24/",
-      "edition": "3"
+      "name": "Secrets of Xen&#39;drik",
+      "link": "/rulebooks/eberron-35--3/secrets-of-xendrik--15/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "89",
-      "spanishName": "",
-      "name": "Shadowdale: The Scouring of the Land",
-      "link": "/rulebooks/forgotten-realms-35--4/shadowdale-scouring-land--114/",
-      "edition": "3"
+      "name": "Serpent Kingdoms",
+      "link": "/rulebooks/forgotten-realms-35--4/serpent-kingdoms--24/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "90",
-      "spanishName": "",
-      "name": "Sharn: City of Towers",
-      "link": "/rulebooks/eberron-35--3/sharn-city-of-towers--11/",
-      "edition": "5"
+      "name": "Shadowdale: The Scouring of the Land",
+      "link": "/rulebooks/forgotten-realms-35--4/shadowdale-scouring-land--114/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "91",
-      "spanishName": "",
-      "name": "Shining South",
-      "link": "/rulebooks/forgotten-realms-35--4/shining-south--25/",
-      "edition": "3"
+      "name": "Sharn: City of Towers",
+      "link": "/rulebooks/eberron-35--3/sharn-city-of-towers--11/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "92",
-      "spanishName": "",
-      "name": "Silver Marches",
-      "link": "/rulebooks/forgotten-realms-30--6/silver-marches--97/",
-      "edition": "7"
+      "name": "Shining South",
+      "link": "/rulebooks/forgotten-realms-35--4/shining-south--25/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "93",
-      "spanishName": "",
-      "name": "Song and Silence: A Guidebook to Bards and Rogues",
-      "link": "/rulebooks/supplementals-30--7/song-and-silence-a-guidebook-to-bards-and-rogues--48/",
-      "edition": "1"
+      "name": "Silver Marches",
+      "link": "/rulebooks/forgotten-realms-30--6/silver-marches--97/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "94",
-      "spanishName": "Compendio de conjuros",
-      "name": "Spell Compendium",
-      "link": "/rulebooks/supplementals-35--5/spell-compendium--86/",
-      "edition": "2"
+      "name": "Song and Silence: A Guidebook to Bards and Rogues",
+      "link": "/rulebooks/supplementals-30--7/song-and-silence-a-guidebook-to-bards-and-rogues--48/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "95",
-      "spanishName": "",
-      "name": "Stormwrack",
-      "link": "/rulebooks/supplementals-35--5/stormwrack--87/",
-      "edition": "2"
+      "name": "Spell Compendium",
+      "link": "/rulebooks/supplementals-35--5/spell-compendium--86/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "96",
-      "spanishName": "",
-      "name": "Stronghold Builder&#39;s Guidebook",
-      "link": "/rulebooks/supplementals-30--7/stronghold-builders-guidebook--49/",
-      "edition": "1"
+      "name": "Stormwrack",
+      "link": "/rulebooks/supplementals-35--5/stormwrack--87/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "97",
-      "spanishName": "",
-      "name": "Sword and Fist: A Guidebook to Monks and Fighters",
-      "link": "/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/",
-      "edition": "1"
+      "name": "Stronghold Builder&#39;s Guidebook",
+      "link": "/rulebooks/supplementals-30--7/stronghold-builders-guidebook--49/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "98",
-      "spanishName": "",
-      "name": "The Forge of War",
-      "link": "/rulebooks/eberron-35--3/forge-war--105/",
-      "edition": "5"
+      "name": "Sword and Fist: A Guidebook to Monks and Fighters",
+      "link": "/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "99",
-      "spanishName": "",
-      "name": "The Shattered Gates of Slaughtergarde",
-      "link": "/rulebooks/supplementals-35--5/the-shattered-gates-of-slaughtergarde--104/",
-      "edition": "2"
+      "name": "The Forge of War",
+      "link": "/rulebooks/eberron-35--3/forge-war--105/",
+      "edition": "Eberron (3.5)",
+      "editionLink": "/rulebooks/eberron-35--3/"
     },
     {
       "id": "100",
-      "spanishName": "",
-      "name": "Tome and Blood: A Guidebook to Wizards and Sorcerers",
-      "link": "/rulebooks/supplementals-30--7/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/",
-      "edition": "1"
+      "name": "The Shattered Gates of Slaughtergarde",
+      "link": "/rulebooks/supplementals-35--5/the-shattered-gates-of-slaughtergarde--104/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "101",
-      "spanishName": "Tomo de combate",
-      "name": "Tome of Battle: The Book of Nine Swords",
-      "link": "/rulebooks/supplementals-35--5/tome-of-battle-the-book-of-nine-swords--88/",
-      "edition": "2"
+      "name": "Tome and Blood: A Guidebook to Wizards and Sorcerers",
+      "link": "/rulebooks/supplementals-30--7/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/",
+      "edition": "Supplementals (3.0)",
+      "editionLink": "/rulebooks/supplementals-30--7/"
     },
     {
       "id": "102",
-      "spanishName": "Tome of màgic",
-      "name": "Tome of Magic",
-      "link": "/rulebooks/supplementals-35--5/tome-of-magic--89/",
-      "edition": "2"
+      "name": "Tome of Battle: The Book of Nine Swords",
+      "link": "/rulebooks/supplementals-35--5/tome-of-battle-the-book-of-nine-swords--88/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "103",
-      "spanishName": "",
-      "name": "Unapproachable East",
-      "link": "/rulebooks/forgotten-realms-30--6/unapproachable-east--33/",
-      "edition": "7"
+      "name": "Tome of Magic",
+      "link": "/rulebooks/supplementals-35--5/tome-of-magic--89/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "104",
-      "spanishName": "",
-      "name": "Underdark",
-      "link": "/rulebooks/forgotten-realms-35--4/underdark--34/",
-      "edition": "3"
+      "name": "Unapproachable East",
+      "link": "/rulebooks/forgotten-realms-30--6/unapproachable-east--33/",
+      "edition": "Forgotten Realms (3.0)",
+      "editionLink": "/rulebooks/forgotten-realms-30--6/"
     },
     {
       "id": "105",
-      "spanishName": "Arcanos desenterrados",
-      "name": "Unearthed Arcana",
-      "link": "/rulebooks/supplementals-35--5/unearthed-arcana--90/",
-      "edition": "2"
+      "name": "Underdark",
+      "link": "/rulebooks/forgotten-realms-35--4/underdark--34/",
+      "edition": "Forgotten Realms (3.5)",
+      "editionLink": "/rulebooks/forgotten-realms-35--4/"
     },
     {
       "id": "106",
-      "spanishName": "",
-      "name": "Weapons of Legacy",
-      "link": "/rulebooks/supplementals-35--5/weapons-of-legacy--91/",
-      "edition": "2"
+      "name": "Unearthed Arcana",
+      "link": "/rulebooks/supplementals-35--5/unearthed-arcana--90/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
     },
     {
       "id": "107",
-      "spanishName": "Web",
-      "name": "/rulebooks/core-35--1/web--108/",
-      "link": "Core (3.5)",
-      "edition": "/rulebooks/core-35--1/"
+      "name": "Weapons of Legacy",
+      "link": "/rulebooks/supplementals-35--5/weapons-of-legacy--91/",
+      "edition": "Supplementals (3.5)",
+      "editionLink": "/rulebooks/supplementals-35--5/"
+    },
+    {
+      "id": "108",
+      "name": "Web",
+      "link": "/rulebooks/core-35--1/web--108/",
+      "edition": "Core (3.5)",
+      "editionLink": "/rulebooks/core-35--1/"
     }
   ],
   "skilltricks": [
@@ -34591,336 +34504,294 @@
       "name": "Acrobatic Backstab",
       "link": "/feats/complete-scoundrel--60/acrobatic-backstab--3275/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "2",
       "name": "Assume Quirk",
       "link": "/feats/complete-scoundrel--60/assume-quirk--3276/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "3",
       "name": "Back on Your Feet",
       "link": "/feats/complete-scoundrel--60/back-your-feet--3277/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "4",
       "name": "Clarity of Vision",
       "link": "/feats/complete-scoundrel--60/clarity-vision--3278/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "5",
       "name": "Clever Improviser",
       "link": "/feats/complete-scoundrel--60/clever-improviser--3279/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "6",
       "name": "Collector of Stories",
       "link": "/feats/complete-scoundrel--60/collector-stories--3280/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "7",
       "name": "Conceal Spellcasting",
       "link": "/feats/complete-scoundrel--60/conceal-spellcasting--3281/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "8",
       "name": "Corner Perch",
       "link": "/feats/complete-scoundrel--60/corner-perch--3282/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "9",
       "name": "Dismount Attack",
       "link": "/feats/complete-scoundrel--60/dismount-attack--3283/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "10",
       "name": "Easy Escape",
       "link": "/feats/complete-scoundrel--60/easy-escape--3284/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "11",
       "name": "Escape Attack",
       "link": "/feats/complete-scoundrel--60/escape-attack--3285/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "12",
       "name": "Extreme Leap",
       "link": "/feats/complete-scoundrel--60/extreme-leap--3286/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "13",
       "name": "False Theurgy",
       "link": "/feats/complete-scoundrel--60/false-theurgy--3287/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "14",
       "name": "Group Fake-Out",
       "link": "/feats/complete-scoundrel--60/group-fake-out--3288/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "15",
       "name": "Healing Hands",
       "link": "/feats/complete-scoundrel--60/healing-hands--3289/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "16",
       "name": "Hidden Blade",
       "link": "/feats/complete-scoundrel--60/hidden-blade--3290/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "17",
       "name": "Leaping Climber",
       "link": "/feats/complete-scoundrel--60/leaping-climber--3291/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "18",
       "name": "Listen to This",
       "link": "/feats/complete-scoundrel--60/listen--3292/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "19",
       "name": "Magical Appraisal",
       "link": "/feats/complete-scoundrel--60/magical-appraisal--3293/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "20",
       "name": "Mosquito&#39;s Bite",
       "link": "/feats/complete-scoundrel--60/mosquitos-bite--3294/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "21",
       "name": "Never Outnumbered",
       "link": "/feats/complete-scoundrel--60/never-outnumbered--3295/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "22",
       "name": "Nimble Charge",
       "link": "/feats/complete-scoundrel--60/nimble-charge--3296/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "23",
       "name": "Nimble Stand",
       "link": "/feats/complete-scoundrel--60/nimble-stand--3297/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "24",
       "name": "Opening Tap",
       "link": "/feats/complete-scoundrel--60/opening-tap--3298/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "25",
       "name": "Point it Out",
       "link": "/feats/complete-scoundrel--60/point-it-out--3299/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "26",
       "name": "Quick Escape",
       "link": "/feats/complete-scoundrel--60/quick-escape--3300/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "27",
       "name": "Quick Swimmer",
       "link": "/feats/complete-scoundrel--60/quick-swimmer--3301/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "28",
       "name": "Second Impression",
       "link": "/feats/complete-scoundrel--60/second-impression--3302/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "29",
       "name": "Shrouded Dance",
       "link": "/feats/complete-scoundrel--60/shrouded-dance--3303/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "30",
       "name": "Slipping Past",
       "link": "/feats/complete-scoundrel--60/slipping-past--3305/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "31",
       "name": "Social Recovery",
       "link": "/feats/complete-scoundrel--60/social-recovery--3304/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "32",
       "name": "Speedy Ascent",
       "link": "/feats/complete-scoundrel--60/speedy-ascent--3306/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "33",
       "name": "Spot the Weak Point",
       "link": "/feats/complete-scoundrel--60/spot-weak-point--3307/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "34",
       "name": "Sudden Draw",
       "link": "/feats/complete-scoundrel--60/sudden-draw--3308/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "35",
       "name": "Swift Concentration",
       "link": "/feats/complete-scoundrel--60/swift-concentration--3309/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "36",
       "name": "Timely Misdirection",
       "link": "/feats/complete-scoundrel--60/timely-misdirection--3310/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "37",
       "name": "Tumbling Crawl",
       "link": "/feats/complete-scoundrel--60/tumbling-crawl--3311/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "38",
       "name": "Twisted Charge",
       "link": "/feats/complete-scoundrel--60/twisted-charge--3312/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "39",
       "name": "Up the Hill",
       "link": "/feats/complete-scoundrel--60/up-the-hill--3313/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "40",
       "name": "Walk the Walls",
       "link": "/feats/complete-scoundrel--60/walk-walls--3314/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "41",
       "name": "Wall Jumper",
       "link": "/feats/complete-scoundrel--60/wall-jumper--3315/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     },
     {
       "id": "42",
       "name": "Whip Climber",
       "link": "/feats/complete-scoundrel--60/whip-climber--3316/",
       "book": "Complete Scoundrel",
-      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/",
-      "undefined": ""
+      "bookLink": "/rulebooks/supplementals-35--5/complete-scoundrel--60/"
     }
   ]
 }
