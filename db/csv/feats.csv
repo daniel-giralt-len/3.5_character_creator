@@ -221,7 +221,7 @@ id,name,link,book,bookLink
 220,Better Lucky than Good ,/feats/complete-scoundrel--60/better-lucky-than-good--205/,Complete Scoundrel,/rulebooks/supplementals-35--5/complete-scoundrel--60/
 221,Bind Elemental,/feats/eberron-campaign-setting--12/bind-elemental--206/,Eberron Campaign Setting,/rulebooks/eberron-35--3/eberron-campaign-setting--12/
 222,Bind Vestige,/feats/tome-of-magic--89/bind-vestige--207/,Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
-223,Bind Vestige,Improved,/feats/tome-of-magic--89/bind-vestige-improved--208/,Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
+223,Bind Vestige Improved,/feats/tome-of-magic--89/bind-vestige-improved--208/,Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
 224,Binding Brand,/feats/players-guide-to-eberron--13/binding-brand--209/,Player&#39;s Guide to Eberron,/rulebooks/eberron-35--3/players-guide-to-eberron--13/
 225,Black Dragon Lineage ,/feats/dragon-magic--62/black-dragon-lineage--210/,Dragon Magic,/rulebooks/supplementals-35--5/dragon-magic--62/
 226,Black Lore of Moil,/feats/complete-arcane--55/black-lore-of-moil--211/,Complete Arcane,/rulebooks/supplementals-35--5/complete-arcane--55/
@@ -242,8 +242,8 @@ id,name,link,book,bookLink
 241,Blinding Speed,/feats/epic-level-handbook--41/blinding-speed--225/,Epic Level Handbook,/rulebooks/supplementals-30--7/epic-level-handbook--41/
 242,Blindsense,/feats/complete-adventurer--54/blindsense--226/,Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
 243,Blindsight,/feats/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/blindsight--227/,Masters of the Wild: A Guidebook to Barbarians Druids and Rangers,/rulebooks/supplementals-30--7/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/
-244,Blindsight,5-foot Radius,/feats/sword-and-fist-a-guidebook-to-monks-and-fighters--50/blindsight-5-foot-radius--228/,Sword and Fist: A Guidebook to Monks and Fighters,/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/
-245,Blindsight,5-ft. Radius,/feats/deities-and-demigods--39/blindsight-5-ft-radius--3588/,Deities and Demigods,/rulebooks/supplementals-30--7/deities-and-demigods--39/
+244,Blindsight 5-foot Radius,/feats/sword-and-fist-a-guidebook-to-monks-and-fighters--50/blindsight-5-foot-radius--228/,Sword and Fist: A Guidebook to Monks and Fighters,/rulebooks/supplementals-30--7/sword-and-fist-a-guidebook-to-monks-and-fighters--50/
+245,Blindsight 5-ft. Radius,/feats/deities-and-demigods--39/blindsight-5-ft-radius--3588/,Deities and Demigods,/rulebooks/supplementals-30--7/deities-and-demigods--39/
 246,Blistering Spell,/feats/players-handbook-ii--80/blistering-spell--229/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
 247,Block Arrow,/feats/heroes-of-battle--69/block-arrow--230/,Heroes of Battle,/rulebooks/supplementals-35--5/heroes-of-battle--69/
 248,Blood Calls to Blood,/feats/heroes-of-horror--70/blood-calls-to-blood--231/,Heroes of Horror,/rulebooks/supplementals-35--5/heroes-of-horror--70/
@@ -920,13 +920,13 @@ id,name,link,book,bookLink
 919,Education,/feats/forgotten-realms-campaign-setting--19/education--809/,Forgotten Realms Campaign Setting,/rulebooks/forgotten-realms-30--6/forgotten-realms-campaign-setting--19/
 920,Education,/feats/players-guide-to-faerun--22/education--810/,,/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/
 921,Education,/feats/ghostwalk--94/education--3472/,Ghostwalk,/rulebooks/supplementals-30--7/ghostwalk--94/
-922,Efficient Defender,/feats/cityscape--53/efficient-defender--811/,CityScape,/rulebooks/supplementals-35--5/cityscape--53/
+922, Efficient Defender,/feats/cityscape--53/efficient-defender--811/,CityScape,/rulebooks/supplementals-35--5/cityscape--53/
 923,Efficient Item Creation,/feats/epic-level-handbook--41/efficient-item-creation--812/,Epic Level Handbook,/rulebooks/supplementals-30--7/epic-level-handbook--41/
 924,Eilservs School,/feats/drow-of-the-underdark--93/eilservs-school--3458/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
 925,Einhander,/feats/players-handbook-ii--80/einhander--813/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
 926,Elan Repletion,/feats/complete-psionic--59/elan-repletion--814/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 927,Elan Resilience,/feats/complete-psionic--59/elan-resilience--815/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
-928,Elan Resistance,Enhanced,/feats/complete-psionic--59/elan-resistance-enhanced--816/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+928,Elan Resistance Enhanced,/feats/complete-psionic--59/elan-resistance-enhanced--816/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 929,Elan Retainment,/feats/complete-psionic--59/elan-retainment--817/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 930,Eldeen Plantgrafter,/feats/magic-of-eberron--9/eldeen-plantgrafter--818/,Magic of Eberron,/rulebooks/eberron-35--3/magic-of-eberron--9/
 931,Elder Giant Magic,/feats/secrets-of-xendrik--15/elder-giant-magic--819/,Secrets of Xen&#39;drik,/rulebooks/eberron-35--3/secrets-of-xendrik--15/
@@ -997,7 +997,7 @@ id,name,link,book,bookLink
 996,Energy Resistance: Fire,/feats/epic-level-handbook--41/energy-resistance-fire--878/,Epic Level Handbook,/rulebooks/supplementals-30--7/epic-level-handbook--41/
 997,Energy Resistance: Sonic,/feats/epic-level-handbook--41/energy-resistance-sonic--879/,Epic Level Handbook,/rulebooks/supplementals-30--7/epic-level-handbook--41/
 998,Energy Substitution,/feats/complete-arcane--55/energy-substitution--880/,Complete Arcane,/rulebooks/supplementals-35--5/complete-arcane--55/
-999,<th>Feat name</th><th>Short description</th><th>Rulebook</th>
+999,Feat name,Short description,Rulebook
 1000,Energy Substitution,/feats/magic-of-faerun--20/energy-substitution--881/,Magic of Faerun,/rulebooks/forgotten-realms-30--6/magic-of-faerun--20/
 1001,Energy Substitution,/feats/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/energy-substitution--882/,Tome and Blood: A Guidebook to Wizards and Sorcerers,/rulebooks/supplementals-30--7/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/
 1002,Energy Substitution,/feats/deities-and-demigods--39/energy-substitution--3590/,Deities and Demigods,/rulebooks/supplementals-30--7/deities-and-demigods--39/
@@ -1612,7 +1612,7 @@ id,name,link,book,bookLink
 1611,Horse Nomad,/feats/players-guide-to-faerun--22/horse-nomad--1408/,,/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/
 1612,Host Focus,/feats/complete-psionic--59/host-focus--1409/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1613,Hostile Mind,/feats/expanded-psionics-handbook--65/hostile-mind--1410/,Expanded Psionics Handbook,/rulebooks/supplementals-35--5/expanded-psionics-handbook--65/
-1614,Hostile Mind,Improved,/feats/complete-psionic--59/hostile-mind-improved--1411/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+1614,Hostile Mind Improved,/feats/complete-psionic--59/hostile-mind-improved--1411/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1615,Hover,/feats/monster-manual-ii--45/hover--1412/,Monster Manual II,/rulebooks/supplementals-35--5/monster-manual-ii--45/
 1616,Hover,/feats/monster-manual-v35--5/hover--1414/,Monster Manual v.3.5,/rulebooks/core-35--1/monster-manual-v35--5/
 1617,Hover,/feats/monster-manual-v--78/hover--1415/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
@@ -1637,7 +1637,7 @@ id,name,link,book,bookLink
 1636,Illithid Grapple,/feats/complete-psionic--59/illithid-grapple--1431/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1637,Illithid Heritage,/feats/complete-psionic--59/illithid-heritage--1432/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1638,Illithid Legacy,/feats/complete-psionic--59/illithid-legacy--1433/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
-1639,Illithid Legacy,Greater,/feats/complete-psionic--59/illithid-legacy-greater--3268/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+1639,Illithid Legacy Greater,/feats/complete-psionic--59/illithid-legacy-greater--3268/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1640,Illithid Skin,/feats/complete-psionic--59/illithid-skin--1435/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 1641,Imbued Healing,/feats/complete-champion--57/imbued-healing--1436/,Complete Champion,/rulebooks/supplementals-35--5/complete-champion--57/
 1642,Imbued Summoning,/feats/players-handbook-ii--80/imbued-summoning--1437/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
@@ -1998,7 +1998,7 @@ id,name,link,book,bookLink
 1997,Lesser Aberrant Dragonmark,/feats/dragonmarked--7/lesser-aberrant-dragonmark--1758/,Dragonmarked,/rulebooks/eberron-35--3/dragonmarked--7/
 1998,Lesser Dragonmark,/feats/eberron-campaign-setting--12/lesser-dragonmark--1759/,Eberron Campaign Setting,/rulebooks/eberron-35--3/eberron-campaign-setting--12/
 1999,Lesser Legacy,/feats/weapons-of-legacy--91/lesser-legacy--1760/,Weapons of Legacy,/rulebooks/supplementals-35--5/weapons-of-legacy--91/
-2000,<th>Feat name</th><th>Short description</th><th>Rulebook</th>
+2000,Feat name,Short description,Rulebook
 2001,Lesser Legacy,/feats/expedition-to-the-demonweb-pits--99/lesser-legacy--3760/,Expedition to the Demonweb Pits,/rulebooks/supplementals-35--5/expedition-to-the-demonweb-pits--99/
 2002,Lichloved,/feats/book-of-vile-darkness--37/lichloved--1761/,Book of Vile Darkness,/rulebooks/supplementals-30--7/book-of-vile-darkness--37/
 2003,Lichloved,/feats/elder-evils--110/lichloved--3515/,Elder Evils,/rulebooks/supplementals-35--5/elder-evils--110/
@@ -2054,8 +2054,8 @@ id,name,link,book,bookLink
 2053,Lunar Magic,/feats/city-of-splendors-waterdeep--16/lunar-magic--1802/,City of Splendors: Waterdeep,/rulebooks/forgotten-realms-35--4/city-of-splendors-waterdeep--16/
 2054,Lunatic Insight,/feats/heroes-of-horror--70/lunatic-insight--1803/,Heroes of Horror,/rulebooks/supplementals-35--5/heroes-of-horror--70/
 2055,Lunging Strike,/feats/players-handbook-ii--80/lunging-strike--1804/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
-2056,Lurk Augment,Extra,/feats/complete-psionic--59/lurk-augment-extra--1805/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
-2057,Lurk Augment,Ranged,/feats/complete-psionic--59/lurk-augment-ranged--1806/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+2056,Lurk Augment Extra,/feats/complete-psionic--59/lurk-augment-extra--1805/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+2057,Lurk Augment Ranged,/feats/complete-psionic--59/lurk-augment-ranged--1806/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 2058,Lurk Master,/feats/complete-psionic--59/lurk-master--1807/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 2059,Lurking Familiar,/feats/players-handbook-ii--80/lurking-familiar--1808/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
 2060,Lycanthropic Spell,/feats/faiths-pantheons--18/lycanthropic-spell--1810/,Faiths &amp; Pantheons,/rulebooks/forgotten-realms-30--6/faiths-pantheons--18/
@@ -2220,7 +2220,7 @@ id,name,link,book,bookLink
 2219,Mind over Body,/feats/players-guide-to-faerun--22/mind-over-body--1954/,,/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/
 2220,Mind over Body,/feats/expanded-psionics-handbook--65/mind-over-body--1955/,Expanded Psionics Handbook,/rulebooks/supplementals-35--5/expanded-psionics-handbook--65/
 2221,Mind Strike,/feats/complete-psionic--59/mind-strike--1956/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
-2222,Mind Strike,Swift,/feats/complete-psionic--59/mind-strike-swift--1957/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+2222,Mind Strike Swift,/feats/complete-psionic--59/mind-strike-swift--1957/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 2223,Mind Trap,/feats/psionics-handbook-30--46/mind-trap--1958/,Psionics Handbook 3.0,/rulebooks/supplementals-30--7/psionics-handbook-30--46/
 2224,Mind Weapon,/feats/dragon-compendium--109/mind-weapon--3376/,Dragon Compendium,/rulebooks/supplementals-35--5/dragon-compendium--109/
 2225,Mind-Shattering Strike,/feats/monster-manual-v--78/mind-shattering-strike--1959/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
@@ -2333,7 +2333,7 @@ id,name,link,book,bookLink
 2332,Nimble Stand,/feats/complete-scoundrel--60/nimble-stand--3297/,Complete Scoundrel,/rulebooks/supplementals-35--5/complete-scoundrel--60/
 2333,Nimbus of Light,/feats/book-of-exalted-deeds--52/nimbus-of-light--2060/,Book of Exalted Deeds,/rulebooks/supplementals-35--5/book-of-exalted-deeds--52/
 2334,Nobody&#39;s Fool,/feats/races-of-faerun--23/nobodys-fool--2061/,Races of Faerun,/rulebooks/forgotten-realms-30--6/races-of-faerun--23/
-2335,Nocturnal Caster,/feats/tome-of-magic--89/nocturnal-caster--2062/ ,Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
+2335,Nocturnal Caster,/feats/tome-of-magic--89/nocturnal-caster--2062/, Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
 2336,Node Defense,/feats/underdark--34/node-defense--2063/,Underdark,/rulebooks/forgotten-realms-35--4/underdark--34/
 2337,Node Defense,/feats/champions-of-ruin--27/node-defense--3490/,Champions of Ruin,/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/
 2338,Node Sensitive,/feats/champions-of-ruin--27/node-sensitive--2064/,Champions of Ruin,/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/
@@ -2999,7 +2999,7 @@ id,name,link,book,bookLink
 2998,Slippery Skin,/feats/exemplars-of-evil--64/slippery-skin--2647/,Exemplars of Evil,/rulebooks/supplementals-35--5/exemplars-of-evil--64/
 2999,Slipping Past,/feats/complete-scoundrel--60/slipping-past--3305/,Complete Scoundrel,/rulebooks/supplementals-35--5/complete-scoundrel--60/
 3000,Slow (flaw),/feats/unearthed-arcana--90/slow-flaw--2648/,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
-3001,<th>Feat name</th><th>Short description</th><th>Rulebook</th>
+3001,Feat name,Short description,Rulebook
 3002,Slow (trait),/feats/unearthed-arcana--90/slow-trait--2649/,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
 3003,Sly Fortune ,/feats/complete-scoundrel--60/sly-fortune--2650/,Complete Scoundrel,/rulebooks/supplementals-35--5/complete-scoundrel--60/
 3004,Smatterings,/feats/races-of-destiny--81/smatterings--3678/,Races of Destiny,/rulebooks/supplementals-35--5/races-of-destiny--81/
@@ -3014,7 +3014,7 @@ id,name,link,book,bookLink
 3013,Snap Kick,/feats/tome-of-battle-the-book-of-nine-swords--88/snap-kick--2658/,Tome of Battle: The Book of Nine Swords,/rulebooks/supplementals-35--5/tome-of-battle-the-book-of-nine-swords--88/
 3014,Snatch,/feats/monster-manual-ii--45/snatch--2659/,Monster Manual II,/rulebooks/supplementals-35--5/monster-manual-ii--45/
 3015,Snatch,/feats/monster-manual-v35--5/snatch--2661/,Monster Manual v.3.5,/rulebooks/core-35--1/monster-manual-v35--5/
-3016,Snatch,/feats/monster-manual-v--78/snatch--2662/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
+3016, Snatch,/feats/monster-manual-v--78/snatch--2662/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
 3017,Snatch,/feats/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/snatch--2663/,Masters of the Wild: A Guidebook to Barbarians Druids and Rangers,/rulebooks/supplementals-30--7/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/
 3018,Snatch and Swallow,/feats/draconomicon--92/snatch-and-swallow--3240/,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/
 3019,Snatch Arrows,/feats/players-handbook-v35--6/snatch-arrows--2664/,Player&#39;s Handbook v.3.5,/rulebooks/core-35--1/players-handbook-v35--6/
@@ -3258,7 +3258,7 @@ id,name,link,book,bookLink
 3257,Swim-By Attack,/feats/stormwrack--87/swim-by-attack--2874/,Stormwrack,/rulebooks/supplementals-35--5/stormwrack--87/
 3258,Sword of the Arcane Order,/feats/champions-of-valor--28/sword-of-the-arcane-order--2875/,Champions of Valor,/rulebooks/forgotten-realms-35--4/champions-of-valor--28/
 3259,Symbiont Mastery,/feats/magic-of-eberron--9/symbiont-mastery--2876/,Magic of Eberron,/rulebooks/eberron-35--3/magic-of-eberron--9/
-3260,Synad Multitask,Enhanced,/feats/complete-psionic--59/synad-multitask-enhanced--2877/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+3260,Synad Multitask Enhanced,/feats/complete-psionic--59/synad-multitask-enhanced--2877/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 3261,Tactile Trapsmith,/feats/complete-adventurer--54/tactile-trapsmith--2878/,Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
 3262,Tail Constrict,/feats/draconomicon--92/tail-constrict--3243/,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/
 3263,Tail Rattle,/feats/serpent-kingdoms--24/tail-rattle--2879/,Serpent Kingdoms,/rulebooks/forgotten-realms-35--4/serpent-kingdoms--24/
@@ -3464,7 +3464,7 @@ id,name,link,book,bookLink
 3463,Verminfriend,/feats/book-of-vile-darkness--37/verminfriend--3055/,Book of Vile Darkness,/rulebooks/supplementals-30--7/book-of-vile-darkness--37/
 3464,Verminfriend,/feats/drow-of-the-underdark--93/verminfriend--3431/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
 3465,Versatile Combatant,/feats/drow-of-the-underdark--93/versatile-combatant--3430/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
-3466,Versatile Performer,/feats/complete-adventurer--54/versatile-performer--3056/ ,Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
+3466,Versatile Performer,/feats/complete-adventurer--54/versatile-performer--3056/, Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
 3467,Versatile Spellcaster,/feats/races-of-the-dragon--83/versatile-spellcaster--3057/,Races of the Dragon,/rulebooks/supplementals-35--5/races-of-the-dragon--83/
 3468,Versatile Unarmed Strike,/feats/players-handbook-ii--80/versatile-unarmed-strike--3058/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
 3469,Versatile Unarmed Strike,/feats/secrets-of-sarlona--14/versatile-unarmed-strike--3059/,Secrets of Sarlona,/rulebooks/eberron-35--3/secrets-of-sarlona--14/
@@ -3600,7 +3600,7 @@ id,name,link,book,bookLink
 3599,Wrest Possession,/feats/faiths-of-eberron--8/wrest-possession--3173/,Faiths of Eberron,/rulebooks/eberron-35--3/faiths-of-eberron--8/
 3600,Wyrmgrafter,/feats/races-of-the-dragon--83/wyrmgrafter--3174/,Races of the Dragon,/rulebooks/supplementals-35--5/races-of-the-dragon--83/
 3601,Xaniqos School,/feats/drow-of-the-underdark--93/xaniqos-school--3464/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
-3602,Xeph Burst,Extra,/feats/complete-psionic--59/xeph-burst-extra--3175/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
+3602,Xeph Burst Extra,/feats/complete-psionic--59/xeph-burst-extra--3175/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 3603,Xeph Celerity,/feats/complete-psionic--59/xeph-celerity--3176/,Complete Psionic,/rulebooks/supplementals-35--5/complete-psionic--59/
 3604,Yondalla&#39;s Sense,/feats/races-of-the-wild--84/yondallas-sense--3177/,Races of the Wild,/rulebooks/supplementals-35--5/races-of-the-wild--84/
 3605,Zen Archery,/feats/complete-warrior--61/zen-archery--3178/,Complete Warrior,/rulebooks/supplementals-35--5/complete-warrior--61/

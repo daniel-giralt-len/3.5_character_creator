@@ -8,7 +8,7 @@ const populateId = path => {
     if(header.includes('id,')){ return }
 
     const idValues = values.map((l,i) => `${i+1},${l}`)
-    const rawOut = [header, ...idValues].join('\n')
+    const rawOut = [`id,${header}`, ...idValues].join('\n')
 
     fs.writeFileSync(path, rawOut)
 
