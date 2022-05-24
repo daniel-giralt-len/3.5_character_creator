@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const populateId = path => {
     const raw = fs.readFileSync(path)
-    const lines = raw.toString().split('\r\n')
+    const lines = raw.toString().split('\n')
     const [header, ...values] = lines
 
     if(header.includes('id,')){ return }
