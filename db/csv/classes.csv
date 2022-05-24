@@ -219,7 +219,7 @@ id,name,link,isPrestige,book,bookLink
 218,Domain Wizard,/classes/unearthed-arcana--90/domain-wizard/,false,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
 219,Doomdreamer,/classes/return-to-the-temple-of-elemental-evil--103/doomdreamer/,true,Return to the Temple of Elemental Evil,/rulebooks/supplementals-30--7/return-to-the-temple-of-elemental-evil--103/
 220,Doomguide,/classes/faiths-pantheons--18/doomguide/,true,Faiths &amp; Pantheons,/rulebooks/forgotten-realms-30--6/faiths-pantheons--18/
-221,Doomlord,/classes/planar-handbook--79/doomlord/true,Planar Handbook,/rulebooks/supplementals-35--5/planar-handbook--79/
+221,Doomlord,/classes/planar-handbook--79/doomlord/,true,Planar Handbook,/rulebooks/supplementals-35--5/planar-handbook--79/
 222,Dracolexi,/classes/races-of-the-dragon--83/dracolexi/,true,Races of the Dragon,/rulebooks/supplementals-35--5/races-of-the-dragon--83/
 223,Dracolyte,/classes/draconomicon--92/dracolyte/,true,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/
 224,Dragon Ascendant,/classes/draconomicon--92/dragon-ascendant/,true,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/
@@ -646,7 +646,7 @@ id,name,link,isPrestige,book,bookLink
 645,Pious Templar,/classes/complete-divine--56/pious-templar/,true,Complete Divine,/rulebooks/supplementals-35--5/complete-divine--56/
 646,Pixie,/classes/savage-species--47/pixie/,false,Savage Species,/rulebooks/supplementals-30--7/savage-species--47/
 647,Planar Champion,/classes/manual-of-the-planes--43/planar-champion/,true,Manual of the Planes,/rulebooks/supplementals-30--7/manual-of-the-planes--43/
-648,Planar Ranger,/classes/unearthed-arcana--90/planar-ranger/false,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
+648,Planar Ranger,/classes/unearthed-arcana--90/planar-ranger/,false,Unearthed Arcana,/rulebooks/supplementals-35--5/unearthed-arcana--90/
 649,Planar Shepherd,/classes/faiths-of-eberron--8/planar-shepherd/,true,Faiths of Eberron,/rulebooks/eberron-35--3/faiths-of-eberron--8/
 650,Planeshifter,/classes/manual-of-the-planes--43/planeshifter/,true,Manual of the Planes,/rulebooks/supplementals-30--7/manual-of-the-planes--43/
 651,Platinum Knight,/classes/draconomicon--92/platinum-knight/,true,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/

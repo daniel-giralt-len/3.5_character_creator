@@ -920,7 +920,7 @@ id,name,link,book,bookLink
 919,Education,/feats/forgotten-realms-campaign-setting--19/education--809/,Forgotten Realms Campaign Setting,/rulebooks/forgotten-realms-30--6/forgotten-realms-campaign-setting--19/
 920,Education,/feats/players-guide-to-faerun--22/education--810/,,/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/
 921,Education,/feats/ghostwalk--94/education--3472/,Ghostwalk,/rulebooks/supplementals-30--7/ghostwalk--94/
-922Efficient Defender,/feats/cityscape--53/efficient-defender--811/,CityScape,/rulebooks/supplementals-35--5/cityscape--53/
+922,Efficient Defender,/feats/cityscape--53/efficient-defender--811/,CityScape,/rulebooks/supplementals-35--5/cityscape--53/
 923,Efficient Item Creation,/feats/epic-level-handbook--41/efficient-item-creation--812/,Epic Level Handbook,/rulebooks/supplementals-30--7/epic-level-handbook--41/
 924,Eilservs School,/feats/drow-of-the-underdark--93/eilservs-school--3458/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
 925,Einhander,/feats/players-handbook-ii--80/einhander--813/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
@@ -2331,7 +2331,7 @@ id,name,link,book,bookLink
 2332,Nimble Stand,/feats/complete-scoundrel--60/nimble-stand--3297/,Complete Scoundrel,/rulebooks/supplementals-35--5/complete-scoundrel--60/
 2333,Nimbus of Light,/feats/book-of-exalted-deeds--52/nimbus-of-light--2060/,Book of Exalted Deeds,/rulebooks/supplementals-35--5/book-of-exalted-deeds--52/
 2334,Nobody&#39;s Fool,/feats/races-of-faerun--23/nobodys-fool--2061/,Races of Faerun,/rulebooks/forgotten-realms-30--6/races-of-faerun--23/
-2335,Nocturnal Caster,/feats/tome-of-magic--89/nocturnal-caster--2062/Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
+2335,Nocturnal Caster,/feats/tome-of-magic--89/nocturnal-caster--2062/,Tome of Magic,/rulebooks/supplementals-35--5/tome-of-magic--89/
 2336,Node Defense,/feats/underdark--34/node-defense--2063/,Underdark,/rulebooks/forgotten-realms-35--4/underdark--34/
 2337,Node Defense,/feats/champions-of-ruin--27/node-defense--3490/,Champions of Ruin,/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/
 2338,Node Sensitive,/feats/champions-of-ruin--27/node-sensitive--2064/,Champions of Ruin,/rulebooks/forgotten-realms-35--4/champions-of-ruin--27/
@@ -3011,7 +3011,7 @@ id,name,link,book,bookLink
 3013,Snap Kick,/feats/tome-of-battle-the-book-of-nine-swords--88/snap-kick--2658/,Tome of Battle: The Book of Nine Swords,/rulebooks/supplementals-35--5/tome-of-battle-the-book-of-nine-swords--88/
 3014,Snatch,/feats/monster-manual-ii--45/snatch--2659/,Monster Manual II,/rulebooks/supplementals-35--5/monster-manual-ii--45/
 3015,Snatch,/feats/monster-manual-v35--5/snatch--2661/,Monster Manual v.3.5,/rulebooks/core-35--1/monster-manual-v35--5/
-3016Snatch,/feats/monster-manual-v--78/snatch--2662/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
+3016,Snatch,/feats/monster-manual-v--78/snatch--2662/,Monster Manual V,/rulebooks/supplementals-35--5/monster-manual-v--78/
 3017,Snatch,/feats/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/snatch--2663/,Masters of the Wild: A Guidebook to Barbarians Druids and Rangers,/rulebooks/supplementals-30--7/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers--44/
 3018,Snatch and Swallow,/feats/draconomicon--92/snatch-and-swallow--3240/,Draconomicon,/rulebooks/supplementals-35--5/draconomicon--92/
 3019,Snatch Arrows,/feats/players-handbook-v35--6/snatch-arrows--2664/,Player&#39;s Handbook v.3.5,/rulebooks/core-35--1/players-handbook-v35--6/
@@ -3461,7 +3461,7 @@ id,name,link,book,bookLink
 3463,Verminfriend,/feats/book-of-vile-darkness--37/verminfriend--3055/,Book of Vile Darkness,/rulebooks/supplementals-30--7/book-of-vile-darkness--37/
 3464,Verminfriend,/feats/drow-of-the-underdark--93/verminfriend--3431/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
 3465,Versatile Combatant,/feats/drow-of-the-underdark--93/versatile-combatant--3430/,Drow of the Underdark,/rulebooks/supplementals-35--5/drow-of-the-underdark--93/
-3466,Versatile Performer,/feats/complete-adventurer--54/versatile-performer--3056/Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
+3466,Versatile Performer,/feats/complete-adventurer--54/versatile-performer--3056/,Complete Adventurer,/rulebooks/supplementals-35--5/complete-adventurer--54/
 3467,Versatile Spellcaster,/feats/races-of-the-dragon--83/versatile-spellcaster--3057/,Races of the Dragon,/rulebooks/supplementals-35--5/races-of-the-dragon--83/
 3468,Versatile Unarmed Strike,/feats/players-handbook-ii--80/versatile-unarmed-strike--3058/,Player&#39;s Handbook II,/rulebooks/supplementals-35--5/players-handbook-ii--80/
 3469,Versatile Unarmed Strike,/feats/secrets-of-sarlona--14/versatile-unarmed-strike--3059/,Secrets of Sarlona,/rulebooks/eberron-35--3/secrets-of-sarlona--14/
