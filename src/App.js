@@ -69,7 +69,6 @@ function App() {
         <RightWrapper>
           <CreationDisplay
             creation={creation}
-            isCorpus={isCorpus}
             dbs={dbs}
           />
         </RightWrapper>

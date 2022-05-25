@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components'
+import BaseItem from './items/BaseItem'
 
 const accents = [
     [/[aàáäâ]/g, 'a'],
@@ -22,25 +23,27 @@ function isItemPermitted({corpus, item, itemType}){
 
 function renderItems({items,
     searchedText,
-    ItemRenderer,
     selectedList,
     handleCreationChange,
     permittedCorpus,
     itemType,
-    isCorpus
+    isCorpus,
+    dbs
 }) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
     const regex = new RegExp(regexText)
 
+
     return items
         .filter(item => item.name.toLocaleLowerCase().match(regex))
-        .map(item => (<ItemRenderer
+        .map(item => (<BaseItem
             key={item.id}
             item={item}
             isSelected={selectedList[item.id] === true}
             onClick={() => handleCreationChange(item.id, selectedList)}
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
+            dbs={dbs}
         />))
 }
 
@@ -50,13 +53,13 @@ const ItemSearchBar = styled.textarea`
 
 function ItemBrowser({items,
     selected={},
-    ItemRenderer,
     handleCreationChange,
     permittedCorpus,
     itemType,
     isCorpus,
     isExclusive,
-    disabled
+    disabled,
+    dbs
 }) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
@@ -74,12 +77,12 @@ function ItemBrowser({items,
             {renderItems({
                 items,
                 searchedText,
-                ItemRenderer,
                 selectedList: selected,
                 handleCreationChange: handleCreationItemSelection,
                 permittedCorpus,
                 itemType,
-                isCorpus
+                isCorpus,
+                dbs
             })}
         </div>
     );

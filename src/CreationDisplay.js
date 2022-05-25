@@ -1,7 +1,6 @@
+import findInDb from "./findInDb";
 
-
-function CreationDisplay({creation, isCorpus, dbs}) {
-  console.log(creation)
+function CreationDisplay({creation, dbs}) {
   return (
     <div>
       {Object.entries(creation).map(([type, items]) => (
@@ -10,7 +9,7 @@ function CreationDisplay({creation, isCorpus, dbs}) {
           <ul>
             {Object.entries(items).filter(([n,v])=>v).map(([n])=>
             (<li key={n}>
-              {dbs[type][n].name}
+              {findInDb(dbs,type, n).name}
             </li>)
             )}
           </ul>
