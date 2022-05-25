@@ -1,7 +1,8 @@
-function BaseItem ({item, isSelected='blast', onClick, selectedList}) {
-    return (<div onClick={onClick}>
+function BaseItem ({item, isSelected='blast', onClick, isAllowed}) {
+    return (<div onClick={isAllowed ? onClick: ()=>{}}>
         <span>{item.name}</span>
         <input type='checkbox' disabled checked={isSelected}/>
+        {isAllowed ? 'ALLOWED' : 'NOT ALLOWED'}
     </div>)
 }
 

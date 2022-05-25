@@ -10,7 +10,22 @@ const accents = [
     [/ +/g, ' '],
 ]
 
-function renderItems({items, searchedText, ItemRenderer, selectedList, handleCreationChange}) {
+function isItemPermitted({corpus, item, itemType}){
+    return (
+        corpus === '*' ||
+        corpus.rulebooks[item.book] === true ||
+        (corpus[itemType] && corpus[itemType][item.id] === true)
+    )
+}
+
+function renderItems({items,
+    searchedText,
+    ItemRenderer,
+    selectedList,
+    handleCreationChange,
+    permittedCorpus,
+    itemType
+}) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
     const regex = new RegExp(regexText)
@@ -20,9 +35,9 @@ function renderItems({items, searchedText, ItemRenderer, selectedList, handleCre
         .map(item => (<ItemRenderer
             key={item.id}
             item={item}
-            selectedList={selectedList}
             isSelected={selectedList[item.id] === true}
             onClick={() => handleCreationChange(item.id, selectedList)}
+            isAllowed={isItemPermitted({corpus: permittedCorpus, item, itemType})}
         />))
 }
 
@@ -30,7 +45,7 @@ function ItemSearchBar({onChange}){
     return (<textarea onChange={onChange}></textarea>)
 }
 
-function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange}) {
+function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange, permittedCorpus, itemType}) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => handleCreationChange({ 
@@ -46,7 +61,9 @@ function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange}) {
                 searchedText,
                 ItemRenderer,
                 selectedList: selected,
-                handleCreationChange: handleCreationItemSelection
+                handleCreationChange: handleCreationItemSelection,
+                permittedCorpus,
+                itemType
             })}
         </div>
     );

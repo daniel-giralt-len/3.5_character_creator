@@ -9,7 +9,7 @@ import FeatItem from './items/FeatItem'
 import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
 
-function Creator({creation, onCreationChange}) {
+function Creator({creation, onCreationChange, corpus}) {
 
   const pages = [
     { name: 'rulebooks', Component: RulebookItem },
@@ -20,24 +20,28 @@ function Creator({creation, onCreationChange}) {
     { name: 'language', Component: LanguageItem },
   ]
 
-  const [page, setPage] = useState('races')
+  const [selectedPage, setSelectedPage] = useState('races')
   const handleCreationChange = (type, list) => {
     onCreationChange({
       ...creation,
       [type]: list
     })
   }
+  
   return (
     <div>
         <nav>
-          {pages.map(({name}) => (<button onClick={()=>setPage(name)}>{name}</button>))}
+          {pages.map(({name}) => (<button onClick={()=>setSelectedPage(name)}>{name}</button>))}
         </nav>
-          {pages.filter(({name}) => name === page).map(({name, Component}) => (
+          {pages.filter(({name}) => name === selectedPage).map(({name, Component}) => (
             <ItemBrowser
               handleCreationChange={list => handleCreationChange(name, list)}
               selected={creation[name]}
               items={dbs[name]}
-              ItemRenderer={Component} />
+              ItemRenderer={Component}
+              permittedCorpus={corpus}
+              itemType={name}
+            />
           ))}
     </div>
   );
