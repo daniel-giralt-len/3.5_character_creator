@@ -22,11 +22,11 @@ function App() {
         </nav>
         <Outlet />
         <Routes>
-          <Route path="/" element={<ItemBrowser items={dbs.races} />} />
-          <Route path="classes" element={<ItemBrowser items={dbs.classes} />} />
-          <Route path="feats" element={<ItemBrowser items={dbs.feats} />} />
-          <Route path="skilltricks" element={<ItemBrowser items={dbs.skilltricks} />} />
-          <Route path="language" element={<ItemBrowser items={dbs.language} />} />
+          <Route path="/" element={<ItemBrowser items={dbs.races} ItemRenderer={RaceItem} />} />
+          <Route path="classes" element={<ItemBrowser items={dbs.classes} ItemRenderer={ClasseItem} />} />
+          <Route path="feats" element={<ItemBrowser items={dbs.feats} ItemRenderer={FeatItem} />} />
+          <Route path="skilltricks" element={<ItemBrowser items={dbs.skilltricks} ItemRenderer={SkilltrickItem} />} />
+          <Route path="language" element={<ItemBrowser items={dbs.language} ItemRenderer={LanguageItem} />} />
         </Routes>
       </BrowserRouter>
     </div>
