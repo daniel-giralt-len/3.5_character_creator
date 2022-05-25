@@ -10,7 +10,6 @@ import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
 
 function Creator({creation, onCreationChange}) {
-  
   const [page, setPage] = useState('races')
   const handleCreationChange = (type, list) => {
     onCreationChange({
