@@ -15,11 +15,11 @@ const populateId = path => {
 }
 
 [
-    ['classes', './db/csv/classes.csv'],
-    ['editions', './db/csv/editions.csv'],
-    ['feats', './db/csv/feats.csv'],
-    ['language', './db/csv/language.csv'],
-    ['races', './db/csv/races.csv'],
-    ['rulebooks', './db/csv/rulebooks.csv'],
-    ['skillTricks', './db/csv/skillTricks.csv'],
+    ['classes', './src/db/csv/classes.csv'],
+    ['editions', './src/db/csv/editions.csv'],
+    ['feats', './src/db/csv/feats.csv'],
+    ['language', './src/db/csv/language.csv'],
+    ['races', './src/db/csv/races.csv'],
+    ['rulebooks', './src/db/csv/rulebooks.csv'],
+    ['skillTricks', './src/db/csv/skillTricks.csv'],
 ].forEach(([path]) => populateId(path))

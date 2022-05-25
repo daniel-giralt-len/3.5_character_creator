@@ -1,5 +1,5 @@
 import ItemBrowser from './ItemBrowser'
-import dbs from './dbs.json'
+import dbs from './src/dbs.json'
 
 import RaceItem from './items/RaceItem'
 import ClassItem from './items/ClassItem'

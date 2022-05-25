@@ -1,6 +1,6 @@
 const fs = require('fs')
-const dbs = require('../db/json/dbs.json')
-const invertedIndices = require('../db/json/invertedIndices.json')
+const dbs = require('../src/db/json/dbs.json')
+const invertedIndices = require('../src/db/json/invertedIndices.json')
 
 const s = 2
 
@@ -43,4 +43,4 @@ if(s===2){
     })
 }
 
-fs.writeFileSync('./db/json/dbs.json', JSON.stringify(dbs,null, 2))
+fs.writeFileSync('./src/db/json/dbs.json', JSON.stringify(dbs,null, 2))

@@ -1,4 +1,4 @@
-const dbs = require('../db/json/dbs')
+const dbs = require('../src/db/json/dbs')
 
 const items = [
     'rulebooks',
@@ -17,4 +17,4 @@ const out = items
     }, ['name,spanishName,id,type'])
     .join('\n')
 
-require('fs').writeFileSync('./db/json/translatables.json', out)
+require('fs').writeFileSync('./src/db/csv/translatables.csv', out)
