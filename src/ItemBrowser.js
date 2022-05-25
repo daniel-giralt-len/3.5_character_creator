@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styled from 'styled-components'
 
 const accents = [
     [/[aàáäâ]/g, 'a'],
@@ -41,9 +42,9 @@ function renderItems({items,
         />))
 }
 
-function ItemSearchBar({onChange}){
-    return (<textarea onChange={onChange}></textarea>)
-}
+const ItemSearchBar = styled.textarea`
+    resize: none;
+`
 
 function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange, permittedCorpus, itemType}) {
     const [searchedText, setSearchedText] = useState('')
@@ -55,7 +56,7 @@ function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange, pe
 
     return (
         <div>
-            <ItemSearchBar onChange={handleSearchChange} />
+            <ItemSearchBar rows={1} cols={50} key={itemType} onChange={handleSearchChange} />
             {renderItems({
                 items,
                 searchedText,
