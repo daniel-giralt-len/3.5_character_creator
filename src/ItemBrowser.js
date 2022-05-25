@@ -54,14 +54,18 @@ function ItemBrowser({items,
     handleCreationChange,
     permittedCorpus,
     itemType,
-    isCorpus
+    isCorpus,
+    isExclusive
 }) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
-    const handleCreationItemSelection = (id, selectedList) => handleCreationChange({ 
-        ...selectedList,
-        [id]: !selectedList[id]
-    })
+    const handleCreationItemSelection = (id, selectedList) => {
+        const out = isExclusive ? {[id]: true} : { 
+            ...selectedList,
+            [id]: !selectedList[id]
+        }
+        handleCreationChange(out)
+    }
 
     return (
         <div>

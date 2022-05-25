@@ -44,6 +44,7 @@ function Creator({creation, onCreationChange, corpus, isCorpus}) {
               permittedCorpus={corpus}
               itemType={name}
               isCorpus={isCorpus}
+              isExclusive={name === 'races'}
             />
           ))}
     </div>
