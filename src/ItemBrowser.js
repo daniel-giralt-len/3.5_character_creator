@@ -26,7 +26,8 @@ function renderItems({items,
     selectedList,
     handleCreationChange,
     permittedCorpus,
-    itemType
+    itemType,
+    isCorpus
 }) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
@@ -39,7 +40,7 @@ function renderItems({items,
             item={item}
             isSelected={selectedList[item.id] === true}
             onClick={() => handleCreationChange(item.id, selectedList)}
-            isAllowed={isItemPermitted({corpus: permittedCorpus, item, itemType})}
+            isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
         />))
 }
 
@@ -47,7 +48,14 @@ const ItemSearchBar = styled.textarea`
     resize: none;
 `
 
-function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange, permittedCorpus, itemType}) {
+function ItemBrowser({items,
+    selected={},
+    ItemRenderer,
+    handleCreationChange,
+    permittedCorpus,
+    itemType,
+    isCorpus
+}) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => handleCreationChange({ 
@@ -65,7 +73,8 @@ function ItemBrowser({items, selected={}, ItemRenderer, handleCreationChange, pe
                 selectedList: selected,
                 handleCreationChange: handleCreationItemSelection,
                 permittedCorpus,
-                itemType
+                itemType,
+                isCorpus
             })}
         </div>
     );

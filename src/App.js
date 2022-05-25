@@ -45,6 +45,7 @@ function App() {
           creation={creation}
           onCreationChange={handleCreationChange}
           corpus={corpuses[selectedCorpus].corpus}
+          isCorpus={isCorpus}
         />
         <div>
           {JSON.stringify(creation)}

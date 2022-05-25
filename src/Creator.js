@@ -8,16 +8,18 @@ import ClassItem from './items/ClassItem'
 import FeatItem from './items/FeatItem'
 import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
+import BaseItem from './items/BaseItem'
 
-function Creator({creation, onCreationChange, corpus}) {
+function Creator({creation, onCreationChange, corpus, isCorpus}) {
 
   const pages = [
-    { name: 'rulebooks', Component: RulebookItem },
     { name: 'races', Component: RaceItem },
     { name: 'classes', Component: ClassItem },
     { name: 'feats', Component: FeatItem },
     { name: 'skilltricks', Component: SkilltrickItem },
     { name: 'language', Component: LanguageItem },
+    { name: 'rulebooks', Component: RulebookItem },
+    { name: 'editions', Component: BaseItem },
   ]
 
   const [selectedPage, setSelectedPage] = useState('races')
@@ -41,6 +43,7 @@ function Creator({creation, onCreationChange, corpus}) {
               ItemRenderer={Component}
               permittedCorpus={corpus}
               itemType={name}
+              isCorpus={isCorpus}
             />
           ))}
     </div>
