@@ -1,5 +1,6 @@
 import dbs from './db/json/dbs.json'
 import ItemBrowser from './ItemBrowser'
+import { useState } from 'react';
 
 import RaceItem from './items/RaceItem'
 import ClassItem from './items/ClassItem'
@@ -7,34 +8,49 @@ import FeatItem from './items/FeatItem'
 import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Outlet,
-  Link
-} from "react-router-dom";
-
-function Creator() {
+function Creator({creation, onCreationChange}) {
+  
+  const [page, setPage] = useState('races')
+  const handleCreationChange = (type, list) => {
+    onCreationChange({
+      ...creation,
+      [type]: list
+    })
+  }
   return (
     <div>
-      <BrowserRouter>
         <nav>
-          <Link to="/">Races</Link>
-          <Link to="classes">Classes</Link>
-          <Link to="feats">Feats</Link>
-          <Link to="skilltricks">Skilltricks</Link>
-          <Link to="language">Language</Link>
+          <button onClick={()=>setPage('races')}>Races</button>
+          <button onClick={()=>setPage('classes')}>Classes</button>
+          <button onClick={()=>setPage('feats')}>Feats</button>
+          <button onClick={()=>setPage('skilltricks')}>Skilltricks</button>
+          <button onClick={()=>setPage('language')}>Language</button>
         </nav>
-        <Outlet />
-        <Routes>
-          <Route path="/" element={<ItemBrowser items={dbs.races} ItemRenderer={RaceItem} />} />
-          <Route path="classes" element={<ItemBrowser items={dbs.classes} ItemRenderer={ClassItem} />} />
-          <Route path="feats" element={<ItemBrowser items={dbs.feats} ItemRenderer={FeatItem} />} />
-          <Route path="skilltricks" element={<ItemBrowser items={dbs.skilltricks} ItemRenderer={SkilltrickItem} />} />
-          <Route path="language" element={<ItemBrowser items={dbs.language} ItemRenderer={LanguageItem} />} />
-        </Routes>
-      </BrowserRouter>
+          {page === 'races' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('races', list)}
+            selected={creation.races}
+            items={dbs.races}
+            ItemRenderer={RaceItem} />}
+          {page === 'classes' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('classes', list)}
+            selected={creation.classes}
+            items={dbs.classes}
+            ItemRenderer={ClassItem} />}
+          {page === 'feats' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('feats', list)}
+            selected={creation.feats}
+            items={dbs.feats}
+            ItemRenderer={FeatItem} />}
+          {page === 'skilltricks' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('skilltricks', list)}
+            selected={creation.skilltricks}
+            items={dbs.skilltricks}
+            ItemRenderer={SkilltrickItem} />}
+          {page === 'language' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('language', list)}
+            selected={creation.language}
+            items={dbs.language}
+            ItemRenderer={LanguageItem} />}
     </div>
   );
 }

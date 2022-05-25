@@ -5,7 +5,9 @@ function App() {
   const [creation, setCreation] = useState({})
   const [isCorpus, setIsCorpus] = useState(false)
 
-  const handleCreationChange = newCreation => setCreation(newCreation)
+  const handleCreationChange = newCreation => {
+    setCreation(newCreation)
+  }
   return (
     <div>
         <nav>
@@ -13,6 +15,9 @@ function App() {
           <span>{isCorpus ? 'Creating a corpus' : 'Creating a character'}</span>
         </nav>
         <Creator creation={creation} onCreationChange={handleCreationChange} />
+        <footer>
+          {JSON.stringify(creation)}
+        </footer>
     </div>
   );
 }
