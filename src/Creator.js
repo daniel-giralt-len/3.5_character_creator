@@ -1,4 +1,3 @@
-import dbs from './db/json/dbs.json'
 import ItemBrowser from './ItemBrowser'
 import { useState } from 'react';
 
@@ -10,7 +9,7 @@ import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
 import BaseItem from './items/BaseItem'
 
-function Creator({creation, onCreationChange, corpus, isCorpus}) {
+function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
 
   const pages = [
     { name: 'races', Component: RaceItem },
@@ -33,10 +32,11 @@ function Creator({creation, onCreationChange, corpus, isCorpus}) {
   return (
     <div>
         <nav>
-          {pages.map(({name}) => (<button onClick={()=>setSelectedPage(name)}>{name}</button>))}
+          {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{name}</button>))}
         </nav>
           {pages.filter(({name}) => name === selectedPage).map(({name, Component}) => (
             <ItemBrowser
+              key={name}
               handleCreationChange={list => handleCreationChange(name, list)}
               selected={creation[name]}
               items={dbs[name]}
