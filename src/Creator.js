@@ -2,6 +2,7 @@ import dbs from './db/json/dbs.json'
 import ItemBrowser from './ItemBrowser'
 import { useState } from 'react';
 
+import RulebookItem from './items/RulebookItem'
 import RaceItem from './items/RaceItem'
 import ClassItem from './items/ClassItem'
 import FeatItem from './items/FeatItem'
@@ -20,12 +21,18 @@ function Creator({creation, onCreationChange}) {
   return (
     <div>
         <nav>
+          <button onClick={()=>setPage('rulebooks')}>Rulebooks</button>
           <button onClick={()=>setPage('races')}>Races</button>
           <button onClick={()=>setPage('classes')}>Classes</button>
           <button onClick={()=>setPage('feats')}>Feats</button>
           <button onClick={()=>setPage('skilltricks')}>Skilltricks</button>
           <button onClick={()=>setPage('language')}>Language</button>
         </nav>
+          {page === 'rulebooks' && <ItemBrowser
+            handleCreationChange={list => handleCreationChange('rulebooks', list)}
+            selected={creation.rulebooks}
+            items={dbs.rulebooks}
+            ItemRenderer={RulebookItem} />}
           {page === 'races' && <ItemBrowser
             handleCreationChange={list => handleCreationChange('races', list)}
             selected={creation.races}

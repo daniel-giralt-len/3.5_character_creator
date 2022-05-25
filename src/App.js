@@ -5,9 +5,8 @@ function App() {
   const [creation, setCreation] = useState({})
   const [isCorpus, setIsCorpus] = useState(false)
 
-  const handleCreationChange = newCreation => {
-    setCreation(newCreation)
-  }
+  const handleCreationChange = newCreation => setCreation(newCreation)
+
   return (
     <div>
         <nav>
