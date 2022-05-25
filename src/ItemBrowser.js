@@ -13,6 +13,7 @@ const accents = [
 
 function isItemPermitted({corpus, item, itemType}){
     return (
+        itemType === 'language' ||
         corpus === '*' ||
         corpus.rulebooks[item.book] === true ||
         (corpus[itemType] && corpus[itemType][item.id] === true)

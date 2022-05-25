@@ -15,8 +15,7 @@ function BaseItem ({item, isSelected, onClick, isAllowed}) {
         isAllowed={isAllowed} 
         isSelected={isSelected}
     >
-        <span>{item.name}</span>
-        <input type='checkbox' disabled checked={isSelected}/>
+        {item.name}
     </BaseItemWrapper>)
 }
 
