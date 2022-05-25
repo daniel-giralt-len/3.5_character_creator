@@ -44,5 +44,13 @@
         "102": true,
         "103": true,
         "105": true
+    },
+    "editions": {
+        "1": true,
+        "2": true,
+        "3": false,
+        "4": false,
+        "5": true,
+        "6": true
     }
 }
