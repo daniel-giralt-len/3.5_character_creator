@@ -12,13 +12,13 @@ import BaseItem from './items/BaseItem'
 function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
 
   const pages = [
-    { name: 'races', Component: RaceItem },
-    { name: 'classes', Component: ClassItem },
-    { name: 'feats', Component: FeatItem },
-    { name: 'skilltricks', Component: SkilltrickItem },
-    { name: 'language', Component: LanguageItem },
-    { name: 'rulebooks', Component: RulebookItem },
-    { name: 'editions', Component: BaseItem },
+    { name: 'races',       Component: RaceItem,       isExclusive: true},
+    { name: 'classes',     Component: ClassItem       },
+    { name: 'feats',       Component: FeatItem        },
+    { name: 'skilltricks', Component: SkilltrickItem  },
+    { name: 'language',    Component: LanguageItem    },
+    { name: 'rulebooks',   Component: RulebookItem,   isUsableOnlyInCorpus: true  },
+    { name: 'editions',    Component: BaseItem,       isUsableOnlyInCorpus: true  },
   ]
 
   const [selectedPage, setSelectedPage] = useState('races')
@@ -34,7 +34,7 @@ function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
         <nav>
           {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{name}</button>))}
         </nav>
-          {pages.filter(({name}) => name === selectedPage).map(({name, Component}) => (
+          {pages.filter(({name}) => name === selectedPage).map(({name, Component, isExclusive, isUsableOnlyInCorpus}) => (
             <ItemBrowser
               key={name}
               handleCreationChange={list => handleCreationChange(name, list)}
@@ -44,7 +44,8 @@ function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
               permittedCorpus={corpus}
               itemType={name}
               isCorpus={isCorpus}
-              isExclusive={name === 'races'}
+              isExclusive={isExclusive}
+              disabled={isUsableOnlyInCorpus && !isCorpus}
             />
           ))}
     </div>

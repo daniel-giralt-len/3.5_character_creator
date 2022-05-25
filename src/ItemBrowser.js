@@ -55,11 +55,12 @@ function ItemBrowser({items,
     permittedCorpus,
     itemType,
     isCorpus,
-    isExclusive
+    isExclusive,
+    disabled
 }) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
-    const handleCreationItemSelection = (id, selectedList) => {
+    const handleCreationItemSelection = disabled ? () => {} : (id, selectedList) => {
         const out = isExclusive ? {[id]: true} : { 
             ...selectedList,
             [id]: !selectedList[id]
