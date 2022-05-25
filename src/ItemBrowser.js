@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function renderItems(items, searchedText) {
+function renderItems(items, searchedText, ItemRenderer) {
     const accents = [
         [/[aàáäâ]/g, 'a'],
         [/[eèéëê]/g, 'e'],
@@ -16,20 +16,20 @@ function renderItems(items, searchedText) {
 
     return items
         .filter(item => item.name.toLocaleLowerCase().match(regex))
-        .map(item => (<div key={item.id}>{item.name}</div>))
+        .map(item => (<ItemRenderer key={item.id} item={item} />))
 }
 
 function ItemSearchBar({onChange}){
     return (<textarea onChange={onChange}></textarea>)
 }
 
-function ItemBrowser({items}) {
+function ItemBrowser({items, ItemRenderer}) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     return (
         <div>
             <ItemSearchBar onChange={handleSearchChange} />
-            {renderItems(items, searchedText)}
+            {renderItems(items, searchedText, ItemRenderer)}
         </div>
     );
 }

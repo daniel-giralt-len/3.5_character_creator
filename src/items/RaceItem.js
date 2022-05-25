@@ -1,10 +1,4 @@
-
-function RaceItem() {
-    return (
-        <div>
-
-        </div>
-    );
-}
+import BaseItem from './BaseItem'
+const RaceItem = BaseItem
 
 export default RaceItem;

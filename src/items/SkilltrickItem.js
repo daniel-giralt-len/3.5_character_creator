@@ -1,10 +1,4 @@
-
-function SkilltrickItem() {
-    return (
-        <div>
-
-        </div>
-    );
-}
+import BaseItem from './BaseItem'
+const SkilltrickItem = BaseItem
 
 export default SkilltrickItem;

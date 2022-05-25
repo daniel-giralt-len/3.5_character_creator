@@ -1,10 +1,4 @@
-
-function LanguageItem() {
-    return (
-        <div>
-
-        </div>
-    );
-}
+import BaseItem from './BaseItem'
+const LanguageItem = BaseItem
 
 export default LanguageItem;

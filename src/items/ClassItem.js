@@ -1,10 +1,4 @@
-
-function ClassItem() {
-    return (
-        <div>
-
-        </div>
-    );
-}
+import BaseItem from './BaseItem'
+const ClassItem = BaseItem
 
 export default ClassItem;
