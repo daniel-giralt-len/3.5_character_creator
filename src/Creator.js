@@ -10,6 +10,16 @@ import SkilltrickItem from './items/SkilltrickItem'
 import LanguageItem from './items/LanguageItem'
 
 function Creator({creation, onCreationChange}) {
+
+  const pages = [
+    { name: 'rulebooks', Component: RulebookItem },
+    { name: 'races', Component: RaceItem },
+    { name: 'classes', Component: ClassItem },
+    { name: 'feats', Component: FeatItem },
+    { name: 'skilltricks', Component: SkilltrickItem },
+    { name: 'language', Component: LanguageItem },
+  ]
+
   const [page, setPage] = useState('races')
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -20,43 +30,15 @@ function Creator({creation, onCreationChange}) {
   return (
     <div>
         <nav>
-          <button onClick={()=>setPage('rulebooks')}>Rulebooks</button>
-          <button onClick={()=>setPage('races')}>Races</button>
-          <button onClick={()=>setPage('classes')}>Classes</button>
-          <button onClick={()=>setPage('feats')}>Feats</button>
-          <button onClick={()=>setPage('skilltricks')}>Skilltricks</button>
-          <button onClick={()=>setPage('language')}>Language</button>
+          {pages.map(({name}) => (<button onClick={()=>setPage(name)}>{name}</button>))}
         </nav>
-          {page === 'rulebooks' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('rulebooks', list)}
-            selected={creation.rulebooks}
-            items={dbs.rulebooks}
-            ItemRenderer={RulebookItem} />}
-          {page === 'races' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('races', list)}
-            selected={creation.races}
-            items={dbs.races}
-            ItemRenderer={RaceItem} />}
-          {page === 'classes' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('classes', list)}
-            selected={creation.classes}
-            items={dbs.classes}
-            ItemRenderer={ClassItem} />}
-          {page === 'feats' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('feats', list)}
-            selected={creation.feats}
-            items={dbs.feats}
-            ItemRenderer={FeatItem} />}
-          {page === 'skilltricks' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('skilltricks', list)}
-            selected={creation.skilltricks}
-            items={dbs.skilltricks}
-            ItemRenderer={SkilltrickItem} />}
-          {page === 'language' && <ItemBrowser
-            handleCreationChange={list => handleCreationChange('language', list)}
-            selected={creation.language}
-            items={dbs.language}
-            ItemRenderer={LanguageItem} />}
+          {pages.filter(({name}) => name === page).map(({name, Component}) => (
+            <ItemBrowser
+              handleCreationChange={list => handleCreationChange(name, list)}
+              selected={creation[name]}
+              items={dbs[name]}
+              ItemRenderer={Component} />
+          ))}
     </div>
   );
 }
