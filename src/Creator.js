@@ -1,7 +1,13 @@
 import ItemBrowser from './ItemBrowser'
 import { useState } from 'react';
 
-function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
+function Creator({creation,
+  onCreationChange,
+  corpus,
+  isCorpus,
+  dbs,
+  translate
+}) {
 
   const pages = [
     { name: 'races',       isExclusive: true},
@@ -24,7 +30,7 @@ function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
   return (
     <div>
         <nav>
-          {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{name}</button>))}
+          {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{translate(name)}</button>))}
         </nav>
           {pages.filter(({name}) => name === selectedPage).map(({name, isExclusive, isUsableOnlyInCorpus}) => (
             <ItemBrowser
