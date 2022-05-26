@@ -10,18 +10,19 @@ const BaseItemWrapper = styled.div`
     box-shadow: 0px 0px 1px 0px #340000${({isSelected}) => isSelected ? ', inset 0px 0px 6px 3px #aafd81' : ''};
 `
 
-function BaseItem ({item, isSelected, onClick, isAllowed, dbs}) {
+function BaseItem ({item, isSelected, handleItemSelection, isAllowed, dbs, isExclusive}) {
     
+    const isAddable = isAllowed && !(isExclusive && isSelected)
     const { name, book, edition } = item
 
     return (<BaseItemWrapper 
-        onClick={isAllowed ? onClick: ()=>{}} 
         isAllowed={isAllowed} 
         isSelected={isSelected}
     >
         <span>{name}</span>
         {book && findInDb(dbs, 'rulebooks', book) && findInDb(dbs, 'rulebooks', book).name}
         {edition && findInDb(dbs, 'editions', edition) && findInDb(dbs, 'editions', edition).name}
+        {isAddable && (<button onClick={handleItemSelection}>{isSelected ? '-' : '+'}</button>)}
     </BaseItemWrapper>)
 
         //There are some classes such as the arcane devotee which have no associated book but have a hidden link to 

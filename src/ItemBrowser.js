@@ -28,7 +28,8 @@ function renderItems({items,
     permittedCorpus,
     itemType,
     isCorpus,
-    dbs
+    dbs,
+    isExclusive
 }) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
@@ -41,8 +42,9 @@ function renderItems({items,
             key={item.id}
             item={item}
             isSelected={selectedList[item.id] === true}
-            onClick={() => handleCreationChange(item.id, selectedList)}
+            handleItemSelection={() => handleCreationChange(item.id, selectedList)}
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
+            isExclusive={isExclusive}
             dbs={dbs}
         />))
 }
@@ -82,7 +84,8 @@ function ItemBrowser({items,
                 permittedCorpus,
                 itemType,
                 isCorpus,
-                dbs
+                dbs,
+                isExclusive
             })}
         </div>
     );
