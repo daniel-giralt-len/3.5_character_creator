@@ -1,9 +1,18 @@
 import findInDb from "./findInDb";
 
-function CreationDisplay({creation, dbs, translate}) {
+import ScoreDisplay from "./displays/ScoreDisplay";
+
+function CreationDisplay({creation, dbs, translate, handleCreationChange}) {
+  const {
+    scores,
+    ...rest
+  } = creation
+  const handleScoreChange = scores => handleCreationChange({...creation, scores})
+  
   return (
     <div>
-      {Object.entries(creation).map(([type, items]) => (
+      <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} />
+      {Object.entries(rest).map(([type, items]) => (
         <div key={type}>
           <h3>{translate(type)}</h3>
           <ul>

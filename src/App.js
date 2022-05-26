@@ -29,13 +29,15 @@ function App() {
   const [selectedCorpus, setSelectedCorpus] = useState('c44')
   const [translations, setTranslation] = useState(webTranslations['es'])
 
-  const translate = str => ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || str)
-
+  const translate = strIn => {
+    const str = strIn.toLowerCase()
+    return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || str)
+  }
   
   const languages = Object.keys(webTranslations).filter(v => v !== '*')
 
   const corpuses = {
-    any: {name: translate('Any Book'), corpus: '*'},
+    any: {name: translate('any book'), corpus: '*'},
     c44: {name: 'Companyia 44', corpus: corpus44 },
   }
 
@@ -97,6 +99,7 @@ function App() {
             creation={isCorpus ? corpus : character}
             dbs={dbs}
             translate={translate}
+            handleCreationChange={handleCreationChange}
           />
         </RightWrapper>
     </AppWrapper>
