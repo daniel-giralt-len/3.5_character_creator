@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components'
 
 import Creator from './Creator'
+import Header from './Header'
 import CreationDisplay from './CreationDisplay'
 
 import characterBase from './db/json/characterBase.json'
@@ -34,7 +35,6 @@ function App() {
     return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || str)
   }
   
-  const languages = Object.keys(webTranslations).filter(v => v !== '*')
 
   const corpuses = {
     any: {name: translate('any book'), corpus: '*'},
@@ -47,23 +47,18 @@ function App() {
   const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
 
+  const handleCreationSwitch = () => setIsCorpus(!isCorpus)
+  const handleChangeTranslations = key => setTranslation(webTranslations[key])
+
   return (
     <AppWrapper>
         <HeaderWrapper>
-          <>
-            <button onClick = {() => setIsCorpus(!isCorpus)}>{translate('switch')}</button>
-            <span>{isCorpus ? translate('creating a corpus') : translate('creating a character')}</span>
-          </>
-          <>
-            {languages.map(key => (
-              <button
-                key={key}
-                onClick={() => setTranslation(webTranslations[key])}
-              >
-                {translate(key)}
-              </button>
-            ))}
-          </>
+          <Header
+            handleCreationSwitch={handleCreationSwitch}
+            handleChangeTranslations={handleChangeTranslations}
+            translate={translate}
+            isCorpus={isCorpus}
+          />
         </HeaderWrapper>
         <LeftWrapper>
           {!isCorpus && (<div>
