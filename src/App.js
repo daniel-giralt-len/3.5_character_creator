@@ -20,7 +20,8 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 function App() {
-  const [creation, setCreation] = useState({})
+  const [character, setCharacter] = useState({})
+  const [corpus, setCorpus] = useState({})
   const [isCorpus, setIsCorpus] = useState(false)
   const [selectedCorpus, setSelectedCorpus] = useState('c44')
 
@@ -29,7 +30,7 @@ function App() {
     c44: {name: 'Companyia 44', corpus: corpus44 },
   }
 
-  const handleCreationChange = newCreation => setCreation(newCreation)
+  const handleCreationChange = newCreation => isCorpus ? setCorpus(newCreation) : setCharacter(newCreation)
   const handleCorpusChange = e => setSelectedCorpus(e.target.value)
 
   return (
@@ -59,7 +60,7 @@ function App() {
             </div>  
           </div>)}
           <Creator 
-            creation={creation}
+            creation={isCorpus ? corpus : character}
             onCreationChange={handleCreationChange}
             corpus={corpuses[selectedCorpus].corpus}
             isCorpus={isCorpus}
@@ -68,7 +69,7 @@ function App() {
         </LeftWrapper>
         <RightWrapper>
           <CreationDisplay
-            creation={creation}
+            creation={isCorpus ? corpus : character}
             dbs={dbs}
           />
         </RightWrapper>
