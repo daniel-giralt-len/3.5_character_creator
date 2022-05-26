@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import Creator from './Creator'
 import CreationDisplay from './CreationDisplay'
 
+import characterBase from './db/json/characterBase.json'
+
 import corpus44 from './db/json/corpus_44.json'
 
 const AppWrapper = styled.div`
@@ -20,7 +22,7 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 function App() {
-  const [character, setCharacter] = useState({})
+  const [character, setCharacter] = useState(characterBase)
   const [corpus, setCorpus] = useState({})
   const [isCorpus, setIsCorpus] = useState(false)
   const [selectedCorpus, setSelectedCorpus] = useState('c44')
@@ -32,6 +34,9 @@ function App() {
 
   const handleCreationChange = newCreation => isCorpus ? setCorpus(newCreation) : setCharacter(newCreation)
   const handleCorpusChange = e => setSelectedCorpus(e.target.value)
+
+  const usedCreation = isCorpus ? corpus : character
+  const usedCorpus = corpuses[selectedCorpus].corpus
 
   return (
     <AppWrapper>
@@ -60,9 +65,9 @@ function App() {
             </div>  
           </div>)}
           <Creator 
-            creation={isCorpus ? corpus : character}
+            creation={usedCreation}
             onCreationChange={handleCreationChange}
-            corpus={corpuses[selectedCorpus].corpus}
+            corpus={usedCorpus}
             isCorpus={isCorpus}
             dbs={dbs}
           />
