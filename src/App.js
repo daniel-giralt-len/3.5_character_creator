@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Creator from './Creator'
 import Header from './Header'
+import CorpusSelector from './CorpusSelector'
 import CreationDisplay from './CreationDisplay'
 
 import characterBase from './db/json/characterBase.json'
@@ -32,7 +33,7 @@ function App() {
 
   const translate = strIn => {
     const str = strIn.toLowerCase()
-    return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || str)
+    return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || strIn)
   }
   
 
@@ -61,25 +62,13 @@ function App() {
           />
         </HeaderWrapper>
         <LeftWrapper>
-          {!isCorpus && (<div>
-            {translate('selected corpus')}
-            <div>
-              {Object.entries(corpuses).map(([id, {name}]) => (
-                  <span key={id}>
-                    <input
-                      onChange={handleCorpusChange}
-                      type='radio'
-                      name='corpus'
-                      value={id}
-                      key={id}
-                      checked={selectedCorpus===id} 
-                    />
-                    {translate(name)}
-                  </span>
-                ))
-              }
-            </div>  
-          </div>)}
+          <CorpusSelector 
+            isCorpus={isCorpus}
+            corpuses={corpuses}
+            translate={translate}
+            handleCorpusChange={handleCorpusChange}
+            selectedCorpus={selectedCorpus}
+          />
           <Creator 
             creation={usedCreation}
             onCreationChange={handleCreationChange}
