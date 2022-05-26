@@ -26,7 +26,7 @@ function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
         <nav>
           {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{name}</button>))}
         </nav>
-          {pages.filter(({name}) => name === selectedPage).map(({name, Component, isExclusive, isUsableOnlyInCorpus}) => (
+          {pages.filter(({name}) => name === selectedPage).map(({name, isExclusive, isUsableOnlyInCorpus}) => (
             <ItemBrowser
               key={name}
               handleCreationChange={list => handleCreationChange(name, list)}
@@ -35,7 +35,7 @@ function Creator({creation, onCreationChange, corpus, isCorpus, dbs}) {
               permittedCorpus={corpus}
               itemType={name}
               isCorpus={isCorpus}
-              isExclusive={isExclusive}
+              isExclusive={!isCorpus && isExclusive}
               disabled={isUsableOnlyInCorpus && !isCorpus}
               dbs={dbs}
             />
