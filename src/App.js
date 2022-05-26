@@ -47,6 +47,8 @@ function App() {
   const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
 
+  console.log(character)
+
   return (
     <AppWrapper>
         <HeaderWrapper>
