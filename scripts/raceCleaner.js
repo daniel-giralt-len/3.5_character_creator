@@ -129,13 +129,19 @@ if(a===3){ //languages to ids
     const dbs = require('../src/db/json/dbs.json')
     const languages = dbs.language
 
+    const languageToId = l=>{
+        const out = languages.find(ll=>l===ll.name)
+        if(!out){console.error('language not found',l); return -1}
+        return out.id
+    }
+
     const newJson = Object
         .entries(json)
         .reduce((acc, [id, o]) => {
-            console.log(id)
             const newO = {
                 ...o,
-
+                'automatic languages': (o['automatic languages']||[]).map(languageToId),
+                'bonus languages': (o['bonus languages']||[]).map(languageToId),
             }
            
 

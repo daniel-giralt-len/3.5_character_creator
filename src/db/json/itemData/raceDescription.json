@@ -13,16 +13,16 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Celestial",
-      "Common"
+      "5",
+      "6"
     ],
     "bonus languages": [
-      "Draconic",
-      "Dwarven",
-      "Elven",
-      "Gnome",
-      "Halfling",
-      "Sylvan"
+      "10",
+      "14",
+      "15",
+      "19",
+      "21",
+      "32"
     ]
   },
   "2": {
@@ -39,8 +39,8 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Celestial",
-      "Common"
+      "5",
+      "6"
     ],
     "racial hit dice": "3",
     "racial base attack": 3,
@@ -48,7 +48,8 @@
       "fortitude": "+3",
       "reflex": "+3",
       "will": "+3"
-    }
+    },
+    "bonus languages": []
   },
   "3": {
     "description": "<h3>Description</h3><p>Originating on a distant plane, the diaboli appear to many humanoid cultures as nightmares incarnate. They have dispersed across the infinite planes as much to spread their creed of benevolent chaos as to escape the rampant horrors of an invading reality.</p><p>Diaboli hail from a demiplane just slightly out of phase with the rest of the multiverse. Called by humanoids the Demiplane of Nightmares, this realm borders coterminously with the Region of Dreams and the Ethereal Plane. Unfortunately for the diaboli and the creatures that share their frightening home, the boundaries between their reality and those of the Far Realm&#8212;a place that exists outside of reality from which pseudonatural creatures originate&#8212;seem particularly thin. As such, the maddeningly chaotic taint of the Far Realm constantly seeps into the Demiplane of Nightmares like a breached dam trickling water.</p><p>On their home demiplane, the diaboli act much as humans do on the Material Plane: they farm, hunt, build villages and towns, interact peacefully with some of the creatures they share their home with, and they violently oppose others. Some diaboli become philosophers of renown, while others skulk the dark alleyways waiting for their next mark.</p><p>Unlike humans, diaboli have a unifying belief in the superiority of anarchy. They build their societies around the belief that since they cannot provably define any one form of government as better than any other they must simply live without governments. Despite their chaotic natures, diaboli strongly believe in traditions and ancient mores that continue to maintain their societies. Along with these strong and repeatedly proven customs, diaboli hold together their otherwise free-willed societies with a mixture of traditions, taboos, customs, and a strong sense of fair play. &quot;Do what thou wilt but harm none&quot; unifies the diaboli and acts as the great truth from which all traditions and taboos grow.</p><p>Societies of diaboli on the Material Plane seem at once both oddly familiar and strangely disconcerting. They build their villages in a haphazard manner, seemingly without any consideration for the defense of structures&#8212; much less with an eye toward moving around effectively between the buildings. Their buildings resemble ruins, with beams and timbers protruding at odd angles from leaning stone walls. Various colors of paint cover random areas of the structures, camouflaging them somewhat from a distance.<br />While diaboli martial technology lags well behind the civilized races of the Material Plane, their more cerebral aspects of culture far exceed those of most races. They spare no amount of energy or wealth developing advanced forms of philosophy and art. Most diaboli promote a level of tolerance and generosity far more liberal and welcoming than any Material Plane humanoid race, with the sole exception of their attitude toward humans, whom they detest above all others. The diaboli view humans as hideous devils or demons in much the same way that humans view them.</p><p>Because interaction with the dangerous and unpredictable Far Realm is becoming increasingly frequent, the diaboli constantly develop techniques to combat the corrupting taint of that frightening plane. Many sages suggest the diaboli&#39;s losing battle against the encroaching taint of the Far Realm causes their immigration to the Material Plane. While some diaboli still live in the Region of Dreams, most have emigrated to the various worlds of the Material Plane as well as the Ethereal and Astral Planes.</p><p><strong>Personality:</strong> In their own home realms, diaboli serve as the equivalent of humans. As such, they possess a wide variety of personalities. Unlike humans, however, the great majority of diaboli live chaotic, disorderly lives. The spectrum of personalities exhibited by diaboli is therefore somewhat narrower than that of humans, but still much wider in its possibilities than most other Material Plane humanoids. Diaboli generally reflect only the gentler, less frightening aspects of chaos in their personalities. Many reflect this chaos with extreme absent-mindedness, mild to severe mood swings, wild bouts of creativity, and generally mercurial natures.</p><p><strong>Physical Description:</strong> Fearsome in form if not personality, diaboli often elicit reactions of fear or loathing from those who see them. Silhouetted at a distance, a diabolus might pass as a thin-legged human. Once details become apparent, any resemblance to humans quickly disappears.</p><p>The torso, arms, and head of a diabolus have humanlike musculature and structure, but its legs resemble those of a ram or goat. Diaboli also have long tails that end in small barbs. Small vestigial horns rise from the top of a diabolus&#39;s head and its elflike pointed ears stick out at severe angles. A diabolus&#39;s hands appear humanlike except they lack a fifth small finger, rather having three fingers and a thumb.<br />Diaboli skin color ranges from mauve and lavender to the deepest near-black violets. In addition to skin color, diaboli vary in the amount of hair they can grow. Bare diaboli grow no hair over the entirety of their bodies. Common diaboli grow white and silver hair just as humans do, and males often wear long but well-groomed beards. Hirsute diaboli also grow coarse, white, goat-like hair from the waist down. Diaboli of all three types share the same abilities; any differences among them form culturally. All diaboli have reptilian eyes ranging from angry reds to bright yellows. Their long tongues fork like those of snakes and provide the diaboli with similar olfactory clues. Wide, prominent noses dominate their faces.</p><p>Relations: Diaboli innately fear most humans and humanoids they meet and find the forms of such creatures repulsive. For their part, many humans and humanoids feel the same way about diaboli. Only rarely do the two groups put aside their revulsion of one another and make attempts to communicate and trade. Even after the diaboli and native humanoids set up peaceful lines of communication, a tension always exists between two such groups. At worst, this quiet unease leads to cool but respectful meetings, but even at best a gathering of diaboli and humanoids brings about an air of extreme politeness, as if both sides fear insulting or otherwise provoking the other.</p><p>Adventurers from both sides often make the initial steps of peaceful communication&#8212;many find it difficult not to befriend those with whom they frequently face lethal dangers. Because they themselves often live at the fringe of their societies, adventurers often judge a companion not by appearance but by competence, and most diaboli adventurers prove quite competent.</p><p><strong>Alignment:</strong> A carefree chaos fills the hearts of diaboli and they constantly seek to spread the joys of such liberation among those with whom they interact. Freedom and spontaneity mark the lives of the diaboli,<br />but they seldom force their gently chaotic beliefs on others. This love of freedom marks them as almost universally chaotic good creatures. Some drift from the benevolent aspects of chaos&#8212;becoming engulfed or driven to horrible acts by it&#8212;developing into either chaotic neutral or chaotic evil. Those tiny few who forsake chaos for neutrality find themselves shunned and exiled. Neither history nor folklore record any mention of a lawful diabolus.</p><p><strong>Diaboli Lands:</strong> In their native demiplane, diaboli form small pockets of relatively peaceful societies that can span several hundred square miles. They fill much the same position as humans on the Material Plane: vibrant, expansive, and relatively easy to work with. On the Material Plane they form small anarchic but peaceful communities far away from humanoids and other intelligent creatures.</p><p>Religion: As their home demiplane touches on both the Region of Dreams and the Ethereal Plane, and suffers the Far Realm&#39;s foul taint, diaboli have strong taboos concerning disbelief. They never take anything at face value, as mind-bending reality twists occur near their original homes so frequently. Diaboli lack deities as most humans understand them, and instead seem to worship ideas like anarchy, chaos, freedom, and wonder. Their religious practices lack dogmatic rote, and most diaboli worship alone and spontaneously. Diaboli clerics, although rare, do exist. They often choose from the following domains: Chaos, Destruction, Luck, Magic, Protection, Travel, and Trickery.</p><p><strong>Language:</strong> Diaboli speak their own language, Diabolan. Diabolan words make frequent use of harsh, guttural hisses and the unique physiologic structure of the diaboli&#39;s forked tongue. While not difficult to learn, most humanoids of the Material Plane find mastery of Diabolan impossible. Most words in Diabolan contain soft &quot;f&quot; &quot;s,&quot; &quot;th,&quot; and &quot;z&quot; sounds. Many diaboli also learn to communicate simple ideas by twirling and positioning their tails in a sort of elaborate code. The purely visual diaboli tail code can convey even complicated concepts, but it takes roughly twice as long to express something in the diaboli tail code as in any spoken language. Any creature that can see a diabolus using the diaboli tail code may make a DC 10 Intelligence check to realize the diabolus is attempting to communicate. Any creature may learn diaboli tail code, although only creatures with tails of their own can &quot;speak&quot; it.</p><p>Most diaboli who make the journey from their plane learn to speak Abyssal first, as their forked tongues can most easily form the words of that language. This leads to the belief that an inherent evilness exists within diaboli society. A diabolus who speaks Common does so with a thick, snakelike accent.</p><p><strong>Names:</strong> Chaos influences all aspects of diaboli life, including their naming patterns&#8212; whatever inscrutable patterns they might actually take. For the most part, diaboli have between two and four names, although some only bear one moniker and others might claim as many as twelve. No discernable convention exists for determining how many different names a diabolus might possess. Like humans, diaboli maintain a wide spectrum of names they use. Male diaboli names typically contain more consonants than female diaboli names. Even that &quot;rule&quot; lacks any sort of reliable application, however, as many males have names with no consonant sounds at all.</p><p><strong>Male Names:</strong> Fih, Hoshaaa, Rniboshog-krs, Krnthilakeh, Rskeglsth, Slom, Uayaeo.</p><p><strong>Female Names:</strong> Aut&#39;abothua, Bbothuda, Ihab, Oskru, U, Wyrwlak, Z&#39;ligg.</p><p><strong>Family Names:</strong> If family names exist, no sage or scholar has discerned any indication that diaboli use them.</p><p><strong>Adventurers:</strong> Most diaboli dislike violence and attempt to live their lives as peacefully as possible. Those who do take up the dangers of adventuring do so for several reasons. Many find themselves thrust into violence to defend their homes from fearful humanoids who raid and slaughter them. Others take up the trident in order to forcefully hold back the taint of the Far Realm that constantly threatens to seep into both their native demiplane and their adopted homeworlds. Finally, a few diaboli turn to violence for the same selfish or exalted reasons as humans: wealth, power, guardianship, love, lust, or an unquenchable hope that they can make a better world for their children.</p><h4>Planes not on the Great Wheel</h4><p>The diaboli&#39;s description assumes the existence of two unusual places in your campaign&#39;s cosmology.</p><p><strong>The Far Realm:</strong> First introduced in The Gates of Firestorm Peak and frequently mentioned elsewhere (most recently in <span class=\"caps\">DRAGON</span> #330), the Far Realm is a place of unimaginable chaos and insanity. Many of the creatures that live within the Far Realm have seemingly random anatomies&#8212;often with masses of wriggling tentacles or wholly alien appendages. Lovecraftian in character, the Far Realm is a veiled and unknowable parallel existence outside the Great Wheel from which maddening horrors and malignant intelligences seek to wreak their immortal plots upon the unsuspecting planes.</p><p><strong>The Region of Dreams:</strong> Introduced as an alternative plane in the Manual of the Planes, the Region of Dreams does not exist in the core cosmology of the Great Wheel. With your DM&#39;s permission, you can add the Region of Dreams as a plane coterminous with the Material Plane and whatever Transitive, Inner, or Outer Planes you desire. Like EBERRON&#39;S Dal Quor, the Region of Dreams is where the consciousness goes when a creature dreams.</p><h3>Combat</h3><h3>Racial Traits</h3><ul><li>Outsider (native): Diaboli are outsiders with the native subtype. Diaboli have a knack for making themselves at home on new planes.</li><li>Chaotic: Diaboli have the chaotic subtype.</li><li>Medium: As Medium creatures, diaboli have no special bonuses or penalties due to their size.</li><li>Diaboli base land speed is 30 feet.</li><li>Darkvision: Diaboli can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and diaboli can function just fine with no light at all.</li><li>+2 racial bonus on all saving throws against spells and spell-like effects: Diaboli come from a demiplane slightly out of phase with other planes, which gives them some resistance to magical effects.</li><li>+2 racial bonus on Intimidate checks made against animals and humanoids. The frightful appearance and alien psychology of diaboli make them particularly good at coercing Material Plane natives.</li><li>-2 penalty on Diplomacy, Handle Animal, Perform, and Sense Motive checks. The hideous appearance and strange mannerisms of the diaboli make it difficult for them to interact peaceably with native humanoids and animals of the Material Plane.</li><li>Weapon Familiarity: Diaboli treat tridents as simple weapons rather than martial weapons.</li><li>Natural Attack: Tail. A diabolus can make a secondary natural attack with its tail (at a -5 penalty on attack rolls). This attack deals 1d4 points of damage and injects its target with a mild poison (DC 10 + 1/2 HD + Constitution modifier). The poison&#39;s initial damage causes its victim to become sickened for 2d4 rounds; it has no secondary damage. A sickened creature suffers a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks. A diaboli can produce a number of doses of poison equal to 3 + its Constitution modifier per day.</li><li>Automatic Languages: Diabolan and diaboli tail code. </li><li>Bonus Languages: Abyssal, Common, Draconic, and Infernal. Diaboli learn the languages easiest for them to pronounce as well as the most frequently used languages near their adopted homes.</li><li>Favored Class: Sorcerer. A multiclass diaboli&#39;s sorcerer class does not count when determining whether he takes an experience point penalty for multiclassing (see XP for Multiclass Characters on page 60 of the Player&#39;s Handbook). With a unique tie to the multiverse and strong streak of chaotic individualism, diaboli make excellent sorcerers.</li><li>Level Adjustment: +1.</li></ul>",
@@ -64,14 +65,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Diabolan",
-      "Diaboli Tail Code"
+      "7",
+      "8"
     ],
     "bonus languages": [
-      "Abyssal",
-      "Common",
-      "Draconic",
-      "Infernal"
+      "1",
+      "6",
+      "10",
+      "23"
     ]
   },
   "4": {
@@ -89,14 +90,14 @@
     "reach": 5,
     "natural armor": 4,
     "automatic languages": [
-      "Common",
-      "Diopsid"
+      "6",
+      "9"
     ],
     "bonus languages": [
-      "Dwarven",
-      "Orc",
-      "Terran",
-      "Undercommon"
+      "14",
+      "26",
+      "33",
+      "34"
     ]
   },
   "5": {
@@ -111,7 +112,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "6": {
     "description": "<h3>Description</h3><p>Elvish exiles banished to the underdark</p><h3>Combat</h3><h3>Racial Traits</h3><ul><li>Darkvision out to 120 feet.</li><li>Immunity to sleep spells, +2 racial bonus on Will saves against spells, spell-like abilities, and enchantment effects of other sorts.</li><li>Spell resistance equal to 11 + class level.</li><li>Spell-Like Abilities: Drow can use the following spelllike abilities once per day: dancing lights, darkness, faerie fire. Caster level equals the drow&#39;s class level.</li><li>Weapon Proficiency: A drow is automatically proficient with the hand crossbow, the rapier, and the short sword.</li><li>+2 racial bonus on Listen, Search, and Spot checks. A drow who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.</li><li>Light Blindness: Abrupt exposure to bright light (such as sunlight or a daylight spell) blinds drow for 1 round. In addition, they take a -1 circumstance penalty on attack rolls, saves, and checks when in bright light.</li></ul>",
@@ -127,17 +130,17 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Elven",
-      "Undercommon"
+      "6",
+      "15",
+      "34"
     ],
     "bonus languages": [
-      "Abyssal",
-      "Aquan",
-      "Draconic",
-      "Drow Sign Language",
-      "Gnome",
-      "Goblin"
+      "1",
+      "3",
+      "10",
+      "12",
+      "19",
+      "20"
     ]
   },
   "7": {
@@ -154,12 +157,10 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Dvati"
+      "6",
+      "13"
     ],
-    "bonus languages": [
-      "Any"
-    ]
+    "bonus languages": []
   },
   "8": {
     "description": "<h3>Description</h3><p>Dwarves stand only 4 to 4-1/2 feet tall, but they are so broad and compact that they are, on average, almost as heavy as humans. Dwarf men are slightly taller and noticeably heavier than dwarf women. Dwarves&#39; skin is typically deep tan or light brown, and their eyes are dark. Their hair is usually black, gray, or brown, and worn long. Dwarf men value their beards highly and groom them very carefully. Dwarves favor simple styles for their hair, beards, and clothes. Dwarves are considered adults at about age 40, and they can live to be more than 400 years old.</p><h3>Combat</h3><h3>Racial Traits</h3><p>+2 Constitution, &#8212;2 Charisma: Dwarves are stout and tough but tend to be gruff and reserved.</p><p>Medium: As Medium creatures, dwarves have no special bonuses or penalties due to their size.</p><p>Dwarf base land speed is 20 feet. However, dwarves can move at this speed even when wearing medium or heavy armor or whose speed is reduced in such conditions).</p><p>Darkvision: Dwarves can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and dwarves can function just fine with no light at all.</p><p>Stonecunning: This ability grants a dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn&#39;t stone but that is disguised as stone also counts as unusual stonework. A dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a dwarf can use the Search skill to find stonework traps as a rogue can. A dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up. Dwarves have a sixth sense about stonework, an innate ability that they get plenty of opportunity to practice and hone in their underground homes.</p><p>Weapon Familiarity: Dwarves may treat dwarven waraxes and dwarven urgroshes (see Chapter 7:Equipment) as martial weapons, rather than exotic weapons.</p><p>Stability: Dwarves are exceptionally stable on their feet. A dwarf gains a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).</p><p>\u0001+2 racial bonus on saving throws against poison: Dwarves are hardy and resistant to toxins.</p><p>+2 racial bonus on saving throws against spells and spell-like effects: dwarves have an innate resistance to magic spells.</p><p>+1 racial bonus to attack rolls against orcs (including half-orcs) and goblinoids (including goblins, hobgoblins, and bugbears): Dwarves are trained in the special combat techniques that allow them to fight their common enemies more effectively.<br />\u0001<br />+4 dodge bonus to Armor Class against monsters of the giant type (such as ogres, trolls, and hill giants): This bonus represents special training that dwarves undergo, during which they learn tricks that previous generations developed in their battles with giants. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it&#39;s caught flat-footed, it loses its dodge bonus, too. The Monster Manual has information on which creatures are of the giant type.</p><p>+2 racial bonus on Appraise checks that are related to stone or metal items: Dwarves are familiar with valuable items of all kinds, especially those made of stone or metal.</p><p>+2 racial bonus on Craft checks that are related to stone or metal: Dwarves are especially capable with stonework and metalwork.<br />\u0001<br />Automatic Languages: Common and Dwarven. Bonus Languages: Giant, Gnome, Goblin, Orc, Terran, and Undercommon. Dwarves are familiar with the languages of their enemies and of their subterranean allies.</p><p>Favored Class: Fighter. A multiclass dwarf&#39;s fighter class does not count when determining whether he takes an experience point penalty for multiclassing. (see XP for Multiclass Characters, page 60). Dwarven culture extols the virtues of battle, and the vocation comes easily to dwarves.</p>",
@@ -173,7 +174,9 @@
     "CHA": -2,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "9": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -187,7 +190,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "10": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -201,7 +206,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "11": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -215,7 +222,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "12": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -229,7 +238,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "13": {
     "description": "<h3>Description</h3><p>To humans, half-elves look like elves. To elves, they look like humans &#8211; indeed, elves call them half-humans. Half-elf height ranges from under 5 feet to about 6 feet tall, and weight usually ranges from 100 to 180 pounds. Half-elf men are taller and heavier than half-elf women, but the difference is less pronounced than that found among humans. Half-elves are paler, fairer, and smoother-skinned than their human parents, but their actual skin tone, hair color, and other details vary just as human features do. Half-elves&#39; eyes are green, just as are those of their elf parents. A half-elf reaches adulthood at age 20 and can live to be over 180 years old.</p><h3>Combat</h3><h3>Racial Traits</h3><p>Immunity to sleep spells and similar magical effects, and a +2 racial bonus on saving throw against enchantment spells or effects.<br />\u0001<br />Low-light Vision: A half-elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.<br />\u0001<br />+1 racial bonus on Listen, Search, and Spot checks: A half-elf does not have the elf&#39;s ability to notice secret doors simply by passing near them. Half-elves have keen senses, but not as keen as those of an elf.</p><p>\u0001+2 racial bonus on Diplomacy and Gather Information checks: Half-elves get along naturally with all people.</p><p>\u0001Elven Blood: For all effects related to race, a half-elf is considered an elf. Half-elves, for example, are just as vulnerable to special effects that affect elves as their elf ancestors are, and they can use magic items that are only usable by elves. (See the Monster Manual for more information about elves, and the Dungeon Master&#39;s Guide for more on magic items.)</p><p>Automatic Languages: Common and Elven. Bonus Languages: Any (other than secret languages, such as Druidic). Half-elves have all the versatility and broad (if shallow) experience that humans have.</p>",
@@ -243,7 +254,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "14": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -257,7 +270,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "15": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -271,7 +286,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "16": {
     "description": "<h3>Description</h3><p>Half-ogres are taller than humans or half-orcs, but not as tall as pure-blood ogres. Their skin color ranges from dull yellow to dull brown. Their thick hides sport patches of dark, warty bumps, and they generally have dark hair.</p><h3>Combat</h3><h3>Racial Traits</h3><p><strong>Darkvision:</strong> Half-ogres have darkvision with a range of 60 feet. <br /><strong>Giant Blood:</strong> For all special abilities and effects, a half-ogre is considered a giant. Half-ogres can use giant weapons and magic items with racially specific giant powers as if they were giants.</p>",
@@ -288,15 +305,15 @@
     "reach": 10,
     "natural armor": 4,
     "automatic languages": [
-      "Common",
-      "Giant"
+      "6",
+      "17"
     ],
     "bonus languages": [
-      "Abyssal",
-      "Draconic",
-      "Gnoll",
-      "Goblin",
-      "Orc"
+      "1",
+      "10",
+      "18",
+      "20",
+      "26"
     ]
   },
   "17": {
@@ -311,7 +328,9 @@
     "CHA": -2,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "18": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -325,7 +344,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "19": {
     "description": "<h3>Description</h3><p>Hengeyokai are intelligent, shapechanging animals, able to shift freely between human and animal forms, as well as a bipedal, animalistic form. Several subraces exist, defined by the kind of animal form they can assume. They are typically found on the fringes of human-settled lands, where they can mingle in human form but retreat to solitude when they desire. Hengeyokai are not found in Rokugan.</p><p>In animal form, hengeyokai are almost indistinguishable from normal animals except through magic. Naturally, their behavior often provides proof of their intelligence, so careful observation of a hengeyokai in animal form can reveal that it is not what it appears to be.</p><p>Hengeyokai can also assume a bipedal, animalistic (&quot;hybrid&quot;) form. They stand on their hind legs (or similar appendages) to the height of their human form. The front paws, wings, or fins change into hands, capable of gripping and using normal equipment. The rest of the body retains the general appearance of the animal, including fur, feathers, wings, tail, and other characteristic features, but in the overall shape of a humanoid head and torso.</p><p>In human form, hengeyokai look exactly like normal humans, though (like lycanthropes) they often display some feature associated with their animal form. For example, a sparrow hengeyokai might have a sharply pointed nose, while a rat hengeyokai might have beady eyes and a long mustache.</p><h3>Combat</h3><h3>Racial Traits</h3><p>-2 Wisdom. Hengeyokai tend to be flighty and weak-willed. A hengeyokai&#39;s physical ability scores vary widely in its animal and hybrid forms; the character&#39;s generated ability scores apply to its human form. In hybrid form, a hengeyokai gains a +2 adjustment to one physical ability score, as shown on Table 1&#8212;2: Hengeyokai Hybrid Forms. Its physical ability scores in animal form are average for its animal type, as shown on Table </p><table><tr><th>Animal </th><th>Ability Modifier </th><th>Special </th></tr><tr><td> Badger </td><td> +2 Con </td><td> Speed 20 ft., burrow 30 ft. </td></tr><tr><td> Carp </td><td> +2 Dex </td><td> Speed 20 ft., Swim 30 ft. </td></tr><tr><td> Cat </td><td> +2 Dex </td><td> +4 balance </td></tr><tr><td> Crab </td><td> &#8212; </td><td> +1 natural armor, +4 Swim </td></tr><tr><td> Crane </td><td> +2 Dex </td><td> Speed 20 ft., Fly 20 ft., (average) </td></tr><tr><td> Dog </td><td> +2 Con </td><td> +4 Wilderness Lore when tracking by scent </td></tr><tr><td> Fox </td><td> +2 Dex </td><td> +4 Escape Artist </td></tr><tr><td> Hare </td><td> +2 Dex </td><td> Speed 40 ft. </td></tr><tr><td> Monkey </td><td> +2 Dex </td><td> +4 Climb </td></tr><tr><td> Raccoon dog </td><td> +2 Str </td><td> +4 Wilderness Lore when tracking by scent </td></tr><tr><td> Rat </td><td> +2 Dex </td><td> +4 Hide </td></tr><tr><td> Sparrow </td><td> +2 Dex </td><td> Speed 20 ft., fly 20 ft., (average) </td></tr><tr><td> Weasel </td><td> Tiny </td><td> +4 Move Silently </td></tr></table><p><strong>Alternate Form:</strong> Hengeyokai can change shape, assuming one of three possible forms. This supernatural ability functions like the <a href=\"/spells/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/polymorph-other--3421/\"><em>polymorph other</em></a> spell, but a hengeyokai can change form a number of times per day equal to 1 plus his character level. Thus, a 1st-level hengeyokai can switch from human form to animal form and back again in a single day. Changing form is a full-round action that does provoke attacks of opportunity, as with the polymorph self spell. A hengeyokai&#39;s animal form is a normal animal of Small or smaller size. Possible animal forms include badger, carp, cat, crab, crane, dog, fox, hare, monkey, raccoon dog, rat, sparrow, and weasel. Equipment the hengeyokai is wearing or carrying transforms to become part of the animal form (as with <a href=\"/spells/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/polymorph-other--3421/\"><em>polymorph other</em></a>), and magic items cease functioning while the hengeyokai remains in animal form. In animal form, hengeyokai has low-light vision and the supernatural ability to communicate with other animals of its kind. This is the same as a familiar&#39;s ability to speak with animals of its type. Hengeyokai have the size, speed, AC, damage rating, and physical ability scores shown on Table 1&#8212;3: Hengeyokai Animal Forms. In animal form, a hengeyokai is effectively disguised as an animal, gaining a +10 bonus on Disguise checks while in this form.</p><table><tr><th>Animal </th><th>Size </th><th>Speed </th><th>AC </th><th>Damage </th><th>Str </th><th>Dex </th><th>Con </th></tr><tr><td> Badger </td><td> Tiny </td><td> 30 ft., burrow 10ft. </td><td> 15 (+2 size, +3 Dex) </td><td> 2 claws 1d2-1, bite 1d3-1 </td><td> 8 </td><td> 17 </td><td> 15 </td></tr><tr><td> Carp </td><td> Diminutive </td><td> Swim 10ft. </td><td> 19 (+4, size, +5 dex) </td><td> &#8212; </td><td> 1 </td><td> 20 </td><td> 10 </td></tr><tr><td> Cat </td><td> Tiny </td><td> 30 ft. </td><td> 14 (+2 size, +2 Dex) </td><td> 2 claws 1d2 -4, bite 1d3-4 </td><td> 3 </td><td> 15 </td><td> 10 </td></tr><tr><td> Crab </td><td> Diminutive </td><td> 15ft. </td><td> 18 (+4 size, +3 Dex, +1 natural) </td><td> 2 claws 1d2-5 </td><td> 1 </td><td> 17 </td><td> 10 </td></tr><tr><td> Crane </td><td> Small </td><td> 5 ft., fly 60 ft. </td><td> 14 (+1 size, +3 Dex) </td><td> Bite 1d4-2 </td><td> 6 </td><td> 16 </td><td> 10 </td></tr><tr><td> Dog </td><td> Small </td><td> 40 ft. </td><td> 15 (+1 size, +3 Dex, +1 natural) </td><td> Bite 1d4+1 </td><td> 13 </td><td> 17 </td><td> 15 </td></tr><tr><td> Fox </td><td> Small </td><td> 40ft. </td><td> 15 (+1 size, +4 Dex) </td><td> Bite 1d4 </td><td> 11 </td><td> 19 </td><td> 11 </td></tr><tr><td> Hare </td><td> Tiny </td><td> 40ft. </td><td> 16 (+2 size, +4 Dex) </td><td> Bite 1d3-5 </td><td> 1 </td><td> 19 </td><td> 10 </td></tr><tr><td> Monkey </td><td> Tiny </td><td> 30 ft., climb 30 ft. </td><td> 14 (+2 size, +4 Dex) </td><td> Bite 1d3-4 </td><td> 3 </td><td> 15 </td><td> 10 </td></tr><tr><td> Raccoon dog </td><td> Small </td><td> 30 ft. </td><td> 13 (+1 size, +2 Dex, +1 natural) </td><td> Bite 1d4 +1 </td><td> 12 </td><td> 13 </td><td> 12 </td></tr><tr><td> Rat </td><td> Tiny </td><td> 15 ft., climb 15 ft. </td><td> 14 (+2 size, +2 Dex) </td><td> Bite 1d3-4 </td><td> 2 </td><td> 15 </td><td> 10 </td></tr><tr><td> Sparrow </td><td> Fine </td><td> 1 ft., fly 50 ft. </td><td> 14 (+8 size, +6 Dex) </td><td> &#8212; </td><td> 1</td><td> 23 </td><td> 10 </td></tr><tr><td> Weasel </td><td> Tiny </td><td> 20 ft., climb 20 ft. </td><td> 14 (+2 size, +2 Dex) </td><td> Bite 1d3-4 </td><td> 3 </td><td> 15 </td><td> 10 </td></tr></table><p>Hengeyokai in hybrid form retain their low-light vision and the ability to communicate with animals of their type. Their physical characteristics are based on their abilities in human form, modified as shown on Table 1&#8212;2: Hengeyokai Hybrid Forms. In this form, a hengeyokai can typically wear light or medium armor without modification, but wearing heavy armor is impossible. Equipment worn or carried by a hengeyokai in human form does not transform when the hengeyokai assumes hybrid form. When a hengeyokai in animal form assumes hybrid form, her equipment returns to its normal form and magic items resume functioning.</p><p><strong>Shapechanger:</strong> Hengeyokai are shapechangers, not humanoids. As such, they are immune to spells that specifically target humanoids (including <a href=\"/spells/players-handbook-v35--6/charm-person--2535/\"><em>charm person</em></a> and <a href=\"/spells/players-handbook-v35--6/hold-person--2558/\"><em>hold person</em></a>), but are susceptible to any spells that target shapechangers.</p>",
@@ -341,14 +362,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Hengeyokai"
+      "6",
+      "22"
     ],
     "bonus languages": [
-      "Giant",
-      "Goblin",
-      "Nezumi",
-      "Spirit Tongue"
+      "17",
+      "20",
+      "25",
+      "31"
     ]
   },
   "20": {
@@ -363,7 +384,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "21": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -377,7 +400,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "22": {
     "description": "<h3>Description</h3><p>erren are halflings, although they despise that name. About two hundred years ago, the Jerren were typical nomadic halflings who inhabited a wide prairie. Every spring, they were beset by goblins and bugbears from the nearby hills. These raids cost the Jerren dearly in lives and food, eventually threatening to wipe out the halflings entirely. The leaders of the various Jerren clans gathered one winter and made a harsh decision. They called upon all the spellcasters among the Jerren and gave them access to corrupt magic secured from a secret source. They armed each warrior with terrible poisons and weapons designed to spread disease and plague among the goblinoids.</p><p>The next spring, the ensuing war between the Jerren and their enemies threatened to wipe out both sides. Blood stained the prairie. Even with their new tactics, the Jerren would have lost, except that their previous decision opened the door to further malevolence. Soon the halflings were committing atrocities against their enemies that even the goblins and bugbears found repulsive. When the latter retreated into the hills, the Jerren fol- lowed them. Soon all that remained of the goblinoids were heads upon spikes positioned throughout the hills and grisly scenes that suggested bloody sacrifices made to evil gods.</p><p>Today, the plains are inhabited by terrible bands of vicious halflings who seek to overcome, feed upon, and corrupt all those they can hunt down and catch. All travelers and prairie-dwellers fear Jerren hunters.</p><h3>Combat</h3><h3>Racial Traits</h3><p>+2 Dexterity, &#8212;2 Strength: Jerren are quick, agile, and skilled with ranged weapons, but they are Small and therefore not as strong as other humanoids.</p><p>+2 racial bonus on Intimidate, Bluff, and Move Silently checks. Jerren are scary, untruthful, and sneaky.</p><p>+1 racial bonus on all saving throws. Jerren are surprisingly capable of avoiding mishaps.</p><p>+2 morale bonus on saving throws against fear. (This bonus stacks with Jerren&#39;s +1 bonus on saving throws in<br />general.)</p><p>+1 racial bonus on attack rolls with a thrown weapon. Jerren delight in inflicting harm from afar.</p><p>+2 racial bonus on Listen checks. Jerren are quite skilled in overhearing secrets.</p>",
@@ -393,14 +418,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Halfling"
+      "6",
+      "21"
     ],
     "bonus languages": [
-      "Abyssal",
-      "Goblin",
-      "Infernal",
-      "Orc"
+      "1",
+      "20",
+      "23",
+      "26"
     ]
   },
   "23": {
@@ -417,12 +442,12 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Quori"
+      "6",
+      "27"
     ],
     "bonus languages": [
-      "Draconic",
-      "Riedran"
+      "10",
+      "28"
     ]
   },
   "24": {
@@ -439,14 +464,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Dwarven"
+      "6",
+      "14"
     ],
     "bonus languages": [
-      "Giant",
-      "Goblin",
-      "Hengeyokai",
-      "Sylvan"
+      "17",
+      "20",
+      "22",
+      "32"
     ]
   },
   "25": {
@@ -461,7 +486,9 @@
     "CHA": -2,
     "level adjustment": 3,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "26": {
     "description": "<h3>Description</h3><p>Lupins exist at the crux of a duality, torn constantly between two mythological beginnings. Most of these dog-headed humanoids rarely ponder the subject, living their lives in the comfort of their individual families, saving such speculation for the quiet times of their infirm years. However, nonlupin sages and historians (with lupin input) frequently consider and debate this issue. democracy and usually operate without a leader (although elders in the tribe can often sway the votes of younger members). Once per year, the tribe selects a spokesperson from among the packs&#39; elders as a representative. This individual cannot hold the post longer than a year and cannot be selected again until an elder from every other pack in the tribe has acted as spokesperson. The selected elder (and a retinue of unwed youths) then travels to a gathering of other spokesperson lupins from nearby tribes. This gathering, the White Howl, acts as both a meeting for important discussions among the elders as well as a chance for young lupins to find mates from outside the tribe. A White Howl often degenerates into a wine-soaked celebration that lasts for up to three weeks.</p><p>Although most people consider the debate purely academic, lupin spiritual leaders actively argue two versions of their creation. The original and most popular creation story comes down from their ancient oral tradition, marking lupins as descendants of werewolves who rejected the chaos of their monthly murderous sprees. Proponents of this theory point to the uncanny ability of lupins to sniff out werewolves as well as the obvious physical similarities. The newer origin theory, originally proposed by the lupin sage Hector Roff, argues that the fanatic enmity between lycanthropes and lupins comes from stresses placed upon the lupins by other races. Followers of his theory, called Hectorites, propose that their race came from the union of humans and gnolls, and that early lupins became famed werewolf hunters to prove to fearful human neighbors that they indeed were not werewolves themselves. Most lupins consider this theory preposterous, although the younger generations seem to favor this less idealistic belief</p><p>Regardless of their origin, lupins have always had a tie to werewolves. The day after a lupin child proves itself weaned by eating solid foods, the village werewolf hunters, called hruffs, begin teaching it the basics of killing lycanthropes. This day, known as the child&#39;s Moonset, is only the first rite of passage for a lupin. At puberty, lupins undergo another rite, called ro&#39;rutoo (for boys) or ro&#39;rutah (for girls). The exact rite varies from tribe to tribe, but it typically includes spending a night on the grasslands with only a mount as company. Succeeding at this rite makes the young lupin an official member of the tribe, and allows him or her the chance to venture with an elder to a White Howl. Once a lupin&#39;s muzzle and head hair begin to whiten (a natural change for the race that comes with age) he passes through one final rite composed of fasting and intense meditation. At the conclusion of this rite, the old lupin is recognized as an elder and becomes eligible for the greatest of honors: to represent the tribe in a White Howl.</p><p>Lupins live in tribes consisting of three to twelve packs, and each pack contains two to ten adults (and several pups). Lupin tribes practice strict egalitarian democracy and usually operate without a leader (although elders in the tribe can often sway the votes of younger members). Once per year, the tribe selects a spokesperson from among the packs&#39; elders as a representative. This individual cannot hold the post longer than a year and cannot be selected again until an elder from every other pack in the tribe has acted as spokesperson. The selected elder (and a retinue of unwed youths) then travels to a gathering of other spokesperson lupins from nearby tribes. This gathering, the White Howl, acts as both a meeting for important discussions among the elders as well as a chance for young lupins to find mates from outside the tribe. A White Howl often degenerates into a wine-soaked celebration that lasts for up to three weeks.</p><p>The lupins&#39; semi-nomadic life centers upon villages composed of wooden longhouses built in a radial pattern surrounding a community space. In the middle of this space, the lupins maintain a continuous flame known as a bg&#39;tyr. Even when the tribe moves from its village to wander the relatively dry plains for the three months of summer, the tribe&#39;s bg&#39;tyr continues to burn inside a copper-lined cedar bowl. The task of keeping the bg&#39;tyr lit falls upon a group of lupin girls too young to bear children&#8212;one such pup from each pack within the tribe. These girls, known as bg&#39;tyr mates, often grow to prominence within the community in adulthood.</p><p>Many lupin tribes consider the week of the full moon an important religious time. During the three days when the moon is brightest, hruffs from nearby villages join to form hunting packs known as ah&#39;flir. These ah&#39;flir packs have the specific purpose of hunting down and killing as many werewolves and other lycanthropes as possible.</p><p><strong>Personality:</strong> All lupins consider trust and loyalty the hallmarks of responsible social behavior. They generally work for the well-being of their community, whether a tribe, a multiracial druidic circle, or an adventuring group. A lupin always knows his duty, and he rarely relinquishes it without good cause. Dedicated and patient, lupins excel at tasks that might require long periods of waiting, and as such make exceptional trackers, vintners, and hunters.</p><p>Lupins enjoy social interactions, and despise being alone. They make friends easily, and they enjoy crowds (although not necessarily as the center of attention). Perhaps because they give their friendship and loyalty so easily, lupins hold strong grudges against those who betray their trust. Many former business partners or adventuring companions have died at the hands of lupins who felt taken advantage of or deceived.</p><p><strong>Physical Description:</strong> Built like humans with the heads of dogs, many creatures mistake lupins for gnolls or werewolves from a distance. A short coat of fur covers a lupin from head to toe, while longer, silkier hair (much like a human&#39;s) grows from the top of their heads. A lupin&#39;s body fur tends to be monochromatic, ranging from a light gray through all the shades of brown to black, with occasional lupins sporting coats of brick red or golden yellow. Extraordinarily rare white- coated lupins do exist, but few nonlupins ever see them. Some lupins have a lighter shade of their body fur on their muzzle, ears, and around their eyes, while their head hair tends toward slightly darker shades. White muzzle fur and head hair mark lupin elders.</p><p>Thick, leathery skin covers the palms oflupin hands and the soles of their feet, and they usually keep their clawlike fingernails and toenails cut short. Lupins have short, nonprehensile tails that they sometimes have difficulty controlling (especially when anxious or excited).</p><p><strong>Relations:</strong> As social and gregarious creatures, lupins get along well with virtually all races. Only gnolls, goblinoids, and werewolves need fear inhospitable treatment from them. Lupins consider dwarves and half-orcs smelly and less desirable as companions or guests than elves, half-elves, or halflings. The musky scents of gnomes and humans also often agitate lupins&#39; sensitive noses, but not to the extent that they avoid those races. Regardless, the metal goods that dwarves and gnomes often bring to lupin lands buy such guests lavish accommodations and sincere (if sometimes forced) invitations to return. For their part, dwarves enjoy the steadiness and patience of lupins, while elves favor their gregarious natures and love of wild places. Lupins don&#39;t care for cities and prefer settlements no larger than a small town.</p><p><strong>Alignment:</strong> Their strong beliefs in community, loyalty, and trust mark lupins as highly lawful creatures. Generosity and pity for the poor define the race, but lupins also tend to hold grudges and refuse aid to those who have wronged them in the past. Thus, many lupins are either lawful good or lawful neutral. Only rare exceptions become chaotic or evil.</p><p><strong>Lupin Lands:</strong> Lupins tend to live within thick forests near open grasslands. Some ride fast horses or dire wolves across the steppes to bring down deer, antelope, and elk while others stay nearer their longhouses to fish or pick berries and nuts. Lupins warily watch anyone who enters the lands they consider theirs but usually allow other races to move through their territory unmolested. They actively make war against goblinoids and gnolls who venture too close to the vast swaths of territory they travel.</p><p><strong>Religion:</strong> Like many other races, lupins have a pantheon of godlike beings to whom they pay homage. They call their deities Saints, which consist of lupins who achieved immortal greatness. Saint Renard, the chief lupin deity, represents what Pelor does to humans. Lupins respect their deities and treat them as firsts among equals, but they neither fear nor worship those in their pantheon. They find temples and organized worship fascinating, if a little silly, and rarely give more thought to their deities than a simple thanks when they bed down for the night.</p><p><strong>Language:</strong> Lupins speak thickly accented Common among nonlupin visitors. When among their own kind, they speak Lupin, a visual as well as verbal language consisting of words as well as growls, barks, and subtle shifts of the body. The Lupin language has no &quot;s,&quot; as lupins&#39; long muzzles make it difficult for them to create the sound. Many of their words have only one or two syllables and begin with hard consonants. The language also tends to use the short &quot;o&quot; and short &quot;u&quot; sounds and ends many of its words with a hard &quot;f.&quot;</p><p><strong>Names:</strong> Lupins usually present their young with two given names combined with a hyphen when written: one name from the father (usually one of his parents&#39; names) and one name from the mother (usually one of her parents&#39; names). Thus, a male pup whose grandfathers are Lab-Crott and Hector-Roff might get the names Hector-Lab or Roff-Crott. The parents usually choose which name comes first based purely on how the two names sound together. Female names make more use of &quot;a&quot; sounds and often end with a vowel or a trailing &quot;n&quot; sound.</p><p><strong>Male Names:</strong> Crott, Hector, Lab, Mattaff, Renard, Roff, Turff.</p><p><strong>Female Names:</strong> Arann, Carra, Fikenn, Likka, Jakka, Rottie, Warra.</p><p><strong>Adventurers:</strong> Lupins adventure for many of the same reasons as rangers or druids of any race. They excel as hunters and trackers, and tend to leave their tribes as outcasts or as youths caught in wanderlust. Lupins put aside their fears and desire to stay with their tribe in order to hunt werewolves. In a land or world infested with lycanthropes, lupins stand on the front lines and often wage personal wars against these hated shapeshifters.</p><h3>Combat</h3><h3>Racial Traits</h3><ul><li>Monstrous Humanoid: As monstrous humanoids, lupins are immune to spells that only affect humanoids, such as <em>charm person</em> and <em>hold person.</em></li><li>Medium: As Medium creatures, lupins have no special bonuses or penalties due to size.</li><li>Lupin base land speed is 30 feet.</li><li>Darkvision: Lupins can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and lupins can function just fine with no light at all.</li><li>Acute Sense of Smell:</li></ul><p>In many ways, a lupin&#39;s acute sense of smell works like the scent ability but without the automatic nature of scent. A lupin&#39;s nose allows it to locate and identify certain races and creatures by their smell, and to aid it in tracking.</p><p>A lupin automatically gets to attempt a DC 10 Wisdom check to detect a lycanthrope within 30 feet, regardless of what form the creature takes. If the lycanthrope is upwind, the range at which a lupin can detect it doubles. If it is downwind, the range is halved.</p><p>A lupin has a better ability to detect and distinguish the scents of creatures than a human. This gives the lupin a +5 racial bonus on Spot checks made to oppose a known individual&#39;s Disguise check if the individual comes within 5 feet.</p><p>A lupin within 5 feet of an invisible or hidden creature is entitled to a DC 10 Wisdom check as a free action to pinpoint that creature.</p><p>A lupin gains a +2 racial bonus on all Survival checks made to follow tracks. Lupins can&#39;t track by smell alone, but the olfactory clues they find aid their tracking techniques.</p><ul><li>Lupins take a -2 penalty on all saving throws against attacks based on odor (such as a stinking cloud spell or a ghast&#39;s stench).</li><li>Expert Rider: Lupins always consider Ride a class skill, and they gain a +2 bonus on all Ride checks. Lupins rely on strong mounts while making their yearly nomadic movements, and even settled lupins purchase a horse as soon as they can.</li><li>+1 bonus on attack rolls and damage rolls against werewolves. As soon as they are weaned, lupins begin learning techniques to fight their ancient foes.</li><li>+2 bonus on Listen checks: Lupins have a keen sense of hearing.</li><li>Automatic Languages: Common and Lupin. Bonus languages: Elven, Gnoll, Gnome, Goblin, Halfling, and Sylvan. Lupins tend to learn the languages of both their enemies and their friends.</li><li>Favored Class: Ranger. A multiclass lupin&#39;s ranger class does not count when determining whether he takes an experience point penalty for multiclassing. The lupins&#39; keen senses make them natural trackers. Lupin rangers may choose humanoid (shapechanger) as a favored enemy.</li></ul>",
@@ -477,15 +504,15 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Lupin"
+      "6",
+      "24"
     ],
     "bonus languages": [
-      "Elven",
-      "Gnoll",
-      "Gnome",
-      "Halfling",
-      "Sylvan"
+      "15",
+      "18",
+      "19",
+      "21",
+      "32"
     ]
   },
   "27": {
@@ -503,13 +530,13 @@
     "reach": 10,
     "natural armor": 5,
     "automatic languages": [
-      "Common",
-      "Giant"
+      "6",
+      "17"
     ],
     "bonus languages": [
-      "Goblin",
-      "Orc",
-      "Terran"
+      "20",
+      "26",
+      "33"
     ],
     "racial hit dice": "6",
     "racial base attack": 6,
@@ -533,12 +560,12 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Nezumi",
-      "Rokugani"
+      "25",
+      "29"
     ],
     "bonus languages": [
-      "Bakemono",
-      "Shadowlands"
+      "4",
+      "30"
     ]
   },
   "29": {
@@ -555,14 +582,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common"
+      "6"
     ],
     "bonus languages": [
-      "Dwarven",
-      "Giant",
-      "Gnoll",
-      "Goblin",
-      "Undercommon"
+      "14",
+      "17",
+      "18",
+      "20",
+      "34"
     ]
   },
   "30": {
@@ -577,7 +604,9 @@
     "CHA": 2,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "31": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -591,7 +620,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "32": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -605,7 +636,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "33": {
     "description": "<h3>Description</h3><h3>Combat</h3><h3>Racial Traits</h3>",
@@ -619,7 +652,9 @@
     "CHA": 0,
     "level adjustment": 0,
     "space": 10,
-    "reach": 10
+    "reach": 10,
+    "automatic languages": [],
+    "bonus languages": []
   },
   "34": {
     "description": "<h3>Description</h3><p>Spirit folk are the descendants of humans and various spirits of nature . Spirit folk have three distinct races-bamboo, river, and sea spirit folk . All tie very strongly to the natural world as well as to the society of humans. Spirit folk are not found in Rokugan. </p><p><strong>Physical Description:</strong> Spirit folk look human. Their eyes are slender and their mouths are small. Their eyebrows are very thin and their complexions are very pale or golden . They have no facial or body hair, but the hair on their heads is thick and luxurious. They appear in all the diversity of humans, and many come close to the ideal of human beauty in their society.</p><h3>Combat</h3><h3>Racial Traits</h3><p>+2 racial bonus on Wilderness Lore checks.</p><p>+4 racial bonus on Hide checks when in woods or forest.</p><p><strong>Trackless Step:</strong> Bamboo spirit folk leave no trail in natural surroundings and cannot be tracked.</p><p>+2 racial bonus on saving throws against spells and spell-like effects with the words &quot;earth,&quot; &quot;rock,&quot; &quot;stone,&quot; or &quot;wood&quot; in the name of the effect, shugenja spells of the earth element, and wu jen spells connected to earth or wood.</p><p><strong>Low-light Vision:</strong> Spirit folk can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination . They retain the ability to distinguish color and detail under these conditions.</p><p>Once per day a bamboo spirit folk can use <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\"><em>speak with animals</em></a> to speak with any animal . This ability is innate to bamboo spirit folk . It has a duration of 1 minute (the spirit folk is considered a 1st-level caster when using this ability, regardless of actual level) . </p><p><strong>Low-light Vision:</strong> Spirit folk can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination . They retain the ability to distinguish color and detail under these conditions.</p><p><strong>Favored Class:</strong> Any. When determining whether a multiclass spirit folk suffers an XP penalty, her highest-level class does not count.</p>",
@@ -635,15 +670,15 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Spirit Tongue"
+      "6",
+      "31"
     ],
     "bonus languages": [
-      "Aquan",
-      "Giant",
-      "Goblin",
-      "Hengeyokai",
-      "Nezumi"
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
     ]
   },
   "35": {
@@ -660,15 +695,15 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Spirit Tongue"
+      "6",
+      "31"
     ],
     "bonus languages": [
-      "Aquan",
-      "Giant",
-      "Goblin",
-      "Hengeyokai",
-      "Nezumi"
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
     ]
   },
   "36": {
@@ -685,15 +720,15 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Spirit Tongue"
+      "6",
+      "31"
     ],
     "bonus languages": [
-      "Aquan",
-      "Giant",
-      "Goblin",
-      "Hengeyokai",
-      "Nezumi"
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
     ]
   },
   "37": {
@@ -710,12 +745,10 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Feline"
+      "6",
+      "16"
     ],
-    "bonus languages": [
-      "Any"
-    ]
+    "bonus languages": []
   },
   "38": {
     "description": "<h3>Description</h3><p>Tieflings appear human at a glance, although they all possess one unnatural feature that reveals there infernal heritage. At the least, tieflings have a disturbing demeanor or carry a whiff of brimstone about them, but most also possess small horns, red eyes, or needle-sharp teeth. In extreme cases tieflings may have a barbed tail or cloven feet. No two tieflings have the same appearance.</p><h3>Combat</h3><p>Tieflings are sneaky, subtle, and generally conniving. They prefer to strike from ambush and usually avoid a fair fight if they can.</p><h3>Racial Traits</h3><p> <ul><li>Darvision 60ft.</li><li>+2 bonus on bluff and hide checks</li><li>Darkness 1/day as a 1st level caster or a caster of her class level, whichever is higher</li></ul>*</p>",
@@ -731,17 +764,17 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Infernal"
+      "6",
+      "23"
     ],
     "bonus languages": [
-      "Draconic",
-      "Dwarven",
-      "Elven",
-      "Gnome",
-      "Goblin",
-      "Halfling",
-      "Orc"
+      "10",
+      "14",
+      "15",
+      "19",
+      "20",
+      "21",
+      "26"
     ]
   },
   "39": {
@@ -758,14 +791,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common"
+      "6"
     ],
     "bonus languages": [
-      "Drow",
-      "Dwarven",
-      "Gnome",
-      "Goblin",
-      "Orc"
+      "11",
+      "14",
+      "19",
+      "20",
+      "26"
     ]
   },
   "40": {
@@ -782,14 +815,14 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common",
-      "Vanara"
+      "6",
+      "35"
     ],
     "bonus languages": [
-      "Giant",
-      "Goblin",
-      "Spirit Tongue",
-      "Sylvan"
+      "17",
+      "20",
+      "31",
+      "32"
     ]
   },
   "41": {
@@ -806,11 +839,9 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [
-      "Common"
+      "6"
     ],
-    "bonus languages": [
-      "Any"
-    ]
+    "bonus languages": []
   },
   "42": {
     "description": "<h3>Description</h3><p>Whisper gnomes outwardly resemble common <a href=\"/races/players-handbook-v35--6/gnome--12/\">gnomes</a>, but they lack the jovial nature and easy outlook on life that their more common relatives enjoy. Instead, whisper gnomes are creatures of stealth and suspicion. In profession and behavior, they range from dangerous spies to peaceful recluses. Few mempers of other races can match a whisper gnome&#39;s powers of stealth, and whisper gnome scouts and rangers always stalk any creatures that come within a few miles of their hidden hillside communities.</p><p>Whisper gnomes reluctantly ally themselves with common <a href=\"/races/players-handbook-v35--6/gnome--12/\">gnomes</a> and other races when necessary. They know that they lack the physical strength and numbers to stand completly on their own.</p><p><strong>Personality:</strong> Whisper gnomes are quiet, suspicious sorts who find it hard to build lasting relationships with members of other races. Although no other race is openly friendly with these reclusive individuals, no race bears them active malice either. Often, whisper gnomes share information about inmending threats when allying themselves with more powerful or numerous humanoid races; in most cases, this arrangement has worked out extremely well for both sides. If the whisper gnomes&#39; allies find themselves short of a few valuables after the gnomes have left their community, the losses are offset by the whisper gnomes&#39; valuable scouting and information-gathering abilities.</p><p><strong>Physical Description:</strong> Whisper gnomes are slightly taller than other <a href=\"/races/players-handbook-v35--6/gnome--12/\">gnomes</a>, standing between 3-1/2 and 4 feet tall. Whisper gnomes are skinny, almost gaunt creatures, and rarely weigh more than 40 pounds. Their skin ranges in color from light gray to light green, although none of this variation in skin tone is noticeable without careful attention. Whisper gnomes have gray or blue eyes, but agains they are rarely bright or striking in intensity.</p><p><strong>Relations:</strong> Many other humanoid races regard whisper gnomes as they would an untrustworthy cousin &#8211; they know that whisper gnomes are unlikely to do any lasting harm or steal their most precious items, but at the same time, they deserve to be watched carefully. <a href=\"/races/players-handbook-v35--6/dwarf--4/\">Dwarves</a> in particular distrust whisper gnomes; these serious and stoic individuals let whisper gnomes into their cities only under the direst of circumstances.</p><p><a href=\"/races/players-handbook-v35--6/elf--2/\">Elves</a>, <a href=\"/races/players-handbook-v35--6/human--5/\">humans</a> and <a href=\"/races/players-handbook-v35--6/half-elf--3/\">half-elves</a> generally tolerate whisper gnomes. Of all the other races, <a href=\"/races/players-handbook-v35--6/halfling--15/\">halflings</a> are the most accepting of whisper gnomes, and many whisper gnomes travel for a time with halfling caravans.</p><p><a href=\"/races/players-handbook-v35--6/half-orc--7/\">Half-orcs</a> and whisper gnomes get along very well. Whether because the two races are such opposites that they end up respecting the other&#39;s strengths, or because they both often find themselves outcast from other races, they seem to enjoy each other&#39;s company and approach to life. <a href=\"/races/players-handbook-v35--6/half-orc--7/\">Half-orcs</a> with nowhere else to go occasionally settle in a whisper gnome community.</p><p><strong>Alignment:</strong> Most whisper gnomes are neutral or neutral good. Whisper gnomes favor personal freedom and choice, but at the same time they value an ordered community and respect the rights of others and &#8211; to an extent &#8211; the property of others.</p><p><strong>Whisper Gnomes Lands:</strong> Whisper gnomes live in and among the communities of more common gnomes, or they form small, carefully hidden communities of their own. They favor the rolling hills and light woods that other gnomes enjoy, and like their distant cousins, they live underground.</p><p>Whisper gnomes who want a more active lifestyle settle in human lands and find work as spies, emissaries, or as simple thieves.</p><p><strong>Religion:</strong> Whisper gnomes pay homage to Garl Glittergold, but many also venerate Olidamarra. Whisper gnomes are very open-minded about religion, and they find the single-minded religious devotion of other races strange and confining. Most whisper gnomes believe it expedient to pay attention to whatever deity can help them the most in their current situation, and they do not see it as strange to frequently pray to different deities.</p><p><strong>Language:</strong> Whisper gnomes speak Gnome, which uses the Dwarven alphabet. Most whisper gnomes also speak Terran, and they sometimes use that tongue as a sort of semisecret code when in the company of other races.</p><p><strong>Names:</strong> Whisper gnomes consider names as semipermanent aliases at best, and one usually goes by a different name in each nongnome community he or she visits. When among other <a href=\"/races/players-handbook-v35--6/gnome--12/\">gnomes</a> (of any kind), whisper gnomes usually stick to the names given to them by their parents. Whisper gnome family names are similar to, but not exactly like, the clan names of common <a href=\"/races/players-handbook-v35--6/gnome--12/\">gnomes</a>.</p><p><em>Male Names:</em> Alth, Fash, Threan.</p><p><em>Female Names:</em> Bella, Freith, Geim, Mala, Nan.</p><p><em>Family Names:</em> Bermin, Daergel, Falath, Shrenan.</p><p><strong>Adventurers:</strong> Whisper gnome adventurers travel to test themselves. They seek not only to try out their powers of speed and stealth against the physical strength of larger creatures, but also to test their own moral limits. Many adventuresome whisper gnomes know that they are capable of stealing from humans and other creatures that can&#39;t hope to compete with their powers of stealth, and they seek some rationale for why they shouldn&#39;t take advantage of this superiority.</p><h3>Combat</h3><h3>Racial Traits</h3><ul><li>+2 Dexterity, +2 Constitution, -2 Strength, -2 Charisma: Whisper gnomes are agile and tough, but they are Small and therefore not as strong as larger humanoids. Their quiet nature also leads to a lack of personal presence.</li></ul><ul><li>Small: As a Small creature, a whisper gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than <a href=\"/races/players-handbook-v35--6/human--5/\">humans</a> use, and his lifting and carrying limits are three-quarters of those of a Medium character.</li></ul><ul><li>Whisper gnome base land speed is 30 feet, despite their size.</li></ul><ul><li>Low-Light Vision: A whisper gnome can see twice as far as a <a href=\"/races/players-handbook-v35--6/human--5/\">human</a> in starlight, moonlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.</li></ul><ul><li>Darkvision: Whisper gnomes can see in the dark out to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and whisper gnomes can function just fine with no light at all.</li></ul><ul><li>Weapon Familiarity: Whisper gnomes treat gnome hooked hammers as martial weapons rather than exotic weapons.</li></ul><ul><li>+1 racial bonus on attack rolls against kobolds and goblinoids (including goblins, hobgoblins, and bugbears): Like their more common cousins, whisper gnomes battle these creatures frequently and practice special techniques for fighting them.</li></ul><ul><li>+4 dodge bonus to Armor Class against monsters of the giant type (such as ogres, trolls, and hill giants): This bonus represents special training that whisper gnomes undergo, during which they learn tricks that previous generations developed in their battles with giants. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it&#39;s caught flat-footed, it loses its dodge bonus, too. The Monster Manual has information on which creatures are of the giant type.</li></ul><ul><li>+4 racial bonus on Hide and Move Silently checks: Whisper gnomes have an uncanny knack for stealth.</li></ul><ul><li>+2 racial bonus on Listen and Spot checks: Whisper gnomes have keen eyes and ears.</li></ul><ul><li>Spell-Like Abilities: 1/day &#8211; <a href=\"/spells/players-handbook-v35--6/silence--2704/\"><em>silence</em></a> (must be centered on whisper gnome&#39;s body). A whisper gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day &#8211; <a href=\"/spells/players-handbook-v35--6/ghost-sound--2670/\"><em>ghost sound</em></a>, <a href=\"/spells/players-handbook-v35--6/mage-hand--2833/\"><em>mage hand</em></a>, <a href=\"/spells/players-handbook-v35--6/message--2843/\"><em>message</em></a>. Caster level 1st; save DC 10 + whisper gnome&#39;s Cha modifier + spell level.</li></ul><ul><li>Favored Class: <a href=\"/classes/rogue/\">Rogue</a>. The best multiclass choices for whisper gnome rogues are <a href=\"/classes/fighter/\">fighter</a>, <a href=\"/classes/ranger/\">ranger</a>, and <a href=\"/classes/cleric/\">cleric</a>. A fair number of whisper gnome <a href=\"/classes/wizard/\">wizards</a> and <a href=\"/classes/sorcerer/\">sorcerers</a> become <a href=\"/classes/arcane-trickster/\">arcane tricksters</a>.</li></ul><ul><li>Racial Feats: The <a href=\"/feats/races-of-stone--82/extra-silence--1035/\">Extra Silence</a> and <a href=\"/feats/races-of-stone--82/silencing-strike--2624/\">Silencing Strike</a> feats can be taken by whisper gnome characters (see Chapter 6: Character Options).</li></ul>",
@@ -824,6 +855,8 @@
     "CHA": -2,
     "level adjustment": 0,
     "space": 5,
-    "reach": 5
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
   }
 }
