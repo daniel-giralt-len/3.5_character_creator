@@ -42,3 +42,7 @@ const dbNamesToIds = Object
     {})
 
 fs.writeFileSync('./src/db/json/invertedIndices.json', JSON.stringify(dbNamesToIds,null, 2))
+
+module.exports = {
+    csvToJson
+}
