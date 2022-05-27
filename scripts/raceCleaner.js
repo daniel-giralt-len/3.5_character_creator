@@ -6,7 +6,7 @@ const statsRegex = new RegExp('<table class="race-attributes">(.*?)</table>')
 const descriptionRegex = new RegExp('<div class="nice-textile">(.*?)</div>')
 const jsonPath = './src/db/json/itemData/raceDescription.json'
 
-const a = 2
+const a = 3
 
 if(a===0){ //unify all htmls into one dirty json
     const json = {}
@@ -81,7 +81,7 @@ if(a===2){ //parse stats
         'Level adjustment': {key: 'level adjustment', parse: parseNumber },
         'Space': {key: 'space', parse: parseLength },
         'Reach': {key: 'reach', parse: parseLength },
-        'Automatic languages': {key: 'bonus languages', parse: parseAnchors },
+        'Automatic languages': {key: 'automatic languages', parse: parseAnchors },
         'Bonus Languages': {key: 'bonus languages', parse: parseAnchors },
         'Racial Hit Dice': {key: 'racial hit dice', parse: s => {
             const r = RegExp(/([0-9]+)d([0-9]+)(?:.*)/)
@@ -113,6 +113,31 @@ if(a===2){ //parse stats
             )
 
             newO.description = o.description
+
+            return {
+                ...acc,
+                [id]: newO
+            }
+        }, {})
+
+    
+    fs.writeFileSync(jsonPath, JSON.stringify(newJson,null,2))
+}
+
+if(a===3){ //languages to ids
+    const json = require(`.${jsonPath}`)
+    const dbs = require('../src/db/json/dbs.json')
+    const languages = dbs.language
+
+    const newJson = Object
+        .entries(json)
+        .reduce((acc, [id, o]) => {
+            console.log(id)
+            const newO = {
+                ...o,
+
+            }
+           
 
             return {
                 ...acc,

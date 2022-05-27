@@ -12,6 +12,10 @@
     "level adjustment": 1,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Celestial",
+      "Common"
+    ],
     "bonus languages": [
       "Draconic",
       "Dwarven",
@@ -34,7 +38,7 @@
     "level adjustment": 2,
     "space": 5,
     "reach": 5,
-    "bonus languages": [
+    "automatic languages": [
       "Celestial",
       "Common"
     ],
@@ -59,6 +63,10 @@
     "level adjustment": 1,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Diabolan",
+      "Diaboli Tail Code"
+    ],
     "bonus languages": [
       "Abyssal",
       "Common",
@@ -80,6 +88,10 @@
     "space": 5,
     "reach": 5,
     "natural armor": 4,
+    "automatic languages": [
+      "Common",
+      "Diopsid"
+    ],
     "bonus languages": [
       "Dwarven",
       "Orc",
@@ -114,6 +126,11 @@
     "level adjustment": 2,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Elven",
+      "Undercommon"
+    ],
     "bonus languages": [
       "Abyssal",
       "Aquan",
@@ -136,6 +153,10 @@
     "level adjustment": 1,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Dvati"
+    ],
     "bonus languages": [
       "Any"
     ]
@@ -266,6 +287,10 @@
     "space": 10,
     "reach": 10,
     "natural armor": 4,
+    "automatic languages": [
+      "Common",
+      "Giant"
+    ],
     "bonus languages": [
       "Abyssal",
       "Draconic",
@@ -315,6 +340,10 @@
     "level adjustment": 1,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Hengeyokai"
+    ],
     "bonus languages": [
       "Giant",
       "Goblin",
@@ -363,6 +392,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Halfling"
+    ],
     "bonus languages": [
       "Abyssal",
       "Goblin",
@@ -383,6 +416,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Quori"
+    ],
     "bonus languages": [
       "Draconic",
       "Riedran"
@@ -401,6 +438,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Dwarven"
+    ],
     "bonus languages": [
       "Giant",
       "Goblin",
@@ -435,6 +476,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Lupin"
+    ],
     "bonus languages": [
       "Elven",
       "Gnoll",
@@ -457,6 +502,10 @@
     "space": 10,
     "reach": 10,
     "natural armor": 5,
+    "automatic languages": [
+      "Common",
+      "Giant"
+    ],
     "bonus languages": [
       "Goblin",
       "Orc",
@@ -483,6 +532,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Nezumi",
+      "Rokugani"
+    ],
     "bonus languages": [
       "Bakemono",
       "Shadowlands"
@@ -501,6 +554,9 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common"
+    ],
     "bonus languages": [
       "Dwarven",
       "Giant",
@@ -578,6 +634,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Spirit Tongue"
+    ],
     "bonus languages": [
       "Aquan",
       "Giant",
@@ -599,6 +659,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Spirit Tongue"
+    ],
     "bonus languages": [
       "Aquan",
       "Giant",
@@ -620,6 +684,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Spirit Tongue"
+    ],
     "bonus languages": [
       "Aquan",
       "Giant",
@@ -641,6 +709,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Feline"
+    ],
     "bonus languages": [
       "Any"
     ]
@@ -658,6 +730,10 @@
     "level adjustment": 1,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Infernal"
+    ],
     "bonus languages": [
       "Draconic",
       "Dwarven",
@@ -681,6 +757,9 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common"
+    ],
     "bonus languages": [
       "Drow",
       "Dwarven",
@@ -702,6 +781,10 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common",
+      "Vanara"
+    ],
     "bonus languages": [
       "Giant",
       "Goblin",
@@ -722,6 +805,9 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
+    "automatic languages": [
+      "Common"
+    ],
     "bonus languages": [
       "Any"
     ]
