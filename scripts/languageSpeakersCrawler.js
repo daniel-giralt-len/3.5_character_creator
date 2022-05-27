@@ -11,18 +11,21 @@ const itemType = [
     "races",
     "rulebooks",
     "skilltricks"
-][1]
+][6]
 const doIt = async () => {
     const itemList = dbs[itemType]
     const htmls = []
     for (let i=0; i < itemList.length; i++){
         const {link, id} = itemList[i]
-        console.log('reading', `#${id}:` , link)
+        console.log('reading', `${id}/${itemList.length}` , link)
 
         const html = await get(link)
         htmls.push({id, html})
     }
-    htmls.forEach(({id, html}) => fs.writeFileSync(`./src/db/html/${itemType}/${id}.html`, html))
+    htmls.forEach(({id, html}) => {
+        const path = `./src/db/html/${itemType}/${id}.html`
+        fs.writeFileSync(path, html)
+    })
 }
 
 (async () => doIt())();
