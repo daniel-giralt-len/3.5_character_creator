@@ -29,7 +29,7 @@ if(a===1){ //key stats
     const newJson = Object
         .entries(json)
         .reduce((acc, [id, {statsTable, ...rest}]) => {
-            const statRegex = RegExp(/<tr>(.*?)<\/tr>/g)
+            const statRegex = RegExp(/<tr(?:.*?)>(.*?)<\/tr>/g)
             const statNameRegex = RegExp(/<th>(.*?):?<\/th>/)
             const statValueRegex = RegExp(/<td>(.*?)<\/td>/)
 
@@ -78,8 +78,15 @@ if(a===2){ //parse stats
         'Intelligence': {key: 'INT', parse: parseNumber },
         'Wisdom': {key: 'WIS', parse: parseNumber },
         'Charisma': {key: 'CHA', parse: parseNumber },
+        'Level adjustment': {key: 'level adjustment', parse: parseNumber },
+        'Space': {key: 'space', parse: parseLength },
         'Reach': {key: 'reach', parse: parseLength },
+        'Automatic languages': {key: 'bonus languages', parse: parseAnchors },
         'Bonus Languages': {key: 'bonus languages', parse: parseAnchors },
+        'Racial Hit Dice': {key: 'racial hit dice', parse: s => {
+            const r = RegExp(/([0-9]+)d([0-9]+)(?:.*)/)
+            return r.exec(s)[1]
+        } },
         'Racial Base Attack': {key: 'racial base attack', parse: parseNumber },
         'Racial Base Saves': {key: 'racial base saves', parse: s => {
             const r = RegExp(/Fort (\+[0-9]+),Reflex (\+[0-9]+),Will (\+[0-9]+)/)
