@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const delimiter = ','
 
-const csvToJson = path => {
+const csvToJson = (path) => {
     const raw = fs.readFileSync(path)
     let lines = raw.toString().split('\n')
     const [header, ...values] = lines
@@ -42,7 +42,3 @@ const dbNamesToIds = Object
     {})
 
 fs.writeFileSync('./src/db/json/invertedIndices.json', JSON.stringify(dbNamesToIds,null, 2))
-
-module.exports = {
-    csvToJson
-}
