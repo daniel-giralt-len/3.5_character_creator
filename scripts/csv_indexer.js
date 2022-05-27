@@ -1,18 +1,6 @@
 const fs = require('fs')
 
-const delimiter = ','
-
-const csvToJson = (path) => {
-    const raw = fs.readFileSync(path)
-    let lines = raw.toString().split('\n')
-    const [header, ...values] = lines
-    const keys = header.split(delimiter)
-    return values.map(l => l.split(delimiter)
-                            .reduce((acc, v, i) => {
-                                acc[keys[i]] = v
-                                return acc
-                            }, {}))
-}
+const csvToJson = require('./csvToJson')
 
 const dbs = [
     ['classes', './src/db/csv/classes.csv'],
