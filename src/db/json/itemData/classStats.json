@@ -13420,8 +13420,7 @@
         "Knowledge (religion)",
         "Ride"
       ],
-      "special": "Ability to turn or rebuke undead.<br />",
-      "special": "Ability to cast 1st-level divine spells."
+      "special": ["Ability to turn or rebuke undead.<br />","Ability to cast 1st-level divine spells."]
     },
     "skill points": {
       "base": 2,
@@ -13563,8 +13562,7 @@
       "skills": [
         "Truespeak"
       ],
-      "special": "Ability to cast <a href=\"/spells/tome-of-magic--89/true-prayer-of-the-chosen--3452/\">true prayer of the chosen</a><br />",
-      "special": "Worshiper of a deity that provides access to the Fire or Good domain"
+      "special": ["Ability to cast <a href=\"/spells/tome-of-magic--89/true-prayer-of-the-chosen--3452/\">true prayer of the chosen</a><br />", "Worshiper of a deity that provides access to the Fire or Good domain"]
     },
     "skill points": {
       "base": 2,
@@ -19677,8 +19675,7 @@
         "Speak Language"
       ],
       "race": "Human of Netherese descent (home region Anauroch, Halruaa, Nimbral, the North, the Ride, Uthgardt Tribesfolk, or the Western Heartlands).<br />",
-      "special": "Sneak attack +1d6.<br />",
-      "special": "You may not have any levels in an arcane spellcasting class."
+      "special": ["Sneak attack +1d6.,", "You may not have any levels in an arcane spellcasting class."]
     },
     "skill points": {
       "base": 6,
@@ -19879,8 +19876,7 @@
       "feats": [
         "Least Dragonmark"
       ],
-      "special": "Must be a member in good standing of House Cannith South.<br />",
-      "special": "An heir of Siberys with the Mark of Making can take this class without meeting the Least Dragonmark prerequisite."
+      "special": ["Must be a member in good standing of House Cannith South.<br />","An heir of Siberys with the Mark of Making can take this class without meeting the Least Dragonmark prerequisite."]
     },
     "skill points": {
       "base": 2,
@@ -20057,8 +20053,7 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": "Arcane caster level 5th.<br />",
-      "Special": " Sneak attack +1d6."
+      "special": ["Arcane caster level 5th.<br />"," Sneak attack +1d6."]
     },
     "skill points": {
       "base": 6,
@@ -20220,8 +20215,7 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": "Wild shape class feature.<br />",
-      "Special": " Either sneak attack +1d6 or skirmish +1d6."
+      "special": ["Wild shape class feature.<br />"," Either sneak attack +1d6 or skirmish +1d6."]
     },
     "skill points": {
       "base": 6,
@@ -20914,8 +20908,7 @@
         "Alertness",
         "Track"
       ],
-      "special": "Darkvision as a racial trait or class feature.<br />",
-      "Special": " You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."
+      "special": ["Darkvision as a racial trait or class feature.<br />"," You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."]
     },
     "skill points": {
       "base": 6,
@@ -23963,8 +23956,7 @@
         "Corrupt Spell"
       ],
       "bave save bonus": "Will +5<br />",
-      "Special": " Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.<br />",
-      "Special": " The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."
+      "special": [" Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.<br />"," The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."]
     },
     "skill points": {
       "base": 2,
@@ -32167,8 +32159,7 @@
         "Alertness",
         "Blind-Fight"
       ],
-      "special": "Trapfinding class feature.<br />",
-      "Special": " The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"
+      "special": ["Trapfinding class feature.<br />"," The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"]
     },
     "skill points": {
       "base": 8,
@@ -32468,10 +32459,7 @@
     "id": 264,
     "requirements": {
       "base attack bonus": 5,
-      "special": "Intelligence 10 or higher.<br />",
-      "special": "Ability to cast spells, or any spell-like or supernatural ability.<br />",
-      "special": "Complete familiarity with the chosen dungeon environment and knowledge the contents of every chamber (including other inhabitants, doors, traps, hidden objects, and all magical and mechanical effects). <br />",
-      "special": "Must be an abberation, dragon, fey, magical beast, monstrous humanoid, outsider, or undead. Alternatively, humanoids of the goblinoid and kobold subtype can enter this class."
+      "special": ["Intelligence 10 or higher.<br />","Ability to cast spells, or any spell-like or supernatural ability.<br />","Complete familiarity with the chosen dungeon environment and knowledge the contents of every chamber (including other inhabitants, doors, traps, hidden objects, and all magical and mechanical effects). <br />","Must be an abberation, dragon, fey, magical beast, monstrous humanoid, outsider, or undead. Alternatively, humanoids of the goblinoid and kobold subtype can enter this class."]
     },
     "skill points": {
       "base": 2,
@@ -49971,8 +49959,7 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "special": "Able to turn undead. <br />",
-      "Special": " <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."
+      "special": ["Able to turn undead. <br />"," <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."]
     },
     "skill points": {
       "base": 2,
@@ -56076,8 +56063,7 @@
         "Mounted Combat",
         "Weapon Focus"
       ],
-      "special": "Native or permanent resident of Nimbral.<br />",
-      "special": "Membership in the Knights of the Flying Hunt."
+      "special": ["Native or permanent resident of Nimbral.<br />","Membership in the Knights of the Flying Hunt."]
     },
     "skill points": {
       "base": 2,
@@ -57203,9 +57189,7 @@
       "feats": [
         "Still Spell"
       ],
-      "special": "Proficiency in all martial weapons.<br />",
-      "special": "Ability to cast phantom steed.<br />",
-      "special": "Citizen of Aundair, member of the Order of the Knights Arcane."
+      "special": ["Proficiency in all martial weapons.<br />","Ability to cast phantom steed.<br />","Citizen of Aundair, member of the Order of the Knights Arcane."]
     },
     "skill points": {
       "base": 2,
@@ -60085,9 +60069,7 @@
         "Weapon Focus"
       ],
       "spells": "Ability to cast 5th-level arcane spells.<br />",
-      "special": "You must have the evasion special quality as either a class feature or a racial trait.<br />",
-      "special": "You may not be lawful in alignment.<br />",
-      "special": "You must be tutored by a magelord or obtain rare tomes to study the tradition. Either option costs no less than 10,000 gp or a service of equivalent value."
+      "special": ["You must have the evasion special quality as either a class feature or a racial trait.<br />","You may not be lawful in alignment.<br />","You must be tutored by a magelord or obtain rare tomes to study the tradition. Either option costs no less than 10,000 gp or a service of equivalent value."]
     },
     "skill points": {
       "base": 2,
@@ -63085,8 +63067,7 @@
   {
     "id": 565,
     "requirements": {
-      "special": "The character must be a vampire (not a vampire spawn).<br />",
-      "special": "The character must control at least two vampires or vampire spawn that it has created by means of its create spawn ability."
+      "special": ["The character must be a vampire (not a vampire spawn).<br />","The character must control at least two vampires or vampire spawn that it has created by means of its create spawn ability."]
     },
     "skill points": {
       "base": 4,
@@ -67513,8 +67494,7 @@
       "feats": [
         "Improved Initiative"
       ],
-      "special": "Evasion class feature.<br />",
-      "Special": " The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
+      "special": ["Evasion class feature.<br />"," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
     },
     "skill points": {
       "base": 4,
@@ -67667,8 +67647,7 @@
       "feats": [
         "Alertness"
       ],
-      "special": "Evasion class feature.<br />",
-      "Special": " The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
+      "special": ["Evasion class feature.<br />"," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
     },
     "skill points": {
       "base": 8,
@@ -71323,8 +71302,7 @@
         "Knowledge (religion)",
         "Knowledge"
       ],
-      "special": "Base attack bonus +4 or Tumble 7 ranks.<br />",
-      "special": "Must be a member of the Paragnostic Assembly."
+      "special": ["Base attack bonus +4 or Tumble 7 ranks.<br />","Must be a member of the Paragnostic Assembly."]
     },
     "skill points": {
       "base": 6,
@@ -82035,8 +82013,7 @@
         "Blind-Fight",
         "Improved Initiative"
       ],
-      "special": "Must have the wild empathy class feature.<br />",
-      "special": "Must have been trained in Xen'drik by another scorpion wraith."
+      "special": ["Must have the wild empathy class feature.<br />","Must have been trained in Xen'drik by another scorpion wraith."]
     },
     "skill points": {
       "base": 6,
@@ -88407,8 +88384,7 @@
       "feats": [
         "Dodge"
       ],
-      "special": "Must be a member of House Kundarak.<br />",
-      "special": "Trap sense +1."
+      "special": ["Must be a member of House Kundarak.<br />","Trap sense +1."]
     },
     "skill points": {
       "base": 6,
@@ -88557,8 +88533,7 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "special": "Ability to cast 3rd-level arcane spells.<br />",
-      "special": "Ability to turn undead."
+      "special": ["Ability to cast 3rd-level arcane spells.<br />","Ability to turn undead."]
     },
     "skill points": {
       "base": 2,
@@ -94271,8 +94246,7 @@
       "<em>stone shape (sp):</em>": " once per day, a stonelord of 3rd level or higher can use a stone shape effect (caster level equal to the stonelord's class level).</p><p>",
       "<em>meld into stone (sp):</em>": " once per day per class level, a stonelord of 5th level or higher can use a meld into stone effect (caster level equal to the stonelord's class level).</p><p>",
       "<em>stone tell (sp):</em>": " once per day, a stonelord of 7th level or higher can speak with stone as if she had cast stone tell (caster level equal to the stonelord's class level).</p><p>",
-      "<em>earthquake (sp):</em>": " once per day, a stonelord of 9th level or higher can use an earthquake effect (caster level equal to the stonelord's class level).</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> earth's blood </td></tr><tr><td> 2nd </td><td> +2 </td><td> +3 </td><td> +0 </td><td> +0 </td><td> stone power </td></tr><tr><td> 3rd </td><td> +3 </td><td> +3 </td><td> +1 </td><td> +1 </td><td> stone shape </td></tr><tr><td> 4th </td><td> +4 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> stone power </td></tr><tr><td> 5th </td><td> +5 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> meld into stone </td></tr><tr><td> 6th </td><td> +6 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 7th </td><td> +7 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone tell </td></tr><tr><td> 8th </td><td> +8 </td><td> +6 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 9th </td><td> +9 </td><td> +6 </td><td> +3 </td><td> +3 </td><td> earthquake </td></tr><tr><td> 10th </td><td> +10 </td><td> +7 </td><td> +3 </td><td> +3 </td><td> stone power </td></tr></table></div>,<p>",
-      "weapon and armor proficiency": "Stonelords gain no proficiency with any weapon or armor."
+      "<em>earthquake (sp):</em>": " once per day, a stonelord of 9th level or higher can use an earthquake effect (caster level equal to the stonelord's class level).</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> earth's blood </td></tr><tr><td> 2nd </td><td> +2 </td><td> +3 </td><td> +0 </td><td> +0 </td><td> stone power </td></tr><tr><td> 3rd </td><td> +3 </td><td> +3 </td><td> +1 </td><td> +1 </td><td> stone shape </td></tr><tr><td> 4th </td><td> +4 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> stone power </td></tr><tr><td> 5th </td><td> +5 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> meld into stone </td></tr><tr><td> 6th </td><td> +6 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 7th </td><td> +7 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone tell </td></tr><tr><td> 8th </td><td> +8 </td><td> +6 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 9th </td><td> +9 </td><td> +6 </td><td> +3 </td><td> +3 </td><td> earthquake </td></tr><tr><td> 10th </td><td> +10 </td><td> +7 </td><td> +3 </td><td> +3 </td><td> stone power </td></tr></table></div>,<p>"
     },
     "class skills": [
       "climb",
@@ -96004,8 +95978,7 @@
       ],
       "gender": "Female",
       "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.<br />",
-      "special": "The character must have the wild empathy class feature.<br />",
-      "special": "Knowingly or not, a character must perform a great service for another swanmay before she can join the order."
+      "special": ["The character must have the wild empathy class feature.<br />","Knowingly or not, a character must perform a great service for another swanmay before she can join the order."]
     },
     "skill points": {
       "base": 4,
@@ -98760,9 +98733,7 @@
         "Knowledge (religion)",
         "Knowledge (the planes)"
       ],
-      "special": "Ability to bind Tenebrous<br />",
-      "special": "Ability to turn or rebuke undead<br />",
-      "special": "Must worship Tenebrous as a god"
+      "special": ["Ability to bind Tenebrous<br />","Ability to turn or rebuke undead<br />","Must worship Tenebrous as a god"]
     },
     "skill points": {
       "base": 2,
@@ -99179,8 +99150,7 @@
         "Intimidate",
         "Use Rope"
       ],
-      "special": "Sneak attack damage +2d6.<br />",
-      "special": "The character must qualify to select regional feats from Thay (Thay is his home region, or he has 2 ranks in Knowledge [local&#8212;Thay])."
+      "special": ["Sneak attack damage +2d6.<br />","The character must qualify to select regional feats from Thay (Thay is his home region, or he has 2 ranks in Knowledge [local&#8212;Thay])."]
     },
     "skill points": {
       "base": 4,
@@ -99881,8 +99851,7 @@
       "<em>rotting touch</em> (sp)": "Three times per day, a thrall of Demogorgon can deal 1d6 points of Constitution damage as a touch attack. ",
       "two personas (ex)": "An 8th level thrall of Demogorgon goes a little insane, if he is not already mad. The thrall develops a multiple personality disorder that has the side effect of allowing the character to multiclass freely with no experience penalties. ",
       "<em>death touch</em> (sp)": "At 8th level, a thrall of Demogorgon can use an effect identical to that of the <a href=\"/spells/players-handbook-v35--6/slay-living--2758/spell\">slay living</a> once per day. The Fortitude save DC to avoid death is 10 + class level+ Cha modifier.",
-      "<em>demogorgon's will</em> (sp:)": " a 10th-level thrall of demogorgon can call upon the power of his master and be granted a <a href=\"/spells/players-handbook-v35--6/limited-wish--2899/\">limited wish</a> spell once per day. the use of this ability requires 3 full rounds devoted to entreaties and prayers to demogorgon before the &quot;limited wish&quot; /spells/players-handbook-v35&#8212;6/limited-wish&#8212;2899/ is granted. the thrall mus pay the experience point cost and provide any needed material components.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day/spells known </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> scaly flesh +1, <em>hypnosis</em> </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> <em>touch of fear</em> </td><td> &#8212;</td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> reaching touch </td><td> &#8212;</td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> dual actions, scaly flesh +2 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> <em>summon minor demon</em> </td><td> &#8212;</td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>rotting touch</em> </td><td> &#8212;</td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> scaly flesh +3 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 8th </td><td> +6/+1 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> two personas, <em>death touch</em> </td><td> &#8212;</td></tr><tr><td> 9th </td><td> +6/+1 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> <em>summon major demon</em> </td><td> &#8212;</td></tr><tr><td> 10th </td><td> +7/+2 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> <em>demogorgon's will</em>, scaly flesh +4 </td><td> bonus feat or +1 level of existing class </td></tr></table></div>,<p>all of the following are class features of the thrall of demogorgon prestige class. ",
-      "weapon and armor proficiency": "a thrall of demogorgon is proficient with all simple and martial weapons, with all types of armor and with shields. "
+      "<em>demogorgon's will</em> (sp:)": " a 10th-level thrall of demogorgon can call upon the power of his master and be granted a <a href=\"/spells/players-handbook-v35--6/limited-wish--2899/\">limited wish</a> spell once per day. the use of this ability requires 3 full rounds devoted to entreaties and prayers to demogorgon before the &quot;limited wish&quot; /spells/players-handbook-v35&#8212;6/limited-wish&#8212;2899/ is granted. the thrall mus pay the experience point cost and provide any needed material components.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day/spells known </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> scaly flesh +1, <em>hypnosis</em> </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> <em>touch of fear</em> </td><td> &#8212;</td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> reaching touch </td><td> &#8212;</td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> dual actions, scaly flesh +2 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> <em>summon minor demon</em> </td><td> &#8212;</td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>rotting touch</em> </td><td> &#8212;</td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> scaly flesh +3 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 8th </td><td> +6/+1 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> two personas, <em>death touch</em> </td><td> &#8212;</td></tr><tr><td> 9th </td><td> +6/+1 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> <em>summon major demon</em> </td><td> &#8212;</td></tr><tr><td> 10th </td><td> +7/+2 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> <em>demogorgon's will</em>, scaly flesh +4 </td><td> bonus feat or +1 level of existing class </td></tr></table></div>,<p>all of the following are class features of the thrall of demogorgon prestige class. "
     },
     "class skills": [
       "bluff",
@@ -100774,8 +100743,7 @@
       "skills": [
         "Diplomacy"
       ],
-      "special": "Must have adventured in at least two of the following areas: Aerenal, Argonnessen, Seren, Shargon's Teeth, the Thunder Sea, Xen'drik.<br />",
-      "special": "Must speak at least one of the following languages: Aquan, Argon, Elven, Draconic, Drow, Giant, Sahuagin."
+      "special": ["Must have adventured in at least two of the following areas: Aerenal, Argonnessen, Seren, Shargon's Teeth, the Thunder Sea, Xen'drik.<br />","Must speak at least one of the following languages: Aquan, Argon, Elven, Draconic, Drow, Giant, Sahuagin."]
     },
     "skill points": {
       "base": 4,
@@ -102032,8 +102000,7 @@
       "sanctified spells": ": a 6th-level troubadour of stars can use sanctified spells as though they were among her spells known.</p><p><em>",
       "eladrin form (sp)": "</em>: at 7th level, a troubadour of stars gains the ability to use <a href=\"/spells/book-of-exalted-deeds--52/eladrin-form--106/\"><em>eladrin form</em></a>, as the spell (see chapter 6), once per day. her caster level is equal to her class level.</p><p>",
       "celestial symphony (su)": ": a 9th-level troubadour of stars with 15 or more ranks in perform can, as an additional bardic music effect, create an effect that duplicates the holy word spell. nongood creatures within 30 feet of the troubadour are affected as though by the spell. the troubadour's caster level is equal to her class level. using the words of creation with this effect grants the troubadour a +4 bonus on her caster level check to overcome spell resistance and deals 15d4 points of nonlethal damage to the troubadour. celestial symphony is a sonic effect.</p><p>",
-      "celestial ascension (ex)": ": at 10th level, a troubadour of stars is so attuned to the ways of the eladrins that she becomes a magical creature. her type changes to outsider (native) and she gains damage reduction 10/unholy. unlike other outsiders, the troubadour can still be brought back from the dead.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> bardic music, <em>detect evil</em> </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> holy cacophony, celestial spells </td><td> +1 level of existing class </td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> <em>starmantle</em> </td><td> &#8212; </td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> song of hope </td><td> &#8212; </td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> sanctified spells </td><td> +1 level of existing class </td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>eladrin form</em> </td><td> &#8212; </td></tr><tr><td> 8th </td><td> +6 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 9th </td><td> +6 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> celestial symphony </td><td> &#8212; </td></tr><tr><td> 10th </td><td> +7 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> celestial ascension </td><td> +1 level of existing class </td></tr></table></div>,<p>",
-      "weapon and armor proficiency": "Troubadours of stars gain no proficiency with any weapon or armor."
+      "celestial ascension (ex)": ": at 10th level, a troubadour of stars is so attuned to the ways of the eladrins that she becomes a magical creature. her type changes to outsider (native) and she gains damage reduction 10/unholy. unlike other outsiders, the troubadour can still be brought back from the dead.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> bardic music, <em>detect evil</em> </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> holy cacophony, celestial spells </td><td> +1 level of existing class </td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> <em>starmantle</em> </td><td> &#8212; </td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> song of hope </td><td> &#8212; </td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> sanctified spells </td><td> +1 level of existing class </td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>eladrin form</em> </td><td> &#8212; </td></tr><tr><td> 8th </td><td> +6 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 9th </td><td> +6 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> celestial symphony </td><td> &#8212; </td></tr><tr><td> 10th </td><td> +7 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> celestial ascension </td><td> +1 level of existing class </td></tr></table></div>,<p>"
     },
     "class skills": [
       "balance",
@@ -102084,8 +102051,7 @@
         "Spell Focus"
       ],
       "spells": "Able to cast <a href=\"/spells/libris-mortis-the-book-of-the-dead--71/summon-undead-ii--1461/\">summon undead II</a> as a divine spell and <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> as an arcane spell.<br />",
-      "special": "Able to rebuke undead.<br />",
-      "special": "Access to the <a href=\"/spells/domains/death/\">Death</a> domain."
+      "special": ["Able to rebuke undead.<br />","Access to the <a href=\"/spells/domains/death/\">Death</a> domain."]
     },
     "skill points": {
       "base": 2,
@@ -104454,8 +104420,7 @@
       "feats": [
         "Favored"
       ],
-      "special": "Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks).<br />",
-      "Special": " Must be a member in good standing of the League of Eyes or similar organizaion"
+      "special": ["Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks).<br />"," Must be a member in good standing of the League of Eyes or similar organizaion"]
     },
     "skill points": {
       "base": 6,
@@ -104768,8 +104733,7 @@
       "feats": [
         "Mounted Combat"
       ],
-      "special": "Animal companion or special mount.<br />",
-      "special": "Must be a member of House Vadalis."
+      "special": ["Animal companion or special mount.<br />","Must be a member of House Vadalis."]
     },
     "skill points": {
       "base": 6,
@@ -105578,8 +105542,7 @@
       "feats": [
         "Verminfriend"
       ],
-      "special": "Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell.<br />",
-      "Special": " The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."
+      "special": ["Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell.<br />"," The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."]
     },
     "skill points": {
       "base": 4,
