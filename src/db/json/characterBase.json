@@ -1,5 +1,6 @@
 {
     "scores" : { "STR": 0, "DEX": 0, "CON": 0, "INT": 0, "WIS": 0, "CHA": 0 },
     "bab": 0,
-    "saves": { "Will": 0, "Reflex": 0, "Fortitude": 0 }
+    "saves": { "will": 0, "reflex": 0, "fortitude": 0 },
+    "classes": []
 }

@@ -1,22 +1,28 @@
 import findInDb from "./findInDb";
 
 import ScoreDisplay from "./displays/ScoreDisplay";
+import ClassDisplay from "./displays/ClassDisplay";
 
 function CreationDisplay({creation, dbs, translate, handleCreationChange, isCharacter}) {
   const {
     scores,
+    classes,
+    races,
     bab,
     saves,
     ...rest
   } = creation
   
   const handleScoreChange = scores => handleCreationChange({...creation, scores})
+  const handleClassChange = classes => { /*handleCreationChange({...creation, classes}) */ }
   
   return (
     <div>
       {isCharacter && (
           <>
+            <h3>Race: {races}</h3>
             <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} />
+            <ClassDisplay classes={classes} translate={translate} handleClassChange={handleClassChange} />
             <h3>{translate('bab')}: {bab}</h3>
             <div>
                 <h3>{translate('saves')}</h3>
