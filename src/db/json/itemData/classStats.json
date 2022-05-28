@@ -6,7 +6,8 @@
       "feats": [
         "Combat Casting"
       ],
-      "spellcasting": "Must be able to cast 1st-level arcane spells, including at least one abjuration spell.<br /><strong>Special:</strong> Must be proficient with at least one martial weapon."
+      "spellcasting": "Must be able to cast 1st-level arcane spells, including at least one abjuration spell.<br />",
+      "Special": " Must be proficient with at least one martial weapon."
     },
     "skill points": {
       "base": 2,
@@ -103,7 +104,8 @@
       "feats": [
         "Track"
       ],
-      "type": "Cannot be an aberration<br /><strong>Special:</strong> Wild empathy class feature"
+      "type": "Cannot be an aberration<br />",
+      "Special": " Wild empathy class feature"
     },
     "skill points": {
       "base": 4,
@@ -259,7 +261,8 @@
       "skills": [
         "Truespeak"
       ],
-      "type": "Humanoid<br /><strong>Languages</strong>: Must speak at least four languages"
+      "type": "Humanoid",
+      "Languages": "Must speak at least four languages"
     },
     "skill points": {
       "base": 4,
@@ -1020,7 +1023,8 @@
         "Dodge",
         "Mobility"
       ],
-      "base save bonus": "Reflex +3.<br /><strong>Special:</strong> Must have a fly speed or the ability to cast fly at least twice per day."
+      "base save bonus": "Reflex +3.<br />",
+      "Special": " Must have a fly speed or the ability to cast fly at least twice per day."
     },
     "skill points": {
       "base": 6,
@@ -1993,7 +1997,8 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "race": "Yuan-ti.<br /><strong>Special:</strong> Access to an extensive magical library, a tutor of any race who possesses at least fourteen sorcerer or wizard class levels, or any psionic powers or psionic class levels."
+      "race": "Yuan-ti.<br />",
+      "Special": " Access to an extensive magical library, a tutor of any race who possesses at least fourteen sorcerer or wizard class levels, or any psionic powers or psionic class levels."
     },
     "skill points": {
       "base": 4,
@@ -2151,7 +2156,8 @@
         "Intimidate",
         "Knowledge (the planes)"
       ],
-      "feat": "Any metamagic feat<br /><strong>Spellcasting</strong>: Ability to cast 2nd-level arcane spells<br />",
+      "feat": "Any metamagic feat",
+      "Spellcasting": "Ability to cast 2nd-level arcane spells<br />",
       "special": "Ability to bind a 2nd-level vestige"
     },
     "skill points": {
@@ -4210,7 +4216,8 @@
     "hit die": 8,
     "class features": {
       "weapon and armor proficiency": "Arcanopaths are proficient with the club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, shuriken, siangham, and sling. The arcanopath monk gains the same advantages for using a kama, nunchaku, or siangham as does a monk.",
-      "student of perfection</strong>: arcanopaths are monks, although they meditate on alternative methods of achieving physical enlightenment. as such, an arcanopath monk gains flurry of blows, unarmed damage, ac bonus, and unarmored speed as if he were a monk whose level equaled his monk level + his arcanopath monk level. for instance, a 6th-level monk/1st-level arcanopath has a base flurry ofblows attack bonus of +4/+4 (as if he were a 7th-level monk). those who manage to meet the requirements for this class who are not monks gain these abilities as if a monk equal to only their arcanopath monk level.</p><p><strong>clap of deafness (su)": "The monk can use this supernatural ability once per round, but no more than once per arcanopath level per day. The monk must declare he is using the clap of deafness before making the attack roll (thus, a missed attack roll ruins the attempt). A foe struck by the arcanopath is forced to make a Fortitude saving throw (DC 10 + the arcanopath level + the arcanopath's Wisdom modifier), in addition to taking damage as normal If the saving throw fails, the opponent is deafened for 1 round. A deafened character has a 20% chance of spell failure when casting spells with verbal components (as well as suffering a -4 penalty on initiative checks and an inability to make Listen checks). Unless specified to the contrary, all spell failure penalties stack. Creatures immune to critical hits or sonic attacks cannot be affected by the arcanopath's clap.",
+      "student of perfection": "arcanopaths are monks, although they meditate on alternative methods of achieving physical enlightenment. as such, an arcanopath monk gains flurry of blows, unarmed damage, ac bonus, and unarmored speed as if he were a monk whose level equaled his monk level + his arcanopath monk level. for instance, a 6th-level monk/1st-level arcanopath has a base flurry ofblows attack bonus of +4/+4 (as if he were a 7th-level monk). those who manage to meet the requirements for this class who are not monks gain these abilities as if a monk equal to only their arcanopath monk level.",
+      "clap of deafness (su)": "The monk can use this supernatural ability once per round, but no more than once per arcanopath level per day. The monk must declare he is using the clap of deafness before making the attack roll (thus, a missed attack roll ruins the attempt). A foe struck by the arcanopath is forced to make a Fortitude saving throw (DC 10 + the arcanopath level + the arcanopath's Wisdom modifier), in addition to taking damage as normal If the saving throw fails, the opponent is deafened for 1 round. A deafened character has a 20% chance of spell failure when casting spells with verbal components (as well as suffering a -4 penalty on initiative checks and an inability to make Listen checks). Unless specified to the contrary, all spell failure penalties stack. Creatures immune to critical hits or sonic attacks cannot be affected by the arcanopath's clap.",
       "chop of silence (su)": "The arcanopath of at least 2nd level can use this supernatural ability once per round, but no more than once per arcanopath level per day. The arcanopath must declare he is using the chop of silence attack before making the attack roll (thus, a missed attack roll ruins the attempt). A foe struck by the arcanopath is forced to make a Fortitude saving throw (DC 10 + the arcanopath level + the arcanopath's Wisdom modifier), in addition to taking damage as normal. If the saving throw fails, the opponent is rendered mute for 1 round. A mute character is unable to cast spells with a verbal component (and cannot communicate verbally). Creatures immune to critical hits cannot be affected by the chop.",
       "strike of confusion (su)": "The monk of 3rd or higher level can use this supernatural ability once per round, but no more than once per arcanopath level per day. The monk must declare he is using the strike of confusion before making the attack roll (thus, a missed attack roll ruins the attempt). A foe struck by the arcanopath is forced to make a Fortitude saving throw (DC 10 + the arcanopath level + the arcanopath's Wisdom modifier), in addition to taking damage as normal. If the saving throw fails, the opponent has a 50% chance of spell failure when casting any spell (or attempting to use a spell-like ability) for 2d4 rounds. Unless specified to the contrary, all spell failure penalties stack. Creatures immune to critical hits cannot be affected by the strike.",
       "deflect spell (su)": "At 4th level, the arcanopath monk learns to deflect incoming ray and energy missile spells. The arcanopath must have at least one hand free (holding nothing) to use this ability. Once per round when the arcanopath would normally be hit with a ray or energy missile spell the character can make a DC 20 Reflex saving throw (if the ray or energy missile has a magical bonus to attack, the DC increases by that amount). If the arcanopath succeeds, he deflects the spell. The arcanopath must be aware of the attack and not flat-footed. Attempting to deflect a ray or energy missile doesn't count as an action.",
@@ -4649,7 +4656,8 @@
     "hit die": 6,
     "class features": {
       "weapon and armor proficiency": "Archivists are proficient with all simple weapons and with light and medium armor, but not with shields.",
-      "spellcasting</strong>: an archivist casts divine spells, drawn primarily from the cleric spell list although he can eventually uncover, learn, and prepare noncleric divine spells spells. unlike clerics, archivists prepare spells from a prayerbook, a collection of copied divine spells. to learn, prepare, or cast a spell, an archivist must have an intelligence score equal to at least 10 + the spell level. the difficulty class for a saving throw against an archivist's spell is 10 + the spell level + the archivist's int modifier.</p><p>like other spellcasters, an archivist can cast only a certain number of spells of each level per day. his base daily allotment is given in table 5&#8212;1: the archivist. in addition, he receives bonus spells per day if he has a high wisdom score (see table 1&#8212;1 on page 8 of the <em>player's handbook</em>). he must choose and prepare his spells ahead of time by getting a good night's sleep and then spending 1 hour studying his prayerbook. the archivist decides which spells to prepare while studying.</p><p><strong>prayerbook": "Unlike a cleric, an archivist does not receive his daily spell complement from whatever deity or cosmic force he worships. Rather, he must seek out and collect new spells much as a wizard does, but from such esoteric sources as holy tablets, ancient steles, or other magical scriptures. He cannot prepare any spell not recorded in his prayerbook except for read magic, which archivists can prepare from memory.",
+      "spellcasting": "an archivist casts divine spells, drawn primarily from the cleric spell list although he can eventually uncover, learn, and prepare noncleric divine spells spells. unlike clerics, archivists prepare spells from a prayerbook, a collection of copied divine spells. to learn, prepare, or cast a spell, an archivist must have an intelligence score equal to at least 10 + the spell level. the difficulty class for a saving throw against an archivist's spell is 10 + the spell level + the archivist's int modifier.</p><p>like other spellcasters, an archivist can cast only a certain number of spells of each level per day. his base daily allotment is given in table 5&#8212;1: the archivist. in addition, he receives bonus spells per day if he has a high wisdom score (see table 1&#8212;1 on page 8 of the <em>player's handbook</em>). he must choose and prepare his spells ahead of time by getting a good night's sleep and then spending 1 hour studying his prayerbook. the archivist decides which spells to prepare while studying.",
+      "prayerbook": "Unlike a cleric, an archivist does not receive his daily spell complement from whatever deity or cosmic force he worships. Rather, he must seek out and collect new spells much as a wizard does, but from such esoteric sources as holy tablets, ancient steles, or other magical scriptures. He cannot prepare any spell not recorded in his prayerbook except for read magic, which archivists can prepare from memory.",
       "dark knowledge": "Three times per day, an archivist can draw upon his expansive knowledge.",
       "scribe scroll": "Archivists gain Scribe Scroll as a bonus feat.",
       "lore mastery": "Upon reaching 2nd level, an archivist gains a +2 bonus to all Decipher Script checks and to all checks of any one Knowledge skill of his choice. Once this choice is made, it cannot be changed. At 7th, 13th, and 17th level, the archivist can choose an additional Knowledge skill on which to gain the +2 bonus.",
@@ -8390,7 +8398,8 @@
     "id": 63,
     "requirements": {
       "base attack bonus": 5,
-      "skills": "Any three skills 6 ranks each.<br /><strong>Skill Tricks:</strong> Any two."
+      "skills": "Any three skills 6 ranks each.<br />",
+      "Skill Tricks": " Any two."
     },
     "skill points": {
       "base": 4,
@@ -11207,7 +11216,8 @@
         "Mobility",
         "Spring Attack"
       ],
-      "spells": "Able to cast arcane or divine spells.<br /><strong>Special:</strong> Proficiency with any sword."
+      "spells": "Able to cast arcane or divine spells.<br />",
+      "Special": " Proficiency with any sword."
     },
     "skill points": {
       "base": 2,
@@ -13246,7 +13256,9 @@
       "skills": [
         "Knowledge (the planes)"
       ],
-      "special": "Must have a familiar.<br /><strong>Spells:</strong> Able to cast 2nd-level arcane spells<br /><strong>Language:</strong> Must speak Aquan, Auran, Ignan, or Terran."
+      "special": "Must have a familiar.<br />",
+      "Spells": " Able to cast 2nd-level arcane spells<br />",
+      "Language": " Must speak Aquan, Auran, Ignan, or Terran."
     },
     "skill points": {
       "base": 2,
@@ -13836,7 +13848,8 @@
         "Poison Immunity",
         "Toughness"
       ],
-      "base save bonus": "Fort +5<br /><strong>Special:</strong> the cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison."
+      "base save bonus": "Fort +5<br />",
+      "Special": " the cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison."
     },
     "skill points": {
       "base": 6,
@@ -14957,7 +14970,8 @@
         "Knowledge (arcana)",
         "Knowledge (psionics)"
       ],
-      "spells": "Able to cast 2nd-level arcane spells.<br /><strong>Psionics</strong>: Able to manifest 2nd-level powers."
+      "spells": "Able to cast 2nd-level arcane spells.",
+      "Psionics": "Able to manifest 2nd-level powers."
     },
     "skill points": {
       "base": 2,
@@ -15765,7 +15779,9 @@
     "requirements": {
       "base attack bonus": 4,
       "alignment": "Any chaotic",
-      "base fort save bonus": "+2.<br /><strong>Base Reflex Save Bonus</strong>: +2.<br /><strong>Base Will Save Bonus</strong>: +2."
+      "base fort save bonus": "+2.",
+      "Base Reflex Save Bonus": "+2.",
+      "Base Will Save Bonus": "+2."
     },
     "skill points": {
       "base": 4,
@@ -16010,7 +16026,9 @@
         "Knowledge (religion)",
         "Spellcraft"
       ],
-      "base save bonus": "Will +3.<br /><strong>Spells:</strong> Able to cast <em>zone of truth</em> as a divine spell.<br /><strong>Special:</strong> Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization."
+      "base save bonus": "Will +3.<br />",
+      "Spells": " Able to cast <em>zone of truth</em> as a divine spell.<br />",
+      "Special": " Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization."
     },
     "skill points": {
       "base": 4,
@@ -17279,7 +17297,8 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "race": "Yuan-ti.<br /><strong>Spellcasting</strong>: Able to cast 3rd-level arcane spells."
+      "race": "Yuan-ti.",
+      "Spellcasting": "Able to cast 3rd-level arcane spells."
     },
     "skill points": {
       "base": 2,
@@ -17582,7 +17601,18 @@
       "skill focus": "At 2nd level, you gain Skill Focus (Craft [trapmaking]) as a bonus feat. If you already have this feat, you can instead select any other feat for which you meet the prerequisite.",
       "improvised materials (ex)": "Beginning at 4th level, you can craft combat traps from raw materials at hand instead of relying on your combat trapsmith's kit. Doing so increases the Craft (trapmaking) check DC by 5 but otherwise has no effect on the trap's potency.",
       "expert trapsetter (ex)": "At 5th level, you can set a combat trap as a standard action without provoking attacks of opportunity.",
-      "befuddler</strong>: a pungent spray applies a &#8212;2 penalty on concentration checks, as well as ability checks and skill checks based on intelligence, wisdom, and charisma (will negates).</p><p><strong>enfeebler</strong>: a puff of acrid powder renders the target fatigued (fortitude negates).</p><p><strong>entangler</strong>: a hidden cord loops around the target, holding it in place as a tanglefoot bag does. a successful reflex save negates the effect; alternatively, a dc 20 strength or escape artist check (made as a full-round action) allows the stuck creature to break free.</p><p><strong>equalizer</strong>: the first creature entering the trapped square must succeed on a reflex save or fall prone. the trap reputedly gets its name from its gnome inventor, who used it to bring taller foes down to his level.</p><p><strong>flashbang</strong>: the trapped square emits a blinding burst of light accompanied by a loud thunderclap. any creature in the trapped square or any adjacent square becomes blinded and deafened; a successful fortitude save lessens the effect to dazzled.</p><p><strong>footspiker</strong>: this trap effectively fills the designated square with caltrops, potentially slowing the target's movement (ph 126).</p><p><strong>glitterburst</strong>: a fine cloud of silver dust clings to any creature within the trapped square (no save). any creature affected by a glitterburst trap takes a &#8212;20 penalty on hide checks and, if invisible, is visibly outlined for the duration of the effect.</p><p><strong>scorcher</strong>: the trapped square releases a cloud of fine dust followed by a spark, setting off a small explosion that deals 2d6 points of fire damage to each creature in that square (reflex half).</p><p><strong>scorcher, great</strong>: this works like a scorcher trap (see above), except that it deals 5d6 points of fire damage to each creature in the trapped square and in all adjacent squares (reflex half).</p><p><strong>sleeper</strong>: a slumber-inducing vapor makes the target fall asleep. a successful fortitude save lessens the effect to fatigued.</p><p><strong>spiderweb</strong>: the trapped square releases a burst of sticky tendrils that toughen when they contact air. this trap duplicates the effect of a web spell, except that the strands fill only the trapped square and all adjacent squares.</p><p><strong>stinkburst</strong>: a cloud of noxious vapors duplicates the effect of a stinking cloud spell, except that the effect fills only the trapped square. a successful fortitude save negates the effect, but a creature must make a new saving throw each round it remains within the cloud.</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th><th><strong>combat traps known</strong> </th></tr><tr><td> 1st </td><td> +0 </td><td> +2 </td><td> +2 </td><td> +0 </td><td> combat trapping, trap sense +1 </td><td> 2 </td></tr><tr><td> 2nd </td><td> +1 </td><td> +3 </td><td> +3 </td><td> +0 </td><td> skill focus (craft [trapmaking]) </td><td> 3 </td></tr><tr><td> 3rd </td><td> +2 </td><td> +3 </td><td> +3 </td><td> +1 </td><td> trap sense +2 </td><td> 4 </td></tr><tr><td> 4th </td><td> +3 </td><td> +4 </td><td> +4 </td><td> +1 </td><td> improvised materials </td><td> 5 </td></tr><tr><td> 5th </td><td> +3 </td><td> +4 </td><td> +4 </td><td> +1 </td><td> expert trapsetter, trap sense +3 </td><td> 6 </td></tr></table></div>,<p><strong>combat trapping (ex)": "You know how to create combat traps to aid your allies. At 1st level, you can learn two traps from the list below, provided you meet the prerequisites. At each level thereafter, you add one additional trap to your repertoire, to a maximum of six traps known. Whenever you attain a new level in this class, you can choose to replace any one previously learned trap with a new trap."
+      "befuddler": "a pungent spray applies a &#8212;2 penalty on concentration checks, as well as ability checks and skill checks based on intelligence, wisdom, and charisma (will negates).",
+      "enfeebler</strong>": "a puff of acrid powder renders the target fatigued (fortitude negates).</p><p>",
+      "entangler": ": a hidden cord loops around the target, holding it in place as a tanglefoot bag does. a successful reflex save negates the effect; alternatively, a dc 20 strength or escape artist check (made as a full-round action) allows the stuck creature to break free.</p><p>",
+      "equalizer": ": the first creature entering the trapped square must succeed on a reflex save or fall prone. the trap reputedly gets its name from its gnome inventor, who used it to bring taller foes down to his level.</p><p>",
+      "flashbang": ": the trapped square emits a blinding burst of light accompanied by a loud thunderclap. any creature in the trapped square or any adjacent square becomes blinded and deafened; a successful fortitude save lessens the effect to dazzled.</p><p>",
+      "footspiker": ": this trap effectively fills the designated square with caltrops, potentially slowing the target's movement (ph 126).</p><p>",
+      "glitterburst": ": a fine cloud of silver dust clings to any creature within the trapped square (no save). any creature affected by a glitterburst trap takes a &#8212;20 penalty on hide checks and, if invisible, is visibly outlined for the duration of the effect.</p><p>",
+      "scorcher": ": the trapped square releases a cloud of fine dust followed by a spark, setting off a small explosion that deals 2d6 points of fire damage to each creature in that square (reflex half).</p><p>",
+      "scorcher, great": ": this works like a scorcher trap (see above), except that it deals 5d6 points of fire damage to each creature in the trapped square and in all adjacent squares (reflex half).</p><p>",
+      "sleeper": ": a slumber-inducing vapor makes the target fall asleep. a successful fortitude save lessens the effect to fatigued.</p><p>",
+      "spiderweb": ": the trapped square releases a burst of sticky tendrils that toughen when they contact air. this trap duplicates the effect of a web spell, except that the strands fill only the trapped square and all adjacent squares.</p><p>",
+      "stinkburst": ": a cloud of noxious vapors duplicates the effect of a stinking cloud spell, except that the effect fills only the trapped square. a successful fortitude save negates the effect, but a creature must make a new saving throw each round it remains within the cloud.</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th><th><strong>combat traps known</strong> </th></tr><tr><td> 1st </td><td> +0 </td><td> +2 </td><td> +2 </td><td> +0 </td><td> combat trapping, trap sense +1 </td><td> 2 </td></tr><tr><td> 2nd </td><td> +1 </td><td> +3 </td><td> +3 </td><td> +0 </td><td> skill focus (craft [trapmaking]) </td><td> 3 </td></tr><tr><td> 3rd </td><td> +2 </td><td> +3 </td><td> +3 </td><td> +1 </td><td> trap sense +2 </td><td> 4 </td></tr><tr><td> 4th </td><td> +3 </td><td> +4 </td><td> +4 </td><td> +1 </td><td> improvised materials </td><td> 5 </td></tr><tr><td> 5th </td><td> +3 </td><td> +4 </td><td> +4 </td><td> +1 </td><td> expert trapsetter, trap sense +3 </td><td> 6 </td></tr></table></div>,<p><strong>combat trapping (ex) You know how to create combat traps to aid your allies. At 1st level, you can learn two traps from the list below, provided you meet the prerequisites. At each level thereafter, you add one additional trap to your repertoire, to a maximum of six traps known. Whenever you attain a new level in this class, you can choose to replace any one previously learned trap with a new trap."
     },
     "class skills": [
       "appraise",
@@ -18424,7 +18454,8 @@
     "id": 149,
     "requirements": {
       "base attack bonus": 6,
-      "alignment": "Non-evil<br /><strong>Taint:</strong> Moderate corruption"
+      "alignment": "Non-evil<br />",
+      "Taint": " Moderate corruption"
     },
     "advancement": [
       {
@@ -20026,7 +20057,8 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": "Arcane caster level 5th.<br /><strong>Special:</strong> Sneak attack +1d6."
+      "special": "Arcane caster level 5th.<br />",
+      "Special": " Sneak attack +1d6."
     },
     "skill points": {
       "base": 6,
@@ -20188,7 +20220,8 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": "Wild shape class feature.<br /><strong>Special:</strong> Either sneak attack +1d6 or skirmish +1d6."
+      "special": "Wild shape class feature.<br />",
+      "Special": " Either sneak attack +1d6 or skirmish +1d6."
     },
     "skill points": {
       "base": 6,
@@ -20881,7 +20914,8 @@
         "Alertness",
         "Track"
       ],
-      "special": "Darkvision as a racial trait or class feature.<br /><strong>Special:</strong> You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."
+      "special": "Darkvision as a racial trait or class feature.<br />",
+      "Special": " You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."
     },
     "skill points": {
       "base": 6,
@@ -22962,7 +22996,8 @@
         "Knowledge (the planes)",
         "Sense Motive"
       ],
-      "language": "Abyssal.<br /><strong>Invocations:</strong> <em>Baleful utterance</em> plus any two others."
+      "language": "Abyssal.<br />",
+      "Invocations": " <em>Baleful utterance</em> plus any two others."
     },
     "skill points": {
       "base": 2,
@@ -23927,7 +23962,9 @@
         "Evil Brand",
         "Corrupt Spell"
       ],
-      "bave save bonus": "Will +5<br /><strong>Special:</strong> Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.<br /><strong>Special</strong> The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."
+      "bave save bonus": "Will +5<br />",
+      "Special": " Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.<br />",
+      "Special": " The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."
     },
     "skill points": {
       "base": 2,
@@ -24778,7 +24815,8 @@
     ],
     "hit die": 6,
     "class features": {
-      "sneak attack</strong>: if a disciple of baalzebul of 2nd level or higher can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage. basically, any time the disciple's target would be denied his dexterity bonus to ac (whether he actually has a dexterity bonus or not), the disciple's attack deals +1d6 points of damage. this extra damage increases by +1d6 every third level afterward (+2d6 at 5th level, +3d6 at 8th level). should the disciple score a critical hit with a sneak attack, this extra damage is not multiplied. </p><p>it takes precision and penetration to hit a vital spot, so ranged attacks can only count as sneak attacks if the target is 30 feet away or less. </p><p>with a sap or an unarmed strike, a disciple of baalzebul can make a sneak attack that deals subdual damage instead of normal damage. she cannot use a weapon that deals normal damage to deal subdual damage in a sneak attack, not even with the usual -4 penalty, because she must make optimal use of her weapon in order to execute a sneak attack.</p><p>a disciple of baalzebul can sneak attack only living creatures with discernible anatomies-undead, constructs, oozes, plants, and incorporeal creatures lack vital areas to attack. additionally any creature that is immune to critical hits is similarly immune to sneak attacks. also the disciple of baalzebul must be able to see the target well enough to pick out a vital spot. the disciple cannot sneak attack while striking a creature with concealment or by striking limbs of a creature whose vitals are beyond reach. if a disciple of baalzebul gets a sneak attack bonus from another source (such as rogue levels) the bonuses to damage stack.</p><p><strong><em>suggestion</em> (sp)": "Once per day, a 3rd-level disciple of Baalzebul can produce an effect identical to that of a <a href=\"/spells/players-handbook-v35--6/suggestion--2573/\"><em>Suggestion</em></a> spell. The DC to resist the disciple's entreaties is 10 + disciple's class level + disciple's Cha bonus.",
+      "sneak attack": "if a disciple of baalzebul of 2nd level or higher can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage. basically, any time the disciple's target would be denied his dexterity bonus to ac (whether he actually has a dexterity bonus or not), the disciple's attack deals +1d6 points of damage. this extra damage increases by +1d6 every third level afterward (+2d6 at 5th level, +3d6 at 8th level). should the disciple score a critical hit with a sneak attack, this extra damage is not multiplied. </p><p>it takes precision and penetration to hit a vital spot, so ranged attacks can only count as sneak attacks if the target is 30 feet away or less. </p><p>with a sap or an unarmed strike, a disciple of baalzebul can make a sneak attack that deals subdual damage instead of normal damage. she cannot use a weapon that deals normal damage to deal subdual damage in a sneak attack, not even with the usual -4 penalty, because she must make optimal use of her weapon in order to execute a sneak attack.</p><p>a disciple of baalzebul can sneak attack only living creatures with discernible anatomies-undead, constructs, oozes, plants, and incorporeal creatures lack vital areas to attack. additionally any creature that is immune to critical hits is similarly immune to sneak attacks. also the disciple of baalzebul must be able to see the target well enough to pick out a vital spot. the disciple cannot sneak attack while striking a creature with concealment or by striking limbs of a creature whose vitals are beyond reach. if a disciple of baalzebul gets a sneak attack bonus from another source (such as rogue levels) the bonuses to damage stack.",
+      "<em>suggestion</em> (sp)": "Once per day, a 3rd-level disciple of Baalzebul can produce an effect identical to that of a <a href=\"/spells/players-handbook-v35--6/suggestion--2573/\"><em>Suggestion</em></a> spell. The DC to resist the disciple's entreaties is 10 + disciple's class level + disciple's Cha bonus.",
       "<em>summon osyluth</em> (sp)": "A 4th-level disciple of Baalzebu can summon 1 osyluth once per day. This functions as a <a href=\"/spells/players-handbook-v35--6/summon-monster-i--2441/\"><em>summon monster</em></a> spell cast by a 15th-level caster. ",
       "<em>insect plague</em> (sp)": "Once per day, a 6th-level disciple of Baalzebub can produce an effect identical to that of a <a href=\"/spells/players-handbook-v35--6/insect-plague--2402/\"><em>Insect plague</em></a> spell cast by a 15th-level spellcaster. The insects summoned are always biting flies.",
       "<em>beguiling nature</em> (sp)": "Every other day, a 7th-level disciple of Baalzebub can produce an effect identical to the <a href=\"/spells/races-of-destiny--81/charm-person-mass--3039/\"><em>mass charm</em></a> spell, with a Will save DC of 10 + disciple's class level + disciple's Cha bonus.",
@@ -26327,7 +26365,8 @@
         "Diplomacy",
         "Knowledge (religion)"
       ],
-      "spells": "Able to cast 4th-level divine spells.<br /><strong>Patron Deity</strong>: A divine disciple must have a patron deity, and it must be the one she serves as a divine disciple."
+      "spells": "Able to cast 4th-level divine spells.",
+      "Patron Deity": "A divine disciple must have a patron deity, and it must be the one she serves as a divine disciple."
     },
     "skill points": {
       "base": 2,
@@ -27288,7 +27327,8 @@
         "Eschew Materials",
         "Still Spell"
       ],
-      "spells": "Must be able to spontaneously cast 2nd-level arcane spells, must know at least one language-dependent spell.<br /><strong>Languages</strong>: Must be able to speak Draconic plus at least two languages from the following list: Auran, Dwarven, Elven, Ignan."
+      "spells": "Must be able to spontaneously cast 2nd-level arcane spells, must know at least one language-dependent spell.",
+      "Languages": "Must be able to speak Draconic plus at least two languages from the following list: Auran, Dwarven, Elven, Ignan."
     },
     "skill points": {
       "base": 4,
@@ -27896,7 +27936,8 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "race": "Nondragon, can't have draconic template.<br /><strong>Languages</strong>: Draconic."
+      "race": "Nondragon, can't have draconic template.",
+      "Languages": "Draconic."
     },
     "skill points": {
       "base": 4,
@@ -29231,7 +29272,8 @@
       "feats": [
         "Draconic Heritage"
       ],
-      "spellcasting": "Ability to spontaneously cast arcane spells.<br /><strong>Languages</strong>: Draconic."
+      "spellcasting": "Ability to spontaneously cast arcane spells.",
+      "Languages": "Draconic."
     },
     "skill points": {
       "base": 2,
@@ -31069,7 +31111,8 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "saving throws": "Base Will save +4<br /><strong>Spellcasting</strong>: Ability to cast cause fear and scare<br />",
+      "saving throws": "Base Will save +4",
+      "Spellcasting": "Ability to cast cause fear and scare<br />",
       "special": "Must have suffered at least one fear effect against which she failed her save"
     },
     "skill points": {
@@ -31495,7 +31538,8 @@
         "Great Fortitude",
         "Dodge"
       ],
-      "base unarmed attack bonus": "+4.<br /><strong>Other</strong>: Evasion ability, must be chosen by existing drunken masters and survive night of revelry among them without being incarcerated, poisoned, or extraordinarily embarrassed."
+      "base unarmed attack bonus": "+4.",
+      "Other": "Evasion ability, must be chosen by existing drunken masters and survive night of revelry among them without being incarcerated, poisoned, or extraordinarily embarrassed."
     },
     "skill points": {
       "base": 4,
@@ -32123,7 +32167,8 @@
         "Alertness",
         "Blind-Fight"
       ],
-      "special": "Trapfinding class feature.<br /><strong>Special:</strong> The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"
+      "special": "Trapfinding class feature.<br />",
+      "Special": " The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"
     },
     "skill points": {
       "base": 8,
@@ -32657,7 +32702,8 @@
     "id": 266,
     "requirements": {
       "alignment": "Any nongood",
-      "gender": "Female.<br /><strong>Spellcasting</strong>: Able to cast 2nd-level arcane spells and 2nd-level divine spells.<br />",
+      "gender": "Female.",
+      "Spellcasting": "Able to cast 2nd-level arcane spells and 2nd-level divine spells.<br />",
       "special": "The character must qualify to select regional feats from Rashemen (Rashemen is her home region, or she has 2 ranks in Knowledge [local&#8212;Rashemen])."
     },
     "skill points": {
@@ -32941,7 +32987,9 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "feats": "Any item creation feat and any metamagic feat.<br /><strong>Spells</strong>: Ability to cast arcane and divine spells.<br /><strong>Domain</strong>: Magic.<br />",
+      "feats": "Any item creation feat and any metamagic feat.",
+      "Spells": "Ability to cast arcane and divine spells.",
+      "Domain": "Magic.<br />",
       "special": "The candidate must have created at least one magic item, whether of a permanent nature or not."
     },
     "skill points": {
@@ -33171,7 +33219,8 @@
         "Combat Expertise",
         "Improved Feint"
       ],
-      "psionics": "Must have a power point reserve of at least 1 power point. <br /><strong>Special:</strong> Sneak attack +1d6 or psionic sneak attack +1d6."
+      "psionics": "Must have a power point reserve of at least 1 power point. <br />",
+      "Special": " Sneak attack +1d6 or psionic sneak attack +1d6."
     },
     "skill points": {
       "base": 4,
@@ -34084,7 +34133,9 @@
         "Knowledge (arcana)",
         "Knowledge (the planes)"
       ],
-      "spells": "Ability to cast 2nd-level arcane spells.<br /><strong>Invocations:</strong> Ability to use least invocations.<br /><strong>Special:</strong> <em>Eldritch blast</em> +2d6."
+      "spells": "Ability to cast 2nd-level arcane spells.<br />",
+      "Invocations": " Ability to use least invocations.<br />",
+      "Special": " <em>Eldritch blast</em> +2d6."
     },
     "skill points": {
       "base": 2,
@@ -35620,7 +35671,8 @@
     "id": 296,
     "requirements": {
       "base attack bonus": 3,
-      "type": "Undead (incorporeal subtype).<br /><strong>Base Save Bonus</strong>: Will +5."
+      "type": "Undead (incorporeal subtype).",
+      "Base Save Bonus": "Will +5."
     },
     "skill points": {
       "base": 4,
@@ -36183,7 +36235,9 @@
       "feats": [
         "Spell Focus"
       ],
-      "gender": "Male.<br /><strong>Spells:</strong> Able to cast 5th-level arcane spells.<br /><strong>Special:</strong> The character must be a eunuch member in the emperor's service. While this service is often inflicted as a punishment, many volunteer for the procedure because of the power eunuchs hold in some societies."
+      "gender": "Male.<br />",
+      "Spells": " Able to cast 5th-level arcane spells.<br />",
+      "Special": " The character must be a eunuch member in the emperor's service. While this service is often inflicted as a punishment, many volunteer for the procedure because of the power eunuchs hold in some societies."
     },
     "skill points": {
       "base": 4,
@@ -36446,7 +36500,8 @@
         "Alertness",
         "Track"
       ],
-      "region": "Evereska.<br /><strong>Spells</strong>: Able to cast 2nd-level arcane spells."
+      "region": "Evereska.",
+      "Spells": "Able to cast 2nd-level arcane spells."
     },
     "skill points": {
       "base": 4,
@@ -36555,7 +36610,8 @@
         "Consecrate Spell",
         "Purify Spell"
       ],
-      "base save bonuses": "Will +5<br /><strong>Spells</strong>: Able to spontaneously cast 3rd-level arcane spells."
+      "base save bonuses": "Will +5",
+      "Spells": "Able to spontaneously cast 3rd-level arcane spells."
     },
     "skill points": {
       "base": 4,
@@ -37861,7 +37917,9 @@
         "Alertness",
         "Extra Turning"
       ],
-      "region": "Mulhorand.<br /><strong>Spellcasting</strong>: Able to cast 3rd-level divine spells.<br /><strong>Domain</strong>: Sun."
+      "region": "Mulhorand.",
+      "Spellcasting": "Able to cast 3rd-level divine spells.",
+      "Domain": "Sun."
     },
     "skill points": {
       "base": 2,
@@ -38006,7 +38064,8 @@
       "feats": [
         "Cautious Attack"
       ],
-      "domain": "Trickery.<br /><strong>Special:</strong> Evasion, Sneak attack +2d6 or skirmish +2d6."
+      "domain": "Trickery.<br />",
+      "Special": " Evasion, Sneak attack +2d6 or skirmish +2d6."
     },
     "skill points": {
       "base": 4,
@@ -38320,7 +38379,9 @@
     "requirements": {
       "base attack bonus": 7,
       "alignment": "Any evil (usually chaotic evil)",
-      "race": "Yuan-ti, human, Yuan-ti-human c rossbreed, tainted one, or other Yuan-ti-created being.<br /><strong>Religion</strong>: The candidate must worship Sseth and only Sseth.<br /><strong>Feats</strong>: Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.<br />",
+      "race": "Yuan-ti, human, Yuan-ti-human c rossbreed, tainted one, or other Yuan-ti-created being.",
+      "Religion": "The candidate must worship Sseth and only Sseth.",
+      "Feats": "Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.<br />",
       "special": "The candidate must have slain in the name of Sseth and aided a Yuan-ti without prearranged payment or reward."
     },
     "skill points": {
@@ -38725,7 +38786,14 @@
     ],
     "hit die": 6,
     "class features": {
-      "weapon and armor proficiency</strong>: fatemakers are proficient with all simple weapons, plus the longsword, rapier, sap, short sword, shortbow, and whip. fatemakers are proficient with light armor and shields (except tower shields).</p><p>because the somatic components required for fatemaker spells are relatively simple, a fatemaker can cast fatemaker spells while wearing light armor without incurring the normal arcane spell failure chance. however, like any other arcane spellcaster, a fatemaker wearing medium or heavy armor or using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component (as most do). a fatemaker still incurs the normal arcane spell failure chance for arcane spells received from other classes.</p><p><strong>spells</strong>: beginning at 1st level, a fatemaker gains the ability to cast a number of arcane spells. to cast a spell, a fatemaker must have a charisma score of at least 10 + the spell's level, so a fatemaker with a charisma of 10 or lower cannot cast these spells. fatemaker bonus spells are based on charisma, and saving throws against these spells have a dc of 10 + spell level + the fatemaker's cha modifi er. when table 3&#8212;3 indicates that a fatemaker gets 0 spells per day of a given spell level (for instance, 1st-level spells for a 1st-level fatemaker), she gains only the bonus spells she would be entitled to based on her charisma score for that spell level. the fatemaker's spell list appears below. a fatemaker casts spells just as a sorcerer does.</p><p>upon reaching 6th level, and at every even-numbered level after that (8th and 10th), a fatemaker can choose to learn a new spell in place of one she already knows. the new spell's level must be the same as that of the spell being exchanged, and it must be at least two levels lower than the highest-level fatemaker spell the character can cast. a fatemaker can swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for that level.</p><table><tr><th style=\"text-align:center;\" colspan=\"5\">fatemaker spells known </th></tr><tr><th>level </th><th>1st </th><th>2nd </th><th>3rd </th><th>4th </th></tr><tr><td> 1st </td><td> 2 <sup>1</sup> </td><td> &#8212; </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> 3 </td><td> &#8212; </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 3rd </td><td> 3 </td><td> 2 <sup>1</sup> </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 4th </td><td> 4 </td><td> 3 </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 5th </td><td> 4 </td><td> 3 </td><td> 2 <sup>1</sup> </td><td> &#8212; </td></tr><tr><td> 6th </td><td> 4 </td><td> 4 </td><td> 3 </td><td> &#8212; </td></tr><tr><td> 7th </td><td> 4 </td><td> 4 </td><td> 3 </td><td> 2 <sup>1</sup> </td></tr><tr><td> 8th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 3 </td></tr><tr><td> 9th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 3 </td></tr><tr><td> 10th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 4 </td></tr><tr><td colspan=\"5\"><sup>1</sup> provided the fatemaker has a high enough charisma score to have a bonus spell of this level. </td></tr></table><p><strong>take-charge appeal (ex)</strong>: a fatemaker is a naturally confident leader. she adds 1 point to her charisma score at 1st, 5th, and 10th level.</p><p><strong>confidence of the fated (su)</strong>: once per day, a fatemaker of 2nd level or higher can add her class level as a morale bonus on any single attack roll, weapon damage roll, saving throw, or skill check. at 7th level and higher, she can do this twice per day, but only once in any given round.</p><p><strong>sneak attack (ex)</strong>: beginning at 3rd level, a fatemaker deals an extra 1d6 points of damage on any successful melee attack against a flat-footed or flanked target, or against a target that has been denied its dexterity bonus for any reason. this damage also applies to ranged attacks against targets up to 30 feet away. creatures with concealment, creatures without discernible anatomies, and creatures immune to extra damage from critical hits are all immune to sneak attacks. a fatemaker can choose to deliver nonlethal damage with her sneak attack, but only when using a weapon designed for that purpose, such as a sap (blackjack).</p><p>at 6th level, the extra damage dealt by a fatemaker's sneak attack increases to 2d6 points, and at 9th level it increases to 3d6 points.</p><p><strong>aura of confidence (su)</strong>: a fatemaker's confidence tends to rub off on her allies. beginning at 4th level, a fatemaker grants a +1 morale bonus on attack rolls, saves, and skill checks to all adjacent allies (but not to herself). this ability functions only while the fatemaker is conscious.</p><p>at 8th level, the bonus increases to +2.</p><p><strong>ego manifestation (sp)</strong>: at 10th level, a fatemaker's internal confidence and ego can be made physically manifest, increasing her size and power. this effect is the equivalent of the <a href=\"/spells/players-handbook-v35--6/righteous-might--2865/\"><em>righteous might</em></a> spell (caster level equals class level), except that the fatemaker doesn't gain damage reduction, but instead gains a +4 bonus on intimidate checks. she can use this ability once per day.</p><p>fatemaker spell list<br />fatemakers choose their spells from the following list.<br /><strong>1st level": [
+      "weapon and armor proficiency": "fatemakers are proficient with all simple weapons, plus the longsword, rapier, sap, short sword, shortbow, and whip. fatemakers are proficient with light armor and shields (except tower shields).</p><p>because the somatic components required for fatemaker spells are relatively simple, a fatemaker can cast fatemaker spells while wearing light armor without incurring the normal arcane spell failure chance. however, like any other arcane spellcaster, a fatemaker wearing medium or heavy armor or using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component (as most do). a fatemaker still incurs the normal arcane spell failure chance for arcane spells received from other classes.",
+      "spells": "beginning at 1st level, a fatemaker gains the ability to cast a number of arcane spells. to cast a spell, a fatemaker must have a charisma score of at least 10 + the spell's level, so a fatemaker with a charisma of 10 or lower cannot cast these spells. fatemaker bonus spells are based on charisma, and saving throws against these spells have a dc of 10 + spell level + the fatemaker's cha modifi er. when table 3&#8212;3 indicates that a fatemaker gets 0 spells per day of a given spell level (for instance, 1st-level spells for a 1st-level fatemaker), she gains only the bonus spells she would be entitled to based on her charisma score for that spell level. the fatemaker's spell list appears below. a fatemaker casts spells just as a sorcerer does.</p><p>upon reaching 6th level, and at every even-numbered level after that (8th and 10th), a fatemaker can choose to learn a new spell in place of one she already knows. the new spell's level must be the same as that of the spell being exchanged, and it must be at least two levels lower than the highest-level fatemaker spell the character can cast. a fatemaker can swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for that level.</p><table><tr><th style=\"text-align:center;\" colspan=\"5\">fatemaker spells known </th></tr><tr><th>level </th><th>1st </th><th>2nd </th><th>3rd </th><th>4th </th></tr><tr><td> 1st </td><td> 2 <sup>1</sup> </td><td> &#8212; </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> 3 </td><td> &#8212; </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 3rd </td><td> 3 </td><td> 2 <sup>1</sup> </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 4th </td><td> 4 </td><td> 3 </td><td> &#8212; </td><td> &#8212; </td></tr><tr><td> 5th </td><td> 4 </td><td> 3 </td><td> 2 <sup>1</sup> </td><td> &#8212; </td></tr><tr><td> 6th </td><td> 4 </td><td> 4 </td><td> 3 </td><td> &#8212; </td></tr><tr><td> 7th </td><td> 4 </td><td> 4 </td><td> 3 </td><td> 2 <sup>1</sup> </td></tr><tr><td> 8th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 3 </td></tr><tr><td> 9th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 3 </td></tr><tr><td> 10th </td><td> 4 </td><td> 4 </td><td> 4 </td><td> 4 </td></tr><tr><td colspan=\"5\"><sup>1</sup> provided the fatemaker has a high enough charisma score to have a bonus spell of this level. </td></tr></table><p>",
+      "take-charge appeal (ex)": ": a fatemaker is a naturally confident leader. she adds 1 point to her charisma score at 1st, 5th, and 10th level.</p><p>",
+      "confidence of the fated (su)": ": once per day, a fatemaker of 2nd level or higher can add her class level as a morale bonus on any single attack roll, weapon damage roll, saving throw, or skill check. at 7th level and higher, she can do this twice per day, but only once in any given round.</p><p>",
+      "sneak attack (ex)": ": beginning at 3rd level, a fatemaker deals an extra 1d6 points of damage on any successful melee attack against a flat-footed or flanked target, or against a target that has been denied its dexterity bonus for any reason. this damage also applies to ranged attacks against targets up to 30 feet away. creatures with concealment, creatures without discernible anatomies, and creatures immune to extra damage from critical hits are all immune to sneak attacks. a fatemaker can choose to deliver nonlethal damage with her sneak attack, but only when using a weapon designed for that purpose, such as a sap (blackjack).</p><p>at 6th level, the extra damage dealt by a fatemaker's sneak attack increases to 2d6 points, and at 9th level it increases to 3d6 points.</p><p>",
+      "aura of confidence (su)": ": a fatemaker's confidence tends to rub off on her allies. beginning at 4th level, a fatemaker grants a +1 morale bonus on attack rolls, saves, and skill checks to all adjacent allies (but not to herself). this ability functions only while the fatemaker is conscious.</p><p>at 8th level, the bonus increases to +2.</p><p>",
+      "ego manifestation (sp)": ": at 10th level, a fatemaker's internal confidence and ego can be made physically manifest, increasing her size and power. this effect is the equivalent of the <a href=\"/spells/players-handbook-v35--6/righteous-might--2865/\"><em>righteous might</em></a> spell (caster level equals class level), except that the fatemaker doesn't gain damage reduction, but instead gains a +4 bonus on intimidate checks. she can use this ability once per day.</p><p>fatemaker spell list<br />fatemakers choose their spells from the following list.<br />",
+      "1st level": [
         "<em>charm person</em>",
         "<em>disguise self</em>",
         "<em>expeditious retreat</em>",
@@ -39945,7 +40013,8 @@
         "Power Attack",
         "Cleave"
       ],
-      "weapon proficiency": "Spiked gauntlet.<br /><strong>Other</strong>: Must worship Hextor, and must survive the ritual ceremony of induction into the Fists of Hextor (see Organizations on page 44 of this book)."
+      "weapon proficiency": "Spiked gauntlet.",
+      "Other": "Must worship Hextor, and must survive the ritual ceremony of induction into the Fists of Hextor (see Organizations on page 44 of this book)."
     },
     "skill points": {
       "base": 2,
@@ -40469,7 +40538,8 @@
       "feats": [
         "Illithid Heritage"
       ],
-      "powers": "Ability to manifest <em>psionic charm</em>. <br /><strong>Language</strong>: Undercommon."
+      "powers": "Ability to manifest <em>psionic charm</em>. ",
+      "Language": "Undercommon."
     },
     "skill points": {
       "base": 2,
@@ -40648,7 +40718,8 @@
         "Mobility",
         "Run"
       ],
-      "base save bonus": "Will +3.<br /><strong>Spells:</strong> Ability to cast divine spells.<br /><strong>Patron Deity:</strong> Ehlonna."
+      "base save bonus": "Will +3.<br />",
+      "Spells": " Ability to cast divine spells.<br /><strong>Patron Deity:</strong> Ehlonna."
     },
     "skill points": {
       "base": 2,
@@ -41146,7 +41217,8 @@
         "Sleight of Hand",
         "Speak Language"
       ],
-      "spells": "Ability to cast 1st-level arcane and divine spells.<br /><strong>Special:</strong> Bardic knowledge and evasion abilities."
+      "spells": "Ability to cast 1st-level arcane and divine spells.<br />",
+      "Special": " Bardic knowledge and evasion abilities."
     },
     "skill points": {
       "base": 6,
@@ -41805,7 +41877,8 @@
     "id": 375,
     "requirements": {
       "base attack bonus": 3,
-      "skills": "Any skill 8 ranks.<br /><strong>Feats:</strong> Any luck feat."
+      "skills": "Any skill 8 ranks.<br />",
+      "Feats": " Any luck feat."
     }
   },
   {
@@ -42318,7 +42391,8 @@
     ],
     "hit die": 12,
     "class features": {
-      "weapon and armor proficiency</strong>: frostragers gain no proficiency with any weapon, armor, or shields.</p><p><strong>frostrage (su)": "While raging, the character grows larger and more massive, and his freezing sweat forms icicles as it streams out of his pores, coating his body in a glittering crust of ice. The frostrager's actual size category does not change (nor does his space/reach), but he does gain a +4 natural armor bonus to Armor Class from the sheets of ice that form over his body. In addition, a frostrager's unarmed attacks deal 1d6 points of damage plus 1d4 points of cold damage on a successful hit. If the frostrager is Small, his unarmed attack deals 1d4 points of damage, and if the frostrager is Large, his unarmed attack deals 1d8 points of damage.",
+      "weapon and armor proficiency": "frostragers gain no proficiency with any weapon, armor, or shields.",
+      "frostrage (su)": "While raging, the character grows larger and more massive, and his freezing sweat forms icicles as it streams out of his pores, coating his body in a glittering crust of ice. The frostrager's actual size category does not change (nor does his space/reach), but he does gain a +4 natural armor bonus to Armor Class from the sheets of ice that form over his body. In addition, a frostrager's unarmed attacks deal 1d6 points of damage plus 1d4 points of cold damage on a successful hit. If the frostrager is Small, his unarmed attack deals 1d4 points of damage, and if the frostrager is Large, his unarmed attack deals 1d8 points of damage.",
       "freezing blood (su)": "At 1st level, a frostrager's blood becomes freezing cold. His wounds instantly freeze over and stop bleeding; he is immune to attacks that cause wounding effects. If reduced to negative hit points, he automatically stabilizes. He still takes 1 point of damage if he takes any actions while at 0 or negative hit points, however.",
       "one-two punch (ex)": "At 2nd level, while making an unarmed attack, the frostrager may make one extra attack in a round at his highest base attack bonus, but each attack made in that round (the extra one and the normal ones) take a &#8212;2 penalty.",
       "absorb cold (su)": "At 3rd level, while raging, the frostrager not only gains immunity to cold, but it heals him. For every 2 points of cold damage that would have otherwise have been dealt by an attack, the frostrager heals 1 point of damage.",
@@ -43828,7 +43902,9 @@
         "Godsight",
         "Improved Turning"
       ],
-      "spells": "Ability to cast 2nd-level divine spells.<br /><strong>Patron Deity:</strong> Any from the Mulhorandi pantheon.<br /><strong>Special:</strong> You must have the approval of your patron deity's church."
+      "spells": "Ability to cast 2nd-level divine spells.<br />",
+      "Patron Deity": " Any from the Mulhorandi pantheon.<br />",
+      "Special": " You must have the approval of your patron deity's church."
     },
     "skill points": {
       "base": 2,
@@ -44547,7 +44623,8 @@
         "Endurance",
         "Toughness"
       ],
-      "race": "Gold dwarf.<br /><strong>Region</strong>: The Great Rift."
+      "race": "Gold dwarf.",
+      "Region": "The Great Rift."
     },
     "skill points": {
       "base": 2,
@@ -45247,7 +45324,9 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "feats": "Any metamagic feat, any one item creation feat.<br /><strong>Spells</strong>: Able to cast 4th-level arcane spells.<br /><strong>Region</strong>: Halruaa.<br />",
+      "feats": "Any metamagic feat, any one item creation feat.",
+      "Spells": "Able to cast 4th-level arcane spells.",
+      "Region": "Halruaa.<br />",
       "special": "The character must petition for entry into the Halruaan Council of Elders and, after a divinatory background check by current elders, be accepted to that ruling body."
     },
     "skill points": {
@@ -45393,7 +45472,9 @@
         "Great Fortitude",
         "Lightning Reflexes"
       ],
-      "spells": "Ability to cast 4th-level arcane or divine spells. Ability to cast at least three spells that require Fortitude saves and at least three spells that require Reflex saves. (A spell that deals damage but allows no saving throw can substitute for any of these required spells.)<br /><strong>Patron Deity</strong>: Azuth.<br /><strong>Region</strong>: Halruaa."
+      "spells": "Ability to cast 4th-level arcane or divine spells. Ability to cast at least three spells that require Fortitude saves and at least three spells that require Reflex saves. (A spell that deals damage but allows no saving throw can substitute for any of these required spells.)",
+      "Patron Deity": "Azuth.",
+      "Region": "Halruaa."
     },
     "skill points": {
       "base": 2,
@@ -45537,7 +45618,9 @@
         "Iron Will",
         "Weapon Focus"
       ],
-      "region": "The Spine of the World.<br /><strong>Spells</strong>: Able to cast 2nd-level divine spells.<br /><strong>Patron Deity</strong>: Moradin.<br />",
+      "region": "The Spine of the World.",
+      "Spells": "Able to cast 2nd-level divine spells.",
+      "Patron Deity": "Moradin.<br />",
       "special": "The candidate must be a member of the hammers of Moradin."
     },
     "skill points": {
@@ -45679,7 +45762,9 @@
         "Heal",
         "Knowledge (religion)"
       ],
-      "spells": "Able to cast 3rd-level divine spells.<br /><strong>Patron Deity</strong>: The Adama.<br /><strong>Region</strong>: The Golden Water."
+      "spells": "Able to cast 3rd-level divine spells.",
+      "Patron Deity": "The Adama.",
+      "Region": "The Golden Water."
     },
     "skill points": {
       "base": 2,
@@ -46046,7 +46131,10 @@
         "Ethran",
         "Leadership"
       ],
-      "gender": "Female.<br /><strong>Region</strong>: Rashemen.<br /><strong>Spells</strong>: Able to cast 4th-level arcane or divine spells.<br /><strong>Patron Deity</strong>: Chauntea, Mielikki, or Mystra.<br />",
+      "gender": "Female.",
+      "Region": "Rashemen.",
+      "Spells": "Able to cast 4th-level arcane or divine spells.",
+      "Patron Deity": "Chauntea, Mielikki, or Mystra.<br />",
       "special": "The candidate must be a member in good standing of the Witches of Rashemen, and she may not possess any item creation feats other than Scribe Scroll."
     },
     "skill points": {
@@ -47033,7 +47121,8 @@
         "Knowledge (the planes)",
         "Spellcraft"
       ],
-      "language": "Infernal<br /><strong>Warlock Invocation</strong>: Must know <em>brimstone blast</em> or <em>hellrime blast</em>"
+      "language": "Infernal",
+      "Warlock Invocation": "Must know <em>brimstone blast</em> or <em>hellrime blast</em>"
     },
     "skill points": {
       "base": 2,
@@ -47354,7 +47443,8 @@
     "class features": {
       "weapon and armor proficiency": "Henshin mystics gain no additional weapon or armor proficiency. They suffer the same penalties for wearing armor that monks do.",
       "monk abilities": "A henshin mystic has the unarmed damage, AC bonus, and speed of a monk with as many levels as his mystic levels plus his monk levels (if any). ",
-      "<em>riddle of awareness</em> (sp)</strong>: a 1st-level henshin mystic can use <a href=\"/spells/players-handbook-v35--6/scrying--2512/\">scrying</a> as a spell-like ability once per day, with a caster level equal to his henshin mystic level. the character must enter a meditative trance for the entire casting time and duration of the spell, but requires no material component or focus item. </p><p>in addition, the henshin mystic gains a +4 insight bonus on all <a href=\"/skills/listen/\">listen</a>, <a href=\"/skills/scry/\">scry</a>, <a href=\"/skills/search/\">search</a>, and <a href=\"/skills/spot/\">spot</a> checks. </p><p><strong>blind-fight": "A 2nd-level henshin mystic gains the <a href=\"/feats/players-handbook-v35--6/blind-fight--224/\">Blind-Fight</a> feat.",
+      "<em>riddle of awareness</em> (sp)": "a 1st-level henshin mystic can use <a href=\"/spells/players-handbook-v35--6/scrying--2512/\">scrying</a> as a spell-like ability once per day, with a caster level equal to his henshin mystic level. the character must enter a meditative trance for the entire casting time and duration of the spell, but requires no material component or focus item. </p><p>in addition, the henshin mystic gains a +4 insight bonus on all <a href=\"/skills/listen/\">listen</a>, <a href=\"/skills/scry/\">scry</a>, <a href=\"/skills/search/\">search</a>, and <a href=\"/skills/spot/\">spot</a> checks. ",
+      "blind-fight": "A 2nd-level henshin mystic gains the <a href=\"/feats/players-handbook-v35--6/blind-fight--224/\">Blind-Fight</a> feat.",
       "diamond body (su)": "At 2nd level, a henshin mystic is in such control of his own metabolism that he gains immunity to poison of all kinds.",
       "happo zanshin (ex)": "A 3rd-level henshin mystic has a preternatural awareness of danger and can no longer be flanked; he can react to opponents on opposite sides of him as easily as he can react to a single attacker. This defense denies a rogue the ability to use a flank attack to sneak attack the mystic. The exception to this defense is that a rogue at least four levels higher than the mystic can flank him (and thus sneak attack him). This ability does not stack with any other uncanny dodge ability, such as that gained from the barbarian or rogue classes.",
       "root the mountain (su)": "Once per day, a henshin mystic of 4th level or higher can make himself unmovable. He automatically wins an opposed Strength check when an opponent attempts to bull rush him. A creature with the improved grab ability must move into the mystic's space to grapple him, since it cannot pull the mystic into its space. No spell or other effect can force the mystic to move. If he becomes frightened or panicked, he suffers the full effect of the fear but does not run away. He cannot move, even to make a 5-foot step, while this ability is in effect. Root the mountain lasts for 1 round per level, but the mystic can end it at any time.",
@@ -47363,7 +47453,8 @@
       "touch of fire (sp)": "A henshin mystic of 5th level or higher can use <a href=\"/spells/players-handbook-v35--6/heat-metal--2824/\">heat metal</a> as a spell-like ability three times per day, with a caster level equal to his henshin mystic level. ",
       "blindsight (ex)": "At 6th level, a henshin mystic gains the ability to perfectly sense his surroundings without relying on sight. This ability makes invisibility and darkness (even magical darkness) irrelevant to the mystic (though he still can't detect ethereal creatures). This ability operates out to a range of 30 feet. The mystic cannot distinguish color or visual contrast with blindsight, and thus cannot read. When using blindsight (and not regular vision), the mystic is unaffected by gaze attacks and is not hampered by blindness. Deafness or silence does not hamper the mystic's blindsight, since it relies on extraordinary senses, not on sound.",
       "hitsu-do (su)": "A 6th-level mystic gains the ability to cause his hands, eyes, and weapons to light up with flame once per day, for a duration of 2 rounds per mystic level. Each of the mystic's melee attacks deals an extra 1d6 points of damage per attack. The mystic can extinguish the flames before the expiration of the effect's duration, but cannot then use the power again that day.",
-      "<em>riddle of flame</em> (sp)</strong>: a henshin mystic of 7th level or higher can use <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> as a spell-like ability once per day, with a caster level equal to his henshin mystic level. in addition to the defensive benefits of the spell, the mystic's unarmed attacks deal additional cold damage (if the <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> protects against fire-based attacks) or fire damage (if the <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> protects against cold-based attacks) equal to 1d6 points +1 point per level of the mystic. this extra damage does not stack with the hitsu-do ability.</p><p><strong>timeless body (ex)": "After attaining 8th level, a henshin mystic no longer suffers ability penalties for aging and cannot be magically aged. (Any penalties he may already have suffered remain in place.) Bonuses still accrue, and the mystic still dies of old age when his time is up. ",
+      "<em>riddle of flame</em> (sp)": "a henshin mystic of 7th level or higher can use <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> as a spell-like ability once per day, with a caster level equal to his henshin mystic level. in addition to the defensive benefits of the spell, the mystic's unarmed attacks deal additional cold damage (if the <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> protects against fire-based attacks) or fire damage (if the <a href=\"/spells/players-handbook-v35--6/fire-shield--2610/\">fire shield</a> protects against cold-based attacks) equal to 1d6 points +1 point per level of the mystic. this extra damage does not stack with the hitsu-do ability.",
+      "timeless body (ex)": "After attaining 8th level, a henshin mystic no longer suffers ability penalties for aging and cannot be magically aged. (Any penalties he may already have suffered remain in place.) Bonuses still accrue, and the mystic still dies of old age when his time is up. ",
       "walk through the mountains (su)": "At 9th level or higher, a henshin mystic can assume an ethereal state for 2 rounds per level per day, as per the spell <a href=\"/spells/players-handbook-v35--6/etherealness--2810/\">etherealness</a>. The mystic may go ethereal on a number of different occasions during any single day as long as the total number of rounds spent ethereal does not exceed twice his level. ",
       "riddle of invulnerability (su)": "A 10th-level henshin mystic gains damage reduction of 20/+1. This means that the mystic ignores (instantly regenerates) the first 20 points of damage from any attack unless the damage is dealt by a weapon with a +1 enhancement bonus (or better), by a spell, or by a form of energy (acid, cold, electricity, fire, sonic)."
     },
@@ -47722,7 +47813,8 @@
         "Spellcraft",
         "Wilderness Lore"
       ],
-      "race/type": "Monstrous humanoid, giant, goblinoid, or other primitive humanoid, such as orc or gnoll.<br /><strong>Spellcasting</strong>: Able to cast lightning bolt as a divine spell."
+      "race/type": "Monstrous humanoid, giant, goblinoid, or other primitive humanoid, such as orc or gnoll.",
+      "Spellcasting": "Able to cast lightning bolt as a divine spell."
     },
     "skill points": {
       "base": 2,
@@ -48527,7 +48619,8 @@
     "requirements": {
       "alignment": "Lawful good",
       "race": "Halfling",
-      "patron deity": "Yondalla.<br /><strong>Region</strong>: Luiren."
+      "patron deity": "Yondalla.",
+      "Region": "Luiren."
     }
   },
   {
@@ -48724,7 +48817,9 @@
         "Knowledge (nature)",
         "Survival"
       ],
-      "alignment": "Any neutral.<br /><strong>Spellcasting:</strong> Able to cast 3rd-level divine spells, including the three lowest-level spells of the Plant domain.<br /><strong>Special:</strong> Must be chosen as a holt warden by the leaders of a band of Guardians of the Green, then serve a one-year apprenticeship to a Guardian of the Green who has at least five holt warden levels."
+      "alignment": "Any neutral.<br />",
+      "Spellcasting": " Able to cast 3rd-level divine spells, including the three lowest-level spells of the Plant domain.<br />",
+      "Special": " Must be chosen as a holt warden by the leaders of a band of Guardians of the Green, then serve a one-year apprenticeship to a Guardian of the Green who has at least five holt warden levels."
     },
     "skill points": {
       "base": 4,
@@ -49088,7 +49183,8 @@
     "class features": {
       "weapon and armor proficiency": "Holy liberators are proficient with all simple and martial weapons, with all types of armor, and with shields.",
       "spells per day": "A holy liberator has the ability to cast a small number of divine spells. To cast a spell, the holy liberator must have a Wisdom score of at least 10 + the spell's level, so a holy liberator with a Wisdom of 10 or lower cannot cast these spells. Holy liberator bonus spells are based on Wisdom, and saving throws against these spells have a DC of 10 + spell level + the holy liberator's Wisdom modifier. When the holy liberator gets 0 spells of a given level, such as 0 1st-level spells at 1st level, he gets only bonus spells. (A holy liberator without a bonus spell for that level cannot yet cast a spell of that level.)",
-      "aura of good (ex)</strong>: the power of a holy liberator's aura of good (see the <em>detect good</em> spell) is equal to his class level plus his cleric level, if any.</p><p><strong>detect evil (sp)": "The holy liberator can use <em>detect evil</em> as a spell-like ability at will.",
+      "aura of good (ex)": "the power of a holy liberator's aura of good (see the <em>detect good</em> spell) is equal to his class level plus his cleric level, if any.",
+      "detect evil (sp)": "The holy liberator can use <em>detect evil</em> as a spell-like ability at will.",
       "smite evil (su)": "Once per day, a holy liberator may attempt to smite evil with one normal melee attack. He adds his Charisma modifier (if positive) to his attack roll and deals 1 extra point of damage per class level. For example, a 9th-level holy liberator armed with a longsword would deal 1d8+9 points of damage, plus any additional bonuses for high Strength or magical effects that normally apply. If the holy liberator accidentally smites a creature that is not evil, the smite has no effect but it is still used up for that day. At 5th level, the holy liberator may smite evil twice per day, and at 10th level three times per day.",
       "remove fatigue (su)": "A holy liberator of 2nd level or higher can eliminate fatigue in any creature he touches. Using this ability is a standard action; the holy liberator may use it a number of times per day equal to 3 + his Charisma modifier.",
       "aura of resolve (ex)": "Beginning at 3rd level, the holy liberator gains immunity to all charm and compulsion effects. His mind is his own, and no other creature can control his thoughts or actions. Each ally within 10 feet of him gains a +4 morale bonus on saving throws against charm or compulsion effects. This ability functions while the holy liberator is conscious, but not if he is unconscious or dead.",
@@ -49875,7 +49971,8 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "special": "Able to turn undead. <br /><strong>Special:</strong> <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."
+      "special": "Able to turn undead. <br />",
+      "Special": " <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."
     },
     "skill points": {
       "base": 2,
@@ -50501,7 +50598,8 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "race": "Mind flayer<br /><strong>Special:</strong> Must have consumed the brain of a creature of CR 9 or greater."
+      "race": "Mind flayer<br />",
+      "Special": " Must have consumed the brain of a creature of CR 9 or greater."
     },
     "skill points": {
       "base": 2,
@@ -51296,7 +51394,8 @@
       "feats": [
         "Iron Will"
       ],
-      "additional feats": "Any metamagic feat.<br /><strong>Spellcasting:</strong> Able to cast 3rd-level arcane spells."
+      "additional feats": "Any metamagic feat.<br />",
+      "Spellcasting": " Able to cast 3rd-level arcane spells."
     },
     "skill points": {
       "base": 2,
@@ -51450,7 +51549,8 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "feats": "Any one metamagic feat.<br /><strong>Spellcasting</strong>: Able to cast 3rd-level arcane spells.<br />",
+      "feats": "Any one metamagic feat.",
+      "Spellcasting": "Able to cast 3rd-level arcane spells.<br />",
       "special": "The candidate cannot have abjuration as a prohibited school."
     },
     "skill points": {
@@ -53841,7 +53941,8 @@
         "Iron Will",
         "Spellwise"
       ],
-      "base will save": "+6.<br /><strong>Patron Deity</strong>: One of Halruaa's accepted deities, usually Mystra or Azuth.<br />",
+      "base will save": "+6.",
+      "Patron Deity": "One of Halruaa's accepted deities, usually Mystra or Azuth.<br />",
       "special": "Must be literate and speak Common, Halruaan, and at least two other languages. Must have been raised by House Jordain. Such rearing precludes the practice of arcane magic and the use of many magic items, subject to investigation by a magehound."
     },
     "skill points": {
@@ -54302,7 +54403,8 @@
         "Knowledge (local)",
         "Knowledge (religion)"
       ],
-      "spells": "Able to cast 2nd-level divine spells.<br /><strong>Patron Deity</strong>: Tyr."
+      "spells": "Able to cast 2nd-level divine spells.",
+      "Patron Deity": "Tyr."
     },
     "skill points": {
       "base": 2,
@@ -56905,7 +57007,8 @@
         "Knowledge (history)",
         "Spellcraft"
       ],
-      "base attack bonus": "+5 or ability to spontaneously cast 3rd-level arcane spells.<br /><strong>Oath to the Weave</strong>: A knight must swear to defend the Weave at all costs, sacrificing his own life to preserve it if necessary.<br />",
+      "base attack bonus": "+5 or ability to spontaneously cast 3rd-level arcane spells.",
+      "Oath to the Weave": "A knight must swear to defend the Weave at all costs, sacrificing his own life to preserve it if necessary.<br />",
       "special": "Cannot be a Shadow Weave user."
     },
     "skill points": {
@@ -57400,7 +57503,8 @@
         "Mounted Combat",
         "Great Cleave"
       ],
-      "heavy armor proficiency": ".<br /><strong>Other</strong>: Gain membership in the order."
+      "heavy armor proficiency": ".",
+      "Other": "Gain membership in the order."
     },
     "skill points": {
       "base": 2,
@@ -58326,7 +58430,8 @@
       "invigorate (ex)": "A lifedrinker can spend 1 lifewell point to gain 1d6 temporary hit points. These hit points last 24 hours, and while they do not stack with those granted by other sources of temporary hit points, they do stack with more hit points gained from the invigorate ability, so a lifedrinker may spend multiple lifewell points to gain more temporary hit points. No more lifewell points may be spent on this ability in any given day than the lifedrinker has levels.",
       "spell boost (empower) (ex)": "If a lifedrinker of 2nd level or higher casts spells, it may spend 4 lifewell points to empower a spell as if using the Empower Spell feat. The spell slot and level of the spell do not change.",
       "spell boost (heighten) (ex)": "If a lifedrinker of 3rd level or higher casts spells, it may spend a variable number of lifewell points to heighten a spell as if using the Heighten Spell feat. For every 2 lifewell points devoted to the spell boost, the spell's effective level is treated as one higher for purposes of save DC and other effects. For example, if a lifedrinker spends 4 lifewell points to boost a <a href=\"/spells/players-handbook-v35--6/fireball--2612/\"><em>fireball</em></a> spell, the spell is treated as a 5th-level spell when calculating the Reflex save DC, and the boosted <a href=\"/spells/players-handbook-v35--6/fireball--2612/\"><em>fireball</em></a> can penetrate a <a href=\"/spells/players-handbook-v35--6/globe-of-invulnerability-lesser--2325/\"><em>minor globe of invulnerability</em></a>, which a 3rd-level fireball cannot. The spell slot and level of the spell do not change.",
-      "special attack boost (empower)</strong> (ex): a 4th-level lifedrinker can spend 4 lifewell points to empower a special attack, increasing its variable, numeric effects by a factor of 1.5. the special attack is empowered for one use only. for example, a lifedrinker empowering its blood drain ability would drain 1d3 points of constitution, multiplied by 1.5. a lifedrinker could also use this ability to summon more creatures using the children of the night ability it gains as a vampire. some lifedrinkers might have other special abilities that they can use with this ability; a sea hag vampire lifedrinker, for example, could use this to empower her horrific appearance.</p><p><strong>blood servant (ex)": "By spending 10 lifewell points, a 5th-level lifedrinker can call forth a <a href=\"/spells/players-handbook-v35--6/planar-ally-lesser--2419/\"><em>lesser planar ally</em></a> (evil only), as per the spell of the same name. The ally automatically serves the lifedrinker for 24 hours. ",
+      "special attack boost (empower) (ex)": "a 4th-level lifedrinker can spend 4 lifewell points to empower a special attack, increasing its variable, numeric effects by a factor of 1.5. the special attack is empowered for one use only. for example, a lifedrinker empowering its blood drain ability would drain 1d3 points of constitution, multiplied by 1.5. a lifedrinker could also use this ability to summon more creatures using the children of the night ability it gains as a vampire. some lifedrinkers might have other special abilities that they can use with this ability; a sea hag vampire lifedrinker, for example, could use this to empower her horrific appearance.",
+      "blood servant (ex)": "By spending 10 lifewell points, a 5th-level lifedrinker can call forth a <a href=\"/spells/players-handbook-v35--6/planar-ally-lesser--2419/\"><em>lesser planar ally</em></a> (evil only), as per the spell of the same name. The ally automatically serves the lifedrinker for 24 hours. ",
       "boost defenses (ex)": "At 5th level, a lifedrinker can spend 8 lifewell points to add +2 to its natural armor bonus and turn resistance, add +10 to its cold resistance and electricity resistance, and increase its damage reduction to 20/+2. The effect lasts for 24 hours.",
       "spell boost (maximize) (ex)": "If a lifedrinker of 6th level or higher casts spells, it can spend 6 lifewell points to maximize a spell as if using the Maximize Spell feat. The spell slot and level of the spell do not change.",
       "greater blood drain (ex)": "At 7th level, a lifedrinker's blood drain ability now deals 1d6 points of Constitution drain.",
@@ -58568,7 +58673,8 @@
       "feats": [
         "Scorpion's resolve"
       ],
-      "spells": "Ability to cast 2nd-level divine spells.<br /><strong>Special:</strong> You must undergo an initiation ritual and return with a relic (see Playing a Lord of Tides, below)."
+      "spells": "Ability to cast 2nd-level divine spells.<br />",
+      "Special": " You must undergo an initiation ritual and return with a relic (see Playing a Lord of Tides, below)."
     },
     "skill points": {
       "base": 4,
@@ -59177,7 +59283,8 @@
         "Investigator",
         "Track"
       ],
-      "spells": "Able to cast 1st-level divine spells.<br /><strong>Region</strong>: Luiren"
+      "spells": "Able to cast 1st-level divine spells.",
+      "Region": "Luiren"
     },
     "skill points": {
       "base": 6,
@@ -59641,7 +59748,8 @@
       "feats": [
         "Melodic Casting"
       ],
-      "spellcasting": "Ability to cast 2nd-level arcane spells.<br /><strong>Special:</strong> Bardic music 5/day."
+      "spellcasting": "Ability to cast 2nd-level arcane spells.<br />",
+      "Special": " Bardic music 5/day."
     },
     "skill points": {
       "base": 4,
@@ -59799,7 +59907,9 @@
         "Craft",
         "Use Magic Device"
       ],
-      "race": "Gnome.<br /><strong>Feats:</strong> Any two item creation feats.<br /><strong>Spells:</strong> Arcane caster level 5th."
+      "race": "Gnome.<br />",
+      "Feats": " Any two item creation feats.<br />",
+      "Spells": " Arcane caster level 5th."
     }
   },
   {
@@ -60136,7 +60246,9 @@
   {
     "id": 537,
     "requirements": {
-      "feats": "Any one metamagic feat.<br /><strong>Spellcasting:</strong> Ability to cast 3rd-level spells.<br /><strong>Skill Tricks:</strong> Any two."
+      "feats": "Any one metamagic feat.<br />",
+      "Spellcasting": " Ability to cast 3rd-level spells.<br />",
+      "Skill Tricks": " Any two."
     },
     "skill points": {
       "base": 4,
@@ -60225,7 +60337,8 @@
         "Augment Summoning",
         "Spell Focus"
       ],
-      "languages": "Celestial, Infernal.<br /><strong>Special:</strong> Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iii--2443/\">summon monster III</a>"
+      "languages": "Celestial, Infernal.<br />",
+      "Special": " Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iii--2443/\">summon monster III</a>"
     },
     "skill points": {
       "base": 2,
@@ -60373,7 +60486,8 @@
         "Combat Expertise",
         "Weapon Focus"
       ],
-      "patron deity": "The Adama.<br /><strong>Region</strong>: The Golden Water.<br />",
+      "patron deity": "The Adama.",
+      "Region": "The Golden Water.<br />",
       "special": "The character must have a reputation as an honorable and dedicated person. He must spend one full month living by the standards of the Maquar crusader's code of conduct before being admitted into the Maquar."
     },
     "skill points": {
@@ -61294,7 +61408,8 @@
         "Disguise",
         "Perform"
       ],
-      "languages": "Any four.<br /><strong>Special:</strong> Must have successfully impersonated an individual, fooling even that person's friends and associates."
+      "languages": "Any four.<br />",
+      "Special": " Must have successfully impersonated an individual, fooling even that person's friends and associates."
     },
     "skill points": {
       "base": 4,
@@ -61429,7 +61544,9 @@
     "class features": {
       "spellcasting": "At 2nd, 4th, 7th, and 9th level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a master of masks, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known.",
       "persona masks (su)": "You gain the ability to craft potent magical masks, each of which allows you to take on a different persona and gain some aspect of that creature or archetypal character. At 1st level, you learn to create and use two masks selected from those described below. At 2nd level, and at every odd-numbered level thereafter, you can create and use one more mask from the list.",
-      "mask specialist (su)</strong>: starting at 3rd level, you innately enhance the abilities of any magic mask you wear (such as the mask of the skull, <span class=\"caps\">dmg</span> 262). if the mask creates an effect that requires a saving throw, the save dc increases by 2. if the mask grants a bonus on skill checks, that bonus is increased by 2. otherwise, the mask's caster level is treated as two higher.</p><p>this ability has no effect on the persona masks you create and use.</p><p><strong>many faces (ex)</strong>: at 5th level, you can wear more than one persona mask simultaneously. you can use the abilities of only one mask at a time, but you can switch between masks more quickly.</p><p>while wearing a persona mask, you can don a second without taking off the first. the appearance and benefit of the second replace those of the first. as a move action, you can have the first mask appear instead, granting its effect in place of the other's.</p><p>at 8th level, you can wear up to three masks simultaneously and can switch masks as a swift action.</p><p>at 10th level, you can wear up to four masks simultaneously and can switch masks as an immediate action. while wearing multiple persona masks in this way, you can remove any worn mask as a move action (regardless of which one is active).</p><p><strong>hidden mask (su)</strong>: beginning at 6th level, you can make any mask you wear become invisible (or return an invisible mask to visibility). activating or deactivating this ability requires a swift action. the mask's benefit applies regardless of whether it is visible.</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th><th><strong>spellcasting</strong></th><th>*masks known </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> persona masks </td><td>&#8212; </td><td> 2 </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 3 </td></tr><tr><td> 3rd </td><td> +1 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> mask specialist </td><td> &#8212; </td><td> 4 </td></tr><tr><td> 4th </td><td> +2 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 4 </td></tr><tr><td> 5th </td><td> +2 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> many faces (2, move) </td><td> &#8212; </td><td> 5 </td></tr><tr><td> 6th </td><td> +3 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> hidden mask </td><td> &#8212; </td><td> 5 </td></tr><tr><td> 7th </td><td> +3 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 6 </td></tr><tr><td> 8th </td><td> +4 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> many faces (3, swift) </td><td> &#8212; </td><td> 6 </td></tr><tr><td> 9th </td><td> +4 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 7 </td></tr><tr><td> 10th </td><td> +5 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> many faces (4, immediate) </td><td>&#8212; </td><td> 7 </td></tr></table></div>,<p><strong>spellcasting": "At 2nd, 4th, 7th, and 9th level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a master of masks, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known."
+      "mask specialist (su)": "starting at 3rd level, you innately enhance the abilities of any magic mask you wear (such as the mask of the skull, <span class=\"caps\">dmg</span> 262). if the mask creates an effect that requires a saving throw, the save dc increases by 2. if the mask grants a bonus on skill checks, that bonus is increased by 2. otherwise, the mask's caster level is treated as two higher.</p><p>this ability has no effect on the persona masks you create and use.",
+      "many faces (ex)": "at 5th level, you can wear more than one persona mask simultaneously. you can use the abilities of only one mask at a time, but you can switch between masks more quickly.</p><p>while wearing a persona mask, you can don a second without taking off the first. the appearance and benefit of the second replace those of the first. as a move action, you can have the first mask appear instead, granting its effect in place of the other's.</p><p>at 8th level, you can wear up to three masks simultaneously and can switch masks as a swift action.</p><p>at 10th level, you can wear up to four masks simultaneously and can switch masks as an immediate action. while wearing multiple persona masks in this way, you can remove any worn mask as a move action (regardless of which one is active).</p><p>",
+      "hidden mask (su)": ": beginning at 6th level, you can make any mask you wear become invisible (or return an invisible mask to visibility). activating or deactivating this ability requires a swift action. the mask's benefit applies regardless of whether it is visible.</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th><th><strong>spellcasting</strong></th><th>*masks known </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> persona masks </td><td>&#8212; </td><td> 2 </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 3 </td></tr><tr><td> 3rd </td><td> +1 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> mask specialist </td><td> &#8212; </td><td> 4 </td></tr><tr><td> 4th </td><td> +2 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 4 </td></tr><tr><td> 5th </td><td> +2 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> many faces (2, move) </td><td> &#8212; </td><td> 5 </td></tr><tr><td> 6th </td><td> +3 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> hidden mask </td><td> &#8212; </td><td> 5 </td></tr><tr><td> 7th </td><td> +3 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 6 </td></tr><tr><td> 8th </td><td> +4 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> many faces (3, swift) </td><td> &#8212; </td><td> 6 </td></tr><tr><td> 9th </td><td> +4 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> &#8212; </td><td> +1 level of existing spellcasting class </td><td> 7 </td></tr><tr><td> 10th </td><td> +5 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> many faces (4, immediate) </td><td>&#8212; </td><td> 7 </td></tr></table></div>","<p><strong>spellcasting": "At 2nd, 4th, 7th, and 9th level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a master of masks, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known."
     },
     "class skills": [
       "appraise",
@@ -61920,7 +62037,9 @@
         "Augment Summoning",
         "Spell Focus"
       ],
-      "base save bonus": "Will +5.<br /><strong>Spells:</strong> Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.<br /><strong>Special:</strong> Able to rebuke undead"
+      "base save bonus": "Will +5.<br />",
+      "Spells": " Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.<br />",
+      "Special": " Able to rebuke undead"
     },
     "skill points": {
       "base": 2,
@@ -62066,7 +62185,9 @@
         "Concentration",
         "Spellcraft"
       ],
-      "base save bonus": "Will +5.<br /><strong>Spells</strong>: Ability to cast divine spells and a spell that appears on the spell list for the Death, Evil, or Protection domain.<br /><strong>Other</strong>: Ability to command or rebuke undead."
+      "base save bonus": "Will +5.",
+      "Spells": "Ability to cast divine spells and a spell that appears on the spell list for the Death, Evil, or Protection domain.",
+      "Other": "Ability to command or rebuke undead."
     },
     "skill points": {
       "base": 2,
@@ -64417,7 +64538,8 @@
     "id": 581,
     "requirements": {
       "alignment": "Any good",
-      "spells": "Ability to cast 3rd-level divine spells.<br /><strong>Other</strong>: The candidate must be an afflicted lycanthrope aware of his condition."
+      "spells": "Ability to cast 3rd-level divine spells.",
+      "Other": "The candidate must be an afflicted lycanthrope aware of his condition."
     },
     "skill points": {
       "base": 2,
@@ -64803,7 +64925,8 @@
         "Investigator",
         "Stealthy"
       ],
-      "spells": "Ability to cast <em>disguise self</em> and <em>identify</em>.<br /><strong>Special:</strong> Bardic knowledge, lore (loremaster class feature or any similar ability), Harper knowledge, or ability to cast legend lore, Must be a member of the Tel Teukiira."
+      "spells": "Ability to cast <em>disguise self</em> and <em>identify</em>.<br />",
+      "Special": " Bardic knowledge, lore (loremaster class feature or any similar ability), Harper knowledge, or ability to cast legend lore, Must be a member of the Tel Teukiira."
     }
   },
   {
@@ -64819,7 +64942,8 @@
       "feats": [
         "Improved Turning"
       ],
-      "spells": "Able to cast 3rd-level divine spells, one of which must be <a href=\"/spells/players-handbook-v35--6/daylight--2601/\">daylight</a>.<br /><strong>Patron Deity</strong>: Lathander."
+      "spells": "Able to cast 3rd-level divine spells, one of which must be <a href=\"/spells/players-handbook-v35--6/daylight--2601/\">daylight</a>.",
+      "Patron Deity": "Lathander."
     },
     "skill points": {
       "base": 2,
@@ -65488,7 +65612,8 @@
     "starting gold": 10,
     "class features": {
       "weapon and armor proficiency": "A mountebank is proficient with all simple weapons and light armor, but<br />not with any shields.",
-      "beguiling stare (su)</strong>: as a standard action, the mountebank can stare into her target's eyes and attempt to hypnotize him through the force of her infernal gaze. the target of this ability must make a will save (dc 10 + 1/2 mountebank's level + mountebank's cha modifier). if this save fails, the target becomes beguiled until the end of the mountebank's next turn. the mountebank can use this ability at will, but she cannot attempt to use it against a single target more than once per day.</p><p>a beguiled character loses his dexterity bonus to armor class. he also suffers a -2 penalty on all will saves and a -5 penalty on all sense motive checks. the mountebank's infernal power overwhelms the target's mind, leaving his thoughts foggy and his body leaden. if the mountebank's target succeeds in his save, he has no knowledge of the mountebank's attempt to beguile him unless he makes a dc 20 knowledge (the planes) check. in the target's mind, he merely stared into her eyes for a moment.</p><p>beguiling stare is a mind-affecting ability.</p><p><strong>bonus language": "The mountebank gains either Abyssal or Infernal as a bonus language to better communicate with her sinister masters.",
+      "beguiling stare (su)": "as a standard action, the mountebank can stare into her target's eyes and attempt to hypnotize him through the force of her infernal gaze. the target of this ability must make a will save (dc 10 + 1/2 mountebank's level + mountebank's cha modifier). if this save fails, the target becomes beguiled until the end of the mountebank's next turn. the mountebank can use this ability at will, but she cannot attempt to use it against a single target more than once per day.</p><p>a beguiled character loses his dexterity bonus to armor class. he also suffers a -2 penalty on all will saves and a -5 penalty on all sense motive checks. the mountebank's infernal power overwhelms the target's mind, leaving his thoughts foggy and his body leaden. if the mountebank's target succeeds in his save, he has no knowledge of the mountebank's attempt to beguile him unless he makes a dc 20 knowledge (the planes) check. in the target's mind, he merely stared into her eyes for a moment.</p><p>beguiling stare is a mind-affecting ability.",
+      "bonus language": "The mountebank gains either Abyssal or Infernal as a bonus language to better communicate with her sinister masters.",
       "mark of damnation": "A mountebank pledges her soul to an infernal power, be it a demon, devil, or similar baleful lord. When the mountebank dies, her soul is consigned to her master. Any attempt to return her to life has a chance of failure, as the mountebank's master determines the fate of her soul. The mountebank must make a DC 25 Bluff or Diplomacy check (her choice) to return to the living. She gains a bonus on this check equal to half her mountebank level, as the dark lords of the Outer Planes prefer to let their more accomplished and skilled pawns return to the Material Plane to wreak further misery.",
       "trapfinding": "Mountebanks can use the Search skill to locate traps when the task has a Difficulty Class higher than 20. Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic trap has a DC of 25 + the level of the spell used to create it.",
       "deceptive attack": "If a mountebank of at least 2nd level can lull an opponent into dropping his defenses, she can make a sudden, devastating strike.",
@@ -66276,7 +66401,8 @@
         "Skill Focus",
         "Spell Focus"
       ],
-      "race": "Naga.<br /><strong>Spellcasting</strong>: Able to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a> as a spell."
+      "race": "Naga.",
+      "Spellcasting": "Able to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a> as a spell."
     },
     "skill points": {
       "base": 2,
@@ -67387,7 +67513,8 @@
       "feats": [
         "Improved Initiative"
       ],
-      "special": "Evasion class feature.<br /><strong>Special:</strong> The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
+      "special": "Evasion class feature.<br />",
+      "Special": " The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
     },
     "skill points": {
       "base": 4,
@@ -67540,7 +67667,8 @@
       "feats": [
         "Alertness"
       ],
-      "special": "Evasion class feature.<br /><strong>Special:</strong> The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
+      "special": "Evasion class feature.<br />",
+      "Special": " The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."
     },
     "skill points": {
       "base": 8,
@@ -68590,7 +68718,8 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "shadowcasting": "Able to cast 2nd-level mysteries<br /><strong>Spellcasting</strong>: Able to cast 2nd-level arcane spells"
+      "shadowcasting": "Able to cast 2nd-level mysteries",
+      "Spellcasting": "Able to cast 2nd-level arcane spells"
     },
     "skill points": {
       "base": 2,
@@ -68921,7 +69050,8 @@
         "Knowledge (arcana)",
         "Knowledge (history)"
       ],
-      "feats": "Any two metamagic feats.<br /><strong>Spells</strong>: Ability to cast 3rd-level arcane spells.<br />",
+      "feats": "Any two metamagic feats.",
+      "Spells": "Ability to cast 3rd-level arcane spells.<br />",
       "special": "Abjuration must not be a prohibited school for you."
     },
     "skill points": {
@@ -69331,7 +69461,8 @@
       "feats": [
         "Weapon Focus"
       ],
-      "spellcasting": "Able to cast magic weapon as a divine spell.<br /><strong>Special:</strong> Must worship Hextor or Heironeous."
+      "spellcasting": "Able to cast magic weapon as a divine spell.<br />",
+      "Special": " Must worship Hextor or Heironeous."
     },
     "skill points": {
       "base": 2,
@@ -73622,7 +73753,9 @@
         "Gather Information",
         "Sense Motive"
       ],
-      "languages": "Any three.<br /><strong>Psionics:</strong> Power point reserve of at least 1.<br /><strong>Special:</strong> Sneak attack +1d6."
+      "languages": "Any three.<br />",
+      "Psionics": " Power point reserve of at least 1.<br />",
+      "Special": " Sneak attack +1d6."
     },
     "skill points": {
       "base": 6,
@@ -74216,7 +74349,8 @@
         "Knowledge (psionics)",
         "Knowledge (religion)"
       ],
-      "spells": "Able to cast 2nd-level divine spells.<br /><strong>Psionics</strong>: Able to manifest 2nd-level powers."
+      "spells": "Able to cast 2nd-level divine spells.",
+      "Psionics": "Able to manifest 2nd-level powers."
     },
     "skill points": {
       "base": 2,
@@ -75079,7 +75213,9 @@
       "feats": [
         "Extra Turning"
       ],
-      "base save bonus": "Will +5.<br /><strong>Spells:</strong> Able to cast 1st-level divine spells and access to the Sun domain.<br /><strong>Special:</strong> Must have Pelor as patron deity. (Adapt as desired for sun god of the setting.)"
+      "base save bonus": "Will +5.<br />",
+      "Spells": " Able to cast 1st-level divine spells and access to the Sun domain.<br />",
+      "Special": " Must have Pelor as patron deity. (Adapt as desired for sun god of the setting.)"
     },
     "skill points": {
       "base": 2,
@@ -75222,7 +75358,8 @@
       "feats": [
         "Combat Casting"
       ],
-      "spells": "Able to cast 2nd-level arcane spells.<br /><strong>Special:</strong> Rage or frenzy ability."
+      "spells": "Able to cast 2nd-level arcane spells.<br />",
+      "Special": " Rage or frenzy ability."
     },
     "skill points": {
       "base": 2,
@@ -75367,7 +75504,8 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "spells": "Able to cast 3rd-level arcane spells.<br /><strong>Special:</strong> Must find the hidden jungle temples of the couatls."
+      "spells": "Able to cast 3rd-level arcane spells.<br />",
+      "Special": " Must find the hidden jungle temples of the couatls."
     },
     "skill points": {
       "base": 2,
@@ -75809,7 +75947,8 @@
       "endurance": "A ranger gains Endurance (see page 93) as a bonus feat at 3rd level.",
       "animal companion (ex)": "At 4th level, a ranger gains an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. If the DM's campaign takes place wholly or partly in an aquatic environment, the DM may add the following creatures to the ranger's list of options: crocodile, porpoise, Medium shark, and squid. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. (For instance, an aquatic creature can't adventure with a ranger on land and shouldn't be selected by a nonaquatic character without extenuating circumstances). In most cases, the animal companion functions as a mount, sentry, scout, or hunting animal, rather than as a protector.",
       "spells": "Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells (the same type of spells available to the cleric, druid, and paladin), which are drawn from the ranger spell list (page 191). A ranger must choose and prepare his spells in advance (see below).",
-      "improved combat style (ex)</strong>: at 6th level, a ranger's aptitude in his chosen combat style (archery or two-weapon combat) improves. if he selected archery at 2nd level, he is treated as having the manyshot feat (page 97), even if he does not have the normal prerequisites for that feat.</p><p>if the ranger selected two-weapon combat at 2nd level, he is treated as having the improved two-weapon fighting feat (page 96), even if he does not have the normal prerequisites for that feat.</p><p>as before, the benefits of the ranger's chosen style apply only when he wears light or no armor. he loses all benefits of his combat style when wearing medium or heavy armor.</p><p><strong>woodland stride (ex)": "Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.",
+      "improved combat style (ex)": "at 6th level, a ranger's aptitude in his chosen combat style (archery or two-weapon combat) improves. if he selected archery at 2nd level, he is treated as having the manyshot feat (page 97), even if he does not have the normal prerequisites for that feat.</p><p>if the ranger selected two-weapon combat at 2nd level, he is treated as having the improved two-weapon fighting feat (page 96), even if he does not have the normal prerequisites for that feat.</p><p>as before, the benefits of the ranger's chosen style apply only when he wears light or no armor. he loses all benefits of his combat style when wearing medium or heavy armor.",
+      "woodland stride (ex)": "Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.",
       "swift tracker (ex)": "Beginning at 8th level, a ranger can move at his normal speed while following tracks without taking the normal &#8212;5 penalty. He takes only a &#8212;10 penalty (instead of the normal &#8212;20) when moving at up to twice normal speed while tracking.",
       "evasion (ex)": "At 9th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save (such as a red dragon's fiery breath or a fireball), he instead takes no damage. Evasion can be used only if the ranger is wearing light armor or no armor. A helpless ranger (such as one who is unconscious or paralysed) does not gain the benefit of evasion.",
       "combat style mastery (ex)": "At 11th level, a ranger's aptitude in his chosen combat style (archery or two-weapon combat) improves again. If he selected archery at 2nd level, he is treated as having the Improved Precise Shot feat (page 96), even if he does not have the normal prerequisites for that feat.",
@@ -76461,7 +76600,9 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "race": "Changeling.<br /><strong>Feats</strong>: Any two metamagic feats.<br /><strong>Spells</strong>: Ability to cast 3rd-level arcane spells."
+      "race": "Changeling.",
+      "Feats": "Any two metamagic feats.",
+      "Spells": "Ability to cast 3rd-level arcane spells."
     },
     "skill points": {
       "base": 2,
@@ -77339,7 +77480,10 @@
     "hit die": 6,
     "class features": {
       "weapon and armor proficiency": "Rimefire witches gain proficiency with the trident. The trident is the favored weapon of Hleid, and many rimefire witches choose to wield tridents as well. They gain no other proficiency with weapons, armor, or shields.",
-      "spells per day/spells known</strong>: when a new rimefire witch level is gained, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in a spell-casting class she belonged to before adding the prestige class. she does not, however, gain any other benefit a character of that class would have gained (improved chance of controlling or rebuking undead, metamagic or item creation feats, and so on), except for an increased effective level of spellcasting. if a character had more than one spellcasting class before becoming a rimefire witch, she must decide to which class she adds the new level for purposes of determining spells per day and spells known.</p><p><strong>rimefire bond (su)</strong>: a rimefire witch becomes bonded on a deeply spiritual level with the rimefire eidolon that selected her as its guardian. both the witch and the eidolon are constantly aware of the other's location and condition, as if both were under the effects of a <a href=\"/spells/players-handbook-v35--6/status--2517/\"><em>status</em></a> spell. this is a permanent effect that cannot be dispelled or destroyed. the bond also shores up the mind and will to live of the witch and her eidolon; both gain a +2 morale bonus on all saving throws against mind-affecting and death effects while the other is alive. a rimefire bond is powerful enough that it even extends across planes. if a rimefire witch or her eidolon is killed, this bond is broken. a surviving rimefire witch loses all her supernatural and spell-like abilities granted by this class (but not her spellcasting ability) until she restores the slain eidolon to life and returns it to its iceberg. a surviving eidolon does not lose any of its abilities, and typically waits for a year before sending out a call for a new guardian. if the slain member of the bond is brought back to life within a year of death, the rimefire bond instantly reforges itself despite any physical distance between the two. if more than a year has passed, the rimefire witch does not regain her powers but within a week she is contacted in her dreams by a new rimefire eidolon; once she travels to its iceberg and accepts its bond of rimefire she immediately regains her lost powers.</p><p><strong>detect minion of iborighu (sp)</strong>: a rimefire witch possesses the spell-like ability to detect minions of iborighu at will. this spell-like ability functions like <a href=\"/spells/players-handbook-v35--6/detect-evil--2486/\"><em>detect evil</em></a> , except that it detects the presence or absence of devotion to iborighu in a living creature's aura and soul. undetectable alignment can block this ability, as can certain magic items that have similar effects, such as the mantle of hidden faith.</p><p><strong>rimefire bolt (su)": "At 3rd level, a rimefire witch's bond with her eidolon becomes powerful enough that she can summon and direct a bolt of rimefire, as long as she is currently in the boundaries of a frostfell. Summoning and directing a rimefire bolt is a standard action. Rimefire bolts have a range of 30 feet and attack as ranged touch attacks, dealing damage equal to 1d6 + the witch's Charisma modifier. Half this damage is cold damage and half is fire damage; for more information on rimefire, see page 17. At 6th level, a rimefire witch deals cold damage equal to 2d6 + her Charisma modifier with her rimefire bolt. At 9th level, a rimefire witch deals cold damage equal to 3d6 + her Charisma modifier with her rimefire bolt.",
+      "spells per day/spells known": "when a new rimefire witch level is gained, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in a spell-casting class she belonged to before adding the prestige class. she does not, however, gain any other benefit a character of that class would have gained (improved chance of controlling or rebuking undead, metamagic or item creation feats, and so on), except for an increased effective level of spellcasting. if a character had more than one spellcasting class before becoming a rimefire witch, she must decide to which class she adds the new level for purposes of determining spells per day and spells known.",
+      "rimefire bond (su)" : "a rimefire witch becomes bonded on a deeply spiritual level with the rimefire eidolon that selected her as its guardian. both the witch and the eidolon are constantly aware of the other's location and condition, as if both were under the effects of a <a href=\"/spells/players-handbook-v35--6/status--2517/\"><em>status</em></a> spell. this is a permanent effect that cannot be dispelled or destroyed. the bond also shores up the mind and will to live of the witch and her eidolon; both gain a +2 morale bonus on all saving throws against mind-affecting and death effects while the other is alive. a rimefire bond is powerful enough that it even extends across planes. if a rimefire witch or her eidolon is killed, this bond is broken. a surviving rimefire witch loses all her supernatural and spell-like abilities granted by this class (but not her spellcasting ability) until she restores the slain eidolon to life and returns it to its iceberg. a surviving eidolon does not lose any of its abilities, and typically waits for a year before sending out a call for a new guardian. if the slain member of the bond is brought back to life within a year of death, the rimefire bond instantly reforges itself despite any physical distance between the two. if more than a year has passed, the rimefire witch does not regain her powers but within a week she is contacted in her dreams by a new rimefire eidolon; once she travels to its iceberg and accepts its bond of rimefire she immediately regains her lost powers.</p><p>",
+      "detect minion of iborighu (sp)": ": a rimefire witch possesses the spell-like ability to detect minions of iborighu at will. this spell-like ability functions like <a href=\"/spells/players-handbook-v35--6/detect-evil--2486/\"><em>detect evil</em></a> , except that it detects the presence or absence of devotion to iborighu in a living creature's aura and soul. undetectable alignment can block this ability, as can certain magic items that have similar effects, such as the mantle of hidden faith.</p><p>",
+      "rimefire bolt (su)": "At 3rd level, a rimefire witch's bond with her eidolon becomes powerful enough that she can summon and direct a bolt of rimefire, as long as she is currently in the boundaries of a frostfell. Summoning and directing a rimefire bolt is a standard action. Rimefire bolts have a range of 30 feet and attack as ranged touch attacks, dealing damage equal to 1d6 + the witch's Charisma modifier. Half this damage is cold damage and half is fire damage; for more information on rimefire, see page 17. At 6th level, a rimefire witch deals cold damage equal to 2d6 + her Charisma modifier with her rimefire bolt. At 9th level, a rimefire witch deals cold damage equal to 3d6 + her Charisma modifier with her rimefire bolt.",
       "ice skate (sp)": "At 4th level, a rimefire witch gains the ability to use <a href=\"/spells/frostburn--68/ice-skate--1316/\"><em>ice skate</em></a> as a spell-like ability. She can use this ability a number of times each day equal to her Charisma modifier (minimum of once per day), at a caster level equal to her rimefire witch level.",
       "word of recall (sp)": "At 7th level, a rimefire witch gains the ability to use <a href=\"/spells/players-handbook-v35--6/word-of-recall--2473/\"><em>word of recall</em></a> as a spell-like ability. She can use this ability once per day, and it always recalls her to the chamber of her bonded rimefire eidolon.",
       "iceberg (sp)": "At 10th level, a rimefire witch gains the ability to use <a href=\"/spells/frostburn--68/iceberg--1274/\"><em>iceberg</em></a> as a spell-like ability. She can use this ability once per day, at a caster level equal to her rimefire witch level.",
@@ -77367,7 +77511,9 @@
       "feats": [
         "Nimbus of Light"
       ],
-      "base save bonuses": "Fort +2, Ref +2, Will +2.<br /><strong>Skills</strong>: Any one skill 9 ranks, Speak Language (Celestial).<br /><strong>Feats</strong>: Any one other exalted feat.<br />",
+      "base save bonuses": "Fort +2, Ref +2, Will +2.",
+      "Skills": "Any one skill 9 ranks, Speak Language (Celestial).",
+      "Feats": "Any one other exalted feat.<br />",
       "special": "The character must have suffered martyrdom (see Chapter 2) and must not have been returned to life. As a special feature of this prestige class, the character rises with the abilities of a 0-level risen martyr added to the character's previous abilities. When the character earns enough experience points to advance another level, he must become a 1st-level risen martyr."
     },
     "skill points": {
@@ -78792,7 +78938,8 @@
         "Knowledge (the planes)",
         "Knowledge (religion)"
       ],
-      "alignment": "Any good.<br /><strong>Spells</strong>: Able to cast <a href=\"/spells/players-handbook-v35--6/dismissal--2310/\">dismissal</a> or <a href=\"/spells/players-handbook-v35--6/dispel-evil--2312/\">dispel evil</a> .<br />",
+      "alignment": "Any good.",
+      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/dismissal--2310/\">dismissal</a> or <a href=\"/spells/players-handbook-v35--6/dispel-evil--2312/\">dispel evil</a> .<br />",
       "special": "Adopting this prestige class requires the sanction of a church or order that ordains sacred exorcists. Only characters judged by their church to be exemplary in faith and devotion, strong of will and upright in morality, are made sacred exorcists."
     },
     "skill points": {
@@ -79429,7 +79576,8 @@
       "feats": [
         "Extra Turning"
       ],
-      "base will save bonus": "+5.<br /><strong>Spells</strong>: Able to cast 2nd-level divine spells.<br />",
+      "base will save bonus": "+5.",
+      "Spells": "Able to cast 2nd-level divine spells.<br />",
       "special": "Able to turn undead."
     },
     "skill points": {
@@ -80125,7 +80273,8 @@
       "feats": [
         "Iron Will"
       ],
-      "proficiency": "Proficient with all martial weapons.<br /><strong>Psionics</strong>: Must have a power point reserve of at least 1 power point."
+      "proficiency": "Proficient with all martial weapons.",
+      "Psionics": "Must have a power point reserve of at least 1 power point."
     },
     "skill points": {
       "base": 4,
@@ -80310,7 +80459,8 @@
       "feats": [
         "Touchstone"
       ],
-      "alignment": "Any neutral.<br /><strong>Spells or Spell-Like Abilities:</strong> Arcane caster level 5th."
+      "alignment": "Any neutral.<br />",
+      "Spells or Spell-Like Abilities": " Arcane caster level 5th."
     },
     "skill points": {
       "base": 4,
@@ -80469,7 +80619,9 @@
     "id": 722,
     "requirements": {
       "alignment": "Lawful",
-      "meldshaping": "Ability to shape three soulmelds.<br /><strong>Spellcasting</strong>: Ability to cast 2nd-level divine spells.<br /><strong>Essentia Pool</strong>: 3.<br />",
+      "meldshaping": "Ability to shape three soulmelds.",
+      "Spellcasting": "Ability to cast 2nd-level divine spells.",
+      "Essentia Pool": "3.<br />",
       "special": "Access to the <a href=\"/spells/domains/law/\">Law</a> domain."
     },
     "skill points": {
@@ -80899,7 +81051,8 @@
         "Craft Aboleth Glyph",
         "Quickslime"
       ],
-      "race": "Aboleth.<br /><strong>Spells</strong>: Ability to cast 3rd-level arcane spells."
+      "race": "Aboleth.",
+      "Spells": "Ability to cast 3rd-level arcane spells."
     },
     "skill points": {
       "base": 6,
@@ -81551,7 +81704,8 @@
         "Diplomacy",
         "Swim"
       ],
-      "alignment": "Lawful good or lawful neutral.<br /><strong>Special:</strong> You must be blessed by Tem-Et-Nu in a ritual held in one of her temples."
+      "alignment": "Lawful good or lawful neutral.<br />",
+      "Special": " You must be blessed by Tem-Et-Nu in a ritual held in one of her temples."
     },
     "skill points": {
       "base": 2,
@@ -81976,7 +82130,8 @@
         "Initiate of Loviatar",
         "Exotic Weapon Proficiency"
       ],
-      "gender": "Female.<br /><strong>Patron Deity</strong>: Loviatar."
+      "gender": "Female.",
+      "Patron Deity": "Loviatar."
     },
     "skill points": {
       "base": 2,
@@ -82527,7 +82682,8 @@
         "Knowledge (religion)",
         "Survival"
       ],
-      "spells": "Able to cast 2nd-level divine spells.<br /><strong>Special:</strong> Must be inducted into the order by another member."
+      "spells": "Able to cast 2nd-level divine spells.<br />",
+      "Special": " Must be inducted into the order by another member."
     },
     "skill points": {
       "base": 6,
@@ -83692,15 +83848,100 @@
       "elemental travel (sp)": "A gen can plane shift at will to any of the Elemental Planes or from any elemental plane to the Material Plane. This ability transports the gen only. It is otherwise identical to the plane shift spell (caster level 13th).",
       "call genie (sp)": "An 11th-level or higher sha'ir may call any type of genie to aid him once per day. This functions as the planar ally spell except that the Sha'ir can only call one dao (see the Manual of the Planes), djinni, efreeti, or marid (see the Manual of the Planes), or two jann. The sha'ir must pay the spell's XP cost and bargain with the genie or jann as normal. Caster level is equal to the sha'ir's class level.",
       "craft genie prison (ex)": "At 13th level, a sha'ir gains the benefit ofthe Craft Wondrous Item feat, except that he can use it only to create genie prisons. A genie prison is created in die same way as an iron flask and functions identically to that device, except that it can hold only geniekind.",
-      "combat</strong><br />all gens have certain traits in common. they prefer to avoid combat, a task that is easy for them since they can travel to the elemental planes at will and survive equally well in any of them.</p><p><strong>elemental endurance (ex)": "A gen can survive on the elemental planes like a native. On the Elemental Plane o f Fire, a gen is immune to fire damage. On the Elemental Plane of Water, a gen can breathe water and has a swim speed equal to its fly speed (gaining the normal +8 racial bonus on Swim checks). On the Elemental Plane of Earth, a gen has a burrow speed equal to its land speed, leaving no tunnel or sign of its passage as though it has the earth glide ability o f a xorn (see the Monster Manual).",
+      "combat": "<br />all gens have certain traits in common. they prefer to avoid combat, a task that is easy for them since they can travel to the elemental planes at will and survive equally well in any of them.",
+      "elemental endurance (ex)": "A gen can survive on the elemental planes like a native. On the Elemental Plane o f Fire, a gen is immune to fire damage. On the Elemental Plane of Water, a gen can breathe water and has a swim speed equal to its fly speed (gaining the normal +8 racial bonus on Swim checks). On the Elemental Plane of Earth, a gen has a burrow speed equal to its land speed, leaving no tunnel or sign of its passage as though it has the earth glide ability o f a xorn (see the Monster Manual).",
       "fetch spells (ex)": "A gen can find and deliver spells to a sha'ir from the elemental planes. The time required depends upon the spell, as given in the sha'ir description.",
-      "<span class=\"caps\">air</span> gen</strong><br />tiny outsider (air, extraplanar)<br /><strong>hit dice": "1d8+1 (5hp)<br /><strong>Initiative:</strong> +2<br /><strong>Speed:</strong> 20 ft. (4 squares), fly 70 ft. (perfect)<br /><strong>Armor Class:</strong> 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br /><strong>Base Attack/Grapple:</strong> +1/-9<br /><strong>Attack:</strong> Slam +5 melee (ld2-2)<br /><strong>Full Attack:</strong> 2 slams +5 melee (ld2-2)<br /><strong>Space/Reach:</strong> 2-1/2 ft./0 ft.<br /><strong>Special Attacks:</strong> &#8212;<br /><strong>Special Qualities:</strong> Air mastery, darkvision 60 ft., elemental endurance, fetch spells, immunity to electricity, elemental travel, vulnerability to acid<br /><strong>Saves:</strong> Fort +3, Ref +4, Will +4<br /><strong>Abilities:</strong> Str 7, Dex 14, Con 12, Int 13, Wis 15, Cha 10<br /><strong>Skills:</strong> Concentration +5, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br /><strong>Feats:</strong> Combat Casting, Weapon Finesse<br /><strong>Environment:</strong> Any elemental plane<br /><strong>Organization:</strong> Solitary<br /><strong>Challenge Rating:</strong> 1/2<br /><strong>Treasure:</strong> Standard<br /><strong>Alignment:</strong> Often chaotic good<br /><strong>Advancement:</strong> 2-3 HD (Tiny); 4-6 HD (Small) <br /><strong>Level Adjustment:</strong> &#8212;<br /><em>This creature resembles a pale-skinned humanoid surrounded by misty vapors.</em><br />Air gens often dwell on the Elemental Plane of Air. Thought to be related to the djinn, they are often found within djinn cities, although they travel almost constantly.<br />Air gens speak Common and Auran.",
+      "<span class=\"caps\">air</span> gen</strong>": "tiny outsider (air, extraplanar)<br />",
+      "hit dice": "1d8+1 (5hp)<br />",
+      "Initiative": " +2<br />",
+      "Speed": " 20 ft. (4 squares), fly 70 ft. (perfect)<br />",
+      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br />",
+      "Base Attack/Grapple": " +1/-9<br />",
+      "Attack": " Slam +5 melee (ld2-2)<br />",
+      "Full Attack": " 2 slams +5 melee (ld2-2)<br />",
+      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
+      "Special Attacks": " &#8212;<br />",
+      "Special Qualities": " Air mastery, darkvision 60 ft., elemental endurance, fetch spells, immunity to electricity, elemental travel, vulnerability to acid<br />",
+      "Saves": " Fort +3, Ref +4, Will +4<br />",
+      "Abilities": " Str 7, Dex 14, Con 12, Int 13, Wis 15, Cha 10<br />",
+      "Skills": " Concentration +5, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
+      "Feats": " Combat Casting, Weapon Finesse<br />",
+      "Environment": " Any elemental plane<br />",
+      "Organization": " Solitary<br />",
+      "Challenge Rating": " 1/2<br />",
+      "Treasure": " Standard<br />",
+      "Alignment": " Often chaotic good<br />",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "Level Adjustment": " &#8212;<br /><em>This creature resembles a pale-skinned humanoid surrounded by misty vapors.</em><br />Air gens often dwell on the Elemental Plane of Air. Thought to be related to the djinn, they are often found within djinn cities, although they travel almost constantly.<br />Air gens speak Common and Auran.",
       "combat</strong><br />air gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>air mastery (ex)": "An airborne creature takes a &#8211; 1 penalty on attack and damage rolls against an air gen.",
-      "<span class=\"caps\">earth</span> gen</strong><br />tiny outsider (earth, extraplanar)<br /><strong>hit dice": "1d8+1 (5hp)<br /><strong>Initiative:</strong> +1<br /><strong>Speed:</strong> 20 ft. (4 squares), fly 60 ft. (perfect)<br /><strong>Armor Class:</strong> 16 (+2 size, +1 Dex, +3 natural), touch 13, flat-footed 15<br /><strong>Base Attack/Grapple:</strong> +1/-8<br /><strong>Attack:</strong> Slam +4 melee (1d2-1)<br /><strong>Full Attack:</strong> 2 slams +4 melee (1d2-1)<br /><strong>Space/Reach:</strong> 2-1/2 ft./0 ft.<br /><strong>Special Attacks:</strong> &#8212;<br /><strong>Special Qualities:</strong> Darkvision 60 ft., earth mastery, elemental endurance, fetch spells, immunity to acid, elemental travel, vulnerability to electricity<br /><strong>Saves:</strong> Fort +3, Ref +3, Will +4<br /><strong>Abilities:</strong> Str 9, Dex 12, Con 12, Int 13, Wis 15, Cha 10 <br /><strong>Skills:</strong> Concentration +5, Escape Artist +6, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6<br /><strong>Feats:</strong> Combat Casting, Weapon Finesse<br /><strong>Environment:</strong> Any elemental plane<br /><strong>Organization:</strong> Solitary<br /><strong>Challenge Rating:</strong> 1/2<br /><strong>Treasure:</strong> Standard<br /><strong>Alignment:</strong> Often chaotic evil<br /><strong>Advancement:</strong> 2-3 HD (Tiny); 4-6 HD (Small) <br /><strong>Level Adjustment:</strong> &#8212;<br /><em>This creature resembles a muscular, dusky-skinned humanoid. Tiny gems stud its skin.</em><br />Earth gens usually dwell on the Elemental Plane of Earth. Thought to be related to the dao, they are often found within dao cities, although they travel almost constantly.<br />Earth gens speak Common and Terran.",
+      "<span class=\"caps\">earth</span> gen</strong><br />":"tiny outsider (earth, extraplanar)<br />",
+      "hit dice": "1d8+1 (5hp)<br />",
+      "Initiative": " +1<br />",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)<br />",
+      "Armor Class": " 16 (+2 size, +1 Dex, +3 natural), touch 13, flat-footed 15<br />",
+      "Base Attack/Grapple": " +1/-8<br />",
+      "Attack": " Slam +4 melee (1d2-1)<br />",
+      "Full Attack": " 2 slams +4 melee (1d2-1)<br />",
+      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
+      "Special Attacks": " &#8212;<br />",
+      "Special Qualities": " Darkvision 60 ft., earth mastery, elemental endurance, fetch spells, immunity to acid, elemental travel, vulnerability to electricity<br />",
+      "Saves": " Fort +3, Ref +3, Will +4<br />",
+      "Abilities": " Str 9, Dex 12, Con 12, Int 13, Wis 15, Cha 10 <br />",
+      "Skills": " Concentration +5, Escape Artist +6, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
+      "Feats": " Combat Casting, Weapon Finesse<br />",
+      "Environment": " Any elemental plane<br />",
+      "Organization": " Solitary<br />",
+      "Challenge Rating": " 1/2<br />",
+      "Treasure": " Standard<br />",
+      "Alignment": " Often chaotic evil<br />",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "Level Adjustment": " &#8212;<br /><em>This creature resembles a muscular, dusky-skinned humanoid. Tiny gems stud its skin.</em><br />Earth gens usually dwell on the Elemental Plane of Earth. Thought to be related to the dao, they are often found within dao cities, although they travel almost constantly.<br />Earth gens speak Common and Terran.",
       "combat</strong><br />earth gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>earth mastery (ex)": "An earth gen gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the gen takes a &#8211; 4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)",
-      "<span class=\"caps\">fire</span> gen</strong><br />tiny outsider (extraplanar, fire)<br /><strong>hit dice": "1d8 (4hp)<br /><strong>Initiative:</strong> +2<br /><strong>Speed:</strong> 20 ft. (4 squares), fly 60 ft. (perfect)<br /><strong>Armor Class:</strong> 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br /><strong>Base Attack/Grapple:</strong> +1/-9<br /><strong>Attack:</strong> Slam +5 melee (ld2-2 pulse 1 fire)<br /><strong>Full Attack:</strong> 2 slams +5 melee (ld2-2 plus 1 fire)<br /><strong>Space/Reach:</strong> 2-1/2 ft./0 ft.<br /><strong>Special Attacks:</strong> Heat<br /><strong>Special Qualities:</strong> Darkvision 60 ft., elemental endurance, fetch spells, immunity to fire, elemental travel, vulnerability to cold<br /><strong>Saves:</strong> Fort +2, Ref +4, Will +4<br /><strong>Abilities:</strong> Str 7, Dex 14, Con 10, Int 13, Wis 15, Cha 10 <br /><strong>Skills:</strong> Concentration +4, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br /><strong>Feats:</strong> Combat Casting, Weapon Finesse<br /><strong>Environment:</strong> Any elemental plane<br /><strong>Organization:</strong> Solitary<br /><strong>Challenge Rating:</strong> 1/2<br /><strong>Treasure:</strong> Standard<br /><strong>Alignment:</strong> Often neutral evil<br /><strong>Advancement:</strong> 2-3 HD (Tiny); 4-6 HD (Small) <br /><strong>Level Adjustment:</strong> &#8212;<br /><em>This creature resembles a ruddy-skinned humanoid with hair like crackling flames.</em>",
+      "<span class=\"caps\">fire</span> gen</strong>":"tiny outsider (extraplanar, fire)<br />",
+      "hit dice": "1d8 (4hp)<br /><strong>",
+      "Initiative": " +2<br />",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)<br />",
+      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br />",
+      "Base Attack/Grapple": " +1/-9<br />",
+      "Attack": " Slam +5 melee (ld2-2 pulse 1 fire)<br />",
+      "Full Attack": " 2 slams +5 melee (ld2-2 plus 1 fire)<br />",
+      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
+      "Special Attacks": " Heat<br />",
+      "Special Qualities": " Darkvision 60 ft., elemental endurance, fetch spells, immunity to fire, elemental travel, vulnerability to cold<br />",
+      "Saves": " Fort +2, Ref +4, Will +4<br />",
+      "Abilities": " Str 7, Dex 14, Con 10, Int 13, Wis 15, Cha 10 <br />",
+      "Skills": " Concentration +4, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
+      "Feats": " Combat Casting, Weapon Finesse<br />",
+      "Environment": " Any elemental plane<br />",
+      "Organization": " Solitary<br />",
+      "Challenge Rating": " 1/2<br />",
+      "Treasure": " Standard<br />",
+      "Alignment": " Often neutral evil<br />",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "Level Adjustment": " &#8212;<br /><em>This creature resembles a ruddy-skinned humanoid with hair like crackling flames.</em>",
       "combat</strong><br />fire gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>heat (ex)": "A fire gen's red-hot body deals 1 point of extra fire damage whenever it hits in melee, or in each round that it maintains a hold while grappling.",
-      "<span class=\"caps\">water</span> gen</strong><br />tiny outsider (aquatic, extraplanar, water)<br /><strong>hit dice": "1d8+2 (6 hp)<br /><strong>Initiative:</strong> +1<br /><strong>Speed:</strong> 20 ft. (4 squares), fly 60 ft. (perfect), swim 20 ft.<br /><strong>Armor Class:</strong> 14 (+2 size, +1 Dex, +1 natural), touch 13, flat-footed 13<br /><strong>Base Attack/Grapple:</strong> +1/-9<br /><strong>Attack:</strong> Slam +4 melee (ld2-2)<br /><strong>Full Attack:</strong> 2 slams +4 melee (ld2-2)<br /><strong>Space/Reach:</strong> 2-1/2 ft./0 ft.<br /><strong>Special Attacks:</strong> &#8212;<br /><strong>Special Qualities:</strong> Amphibious, darkvision 60 ft., elemental endurance, fetch spells, immunity to cold, elemental travel, vulnerability to fire<br /><strong>Saves:</strong> Fort +4, Ref +3, Will +4<br /><strong>Abilities:</strong> Str 7, Dex 12, Con 14, Int 13, Wis 15, Cha 10 <br /><strong>Skills:</strong> Concentration +6, Escape Artist +5, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6, Swim +6<br /><strong>Feats:</strong> Combat Casting, Weapon Finesse<br /><strong>Environment:</strong> Any elemental plane<br /><strong>Organization:</strong> Solitary<br /><strong>Challenge Rating:</strong> 1/2<br /><strong>Treasure:</strong> Standard<br /><strong>Alignment:</strong> Often chaotic neutral<br /><strong>Advancement:</strong> 2-3 HD (Tiny); 4-6 HD (Small) <br /><strong>Level Adjustment:</strong> &#8212;",
+      "<span class=\"caps\">water</span> gen</strong>": "tiny outsider (aquatic, extraplanar, water)<br />",
+      "hit dice": "1d8+2 (6 hp)<br />",
+      "Initiative": " +1<br />",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect), swim 20 ft.<br />",
+      "Armor Class": " 14 (+2 size, +1 Dex, +1 natural), touch 13, flat-footed 13<br />",
+      "Base Attack/Grapple": " +1/-9<br />",
+      "Attack": " Slam +4 melee (ld2-2)<br />",
+      "Full Attack": " 2 slams +4 melee (ld2-2)<br />",
+      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
+      "Special Attacks": " &#8212;<br />",
+      "Special Qualities": " Amphibious, darkvision 60 ft., elemental endurance, fetch spells, immunity to cold, elemental travel, vulnerability to fire<br />",
+      "Saves": " Fort +4, Ref +3, Will +4<br />",
+      "Abilities": " Str 7, Dex 12, Con 14, Int 13, Wis 15, Cha 10 <br />",
+      "Skills": " Concentration +6, Escape Artist +5, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6, Swim +6<br />",
+      "Feats": " Combat Casting, Weapon Finesse<br />",
+      "Environment": " Any elemental plane<br />",
+      "Organization": " Solitary<br />",
+      "Challenge Rating": " 1/2<br />",
+      "Treasure": " Standard<br />",
+      "Alignment": " Often chaotic neutral<br />",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "Level Adjustment": " &#8212;",
       "combat</strong><br />water gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>amphibious (ex)": "Although water gens are aquatic, they can survive indefinitely on land."
     },
     "class skills": [
@@ -84098,7 +84339,8 @@
       "feats": [
         "Shadow Weave Magic"
       ],
-      "spells": "Able to cast 3rd-level arcane or divine spells.<br /><strong>Feats</strong>: Any one metamagic feat."
+      "spells": "Able to cast 3rd-level arcane or divine spells.",
+      "Feats": "Any one metamagic feat."
     },
     "skill points": {
       "base": 2,
@@ -86570,7 +86812,8 @@
         "Great Fortitude",
         "Spell Focus"
       ],
-      "spells": "Ability to cast six spells from the school of transmutation.<br /><strong>Special:</strong> Spirits of form, mysterious beings from beyond the normal ken of mortals, must have contacted the character. A character who wishes to join this class does well to study both magical and mundane means of altering the world around her in order to attract the attention of these beings."
+      "spells": "Ability to cast six spells from the school of transmutation.<br />",
+      "Special": " Spirits of form, mysterious beings from beyond the normal ken of mortals, must have contacted the character. A character who wishes to join this class does well to study both magical and mundane means of altering the world around her in order to attract the attention of these beings."
     },
     "skill points": {
       "base": 2,
@@ -87243,7 +87486,9 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "base save bonus": "Will +3.<br /><strong>Spells:</strong> Able to cast 1st-level divine spells<br /><strong>Special:</strong> Must have Heironeous as a patron deity."
+      "base save bonus": "Will +3.<br />",
+      "Spells": " Able to cast 1st-level divine spells<br />",
+      "Special": " Must have Heironeous as a patron deity."
     },
     "skill points": {
       "base": 2,
@@ -88403,7 +88648,9 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "subtype": "Dragonblood.<br /><strong>Spellcasting</strong>: Ability to cast 3rd-level divine spells.<br /><strong>Deity</strong>: Io."
+      "subtype": "Dragonblood.",
+      "Spellcasting": "Ability to cast 3rd-level divine spells.",
+      "Deity": "Io."
     },
     "skill points": {
       "base": 4,
@@ -90770,7 +91017,8 @@
       "feats": [
         "Incarnum Spellshaping"
       ],
-      "spellcasting": "Ability to cast 2nd-level arcane spells.<br /><strong>Meldshaping</strong>: Ability to shape three soulmelds; ability to bind a soulmeld to a chakra."
+      "spellcasting": "Ability to cast 2nd-level arcane spells.",
+      "Meldshaping": "Ability to shape three soulmelds; ability to bind a soulmeld to a chakra."
     },
     "skill points": {
       "base": 2,
@@ -90916,7 +91164,8 @@
       "feats": [
         "Iron Will"
       ],
-      "language": "Infernal<br /><strong>Spellcasting</strong>: Ability to cast 1st-level divine spells"
+      "language": "Infernal",
+      "Spellcasting": "Ability to cast 1st-level divine spells"
     },
     "skill points": {
       "base": 4,
@@ -91916,7 +92165,8 @@
         "Combat Casting"
       ],
       "spells": "Able to cast 4th-level arcane spells.<br />",
-      "special": "The candidate must be accepted into the Spellguard.<br /><strong>Feats</strong>: Any one metamagic feat."
+      "special": "The candidate must be accepted into the Spellguard.",
+      "Feats": "Any one metamagic feat."
     },
     "skill points": {
       "base": 2,
@@ -92005,7 +92255,9 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "spells": "Able to cast 2nd-level arcane spells.<br /><strong>Special:</strong> Must have defeated a foe through force of arms alone, without recourse to spellcasting.<br /><strong>Feats:</strong> Proficiency with all simple and martial weapons and with all armor (heavy, medium, and light)."
+      "spells": "Able to cast 2nd-level arcane spells.<br />",
+      "Special": " Must have defeated a foe through force of arms alone, without recourse to spellcasting.<br />",
+      "Feats": " Proficiency with all simple and martial weapons and with all armor (heavy, medium, and light)."
     },
     "skill points": {
       "base": 2,
@@ -92494,7 +92746,8 @@
       "feats": [
         "Point Blank Shot"
       ],
-      "spellcasting": "Ability to cast 3rd-level spells.<br /><strong>Special:</strong> Sneak attack or sudden strike +1d6."
+      "spellcasting": "Ability to cast 3rd-level spells.<br />",
+      "Special": " Sneak attack or sudden strike +1d6."
     },
     "skill points": {
       "base": 4,
@@ -94004,8 +94257,22 @@
     "hit die": 8,
     "class features": {
       "weapon and armor proficiency": "Stonelords gain no proficiency with any weapon or armor.",
-      "<em>earth's blood (sp):</em></strong> once per day, a stonelord can take a standard action to heal her own wounds using a clump of mud. this ability heals a number of hit points equal to 1d8 + her stonelord class level.</p><p><strong>stone power": "At every even-numbered level, a stonelord can choose one ability from the following list of stone powers. No stone power can be chosen more than once. Unless otherwise noted, the stonelord uses her class level as the caster level for these effects (the save DCs are Constitution-based). Using one of these abilities is a standard action unless otherwise noted.",
-      "<em>earthgrip (sp):</em></strong> once per day, a stonelord with this ability can use hold monster on any target touching the ground. if the opponent is airborne or waterborne, the stonelord cannot affect the creature with the spell.</p><p><strong><em>earth magic (su):</em></strong> once per day, a spell cast by a stonelord with this ability (assuming she can cast spells) is considered maximized as if prepared with the maximize spell feat, although the spell's level is unaffected. the spell's level cannot be higher than the class level of the stonelord. using this ability is a free action.</p><p><strong><em>earth's endurance (sp):</em></strong> once per day, a stonelord with this ability grants herself a boost to her constitution score as if she were affected by a bear's endurance spell for 1 hour. </p><p><strong><em>earth's strength (sp):</em></strong> once per day, a stonelord with this ability grants herself a boost to her strength score as if she were affected by a bull's strength spell for 1 hour.</p><p><strong><em>earth power (su):</em></strong> once per day, all melee attacks made in a single round by a stonelord with this ability gain a +2 bonus on the attack roll and deal an extra 2d6 points of damage on a successful hit. using this ability is a free action.</p><p><strong><em>earth shadows (su):</em></strong> once per day per class level, a stonelord with this ability can create a figment of a medium earth elemental that appears in a flanking position adjacent to the stonelord's opponent for 1 round. this ability allows the stonelord to make flanking attacks (+2 to hit, can make a sneak attack if such ability is available) against that opponent during that round. using this ability is a free action.</p><p><strong><em>gravity (sp):</em></strong> once per day, a stonelord with this ability can use a slow effect (as the spell). </p><p><strong><em>stoneskin (sp):</em></strong> once per day, a stonelord with this ability can give herself the benefit of a stoneskin spell (caster level equal to the stonelord's class level). the character must provide the material component as if she were actually casting the spell.</p><p><strong><em>summon earth elemental (sp):</em></strong> once per day, a stone lord with this ability can summon an earth elemental as if she had cast a summon monster spell. the size of the summoned earth elemental depends on the stonelord's class level, as follows: 1st&#8212;3rd, small; 4th&#8212;6th, medium; 7th&#8212;9th, large; 10th, huge.</p><p><strong><em>stone shape (sp):</em></strong> once per day, a stonelord of 3rd level or higher can use a stone shape effect (caster level equal to the stonelord's class level).</p><p><strong><em>meld into stone (sp):</em></strong> once per day per class level, a stonelord of 5th level or higher can use a meld into stone effect (caster level equal to the stonelord's class level).</p><p><strong><em>stone tell (sp):</em></strong> once per day, a stonelord of 7th level or higher can speak with stone as if she had cast stone tell (caster level equal to the stonelord's class level).</p><p><strong><em>earthquake (sp):</em></strong> once per day, a stonelord of 9th level or higher can use an earthquake effect (caster level equal to the stonelord's class level).</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> earth's blood </td></tr><tr><td> 2nd </td><td> +2 </td><td> +3 </td><td> +0 </td><td> +0 </td><td> stone power </td></tr><tr><td> 3rd </td><td> +3 </td><td> +3 </td><td> +1 </td><td> +1 </td><td> stone shape </td></tr><tr><td> 4th </td><td> +4 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> stone power </td></tr><tr><td> 5th </td><td> +5 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> meld into stone </td></tr><tr><td> 6th </td><td> +6 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 7th </td><td> +7 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone tell </td></tr><tr><td> 8th </td><td> +8 </td><td> +6 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 9th </td><td> +9 </td><td> +6 </td><td> +3 </td><td> +3 </td><td> earthquake </td></tr><tr><td> 10th </td><td> +10 </td><td> +7 </td><td> +3 </td><td> +3 </td><td> stone power </td></tr></table></div>,<p><strong>weapon and armor proficiency": "Stonelords gain no proficiency with any weapon or armor."
+      "<em>earth's blood (sp):</em>": " once per day, a stonelord can take a standard action to heal her own wounds using a clump of mud. this ability heals a number of hit points equal to 1d8 + her stonelord class level.",
+      "stone power": "At every even-numbered level, a stonelord can choose one ability from the following list of stone powers. No stone power can be chosen more than once. Unless otherwise noted, the stonelord uses her class level as the caster level for these effects (the save DCs are Constitution-based). Using one of these abilities is a standard action unless otherwise noted.",
+      "<em>earthgrip (sp):</em>": " once per day, a stonelord with this ability can use hold monster on any target touching the ground. if the opponent is airborne or waterborne, the stonelord cannot affect the creature with the spell.",
+      "<em>earth magic (su):</em>": " once per day, a spell cast by a stonelord with this ability (assuming she can cast spells) is considered maximized as if prepared with the maximize spell feat, although the spell's level is unaffected. the spell's level cannot be higher than the class level of the stonelord. using this ability is a free action.</p><p>",
+      "<em>earth's endurance (sp):</em>": " once per day, a stonelord with this ability grants herself a boost to her constitution score as if she were affected by a bear's endurance spell for 1 hour. </p><p>",
+      "<em>earth's strength (sp):</em>": " once per day, a stonelord with this ability grants herself a boost to her strength score as if she were affected by a bull's strength spell for 1 hour.</p><p>",
+      "<em>earth power (su):</em>": " once per day, all melee attacks made in a single round by a stonelord with this ability gain a +2 bonus on the attack roll and deal an extra 2d6 points of damage on a successful hit. using this ability is a free action.</p><p>",
+      "<em>earth shadows (su):</em>": " once per day per class level, a stonelord with this ability can create a figment of a medium earth elemental that appears in a flanking position adjacent to the stonelord's opponent for 1 round. this ability allows the stonelord to make flanking attacks (+2 to hit, can make a sneak attack if such ability is available) against that opponent during that round. using this ability is a free action.</p><p>",
+      "<em>gravity (sp):</em>": " once per day, a stonelord with this ability can use a slow effect (as the spell). </p><p>",
+      "<em>stoneskin (sp):</em>": " once per day, a stonelord with this ability can give herself the benefit of a stoneskin spell (caster level equal to the stonelord's class level). the character must provide the material component as if she were actually casting the spell.</p><p>",
+      "<em>summon earth elemental (sp):</em>": " once per day, a stone lord with this ability can summon an earth elemental as if she had cast a summon monster spell. the size of the summoned earth elemental depends on the stonelord's class level, as follows: 1st&#8212;3rd, small; 4th&#8212;6th, medium; 7th&#8212;9th, large; 10th, huge.</p><p>",
+      "<em>stone shape (sp):</em>": " once per day, a stonelord of 3rd level or higher can use a stone shape effect (caster level equal to the stonelord's class level).</p><p>",
+      "<em>meld into stone (sp):</em>": " once per day per class level, a stonelord of 5th level or higher can use a meld into stone effect (caster level equal to the stonelord's class level).</p><p>",
+      "<em>stone tell (sp):</em>": " once per day, a stonelord of 7th level or higher can speak with stone as if she had cast stone tell (caster level equal to the stonelord's class level).</p><p>",
+      "<em>earthquake (sp):</em>": " once per day, a stonelord of 9th level or higher can use an earthquake effect (caster level equal to the stonelord's class level).</p><h3>advancement</h3><table><tr><th><strong>level</strong> </th><th><strong>bab</strong> </th><th><strong>fort</strong> </th><th><strong>ref</strong> </th><th><strong>will</strong> </th><th><strong>special</strong> </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> earth's blood </td></tr><tr><td> 2nd </td><td> +2 </td><td> +3 </td><td> +0 </td><td> +0 </td><td> stone power </td></tr><tr><td> 3rd </td><td> +3 </td><td> +3 </td><td> +1 </td><td> +1 </td><td> stone shape </td></tr><tr><td> 4th </td><td> +4 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> stone power </td></tr><tr><td> 5th </td><td> +5 </td><td> +4 </td><td> +1 </td><td> +1 </td><td> meld into stone </td></tr><tr><td> 6th </td><td> +6 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 7th </td><td> +7 </td><td> +5 </td><td> +2 </td><td> +2 </td><td> stone tell </td></tr><tr><td> 8th </td><td> +8 </td><td> +6 </td><td> +2 </td><td> +2 </td><td> stone power </td></tr><tr><td> 9th </td><td> +9 </td><td> +6 </td><td> +3 </td><td> +3 </td><td> earthquake </td></tr><tr><td> 10th </td><td> +10 </td><td> +7 </td><td> +3 </td><td> +3 </td><td> stone power </td></tr></table></div>,<p>",
+      "weapon and armor proficiency": "Stonelords gain no proficiency with any weapon or armor."
     },
     "class skills": [
       "climb",
@@ -94432,7 +94699,10 @@
         "Great Fortitude",
         "Weapon Focus"
       ],
-      "base save bonus": "Fort +4.<br /><strong>Spells:</strong> Able to cast 3rd-level divine spells.<br /><strong>Patron:</strong> Talos.<br /><strong>Special:</strong> The character must have been hit by a bolt of lightning, whether a natural bolt or one created by magic, and survived."
+      "base save bonus": "Fort +4.<br />",
+      "Spells": " Able to cast 3rd-level divine spells.<br />",
+      "Patron": " Talos.<br />",
+      "Special": " The character must have been hit by a bolt of lightning, whether a natural bolt or one created by magic, and survived."
     },
     "skill points": {
       "base": 2,
@@ -95512,7 +95782,9 @@
       "feats": [
         "Servant of the Fallen"
       ],
-      "spells": "Ability to cast 2nd-level divine spells.<br /><strong>Domains</strong>: Law, Sun.<br /><strong>Patron Deity</strong>: Amaunator.<br />",
+      "spells": "Ability to cast 2nd-level divine spells.",
+      "Domains": "Law, Sun.",
+      "Patron Deity": "Amaunator.<br />",
       "special": "You must own a holy symbol of Amaunator, either personally recovered from a ruined temple of that deity or given to you by an existing sunmaster."
     },
     "skill points": {
@@ -95648,7 +95920,8 @@
   {
     "id": 840,
     "requirements": {
-      "base save bonus": "Highest base save bonus must be lower than character level.<br /><strong>Special:</strong> The path of the survivor requires a concentrated month of study to enter the prestige class. During this month, the character must stay in one place and spend all his waking hours in study, practice, and meditation."
+      "base save bonus": "Highest base save bonus must be lower than character level.<br />",
+      "Special": " The path of the survivor requires a concentrated month of study to enter the prestige class. During this month, the character must stay in one place and spend all his waking hours in study, practice, and meditation."
     },
     "skill points": {
       "base": 2,
@@ -95729,7 +96002,8 @@
         "Sacred Vow",
         "Vow of Purity"
       ],
-      "gender": "Female<br /><strong>Spells</strong>: Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.<br />",
+      "gender": "Female",
+      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.<br />",
       "special": "The character must have the wild empathy class feature.<br />",
       "special": "Knowingly or not, a character must perform a great service for another swanmay before she can join the order."
     },
@@ -96126,7 +96400,8 @@
     "id": 844,
     "requirements": {
       "base attack bonus": 3,
-      "languages": "Draconic.<br /><strong>Spellcasting</strong>: Ability to cast 3rd-level divine spells.<br />",
+      "languages": "Draconic.",
+      "Spellcasting": "Ability to cast 3rd-level divine spells.<br />",
       "special": "Ability to turn undead."
     },
     "skill points": {
@@ -96919,7 +97194,8 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "spellcasting": "Ability to cast 1st-level arcane spells or use least invocations (warlock)<br /><strong>Taint</strong>: Moderate or greater depravity"
+      "spellcasting": "Ability to cast 1st-level arcane spells or use least invocations (warlock)",
+      "Taint": "Moderate or greater depravity"
     }
   },
   {
@@ -99605,7 +99881,8 @@
       "<em>rotting touch</em> (sp)": "Three times per day, a thrall of Demogorgon can deal 1d6 points of Constitution damage as a touch attack. ",
       "two personas (ex)": "An 8th level thrall of Demogorgon goes a little insane, if he is not already mad. The thrall develops a multiple personality disorder that has the side effect of allowing the character to multiclass freely with no experience penalties. ",
       "<em>death touch</em> (sp)": "At 8th level, a thrall of Demogorgon can use an effect identical to that of the <a href=\"/spells/players-handbook-v35--6/slay-living--2758/spell\">slay living</a> once per day. The Fortitude save DC to avoid death is 10 + class level+ Cha modifier.",
-      "<em>demogorgon's will</em> (sp:)</strong> a 10th-level thrall of demogorgon can call upon the power of his master and be granted a <a href=\"/spells/players-handbook-v35--6/limited-wish--2899/\">limited wish</a> spell once per day. the use of this ability requires 3 full rounds devoted to entreaties and prayers to demogorgon before the &quot;limited wish&quot; /spells/players-handbook-v35&#8212;6/limited-wish&#8212;2899/ is granted. the thrall mus pay the experience point cost and provide any needed material components.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day/spells known </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> scaly flesh +1, <em>hypnosis</em> </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> <em>touch of fear</em> </td><td> &#8212;</td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> reaching touch </td><td> &#8212;</td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> dual actions, scaly flesh +2 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> <em>summon minor demon</em> </td><td> &#8212;</td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>rotting touch</em> </td><td> &#8212;</td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> scaly flesh +3 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 8th </td><td> +6/+1 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> two personas, <em>death touch</em> </td><td> &#8212;</td></tr><tr><td> 9th </td><td> +6/+1 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> <em>summon major demon</em> </td><td> &#8212;</td></tr><tr><td> 10th </td><td> +7/+2 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> <em>demogorgon's will</em>, scaly flesh +4 </td><td> bonus feat or +1 level of existing class </td></tr></table></div>,<p>all of the following are class features of the thrall of demogorgon prestige class. </p><p><strong>weapon and armor proficiency": "a thrall of demogorgon is proficient with all simple and martial weapons, with all types of armor and with shields. "
+      "<em>demogorgon's will</em> (sp:)": " a 10th-level thrall of demogorgon can call upon the power of his master and be granted a <a href=\"/spells/players-handbook-v35--6/limited-wish--2899/\">limited wish</a> spell once per day. the use of this ability requires 3 full rounds devoted to entreaties and prayers to demogorgon before the &quot;limited wish&quot; /spells/players-handbook-v35&#8212;6/limited-wish&#8212;2899/ is granted. the thrall mus pay the experience point cost and provide any needed material components.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day/spells known </th></tr><tr><td> 1st </td><td> +1 </td><td> +2 </td><td> +0 </td><td> +0 </td><td> scaly flesh +1, <em>hypnosis</em> </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> <em>touch of fear</em> </td><td> &#8212;</td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> reaching touch </td><td> &#8212;</td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> dual actions, scaly flesh +2 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> <em>summon minor demon</em> </td><td> &#8212;</td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>rotting touch</em> </td><td> &#8212;</td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> scaly flesh +3 </td><td> bonus feat or +1 level of existing class </td></tr><tr><td> 8th </td><td> +6/+1 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> two personas, <em>death touch</em> </td><td> &#8212;</td></tr><tr><td> 9th </td><td> +6/+1 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> <em>summon major demon</em> </td><td> &#8212;</td></tr><tr><td> 10th </td><td> +7/+2 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> <em>demogorgon's will</em>, scaly flesh +4 </td><td> bonus feat or +1 level of existing class </td></tr></table></div>,<p>all of the following are class features of the thrall of demogorgon prestige class. ",
+      "weapon and armor proficiency": "a thrall of demogorgon is proficient with all simple and martial weapons, with all types of armor and with shields. "
     },
     "class skills": [
       "bluff",
@@ -100642,7 +100919,8 @@
       "feats": [
         "Toughness"
       ],
-      "type": "Undead.<br /><strong>Base Save Bonus</strong>: Will +5.<br />",
+      "type": "Undead.",
+      "Base Save Bonus": "Will +5.<br />",
       "special": "A tomb warden must dedicate itself to the protection of a tomb, graveyard, or similar resting place of the dead."
     },
     "skill points": {
@@ -101745,7 +102023,17 @@
     "hit die": 6,
     "class features": {
       "weapon and armor proficiency": "Troubadours of stars gain no proficiency with any weapon or armor.",
-      "bardic music</strong>: a troubadour of stars adds her class level to her bard level, if any, to determine what bardic music abilities she can use and how often she can use them. in addition, her troubadour levels stack with her bard levels for purposes of determining the bonus granted by her bestow courage ability. a troubadour of stars with no bard levels gains bardic music abilities as a bard of her class level.</p><p><em><strong>detect evil (sp)</strong></em>: at will, as the spell.</p><p><strong>holy cacophony (su)</strong>: a 2nd-level troubadour of stars with 8 or more ranks in perform can, as an extra bardic music effect, create a song of discordant notes that hampers evil creatures. any evil creature within 30 feet of the troubadour must make a successful concentration check (dc 15 + spell level) in order to cast a spell or use a spell-like ability. using the words of creation with this ability increases the save dc to 20 + spell level and deals 8d4 points of nonlethal damage to the troubadour. holy cacophony is a sonic, mind-affecting ability.</p><p><strong>celestial spells</strong>: once she reaches 2nd level, a troubadour of stars can cast spells as if she were an eladrin. specifically, the troubadour can learn and cast any spell described in chapter 6 that has a celestial or eladrin component, as long as she can otherwise cast the spell (it appears on her spell list, it is of a level of spells that she can cast, and she has a sufficient ability score to cast spells of that level).</p><p><strong>spells per day/spells known</strong>: at each even-numbered troubadour of stars level, the character gains new spells per day and spells known as if she had also gained a level in an arcane spellcasting class to which she belonged before adding the prestige class level. the class must spontaneously cast spells (as a sorcerer or bard does). she does not, however, gain any other benefit a character of that class would have gained (bardic music abilities, improved familiar abilities, and so on). if the character had more than one arcane spellcasting class before becoming a troubadour of stars, she must decide to which class she adds each troubadour level for the purpose of determining spells per day and spells known.</p><p><em><strong>starmantle (sp)</strong></em>: at 3rd level, a troubadour of stars gains the ability to use <a href=\"/spells/book-of-exalted-deeds--52/starmantle--13/\"><em>starmantle</em></a>, as the spell (see chapter 6), once per day. her caster level is equal to her character level.</p><p><strong>song of hope (su)</strong>: a 5th-level troubadour of stars with 11 or more ranks in perform can, as an additional bardic music effect, inspire powerful hope in her allies. good-aligned creatures within 30 feet of the troubadour who are her allies gain a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls, as if affected by the <a href=\"/spells/players-handbook-v35--6/good-hope--2552/\"><em>good hope</em></a> spell. in addition, affected creatures gain a new saving throw against any fear effect, despair effect (such as the <a href=\"/spells/players-handbook-v35--6/crushing-despair--2540/\"><em>crushing despair</em></a> spell), or similar mind-affecting condition, excluding &quot;<em>charm person</em>&quot;/spells/players-handbook-v35&#8212;6/charm-person&#8212;2535/, <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\"><em>dominate person</em></a>, and similar spells. an affected creature may use the troubadour's perform check result in place of her saving throw if, after rolling the saving throw, the perform check result proves to be better. using the words of creation with this ability increases the morale bonus to +4 and deals 11d4 points of nonlethal damage to the troubadour. song of hope is a sonic, mind-affecting ability.</p><p><strong>sanctified spells</strong>: a 6th-level troubadour of stars can use sanctified spells as though they were among her spells known.</p><p><em><strong>eladrin form (sp)</strong></em>: at 7th level, a troubadour of stars gains the ability to use <a href=\"/spells/book-of-exalted-deeds--52/eladrin-form--106/\"><em>eladrin form</em></a>, as the spell (see chapter 6), once per day. her caster level is equal to her class level.</p><p><strong>celestial symphony (su)</strong>: a 9th-level troubadour of stars with 15 or more ranks in perform can, as an additional bardic music effect, create an effect that duplicates the holy word spell. nongood creatures within 30 feet of the troubadour are affected as though by the spell. the troubadour's caster level is equal to her class level. using the words of creation with this effect grants the troubadour a +4 bonus on her caster level check to overcome spell resistance and deals 15d4 points of nonlethal damage to the troubadour. celestial symphony is a sonic effect.</p><p><strong>celestial ascension (ex)</strong>: at 10th level, a troubadour of stars is so attuned to the ways of the eladrins that she becomes a magical creature. her type changes to outsider (native) and she gains damage reduction 10/unholy. unlike other outsiders, the troubadour can still be brought back from the dead.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> bardic music, <em>detect evil</em> </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> holy cacophony, celestial spells </td><td> +1 level of existing class </td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> <em>starmantle</em> </td><td> &#8212; </td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> song of hope </td><td> &#8212; </td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> sanctified spells </td><td> +1 level of existing class </td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>eladrin form</em> </td><td> &#8212; </td></tr><tr><td> 8th </td><td> +6 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 9th </td><td> +6 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> celestial symphony </td><td> &#8212; </td></tr><tr><td> 10th </td><td> +7 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> celestial ascension </td><td> +1 level of existing class </td></tr></table></div>,<p><strong>weapon and armor proficiency": "Troubadours of stars gain no proficiency with any weapon or armor."
+      "bardic music": "a troubadour of stars adds her class level to her bard level, if any, to determine what bardic music abilities she can use and how often she can use them. in addition, her troubadour levels stack with her bard levels for purposes of determining the bonus granted by her bestow courage ability. a troubadour of stars with no bard levels gains bardic music abilities as a bard of her class level.</p><p><em>",
+      "detect evil (sp)": "</em>: at will, as the spell.",
+      "holy cacophony (su)": " a 2nd-level troubadour of stars with 8 or more ranks in perform can, as an extra bardic music effect, create a song of discordant notes that hampers evil creatures. any evil creature within 30 feet of the troubadour must make a successful concentration check (dc 15 + spell level) in order to cast a spell or use a spell-like ability. using the words of creation with this ability increases the save dc to 20 + spell level and deals 8d4 points of nonlethal damage to the troubadour. holy cacophony is a sonic, mind-affecting ability.</p><p>",
+      "celestial spells": ": once she reaches 2nd level, a troubadour of stars can cast spells as if she were an eladrin. specifically, the troubadour can learn and cast any spell described in chapter 6 that has a celestial or eladrin component, as long as she can otherwise cast the spell (it appears on her spell list, it is of a level of spells that she can cast, and she has a sufficient ability score to cast spells of that level).</p><p><strong>spells per day/spells known</strong>: at each even-numbered troubadour of stars level, the character gains new spells per day and spells known as if she had also gained a level in an arcane spellcasting class to which she belonged before adding the prestige class level. the class must spontaneously cast spells (as a sorcerer or bard does). she does not, however, gain any other benefit a character of that class would have gained (bardic music abilities, improved familiar abilities, and so on). if the character had more than one arcane spellcasting class before becoming a troubadour of stars, she must decide to which class she adds each troubadour level for the purpose of determining spells per day and spells known.</p><p><em>",
+      "starmantle (sp)": "</em>: at 3rd level, a troubadour of stars gains the ability to use <a href=\"/spells/book-of-exalted-deeds--52/starmantle--13/\"><em>starmantle</em></a>, as the spell (see chapter 6), once per day. her caster level is equal to her character level.</p><p>",
+      "song of hope (su)": ": a 5th-level troubadour of stars with 11 or more ranks in perform can, as an additional bardic music effect, inspire powerful hope in her allies. good-aligned creatures within 30 feet of the troubadour who are her allies gain a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls, as if affected by the <a href=\"/spells/players-handbook-v35--6/good-hope--2552/\"><em>good hope</em></a> spell. in addition, affected creatures gain a new saving throw against any fear effect, despair effect (such as the <a href=\"/spells/players-handbook-v35--6/crushing-despair--2540/\"><em>crushing despair</em></a> spell), or similar mind-affecting condition, excluding &quot;<em>charm person</em>&quot;/spells/players-handbook-v35&#8212;6/charm-person&#8212;2535/, <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\"><em>dominate person</em></a>, and similar spells. an affected creature may use the troubadour's perform check result in place of her saving throw if, after rolling the saving throw, the perform check result proves to be better. using the words of creation with this ability increases the morale bonus to +4 and deals 11d4 points of nonlethal damage to the troubadour. song of hope is a sonic, mind-affecting ability.</p><p>",
+      "sanctified spells": ": a 6th-level troubadour of stars can use sanctified spells as though they were among her spells known.</p><p><em>",
+      "eladrin form (sp)": "</em>: at 7th level, a troubadour of stars gains the ability to use <a href=\"/spells/book-of-exalted-deeds--52/eladrin-form--106/\"><em>eladrin form</em></a>, as the spell (see chapter 6), once per day. her caster level is equal to her class level.</p><p>",
+      "celestial symphony (su)": ": a 9th-level troubadour of stars with 15 or more ranks in perform can, as an additional bardic music effect, create an effect that duplicates the holy word spell. nongood creatures within 30 feet of the troubadour are affected as though by the spell. the troubadour's caster level is equal to her class level. using the words of creation with this effect grants the troubadour a +4 bonus on her caster level check to overcome spell resistance and deals 15d4 points of nonlethal damage to the troubadour. celestial symphony is a sonic effect.</p><p>",
+      "celestial ascension (ex)": ": at 10th level, a troubadour of stars is so attuned to the ways of the eladrins that she becomes a magical creature. her type changes to outsider (native) and she gains damage reduction 10/unholy. unlike other outsiders, the troubadour can still be brought back from the dead.</p><h3>advancement</h3><table><tr><th>level </th><th><span class=\"caps\">bab</span> </th><th>fort </th><th>ref </th><th>will </th><th>special </th><th>spells per day </th></tr><tr><td> 1st </td><td> +0 </td><td> +0 </td><td> +2 </td><td> +2 </td><td> bardic music, <em>detect evil</em> </td><td> &#8212; </td></tr><tr><td> 2nd </td><td> +1 </td><td> +0 </td><td> +3 </td><td> +3 </td><td> holy cacophony, celestial spells </td><td> +1 level of existing class </td></tr><tr><td> 3rd </td><td> +2 </td><td> +1 </td><td> +3 </td><td> +3 </td><td> <em>starmantle</em> </td><td> &#8212; </td></tr><tr><td> 4th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 5th </td><td> +3 </td><td> +1 </td><td> +4 </td><td> +4 </td><td> song of hope </td><td> &#8212; </td></tr><tr><td> 6th </td><td> +4 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> sanctified spells </td><td> +1 level of existing class </td></tr><tr><td> 7th </td><td> +5 </td><td> +2 </td><td> +5 </td><td> +5 </td><td> <em>eladrin form</em> </td><td> &#8212; </td></tr><tr><td> 8th </td><td> +6 </td><td> +2 </td><td> +6 </td><td> +6 </td><td> </td><td> +1 level of existing class </td></tr><tr><td> 9th </td><td> +6 </td><td> +3 </td><td> +6 </td><td> +6 </td><td> celestial symphony </td><td> &#8212; </td></tr><tr><td> 10th </td><td> +7 </td><td> +3 </td><td> +7 </td><td> +7 </td><td> celestial ascension </td><td> +1 level of existing class </td></tr></table></div>,<p>",
+      "weapon and armor proficiency": "Troubadours of stars gain no proficiency with any weapon or armor."
     },
     "class skills": [
       "balance",
@@ -102410,7 +102698,8 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "feats": "Any metamagic feat.<br /><strong>Spellcasting:</strong> Able to spontaneously cast 1st-level arcane spells, able to prepare and cast 2nd-level arcane spells from a spellbook."
+      "feats": "Any metamagic feat.<br />",
+      "Spellcasting": " Able to spontaneously cast 1st-level arcane spells, able to prepare and cast 2nd-level arcane spells from a spellbook."
     },
     "skill points": {
       "base": 2,
@@ -102802,7 +103091,8 @@
   {
     "id": 899,
     "requirements": {
-      "skills": "Any four skills 8 ranks each.<br /><strong>Skill Tricks:</strong> Any four."
+      "skills": "Any four skills 8 ranks each.<br />",
+      "Skill Tricks": " Any four."
     },
     "skill points": {
       "base": 8,
@@ -103475,7 +103765,8 @@
         "Iron Will",
         "Spell Focus"
       ],
-      "base save bonus": "Fort +3, Will +3.<br /><strong>Special:</strong> The character must have no ability to cast divine spells. If such spellcasting ability was previously possessed (as with an ex-cleric), that ability is forever forsaken. The character must be trained by another ur-priest."
+      "base save bonus": "Fort +3, Will +3.<br />",
+      "Special": " The character must have no ability to cast divine spells. If such spellcasting ability was previously possessed (as with an ex-cleric), that ability is forever forsaken. The character must be trained by another ur-priest."
     },
     "skill points": {
       "base": 2,
@@ -104163,7 +104454,8 @@
       "feats": [
         "Favored"
       ],
-      "special": "Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks).<br /><strong>Special:</strong> Must be a member in good standing of the League of Eyes or similar organizaion"
+      "special": "Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks).<br />",
+      "Special": " Must be a member in good standing of the League of Eyes or similar organizaion"
     },
     "skill points": {
       "base": 6,
@@ -105286,7 +105578,8 @@
       "feats": [
         "Verminfriend"
       ],
-      "special": "Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell.<br /><strong>Special:</strong> The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."
+      "special": "Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell.<br />",
+      "Special": " The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."
     },
     "skill points": {
       "base": 4,
@@ -106808,7 +107101,8 @@
       "feats": [
         "Heat Endurance"
       ],
-      "alignment": "Any nongood.<br /><strong>Spells:</strong> Ability to cast at least three spells of the Sand or Thirst domain as divine spells."
+      "alignment": "Any nongood.<br />",
+      "Spells": " Ability to cast at least three spells of the Sand or Thirst domain as divine spells."
     },
     "skill points": {
       "base": 2,
@@ -107505,7 +107799,8 @@
         "Widen Spell",
         "Martial Weapon Proficiency"
       ],
-      "alignment": "Any nonevil, nonchaotic.<br /><strong>Spellcasting:</strong> Ability to cast 4th-level arcane spells."
+      "alignment": "Any nonevil, nonchaotic.<br />",
+      "Spellcasting": " Ability to cast 4th-level arcane spells."
     },
     "skill points": {
       "base": 2,
@@ -109511,7 +109806,9 @@
       "black magic oil (su)": "A warrior of darkness can use his forbidden arcane arts to create a magic oil that he anoints himself with. An individual warrior of darkness makes oil that works only on him, and he can only make one dose of the oil each time this class feature is gained (at 1st, 4th, 7th, and 10th level).",
       "darkling weapon (su)": "With 3 rounds of preparation (involving rituals and alchemical substances that cost 50 gp), a warrior of darkness can imbue any weapon with a +1 enhancement bonus on attack and damage rolls. If the weapon already has an enhancement bonus, the warrior of darkness can instead imbue the weapon with any magical special quality that is the equivalent of a +1 bonus (see Chapter 8 of the Dungeon Master's Guide for a list of weapon qualities). The bonus or special quality only functions when the weapon is in the hands of the warrior of darkness, and it lasts 1 hour per warrior of darkness level. The warrior can imbue only one special quality in a weapon at a time.",
       "black magic elixir (su)": "At 3rd level, a warrior of darkness can use his knowledge of black magic and alchemy to create a magical elixir that he then imbibes. An individual warrior of darkness makes elixir that works only on him, and he can only make one dose of the elixir each time this class feature is gained (at 3rd, 6th, and 9th level).",
-      "<em>violent knowledge feat list:</em></strong> <a href=\"/feats/players-handbook-30--106/ambidexterity--3321/\">ambidexterity</a>, bull rush, <a href=\"/feats/players-handbook-v35--6/cleave--354/\">cleave</a>, <a href=\"/feats/players-handbook-v35--6/far-shot--1078/\">deflect arrows</a>, <a href=\"/feats/players-handbook-v35--6/dodge--681/\">dodge</a>, <a href=\"/feats/players-handbook-v35--6/exotic-weapon-proficiency--985/\">exotic weapon proficiency</a>, <a href=\"/feats/players-handbook-30--106/expertise--3320/\">expertise</a>, <a href=\"/feats/players-handbook-v35--6/far-shot--1078/\">far shot</a>, <a href=\"/feats/players-handbook-v35--6/great-cleave--1258/\">great cleave</a>, <a href=\"/feats/players-handbook-v35--6/improved-critical--1463/\">improved critical</a> <strong>, <a href=\"/feats/players-handbook-v35--6/improved-disarm--1468/\">improved disarm</a>, <a href=\"/feats/players-handbook-v35--6/improved-initiative--1512/\">improved initiative</a>, <a href=\"/feats/players-handbook-v35--6/improved-trip--1587/\">improved trip</a>, <a href=\"/feats/players-handbook-v35--6/improved-two-weapon-fighting--1593/\">improved two-weapon fighting</a>, <a href=\"/feats/players-handbook-v35--6/improved-unarmed-strike--1595/\">improved unarmed strike</a>, <a href=\"/feats/players-handbook-v35--6/mobility--1975/\">mobility</a>, <a href=\"/feats/players-handbook-v35--6/mounted-archery--1989/\">mounted archery</a>, <a href=\"/feats/players-handbook-v35--6/mounted-combat--1992/\">mounted combat</a>, <a href=\"/feats/players-handbook-v35--6/point-blank-shot--2185/\">point blank shot</a>, <a href=\"/feats/players-handbook-v35--6/power-attack--2208/\">power attack</a>, <a href=\"/feats/players-handbook-v35--6/precise-shot--2234/\">precise shot</a>, <a href=\"/feats/players-handbook-v35--6/quick-draw--2317/\">quick draw</a>, <a href=\"/feats/players-handbook-v35--6/rapid-shot--2377/\">rapid shot</a>, <a href=\"/feats/players-handbook-v35--6/ride-by-attack--2455/\">ride-by attack</a>, <a href=\"/feats/players-handbook-v35--6/shot-on-the-run--2618/\">shot on the run</a>, <a href=\"/feats/players-handbook-v35--6/spirited-charge--2733/\">spirited charge</a>, <a href=\"/feats/players-handbook-v35--6/spring-attack--2750/\">spring attack</a>, <a href=\"/feats/players-handbook-v35--6/stunning-fist--2802/\">stunning fist</a>, <a href=\"/feats/players-handbook-v35--6/sunder--2837/\">sunder</a>, <a href=\"/feats/players-handbook-v35--6/trample--2954/\">trample</a>, <a href=\"/feats/players-handbook-v35--6/two-weapon-fighting--2998/\">two-weapon fighting</a>, <a href=\"/feats/players-handbook-v35--6/weapon-finesse--3103/\">weapon finesse</a></strong>, <a href=\"/feats/players-handbook-v35--6/weapon-focus--3105/\">weapon focus</a> *, <a href=\"/feats/players-handbook-v35--6/weapon-specialization--3124/\">weapon specialization</a> *, <a href=\"/feats/players-handbook-v35--6/whirlwind-attack--3128/\">whirlwind attack</a>.</p><p>a character can select feats marked with an asterisk (*) more than once, but it must be for a different weapon each time. characters must still meet all prerequisites for a feat, including ability scores and base attack bonus (see chapter 5 of the <em>player's handbook</em> for descriptions of feats and their prerequisites).</p><p><strong>scarred flesh (su)": "Through ritual scarification, a 5th- level warrior of darkness gains damage reduction 5/+3.",
+      "<em>violent knowledge feat list:</em>": " <a href=\"/feats/players-handbook-30--106/ambidexterity--3321/\">ambidexterity</a>, bull rush, <a href=\"/feats/players-handbook-v35--6/cleave--354/\">cleave</a>, <a href=\"/feats/players-handbook-v35--6/far-shot--1078/\">deflect arrows</a>, <a href=\"/feats/players-handbook-v35--6/dodge--681/\">dodge</a>, <a href=\"/feats/players-handbook-v35--6/exotic-weapon-proficiency--985/\">exotic weapon proficiency</a>, <a href=\"/feats/players-handbook-30--106/expertise--3320/\">expertise</a>, <a href=\"/feats/players-handbook-v35--6/far-shot--1078/\">far shot</a>, <a href=\"/feats/players-handbook-v35--6/great-cleave--1258/\">great cleave</a>, <a href=\"/feats/players-handbook-v35--6/improved-critical--1463/\">improved critical</a> ",
+      ", <a href=\"/feats/players-handbook-v35--6/improved-disarm--1468/\">improved disarm</a>, <a href=\"/feats/players-handbook-v35--6/improved-initiative--1512/\">improved initiative</a>, <a href=\"/feats/players-handbook-v35--6/improved-trip--1587/\">improved trip</a>, <a href=\"/feats/players-handbook-v35--6/improved-two-weapon-fighting--1593/\">improved two-weapon fighting</a>, <a href=\"/feats/players-handbook-v35--6/improved-unarmed-strike--1595/\">improved unarmed strike</a>, <a href=\"/feats/players-handbook-v35--6/mobility--1975/\">mobility</a>, <a href=\"/feats/players-handbook-v35--6/mounted-archery--1989/\">mounted archery</a>, <a href=\"/feats/players-handbook-v35--6/mounted-combat--1992/\">mounted combat</a>, <a href=\"/feats/players-handbook-v35--6/point-blank-shot--2185/\">point blank shot</a>, <a href=\"/feats/players-handbook-v35--6/power-attack--2208/\">power attack</a>, <a href=\"/feats/players-handbook-v35--6/precise-shot--2234/\">precise shot</a>, <a href=\"/feats/players-handbook-v35--6/quick-draw--2317/\">quick draw</a>, <a href=\"/feats/players-handbook-v35--6/rapid-shot--2377/\">rapid shot</a>, <a href=\"/feats/players-handbook-v35--6/ride-by-attack--2455/\">ride-by attack</a>, <a href=\"/feats/players-handbook-v35--6/shot-on-the-run--2618/\">shot on the run</a>, <a href=\"/feats/players-handbook-v35--6/spirited-charge--2733/\">spirited charge</a>, <a href=\"/feats/players-handbook-v35--6/spring-attack--2750/\">spring attack</a>, <a href=\"/feats/players-handbook-v35--6/stunning-fist--2802/\">stunning fist</a>, <a href=\"/feats/players-handbook-v35--6/sunder--2837/\">sunder</a>, <a href=\"/feats/players-handbook-v35--6/trample--2954/\">trample</a>, <a href=\"/feats/players-handbook-v35--6/two-weapon-fighting--2998/\">two-weapon fighting</a>, <a href=\"/feats/players-handbook-v35--6/weapon-finesse--3103/\">weapon finesse</a>": ", <a href=\"/feats/players-handbook-v35--6/weapon-focus--3105/\">weapon focus</a> *, <a href=\"/feats/players-handbook-v35--6/weapon-specialization--3124/\">weapon specialization</a> *, <a href=\"/feats/players-handbook-v35--6/whirlwind-attack--3128/\">whirlwind attack</a>.</p><p>a character can select feats marked with an asterisk (*) more than once, but it must be for a different weapon each time. characters must still meet all prerequisites for a feat, including ability scores and base attack bonus (see chapter 5 of the <em>player's handbook</em> for descriptions of feats and their prerequisites).",
+      "scarred flesh (su)": "Through ritual scarification, a 5th- level warrior of darkness gains damage reduction 5/+3.",
       "repellent flesh (su)": "Through ritual, obscene tattooing, an 8th-level warrior of darkness gains spell resistance 20."
     },
     "class skills": [
@@ -109535,7 +109832,8 @@
     "id": 945,
     "requirements": {
       "base attack bonus": 4,
-      "race": "Any (but see below).<br /><strong>Special:</strong> Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper."
+      "race": "Any (but see below).<br />",
+      "Special": " Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper."
     },
     "skill points": {
       "base": 2,
@@ -110226,7 +110524,8 @@
         "Weapon Focus",
         "Whirlwind Attack"
       ],
-      "proficiency": "With your weapon of choice.<br /><strong>Dexterity</strong>: 13+."
+      "proficiency": "With your weapon of choice.",
+      "Dexterity": "13+."
     },
     "skill points": {
       "base": 2,
@@ -112844,7 +113143,9 @@
     "id": 980,
     "requirements": {
       "alignment": "Any good",
-      "base save bonus": "Will +5.<br /><strong>Feats</strong>: One exalted feat, plus either <a href=\"/feats/book-of-exalted-deeds--52/favored-of-the-companions--1091/\">Favored of the Companions</a>, <a href=\"/feats/book-of-exalted-deeds--52/knight-of-stars--1718/\">Knight of Stars</a>, or <a href=\"/feats/book-of-exalted-deeds--52/servant-of-the-heavens--2553/\">Servant of the Heavens</a>.<br /><strong>Spells</strong>: Able to cast 3rd-level arcane or divine spells, or to manifest 3rd-level psionic powers."
+      "base save bonus": "Will +5.",
+      "Feats": "One exalted feat, plus either <a href=\"/feats/book-of-exalted-deeds--52/favored-of-the-companions--1091/\">Favored of the Companions</a>, <a href=\"/feats/book-of-exalted-deeds--52/knight-of-stars--1718/\">Knight of Stars</a>, or <a href=\"/feats/book-of-exalted-deeds--52/servant-of-the-heavens--2553/\">Servant of the Heavens</a>.",
+      "Spells": "Able to cast 3rd-level arcane or divine spells, or to manifest 3rd-level psionic powers."
     },
     "skill points": {
       "base": 4,
@@ -113352,7 +113653,9 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "languages": "Draconic.<br /><strong>Feats</strong>: Any metamagic feat.<br /><strong>Spellcasting</strong>: Ability to prepare and cast 1st-level arcane spells."
+      "languages": "Draconic.",
+      "Feats": "Any metamagic feat.",
+      "Spellcasting": "Ability to prepare and cast 1st-level arcane spells."
     },
     "skill points": {
       "base": 4,
@@ -113793,7 +114096,10 @@
         "Knowledge (religion)",
         "Perform"
       ],
-      "race": "Yuan-ti halfblood or abomination.<br /><strong>Alignment</strong>: Any evil.<br /><strong>Patron</strong>: Merrshaulk.<br /><strong>Spells</strong>: Ability to cast 3rd-level divine spells."
+      "race": "Yuan-ti halfblood or abomination.",
+      "Alignment": "Any evil.",
+      "Patron": "Merrshaulk.",
+      "Spells": "Ability to cast 3rd-level divine spells."
     },
     "skill points": {
       "base": 2,
