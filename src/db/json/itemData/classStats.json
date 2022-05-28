@@ -8588,7 +8588,7 @@
       "feats": [
         "Improved Initiative"
       ],
-      "sneak attack damage": "+2d6."
+      "sneak attack damage": "2d6"
     },
     "skill points": {
       "base": 6,
