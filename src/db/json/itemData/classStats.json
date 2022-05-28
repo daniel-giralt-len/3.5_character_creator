@@ -14419,7 +14419,7 @@
         "Mounted Combat",
         "Ride-By Attack"
       ],
-      "equipment": "Masterwork heavy armor and masterwork large shield."
+      "equipment": ["Masterwork heavy armor", "Masterwork large shield"]
     },
     "skill points": {
       "base": 2,
@@ -15812,9 +15812,11 @@
       "alignment": [
         "any chaotic"
       ],
-      "base fort save bonus": "+2.",
-      "base reflex save bonus": "+2.",
-      "base will save bonus": "+2."
+      "base save bonus": {
+        "fortitude": 2,
+        "reflex": 2,
+        "will": 2
+      }
     },
     "skill points": {
       "base": 4,
@@ -16212,7 +16214,7 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "base will save": "+3.",
+      "base save bonus": {"will": 3},
       "spells": "Ability to cast <a href=\"/spells/players-handbook-v35--6/dispel-magic--2315/\">dispel magic</a> as a divine spell.",
       "special": "Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization."
     },
@@ -16503,7 +16505,7 @@
         "Diplomacy",
         "Gather Information"
       ],
-      "region of origin": "Breland."
+      "region of origin": "Breland"
     },
     "skill points": {
       "base": 4,
@@ -17176,7 +17178,7 @@
         "Mountaineer",
         "Improved Unarmed Strike"
       ],
-      "base fortitude save": "+5.",
+      "base save bonus": {"fortitude": 5},
       "special": "The prospective student must live for a week on her own in a wilderness region, during which time she can travel no lower than 12,000 feet in altitude."
     },
     "skill points": {
@@ -19055,7 +19057,7 @@
       "feats": [
         "Urban Tracking"
       ],
-      "base fort save": 3
+      "base save bonus": {"fortitude": 3},
     },
     "skill points": {
       "base": 6,
@@ -19830,7 +19832,7 @@
       "feats": [
         "Track"
       ],
-      "region of origin": "Cyre."
+      "region of origin": "Cyre"
     },
     "skill points": {
       "base": 4,
@@ -20672,7 +20674,7 @@
         "Diplomacy",
         "Gather Information"
       ],
-      "region of origin": "Breland.",
+      "region of origin": "Breland",
       "special": "Cannot be illiterate or affiliated with a religion."
     },
     "skill points": {
@@ -21558,7 +21560,7 @@
         "Heal",
         "Knowledge (religion)"
       ],
-      "saving throws": "Base Will Save +2",
+      "base save bonus": {"will": 2},
       "special": "Must have had at least one near-death experience (fallen below 0 hit points and lived)"
     },
     "skill points": {
@@ -24004,7 +24006,7 @@
         "Evil Brand",
         "Corrupt Spell"
       ],
-      "bave save bonus": "Will +5",
+      "base save bonus": {"will": 5},
       "special": [
         " Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.",
         " The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."
@@ -31153,7 +31155,7 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "saving throws": "Base Will save +4",
+      "base save bonus": {"will": 4},
       "spellcasting": "Ability to cast cause fear and scare",
       "special": "Must have suffered at least one fear effect against which she failed her save"
     },
@@ -68927,7 +68929,7 @@
       "feats": [
         "Least Dragonmark"
       ],
-      "base fortitude save": "+3.",
+      "base save bonus": {"fortitude": 3},
       "special": "An heir of Siberys with the Mark of Healing can take this class without meeting the Least Dragonmark prerequisite."
     },
     "skill points": {
@@ -87883,7 +87885,7 @@
         "Improved Unarmed Strike",
         "Weapon Focus"
       ],
-      "base reflex save": "+2.",
+      "base save bonus": {"reflex": 2},
       "special": "The character must qualify to select regional feats from the Shou expatriate or Thesk regions (the region is her home region, or she has 2 ranks in Knowledge [local&#8212;Shou expatriate or Thesk])."
     },
     "skill points": {
