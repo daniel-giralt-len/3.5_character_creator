@@ -29,14 +29,20 @@ function renderItems({items,
     itemType,
     isCorpus,
     dbs,
-    isExclusive
+    isExclusive,
+    userFilters
 }) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
     const regex = new RegExp(regexText)
 
+    let filteredItems = items
+    if(userFilters.showDisallowed === false){
+        filteredItems = filteredItems
+            .filter(item => isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType}))
+    }
 
-    return items
+    return filteredItems
         .filter(item => item.name.toLocaleLowerCase().match(regex))
         .map(item => (<BaseItem
             key={item.id}
@@ -53,7 +59,8 @@ const ItemSearchBar = styled.textarea`
     resize: none;
 `
 
-function ItemBrowser({items,
+function ItemBrowser({
+    items,
     selected={},
     handleCreationChange,
     permittedCorpus,
@@ -61,7 +68,8 @@ function ItemBrowser({items,
     isCorpus,
     isExclusive,
     disabled,
-    dbs
+    dbs,
+    userFilters
 }) {
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
@@ -85,7 +93,8 @@ function ItemBrowser({items,
                 itemType,
                 isCorpus,
                 dbs,
-                isExclusive
+                isExclusive,
+                userFilters
             })}
         </div>
     );

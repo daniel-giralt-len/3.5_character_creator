@@ -1,4 +1,5 @@
 import ItemBrowser from './ItemBrowser'
+import Filters from './Filters'
 import { useState } from 'react';
 
 function Creator({creation,
@@ -20,17 +21,31 @@ function Creator({creation,
   ]
 
   const [selectedPage, setSelectedPage] = useState('races')
+  const [filters, setFilters] = useState({
+    showDisallowed: true    
+  })
+
   const handleCreationChange = (type, list) => {
     onCreationChange({
       ...creation,
       [type]: list
     })
   }
+
+  const handleFilterChange = newFilters => setFilters(newFilters)
   
   return (
     <div>
         <nav>
-          {pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{translate(name)}</button>))}
+          <div>
+            <Filters
+              selectedPage={selectedPage}
+              onFilterChange={handleFilterChange}
+              filters={filters}
+              translate={translate}
+            />
+          </div>
+          <div>{pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{translate(name)}</button>))}</div>
         </nav>
           {pages.filter(({name}) => name === selectedPage).map(({name, isExclusive, isUsableOnlyInCorpus}) => (
             <ItemBrowser
@@ -44,6 +59,7 @@ function Creator({creation,
               isExclusive={!isCorpus && isExclusive}
               disabled={isUsableOnlyInCorpus && !isCorpus}
               dbs={dbs}
+              userFilters={filters}
             />
           ))}
     </div>
