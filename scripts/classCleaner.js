@@ -3,7 +3,7 @@ const fs = require('fs')
 const jsonPath = './src/db/json/itemData/classDescription.json'
 const classSectionsPath = './src/db/json/itemData/classSections.json'
 
-const a = 4
+const a = 5
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 const regexToArray = (r,s) => {
@@ -217,7 +217,7 @@ if(a===3){ // parse ints
     fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))  
 }
 
-if(a===4){ // parse ints
+if(a===4){ // parse anchors, skill points, hyphens
     const classStatsPath = './src/db/json/itemData/classStats.json'
     const json = require('.'+classStatsPath)
     
@@ -243,6 +243,33 @@ if(a===4){ // parse ints
                 if(arr.length > 0) { return arr }
             }
             if(v==='&#8212;'){ return '' }
+        }
+
+        return v
+    }
+
+    const newJson = parse(json)
+    
+    fs.writeFileSync('./test.json'&&classStatsPath, JSON.stringify(newJson,null,2))  
+}
+
+if(a===5){ // clean colons in keys
+    const classStatsPath = './src/db/json/itemData/classStats.json'
+    const json = require('.'+classStatsPath)
+    
+    const parse = (v) => {
+        const t = typeof v
+        
+        if(Array.isArray(v)) { return v.map(parse) }
+        if(t === 'object') {
+            return Object.entries(v)
+            .reduce((acc, [k2,v2])=>{
+                const k3 = k2[k2.length-1] === ':' ? k2.split(':')[0].trim() : k2
+                return ({
+                    ...acc,
+                    [k3]: parse(v2)
+                })
+            },{})
         }
 
         return v
