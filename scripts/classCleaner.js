@@ -6,6 +6,23 @@ const classSectionsPath = './src/db/json/itemData/classSections.json'
 const a = 2
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
+const regexToArray = (r,s) => {
+    const out = []
+    let match
+    while ((match = r.exec(s)) !== null) { out.push(match[1]) }
+    return out
+}
+
+const stripHtmlTags = s => s.replace(/<\/?[^>]+(>|$)/g, "").trim()
+
+const tableToJson = html => {
+    const rowsRegex = RegExp(/<tr.*?>(.*?)<\/tr>/g)
+    const rows = regexToArray(rowsRegex, html)
+    const cellRegex = RegExp(/<t.*?>(.*?)<\/t.>/g)
+    const values = rows.map(row=>regexToArray(cellRegex, row).map(stripHtmlTags))
+    return values
+}
+
 if(a===0){ //unify all htmls into one dirty json
     const json = []
     for(let i=1; i<=990; i++){
@@ -78,7 +95,7 @@ if(a===2){ //get sections
 
     const parseClassSkills = (html, sectionTitle) => {
         const skillsRegex = RegExp(`<h3>${sectionTitle}(?:.*?)<table .*?>(.*?)</table>`,'i')
-            //h3, since urban soul has another <h4>Class Skills tag that's out of order, and grabs a weird table instead of the class skills table
+            //<h3> only, since urban soul has another <h4>Class Skills</h4> tag that's out of order, and grabs a weird table instead of the class skills table
         const data = skillsRegex.exec(html)
         if(!data) return
         const skillNameRegex = RegExp(/<tr><td>(.*?)<\/td>(?:.*?)<\/tr>/g)
@@ -97,10 +114,43 @@ if(a===2){ //get sections
             //No, I'm not on getting defensive.
     }
 
+    const parseAdvancement = (html, sectionTitle) => {
+        const advancementRegex = RegExp(`<h[0-9]>${sectionTitle}(?:.*?)<table.*?>(.*?)</table>`,'i')
+        const data = advancementRegex.exec(html)
+        if(!data) return
+        const advancement = tableToJson(data[1])
+        let keys, rows
+        [keys, ...rows] = advancement
+        keys = keys.filter(k=>k&&k!=='').map(k=>k.toLowerCase())
+
+        const includesSpellcasting = v => v.includes('Spellcasting') || v.includes('Spells')
+
+        if(keys.find(includesSpellcasting) && keys.length < rows[0].length){
+            let spellKeys
+            [spellKeys, ...rows] = rows
+            keys = [...keys.filter(k=>!includesSpellcasting(k)), ...spellKeys]
+        }
+        const keyedLevels = rows.reduce((acc, row) => {
+            return [
+                ...acc,
+                row.reduce((acc2, cell, i) => {
+                    const key = keys[i]
+                    const value = key === 'special' ? cell.split(',').map(v=>v.trim()) : cell
+                    
+                    return {
+                        ...acc2,
+                        [key]: value
+                    }
+                }, {})
+            ]
+        }, [])
+        return keyedLevels
+    }
+
     const sectionParsers = {
         'requirements': html => parseRequirements(html, 'requirements'),
         'skill points': html => parseParagraph(html, 'skill points'),
-        'advancement': html => {return undefined},
+        'advancement': html => parseAdvancement(html, 'advancement'),
         'hit die': html => parseParagraph(html, 'hit die'),
         'starting gold': html => parseParagraph(html, 'starting gold'),
         'class features': html => parseClassFeatures(html, 'class features'),
