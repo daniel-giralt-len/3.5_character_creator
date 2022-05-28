@@ -9,7 +9,7 @@
       "gnome",
       "halfling",
       "half-elf",
-      "or half-orc)"
+      "half-orc)"
     ]
   },
   "2": {
@@ -182,7 +182,7 @@
     "benefit": "When you use teleport, you can roll the targeting roll twice, taking whichever result you prefer. When you use plane shift or shadow walk, you likewise make the roll to determine your destination twice, choosing the better (usually lower) result.",
     "prerequisites": [
       "Exposure to greater teleport",
-      "or shadow walk spell",
+      "shadow walk spell",
       "plane shift",
       "teleport"
     ]
@@ -300,7 +300,7 @@
     "prerequisites": [
       "Crusader",
       "Swordsage",
-      "or Warblade Level 1st"
+      "Warblade Level 1st"
     ]
   },
   "40": {
@@ -667,7 +667,7 @@
       "Weapon Focus",
       "Weapon Focus",
       "handaxe",
-      "or dwarven waraxe)",
+      "dwarven waraxe)",
       "STR 13"
     ]
   },
@@ -842,8 +842,8 @@
       "Mulhorand",
       "Nimbral",
       "Unther",
-      "or the Wizards&#39; Reach)",
-      "or planetouched (Chessenta)"
+      "the Wizards&#39; Reach)",
+      "planetouched (Chessenta)"
     ]
   },
   "110": {
@@ -1000,9 +1000,9 @@
       "Elf (SildÃ«yuir or Snow Eagle Aerie)",
       "Gnome (Thesk or the Western Heartlands)",
       "half-elf (the Dalelands)",
-      "or human (Chessenta",
+      "human (Chessenta",
       "Waterdeep",
-      "or the Western Heartlands)"
+      "the Western Heartlands)"
     ]
   },
   "130": {
@@ -1369,9 +1369,9 @@
       "human (the Great Glacier",
       "the Moonshae Isles",
       "the North",
-      "or Vaasa)",
+      "Vaasa)",
       "lizardfolk (Surkh)",
-      "or orc (the Moonsea or Underdark [Northdark])"
+      "orc (the Moonsea or Underdark [Northdark])"
     ]
   },
   "174": {
@@ -1643,7 +1643,7 @@
       "Weapon Focus",
       "Weapon Focus",
       "handaxe",
-      "or dwarven waraxe)",
+      "dwarven waraxe)",
       "STR 15"
     ]
   },
@@ -2005,7 +2005,7 @@
       "elf (Cormanthor Drow",
       "the Inner S ea",
       "Menzoberranyr",
-      "or the Outer Sea)",
+      "the Outer Sea)",
       "gnoll (the Plateau of Thay)",
       "grimlock (Underdark [Reeshov])",
       "halfl ing (the Chondalwood)",
@@ -2393,13 +2393,13 @@
       "Dwarf (Underdark [Earthroot]",
       "Underdark [Northdark]",
       "the Great Rift",
-      "or the Spine of the World)",
+      "the Spine of the World)",
       "human (Altumbel",
       "Damara",
       "the Great Dale",
       "Rashemen",
-      "or the Western Heartlands)",
-      "or taerUNA (the Icerim Mountains)"
+      "the Western Heartlands)",
+      "taerUNA (the Icerim Mountains)"
     ]
   },
   "304": {
@@ -2457,7 +2457,7 @@
       "any Mark of Making",
       "Craft (armorsmithing",
       "blacksmithing",
-      "or sculpting) 4 ranks"
+      "sculpting) 4 ranks"
     ]
   },
   "312": {
@@ -3584,7 +3584,7 @@
     "prerequisites": [
       "Exposure to call lightning",
       "lightning bolt",
-      "or chain lightning spell"
+      "chain lightning spell"
     ]
   },
   "456": {
@@ -3858,7 +3858,7 @@
       "o r human (Amn",
       "the Golden Water",
       "the Sword Coast",
-      "or Waterdeep)"
+      "Waterdeep)"
     ]
   },
   "492": {
@@ -4080,7 +4080,7 @@
       "caster level or manifester level 7th",
       "psionic ability (spell-like abilities described as psionics",
       "psi-like abilities",
-      "or psionic powers)"
+      "psionic powers)"
     ]
   },
   "521": {
@@ -4190,7 +4190,7 @@
       "Weapon Focus",
       "longsword",
       "scimitar",
-      "or short sword)"
+      "short sword)"
     ]
   },
   "535": {
@@ -4200,10 +4200,10 @@
     "prerequisites": [
       "Weapon Focus",
       "heavy",
-      "or light crossbow)",
+      "light crossbow)",
       "Weapon Proficiency with Hand",
       "heavy",
-      "or light crossbow",
+      "light crossbow",
       "Base attack bonus +1"
     ]
   },
@@ -4500,16 +4500,16 @@
       "t he S m oking Mountains",
       "Turmish",
       "Underdark [Earthroot]",
-      "or Underdark [Old Shanatar])",
+      "Underdark [Old Shanatar])",
       "h um an ( Dam ara",
       "t he G reat D ale",
       "I mpiltur",
       "o r t he Moonshae Isles)",
       "lizardfolk (Surkh)",
-      "or slyth (Underdark [Fluvenilstra])",
+      "slyth (Underdark [Fluvenilstra])",
       "orc (Amn",
       "Chessenta",
-      "or Vaasa)"
+      "Vaasa)"
     ]
   },
   "573": {
@@ -4525,10 +4525,10 @@
       "Dwarf (Underdark [Northdark])",
       "elf (Cormanthor Drow)",
       "kuo-toa (Underdark [Sloopdilmonpolop])",
-      "or orc (Chessenta",
+      "orc (Chessenta",
       "the Hordelands",
       "the North",
-      "or Thesk)"
+      "Thesk)"
     ]
   },
   "575": {
@@ -4627,7 +4627,7 @@
     "benefit": "You can spray your spit in a 15-foot cone-shaped burst.",
     "prerequisites": [
       "Spit Venom",
-      "or spittle attack",
+      "spittle attack",
       "spit attack"
     ]
   },
@@ -5175,7 +5175,7 @@
       "Power Attack",
       "Weapon Focus",
       "heavy mace",
-      "or warmace)",
+      "warmace)",
       "Base attack bonus +5",
       "ability to cast any summon monster spell."
     ]
@@ -5523,8 +5523,8 @@
       "Cormyr",
       "Shadovar",
       "Shou Expatriate",
-      "or Thay)",
-      "or slyth (Underdark [Fluvenilstra])",
+      "Thay)",
+      "slyth (Underdark [Fluvenilstra])",
       "planetouched (Mulhorand)"
     ]
   },
@@ -6626,7 +6626,7 @@
       "dragonblood subtype",
       "one of these class features: skirmish",
       "sneak attack",
-      "or sudden strike"
+      "sudden strike"
     ]
   },
   "834": {
@@ -6789,10 +6789,10 @@
     "prerequisites": [
       "Human (Rashemen)",
       "kuo-toa (Underdark [Sloopdilmonpolop])",
-      "or planetouched (Impiltur",
+      "planetouched (Impiltur",
       "the Silver Marches",
       "Thay",
-      "or Western Heartlands)"
+      "Western Heartlands)"
     ]
   },
   "855": {
@@ -7174,7 +7174,7 @@
       "WIS 13",
       "Dwarf",
       "gnome",
-      "or goliath"
+      "goliath"
     ]
   },
   "901": {
@@ -7332,13 +7332,13 @@
     "prerequisites": [
       "Elf (Evermeet",
       "Silverymoon",
-      "or Snow Eagle Aerie)",
+      "Snow Eagle Aerie)",
       "gnome (Lantan)",
       "half-elf (Silverymoon)",
-      "or human (Chessenta",
+      "human (Chessenta",
       "Lantan",
       "Silverymoon",
-      "or Waterdeep)"
+      "Waterdeep)"
     ]
   },
   "921": {
@@ -7487,7 +7487,7 @@
       "genasi (air",
       "earth",
       "fire",
-      "or water)"
+      "water)"
     ]
   },
   "939": {
@@ -7587,7 +7587,7 @@
       "At least one elemental domain (Air",
       "Earth",
       "Fire",
-      "or Water)"
+      "Water)"
     ]
   },
   "951": {
@@ -9080,7 +9080,7 @@
     "prerequisites": [
       "feeler",
       "nonrigid body or a nonrigid attack form such as a tentacle",
-      "or pseudopod",
+      "pseudopod",
       "Small or larger size"
     ]
   },
@@ -9715,7 +9715,7 @@
       "church",
       "Membership in a guild",
       "not merely a congregant (as described on page 105)",
-      "or other organization. If selecting this feat for a church",
+      "other organization. If selecting this feat for a church",
       "you must also be a true member"
     ]
   },
@@ -9824,7 +9824,7 @@
       "gnome (Lantan)",
       "halfl ing (Channath Vale or the Western Heartlands)",
       "human (Anauroch or Impiltur)",
-      "or orc (the Hordelands)"
+      "orc (the Hordelands)"
     ]
   },
   "1236": {
@@ -10128,7 +10128,7 @@
       "earth",
       "electricity",
       "fire",
-      "or water subtype"
+      "water subtype"
     ]
   },
   "1274": {
@@ -10247,9 +10247,9 @@
     "prerequisites": [
       "Elf (the Forest of Lethyr",
       "the High Forest",
-      "or the Wealdath)",
+      "the Wealdath)",
       "half-elf (the Dalelands or the High Forest)",
-      "or human (the Shaar or Thindol)"
+      "human (the Shaar or Thindol)"
     ]
   },
   "1289": {
@@ -10499,14 +10499,14 @@
       "Dwarf (the Galena Mountains or the Spine of the World)",
       "half-elf (the Dragon Coast)",
       "halfl ing (the North)",
-      "or human (Chult",
+      "human (Chult",
       "Cormyr",
       "Impiltur",
       "the Moonsea",
       "the North",
       "Samarach",
       "Tashalar",
-      "or Thindol)"
+      "Thindol)"
     ]
   },
   "1320": {
@@ -10611,12 +10611,12 @@
       "Elf (the Chondalwood",
       "the Forest of Lethyr",
       "the High Forest",
-      "or SildÃ«yuir)",
+      "SildÃ«yuir)",
       "gnome (the Great Dale)",
       "half-elf (Aglarond or the High Forest)",
       "halfl ing (the Chondalwood)",
       "human (the Dalelands or the Great Dale)",
-      "or volodni (the Forest of Lethyr)"
+      "volodni (the Forest of Lethyr)"
     ]
   },
   "1333": {
@@ -10820,8 +10820,8 @@
       "human (Cormyr",
       "the Ride",
       "Tethyr",
-      "or Uthgardt Tribesfolk)",
-      "or wemic (the Shaar)",
+      "Uthgardt Tribesfolk)",
+      "wemic (the Shaar)",
       "orc (Chessenta)"
     ]
   },
@@ -12156,7 +12156,7 @@
       "Two-Weapon Fighting",
       "Weapon Focus",
       "longsword",
-      "or scimitar)",
+      "scimitar)",
       "Weapon Focus",
       "STR 15"
     ]
@@ -12536,7 +12536,7 @@
     "benefit": "you can grossly violate your deities code of conduct, but not your class alignment restriction, without risk of loss of spells or class abilities. If you are a cleric, your alignment may be 2 steps away from your respective deity&#39;s alignment instead of just one. (in other words you can violate your deity&#39;s alignment restrictions 1 extra step.) You can gain levels without atoning (see the atonement spell description). However, you are in no way exempt from excommunication, or immune to divine retribution from your deity or his servants. In fact your actions invite the highest levels of scrutiny. If you have access to domains, you can exchange any one domain you have with another domain outside those normally availiable to your faith. The new domain must be consistant with the tenents of your heresy (as adjudicated by th DM). Likewise you can exchange your favored weapon and weapon of the deity (Mag) spell effect for another consistant with the tenents of your heresy (as adjudicated by the DM). Taking this feat automatically prompts a leadership check. All cohorts or followers who are members of your faith either agree to your heresy or are lost. Moreover upom your death you are judged one of the flase (P 250 FRCS) unless your deity specifically interfenes on your behalf with Kelemvor. Without the use of the Miracle or wish spell, this does not happen unless your heresies are adopted by the deity and the faith as a whole. It is theoretically possible that such intervention could occur long after your death, but such cases are vanishingly rare.",
     "prerequisites": [
       "Divine spellcasting ability",
-      "or Code of Conduct",
+      "Code of Conduct",
       "Patron Deity"
     ]
   },
@@ -12553,7 +12553,7 @@
     "prerequisites": [
       "Companion creature",
       "familiar",
-      "or homunculus",
+      "homunculus",
       "special mount",
       "such as an animal companion"
     ]
@@ -12641,7 +12641,7 @@
       "scimitar or shortsword)",
       "Weapon Focus",
       "handaxe",
-      "or dwarven waraxe)"
+      "dwarven waraxe)"
     ]
   },
   "1589": {
@@ -12823,7 +12823,7 @@
       "Human (the Hordelands",
       "Nimbral",
       "the Ride",
-      "or the Shaar)"
+      "the Shaar)"
     ]
   },
   "1612": {
@@ -13103,7 +13103,7 @@
       "alignment must match domain chosen",
       "Evil",
       "Good",
-      "or Law"
+      "Law"
     ]
   },
   "1648": {
@@ -13116,7 +13116,7 @@
       "alignment must match domain chosen",
       "Evil",
       "Good",
-      "or Law"
+      "Law"
     ]
   },
   "1649": {
@@ -13129,7 +13129,7 @@
       "alignment must match domain chosen",
       "Evil",
       "Good",
-      "or Law"
+      "Law"
     ]
   },
   "1650": {
@@ -13142,7 +13142,7 @@
       "alignment must match domain chosen",
       "Evil",
       "Good",
-      "or Law"
+      "Law"
     ]
   },
   "1651": {
@@ -13384,7 +13384,7 @@
       "Air Heritage",
       "Earth Heritage",
       "Fire Heritage",
-      "or Water Heritage"
+      "Water Heritage"
     ]
   },
   "1680": {
@@ -13394,7 +13394,7 @@
       "Air Heritage",
       "Earth Heritage",
       "Fire Heritage",
-      "or Water Heritage"
+      "Water Heritage"
     ]
   },
   "1681": {
@@ -13404,7 +13404,7 @@
       "Air Heritage",
       "Earth Heritage",
       "Fire Heritage",
-      "or Water Heritage"
+      "Water Heritage"
     ]
   },
   "1682": {
@@ -13414,7 +13414,7 @@
       "Air Heritage",
       "Earth Heritage",
       "Fire Heritage",
-      "or Water Heritage"
+      "Water Heritage"
     ]
   },
   "1683": {
@@ -13561,7 +13561,7 @@
     "prerequisites": [
       "Ability to fly (naturally",
       "magically",
-      "or through shapechanging)"
+      "through shapechanging)"
     ]
   },
   "1702": {
@@ -13570,7 +13570,7 @@
     "prerequisites": [
       "Ability to fly (naturally",
       "magically",
-      "or through shapechanging)"
+      "through shapechanging)"
     ]
   },
   "1703": {
@@ -13579,7 +13579,7 @@
     "prerequisites": [
       "Ability to fly (naturally",
       "magically",
-      "or through shapechanging)"
+      "through shapechanging)"
     ]
   },
   "1704": {
@@ -13970,7 +13970,7 @@
       "Anarchic Heritage",
       "Axiomatic Heritage",
       "Celestial Heritage",
-      "or Fiendish Heritage"
+      "Fiendish Heritage"
     ]
   },
   "1749": {
@@ -13980,7 +13980,7 @@
       "Anarchic Heritage",
       "Axiomatic Heritage",
       "Celestial Heritage",
-      "or Fiendish Heritage"
+      "Fiendish Heritage"
     ]
   },
   "1750": {
@@ -13990,7 +13990,7 @@
       "Anarchic Heritage",
       "Axiomatic Heritage",
       "Celestial Heritage",
-      "or Fiendish Heritage"
+      "Fiendish Heritage"
     ]
   },
   "1751": {
@@ -14000,7 +14000,7 @@
       "Anarchic Heritage",
       "Axiomatic Heritage",
       "Celestial Heritage",
-      "or Fiendish Heritage"
+      "Fiendish Heritage"
     ]
   },
   "1752": {
@@ -14088,7 +14088,7 @@
       "dragon",
       "elemental",
       "magical beast",
-      "or plant type",
+      "plant type",
       "one or more pairs of natural weapons"
     ]
   },
@@ -14284,7 +14284,7 @@
     "prerequisites": [
       "class feature",
       "Must have spell resistance from a feat",
-      "or other permanent effect"
+      "other permanent effect"
     ]
   },
   "1785": {
@@ -14302,7 +14302,7 @@
     "special": "You may take Improved Spit multiple times. Each time you take the feat, the range of your spit attack increases by an amount equal to its original range.",
     "benefit": "The range of your spit attack doubles.",
     "prerequisites": [
-      "or spittle attack",
+      "spittle attack",
       "Precise Shot and Spit Venom",
       "spit attack"
     ]
@@ -14595,7 +14595,7 @@
     "benefit": "Once per day, you can invest essentia into this feat. You gain an insight bonus on damage rolls made when delivering attacks with the skirmish, sneak attack, or sudden strike class feature equal to twice the invested essentia. Once the amount of essentia invested is chosen, it cannot be altered and remains invested for 24 hours. If you have more than one of the listed class features, the bonus applies only once on any given attack. You gain 1 point of essentia.",
     "prerequisites": [
       "CON 13",
-      "or sudden strike class feature",
+      "sudden strike class feature",
       "sneak attack"
     ]
   },
@@ -14605,7 +14605,7 @@
     "prerequisites": [
       "Adar",
       "Eldeen Reaches",
-      "or Riedra",
+      "Riedra",
       "Region of origin Shadow Marches"
     ]
   },
@@ -14709,8 +14709,8 @@
     "prerequisites": [
       "Heretic of the Faith",
       "Cleric or Paladin 4th",
-      "OR heretic of the faith (three-faced sun)",
-      "OR servant of the fallen (Amaunator)"
+      "heretic of the faith (three-faced sun)",
+      "servant of the fallen (Amaunator)"
     ]
   },
   "1838": {
@@ -14814,7 +14814,7 @@
     "benefit": "Once per day, you can use wild shape (as the druid ability) to take the shape of a hawk for 1 hour. This is a supernatural ability. In addition, you add the following spells to your cleric, paladin, or ranger spell list. 1st--command (paladin and ranger only), disk of solar vengeance (see page 54), herald&#39;s callMag. 2nd--stormvoice (see page 59). 3rd--righteous fury(Mag) (cleric only), searing light (paladin and ranger only).",
     "prerequisites": [
       "Cleric",
-      "or ranger 4th",
+      "ranger 4th",
       "paladin",
       "patron deity Horus-Re"
     ]
@@ -14918,7 +14918,7 @@
     "benefit": "You receive a +2 bonus on saving throws against dragon breath weapons, and frightful presence. In addition, you add the following spells to your blackguard, cleric, or ranger spell lists:",
     "prerequisites": [
       "Cleric or Blackguard 3rd",
-      "or Ranger 5th",
+      "Ranger 5th",
       "Servant of a Dragon Ascendant [Tchazzar]"
     ]
   },
@@ -14930,8 +14930,8 @@
       "Helm",
       "Lathander",
       "Nobanion",
-      "or ranger 3rd of Chauntea",
-      "or Sune",
+      "ranger 3rd of Chauntea",
+      "Sune",
       "paladin",
       "Selune"
     ]
@@ -15102,7 +15102,7 @@
       "Quori Dread",
       "Chosen",
       "kalashtar",
-      "or Inspired"
+      "Inspired"
     ]
   },
   "1883": {
@@ -15614,8 +15614,8 @@
       "human (Anauroch",
       "D ambrath",
       "the Lake of Steam",
-      "or the Sword Coast)",
-      "or planetouched (Chessenta)",
+      "the Sword Coast)",
+      "planetouched (Chessenta)",
       "orc (Thesk)"
     ]
   },
@@ -15641,7 +15641,7 @@
       "Cleric",
       "fi ghter",
       "member of the Order of the Red Falcon (see page 103)",
-      "or paladin 4th"
+      "paladin 4th"
     ]
   },
   "1952": {
@@ -16385,15 +16385,15 @@
     "prerequisites": [
       "Elf (Elven Court",
       "the Forest of Lethyr",
-      "or the Yuirwood)",
+      "the Yuirwood)",
       "gloamingUND (Sphur Upra)",
       "half-elf (Aglarond)",
       "halfl ing (Channath Vale or the Western Heartlands)",
-      "or human (Aglarond",
+      "human (Aglarond",
       "the Dalelands",
       "Tethyr",
       "Turmish",
-      "or the Vast)"
+      "the Vast)"
     ]
   },
   "2048": {
@@ -16596,10 +16596,10 @@
       "gnome ( the G reat D ale",
       "T hesk",
       "o r Underdark [Northdark])",
-      "or spirit folk (Ashane)",
+      "spirit folk (Ashane)",
       "planetouched (Calimshan",
       "Mulhorand",
-      "or Unther)"
+      "Unther)"
     ]
   },
   "2075": {
@@ -16845,7 +16845,7 @@
     "prerequisites": [
       "Any lesser",
       "greater",
-      "or Siberys dragonmark."
+      "Siberys dragonmark."
     ]
   },
   "2106": {
@@ -16971,7 +16971,7 @@
     "prerequisites": [
       "Initiate of Torm",
       "Initiate of Ilmater(PG)",
-      "or Initiate of Tyr(PG)"
+      "Initiate of Tyr(PG)"
     ]
   },
   "2122": {
@@ -16995,7 +16995,7 @@
     "prerequisites": [
       "Any true lesser",
       "greater",
-      "or Siberys dragonmark"
+      "Siberys dragonmark"
     ]
   },
   "2125": {
@@ -17487,7 +17487,7 @@
       "Dwarf (the Sword Coast or Underdark [Darklands])",
       "gnome (Lantan or Underdark [Northdark])",
       "halfling (Amn)",
-      "or human (Amn",
+      "human (Amn",
       "Lantan",
       "Sembia",
       "Shou Expatriate",
@@ -17496,7 +17496,7 @@
       "Thesk",
       "Turmish",
       "the Vast",
-      "or Waterdeep)"
+      "Waterdeep)"
     ]
   },
   "2187": {
@@ -17715,12 +17715,12 @@
     "prerequisites": [
       "Half-elf (Aglarond)",
       "halfl ing (Luiren)",
-      "or human (Altumbel",
+      "human (Altumbel",
       "the Dalelands",
       "Impiltur",
       "Samarach",
       "Thindol",
-      "or Turmish)"
+      "Turmish)"
     ]
   },
   "2213": {
@@ -17779,8 +17779,8 @@
       "human (Calimshan",
       "Mulhorand",
       "Shou Expatriate",
-      "or Thay)",
-      "or spirit folk (Ashane)",
+      "Thay)",
+      "spirit folk (Ashane)",
       "planetouched (Calimshan or Thay)"
     ]
   },
@@ -18090,7 +18090,7 @@
     "prerequisites": [
       "Dwarf",
       "dwarven waraxe",
-      "or dwarven urgrosh",
+      "dwarven urgrosh",
       "proficiency with battleaxe",
       "region of origin Mror Holds (Ironroot Mountains)",
       "warhammer"
@@ -20368,7 +20368,7 @@
       "Summer",
       "Sun",
       "Travel",
-      "or Water domain."
+      "Water domain."
     ]
   },
   "2548": {
@@ -20563,7 +20563,7 @@
       "Ability to speak a divine language (Abyssal",
       "celestial",
       "druidic",
-      "or infernal as appropriate)",
+      "infernal as appropriate)",
       "Any initiate feat"
     ]
   },
@@ -20596,7 +20596,7 @@
     "prerequisites": [
       "Any lesser",
       "greater",
-      "or Siberys dragonmark"
+      "Siberys dragonmark"
     ]
   },
   "2575": {
@@ -21228,7 +21228,7 @@
     "prerequisites": [
       "Chosen",
       "kalashtar",
-      "or Inspired"
+      "Inspired"
     ]
   },
   "2660": {
@@ -21530,7 +21530,7 @@
       "dragon",
       "elemental",
       "magical beast",
-      "or plant type",
+      "plant type",
       "one or more pairs of natural weapons"
     ]
   },
@@ -22075,7 +22075,7 @@
       "goblin (the Earth fast Mountains)",
       "hobgoblin (the Earthfast Mountains)",
       "human (Dambrath or Lapaliiya)",
-      "or orc (the Moonsea or the North)"
+      "orc (the Moonsea or the North)"
     ]
   },
   "2764": {
@@ -22710,7 +22710,7 @@
       "CON 13",
       "ability to smite (smite evil class feature",
       "smite domain power",
-      "or similar ability)"
+      "similar ability)"
     ]
   },
   "2845": {
@@ -23055,7 +23055,7 @@
       "Amaunator",
       "Bhaal",
       "Moander",
-      "or Myrkul) as patron deity"
+      "Myrkul) as patron deity"
     ]
   },
   "2891": {
@@ -23179,7 +23179,7 @@
     "benefit": "From now on, your spells tap the Shadow Weave instead of the Weave. You can also activate magic items that use the Shadow Weave without taking damage.",
     "prerequisites": [
       "WIS 15",
-      "or Patron deity Shar"
+      "Patron deity Shar"
     ]
   },
   "2908": {
@@ -23261,7 +23261,7 @@
     "prerequisites": [
       "Ability to shape soulmelds and a familiar",
       "animal companion",
-      "or mount with whom you can share spells"
+      "mount with whom you can share spells"
     ]
   },
   "2918": {
@@ -23494,7 +23494,7 @@
       "Jump",
       "Tumble",
       "longstride",
-      "or swiftwing trait. Balance 4 ranks",
+      "swiftwing trait. Balance 4 ranks",
       "Shifter with the cliffwalk"
     ]
   },
@@ -23503,7 +23503,7 @@
     "benefit": "You gain a +1 dodge bonus to Armor Class and a +1 bonus to Refl ex saves while shifting.",
     "prerequisites": [
       "longstride",
-      "or swiftwing trait",
+      "swiftwing trait",
       "Shifter with the cliffwalk"
     ]
   },
@@ -23576,7 +23576,7 @@
       "Base attack bonus +6",
       "ability to rage or frenzy",
       "longtooth",
-      "or razorclaw trait",
+      "razorclaw trait",
       "Shifter with the gorebrute"
     ]
   },
@@ -23585,7 +23585,7 @@
     "benefit": "While shifting, you are immune to nonlethal damage, and the effects of fatigue and exhaustion are suppressed. When your shifting ends, any fatigue or exhaustion effects that would have taken effect during your shifting (or that were in effect when you began shifting) take effect normally.",
     "prerequisites": [
       "Endurance",
-      "or wildhunt trait",
+      "wildhunt trait",
       "Shifter with the beasthide",
       "truedive"
     ]
@@ -23596,7 +23596,7 @@
     "prerequisites": [
       "Hide",
       "Move Silently",
-      "or wildhunt trait",
+      "wildhunt trait",
       "Shifter with longstride",
       "swiftwing"
     ]
@@ -23803,16 +23803,16 @@
     "prerequisites": [
       "Dwarf (the Great Rift",
       "Turmish",
-      "or Waterdeep)",
+      "Waterdeep)",
       "halfl ing (Amn)",
-      "or human (Amn",
+      "human (Amn",
       "the Dragon Coast",
       "the Golden Water",
       "Sembia",
       "Tharsult",
       "Thesk",
       "the Vilhon Reach",
-      "or Waterdeep)"
+      "Waterdeep)"
     ]
   },
   "2981": {
@@ -24019,7 +24019,7 @@
       "gloamingUND (Sphur Upra)",
       "gnome (Thesk)",
       "half-elf (Waterdeep)",
-      "or human (Silverymoon",
+      "human (Silverymoon",
       "Thesk",
       "Waterdeep)"
     ]
@@ -24048,7 +24048,7 @@
       "Tharsult",
       "Thindol",
       "the Vilhon Reach",
-      "or the Western Heartlands)"
+      "the Western Heartlands)"
     ]
   },
   "3013": {
@@ -24631,7 +24631,7 @@
       "Nimbral",
       "Samarach",
       "Shadovar",
-      "or the Wizards&#39; Reach)"
+      "the Wizards&#39; Reach)"
     ]
   },
   "3091": {
@@ -24844,7 +24844,7 @@
       "LN",
       "N",
       "CN",
-      "or NE)"
+      "NE)"
     ]
   },
   "3117": {
@@ -25007,7 +25007,7 @@
     "benefit": "You can always take 10 on Climb and Jump checks, even when conditions would not normally allow you to do so.",
     "prerequisites": [
       "Goliath",
-      "or Climb 8 ranks and Jump 8 ranks"
+      "Climb 8 ranks and Jump 8 ranks"
     ]
   },
   "3136": {
@@ -25209,7 +25209,7 @@
       "Proficiency with an Iron Heart preferred weapon (bastard sword",
       "dwarven waraxe",
       "longsword",
-      "or twobladed sword)",
+      "twobladed sword)",
       "two Iron Heart maneuvers"
     ]
   },
@@ -25224,7 +25224,7 @@
       "Lapaliiya",
       "the Nelanther Isles",
       "the Sword Coast",
-      "or Tharsult)"
+      "Tharsult)"
     ]
   },
   "3162": {
@@ -25272,8 +25272,8 @@
       "Chessenta",
       "the Moonsea",
       "Unther",
-      "or the Wizards&#39; Reach)",
-      "or planetouched (Chessenta or the Western Heartlands)"
+      "the Wizards&#39; Reach)",
+      "planetouched (Chessenta or the Western Heartlands)"
     ]
   },
   "3168": {
@@ -25341,9 +25341,9 @@
       "g nome ( Underdark [Northdark] o r t he W estern Heartlands)",
       "half-elf (Dambrath",
       "the Dalelands",
-      "or Silverymoon)",
+      "Silverymoon)",
       "halfl ing (Channath Vale or Luiren)",
-      "or human (the Moonshae Isles)"
+      "human (the Moonshae Isles)"
     ]
   },
   "3178": {
@@ -25746,9 +25746,9 @@
     "prerequisites": [
       "Grimlock (Underdark [Reeshov])",
       "human (the Great Glacier or Uthgardt Tribesfolk)",
-      "or orc (Amn",
+      "orc (Amn",
       "the Moonsea",
-      "or Vaasa)"
+      "Vaasa)"
     ]
   },
   "3232": {
@@ -25793,9 +25793,9 @@
       "Chult",
       "the Great Glacier",
       "Narfell",
-      "or the Shaar)",
+      "the Shaar)",
       "kuo-toa (Underdark [Sloopdilmonpolop])",
-      "or taerUNA (the Icerim Mountains)",
+      "taerUNA (the Icerim Mountains)",
       "slyth (Underdark [Fluvenilstra])"
     ]
   },
@@ -25892,7 +25892,7 @@
       "halfl ing (the Chondalwood or the North)",
       "hobgoblin (the Earthfast Mountains)",
       "human (Uthgardt Tribesfolk)",
-      "or wemic (the Shaar)",
+      "wemic (the Shaar)",
       "orc (the North)"
     ]
   },
@@ -25969,10 +25969,10 @@
     "benefit": "You can use your paladin and ranger spell slots to prepare wizard spells. You must have a minimum Intelligence score of 10 + the spell&#39;s level to prepare it, and the save DC of the spell is equal to 10 + your Int modifi er (as if you were a wizard). These wizard spells can be taken either from your spellbook (if you have one) or from another character&#39;s spellbook (though in the latter case you must decipher the writing in the book and succeed on a Spellcraft check to prepare the spell, just as a wizard using a borrowed spellbook; see Wizard Spells and Borrowed Spellbooks, page 178 of the Player&#39;s Handbook, for details). If you also have levels in wizard, your wizard caster level is treated as the sum of your wizard, paladin, and ranger class levels.",
     "prerequisites": [
       "Paladin 4th of Azuth or Mystra",
-      "or ranger 4th of Mystra; member of the Knights of the Mystic Fire (see page 102)",
+      "ranger 4th of Mystra; member of the Knights of the Mystic Fire (see page 102)",
       "the Order of the Shooting Star (see Knights of the Mystic Fire",
       "page 102)",
-      "or the Swords of the High One (see page 104)"
+      "the Swords of the High One (see page 104)"
     ]
   },
   "3259": {
@@ -26323,7 +26323,7 @@
       "Power Attack",
       "Weapon Focus",
       "morningstar",
-      "or greatclub)",
+      "greatclub)",
       "STR 13"
     ]
   },
@@ -26406,14 +26406,14 @@
       "the Nelanther Isles",
       "Unther",
       "the Vast",
-      "or the Vilhon Reach)",
-      "or planetouched (Impiltur",
+      "the Vilhon Reach)",
+      "planetouched (Impiltur",
       "the Silver Marches",
       "Unther",
-      "or the Western Heartlands)",
+      "the Western Heartlands)",
       "orc (Amn",
       "Thesk",
-      "or Underdark [Northdark])"
+      "Underdark [Northdark])"
     ]
   },
   "3312": {
@@ -26434,7 +26434,7 @@
       "the Sword C oast",
       "Turmish",
       "Underdark [Old Shanatar]",
-      "or Waterdeep)"
+      "Waterdeep)"
     ]
   },
   "3314": {
@@ -26460,7 +26460,7 @@
     "benefit": "While you are in a rage, shifted, or wild shaped into an animal form, you can attempt to knock back 5 feet a creature of your size category or smaller that you hit with a Tiger Claw strike unless it succeeds on a Fortitude save (DC 10+1/2 your character level + your Str modifier). This movement does not provoke attacks of opportunity.",
     "prerequisites": [
       "Ability to rage",
-      "or wild shape; one Tiger Claw maneuver",
+      "wild shape; one Tiger Claw maneuver",
       "shift (such as the shifter ability from the EBERRON campaign setting or the bloodclaw master prestige class feature; see page 96)"
     ]
   },
@@ -26478,13 +26478,13 @@
     "prerequisites": [
       "Dwarf (the Galena Mountains",
       "the Sword Coast",
-      "or Underdark [Old Shanatar])",
+      "Underdark [Old Shanatar])",
       "human (the Hordelands",
       "the Ride",
       "Thindol",
-      "or Vaasa)",
+      "Vaasa)",
       "lizardfolk (Surkh)",
-      "or wemic (the Shaar)",
+      "wemic (the Shaar)",
       "orc (the Hordelands)"
     ]
   },
@@ -26577,7 +26577,7 @@
       "Base attack bonus +2",
       "any touch attack that deals hit point damage",
       "ability damage",
-      "or ability drain"
+      "ability drain"
     ]
   },
   "3330": {
@@ -26653,7 +26653,7 @@
     "prerequisites": [
       "ability drain",
       "Natural attack that deals ability damage (including poison)",
-      "or energy drain"
+      "energy drain"
     ]
   },
   "3340": {
@@ -26671,7 +26671,7 @@
     "prerequisites": [
       "Knowledge (local)",
       "in place of the material components",
-      "or possession of a touchstone key (a portable object native to the touchstone&#39;s area and worth at least 250 gp). To forge a link between yourself and the touchstone",
+      "possession of a touchstone key (a portable object native to the touchstone&#39;s area and worth at least 250 gp). To forge a link between yourself and the touchstone",
       "spending 10 XP and 250 gp in material components. Alternatively",
       "the key object for the touchstone can be destroyed as part of the ritual",
       "you must spend a day in meditation"
@@ -26825,10 +26825,10 @@
     "prerequisites": [
       "Elf (the Chondalwood",
       "the High Forest",
-      "or the Yuirwood)",
+      "the Yuirwood)",
       "half-elf (Aglarond or the High Forest)",
       "halfl ing (the Chondalwood)",
-      "or human (Aglarond)"
+      "human (Aglarond)"
     ]
   },
   "3363": {
@@ -27045,7 +27045,7 @@
     "prerequisites": [
       "Elf (Menzoberranyr or Waterdeep)",
       "half-elf (Waterdeep)",
-      "or human (Sembia or Waterdeep)",
+      "human (Sembia or Waterdeep)",
       "profi cient with martial weapons"
     ]
   },
@@ -27325,7 +27325,7 @@
     "prerequisites": [
       "Any least",
       "lesser",
-      "or greater true dragonmark"
+      "greater true dragonmark"
     ]
   },
   "3426": {
@@ -27333,7 +27333,7 @@
     "special": "If you have selected aberrations as a favored enemy, the bonus on Knowledge (dungeoneering) checks instead equals your favored enemy bonus against aberrations. (The bonus on damage rolls is unaffected, but still stacks with the bonus from the favored enemy ability.)",
     "benefit": "You receive a +2 bonus on Knowledge (dungeoneering) checks made in conjunction with aberrations. You also gain a +2 bonus on weapon damage rolls made against aberrations.",
     "prerequisites": [
-      "or Gatekeeper Initiate feat",
+      "Gatekeeper Initiate feat",
       "Region of origin Shadow Marches or Eldeen Reaches"
     ]
   },
@@ -28588,7 +28588,7 @@
     "benefit": "You ignore hampered movement penalties from naturally occurring light or heavy undergrowth ( you are still hampered by magically enhanced brush and plants.) When Fighting in wooded areas, You gain a +1 dodge bonus ot Armor class.",
     "prerequisites": [
       "Elf (the Misty Vale)",
-      "Or Star elf (Sildeyuir) or Volodni (the Forest of Lethyr)"
+      "Star elf (Sildeyuir) or Volodni (the Forest of Lethyr)"
     ]
   },
   "3593": {
