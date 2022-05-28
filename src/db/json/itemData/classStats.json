@@ -19057,7 +19057,7 @@
       "feats": [
         "Urban Tracking"
       ],
-      "base save bonus": {"fortitude": 3},
+      "base save bonus": {"fortitude": 3}
     },
     "skill points": {
       "base": 6,
