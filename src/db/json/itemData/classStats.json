@@ -94591,7 +94591,7 @@
         "special": [
           "Charm"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       },
       {
         "level": "2nd",
@@ -94602,7 +94602,7 @@
         "special": [
           "Spell betrayal"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "3rd",
@@ -94613,7 +94613,7 @@
         "special": [
           "Dark Charisma +1"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       },
       {
         "level": "4th",
@@ -94625,7 +94625,7 @@
           "Spell betrayal +2d6",
           "Summon minor demon"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "5th",
@@ -94636,7 +94636,7 @@
         "special": [
           "Dark Charisma +2"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       },
       {
         "level": "6th",
@@ -94648,7 +94648,7 @@
           "Spell betrayal +3d6",
           "Spellstrike +1d6"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "7th",
@@ -94659,7 +94659,7 @@
         "special": [
           "Dark Charisma +3"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       },
       {
         "level": "8th",
@@ -94671,7 +94671,7 @@
           "Spell betrayal +4d6",
           "spellstrike +1d6"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "9th",
@@ -94682,7 +94682,7 @@
         "special": [
           "Summon major demon"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       },
       {
         "level": "10th",
@@ -94693,7 +94693,7 @@
         "special": [
           "Spell betrayal +5d6"
         ],
-        "undefined": "+1 level of existing class"
+        "spells per day/spells known": "+1 level of existing class"
       }
     ],
     "hit die": "d6",
@@ -94887,7 +94887,7 @@
         "special": [
           "Carrion Stench"
         ],
-        "undefined": "Bonus feat or +1 level of existing class"
+        "spells per day/spells known": "Bonus feat or +1 level of existing class"
       },
       {
         "level": "2nd",
@@ -94898,7 +94898,7 @@
         "special": [
           "touch of fear"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "3rd",
@@ -94909,7 +94909,7 @@
         "special": [
           "Demon wings"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "4th",
@@ -94920,7 +94920,7 @@
         "special": [
           "Massive girth/skeletal visage"
         ],
-        "undefined": "Bonus feat or +1 level of existing class"
+        "spells per day/spells known": "Bonus feat or +1 level of existing class"
       },
       {
         "level": "5th",
@@ -94931,7 +94931,7 @@
         "special": [
           "_Summon minor undead"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "6th",
@@ -94942,7 +94942,7 @@
         "special": [
           "Pallor of death"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "7th",
@@ -94953,7 +94953,7 @@
         "special": [
           "Demon wings (at will)"
         ],
-        "undefined": "Bonus feat or +1 level of existing class"
+        "spells per day/spells known": "Bonus feat or +1 level of existing class"
       },
       {
         "level": "8th",
@@ -94964,7 +94964,7 @@
         "special": [
           "Death touch"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "9th",
@@ -94975,7 +94975,7 @@
         "special": [
           "Summon major undead"
         ],
-        "undefined": "&#8212;"
+        "spells per day/spells known": "&#8212;"
       },
       {
         "level": "10th",
@@ -94986,7 +94986,7 @@
         "special": [
           "Summon nightwing"
         ],
-        "undefined": "Bonus feat or +1 level of existing class"
+        "spells per day/spells known": "Bonus feat or +1 level of existing class"
       }
     ],
     "hit die": "d8",
