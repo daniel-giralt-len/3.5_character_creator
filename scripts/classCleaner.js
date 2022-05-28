@@ -54,7 +54,7 @@ if(a===2){ //get sections
         const reqListRegex = RegExp(`<h[0-9]>${sectionTitle}(?:.*?)</h[0-9]><div(?:.*?)>(.*?)</div>`,'i')
         const data = reqListRegex.exec(html)
         if(!data) return
-        const paragraphRegex = RegExp(/<p><strong>(.*?)<\/strong>(.*?)<\/p>/g)
+        const paragraphRegex = RegExp(/<p><strong>(.*?)<\/strong> ?(.*?)<\/p>/g)
         let requirements = {}
         let match
         while ((match = paragraphRegex.exec(data)) !== null) {
@@ -63,11 +63,11 @@ if(a===2){ //get sections
         return requirements
     }
 
-    const parseClassSkills = (html, sectionTitle) => {
+    const parseClassFeatures = (html, sectionTitle) => {
         const skillsRegex = RegExp(`<div class="nice-textile"><h[0-9]>${sectionTitle}(?:.*?)</h[0-9]>(.*?)</div>`,'i')
         const data = skillsRegex.exec(html)
         if(!data) return
-        const paragraphRegex = RegExp(/<p><strong>(.*?)<\/strong>(.*?)<\/p>/g)
+        const paragraphRegex = RegExp(/<p><strong>(.*?):<\/strong> ?(.*?)<\/p>/g)
         let skills = {}
         let match
         while ((match = paragraphRegex.exec(data)) !== null) {
@@ -81,8 +81,8 @@ if(a===2){ //get sections
         'advancement': html => {return undefined},
         'hit die': html => parseParagraph(html, 'hit die'),
         'starting gold': html => parseParagraph(html, 'starting gold'),
-        'class features': html => {return undefined},
-        'class skills': html => parseClassSkills(html, 'class skills'),
+        'class features': html => parseClassFeatures(html, 'class features'),
+        'class skills': html => {return undefined},
         'alignment': html => parseParagraph(html, 'alignment'),
         '<span class="caps">class</span> <span class="caps">skills</span>': html => {return undefined},
         'signature weapons': html => {return undefined},
