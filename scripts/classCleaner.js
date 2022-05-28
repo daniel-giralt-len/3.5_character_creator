@@ -3,7 +3,7 @@ const fs = require('fs')
 const jsonPath = './src/db/json/itemData/classDescription.json'
 const classSectionsPath = './src/db/json/itemData/classSections.json'
 
-const a = 3
+const a = 4
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 const regexToArray = (r,s) => {
@@ -215,4 +215,40 @@ if(a===3){ // parse ints
     const newJson = parse(json)
     
     fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))  
+}
+
+if(a===4){ // parse ints
+    const classStatsPath = './src/db/json/itemData/classStats.json'
+    const json = require('.'+classStatsPath)
+    
+    const parse = (v, k=null) => {
+        const t = typeof v
+        
+        if(Array.isArray(v)) { return v.map(parse) }
+        if(t === 'object') {
+            return Object.entries(v)
+                .reduce((acc, [k,v2])=>({
+                    ...acc,
+                    [k]: parse(v2, k)
+                }),{})
+        }
+        if(t === 'string'){
+            if(k==='skill points'){
+                const [a,b] = v.split(' + ')
+                return {base: parseInt(a), score: b.toUpperCase()}
+            }
+            if(v[0]==='<'){
+                const anchorRegex = new RegExp(/<a(?:.*?)>(.*?)<\/a>/g)
+                const arr = regexToArray(anchorRegex, v)
+                if(arr.length > 0) { return arr }
+            }
+            if(v==='&#8212;'){ return '' }
+        }
+
+        return v
+    }
+
+    const newJson = parse(json)
+    
+    fs.writeFileSync('./test.json'&&classStatsPath, JSON.stringify(newJson,null,2))  
 }
