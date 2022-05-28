@@ -8430,7 +8430,7 @@
     "requirements": {
       "bab": 5,
       "skills": "Any three skills 6 ranks each.",
-      "skill tricks": " Any two."
+      "skill tricks": 2
     },
     "skill points": {
       "base": 4,
@@ -60304,7 +60304,7 @@
     "requirements": {
       "feats": "Any one metamagic feat.",
       "spellcasting": " Ability to cast 3rd-level spells.",
-      "skill tricks": " Any two."
+      "skill tricks": 2
     },
     "skill points": {
       "base": 4,
@@ -103118,7 +103118,7 @@
   "899": {
     "requirements": {
       "skills": "Any four skills 8 ranks each.",
-      "skill tricks": " Any four."
+      "skill tricks": 4
     },
     "skill points": {
       "base": 8,
