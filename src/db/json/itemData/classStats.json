@@ -61060,7 +61060,7 @@
         "Weapon Focus",
         "Weapon Specialization"
       ],
-      "ability score": {
+      "score": {
         "value": 13,
         "score": "INT"
       }
@@ -69788,7 +69788,7 @@
         "Weapon Focus",
         "Weapon Specialization"
       ],
-      "proficiency": "Longbow or shortbow or composite longbow or composite shortbow."
+      "weapon proficiency": {"oneOf": ["Longbow", "shortbow", "composite longbow", "composite shortbow"]}
     },
     "skill points": {
       "base": 2,
@@ -76076,7 +76076,7 @@
       "feats": "Any one metamagic feat.",
       "spellcasting": "Able to cast 3rd-level arcane spells and knowledge of at least four evocation spells.",
       "languages": "Able to read Roushoum and the Imaskari script (this generally requires a Speak Language skill rank for each dead language).",
-      "proficiencies": "Proficient with martial weapons.",
+      "weapon proficiency": "Martial weapons.",
       "special": "The character must find a mentor who already has levels in Raumathari battlemage and spend at least ten days studying in the mentor's company. During this time of study, both mentor and student must spend at least 8 hours a day in training."
     },
     "skill points": {
@@ -78372,7 +78372,7 @@
         "Knowledge (religion)"
       ],
       "martial maneuvers": "Must know at least one Devoted Spirit maneuver.",
-      "martial stancess": {"oneOf": "Devoted Spirit"},
+      "martial stances": {"oneOf": "Devoted Spirit"},
       "deity": "Wee Jas.",
       "special": "Ability to turn or rebuke undead."
     },
@@ -80349,7 +80349,7 @@
       "feats": [
         "Iron Will"
       ],
-      "proficiency": "Proficient with all martial weapons.",
+      "weapon proficiency": "Martial weapons.",
       "psionics": "Must have a power point reserve of at least 1 power point."
     },
     "skill points": {
@@ -94020,7 +94020,7 @@
         "Appraise",
         "Craft"
       ],
-      "creature type": "Giant, humanoid, or monstrous humanoid.",
+      "race": ["Giant", "humanoid", "monstrous humanoid."],
       "special": "The character must be invited to become a stone blessed by a member of the chosen race. Fulfilling this requirement usually entails living with the race in question for several years, although it might (at the DM's discretion) also involve the completion of a single great task."
     },
     "skill points": {
@@ -94075,7 +94075,7 @@
         "Hide",
         "Move Silently"
       ],
-      "creature type": "Goblinoid subtype."
+      "creature type": ["goblinoid"]
     },
     "skill points": {
       "base": 6,
@@ -95803,7 +95803,7 @@
         "Servant of the Fallen"
       ],
       "spells": "Ability to cast 2nd-level divine spells.",
-      "domains": "Law, Sun.",
+      "domains": ["Law", "Sun"],
       "patron deity": "Amaunator.",
       "special": "You must own a holy symbol of Amaunator, either personally recovered from a ruined temple of that deity or given to you by an existing sunmaster."
     },
@@ -97383,7 +97383,7 @@
         "Great Fortitude"
       ],
       "spellcasting": "Able to cast 4th-level divine spells.",
-      "proficiency": "Glaive. A druid who wields a glaive is in violation of her spiritual oaths, but a character may take a Martial Weapon Proficiency feat with the weapon and simply refrain from wielding it until she qualifies for the blightlord class.",
+      "weapon proficiency": "Glaive. A druid who wields a glaive is in violation of her spiritual oaths, but a character may take a Martial Weapon Proficiency feat with the weapon and simply refrain from wielding it until she qualifies for the blightlord class.",
       "patron deity": "Talona."
     },
     "skill points": {
@@ -110569,7 +110569,7 @@
         "Weapon Focus",
         "Whirlwind Attack"
       ],
-      "proficiency": "With your weapon of choice.",
+      "weapon proficiency": "With your weapon of choice.",
       "dexterity": "13+."
     },
     "skill points": {
