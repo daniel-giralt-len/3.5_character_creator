@@ -78,7 +78,7 @@ function ItemBrowser({
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => {
         if(disabled) return
-        if(itemType === 'classes'){
+        if(itemType === 'classes' && !isCorpus){
             const out = [...selectedList, id]
             return handleCreationChange(out)
         }

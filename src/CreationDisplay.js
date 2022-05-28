@@ -16,12 +16,13 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
   const handleScoreChange = scores => handleCreationChange({...creation, scores})
   const handleClassChange = classes => { /*handleCreationChange({...creation, classes}) */ }
   
+  //TODO: make the fancier (non-list) displays work with a corpus
   return (
     <div>
       {isCharacter && (
           <>
             <h3>Race: {races}</h3>
-            <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} />
+            <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} /> 
             <ClassDisplay classes={classes} translate={translate} handleClassChange={handleClassChange} />
             <h3>{translate('bab')}: {bab}</h3>
             <div>
