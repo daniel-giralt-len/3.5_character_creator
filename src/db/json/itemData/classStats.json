@@ -13287,7 +13287,7 @@
       ],
       "special": "Must have a familiar.",
       "spells": " Able to cast 2nd-level arcane spells",
-      "language": " Must speak Aquan, Auran, Ignan, or Terran."
+      "language": {"oneOf": ["Aquan", "Auran", "Ignan", "Terran"]}
     },
     "skill points": {
       "base": 2,
@@ -23039,7 +23039,7 @@
         "Knowledge (the planes)",
         "Sense Motive"
       ],
-      "language": "Abyssal.",
+      "language": "Abyssal",
       "invocations": " <em>Baleful utterance</em> plus any two others."
     },
     "skill points": {
@@ -29470,7 +29470,7 @@
         "Alertness",
         "Endurance"
       ],
-      "language": "Draconic.",
+      "language": "Draconic",
       "special": "Must be chosen by a dragon of the same alignment. If a dragonkith ever ceases its relationship with the dragon, or the dragon dies, the character loses all special abilities gained from this prestige class."
     },
     "skill points": {
@@ -29704,7 +29704,7 @@
         "Mounted Combat",
         "Skill Focus"
       ],
-      "language": "Draconic."
+      "language": "Draconic"
     },
     "skill points": {
       "base": 2,
@@ -40570,7 +40570,7 @@
         "Illithid Heritage"
       ],
       "powers": "Ability to manifest <em>psionic charm</em>. ",
-      "language": "Undercommon."
+      "language": "Undercommon"
     },
     "skill points": {
       "base": 2,
@@ -45890,7 +45890,7 @@
       "feats": [
         "Dragontouched "
       ],
-      "language": "Draconic.",
+      "language": "Draconic",
       "special": "Sneak attack, sudden strike, or skirmish +2d6."
     },
     "skill points": {
@@ -52269,7 +52269,7 @@
         "Improved Unarmed Strike",
         "Power Attack"
       ],
-      "language": "Draconic."
+      "language": "Draconic"
     },
     "skill points": {
       "base": 4,
@@ -95443,7 +95443,7 @@
         "Combat Casting",
         "Iron Will"
       ],
-      "language": "Ancient Suloise.",
+      "language": "Ancient Suloise",
       "special": "Must read the Grimoire Arcanamacha, or study with a willing instructor who has done so. Reading the Grimoire requires one full week of uninterrupted study, and the ability to read Ancient Suloise. Learning from a willing instructor requires four weeks of training."
     },
     "skill points": {
