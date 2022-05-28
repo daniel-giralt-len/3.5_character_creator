@@ -1,426 +1,426 @@
 [
   {
-    "skill name": "alchemy",
+    "name": "alchemy",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "animal empathy",
+    "name": "animal empathy",
     "key ability": "CHA",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "appraise",
+    "name": "appraise",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "autohypnosis",
+    "name": "autohypnosis",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "balance",
+    "name": "balance",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "bluff",
+    "name": "bluff",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "climb",
+    "name": "climb",
     "key ability": "STR",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "concentration",
+    "name": "concentration",
     "key ability": "CON",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "control shape",
+    "name": "control shape",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "craft",
+    "name": "craft",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "decipher script",
-    "key ability": "INT",
-    "trained only": true,
-    "armor check penalty": false
-  },
-  {
-    "skill name": "diplomacy",
-    "key ability": "CHA",
-    "trained only": false,
-    "armor check penalty": false
-  },
-  {
-    "skill name": "disable device",
+    "name": "decipher script",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "disguise",
+    "name": "diplomacy",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "escape artist",
+    "name": "disable device",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "name": "disguise",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "name": "escape artist",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "forgery",
+    "name": "forgery",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "gather information",
+    "name": "gather information",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "handle animal",
+    "name": "handle animal",
     "key ability": "CHA",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "heal",
+    "name": "heal",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "hide",
+    "name": "hide",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "iaijutsu focus",
+    "name": "iaijutsu focus",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "innuendo",
+    "name": "innuendo",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "intimidate",
+    "name": "intimidate",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "intuit direction",
+    "name": "intuit direction",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "jump",
+    "name": "jump",
     "key ability": "STR",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "knowledge",
+    "name": "knowledge",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (arcana)",
+    "name": "knowledge (arcana)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (architecture and engineering)",
+    "name": "knowledge (architecture and engineering)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (barbarian lore)",
+    "name": "knowledge (barbarian lore)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (code of martial honor)",
+    "name": "knowledge (code of martial honor)",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (dungeoneering)",
+    "name": "knowledge (dungeoneering)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (geography)",
+    "name": "knowledge (geography)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (history)",
+    "name": "knowledge (history)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (law)",
+    "name": "knowledge (law)",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (local)",
+    "name": "knowledge (local)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (nature)",
+    "name": "knowledge (nature)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (nobility and royalty)",
+    "name": "knowledge (nobility and royalty)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (psionics)",
+    "name": "knowledge (psionics)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (religion)",
+    "name": "knowledge (religion)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (Shadowlands)",
+    "name": "knowledge (Shadowlands)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (spirits)",
+    "name": "knowledge (spirits)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (tactics)",
+    "name": "knowledge (tactics)",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (the planes)",
+    "name": "knowledge (the planes)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (War)",
+    "name": "knowledge (War)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "knowledge (weaponry)",
+    "name": "knowledge (weaponry)",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "listen",
+    "name": "listen",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "lucid Dreaming",
+    "name": "lucid Dreaming",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "martial Lore",
+    "name": "martial Lore",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "move silently",
+    "name": "move silently",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "open lock",
+    "name": "open lock",
     "key ability": "DEX",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "perform",
+    "name": "perform",
     "key ability": "CHA",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "pick pocket",
+    "name": "pick pocket",
     "key ability": "DEX",
     "trained only": true,
     "armor check penalty": true
   },
   {
-    "skill name": "profession",
+    "name": "profession",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "psicraft",
+    "name": "psicraft",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "read lips",
+    "name": "read lips",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "ride",
+    "name": "ride",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "scry",
+    "name": "scry",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "search",
+    "name": "search",
     "key ability": "INT",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "sense motive",
+    "name": "sense motive",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "sleight of hand",
+    "name": "sleight of hand",
     "key ability": "DEX",
     "trained only": true,
     "armor check penalty": true
   },
   {
-    "skill name": "speak language",
+    "name": "speak language",
     "key ability": "None",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "spellcraft",
+    "name": "spellcraft",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "spot",
+    "name": "spot",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "survival",
+    "name": "survival",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "swim",
+    "name": "swim",
     "key ability": "STR",
     "trained only": false,
     "armor check penalty": true
   },
   {
-    "skill name": "truespeak",
+    "name": "truespeak",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "tumble",
+    "name": "tumble",
     "key ability": "DEX",
     "trained only": true,
     "armor check penalty": true
   },
   {
-    "skill name": "use magic device",
+    "name": "use magic device",
     "key ability": "CHA",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "use psionic device",
+    "name": "use psionic device",
     "key ability": "CHA",
     "trained only": true,
     "armor check penalty": false
   },
   {
-    "skill name": "use rope",
+    "name": "use rope",
     "key ability": "DEX",
     "trained only": false,
     "armor check penalty": false
   },
   {
-    "skill name": "wilderness lore",
+    "name": "wilderness lore",
     "key ability": "WIS",
     "trained only": false,
     "armor check penalty": false
