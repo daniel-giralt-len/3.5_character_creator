@@ -3,7 +3,7 @@ const fs = require('fs')
 const jsonPath = './src/db/json/itemData/classDescription.json'
 const classSectionsPath = './src/db/json/itemData/classSections.json'
 
-const a = 5
+const a = 6
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 const regexToArray = (r,s) => {
@@ -217,8 +217,8 @@ if(a===3){ // parse ints
     fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))  
 }
 
+const classStatsPath = './src/db/json/itemData/classStats.json'
 if(a===4){ // parse anchors, skill points, hyphens
-    const classStatsPath = './src/db/json/itemData/classStats.json'
     const json = require('.'+classStatsPath)
     
     const parse = (v, k=null) => {
@@ -278,4 +278,47 @@ if(a===5){ // clean colons in keys
     const newJson = parse(json)
     
     fs.writeFileSync('./test.json'&&classStatsPath, JSON.stringify(newJson,null,2))  
+}
+
+if(a===6){
+    const json = require('.'+classStatsPath)
+    const parsers = require('./classRequirementsParsers.js')
+    //const dbs = require('../src/db/json/dbs.json')
+    //const findItem = (list,n) => list.find(({name}) => name.toLowerCase() === n.toLowerCase())
+    //const scores = ['STR','DEX','CON','INT','WIS','CHA']
+    //const lists = ['classes','feats','language','races','skills']
+    
+    //const missing = []
+    const parseRequirements = (k,v) => {
+        const s = parsers.find(([kkk])=>kkk===k)
+        if(s&&s[1]&&typeof s[1] === 'function'){
+            return s[1](v)
+        }
+
+        return [k,v]
+    }
+
+    const newJson = json
+        .reduce((acc, {id, ...classData}) => {
+            return({
+            ...acc,
+            [id]: {
+                ...classData,
+                requirements: Object
+                    .entries(classData.requirements || {})
+                    .reduce((acc, [k,v])=> {
+                        k = k.toLowerCase()
+                        const [kk, vv] = parseRequirements(k,v)
+                        return({
+                            ...acc,
+                            [kk]: vv
+                        })
+                }, {})
+            }
+        })}, {}
+    )
+    //console.log(missing)
+    //const mS = missing.filter(([k],i,a) => onlyUnique(k,i,a.map(([k])=>k)))
+    fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))
+    //fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))
 }
