@@ -121,15 +121,16 @@ if(a===2){ //get sections
         const advancement = tableToJson(data[1])
         let keys, rows
         [keys, ...rows] = advancement
-        keys = keys.filter(k=>k&&k!=='').map(k=>k.toLowerCase())
+        keys = keys.filter(k=>k&&k!=='')
 
         const includesSpellcasting = v => v.includes('Spellcasting') || v.includes('Spells')
 
-        if(keys.find(includesSpellcasting) && keys.length < rows[0].length){
+        if(keys && rows[0] && keys.length < rows[0].length){
             let spellKeys
             [spellKeys, ...rows] = rows
             keys = [...keys.filter(k=>!includesSpellcasting(k)), ...spellKeys]
         }
+        keys = keys.map(k=>k.toLowerCase())
         const keyedLevels = rows.reduce((acc, row) => {
             return [
                 ...acc,
@@ -157,7 +158,6 @@ if(a===2){ //get sections
         'class skills': html => parseClassSkills(html, 'class skills'),
         'alignment': html => parseParagraph(html, 'alignment'),
         '<span class="caps">class</span> <span class="caps">skills</span>': html => {return undefined},
-        'signature weapons': html => {return undefined},
     }
     const json = require('.'+jsonPath)
     const newJson = json
@@ -173,5 +173,8 @@ if(a===2){ //get sections
                 },
                 {id, html})
             })
-    fs.writeFileSync(jsonPath, JSON.stringify(newJson,null,2))  
+    fs.writeFileSync(jsonPath, JSON.stringify(newJson,null,2)) 
+    
+    const statsJson = newJson.map(({html,...rest})=>rest)
+    fs.writeFileSync('./src/db/json/itemData/classStats.json', JSON.stringify(statsJson,null,2)) 
 }
