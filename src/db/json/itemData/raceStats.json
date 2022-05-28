@@ -1,0 +1,862 @@
+[
+  {
+    "id": "1",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 2,
+    "CON": 0,
+    "CHA": 2,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "5",
+      "6"
+    ],
+    "bonus languages": [
+      "10",
+      "14",
+      "15",
+      "19",
+      "21",
+      "32"
+    ]
+  },
+  {
+    "id": "2",
+    "size": "medium",
+    "base speed": "Land 40",
+    "STR": 4,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 2,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "5",
+      "6"
+    ],
+    "racial hit dice": "3",
+    "racial base attack": 3,
+    "racial base saves": {
+      "fortitude": "+3",
+      "reflex": "+3",
+      "will": "+3"
+    },
+    "bonus languages": []
+  },
+  {
+    "id": "3",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "7",
+      "8"
+    ],
+    "bonus languages": [
+      "1",
+      "6",
+      "10",
+      "23"
+    ]
+  },
+  {
+    "id": "4",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": -2,
+    "DEX": -2,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": 0,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "natural armor": 4,
+    "automatic languages": [
+      "6",
+      "9"
+    ],
+    "bonus languages": [
+      "14",
+      "26",
+      "33",
+      "34"
+    ]
+  },
+  {
+    "id": "5",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "6",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 2,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": -2,
+    "CHA": 2,
+    "level adjustment": 2,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "15",
+      "34"
+    ],
+    "bonus languages": [
+      "1",
+      "3",
+      "10",
+      "12",
+      "19",
+      "20"
+    ]
+  },
+  {
+    "id": "7",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "13"
+    ],
+    "bonus languages": []
+  },
+  {
+    "id": "8",
+    "size": "medium",
+    "base speed": "Land 20",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "9",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": -2,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "10",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "11",
+    "size": "small",
+    "base speed": "Land 20",
+    "STR": -2,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "12",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "13",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "14",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "15",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "16",
+    "size": "large",
+    "base speed": "Land 30",
+    "STR": 6,
+    "INT": -2,
+    "DEX": -2,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 1,
+    "space": 10,
+    "reach": 10,
+    "natural armor": 4,
+    "automatic languages": [
+      "6",
+      "17"
+    ],
+    "bonus languages": [
+      "1",
+      "10",
+      "18",
+      "20",
+      "26"
+    ]
+  },
+  {
+    "id": "17",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 2,
+    "INT": -2,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": -2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "18",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "19",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": -2,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "22"
+    ],
+    "bonus languages": [
+      "17",
+      "20",
+      "25",
+      "31"
+    ]
+  },
+  {
+    "id": "20",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "21",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "22",
+    "size": "small",
+    "base speed": "Land 20",
+    "STR": -2,
+    "INT": 0,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "21"
+    ],
+    "bonus languages": [
+      "1",
+      "20",
+      "23",
+      "26"
+    ]
+  },
+  {
+    "id": "23",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "27"
+    ],
+    "bonus languages": [
+      "10",
+      "28"
+    ]
+  },
+  {
+    "id": "24",
+    "size": "small",
+    "base speed": "Land 20",
+    "STR": 0,
+    "INT": -2,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "14"
+    ],
+    "bonus languages": [
+      "17",
+      "20",
+      "22",
+      "32"
+    ]
+  },
+  {
+    "id": "25",
+    "size": "medium",
+    "base speed": "Land 20,Swim 50",
+    "STR": 2,
+    "INT": 2,
+    "DEX": 0,
+    "WIS": 4,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 3,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "26",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "24"
+    ],
+    "bonus languages": [
+      "15",
+      "18",
+      "19",
+      "21",
+      "32"
+    ]
+  },
+  {
+    "id": "27",
+    "size": "large",
+    "base speed": "Land 40",
+    "STR": 8,
+    "INT": -4,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 4,
+    "CHA": -2,
+    "level adjustment": 2,
+    "space": 10,
+    "reach": 10,
+    "natural armor": 5,
+    "automatic languages": [
+      "6",
+      "17"
+    ],
+    "bonus languages": [
+      "20",
+      "26",
+      "33"
+    ],
+    "racial hit dice": "6",
+    "racial base attack": 6,
+    "racial base saves": {
+      "fortitude": "+2",
+      "reflex": "+5",
+      "will": "+5"
+    }
+  },
+  {
+    "id": "28",
+    "size": "medium",
+    "base speed": "Land 40",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "25",
+      "29"
+    ],
+    "bonus languages": [
+      "4",
+      "30"
+    ]
+  },
+  {
+    "id": "29",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 4,
+    "INT": -2,
+    "DEX": 0,
+    "WIS": -2,
+    "CON": 0,
+    "CHA": -2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6"
+    ],
+    "bonus languages": [
+      "14",
+      "17",
+      "18",
+      "20",
+      "34"
+    ]
+  },
+  {
+    "id": "30",
+    "size": "small",
+    "base speed": "Land 20",
+    "STR": -4,
+    "INT": 2,
+    "DEX": 4,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "31",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "32",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "33",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 10,
+    "reach": 10,
+    "automatic languages": [],
+    "bonus languages": []
+  },
+  {
+    "id": "34",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "31"
+    ],
+    "bonus languages": [
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
+    ]
+  },
+  {
+    "id": "35",
+    "size": "medium",
+    "base speed": "Land 30,Swim 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "31"
+    ],
+    "bonus languages": [
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
+    ]
+  },
+  {
+    "id": "36",
+    "size": "medium",
+    "base speed": "Land 30,Swim 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "31"
+    ],
+    "bonus languages": [
+      "3",
+      "17",
+      "20",
+      "22",
+      "25"
+    ]
+  },
+  {
+    "id": "37",
+    "size": "small",
+    "base speed": "Land 20",
+    "STR": -2,
+    "INT": 0,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "16"
+    ],
+    "bonus languages": []
+  },
+  {
+    "id": "38",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 2,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": -2,
+    "level adjustment": 1,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "23"
+    ],
+    "bonus languages": [
+      "10",
+      "14",
+      "15",
+      "19",
+      "20",
+      "21",
+      "26"
+    ]
+  },
+  {
+    "id": "39",
+    "size": "medium",
+    "base speed": "Land 30",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6"
+    ],
+    "bonus languages": [
+      "11",
+      "14",
+      "19",
+      "20",
+      "26"
+    ]
+  },
+  {
+    "id": "40",
+    "size": "medium",
+    "base speed": "Land 30,Climb 20",
+    "STR": -2,
+    "INT": 2,
+    "DEX": 0,
+    "WIS": 2,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6",
+      "35"
+    ],
+    "bonus languages": [
+      "17",
+      "20",
+      "31",
+      "32"
+    ]
+  },
+  {
+    "id": "41",
+    "size": "medium",
+    "base speed": "",
+    "STR": 0,
+    "INT": 0,
+    "DEX": 0,
+    "WIS": 0,
+    "CON": 0,
+    "CHA": 0,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [
+      "6"
+    ],
+    "bonus languages": []
+  },
+  {
+    "id": "42",
+    "size": "small",
+    "base speed": "Land 30",
+    "STR": -2,
+    "INT": 0,
+    "DEX": 2,
+    "WIS": 0,
+    "CON": 2,
+    "CHA": -2,
+    "level adjustment": 0,
+    "space": 5,
+    "reach": 5,
+    "automatic languages": [],
+    "bonus languages": []
+  }
+]

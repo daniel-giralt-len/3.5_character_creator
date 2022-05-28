@@ -6,7 +6,7 @@ const statsRegex = new RegExp('<table class="race-attributes">(.*?)</table>')
 const descriptionRegex = new RegExp('<div class="nice-textile">(.*?)</div>')
 const jsonPath = './src/db/json/itemData/raceDescription.json'
 
-const a = 3
+const a = 4
 
 if(a===0){ //unify all htmls into one dirty json
     const json = {}
@@ -153,4 +153,19 @@ if(a===3){ //languages to ids
 
     
     fs.writeFileSync(jsonPath, JSON.stringify(newJson,null,2))
+}
+
+if (a===4){//split description and stats
+    const json = require(`.${jsonPath}`)
+    
+    const jsons = Object.entries(json)
+        .reduce((acc, [id, {description, ...rest}])=>{
+            acc.desc.push({id, description})
+            acc.stats.push({id, ...rest})
+            return acc
+        },{stats:[],desc:[]})
+
+    
+    fs.writeFileSync(jsonPath, JSON.stringify(jsons.desc,null,2))
+    fs.writeFileSync('./src/db/json/itemData/raceStats.json', JSON.stringify(jsons.stats,null,2))
 }
