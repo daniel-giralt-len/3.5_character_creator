@@ -5,6 +5,10 @@
         "ca": "Català"
     },
     "en": {
+        "score": "Score",
+        "base": "Base",
+        "bonuses": "Bonuses",
+        "total": "Total",
         "filters": "filters",
         "show disallowed": "Show disallowed",
         "switch": "Switch",
@@ -33,7 +37,11 @@
         "any book": "Any book"
     },
     "es": {
-        "filters": "filtros",
+        "score": "Puntuación",
+        "base": "Base",
+        "bonuses": "Bonuses",
+        "total": "Total",
+        "filters": "Filtros",
         "show disallowed": "Mostrar prohibido",
         "switch": "Cambiar",
         "creating a corpus": "Crear un corpus",
@@ -61,7 +69,11 @@
         "any book": "Cualquier libro"
     },
     "ca": {
-        "filters": "filtres",
+        "score": "Puntuació",
+        "base": "Base",
+        "bonuses": "Bonusos",
+        "total": "Total",
+        "filters": "Filtres",
         "show disallowed": "Mostrar prohibit",
         "switch": "Canviar",
         "creating a corpus": "Crear un corpus",
