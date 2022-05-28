@@ -16,7 +16,7 @@ function ScoreDisplay({
             <ul>
                 {classes
                     .map((id,i) => (
-                        <ClassLayout key={`${id}-${i}`}>{id}
+                        <ClassLayout key={`${i+1}-${id}`}>{i+1}:{id}
                         </ClassLayout>
                     ))
                 }

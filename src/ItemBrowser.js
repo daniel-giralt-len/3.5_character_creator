@@ -30,7 +30,8 @@ function renderItems({items,
     isCorpus,
     dbs,
     isExclusive,
-    userFilters
+    userFilters,
+    isLevel20
 }) {
     let regexText = searchedText.toLocaleLowerCase()
     accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
@@ -52,6 +53,7 @@ function renderItems({items,
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
             dbs={dbs}
+            isLevel20={isLevel20}
         />))
 }
 
@@ -71,6 +73,7 @@ function ItemBrowser({
     dbs,
     userFilters
 }) {
+    const isLevel20 = itemType==='classes' && selected.length === 20
     const [searchedText, setSearchedText] = useState('')
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => {
@@ -99,7 +102,8 @@ function ItemBrowser({
                 isCorpus,
                 dbs,
                 isExclusive,
-                userFilters
+                userFilters,
+                isLevel20
             })}
         </div>
     );
