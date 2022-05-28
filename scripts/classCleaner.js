@@ -3,7 +3,7 @@ const fs = require('fs')
 const jsonPath = './src/db/json/itemData/classDescription.json'
 const classSectionsPath = './src/db/json/itemData/classSections.json'
 
-const a = 2
+const a = 3
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 const regexToArray = (r,s) => {
@@ -180,4 +180,39 @@ if(a===2){ //get sections
     
     const statsJson = newJson.map(({html,...rest})=>rest)
     fs.writeFileSync('./src/db/json/itemData/classStats.json', JSON.stringify(statsJson,null,2)) 
+}
+
+if(a===3){ // parse ints
+    const classStatsPath = './src/db/json/itemData/classStats.json'
+    const json = require('.'+classStatsPath)
+    
+    const parse = v => {
+        const t = typeof v
+        
+        if(Array.isArray(v)) { return v.map(parse) }
+        if(t === 'object') {
+            return Object.entries(v)
+                .reduce((acc, [k,v2])=>({
+                    ...acc,
+                    [k]: parse(v2)
+                }),{})
+        }
+        if(t === 'string'){
+            let match
+
+            const numberRegex = RegExp(/\+?([0-9]+)$/)
+            match = numberRegex.exec(v)
+            if(match) { return parseInt(match[1]) }
+
+            const levelRegex = RegExp(/([0-9]+)(?:st|nd|rd|th)$/)
+            match = levelRegex.exec(v)
+            if(match) { return parseInt(match[1]) }
+        }
+
+        return v
+    }
+
+    const newJson = parse(json)
+    
+    fs.writeFileSync(classStatsPath, JSON.stringify(newJson,null,2))  
 }
