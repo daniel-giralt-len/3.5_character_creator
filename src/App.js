@@ -12,15 +12,13 @@ import dbs from './db/json/dbs.json'
 
 import webTranslations from './translations/webTranslations.json'
 
-const AppWrapper = styled.div`
+const ContentWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto;
+  grid-template-columns: 2fr 1fr;
   grid-template-areas: 
-    "header header"
     "left right";
 `
-const HeaderWrapper = styled.div`grid-area: header;`
+const HeaderWrapper = styled.div``
 const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
@@ -52,7 +50,7 @@ function App() {
   const handleChangeTranslations = key => setTranslation(webTranslations[key])
 
   return (
-    <AppWrapper>
+    <div>
         <HeaderWrapper>
           <Header
             handleCreationSwitch={handleCreationSwitch}
@@ -61,33 +59,35 @@ function App() {
             isCorpus={isCorpus}
           />
         </HeaderWrapper>
-        <LeftWrapper>
-          <CorpusSelector 
-            isCorpus={isCorpus}
-            corpuses={corpuses}
-            translate={translate}
-            handleCorpusChange={handleCorpusChange}
-            selectedCorpus={selectedCorpus}
-          />
-          <Creator 
-            creation={usedCreation}
-            onCreationChange={handleCreationChange}
-            corpus={usedCorpus}
-            isCorpus={isCorpus}
-            dbs={dbs}
-            translate={translate}
-          />
-        </LeftWrapper>
-        <RightWrapper>
-          <CreationDisplay
-            isCharacter={!isCorpus}
-            creation={isCorpus ? corpus : character}
-            dbs={dbs}
-            translate={translate}
-            handleCreationChange={handleCreationChange}
-          />
-        </RightWrapper>
-    </AppWrapper>
+        <ContentWrapper>
+          <LeftWrapper>
+            <CorpusSelector 
+              isCorpus={isCorpus}
+              corpuses={corpuses}
+              translate={translate}
+              handleCorpusChange={handleCorpusChange}
+              selectedCorpus={selectedCorpus}
+            />
+            <Creator 
+              creation={usedCreation}
+              onCreationChange={handleCreationChange}
+              corpus={usedCorpus}
+              isCorpus={isCorpus}
+              dbs={dbs}
+              translate={translate}
+            />
+          </LeftWrapper>
+          <RightWrapper>
+            <CreationDisplay
+              isCharacter={!isCorpus}
+              creation={isCorpus ? corpus : character}
+              dbs={dbs}
+              translate={translate}
+              handleCreationChange={handleCreationChange}
+            />
+          </RightWrapper>
+        </ContentWrapper>
+    </div>
   );
 }
 
