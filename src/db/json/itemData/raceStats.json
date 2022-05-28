@@ -1,6 +1,5 @@
-[
-  {
-    "id": "1",
+{
+  "1": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -25,8 +24,7 @@
       "32"
     ]
   },
-  {
-    "id": "2",
+  "2": {
     "size": "medium",
     "base speed": "Land 40",
     "STR": 4,
@@ -51,8 +49,7 @@
     },
     "bonus languages": []
   },
-  {
-    "id": "3",
+  "3": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -75,8 +72,7 @@
       "23"
     ]
   },
-  {
-    "id": "4",
+  "4": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -100,8 +96,7 @@
       "34"
     ]
   },
-  {
-    "id": "5",
+  "5": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -116,8 +111,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "6",
+  "6": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -143,8 +137,7 @@
       "20"
     ]
   },
-  {
-    "id": "7",
+  "7": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -162,8 +155,7 @@
     ],
     "bonus languages": []
   },
-  {
-    "id": "8",
+  "8": {
     "size": "medium",
     "base speed": "Land 20",
     "STR": 0,
@@ -178,8 +170,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "9",
+  "9": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -194,8 +185,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "10",
+  "10": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -210,8 +200,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "11",
+  "11": {
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -226,8 +215,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "12",
+  "12": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -242,8 +230,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "13",
+  "13": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -258,8 +245,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "14",
+  "14": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -274,8 +260,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "15",
+  "15": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -290,8 +275,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "16",
+  "16": {
     "size": "large",
     "base speed": "Land 30",
     "STR": 6,
@@ -316,8 +300,7 @@
       "26"
     ]
   },
-  {
-    "id": "17",
+  "17": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 2,
@@ -332,8 +315,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "18",
+  "18": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -348,8 +330,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "19",
+  "19": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -372,8 +353,7 @@
       "31"
     ]
   },
-  {
-    "id": "20",
+  "20": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -388,8 +368,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "21",
+  "21": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -404,8 +383,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "22",
+  "22": {
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -428,8 +406,7 @@
       "26"
     ]
   },
-  {
-    "id": "23",
+  "23": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -450,8 +427,7 @@
       "28"
     ]
   },
-  {
-    "id": "24",
+  "24": {
     "size": "small",
     "base speed": "Land 20",
     "STR": 0,
@@ -474,8 +450,7 @@
       "32"
     ]
   },
-  {
-    "id": "25",
+  "25": {
     "size": "medium",
     "base speed": "Land 20,Swim 50",
     "STR": 2,
@@ -490,8 +465,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "26",
+  "26": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -515,8 +489,7 @@
       "32"
     ]
   },
-  {
-    "id": "27",
+  "27": {
     "size": "large",
     "base speed": "Land 40",
     "STR": 8,
@@ -546,8 +519,7 @@
       "will": "+5"
     }
   },
-  {
-    "id": "28",
+  "28": {
     "size": "medium",
     "base speed": "Land 40",
     "STR": 0,
@@ -568,8 +540,7 @@
       "30"
     ]
   },
-  {
-    "id": "29",
+  "29": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 4,
@@ -592,8 +563,7 @@
       "34"
     ]
   },
-  {
-    "id": "30",
+  "30": {
     "size": "small",
     "base speed": "Land 20",
     "STR": -4,
@@ -608,8 +578,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "31",
+  "31": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -624,8 +593,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "32",
+  "32": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -640,8 +608,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "33",
+  "33": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -656,8 +623,7 @@
     "automatic languages": [],
     "bonus languages": []
   },
-  {
-    "id": "34",
+  "34": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -681,8 +647,7 @@
       "25"
     ]
   },
-  {
-    "id": "35",
+  "35": {
     "size": "medium",
     "base speed": "Land 30,Swim 30",
     "STR": 0,
@@ -706,8 +671,7 @@
       "25"
     ]
   },
-  {
-    "id": "36",
+  "36": {
     "size": "medium",
     "base speed": "Land 30,Swim 30",
     "STR": 0,
@@ -731,8 +695,7 @@
       "25"
     ]
   },
-  {
-    "id": "37",
+  "37": {
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -750,8 +713,7 @@
     ],
     "bonus languages": []
   },
-  {
-    "id": "38",
+  "38": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -777,8 +739,7 @@
       "26"
     ]
   },
-  {
-    "id": "39",
+  "39": {
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -801,8 +762,7 @@
       "26"
     ]
   },
-  {
-    "id": "40",
+  "40": {
     "size": "medium",
     "base speed": "Land 30,Climb 20",
     "STR": -2,
@@ -825,8 +785,7 @@
       "32"
     ]
   },
-  {
-    "id": "41",
+  "41": {
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -843,8 +802,7 @@
     ],
     "bonus languages": []
   },
-  {
-    "id": "42",
+  "42": {
     "size": "small",
     "base speed": "Land 30",
     "STR": -2,
@@ -859,4 +817,4 @@
     "automatic languages": [],
     "bonus languages": []
   }
-]
+}
