@@ -25,11 +25,33 @@ if(a===0){ //clean all feats the heck up from the get go, the htmls are like 45M
 if(a===1){
     const json = require('.'+jsonDescPath)
     const isSkillTrickRegex = RegExp(/skill trick/i)
+
+    const listPrerequisites = html => {
+        const prerequisiteRegex = RegExp(`<h[0-9]>Prerequisite.*?</h[0-9]><p>(.*?)</p>`,'i')
+        return (
+                (html.match(prerequisiteRegex) || [])[1] || ''
+            )
+            .split(/, ?/)
+            .filter(v=>v&&v!=='')
+            .map(p => {
+                const anchorRegex = new RegExp(/<a(?:.*?)>(.*?)<\/a>/g)
+                const match = anchorRegex.exec(p)
+                if(!match){return p}
+                return match[1]
+            })
+
+    }
+
     const newJson = json.reduce((acc, {id, html}) => {
+        const benefitRegex = RegExp(`<h[0-9]>Benefit.*?</h[0-9]><p>(.*?)</p>`,'i')
+        const specialRegex = RegExp(`<h[0-9]>Special.*?</h[0-9]><p>(.*?)</p>`,'i')
         return {
             ...acc,
             [id]: {
-                isSkillTrick: isSkillTrickRegex.test(html)
+                isSkillTrick: isSkillTrickRegex.test(html),
+                special: (html.match(specialRegex) || [])[1],
+                benefit: (html.match(benefitRegex) || [])[1],
+                prerequisites: listPrerequisites(html)
             }
         }
     },{})
