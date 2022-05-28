@@ -21187,7 +21187,7 @@
         "Dodge",
         "Track"
       ],
-      "speak language": "Orc"
+      "language": ["Orc"]
     },
     "skill points": {
       "base": 4,
@@ -23042,7 +23042,9 @@
         "Sense Motive"
       ],
       "language": "Abyssal",
-      "invocations": " <em>Baleful utterance</em> plus any two others."
+      "invocations": {
+        "any": 2,
+        "Baleful utterance": true}
     },
     "skill points": {
       "base": 2,
@@ -25374,7 +25376,7 @@
       "feats": [
         "Improved Unarmed Strike"
       ],
-      "subtype": "Dragonblood."
+      "subtype": "Dragonblood"
     },
     "skill points": {
       "base": 4,
@@ -33030,7 +33032,7 @@
       ],
       "feats": "Any item creation feat and any metamagic feat.",
       "spells": "Ability to cast arcane and divine spells.",
-      "domain": "Magic.",
+      "domain": "Magic",
       "special": "The candidate must have created at least one magic item, whether of a permanent nature or not."
     },
     "skill points": {
@@ -37954,7 +37956,7 @@
       ],
       "region": "Mulhorand.",
       "spellcasting": "Able to cast 3rd-level divine spells.",
-      "domain": "Sun."
+      "domain": "Sun"
     },
     "skill points": {
       "base": 2,
@@ -38098,7 +38100,7 @@
       "feats": [
         "Cautious Attack"
       ],
-      "domain": "Trickery.",
+      "domain": "Trickery",
       "special": " Evasion, Sneak attack +2d6 or skirmish +2d6."
     },
     "skill points": {
@@ -44077,7 +44079,7 @@
         "Mobility",
         "Spring Attack"
       ],
-      "speak language": "Giant."
+      "speak language": ["Giant"]
     },
     "skill points": {
       "base": 2,
@@ -79735,7 +79737,7 @@
       ],
       "race": "Any dragon.",
       "spells": "Able to cast divine spells.",
-      "domain": "Protection.",
+      "domain": "Protection",
       "special": "Damage reduction 5/magic."
     },
     "skill points": {
@@ -88666,7 +88668,7 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "subtype": "Dragonblood.",
+      "subtype": "Dragonblood",
       "spellcasting": "Ability to cast 3rd-level divine spells.",
       "deity": "Io."
     },
@@ -103217,7 +103219,7 @@
       ],
       "race": "Any dragon.",
       "spells": "Able to cast divine spells.",
-      "domain": "Destruction."
+      "domain": "Destruction"
     },
     "skill points": {
       "base": 2,
