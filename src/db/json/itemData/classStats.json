@@ -31583,7 +31583,7 @@
         "Great Fortitude",
         "Dodge"
       ],
-      "base unarmed attack bonus": "+4.",
+      "base unarmed attack bonus": 4,
       "other": "Evasion ability, must be chosen by existing drunken masters and survive night of revelry among them without being incarcerated, poisoned, or extraordinarily embarrassed."
     },
     "skill points": {
@@ -34039,7 +34039,7 @@
   },
   "280": {
     "requirements": {
-      "weapon proficiency": "Must be proficient with all martial weapons.",
+      "weapon proficiency": "Martial weapons.",
       "spells": "Able to cast 3rd-level arcane spells."
     },
     "skill points": {
@@ -38418,7 +38418,7 @@
         "any evil (usually chaotic evil)"
       ],
       "race": "Yuan-ti, human, Yuan-ti-human c rossbreed, tainted one, or other Yuan-ti-created being.",
-      "religion": "The candidate must worship Sseth and only Sseth.",
+      "religion": "Sseth",
       "feats": "Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.",
       "special": "The candidate must have slain in the name of Sseth and aided a Yuan-ti without prearranged payment or reward."
     },
@@ -47157,7 +47157,7 @@
         "Spellcraft"
       ],
       "language": "Infernal",
-      "warlock invocation": "Must know <em>brimstone blast</em> or <em>hellrime blast</em>"
+      "warlock invocation": {"oneOf":["brimstone blast","hellrime blast"]}
     },
     "skill points": {
       "base": 2,
@@ -47851,7 +47851,7 @@
         "Spellcraft",
         "Wilderness Lore"
       ],
-      "race/type": "Monstrous humanoid, giant, goblinoid, or other primitive humanoid, such as orc or gnoll.",
+      "race": ["Monstrous humanoid", "giant", "goblinoid", "primitive humanoid", "orc", "gnoll"],
       "spellcasting": "Able to cast lightning bolt as a divine spell."
     },
     "skill points": {
