@@ -4,6 +4,7 @@ const jsonPath = './src/db/json/itemData/classDescription.json'
 const classSectionsPath = './src/db/json/itemData/classSections.json'
 
 const a = 2
+const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 if(a===0){ //unify all htmls into one dirty json
     const json = []
@@ -23,7 +24,6 @@ if(a===0){ //unify all htmls into one dirty json
 
 if(a===1){ // figure out some sections
     const json = require('.'+jsonPath)
-    const onlyUnique = (value, index, self) => self.indexOf(value) === index;
     const headerRegex = RegExp(/<h[0-9]>(.*?)<\/h[0-9]>/g)
     const sectionNames = Object
         .values(json)
@@ -64,17 +64,39 @@ if(a===2){ //get sections
     }
 
     const parseClassFeatures = (html, sectionTitle) => {
-        const skillsRegex = RegExp(`<div class="nice-textile"><h[0-9]>${sectionTitle}(?:.*?)</h[0-9]>(.*?)</div>`,'i')
-        const data = skillsRegex.exec(html)
+        const featuresRegex = RegExp(`<div class="nice-textile"><h[0-9]>${sectionTitle}(?:.*?)</h[0-9]>(.*?)</div>`,'i')
+        const data = featuresRegex.exec(html)
         if(!data) return
         const paragraphRegex = RegExp(/<p><strong>(.*?):<\/strong> ?(.*?)<\/p>/g)
-        let skills = {}
+        let features = {}
         let match
         while ((match = paragraphRegex.exec(data)) !== null) {
-            skills[match[1].toLowerCase()] = match[2]
+            features[match[1].toLowerCase()] = match[2]
         }
-        return skills
+        return features
     }
+
+    const parseClassSkills = (html, sectionTitle) => {
+        const skillsRegex = RegExp(`<h3>${sectionTitle}(?:.*?)<table .*?>(.*?)</table>`,'i')
+            //h3, since urban soul has another <h4>Class Skills tag that's out of order, and grabs a weird table instead of the class skills table
+        const data = skillsRegex.exec(html)
+        if(!data) return
+        const skillNameRegex = RegExp(/<tr><td>(.*?)<\/td>(?:.*?)<\/tr>/g)
+        let classSkills = []
+        let match
+        while ((match = skillNameRegex.exec(data)) !== null) {
+            const anchorRegex = new RegExp(/<a(?:.*?)>(.*?)<\/a>/g)
+            try{
+                const name = anchorRegex.exec(match[1])[1]
+                classSkills.push(name.toLowerCase())
+            }catch(e){console.error(html)}
+        }
+        return classSkills.filter(onlyUnique) //for some reason the skill or anchor regex duplicates the class skills.
+            //This is a comfier, sinier solution.
+            //Listen bro, I'm crawling a 6yo page about ~17yo data. Cut me some slack.
+            //No, I'm not on getting defensive.
+    }
+
     const sectionParsers = {
         'requirements': html => parseRequirements(html, 'requirements'),
         'skill points': html => parseParagraph(html, 'skill points'),
@@ -82,7 +104,7 @@ if(a===2){ //get sections
         'hit die': html => parseParagraph(html, 'hit die'),
         'starting gold': html => parseParagraph(html, 'starting gold'),
         'class features': html => parseClassFeatures(html, 'class features'),
-        'class skills': html => {return undefined},
+        'class skills': html => parseClassSkills(html, 'class skills'),
         'alignment': html => parseParagraph(html, 'alignment'),
         '<span class="caps">class</span> <span class="caps">skills</span>': html => {return undefined},
         'signature weapons': html => {return undefined},
