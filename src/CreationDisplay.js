@@ -23,7 +23,7 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
           <>
             <h3>Race: {races}</h3>
             <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} /> 
-            <ClassDisplay classes={classes} translate={translate} handleClassChange={handleClassChange} />
+            <ClassDisplay dbs={dbs} classes={classes} translate={translate} handleClassChange={handleClassChange} />
             <h3>{translate('bab')}: {bab}</h3>
             <div>
                 <h3>{translate('saves')}</h3>

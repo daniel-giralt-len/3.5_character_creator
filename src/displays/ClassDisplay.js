@@ -1,11 +1,27 @@
 import styled from 'styled-components'
+import classStats from '../db/json/itemData/classStats.json'
 
-const ClassLayout = styled.ul`
+const ClassLayout = styled.li`
     
 `
 
-function ScoreDisplay({
+function ClassLevel({
+    level,
+    classData,
+    classStats
+}){
+    const {name} = classData
+    return (
+        <ClassLayout>
+            {level}:{name}
+            {JSON.stringify(classStats['skill points'])}
+        </ClassLayout>
+    )
+}
+
+function ClassDisplay({
     classes = [],
+    dbs,
     translate,
     handleClassChange
 }) {
@@ -15,14 +31,16 @@ function ScoreDisplay({
             <h3>{translate('classes')}</h3>
             <ul>
                 {classes
-                    .map((id,i) => (
-                        <ClassLayout key={`${i+1}-${id}`}>{i+1}:{id}
-                        </ClassLayout>
-                    ))
+                    .map((id2,i) => (<ClassLevel
+                        key={`${i+1}-${id2}`}
+                        level={i+1}
+                        classData={dbs.classes.find(({id})=>id2===id)}
+                        classStats={classStats[id2]}
+                />))
                 }
             </ul>
         </div>
     );
 }
 
-export default ScoreDisplay;
+export default ClassDisplay;
