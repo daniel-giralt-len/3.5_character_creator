@@ -1,7 +1,7 @@
 const fs = require('fs')
 //oh god.
 
-const a = 1;
+const a = 2;
 const jsonDescPath = './src/db/json/itemData/featDescription.json'
 const jsonStatsPath = './src/db/json/itemData/featStats.json'
 
@@ -55,5 +55,61 @@ if(a===1){
             }
         }
     },{})
+    fs.writeFileSync(jsonStatsPath, JSON.stringify(newJson,null,2))
+}
+
+
+if(a===2){
+    const json = require('.'+jsonStatsPath)
+    const dbs = require('../src/db/json/dbs.json')
+    const findItem = (list,n) => list.find(({name}) => name.toLowerCase() === n.toLowerCase())
+    const scores = ['STR','DEX','CON','INT','WIS','CHA']
+    const lists = ['classes','feats','language','races','skills']
+    
+    const parsePrerequisites = ps => {
+        if(!ps) return 
+        return ps.map(p=>{
+            if(typeof p !=='string') return p
+
+            const sp = p.toLowerCase()
+
+            if(sp.includes('character level') && !sp.includes(' or ')){
+                const a = p.split(' ')
+                return {type: 'level', value: a[a.length-1]}
+            }
+
+            if(sp.includes('base attack bonus')){
+                const [_, value] = p.split('+')
+                return {type: 'bab', value: parseInt(value)}
+            }
+
+            let out = null
+            scores.forEach(s => {
+                if(p.toUpperCase().startsWith(s)){
+                    const [_, value] = p.split(' ')
+                    out = {type: 'score', score: s, value: parseInt(value)}
+                }
+            })
+            lists.forEach(l => {
+                const item = findItem(dbs[l], p)
+                if(item){
+                    out = {type: l, id: item.id}
+                }
+            })
+            if(out){return out}
+
+            console.error('item not found: ',p)
+            return p
+        })
+    }
+
+    const newJson = Object.entries(json)
+        .reduce((acc, [id, feat]) => ({
+            ...acc,
+            [id]: {
+                ...feat,
+                prerequisites: parsePrerequisites(feat.prerequisites)
+            }
+        }),{})
     fs.writeFileSync(jsonStatsPath, JSON.stringify(newJson,null,2))
 }
