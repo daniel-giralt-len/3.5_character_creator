@@ -110570,7 +110570,10 @@
         "Whirlwind Attack"
       ],
       "weapon proficiency": "With your weapon of choice.",
-      "dexterity": "13+."
+      "score": {
+        "value": 13,
+        "score": "DEX"
+      }
     },
     "skill points": {
       "base": 2,

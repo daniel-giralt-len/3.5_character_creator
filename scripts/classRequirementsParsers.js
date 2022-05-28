@@ -80,10 +80,10 @@ module.exports = [
   //["martial stancess","string"],
   //["deity","string"],
   //["base reflex save","string"],
-  ["advancement","string"],
+  //["advancement","string"],
   //["creature type","string"],
   //["domains","string"],
-  ["spell","string"],
-  ["dexterity","string"],
-  ["manifesting","string"]
+  //["spell","string"],
+  //["dexterity","string"],
+  //["manifesting","string"]
 ]
