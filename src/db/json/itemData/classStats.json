@@ -2156,7 +2156,7 @@
         "Intimidate",
         "Knowledge (the planes)"
       ],
-      "feat": "Any metamagic feat",
+      "feats": [ "Any metamagic feat" ],
       "Spellcasting": "Ability to cast 2nd-level arcane spells",
       "special": "Ability to bind a 2nd-level vestige"
     },
@@ -11497,7 +11497,7 @@
     "id": 88,
     "requirements": {
       "base attack bonus": 5,
-      "race": "Half-elforElf",
+      "race": "Half-elf or Elf",
       "skills": [
         "Balance",
         "Concentration",
@@ -110755,7 +110755,7 @@
         "Survival"
       ],
       "race": "Shifter",
-      "feat": "Any <a href=\"/feats/categories/shifter/\">shifter</a> feat."
+      "feats": [ "Any shifter feat." ]
     },
     "skill points": {
       "base": 2,
