@@ -1,0 +1,428 @@
+[
+  {
+    "skill name": "alchemy",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "animal empathy",
+    "key ability": "CHA",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "appraise",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "autohypnosis",
+    "key ability": "WIS",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "balance",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "bluff",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "climb",
+    "key ability": "STR",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "concentration",
+    "key ability": "CON",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "control shape",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "craft",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "decipher script",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "diplomacy",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "disable device",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "disguise",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "escape artist",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "forgery",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "gather information",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "handle animal",
+    "key ability": "CHA",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "heal",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "hide",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "iaijutsu focus",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "innuendo",
+    "key ability": "WIS",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "intimidate",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "intuit direction",
+    "key ability": "WIS",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "jump",
+    "key ability": "STR",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "knowledge",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (arcana)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (architecture and engineering)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (barbarian lore)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (code of martial honor)",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (dungeoneering)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (geography)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (history)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (law)",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (local)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (nature)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (nobility and royalty)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (psionics)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (religion)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (Shadowlands)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (spirits)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (tactics)",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (the planes)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (War)",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "knowledge (weaponry)",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "listen",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "lucid Dreaming",
+    "key ability": "WIS",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "martial Lore",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "move silently",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "open lock",
+    "key ability": "DEX",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "perform",
+    "key ability": "CHA",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "pick pocket",
+    "key ability": "DEX",
+    "trained only": true,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "profession",
+    "key ability": "WIS",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "psicraft",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "read lips",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "ride",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "scry",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "search",
+    "key ability": "INT",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "sense motive",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "sleight of hand",
+    "key ability": "DEX",
+    "trained only": true,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "speak language",
+    "key ability": "None",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "spellcraft",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "spot",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "survival",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "swim",
+    "key ability": "STR",
+    "trained only": false,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "truespeak",
+    "key ability": "INT",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "tumble",
+    "key ability": "DEX",
+    "trained only": true,
+    "armor check penalty": true
+  },
+  {
+    "skill name": "use magic device",
+    "key ability": "CHA",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "use psionic device",
+    "key ability": "CHA",
+    "trained only": true,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "use rope",
+    "key ability": "DEX",
+    "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "skill name": "wilderness lore",
+    "key ability": "WIS",
+    "trained only": false,
+    "armor check penalty": false
+  }
+]
