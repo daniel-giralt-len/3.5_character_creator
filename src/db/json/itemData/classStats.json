@@ -6,7 +6,7 @@
       "feats": [
         "Combat Casting"
       ],
-      "spellcasting": "Must be able to cast 1st-level arcane spells, including at least one abjuration spell.<br />",
+      "spellcasting": "Must be able to cast 1st-level arcane spells, including at least one abjuration spell.",
       "Special": " Must be proficient with at least one martial weapon."
     },
     "skill points": {
@@ -104,7 +104,7 @@
       "feats": [
         "Track"
       ],
-      "type": "Cannot be an aberration<br />",
+      "type": "Cannot be an aberration",
       "Special": " Wild empathy class feature"
     },
     "skill points": {
@@ -530,7 +530,7 @@
       "skills": [
         "Knowledge (the planes)"
       ],
-      "spells": "Ability to cast 3rd-level arcane spells.<br />",
+      "spells": "Ability to cast 3rd-level arcane spells.",
       "special": "The acolyte of the skin must have made peaceful contact with a summoned evil outsider."
     },
     "skill points": {
@@ -1023,7 +1023,7 @@
         "Dodge",
         "Mobility"
       ],
-      "base save bonus": "Reflex +3.<br />",
+      "base save bonus": "Reflex +3.",
       "Special": " Must have a fly speed or the ability to cast fly at least twice per day."
     },
     "skill points": {
@@ -1699,7 +1699,7 @@
       "feats": [
         "Alertness"
       ],
-      "spells": "Ability to cast at least one Divination spell and at least one summoning spell of 3rd level or higher.<br />",
+      "spells": "Ability to cast at least one Divination spell and at least one summoning spell of 3rd level or higher.",
       "special": "Prior contact with an alienist or a pseudonatural creature."
     },
     "skill points": {
@@ -1997,7 +1997,7 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "race": "Yuan-ti.<br />",
+      "race": "Yuan-ti.",
       "Special": " Access to an extensive magical library, a tutor of any race who possesses at least fourteen sorcerer or wizard class levels, or any psionic powers or psionic class levels."
     },
     "skill points": {
@@ -2157,7 +2157,7 @@
         "Knowledge (the planes)"
       ],
       "feat": "Any metamagic feat",
-      "Spellcasting": "Ability to cast 2nd-level arcane spells<br />",
+      "Spellcasting": "Ability to cast 2nd-level arcane spells",
       "special": "Ability to bind a 2nd-level vestige"
     },
     "skill points": {
@@ -3935,7 +3935,7 @@
         "Escape Artist",
         "Knowledge (arcana)"
       ],
-      "spells": "Ability to cast mage hand and at least one arcane spell of 3rd level or higher.<br />",
+      "spells": "Ability to cast mage hand and at least one arcane spell of 3rd level or higher.",
       "special": "Sneak attack +2d6."
     },
     "skill points": {
@@ -8398,7 +8398,7 @@
     "id": 63,
     "requirements": {
       "base attack bonus": 5,
-      "skills": "Any three skills 6 ranks each.<br />",
+      "skills": "Any three skills 6 ranks each.",
       "Skill Tricks": " Any two."
     },
     "skill points": {
@@ -9705,7 +9705,7 @@
   {
     "id": 72,
     "requirements": {
-      "race": "True beholder (beholderkin cannot become beholder mages).<br />",
+      "race": "True beholder (beholderkin cannot become beholder mages).",
       "special": "Must put out central antimagic eye."
     },
     "skill points": {
@@ -9954,7 +9954,7 @@
         "Sacred Vow",
         "Vow of Chastity"
       ],
-      "gender": "Female.<br />",
+      "gender": "Female.",
       "special": "Before she can become a beloved of Valarian, the character must meditate at a druid's grove and fast until she saves the life of an animal in danger. Should she fail to survive or aid an animal, she does not meet her unicorn companion and cannot advance in this class."
     },
     "skill points": {
@@ -10125,7 +10125,7 @@
       "skills": [
         "Truespeak"
       ],
-      "languages": "Must speak at least three languages<br />",
+      "languages": "Must speak at least three languages",
       "special": "Must have been the subject of the ritual of renaming spell (see page 257). This costs 3,700 gp."
     },
     "skill points": {
@@ -11216,7 +11216,7 @@
         "Mobility",
         "Spring Attack"
       ],
-      "spells": "Able to cast arcane or divine spells.<br />",
+      "spells": "Able to cast arcane or divine spells.",
       "Special": " Proficiency with any sword."
     },
     "skill points": {
@@ -11535,7 +11535,7 @@
         "Still Spell",
         "Weapon Focus"
       ],
-      "spells": "Ability to cast arcane spells of 1st level or higher.<br />",
+      "spells": "Ability to cast arcane spells of 1st level or higher.",
       "special": "Proficiency with longsword."
     },
     "skill points": {
@@ -12438,7 +12438,7 @@
       "feats": [
         "Toughness"
       ],
-      "spells": "Ability to cast arcane spells of 3rd level or higher.<br />",
+      "spells": "Ability to cast arcane spells of 3rd level or higher.",
       "special": "The blood magus must have been revived after death through another's use of raise dead, resurrection, or other methods of returning life to a dead body."
     },
     "skill points": {
@@ -13256,8 +13256,8 @@
       "skills": [
         "Knowledge (the planes)"
       ],
-      "special": "Must have a familiar.<br />",
-      "Spells": " Able to cast 2nd-level arcane spells<br />",
+      "special": "Must have a familiar.",
+      "Spells": " Able to cast 2nd-level arcane spells",
       "Language": " Must speak Aquan, Auran, Ignan, or Terran."
     },
     "skill points": {
@@ -13420,7 +13420,7 @@
         "Knowledge (religion)",
         "Ride"
       ],
-      "special": ["Ability to turn or rebuke undead.<br />","Ability to cast 1st-level divine spells."]
+      "special": ["Ability to turn or rebuke undead.","Ability to cast 1st-level divine spells."]
     },
     "skill points": {
       "base": 2,
@@ -13562,7 +13562,7 @@
       "skills": [
         "Truespeak"
       ],
-      "special": ["Ability to cast <a href=\"/spells/tome-of-magic--89/true-prayer-of-the-chosen--3452/\">true prayer of the chosen</a><br />", "Worshiper of a deity that provides access to the Fire or Good domain"]
+      "special": ["Ability to cast <a href=\"/spells/tome-of-magic--89/true-prayer-of-the-chosen--3452/\">true prayer of the chosen</a>", "Worshiper of a deity that provides access to the Fire or Good domain"]
     },
     "skill points": {
       "base": 2,
@@ -13749,7 +13749,7 @@
       "feats": [
         "Persona Immersion"
       ],
-      "race": "Changeling.<br />",
+      "race": "Changeling.",
       "special": "Must complete a trial assignment for the Cabinet<br />of Faces."
     },
     "skill points": {
@@ -13846,7 +13846,7 @@
         "Poison Immunity",
         "Toughness"
       ],
-      "base save bonus": "Fort +5<br />",
+      "base save bonus": "Fort +5",
       "Special": " the cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison."
     },
     "skill points": {
@@ -15873,7 +15873,7 @@
         "Knowledge (arcana)",
         "Knowledge (the planes)"
       ],
-      "shadowcasting/spellcasting": "Ability to cast mysteries or ability to cast spells with the darkness descriptor or from the shadow subschool<br />",
+      "shadowcasting/spellcasting": "Ability to cast mysteries or ability to cast spells with the darkness descriptor or from the shadow subschool",
       "special": "Must have visited the Plane of Shadow"
     },
     "skill points": {
@@ -16024,8 +16024,8 @@
         "Knowledge (religion)",
         "Spellcraft"
       ],
-      "base save bonus": "Will +3.<br />",
-      "Spells": " Able to cast <em>zone of truth</em> as a divine spell.<br />",
+      "base save bonus": "Will +3.",
+      "Spells": " Able to cast <em>zone of truth</em> as a divine spell.",
       "Special": " Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization."
     },
     "skill points": {
@@ -18452,7 +18452,7 @@
     "id": 149,
     "requirements": {
       "base attack bonus": 6,
-      "alignment": "Non-evil<br />",
+      "alignment": "Non-evil",
       "Taint": " Moderate corruption"
     },
     "advancement": [
@@ -19674,7 +19674,7 @@
         "Knowledge (history)",
         "Speak Language"
       ],
-      "race": "Human of Netherese descent (home region Anauroch, Halruaa, Nimbral, the North, the Ride, Uthgardt Tribesfolk, or the Western Heartlands).<br />",
+      "race": "Human of Netherese descent (home region Anauroch, Halruaa, Nimbral, the North, the Ride, Uthgardt Tribesfolk, or the Western Heartlands).",
       "special": ["Sneak attack +1d6.,", "You may not have any levels in an arcane spellcasting class."]
     },
     "skill points": {
@@ -19876,7 +19876,7 @@
       "feats": [
         "Least Dragonmark"
       ],
-      "special": ["Must be a member in good standing of House Cannith South.<br />","An heir of Siberys with the Mark of Making can take this class without meeting the Least Dragonmark prerequisite."]
+      "special": ["Must be a member in good standing of House Cannith South.","An heir of Siberys with the Mark of Making can take this class without meeting the Least Dragonmark prerequisite."]
     },
     "skill points": {
       "base": 2,
@@ -20053,7 +20053,7 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": ["Arcane caster level 5th.<br />"," Sneak attack +1d6."]
+      "special": ["Arcane caster level 5th."," Sneak attack +1d6."]
     },
     "skill points": {
       "base": 6,
@@ -20215,7 +20215,7 @@
         "Weapon Focus",
         "Two-Weapon Fighting"
       ],
-      "special": ["Wild shape class feature.<br />"," Either sneak attack +1d6 or skirmish +1d6."]
+      "special": ["Wild shape class feature."," Either sneak attack +1d6 or skirmish +1d6."]
     },
     "skill points": {
       "base": 6,
@@ -20618,7 +20618,7 @@
         "Diplomacy",
         "Gather Information"
       ],
-      "region of origin": "Breland.<br />",
+      "region of origin": "Breland.",
       "special": "Cannot be illiterate or affiliated with a religion."
     },
     "skill points": {
@@ -20908,7 +20908,7 @@
         "Alertness",
         "Track"
       ],
-      "special": ["Darkvision as a racial trait or class feature.<br />"," You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."]
+      "special": ["Darkvision as a racial trait or class feature."," You must seek out a chapter house of the Darkrunner Guild and successfully petition to join the guild. Once you are a member, you gain your first level of darkrunner. If at a later time you lose membership in the guild, you become a darkrunner exile. You can still gain levels in this prestige class, but you can no longer rely upon the support of the guild."]
     },
     "skill points": {
       "base": 6,
@@ -21506,7 +21506,7 @@
         "Heal",
         "Knowledge (religion)"
       ],
-      "saving throws": "Base Will Save +2<br />",
+      "saving throws": "Base Will Save +2",
       "special": "Must have had at least one near-death experience (fallen below 0 hit points and lived)"
     },
     "skill points": {
@@ -22122,7 +22122,7 @@
         "Knowledge (religion)",
         "Spot"
       ],
-      "type": "Aberration, dragon, giant, humanoid, magical beast, or monstrous humanoid.<br />",
+      "type": "Aberration, dragon, giant, humanoid, magical beast, or monstrous humanoid.",
       "special": "The character must be accepted as a death's chosen by a sentient undead creature with at least as many Hit Dice as the character."
     },
     "skill points": {
@@ -22989,7 +22989,7 @@
         "Knowledge (the planes)",
         "Sense Motive"
       ],
-      "language": "Abyssal.<br />",
+      "language": "Abyssal.",
       "Invocations": " <em>Baleful utterance</em> plus any two others."
     },
     "skill points": {
@@ -23955,8 +23955,8 @@
         "Evil Brand",
         "Corrupt Spell"
       ],
-      "bave save bonus": "Will +5<br />",
-      "special": [" Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>.<br />"," The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."]
+      "bave save bonus": "Will +5",
+      "special": [" Must be able to cast <a href=\"/spells/book-of-vile-darkness--37/shriveling--217/\"><em>shriveling</em></a>."," The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit."]
     },
     "skill points": {
       "base": 2,
@@ -24102,7 +24102,7 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "language": "Draconic<br />",
+      "language": "Draconic",
       "special": "Ability to manifest 3rd-level psionic powers."
     },
     "skill points": {
@@ -31104,7 +31104,7 @@
         "Knowledge (arcana)"
       ],
       "saving throws": "Base Will save +4",
-      "Spellcasting": "Ability to cast cause fear and scare<br />",
+      "Spellcasting": "Ability to cast cause fear and scare",
       "special": "Must have suffered at least one fear effect against which she failed her save"
     },
     "skill points": {
@@ -32159,7 +32159,7 @@
         "Alertness",
         "Blind-Fight"
       ],
-      "special": ["Trapfinding class feature.<br />"," The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"]
+      "special": ["Trapfinding class feature."," The character must survive a great trial underground. This trial usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character half of the experience points needed for advancement to the next level. (For example, a 7th-level character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see page 66 of the <em>Dungeon Master's Guide</em>). </li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>"]
     },
     "skill points": {
       "base": 8,
@@ -32459,7 +32459,7 @@
     "id": 264,
     "requirements": {
       "base attack bonus": 5,
-      "special": ["Intelligence 10 or higher.<br />","Ability to cast spells, or any spell-like or supernatural ability.<br />","Complete familiarity with the chosen dungeon environment and knowledge the contents of every chamber (including other inhabitants, doors, traps, hidden objects, and all magical and mechanical effects). <br />","Must be an abberation, dragon, fey, magical beast, monstrous humanoid, outsider, or undead. Alternatively, humanoids of the goblinoid and kobold subtype can enter this class."]
+      "special": ["Intelligence 10 or higher.","Ability to cast spells, or any spell-like or supernatural ability.","Complete familiarity with the chosen dungeon environment and knowledge the contents of every chamber (including other inhabitants, doors, traps, hidden objects, and all magical and mechanical effects). ","Must be an abberation, dragon, fey, magical beast, monstrous humanoid, outsider, or undead. Alternatively, humanoids of the goblinoid and kobold subtype can enter this class."]
     },
     "skill points": {
       "base": 2,
@@ -32691,7 +32691,7 @@
     "requirements": {
       "alignment": "Any nongood",
       "gender": "Female.",
-      "Spellcasting": "Able to cast 2nd-level arcane spells and 2nd-level divine spells.<br />",
+      "Spellcasting": "Able to cast 2nd-level arcane spells and 2nd-level divine spells.",
       "special": "The character must qualify to select regional feats from Rashemen (Rashemen is her home region, or she has 2 ranks in Knowledge [local&#8212;Rashemen])."
     },
     "skill points": {
@@ -32977,7 +32977,7 @@
       ],
       "feats": "Any item creation feat and any metamagic feat.",
       "Spells": "Ability to cast arcane and divine spells.",
-      "Domain": "Magic.<br />",
+      "Domain": "Magic.",
       "special": "The candidate must have created at least one magic item, whether of a permanent nature or not."
     },
     "skill points": {
@@ -33207,7 +33207,7 @@
         "Combat Expertise",
         "Improved Feint"
       ],
-      "psionics": "Must have a power point reserve of at least 1 power point. <br />",
+      "psionics": "Must have a power point reserve of at least 1 power point. ",
       "Special": " Sneak attack +1d6 or psionic sneak attack +1d6."
     },
     "skill points": {
@@ -34121,8 +34121,8 @@
         "Knowledge (arcana)",
         "Knowledge (the planes)"
       ],
-      "spells": "Ability to cast 2nd-level arcane spells.<br />",
-      "Invocations": " Ability to use least invocations.<br />",
+      "spells": "Ability to cast 2nd-level arcane spells.",
+      "Invocations": " Ability to use least invocations.",
       "Special": " <em>Eldritch blast</em> +2d6."
     },
     "skill points": {
@@ -35911,7 +35911,7 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "feats": "Any metamagic feat.<br />",
+      "feats": "Any metamagic feat.",
       "special": "Caster level 5th, must worship the Shadow."
     },
     "skill points": {
@@ -36223,8 +36223,8 @@
       "feats": [
         "Spell Focus"
       ],
-      "gender": "Male.<br />",
-      "Spells": " Able to cast 5th-level arcane spells.<br />",
+      "gender": "Male.",
+      "Spells": " Able to cast 5th-level arcane spells.",
       "Special": " The character must be a eunuch member in the emperor's service. While this service is often inflicted as a punishment, many volunteer for the procedure because of the power eunuchs hold in some societies."
     },
     "skill points": {
@@ -38052,7 +38052,7 @@
       "feats": [
         "Cautious Attack"
       ],
-      "domain": "Trickery.<br />",
+      "domain": "Trickery.",
       "Special": " Evasion, Sneak attack +2d6 or skirmish +2d6."
     },
     "skill points": {
@@ -38369,7 +38369,7 @@
       "alignment": "Any evil (usually chaotic evil)",
       "race": "Yuan-ti, human, Yuan-ti-human c rossbreed, tainted one, or other Yuan-ti-created being.",
       "Religion": "The candidate must worship Sseth and only Sseth.",
-      "Feats": "Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.<br />",
+      "Feats": "Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.",
       "special": "The candidate must have slain in the name of Sseth and aided a Yuan-ti without prearranged payment or reward."
     },
     "skill points": {
@@ -38780,7 +38780,7 @@
       "confidence of the fated (su)": ": once per day, a fatemaker of 2nd level or higher can add her class level as a morale bonus on any single attack roll, weapon damage roll, saving throw, or skill check. at 7th level and higher, she can do this twice per day, but only once in any given round.</p><p>",
       "sneak attack (ex)": ": beginning at 3rd level, a fatemaker deals an extra 1d6 points of damage on any successful melee attack against a flat-footed or flanked target, or against a target that has been denied its dexterity bonus for any reason. this damage also applies to ranged attacks against targets up to 30 feet away. creatures with concealment, creatures without discernible anatomies, and creatures immune to extra damage from critical hits are all immune to sneak attacks. a fatemaker can choose to deliver nonlethal damage with her sneak attack, but only when using a weapon designed for that purpose, such as a sap (blackjack).</p><p>at 6th level, the extra damage dealt by a fatemaker's sneak attack increases to 2d6 points, and at 9th level it increases to 3d6 points.</p><p>",
       "aura of confidence (su)": ": a fatemaker's confidence tends to rub off on her allies. beginning at 4th level, a fatemaker grants a +1 morale bonus on attack rolls, saves, and skill checks to all adjacent allies (but not to herself). this ability functions only while the fatemaker is conscious.</p><p>at 8th level, the bonus increases to +2.</p><p>",
-      "ego manifestation (sp)": ": at 10th level, a fatemaker's internal confidence and ego can be made physically manifest, increasing her size and power. this effect is the equivalent of the <a href=\"/spells/players-handbook-v35--6/righteous-might--2865/\"><em>righteous might</em></a> spell (caster level equals class level), except that the fatemaker doesn't gain damage reduction, but instead gains a +4 bonus on intimidate checks. she can use this ability once per day.</p><p>fatemaker spell list<br />fatemakers choose their spells from the following list.<br />",
+      "ego manifestation (sp)": ": at 10th level, a fatemaker's internal confidence and ego can be made physically manifest, increasing her size and power. this effect is the equivalent of the <a href=\"/spells/players-handbook-v35--6/righteous-might--2865/\"><em>righteous might</em></a> spell (caster level equals class level), except that the fatemaker doesn't gain damage reduction, but instead gains a +4 bonus on intimidate checks. she can use this ability once per day.</p><p>fatemaker spell list<br />fatemakers choose their spells from the following list.",
       "1st level": [
         "<em>charm person</em>",
         "<em>disguise self</em>",
@@ -40706,7 +40706,7 @@
         "Mobility",
         "Run"
       ],
-      "base save bonus": "Will +3.<br />",
+      "base save bonus": "Will +3.",
       "Spells": " Ability to cast divine spells.<br /><strong>Patron Deity:</strong> Ehlonna."
     },
     "skill points": {
@@ -41205,7 +41205,7 @@
         "Sleight of Hand",
         "Speak Language"
       ],
-      "spells": "Ability to cast 1st-level arcane and divine spells.<br />",
+      "spells": "Ability to cast 1st-level arcane and divine spells.",
       "Special": " Bardic knowledge and evasion abilities."
     },
     "skill points": {
@@ -41379,7 +41379,7 @@
         "Track",
         "Weapon Focus"
       ],
-      "language": "The language (if any) of the intended hated enemy.<br />",
+      "language": "The language (if any) of the intended hated enemy.",
       "special": "The character must have a favored enemy."
     },
     "skill points": {
@@ -41865,7 +41865,7 @@
     "id": 375,
     "requirements": {
       "base attack bonus": 3,
-      "skills": "Any skill 8 ranks.<br />",
+      "skills": "Any skill 8 ranks.",
       "Feats": " Any luck feat."
     }
   },
@@ -43890,8 +43890,8 @@
         "Godsight",
         "Improved Turning"
       ],
-      "spells": "Ability to cast 2nd-level divine spells.<br />",
-      "Patron Deity": " Any from the Mulhorandi pantheon.<br />",
+      "spells": "Ability to cast 2nd-level divine spells.",
+      "Patron Deity": " Any from the Mulhorandi pantheon.",
       "Special": " You must have the approval of your patron deity's church."
     },
     "skill points": {
@@ -45314,7 +45314,7 @@
       ],
       "feats": "Any metamagic feat, any one item creation feat.",
       "Spells": "Able to cast 4th-level arcane spells.",
-      "Region": "Halruaa.<br />",
+      "Region": "Halruaa.",
       "special": "The character must petition for entry into the Halruaan Council of Elders and, after a divinatory background check by current elders, be accepted to that ruling body."
     },
     "skill points": {
@@ -45608,7 +45608,7 @@
       ],
       "region": "The Spine of the World.",
       "Spells": "Able to cast 2nd-level divine spells.",
-      "Patron Deity": "Moradin.<br />",
+      "Patron Deity": "Moradin.",
       "special": "The candidate must be a member of the hammers of Moradin."
     },
     "skill points": {
@@ -45848,7 +45848,7 @@
       "feats": [
         "Dragontouched "
       ],
-      "language": "Draconic.<br />",
+      "language": "Draconic.",
       "special": "Sneak attack, sudden strike, or skirmish +2d6."
     },
     "skill points": {
@@ -46122,7 +46122,7 @@
       "gender": "Female.",
       "Region": "Rashemen.",
       "Spells": "Able to cast 4th-level arcane or divine spells.",
-      "Patron Deity": "Chauntea, Mielikki, or Mystra.<br />",
+      "Patron Deity": "Chauntea, Mielikki, or Mystra.",
       "special": "The candidate must be a member in good standing of the Witches of Rashemen, and she may not possess any item creation feats other than Scribe Scroll."
     },
     "skill points": {
@@ -48805,8 +48805,8 @@
         "Knowledge (nature)",
         "Survival"
       ],
-      "alignment": "Any neutral.<br />",
-      "Spellcasting": " Able to cast 3rd-level divine spells, including the three lowest-level spells of the Plant domain.<br />",
+      "alignment": "Any neutral.",
+      "Spellcasting": " Able to cast 3rd-level divine spells, including the three lowest-level spells of the Plant domain.",
       "Special": " Must be chosen as a holt warden by the leaders of a band of Guardians of the Green, then serve a one-year apprenticeship to a Guardian of the Green who has at least five holt warden levels."
     },
     "skill points": {
@@ -49959,7 +49959,7 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "special": ["Able to turn undead. <br />"," <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."]
+      "special": ["Able to turn undead. "," <em>Scar of Unlife:</em> The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry."]
     },
     "skill points": {
       "base": 2,
@@ -50585,7 +50585,7 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "race": "Mind flayer<br />",
+      "race": "Mind flayer",
       "Special": " Must have consumed the brain of a creature of CR 9 or greater."
     },
     "skill points": {
@@ -50731,7 +50731,7 @@
       "feats": [
         "Track"
       ],
-      "psionics": "Must have a power point reserve of at least 1 power point.<br />",
+      "psionics": "Must have a power point reserve of at least 1 power point.",
       "special": "Must have killed an illithid, either individually or as part of a group composed of no more than six members."
     },
     "skill points": {
@@ -51381,7 +51381,7 @@
       "feats": [
         "Iron Will"
       ],
-      "additional feats": "Any metamagic feat.<br />",
+      "additional feats": "Any metamagic feat.",
       "Spellcasting": " Able to cast 3rd-level arcane spells."
     },
     "skill points": {
@@ -51537,7 +51537,7 @@
         "Spellcraft"
       ],
       "feats": "Any one metamagic feat.",
-      "Spellcasting": "Able to cast 3rd-level arcane spells.<br />",
+      "Spellcasting": "Able to cast 3rd-level arcane spells.",
       "special": "The candidate cannot have abjuration as a prohibited school."
     },
     "skill points": {
@@ -53929,7 +53929,7 @@
         "Spellwise"
       ],
       "base will save": "+6.",
-      "Patron Deity": "One of Halruaa's accepted deities, usually Mystra or Azuth.<br />",
+      "Patron Deity": "One of Halruaa's accepted deities, usually Mystra or Azuth.",
       "special": "Must be literate and speak Common, Halruaan, and at least two other languages. Must have been raised by House Jordain. Such rearing precludes the practice of arcane magic and the use of many magic items, subject to investigation by a magehound."
     },
     "skill points": {
@@ -54540,7 +54540,7 @@
         "Aberration Banemagic",
         "Craft Wondrous Item "
       ],
-      "type": "Cannot be an aberration.<br />",
+      "type": "Cannot be an aberration.",
       "special": "Must create a cerulean sign without aid."
     },
     "skill points": {
@@ -56063,7 +56063,7 @@
         "Mounted Combat",
         "Weapon Focus"
       ],
-      "special": ["Native or permanent resident of Nimbral.<br />","Membership in the Knights of the Flying Hunt."]
+      "special": ["Native or permanent resident of Nimbral.","Membership in the Knights of the Flying Hunt."]
     },
     "skill points": {
       "base": 2,
@@ -56994,7 +56994,7 @@
         "Spellcraft"
       ],
       "base attack bonus": "+5 or ability to spontaneously cast 3rd-level arcane spells.",
-      "Oath to the Weave": "A knight must swear to defend the Weave at all costs, sacrificing his own life to preserve it if necessary.<br />",
+      "Oath to the Weave": "A knight must swear to defend the Weave at all costs, sacrificing his own life to preserve it if necessary.",
       "special": "Cannot be a Shadow Weave user."
     },
     "skill points": {
@@ -57189,7 +57189,7 @@
       "feats": [
         "Still Spell"
       ],
-      "special": ["Proficiency in all martial weapons.<br />","Ability to cast phantom steed.<br />","Citizen of Aundair, member of the Order of the Knights Arcane."]
+      "special": ["Proficiency in all martial weapons.","Ability to cast phantom steed.","Citizen of Aundair, member of the Order of the Knights Arcane."]
     },
     "skill points": {
       "base": 2,
@@ -58509,7 +58509,7 @@
       "feats": [
         "Favored of the Companions"
       ],
-      "spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-ii--2451/\">summon natures ally II</a>.<br />",
+      "spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-ii--2451/\">summon natures ally II</a>.",
       "special": "The character must have an animal companion as a class feature."
     },
     "skill points": {
@@ -58657,7 +58657,7 @@
       "feats": [
         "Scorpion's resolve"
       ],
-      "spells": "Ability to cast 2nd-level divine spells.<br />",
+      "spells": "Ability to cast 2nd-level divine spells.",
       "Special": " You must undergo an initiation ritual and return with a relic (see Playing a Lord of Tides, below)."
     },
     "skill points": {
@@ -59669,7 +59669,7 @@
         "Hide",
         "Move Silently"
       ],
-      "type": "Undead.<br />",
+      "type": "Undead.",
       "special": "If the character possesses the incorporeal subtype, it need not meet the Move Silently requirement."
     },
     "skill points": {
@@ -59732,7 +59732,7 @@
       "feats": [
         "Melodic Casting"
       ],
-      "spellcasting": "Ability to cast 2nd-level arcane spells.<br />",
+      "spellcasting": "Ability to cast 2nd-level arcane spells.",
       "Special": " Bardic music 5/day."
     },
     "skill points": {
@@ -59891,8 +59891,8 @@
         "Craft",
         "Use Magic Device"
       ],
-      "race": "Gnome.<br />",
-      "Feats": " Any two item creation feats.<br />",
+      "race": "Gnome.",
+      "Feats": " Any two item creation feats.",
       "Spells": " Arcane caster level 5th."
     }
   },
@@ -60068,8 +60068,8 @@
         "Signature Spell",
         "Weapon Focus"
       ],
-      "spells": "Ability to cast 5th-level arcane spells.<br />",
-      "special": ["You must have the evasion special quality as either a class feature or a racial trait.<br />","You may not be lawful in alignment.<br />","You must be tutored by a magelord or obtain rare tomes to study the tradition. Either option costs no less than 10,000 gp or a service of equivalent value."]
+      "spells": "Ability to cast 5th-level arcane spells.",
+      "special": ["You must have the evasion special quality as either a class feature or a racial trait.","You may not be lawful in alignment.","You must be tutored by a magelord or obtain rare tomes to study the tradition. Either option costs no less than 10,000 gp or a service of equivalent value."]
     },
     "skill points": {
       "base": 2,
@@ -60228,8 +60228,8 @@
   {
     "id": 537,
     "requirements": {
-      "feats": "Any one metamagic feat.<br />",
-      "Spellcasting": " Ability to cast 3rd-level spells.<br />",
+      "feats": "Any one metamagic feat.",
+      "Spellcasting": " Ability to cast 3rd-level spells.",
       "Skill Tricks": " Any two."
     },
     "skill points": {
@@ -60319,7 +60319,7 @@
         "Augment Summoning",
         "Spell Focus"
       ],
-      "languages": "Celestial, Infernal.<br />",
+      "languages": "Celestial, Infernal.",
       "Special": " Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iii--2443/\">summon monster III</a>"
     },
     "skill points": {
@@ -60469,7 +60469,7 @@
         "Weapon Focus"
       ],
       "patron deity": "The Adama.",
-      "Region": "The Golden Water.<br />",
+      "Region": "The Golden Water.",
       "special": "The character must have a reputation as an honorable and dedicated person. He must spend one full month living by the standards of the Maquar crusader's code of conduct before being admitted into the Maquar."
     },
     "skill points": {
@@ -61390,7 +61390,7 @@
         "Disguise",
         "Perform"
       ],
-      "languages": "Any four.<br />",
+      "languages": "Any four.",
       "Special": " Must have successfully impersonated an individual, fooling even that person's friends and associates."
     },
     "skill points": {
@@ -62019,8 +62019,8 @@
         "Augment Summoning",
         "Spell Focus"
       ],
-      "base save bonus": "Will +5.<br />",
-      "Spells": " Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.<br />",
+      "base save bonus": "Will +5.",
+      "Spells": " Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.",
       "Special": " Able to rebuke undead"
     },
     "skill points": {
@@ -63067,7 +63067,7 @@
   {
     "id": 565,
     "requirements": {
-      "special": ["The character must be a vampire (not a vampire spawn).<br />","The character must control at least two vampires or vampire spawn that it has created by means of its create spawn ability."]
+      "special": ["The character must be a vampire (not a vampire spawn).","The character must control at least two vampires or vampire spawn that it has created by means of its create spawn ability."]
     },
     "skill points": {
       "base": 4,
@@ -63136,7 +63136,7 @@
         "Least Dragonmark",
         "Lesser Dragonmark"
       ],
-      "spellcasting": "Ability to cast 2nd-level divine spells, including at least three divinations.<br />",
+      "spellcasting": "Ability to cast 2nd-level divine spells, including at least three divinations.",
       "special": "Must be a worshiper of Aureon, and must have received training from the Voice of Aureon."
     },
     "skill points": {
@@ -63320,7 +63320,7 @@
         "Favored in Guild",
         "Skill Focus"
       ],
-      "languages": "Common, any two others, must be literate.<br />",
+      "languages": "Common, any two others, must be literate.",
       "special": "You mush own a business. If you no longer own a business, you cannot advance further in this class."
     },
     "skill points": {
@@ -64371,7 +64371,7 @@
         "Craft",
         "Heal"
       ],
-      "base will save bonus": "+5.<br />",
+      "base will save bonus": "+5.",
       "special": "The candidate must be inducted into the monks of the long death via a secret ceremony consisting of various morbid and hideous acts designed to test his resolve."
     },
     "skill points": {
@@ -64906,7 +64906,7 @@
         "Investigator",
         "Stealthy"
       ],
-      "spells": "Ability to cast <em>disguise self</em> and <em>identify</em>.<br />",
+      "spells": "Ability to cast <em>disguise self</em> and <em>identify</em>.",
       "Special": " Bardic knowledge, lore (loremaster class feature or any similar ability), Harper knowledge, or ability to cast legend lore, Must be a member of the Tel Teukiira."
     }
   },
@@ -67494,7 +67494,7 @@
       "feats": [
         "Improved Initiative"
       ],
-      "special": ["Evasion class feature.<br />"," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
+      "special": ["Evasion class feature."," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
     },
     "skill points": {
       "base": 4,
@@ -67647,7 +67647,7 @@
       "feats": [
         "Alertness"
       ],
-      "special": ["Evasion class feature.<br />"," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
+      "special": ["Evasion class feature."," The character must undergo intensive training and tests with the Nightsong Guild before she can gain the class abilities."]
     },
     "skill points": {
       "base": 8,
@@ -68839,7 +68839,7 @@
       "feats": [
         "Least Dragonmark"
       ],
-      "base fortitude save": "+3.<br />",
+      "base fortitude save": "+3.",
       "special": "An heir of Siberys with the Mark of Healing can take this class without meeting the Least Dragonmark prerequisite."
     },
     "skill points": {
@@ -69030,7 +69030,7 @@
         "Knowledge (history)"
       ],
       "feats": "Any two metamagic feats.",
-      "Spells": "Ability to cast 3rd-level arcane spells.<br />",
+      "Spells": "Ability to cast 3rd-level arcane spells.",
       "special": "Abjuration must not be a prohibited school for you."
     },
     "skill points": {
@@ -69440,7 +69440,7 @@
       "feats": [
         "Weapon Focus"
       ],
-      "spellcasting": "Able to cast magic weapon as a divine spell.<br />",
+      "spellcasting": "Able to cast magic weapon as a divine spell.",
       "Special": " Must worship Hextor or Heironeous."
     },
     "skill points": {
@@ -70225,7 +70225,7 @@
       "feats": [
         "Draconic Heritage"
       ],
-      "spellcasting": "Must be able to cast 3rd-level arcane spells.<br />",
+      "spellcasting": "Must be able to cast 3rd-level arcane spells.",
       "special": "Must have an active dragonpact (see page 87) with a dragon."
     },
     "skill points": {
@@ -71044,7 +71044,7 @@
       "feats": [
         "Skill Focus"
       ],
-      "spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> and <a href=\"/spells/players-handbook-v35--6/vampiric-touch--2768/\">vampiric touch</a> as arcane spells.<br />",
+      "spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> and <a href=\"/spells/players-handbook-v35--6/vampiric-touch--2768/\">vampiric touch</a> as arcane spells.",
       "special": "The candidate must have spent three or more days locked in a tomb with animate undead. This contact may be peaceful or violent. A character who is slain by the undead and later raised still meets the requirement, although the resulting level loss may delay compliance with other prerequisites."
     },
     "skill points": {
@@ -71204,7 +71204,7 @@
         "Knowledge (religion)",
         "Knowledge"
       ],
-      "spellcasting": "Able to cast 3rd-level spells or use spell-like abilities of equivalent level.<br />",
+      "spellcasting": "Able to cast 3rd-level spells or use spell-like abilities of equivalent level.",
       "special": "Must be a member of the Paragnostic Assembly."
     },
     "skill points": {
@@ -71302,7 +71302,7 @@
         "Knowledge (religion)",
         "Knowledge"
       ],
-      "special": ["Base attack bonus +4 or Tumble 7 ranks.<br />","Must be a member of the Paragnostic Assembly."]
+      "special": ["Base attack bonus +4 or Tumble 7 ranks.","Must be a member of the Paragnostic Assembly."]
     },
     "skill points": {
       "base": 6,
@@ -72222,7 +72222,7 @@
       "feats": [
         "Craft Wondrous Item "
       ],
-      "spells": "Able to cast 5th-level arcane spells.<br />",
+      "spells": "Able to cast 5th-level arcane spells.",
       "special": "Must have visited an Inner or Outer Plane before taking this prestige class."
     },
     "skill points": {
@@ -72735,7 +72735,7 @@
       "feats": [
         "Mounted Combat"
       ],
-      "spellcasting": "Ability to cast protection from evil as a divine spell.<br />",
+      "spellcasting": "Ability to cast protection from evil as a divine spell.",
       "special": "Ability to turn undead."
     },
     "skill points": {
@@ -73731,8 +73731,8 @@
         "Gather Information",
         "Sense Motive"
       ],
-      "languages": "Any three.<br />",
-      "Psionics": " Power point reserve of at least 1.<br />",
+      "languages": "Any three.",
+      "Psionics": " Power point reserve of at least 1.",
       "Special": " Sneak attack +1d6."
     },
     "skill points": {
@@ -74824,7 +74824,7 @@
         "Craft",
         "Knowledge (psionics)"
       ],
-      "psionics": "Must have a power point reserve of at least 1 power point.<br />",
+      "psionics": "Must have a power point reserve of at least 1 power point.",
       "special": "Must have set fire to a structure of any size just to watch it burn."
     },
     "skill points": {
@@ -75191,8 +75191,8 @@
       "feats": [
         "Extra Turning"
       ],
-      "base save bonus": "Will +5.<br />",
-      "Spells": " Able to cast 1st-level divine spells and access to the Sun domain.<br />",
+      "base save bonus": "Will +5.",
+      "Spells": " Able to cast 1st-level divine spells and access to the Sun domain.",
       "Special": " Must have Pelor as patron deity. (Adapt as desired for sun god of the setting.)"
     },
     "skill points": {
@@ -75336,7 +75336,7 @@
       "feats": [
         "Combat Casting"
       ],
-      "spells": "Able to cast 2nd-level arcane spells.<br />",
+      "spells": "Able to cast 2nd-level arcane spells.",
       "Special": " Rage or frenzy ability."
     },
     "skill points": {
@@ -75482,7 +75482,7 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "spells": "Able to cast 3rd-level arcane spells.<br />",
+      "spells": "Able to cast 3rd-level arcane spells.",
       "Special": " Must find the hidden jungle temples of the couatls."
     },
     "skill points": {
@@ -77491,7 +77491,7 @@
       ],
       "base save bonuses": "Fort +2, Ref +2, Will +2.",
       "Skills": "Any one skill 9 ranks, Speak Language (Celestial).",
-      "Feats": "Any one other exalted feat.<br />",
+      "Feats": "Any one other exalted feat.",
       "special": "The character must have suffered martyrdom (see Chapter 2) and must not have been returned to life. As a special feature of this prestige class, the character rises with the abilities of a 0-level risen martyr added to the character's previous abilities. When the character earns enough experience points to advance another level, he must become a 1st-level risen martyr."
     },
     "skill points": {
@@ -78647,7 +78647,7 @@
         "Intimidate",
         "Sense Motive"
       ],
-      "feats": "At least one berserker lodge feat from Chapter 3: Regions and Feats.<br />",
+      "feats": "At least one berserker lodge feat from Chapter 3: Regions and Feats.",
       "special": "The character must be able to rage at least once per day, as the barbarian class ability, and must be a member of a berserker lodge. (For more information about berserker lodges, see Chapter 10: Rashemen.) Also, the character must qualify to select regional feats from Rashemen (Rashemen is his home region, or he has 2 ranks in Knowledge [local&#8212; Rashemen])."
     },
     "skill points": {
@@ -78917,7 +78917,7 @@
         "Knowledge (religion)"
       ],
       "alignment": "Any good.",
-      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/dismissal--2310/\">dismissal</a> or <a href=\"/spells/players-handbook-v35--6/dispel-evil--2312/\">dispel evil</a> .<br />",
+      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/dismissal--2310/\">dismissal</a> or <a href=\"/spells/players-handbook-v35--6/dispel-evil--2312/\">dispel evil</a> .",
       "special": "Adopting this prestige class requires the sanction of a church or order that ordains sacred exorcists. Only characters judged by their church to be exemplary in faith and devotion, strong of will and upright in morality, are made sacred exorcists."
     },
     "skill points": {
@@ -79555,7 +79555,7 @@
         "Extra Turning"
       ],
       "base will save bonus": "+5.",
-      "Spells": "Able to cast 2nd-level divine spells.<br />",
+      "Spells": "Able to cast 2nd-level divine spells.",
       "special": "Able to turn undead."
     },
     "skill points": {
@@ -80437,7 +80437,7 @@
       "feats": [
         "Touchstone"
       ],
-      "alignment": "Any neutral.<br />",
+      "alignment": "Any neutral.",
       "Spells or Spell-Like Abilities": " Arcane caster level 5th."
     },
     "skill points": {
@@ -80599,7 +80599,7 @@
       "alignment": "Lawful",
       "meldshaping": "Ability to shape three soulmelds.",
       "Spellcasting": "Ability to cast 2nd-level divine spells.",
-      "Essentia Pool": "3.<br />",
+      "Essentia Pool": "3.",
       "special": "Access to the <a href=\"/spells/domains/law/\">Law</a> domain."
     },
     "skill points": {
@@ -81682,7 +81682,7 @@
         "Diplomacy",
         "Swim"
       ],
-      "alignment": "Lawful good or lawful neutral.<br />",
+      "alignment": "Lawful good or lawful neutral.",
       "Special": " You must be blessed by Tem-Et-Nu in a ritual held in one of her temples."
     },
     "skill points": {
@@ -82013,7 +82013,7 @@
         "Blind-Fight",
         "Improved Initiative"
       ],
-      "special": ["Must have the wild empathy class feature.<br />","Must have been trained in Xen'drik by another scorpion wraith."]
+      "special": ["Must have the wild empathy class feature.","Must have been trained in Xen'drik by another scorpion wraith."]
     },
     "skill points": {
       "base": 6,
@@ -82659,7 +82659,7 @@
         "Knowledge (religion)",
         "Survival"
       ],
-      "spells": "Able to cast 2nd-level divine spells.<br />",
+      "spells": "Able to cast 2nd-level divine spells.",
       "Special": " Must be inducted into the order by another member."
     },
     "skill points": {
@@ -83828,96 +83828,96 @@
       "combat": "<br />all gens have certain traits in common. they prefer to avoid combat, a task that is easy for them since they can travel to the elemental planes at will and survive equally well in any of them.",
       "elemental endurance (ex)": "A gen can survive on the elemental planes like a native. On the Elemental Plane o f Fire, a gen is immune to fire damage. On the Elemental Plane of Water, a gen can breathe water and has a swim speed equal to its fly speed (gaining the normal +8 racial bonus on Swim checks). On the Elemental Plane of Earth, a gen has a burrow speed equal to its land speed, leaving no tunnel or sign of its passage as though it has the earth glide ability o f a xorn (see the Monster Manual).",
       "fetch spells (ex)": "A gen can find and deliver spells to a sha'ir from the elemental planes. The time required depends upon the spell, as given in the sha'ir description.",
-      "<span class=\"caps\">air</span> gen</strong>": "tiny outsider (air, extraplanar)<br />",
-      "hit dice": "1d8+1 (5hp)<br />",
-      "Initiative": " +2<br />",
-      "Speed": " 20 ft. (4 squares), fly 70 ft. (perfect)<br />",
-      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br />",
-      "Base Attack/Grapple": " +1/-9<br />",
-      "Attack": " Slam +5 melee (ld2-2)<br />",
-      "Full Attack": " 2 slams +5 melee (ld2-2)<br />",
-      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
-      "Special Attacks": " &#8212;<br />",
-      "Special Qualities": " Air mastery, darkvision 60 ft., elemental endurance, fetch spells, immunity to electricity, elemental travel, vulnerability to acid<br />",
-      "Saves": " Fort +3, Ref +4, Will +4<br />",
-      "Abilities": " Str 7, Dex 14, Con 12, Int 13, Wis 15, Cha 10<br />",
-      "Skills": " Concentration +5, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
-      "Feats": " Combat Casting, Weapon Finesse<br />",
-      "Environment": " Any elemental plane<br />",
-      "Organization": " Solitary<br />",
-      "Challenge Rating": " 1/2<br />",
-      "Treasure": " Standard<br />",
-      "Alignment": " Often chaotic good<br />",
-      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "<span class=\"caps\">air</span> gen</strong>": "tiny outsider (air, extraplanar)",
+      "hit dice": "1d8+1 (5hp)",
+      "Initiative": " +2",
+      "Speed": " 20 ft. (4 squares), fly 70 ft. (perfect)",
+      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13",
+      "Base Attack/Grapple": " +1/-9",
+      "Attack": " Slam +5 melee (ld2-2)",
+      "Full Attack": " 2 slams +5 melee (ld2-2)",
+      "Space/Reach": " 2-1/2 ft./0 ft.",
+      "Special Attacks": " &#8212;",
+      "Special Qualities": " Air mastery, darkvision 60 ft., elemental endurance, fetch spells, immunity to electricity, elemental travel, vulnerability to acid",
+      "Saves": " Fort +3, Ref +4, Will +4",
+      "Abilities": " Str 7, Dex 14, Con 12, Int 13, Wis 15, Cha 10",
+      "Skills": " Concentration +5, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6",
+      "Feats": " Combat Casting, Weapon Finesse",
+      "Environment": " Any elemental plane",
+      "Organization": " Solitary",
+      "Challenge Rating": " 1/2",
+      "Treasure": " Standard",
+      "Alignment": " Often chaotic good",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) ",
       "Level Adjustment": " &#8212;<br /><em>This creature resembles a pale-skinned humanoid surrounded by misty vapors.</em><br />Air gens often dwell on the Elemental Plane of Air. Thought to be related to the djinn, they are often found within djinn cities, although they travel almost constantly.<br />Air gens speak Common and Auran.",
       "combat</strong><br />air gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>air mastery (ex)": "An airborne creature takes a &#8211; 1 penalty on attack and damage rolls against an air gen.",
-      "<span class=\"caps\">earth</span> gen</strong><br />":"tiny outsider (earth, extraplanar)<br />",
-      "hit dice": "1d8+1 (5hp)<br />",
-      "Initiative": " +1<br />",
-      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)<br />",
-      "Armor Class": " 16 (+2 size, +1 Dex, +3 natural), touch 13, flat-footed 15<br />",
-      "Base Attack/Grapple": " +1/-8<br />",
-      "Attack": " Slam +4 melee (1d2-1)<br />",
-      "Full Attack": " 2 slams +4 melee (1d2-1)<br />",
-      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
-      "Special Attacks": " &#8212;<br />",
-      "Special Qualities": " Darkvision 60 ft., earth mastery, elemental endurance, fetch spells, immunity to acid, elemental travel, vulnerability to electricity<br />",
-      "Saves": " Fort +3, Ref +3, Will +4<br />",
-      "Abilities": " Str 9, Dex 12, Con 12, Int 13, Wis 15, Cha 10 <br />",
-      "Skills": " Concentration +5, Escape Artist +6, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
-      "Feats": " Combat Casting, Weapon Finesse<br />",
-      "Environment": " Any elemental plane<br />",
-      "Organization": " Solitary<br />",
-      "Challenge Rating": " 1/2<br />",
-      "Treasure": " Standard<br />",
-      "Alignment": " Often chaotic evil<br />",
-      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "<span class=\"caps\">earth</span> gen</strong>":"tiny outsider (earth, extraplanar)",
+      "hit dice": "1d8+1 (5hp)",
+      "Initiative": " +1",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)",
+      "Armor Class": " 16 (+2 size, +1 Dex, +3 natural), touch 13, flat-footed 15",
+      "Base Attack/Grapple": " +1/-8",
+      "Attack": " Slam +4 melee (1d2-1)",
+      "Full Attack": " 2 slams +4 melee (1d2-1)",
+      "Space/Reach": " 2-1/2 ft./0 ft.",
+      "Special Attacks": " &#8212;",
+      "Special Qualities": " Darkvision 60 ft., earth mastery, elemental endurance, fetch spells, immunity to acid, elemental travel, vulnerability to electricity",
+      "Saves": " Fort +3, Ref +3, Will +4",
+      "Abilities": " Str 9, Dex 12, Con 12, Int 13, Wis 15, Cha 10 ",
+      "Skills": " Concentration +5, Escape Artist +6, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6",
+      "Feats": " Combat Casting, Weapon Finesse",
+      "Environment": " Any elemental plane",
+      "Organization": " Solitary",
+      "Challenge Rating": " 1/2",
+      "Treasure": " Standard",
+      "Alignment": " Often chaotic evil",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) ",
       "Level Adjustment": " &#8212;<br /><em>This creature resembles a muscular, dusky-skinned humanoid. Tiny gems stud its skin.</em><br />Earth gens usually dwell on the Elemental Plane of Earth. Thought to be related to the dao, they are often found within dao cities, although they travel almost constantly.<br />Earth gens speak Common and Terran.",
       "combat</strong><br />earth gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>earth mastery (ex)": "An earth gen gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the gen takes a &#8211; 4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)",
-      "<span class=\"caps\">fire</span> gen</strong>":"tiny outsider (extraplanar, fire)<br />",
+      "<span class=\"caps\">fire</span> gen</strong>":"tiny outsider (extraplanar, fire)",
       "hit dice": "1d8 (4hp)<br /><strong>",
-      "Initiative": " +2<br />",
-      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)<br />",
-      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13<br />",
-      "Base Attack/Grapple": " +1/-9<br />",
-      "Attack": " Slam +5 melee (ld2-2 pulse 1 fire)<br />",
-      "Full Attack": " 2 slams +5 melee (ld2-2 plus 1 fire)<br />",
-      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
-      "Special Attacks": " Heat<br />",
-      "Special Qualities": " Darkvision 60 ft., elemental endurance, fetch spells, immunity to fire, elemental travel, vulnerability to cold<br />",
-      "Saves": " Fort +2, Ref +4, Will +4<br />",
-      "Abilities": " Str 7, Dex 14, Con 10, Int 13, Wis 15, Cha 10 <br />",
-      "Skills": " Concentration +4, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6<br />",
-      "Feats": " Combat Casting, Weapon Finesse<br />",
-      "Environment": " Any elemental plane<br />",
-      "Organization": " Solitary<br />",
-      "Challenge Rating": " 1/2<br />",
-      "Treasure": " Standard<br />",
-      "Alignment": " Often neutral evil<br />",
-      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "Initiative": " +2",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect)",
+      "Armor Class": " 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13",
+      "Base Attack/Grapple": " +1/-9",
+      "Attack": " Slam +5 melee (ld2-2 pulse 1 fire)",
+      "Full Attack": " 2 slams +5 melee (ld2-2 plus 1 fire)",
+      "Space/Reach": " 2-1/2 ft./0 ft.",
+      "Special Attacks": " Heat",
+      "Special Qualities": " Darkvision 60 ft., elemental endurance, fetch spells, immunity to fire, elemental travel, vulnerability to cold",
+      "Saves": " Fort +2, Ref +4, Will +4",
+      "Abilities": " Str 7, Dex 14, Con 10, Int 13, Wis 15, Cha 10 ",
+      "Skills": " Concentration +4, Escape Artist +6, Hide +12, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +4, Search +5, Spellcraft +5, Spot +4, Survival +6",
+      "Feats": " Combat Casting, Weapon Finesse",
+      "Environment": " Any elemental plane",
+      "Organization": " Solitary",
+      "Challenge Rating": " 1/2",
+      "Treasure": " Standard",
+      "Alignment": " Often neutral evil",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) ",
       "Level Adjustment": " &#8212;<br /><em>This creature resembles a ruddy-skinned humanoid with hair like crackling flames.</em>",
       "combat</strong><br />fire gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>heat (ex)": "A fire gen's red-hot body deals 1 point of extra fire damage whenever it hits in melee, or in each round that it maintains a hold while grappling.",
-      "<span class=\"caps\">water</span> gen</strong>": "tiny outsider (aquatic, extraplanar, water)<br />",
-      "hit dice": "1d8+2 (6 hp)<br />",
-      "Initiative": " +1<br />",
-      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect), swim 20 ft.<br />",
-      "Armor Class": " 14 (+2 size, +1 Dex, +1 natural), touch 13, flat-footed 13<br />",
-      "Base Attack/Grapple": " +1/-9<br />",
-      "Attack": " Slam +4 melee (ld2-2)<br />",
-      "Full Attack": " 2 slams +4 melee (ld2-2)<br />",
-      "Space/Reach": " 2-1/2 ft./0 ft.<br />",
-      "Special Attacks": " &#8212;<br />",
-      "Special Qualities": " Amphibious, darkvision 60 ft., elemental endurance, fetch spells, immunity to cold, elemental travel, vulnerability to fire<br />",
-      "Saves": " Fort +4, Ref +3, Will +4<br />",
-      "Abilities": " Str 7, Dex 12, Con 14, Int 13, Wis 15, Cha 10 <br />",
-      "Skills": " Concentration +6, Escape Artist +5, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6, Swim +6<br />",
-      "Feats": " Combat Casting, Weapon Finesse<br />",
-      "Environment": " Any elemental plane<br />",
-      "Organization": " Solitary<br />",
-      "Challenge Rating": " 1/2<br />",
-      "Treasure": " Standard<br />",
-      "Alignment": " Often chaotic neutral<br />",
-      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) <br />",
+      "<span class=\"caps\">water</span> gen</strong>": "tiny outsider (aquatic, extraplanar, water)",
+      "hit dice": "1d8+2 (6 hp)",
+      "Initiative": " +1",
+      "Speed": " 20 ft. (4 squares), fly 60 ft. (perfect), swim 20 ft.",
+      "Armor Class": " 14 (+2 size, +1 Dex, +1 natural), touch 13, flat-footed 13",
+      "Base Attack/Grapple": " +1/-9",
+      "Attack": " Slam +4 melee (ld2-2)",
+      "Full Attack": " 2 slams +4 melee (ld2-2)",
+      "Space/Reach": " 2-1/2 ft./0 ft.",
+      "Special Attacks": " &#8212;",
+      "Special Qualities": " Amphibious, darkvision 60 ft., elemental endurance, fetch spells, immunity to cold, elemental travel, vulnerability to fire",
+      "Saves": " Fort +4, Ref +3, Will +4",
+      "Abilities": " Str 7, Dex 12, Con 14, Int 13, Wis 15, Cha 10 ",
+      "Skills": " Concentration +6, Escape Artist +5, Hide +11, Knowledge (arcana) +5, Knowledge (the planes) +5, Listen +4, Move Silently +3, Search +5, Spellcraft +5, Spot +4, Survival +6, Swim +6",
+      "Feats": " Combat Casting, Weapon Finesse",
+      "Environment": " Any elemental plane",
+      "Organization": " Solitary",
+      "Challenge Rating": " 1/2",
+      "Treasure": " Standard",
+      "Alignment": " Often chaotic neutral",
+      "Advancement": " 2-3 HD (Tiny); 4-6 HD (Small) ",
       "Level Adjustment": " &#8212;",
       "combat</strong><br />water gens avoid combat whenever possible. when they must fight, they slam opponents with their fists.<br /><strong>amphibious (ex)": "Although water gens are aquatic, they can survive indefinitely on land."
     },
@@ -86555,7 +86555,7 @@
         "Strength Devotion",
         "Sun Devotion"
       ],
-      "spellcasting": "Able to cast 1st-level divine spells.<br />",
+      "spellcasting": "Able to cast 1st-level divine spells.",
       "special": "Must be a cleric or paladin of Pelor."
     },
     "skill points": {
@@ -86789,7 +86789,7 @@
         "Great Fortitude",
         "Spell Focus"
       ],
-      "spells": "Ability to cast six spells from the school of transmutation.<br />",
+      "spells": "Ability to cast six spells from the school of transmutation.",
       "Special": " Spirits of form, mysterious beings from beyond the normal ken of mortals, must have contacted the character. A character who wishes to join this class does well to study both magical and mundane means of altering the world around her in order to attract the attention of these beings."
     },
     "skill points": {
@@ -87087,7 +87087,7 @@
         "Knowledge (the planes)",
         "Spellcraft"
       ],
-      "feats": "Any metamagic feat.<br />",
+      "feats": "Any metamagic feat.",
       "special": "Flight&#8212;The character must have the ability to fly, either by casting a spell (such as fly), or as a natural ability. Using a magic item that grants flight does not meet this requirement. The ability to change shape into a form with a fly speed does meet the requirement."
     },
     "skill points": {
@@ -87315,7 +87315,7 @@
         "Alertness",
         "Endurance"
       ],
-      "spells": "Able to cast 3rd-level spells.<br />",
+      "spells": "Able to cast 3rd-level spells.",
       "special": "Alternate Form&#8212;must either know polymorph self or have a natural alternate form, alter self, polymorph self, shapechange, or wild shape ability."
     },
     "skill points": {
@@ -87463,8 +87463,8 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "base save bonus": "Will +3.<br />",
-      "Spells": " Able to cast 1st-level divine spells<br />",
+      "base save bonus": "Will +3.",
+      "Spells": " Able to cast 1st-level divine spells",
       "Special": " Must have Heironeous as a patron deity."
     },
     "skill points": {
@@ -87847,7 +87847,7 @@
         "Improved Unarmed Strike",
         "Weapon Focus"
       ],
-      "base reflex save": "+2.<br />",
+      "base reflex save": "+2.",
       "special": "The character must qualify to select regional feats from the Shou expatriate or Thesk regions (the region is her home region, or she has 2 ranks in Knowledge [local&#8212;Shou expatriate or Thesk])."
     },
     "skill points": {
@@ -88384,7 +88384,7 @@
       "feats": [
         "Dodge"
       ],
-      "special": ["Must be a member of House Kundarak.<br />","Trap sense +1."]
+      "special": ["Must be a member of House Kundarak.","Trap sense +1."]
     },
     "skill points": {
       "base": 6,
@@ -88533,7 +88533,7 @@
       "skills": [
         "Knowledge (religion)"
       ],
-      "special": ["Ability to cast 3rd-level arcane spells.<br />","Ability to turn undead."]
+      "special": ["Ability to cast 3rd-level arcane spells.","Ability to turn undead."]
     },
     "skill points": {
       "base": 2,
@@ -89198,7 +89198,7 @@
         "Handle Animal",
         "Ride"
       ],
-      "feats": "one exalted feat<br />",
+      "feats": "one exalted feat",
       "special": "The character must spend 1 week living and meditating atop a mountain."
     },
     "skill points": {
@@ -92139,7 +92139,7 @@
       "feats": [
         "Combat Casting"
       ],
-      "spells": "Able to cast 4th-level arcane spells.<br />",
+      "spells": "Able to cast 4th-level arcane spells.",
       "special": "The candidate must be accepted into the Spellguard.",
       "Feats": "Any one metamagic feat."
     },
@@ -92230,8 +92230,8 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "spells": "Able to cast 2nd-level arcane spells.<br />",
-      "Special": " Must have defeated a foe through force of arms alone, without recourse to spellcasting.<br />",
+      "spells": "Able to cast 2nd-level arcane spells.",
+      "Special": " Must have defeated a foe through force of arms alone, without recourse to spellcasting.",
       "Feats": " Proficiency with all simple and martial weapons and with all armor (heavy, medium, and light)."
     },
     "skill points": {
@@ -92721,7 +92721,7 @@
       "feats": [
         "Point Blank Shot"
       ],
-      "spellcasting": "Ability to cast 3rd-level spells.<br />",
+      "spellcasting": "Ability to cast 3rd-level spells.",
       "Special": " Sneak attack or sudden strike +1d6."
     },
     "skill points": {
@@ -94673,9 +94673,9 @@
         "Great Fortitude",
         "Weapon Focus"
       ],
-      "base save bonus": "Fort +4.<br />",
-      "Spells": " Able to cast 3rd-level divine spells.<br />",
-      "Patron": " Talos.<br />",
+      "base save bonus": "Fort +4.",
+      "Spells": " Able to cast 3rd-level divine spells.",
+      "Patron": " Talos.",
       "Special": " The character must have been hit by a bolt of lightning, whether a natural bolt or one created by magic, and survived."
     },
     "skill points": {
@@ -95758,7 +95758,7 @@
       ],
       "spells": "Ability to cast 2nd-level divine spells.",
       "Domains": "Law, Sun.",
-      "Patron Deity": "Amaunator.<br />",
+      "Patron Deity": "Amaunator.",
       "special": "You must own a holy symbol of Amaunator, either personally recovered from a ruined temple of that deity or given to you by an existing sunmaster."
     },
     "skill points": {
@@ -95894,7 +95894,7 @@
   {
     "id": 840,
     "requirements": {
-      "base save bonus": "Highest base save bonus must be lower than character level.<br />",
+      "base save bonus": "Highest base save bonus must be lower than character level.",
       "Special": " The path of the survivor requires a concentrated month of study to enter the prestige class. During this month, the character must stay in one place and spend all his waking hours in study, practice, and meditation."
     },
     "skill points": {
@@ -95977,8 +95977,8 @@
         "Vow of Purity"
       ],
       "gender": "Female",
-      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.<br />",
-      "special": ["The character must have the wild empathy class feature.<br />","Knowingly or not, a character must perform a great service for another swanmay before she can join the order."]
+      "Spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.",
+      "special": ["The character must have the wild empathy class feature.","Knowingly or not, a character must perform a great service for another swanmay before she can join the order."]
     },
     "skill points": {
       "base": 4,
@@ -96374,7 +96374,7 @@
     "requirements": {
       "base attack bonus": 3,
       "languages": "Draconic.",
-      "Spellcasting": "Ability to cast 3rd-level divine spells.<br />",
+      "Spellcasting": "Ability to cast 3rd-level divine spells.",
       "special": "Ability to turn undead."
     },
     "skill points": {
@@ -98733,7 +98733,7 @@
         "Knowledge (religion)",
         "Knowledge (the planes)"
       ],
-      "special": ["Ability to bind Tenebrous<br />","Ability to turn or rebuke undead<br />","Must worship Tenebrous as a god"]
+      "special": ["Ability to bind Tenebrous","Ability to turn or rebuke undead","Must worship Tenebrous as a god"]
     },
     "skill points": {
       "base": 2,
@@ -99150,7 +99150,7 @@
         "Intimidate",
         "Use Rope"
       ],
-      "special": ["Sneak attack damage +2d6.<br />","The character must qualify to select regional feats from Thay (Thay is his home region, or he has 2 ranks in Knowledge [local&#8212;Thay])."]
+      "special": ["Sneak attack damage +2d6.","The character must qualify to select regional feats from Thay (Thay is his home region, or he has 2 ranks in Knowledge [local&#8212;Thay])."]
     },
     "skill points": {
       "base": 4,
@@ -100743,7 +100743,7 @@
       "skills": [
         "Diplomacy"
       ],
-      "special": ["Must have adventured in at least two of the following areas: Aerenal, Argonnessen, Seren, Shargon's Teeth, the Thunder Sea, Xen'drik.<br />","Must speak at least one of the following languages: Aquan, Argon, Elven, Draconic, Drow, Giant, Sahuagin."]
+      "special": ["Must have adventured in at least two of the following areas: Aerenal, Argonnessen, Seren, Shargon's Teeth, the Thunder Sea, Xen'drik.","Must speak at least one of the following languages: Aquan, Argon, Elven, Draconic, Drow, Giant, Sahuagin."]
     },
     "skill points": {
       "base": 4,
@@ -100888,7 +100888,7 @@
         "Toughness"
       ],
       "type": "Undead.",
-      "Base Save Bonus": "Will +5.<br />",
+      "Base Save Bonus": "Will +5.",
       "special": "A tomb warden must dedicate itself to the protection of a tomb, graveyard, or similar resting place of the dead."
     },
     "skill points": {
@@ -100952,7 +100952,7 @@
       "feats": [
         "Quick Recovery"
       ],
-      "base will save": "+3 OR divine grace class feature.<br />",
+      "base will save": "+3 OR divine grace class feature.",
       "special": "Must be sponsored by an existing member and approved by a High Sunwarden of the order."
     },
     "skill points": {
@@ -101615,7 +101615,7 @@
         "Initiate of Tyr",
         "Endurance"
       ],
-      "patron deity": "Ilmater, Torm, and/or Tyr.<br />",
+      "patron deity": "Ilmater, Torm, and/or Tyr.",
       "special": "Aura of good class feature."
     },
     "skill points": {
@@ -102050,8 +102050,8 @@
       "feats": [
         "Spell Focus"
       ],
-      "spells": "Able to cast <a href=\"/spells/libris-mortis-the-book-of-the-dead--71/summon-undead-ii--1461/\">summon undead II</a> as a divine spell and <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> as an arcane spell.<br />",
-      "special": ["Able to rebuke undead.<br />","Access to the <a href=\"/spells/domains/death/\">Death</a> domain."]
+      "spells": "Able to cast <a href=\"/spells/libris-mortis-the-book-of-the-dead--71/summon-undead-ii--1461/\">summon undead II</a> as a divine spell and <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> as an arcane spell.",
+      "special": ["Able to rebuke undead.","Access to the <a href=\"/spells/domains/death/\">Death</a> domain."]
     },
     "skill points": {
       "base": 2,
@@ -102664,7 +102664,7 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "feats": "Any metamagic feat.<br />",
+      "feats": "Any metamagic feat.",
       "Spellcasting": " Able to spontaneously cast 1st-level arcane spells, able to prepare and cast 2nd-level arcane spells from a spellbook."
     },
     "skill points": {
@@ -102970,7 +102970,7 @@
         "Least Dragonmark",
         "Scribe Scroll"
       ],
-      "spellcasting": "Ability to prepare 3rd-level arcane spells or imbue 3rd-level infusions.<br />",
+      "spellcasting": "Ability to prepare 3rd-level arcane spells or imbue 3rd-level infusions.",
       "special": "Must have performed a task specified by the Viceroy of the Ninth College."
     },
     "skill points": {
@@ -103057,7 +103057,7 @@
   {
     "id": 899,
     "requirements": {
-      "skills": "Any four skills 8 ranks each.<br />",
+      "skills": "Any four skills 8 ranks each.",
       "Skill Tricks": " Any four."
     },
     "skill points": {
@@ -103731,7 +103731,7 @@
         "Iron Will",
         "Spell Focus"
       ],
-      "base save bonus": "Fort +3, Will +3.<br />",
+      "base save bonus": "Fort +3, Will +3.",
       "Special": " The character must have no ability to cast divine spells. If such spellcasting ability was previously possessed (as with an ex-cleric), that ability is forever forsaken. The character must be trained by another ur-priest."
     },
     "skill points": {
@@ -104420,7 +104420,7 @@
       "feats": [
         "Favored"
       ],
-      "special": ["Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks).<br />"," Must be a member in good standing of the League of Eyes or similar organizaion"]
+      "special": ["Bardic knowledge class ability (at DM's discretion, can be replaced by Knowledge (History 2 ranks)."," Must be a member in good standing of the League of Eyes or similar organizaion"]
     },
     "skill points": {
       "base": 6,
@@ -104733,7 +104733,7 @@
       "feats": [
         "Mounted Combat"
       ],
-      "special": ["Animal companion or special mount.<br />","Must be a member of House Vadalis."]
+      "special": ["Animal companion or special mount.","Must be a member of House Vadalis."]
     },
     "skill points": {
       "base": 6,
@@ -105542,7 +105542,7 @@
       "feats": [
         "Verminfriend"
       ],
-      "special": ["Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell.<br />"," The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."]
+      "special": ["Must be able to cast the <a href=\"/spells/players-handbook-v35--6/giant-vermin--2820/\"><em>Giant Vermin</em></a> spell."," The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin&#8212;a drider, chasme, gelugon, aranea, bebulith, phase spider, evil fromian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lord to-be. Of course, such a creature will demand service or payment in return."]
     },
     "skill points": {
       "base": 4,
@@ -107064,7 +107064,7 @@
       "feats": [
         "Heat Endurance"
       ],
-      "alignment": "Any nongood.<br />",
+      "alignment": "Any nongood.",
       "Spells": " Ability to cast at least three spells of the Sand or Thirst domain as divine spells."
     },
     "skill points": {
@@ -107762,7 +107762,7 @@
         "Widen Spell",
         "Martial Weapon Proficiency"
       ],
-      "alignment": "Any nonevil, nonchaotic.<br />",
+      "alignment": "Any nonevil, nonchaotic.",
       "Spellcasting": " Ability to cast 4th-level arcane spells."
     },
     "skill points": {
@@ -109795,7 +109795,7 @@
     "id": 945,
     "requirements": {
       "base attack bonus": 4,
-      "race": "Any (but see below).<br />",
+      "race": "Any (but see below).",
       "Special": " Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper."
     },
     "skill points": {
@@ -112501,7 +112501,7 @@
         "Alertness",
         "Track"
       ],
-      "meldshaping": "Meldshaper level 6th.<br />",
+      "meldshaping": "Meldshaper level 6th.",
       "special": "May not possess any arcane spellcasting class levels."
     },
     "skill points": {
@@ -114210,7 +114210,7 @@
       "skills": [
         "Concentration"
       ],
-      "manifesting": "Power point reserve of at least 2. <br />",
+      "manifesting": "Power point reserve of at least 2. ",
       "special": "Still mind class feature."
     },
     "skill points": {
