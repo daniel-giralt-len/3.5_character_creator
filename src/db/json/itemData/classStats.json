@@ -48122,7 +48122,7 @@
         "Iron Will"
       ],
       "race": "Any dragon.",
-      "natural armor bonus": "+20.",
+      "natural armor bonus": 20,
       "base save bonus": {
         "will": "12"
       }
@@ -51439,9 +51439,9 @@
         "Spellcraft"
       ],
       "feats": [
-        "Iron Will"
+        "Iron Will",
+        "Any metamagic feat"
       ],
-      "additional feats": "Any metamagic feat.",
       "spellcasting": " Able to cast 3rd-level arcane spells."
     },
     "skill points": {
@@ -53338,7 +53338,7 @@
         "Knowledge (religion)"
       ],
       "martial maneuvers": "Must know at least two martial maneuvers, including one strike.",
-      "martial stances": "Must know at least one martial stance.",
+      "martial stances": 1,
       "spells": "Ability to cast 2nd-level arcane spells."
     },
     "skill points": {
@@ -57576,7 +57576,7 @@
         "Mounted Combat",
         "Great Cleave"
       ],
-      "heavy armor proficiency": ".",
+      "heavy armor proficiency": true,
       "other": "Gain membership in the order."
     },
     "skill points": {
@@ -58524,7 +58524,7 @@
   "521": {
     "requirements": {
       "associated classes": "Any.",
-      "associated skills": "Concentration, Gather Information, Heal, Knowledge (history), Knowledge (local), Knowledge (religion).",
+      "associated skills": ["concentration"," gather information"," heal"," knowledge (history)"," knowledge (local)"," knowledge (religion)"],
       "dues": "The initiation fee is a one-time payment of 100 gp, donated to the affiliated temple housing the local Lightbringers chapter. Annual dues are also 100 gp, but the real cost of membership is a commitment to destroy a minimum number of undead each year. Each member sets his or her own limit, and is accountable only to the local chapter."
     },
     "advancement": [],
@@ -61060,7 +61060,10 @@
         "Weapon Focus",
         "Weapon Specialization"
       ],
-      "ability score": "Int 13+ (required for Expertise)."
+      "ability score": {
+        "value": 13,
+        "score": "INT"
+      }
     },
     "skill points": {
       "base": 4,
@@ -78369,7 +78372,7 @@
         "Knowledge (religion)"
       ],
       "martial maneuvers": "Must know at least one Devoted Spirit maneuver.",
-      "martial stancess": "Must know at least one Devoted Spirit stance.",
+      "martial stancess": {"oneOf": "Devoted Spirit"},
       "deity": "Wee Jas.",
       "special": "Ability to turn or rebuke undead."
     },
