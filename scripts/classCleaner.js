@@ -123,8 +123,11 @@ if(a===2){ //get sections
         [keys, ...rows] = advancement
         keys = keys.filter(k=>k&&k!=='')
 
-        const includesSpellcasting = v => v.includes('Spellcasting') || v.includes('Spells')
+        const includesSpellcasting = v => v.includes('Spellcasting') || v.includes('Spells') || v.includes('Infusions') || v.includes('Meldshaping') || v.includes('Utterances') 
 
+        if(keys.includes('Flurry') || keys.find(k=>k.includes('Table'))){ 
+            [keys, ...rows] = rows
+        }
         if(keys && rows[0] && keys.length < rows[0].length){
             let spellKeys
             [spellKeys, ...rows] = rows

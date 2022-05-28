@@ -5406,351 +5406,351 @@
     "skill points": "4 + Int",
     "advancement": [
       {
-        "infusions per day": "1st",
-        "level": "+0",
+        "level": "1st",
         "bab": "+0",
         "fort": "+0",
-        "ref": "+2",
-        "will": "Artificer knowledge, artisan bonus, disable trap, item creation, Scribe Scroll",
+        "ref": "+0",
+        "will": "+2",
         "special": [
-          "20"
+          "Artificer knowledge",
+          "artisan bonus",
+          "disable trap",
+          "item creation",
+          "Scribe Scroll"
         ],
-        "craft reserve": "2",
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;"
-      },
-      {
-        "infusions per day": "2nd",
-        "level": "+1",
-        "bab": "+0",
-        "fort": "+0",
-        "ref": "+3",
-        "will": "Brew Potion",
-        "special": [
-          "40"
-        ],
-        "craft reserve": "3",
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;"
-      },
-      {
-        "infusions per day": "3rd",
-        "level": "+2",
-        "bab": "+1",
-        "fort": "+1",
-        "ref": "+3",
-        "will": "Craft Wondrous Item",
-        "special": [
-          "60"
-        ],
-        "craft reserve": "3",
-        "1st": "1",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;"
-      },
-      {
-        "infusions per day": "4th",
-        "level": "+3",
-        "bab": "+1",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "Craft homunculus, bonus feat",
-        "special": [
-          "80"
-        ],
-        "craft reserve": "3",
+        "craft reserve": "20",
         "1st": "2",
         "2nd": "&#8212;",
         "3rd": "&#8212;",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "5th",
-        "level": "+3",
+        "level": "2nd",
         "bab": "+1",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "Craft Magic Arms and Armor, retain essence",
+        "fort": "+0",
+        "ref": "+0",
+        "will": "+3",
         "special": [
-          "100"
+          "Brew Potion"
         ],
-        "craft reserve": "3",
+        "craft reserve": "40",
+        "1st": "3",
+        "2nd": "&#8212;",
+        "3rd": "&#8212;",
+        "4th": "&#8212;",
+        "5th": "&#8212;",
+        "6th": "&#8212;"
+      },
+      {
+        "level": "3rd",
+        "bab": "+2",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+3",
+        "special": [
+          "Craft Wondrous Item"
+        ],
+        "craft reserve": "60",
         "1st": "3",
         "2nd": "1",
         "3rd": "&#8212;",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "6th",
-        "level": "+4",
-        "bab": "+2",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "Craft Wand",
+        "level": "4th",
+        "bab": "+3",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+4",
         "special": [
-          "150"
+          "Craft homunculus",
+          "bonus feat"
         ],
-        "craft reserve": "3",
+        "craft reserve": "80",
         "1st": "3",
         "2nd": "2",
         "3rd": "&#8212;",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "7th",
-        "level": "+5",
-        "bab": "+2",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "Metamagic spell trigger",
+        "level": "5th",
+        "bab": "+3",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+4",
         "special": [
-          "200"
+          "Craft Magic Arms and Armor",
+          "retain essence"
         ],
-        "craft reserve": "3",
-        "1st": "3",
-        "2nd": "2",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;"
-      },
-      {
-        "infusions per day": "8th",
-        "level": "+6/+1",
-        "bab": "+2",
-        "fort": "+2",
-        "ref": "+6",
-        "will": "Bonus feat",
-        "special": [
-          "250"
-        ],
-        "craft reserve": "3",
+        "craft reserve": "100",
         "1st": "3",
         "2nd": "3",
         "3rd": "1",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "9th",
-        "level": "+6/+1",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+6",
-        "will": "Craft Rod",
+        "level": "6th",
+        "bab": "+4",
+        "fort": "+2",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "300"
+          "Craft Wand"
         ],
-        "craft reserve": "3",
+        "craft reserve": "150",
         "1st": "3",
         "2nd": "3",
         "3rd": "2",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "10th",
-        "level": "+7/+2",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "&#8212;",
+        "level": "7th",
+        "bab": "+5",
+        "fort": "+2",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "400"
+          "Metamagic spell trigger"
         ],
-        "craft reserve": "3",
+        "craft reserve": "200",
         "1st": "3",
         "2nd": "3",
         "3rd": "2",
         "4th": "&#8212;",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "11th",
-        "level": "+8/+3",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "Metamagic spell completion",
+        "level": "8th",
+        "bab": "+6/+1",
+        "fort": "+2",
+        "ref": "+2",
+        "will": "+6",
         "special": [
-          "500"
+          "Bonus feat"
         ],
-        "craft reserve": "3",
+        "craft reserve": "250",
         "1st": "3",
         "2nd": "3",
-        "3rd": "2",
+        "3rd": "3",
         "4th": "1",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "12th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "Craft Staff, bonus feat",
+        "level": "9th",
+        "bab": "+6/+1",
+        "fort": "+3",
+        "ref": "+3",
+        "will": "+6",
         "special": [
-          "700"
+          "Craft Rod"
         ],
-        "craft reserve": "3",
-        "1st": "3",
-        "2nd": "3",
-        "3rd": "2",
-        "4th": "2",
-        "5th": "&#8212;"
-      },
-      {
-        "infusions per day": "13th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "Skill mastery",
-        "special": [
-          "900"
-        ],
-        "craft reserve": "3",
+        "craft reserve": "300",
         "1st": "3",
         "2nd": "3",
         "3rd": "3",
         "4th": "2",
-        "5th": "&#8212;"
+        "5th": "&#8212;",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "14th",
-        "level": "+10/+5",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+9",
-        "will": "Forge Ring",
+        "level": "10th",
+        "bab": "+7/+2",
+        "fort": "+3",
+        "ref": "+3",
+        "will": "+7",
         "special": [
-          "1",
-          "200"
+          "&#8212;"
         ],
-        "craft reserve": "4",
+        "craft reserve": "400",
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "3",
+        "4th": "2",
+        "5th": "&#8212;",
+        "6th": "&#8212;"
+      },
+      {
+        "level": "11th",
+        "bab": "+8/+3",
+        "fort": "+3",
+        "ref": "+3",
+        "will": "+7",
+        "special": [
+          "Metamagic spell completion"
+        ],
+        "craft reserve": "500",
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "3",
+        "4th": "2",
+        "5th": "1",
+        "6th": "&#8212;"
+      },
+      {
+        "level": "12th",
+        "bab": "+9/+4",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+8",
+        "special": [
+          "Craft Staff",
+          "bonus feat"
+        ],
+        "craft reserve": "700",
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "3",
+        "4th": "2",
+        "5th": "2",
+        "6th": "&#8212;"
+      },
+      {
+        "level": "13th",
+        "bab": "+9/+4",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+8",
+        "special": [
+          "Skill mastery"
+        ],
+        "craft reserve": "900",
         "1st": "3",
         "2nd": "3",
         "3rd": "3",
         "4th": "3",
-        "5th": "1"
+        "5th": "2",
+        "6th": "&#8212;"
       },
       {
-        "infusions per day": "15th",
-        "level": "+11/+6/+1",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+9",
-        "will": "&#8212;",
+        "level": "14th",
+        "bab": "+10/+5",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+9",
         "special": [
-          "1",
-          "500"
+          "Forge Ring"
         ],
-        "craft reserve": "4",
+        "craft reserve": "1,200",
         "1st": "4",
         "2nd": "3",
         "3rd": "3",
         "4th": "3",
-        "5th": "2"
+        "5th": "3",
+        "6th": "1"
       },
       {
-        "infusions per day": "16th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
+        "level": "15th",
+        "bab": "+11/+6/+1",
         "fort": "+5",
-        "ref": "+10",
-        "will": "Bonus feat",
+        "ref": "+5",
+        "will": "+9",
         "special": [
-          "2",
-          "000"
+          "&#8212;"
         ],
-        "craft reserve": "4",
+        "craft reserve": "1,500",
         "1st": "4",
         "2nd": "4",
         "3rd": "3",
         "4th": "3",
-        "5th": "2"
+        "5th": "3",
+        "6th": "2"
       },
       {
-        "infusions per day": "17th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
+        "level": "16th",
+        "bab": "+12/+7/+2",
         "fort": "+5",
-        "ref": "+10",
-        "will": "&#8212;",
+        "ref": "+5",
+        "will": "+10",
         "special": [
-          "2",
-          "500"
+          "Bonus feat"
         ],
-        "craft reserve": "4",
+        "craft reserve": "2,000",
         "1st": "4",
         "2nd": "4",
         "3rd": "4",
         "4th": "3",
-        "5th": "3"
+        "5th": "3",
+        "6th": "2"
       },
       {
-        "infusions per day": "18th",
-        "level": "+13/+8/+3",
-        "bab": "+6",
-        "fort": "+6",
-        "ref": "+11",
-        "will": "&#8212;",
+        "level": "17th",
+        "bab": "+12/+7/+2",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+10",
         "special": [
-          "3",
-          "000"
+          "&#8212;"
         ],
-        "craft reserve": "4",
+        "craft reserve": "2,500",
         "1st": "4",
         "2nd": "4",
         "3rd": "4",
         "4th": "4",
-        "5th": "3"
+        "5th": "3",
+        "6th": "3"
       },
       {
-        "infusions per day": "19th",
-        "level": "+14/+9/+4",
-        "bab": "+6",
+        "level": "18th",
+        "bab": "+13/+8/+3",
         "fort": "+6",
-        "ref": "+11",
-        "will": "&#8212;",
+        "ref": "+6",
+        "will": "+11",
         "special": [
-          "4",
-          "000"
+          "&#8212;"
         ],
-        "craft reserve": "4",
+        "craft reserve": "3,000",
         "1st": "4",
         "2nd": "4",
         "3rd": "4",
         "4th": "4",
-        "5th": "4"
+        "5th": "4",
+        "6th": "3"
       },
       {
-        "infusions per day": "20th",
-        "level": "+15/+10/+5",
-        "bab": "+6",
+        "level": "19th",
+        "bab": "+14/+9/+4",
         "fort": "+6",
-        "ref": "+12",
-        "will": "Bonus feat",
+        "ref": "+6",
+        "will": "+11",
         "special": [
-          "5",
-          "000"
+          "&#8212;"
         ],
-        "craft reserve": "4",
+        "craft reserve": "4,000",
         "1st": "4",
         "2nd": "4",
         "3rd": "4",
         "4th": "4",
-        "5th": "4"
+        "5th": "4",
+        "6th": "4"
+      },
+      {
+        "level": "20th",
+        "bab": "+15/+10/+5",
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+12",
+        "special": [
+          "Bonus feat"
+        ],
+        "craft reserve": "5,000",
+        "1st": "4",
+        "2nd": "4",
+        "3rd": "4",
+        "4th": "4",
+        "5th": "4",
+        "6th": "4"
       }
     ],
     "hit die": "d6",
@@ -18918,144 +18918,147 @@
     "skill points": "2 + Int",
     "advancement": [
       {
-        "infusions": "1st",
-        "level": "+0",
-        "bab": "+2",
-        "fort": "+0",
-        "ref": "+2",
-        "will": "Direction sense, dragonmark conduit (preservation), heir&#39;s mark",
+        "level": "1st",
+        "bab": "+0",
+        "fort": "+2",
+        "ref": "+0",
+        "will": "+2",
         "special": [
-          "&#8212;"
+          "Direction sense",
+          "dragonmark conduit (preservation)",
+          "heir&#39;s mark"
         ],
         "1st": "&#8212;",
         "2nd": "&#8212;",
-        "3rd": "&#8212;"
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
       },
       {
-        "infusions": "2nd",
-        "level": "+1",
-        "bab": "+3",
-        "fort": "+0",
-        "ref": "+3",
-        "will": "Shadow fighter",
+        "level": "2nd",
+        "bab": "+1",
+        "fort": "+3",
+        "ref": "+0",
+        "will": "+3",
         "special": [
-          "1"
-        ],
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;"
-      },
-      {
-        "infusions": "3rd",
-        "level": "+2",
-        "bab": "+3",
-        "fort": "+1",
-        "ref": "+3",
-        "will": "Detect magic",
-        "special": [
-          "2"
-        ],
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;"
-      },
-      {
-        "infusions": "4th",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "Improved direction sense",
-        "special": [
-          "3"
-        ],
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;"
-      },
-      {
-        "infusions": "5th",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "Dragonmark conduit (natural healing)",
-        "special": [
-          "3"
+          "Shadow fighter"
         ],
         "1st": "1",
         "2nd": "&#8212;",
-        "3rd": "&#8212;"
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
       },
       {
-        "infusions": "6th",
-        "level": "+4",
-        "bab": "+5",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "Tireless",
+        "level": "3rd",
+        "bab": "+2",
+        "fort": "+3",
+        "ref": "+1",
+        "will": "+3",
         "special": [
-          "3"
+          "Detect magic"
         ],
         "1st": "2",
         "2nd": "&#8212;",
-        "3rd": "&#8212;"
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
       },
       {
-        "infusions": "7th",
-        "level": "+5",
-        "bab": "+5",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "Blindsense mark, innate detect magic",
+        "level": "4th",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+1",
+        "will": "+4",
         "special": [
-          "3"
+          "Improved direction sense"
+        ],
+        "1st": "3",
+        "2nd": "&#8212;",
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
+      },
+      {
+        "level": "5th",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+1",
+        "will": "+4",
+        "special": [
+          "Dragonmark conduit (natural healing)"
         ],
         "1st": "3",
         "2nd": "1",
-        "3rd": "&#8212;"
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
       },
       {
-        "infusions": "8th",
-        "level": "+6",
-        "bab": "+6",
-        "fort": "+2",
-        "ref": "+6",
-        "will": "Natural survivor",
+        "level": "6th",
+        "bab": "+4",
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "3"
+          "Tireless"
         ],
         "1st": "3",
         "2nd": "2",
-        "3rd": "&#8212;"
+        "3rd": "&#8212;",
+        "4th": "&#8212;"
       },
       {
-        "infusions": "9th",
-        "level": "+6",
-        "bab": "+6",
-        "fort": "+3",
-        "ref": "+6",
-        "will": "Identify",
+        "level": "7th",
+        "bab": "+5",
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "3"
-        ],
-        "1st": "3",
-        "2nd": "2",
-        "3rd": "&#8212;"
-      },
-      {
-        "infusions": "10th",
-        "level": "+7",
-        "bab": "+7",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "Dragonmark conduit (magical healing)",
-        "special": [
-          "3"
+          "Blindsense mark",
+          "innate detect magic"
         ],
         "1st": "3",
         "2nd": "3",
-        "3rd": "1"
+        "3rd": "1",
+        "4th": "&#8212;"
+      },
+      {
+        "level": "8th",
+        "bab": "+6",
+        "fort": "+6",
+        "ref": "+2",
+        "will": "+6",
+        "special": [
+          "Natural survivor"
+        ],
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "2",
+        "4th": "&#8212;"
+      },
+      {
+        "level": "9th",
+        "bab": "+6",
+        "fort": "+6",
+        "ref": "+3",
+        "will": "+6",
+        "special": [
+          "Identify"
+        ],
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "2",
+        "4th": "&#8212;"
+      },
+      {
+        "level": "10th",
+        "bab": "+7",
+        "fort": "+7",
+        "ref": "+3",
+        "will": "+7",
+        "special": [
+          "Dragonmark conduit (magical healing)"
+        ],
+        "1st": "3",
+        "2nd": "3",
+        "3rd": "3",
+        "4th": "1"
       }
     ],
     "hit die": "d8",
@@ -27032,84 +27035,105 @@
     "skill points": "4 + Int",
     "advancement": [
       {
-        "table 2-14: the dragon rider": "1",
-        "level": "+0",
-        "bab": "+2",
+        "level": "1",
+        "bab": "+0",
         "fort": "+2",
-        "ref": "+0",
-        "will": "Dragon cohort, mounted attack"
+        "ref": "+2",
+        "will": "+0",
+        "special": [
+          "Dragon cohort",
+          "mounted attack"
+        ]
       },
       {
-        "table 2-14: the dragon rider": "2",
-        "level": "+1",
-        "bab": "+3",
+        "level": "2",
+        "bab": "+1",
         "fort": "+3",
-        "ref": "+0",
-        "will": "Dragon feat"
-      },
-      {
-        "table 2-14: the dragon rider": "3",
-        "level": "+2",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+1",
-        "will": "Empathic communication"
-      },
-      {
-        "table 2-14: the dragon rider": "4",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+1",
-        "will": ""
-      },
-      {
-        "table 2-14: the dragon rider": "5",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+1",
-        "will": "Dragon feat"
-      },
-      {
-        "table 2-14: the dragon rider": "6",
-        "level": "+4",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+2",
-        "will": "Inspire fear"
-      },
-      {
-        "table 2-14: the dragon rider": "7",
-        "level": "+5",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+2",
-        "will": "Directed attacks"
-      },
-      {
-        "table 2-14: the dragon rider": "8",
-        "level": "+6",
-        "bab": "+6",
-        "fort": "+6",
-        "ref": "+2",
-        "will": "Defensive tactics"
-      },
-      {
-        "table 2-14: the dragon rider": "9",
-        "level": "+6",
-        "bab": "+6",
-        "fort": "+6",
         "ref": "+3",
-        "will": "Dragon feat"
+        "will": "+0",
+        "special": [
+          "Dragon feat"
+        ]
       },
       {
-        "table 2-14: the dragon rider": "10",
-        "level": "+7",
+        "level": "3",
+        "bab": "+2",
+        "fort": "+3",
+        "ref": "+3",
+        "will": "+1",
+        "special": [
+          "Empathic communication"
+        ]
+      },
+      {
+        "level": "4",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+1",
+        "special": [
+          ""
+        ]
+      },
+      {
+        "level": "5",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+1",
+        "special": [
+          "Dragon feat"
+        ]
+      },
+      {
+        "level": "6",
+        "bab": "+4",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+2",
+        "special": [
+          "Inspire fear"
+        ]
+      },
+      {
+        "level": "7",
+        "bab": "+5",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+2",
+        "special": [
+          "Directed attacks"
+        ]
+      },
+      {
+        "level": "8",
+        "bab": "+6",
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+2",
+        "special": [
+          "Defensive tactics"
+        ]
+      },
+      {
+        "level": "9",
+        "bab": "+6",
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+3",
+        "special": [
+          "Dragon feat"
+        ]
+      },
+      {
+        "level": "10",
         "bab": "+7",
         "fort": "+7",
-        "ref": "+3",
-        "will": "Defensive teamwork"
+        "ref": "+7",
+        "will": "+3",
+        "special": [
+          "Defensive teamwork"
+        ]
       }
     ],
     "hit die": "d8",
@@ -60511,284 +60535,275 @@
     "skill points": "4 + Int",
     "advancement": [
       {
-        "flurry": "1st",
-        "unarmed": "+0",
-        "ac": "+2",
-        "unarmored": "+2",
-        "level": "+2",
-        "bab": "Bonus feat, flurry of blows, unarmed strike",
-        "fort": "&#8212;2/&#8212;2",
-        "ref": "1d6",
-        "will": "+0",
-        "special": [
-          "+0 ft"
-        ]
-      },
-      {
-        "flurry": "2nd",
-        "unarmed": "+1",
-        "ac": "+3",
-        "unarmored": "+3",
-        "level": "+3",
-        "bab": "Bonus feat, evasion",
-        "fort": "&#8212;1/&#8212;1",
-        "ref": "1d6",
-        "will": "+0",
-        "special": [
-          "+0 ft"
-        ]
-      },
-      {
-        "flurry": "3rd",
-        "unarmed": "+2",
-        "ac": "+3",
-        "unarmored": "+3",
-        "level": "+3",
-        "bab": "Still mind",
-        "fort": "+0/+0",
-        "ref": "1d6",
-        "will": "+0",
-        "special": [
-          "+10 ft"
-        ]
-      },
-      {
-        "flurry": "4th",
-        "unarmed": "+3",
-        "ac": "+4",
-        "unarmored": "+4",
-        "level": "+4",
-        "bab": "Ki strike (magic), slow fall 20 ft.",
-        "fort": "+1/+1",
-        "ref": "1d8",
-        "will": "+0",
-        "special": [
-          "+10 ft"
-        ]
-      },
-      {
-        "flurry": "5th",
-        "unarmed": "+3",
-        "ac": "+4",
-        "unarmored": "+4",
-        "level": "+4",
-        "bab": "Purity of body",
-        "fort": "+2/+2",
-        "ref": "1d8",
-        "will": "+1",
-        "special": [
-          "+10 ft"
-        ]
-      },
-      {
-        "flurry": "6th",
-        "unarmed": "+4",
-        "ac": "+5",
-        "unarmored": "+5",
-        "level": "+5",
-        "bab": "Bonus feat, slow fall 30 ft.",
-        "fort": "+3/+3",
-        "ref": "1d8",
-        "will": "+1",
-        "special": [
-          "+20 ft"
-        ]
-      },
-      {
-        "flurry": "7th",
-        "unarmed": "+5",
-        "ac": "+5",
-        "unarmored": "+5",
-        "level": "+5",
-        "bab": "Wholeness of body",
-        "fort": "+4/+4",
-        "ref": "1d8",
-        "will": "+1",
-        "special": [
-          "+20 ft"
-        ]
-      },
-      {
-        "flurry": "8th",
-        "unarmed": "+6/+1",
-        "ac": "+6",
-        "unarmored": "+6",
-        "level": "+6",
-        "bab": "Slow fall 40 ft.",
-        "fort": "+5/+5/+0",
-        "ref": "1d10",
-        "will": "+1",
-        "special": [
-          "+20 ft"
-        ]
-      },
-      {
-        "flurry": "9th",
-        "unarmed": "+6/+1",
-        "ac": "+6",
-        "unarmored": "+6",
-        "level": "+6",
-        "bab": "Improved evasion",
-        "fort": "+6/+6/+1",
-        "ref": "1d10",
-        "will": "+1",
-        "special": [
-          "+30 ft"
-        ]
-      },
-      {
-        "flurry": "10th",
-        "unarmed": "+7/+2",
-        "ac": "+7",
-        "unarmored": "+7",
-        "level": "+7",
-        "bab": "Ki strike (lawful), slow fall 50 ft.",
-        "fort": "+7/+7/+2",
-        "ref": "1d10",
+        "level": "1st",
+        "bab": "&#8212;2/&#8212;2",
+        "fort": "+2",
+        "ref": "+2",
         "will": "+2",
         "special": [
-          "+30 ft"
-        ]
+          "Bonus feat",
+          "flurry of blows",
+          "unarmed strike"
+        ],
+        "damage": "1d6",
+        "bonus": "+0",
+        "speed bonus": "+0 ft"
       },
       {
-        "flurry": "11th",
-        "unarmed": "+8/+3",
-        "ac": "+7",
-        "unarmored": "+7",
-        "level": "+7",
-        "bab": "Diamond body, greater flurry",
-        "fort": "+8/+8/+8/+3",
-        "ref": "1d10",
-        "will": "+2",
-        "special": [
-          "+30 ft"
-        ]
-      },
-      {
-        "flurry": "12th",
-        "unarmed": "+9/+4",
-        "ac": "+8",
-        "unarmored": "+8",
-        "level": "+8",
-        "bab": "Abundant step, slow fall 60 ft.",
-        "fort": "+9/+9/+9/+4",
-        "ref": "2d6",
-        "will": "+2",
-        "special": [
-          "+40 ft"
-        ]
-      },
-      {
-        "flurry": "13th",
-        "unarmed": "+9/+4",
-        "ac": "+8",
-        "unarmored": "+8",
-        "level": "+8",
-        "bab": "Diamond soul",
-        "fort": "+9/+9/+9/+4",
-        "ref": "2d6",
-        "will": "+2",
-        "special": [
-          "+40 ft"
-        ]
-      },
-      {
-        "flurry": "14th",
-        "unarmed": "+10/+5",
-        "ac": "+9",
-        "unarmored": "+9",
-        "level": "+9",
-        "bab": "Slow fall 70 ft.",
-        "fort": "+10/+10/+10/+5",
-        "ref": "2d6",
-        "will": "+2",
-        "special": [
-          "+40 ft"
-        ]
-      },
-      {
-        "flurry": "15th",
-        "unarmed": "+11/+6/+1",
-        "ac": "+9",
-        "unarmored": "+9",
-        "level": "+9",
-        "bab": "Quivering palm",
-        "fort": "+11/+11/+11/+6/+1",
-        "ref": "2d6",
+        "level": "2nd",
+        "bab": "&#8212;1/&#8212;1",
+        "fort": "+3",
+        "ref": "+3",
         "will": "+3",
         "special": [
-          "+50 ft"
-        ]
+          "Bonus feat",
+          "evasion"
+        ],
+        "damage": "1d6",
+        "bonus": "+0",
+        "speed bonus": "+0 ft"
       },
       {
-        "flurry": "16th",
-        "unarmed": "+12/+7/+2",
-        "ac": "+10",
-        "unarmored": "+10",
-        "level": "+10",
-        "bab": "Ki strike (adamantine), slow fall 80 ft.",
-        "fort": "+12/+12/+12/+7/+2",
-        "ref": "2d8",
+        "level": "3rd",
+        "bab": "+0/+0",
+        "fort": "+3",
+        "ref": "+3",
         "will": "+3",
         "special": [
-          "+50 ft"
-        ]
+          "Still mind"
+        ],
+        "damage": "1d6",
+        "bonus": "+0",
+        "speed bonus": "+10 ft"
       },
       {
-        "flurry": "17th",
-        "unarmed": "+12/+7/+2",
-        "ac": "+10",
-        "unarmored": "+10",
-        "level": "+10",
-        "bab": "Timeless body, tongue of the sun and moon",
-        "fort": "+12/+12/+12/+7/+2",
-        "ref": "2d8",
-        "will": "+3",
-        "special": [
-          "+50 ft"
-        ]
-      },
-      {
-        "flurry": "18th",
-        "unarmed": "+13/+8/+3",
-        "ac": "+11",
-        "unarmored": "+11",
-        "level": "+11",
-        "bab": "Slow fall 90 ft.",
-        "fort": "+13/+13/+13/+8/+3",
-        "ref": "2d8",
-        "will": "+3",
-        "special": [
-          "+60 ft"
-        ]
-      },
-      {
-        "flurry": "19th",
-        "unarmed": "+14/+9/+4",
-        "ac": "+11",
-        "unarmored": "+11",
-        "level": "+11",
-        "bab": "Empty body",
-        "fort": "+14/+14/+14/+9/+4",
-        "ref": "2d8",
-        "will": "+3",
-        "special": [
-          "+60 ft"
-        ]
-      },
-      {
-        "flurry": "20th",
-        "unarmed": "+15/+10/+5",
-        "ac": "+12",
-        "unarmored": "+12",
-        "level": "+12",
-        "bab": "Perfect self, slow fall any distance",
-        "fort": "+15/+15/+15/+10/+5",
-        "ref": "2d10",
+        "level": "4th",
+        "bab": "+1/+1",
+        "fort": "+4",
+        "ref": "+4",
         "will": "+4",
         "special": [
-          "+60 ft"
-        ]
+          "Ki strike (magic)",
+          "slow fall 20 ft."
+        ],
+        "damage": "1d8",
+        "bonus": "+0",
+        "speed bonus": "+10 ft"
+      },
+      {
+        "level": "5th",
+        "bab": "+2/+2",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+4",
+        "special": [
+          "Purity of body"
+        ],
+        "damage": "1d8",
+        "bonus": "+1",
+        "speed bonus": "+10 ft"
+      },
+      {
+        "level": "6th",
+        "bab": "+3/+3",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+5",
+        "special": [
+          "Bonus feat",
+          "slow fall 30 ft."
+        ],
+        "damage": "1d8",
+        "bonus": "+1",
+        "speed bonus": "+20 ft"
+      },
+      {
+        "level": "7th",
+        "bab": "+4/+4",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+5",
+        "special": [
+          "Wholeness of body"
+        ],
+        "damage": "1d8",
+        "bonus": "+1",
+        "speed bonus": "+20 ft"
+      },
+      {
+        "level": "8th",
+        "bab": "+5/+5/+0",
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+6",
+        "special": [
+          "Slow fall 40 ft."
+        ],
+        "damage": "1d10",
+        "bonus": "+1",
+        "speed bonus": "+20 ft"
+      },
+      {
+        "level": "9th",
+        "bab": "+6/+6/+1",
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+6",
+        "special": [
+          "Improved evasion"
+        ],
+        "damage": "1d10",
+        "bonus": "+1",
+        "speed bonus": "+30 ft"
+      },
+      {
+        "level": "10th",
+        "bab": "+7/+7/+2",
+        "fort": "+7",
+        "ref": "+7",
+        "will": "+7",
+        "special": [
+          "Ki strike (lawful)",
+          "slow fall 50 ft."
+        ],
+        "damage": "1d10",
+        "bonus": "+2",
+        "speed bonus": "+30 ft"
+      },
+      {
+        "level": "11th",
+        "bab": "+8/+8/+8/+3",
+        "fort": "+7",
+        "ref": "+7",
+        "will": "+7",
+        "special": [
+          "Diamond body",
+          "greater flurry"
+        ],
+        "damage": "1d10",
+        "bonus": "+2",
+        "speed bonus": "+30 ft"
+      },
+      {
+        "level": "12th",
+        "bab": "+9/+9/+9/+4",
+        "fort": "+8",
+        "ref": "+8",
+        "will": "+8",
+        "special": [
+          "Abundant step",
+          "slow fall 60 ft."
+        ],
+        "damage": "2d6",
+        "bonus": "+2",
+        "speed bonus": "+40 ft"
+      },
+      {
+        "level": "13th",
+        "bab": "+9/+9/+9/+4",
+        "fort": "+8",
+        "ref": "+8",
+        "will": "+8",
+        "special": [
+          "Diamond soul"
+        ],
+        "damage": "2d6",
+        "bonus": "+2",
+        "speed bonus": "+40 ft"
+      },
+      {
+        "level": "14th",
+        "bab": "+10/+10/+10/+5",
+        "fort": "+9",
+        "ref": "+9",
+        "will": "+9",
+        "special": [
+          "Slow fall 70 ft."
+        ],
+        "damage": "2d6",
+        "bonus": "+2",
+        "speed bonus": "+40 ft"
+      },
+      {
+        "level": "15th",
+        "bab": "+11/+11/+11/+6/+1",
+        "fort": "+9",
+        "ref": "+9",
+        "will": "+9",
+        "special": [
+          "Quivering palm"
+        ],
+        "damage": "2d6",
+        "bonus": "+3",
+        "speed bonus": "+50 ft"
+      },
+      {
+        "level": "16th",
+        "bab": "+12/+12/+12/+7/+2",
+        "fort": "+10",
+        "ref": "+10",
+        "will": "+10",
+        "special": [
+          "Ki strike (adamantine)",
+          "slow fall 80 ft."
+        ],
+        "damage": "2d8",
+        "bonus": "+3",
+        "speed bonus": "+50 ft"
+      },
+      {
+        "level": "17th",
+        "bab": "+12/+12/+12/+7/+2",
+        "fort": "+10",
+        "ref": "+10",
+        "will": "+10",
+        "special": [
+          "Timeless body",
+          "tongue of the sun and moon"
+        ],
+        "damage": "2d8",
+        "bonus": "+3",
+        "speed bonus": "+50 ft"
+      },
+      {
+        "level": "18th",
+        "bab": "+13/+13/+13/+8/+3",
+        "fort": "+11",
+        "ref": "+11",
+        "will": "+11",
+        "special": [
+          "Slow fall 90 ft."
+        ],
+        "damage": "2d8",
+        "bonus": "+3",
+        "speed bonus": "+60 ft"
+      },
+      {
+        "level": "19th",
+        "bab": "+14/+14/+14/+9/+4",
+        "fort": "+11",
+        "ref": "+11",
+        "will": "+11",
+        "special": [
+          "Empty body"
+        ],
+        "damage": "2d8",
+        "bonus": "+3",
+        "speed bonus": "+60 ft"
+      },
+      {
+        "level": "20th",
+        "bab": "+15/+15/+15/+10/+5",
+        "fort": "+12",
+        "ref": "+12",
+        "will": "+12",
+        "special": [
+          "Perfect self",
+          "slow fall any distance"
+        ],
+        "damage": "2d10",
+        "bonus": "+4",
+        "speed bonus": "+60 ft"
       }
     ],
     "hit die": "d8",
@@ -62108,76 +62123,15 @@
     "skill points": "2 + Int",
     "advancement": [
       {
-        "table 2-2:the mystic": "1st",
-        "level": "+0",
-        "bab": "+2",
-        "fort": "+0",
-        "ref": "+2",
-        "will": "Domain",
+        "level": "1st",
+        "bab": "+0",
+        "fort": "+2",
+        "ref": "+0",
+        "will": "+2",
         "special": [
-          "5"
-        ],
-        "0th": "3",
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;",
-        "6th": "&#8212;",
-        "7th": "&#8212;",
-        "8th": "&#8212;"
-      },
-      {
-        "table 2-2:the mystic": "2nd",
-        "level": "+1",
-        "bab": "+3",
-        "fort": "+0",
-        "ref": "+3",
-        "will": "",
-        "special": [
-          "6"
-        ],
-        "0th": "4",
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;",
-        "6th": "&#8212;",
-        "7th": "&#8212;",
-        "8th": "&#8212;"
-      },
-      {
-        "table 2-2:the mystic": "3rd",
-        "level": "+2",
-        "bab": "+3",
-        "fort": "+1",
-        "ref": "+3",
-        "will": "",
-        "special": [
-          "6"
+          "Domain"
         ],
         "0th": "5",
-        "1st": "&#8212;",
-        "2nd": "&#8212;",
-        "3rd": "&#8212;",
-        "4th": "&#8212;",
-        "5th": "&#8212;",
-        "6th": "&#8212;",
-        "7th": "&#8212;",
-        "8th": "&#8212;"
-      },
-      {
-        "table 2-2:the mystic": "4th",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "",
-        "special": [
-          "6"
-        ],
-        "0th": "6",
         "1st": "3",
         "2nd": "&#8212;",
         "3rd": "&#8212;",
@@ -62185,17 +62139,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "5th",
-        "level": "+3",
-        "bab": "+4",
-        "fort": "+1",
-        "ref": "+4",
-        "will": "",
+        "level": "2nd",
+        "bab": "+1",
+        "fort": "+3",
+        "ref": "+0",
+        "will": "+3",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "4",
@@ -62205,37 +62159,57 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "6th",
-        "level": "+4",
-        "bab": "+5",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "",
+        "level": "3rd",
+        "bab": "+2",
+        "fort": "+3",
+        "ref": "+1",
+        "will": "+3",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "5",
+        "2nd": "&#8212;",
+        "3rd": "&#8212;",
+        "4th": "&#8212;",
+        "5th": "&#8212;",
+        "6th": "&#8212;",
+        "7th": "&#8212;",
+        "8th": "&#8212;",
+        "9th": "&#8212;"
+      },
+      {
+        "level": "4th",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+1",
+        "will": "+4",
+        "special": [
+          ""
+        ],
+        "0th": "6",
+        "1st": "6",
         "2nd": "3",
         "3rd": "&#8212;",
         "4th": "&#8212;",
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "7th",
-        "level": "+5",
-        "bab": "+5",
-        "fort": "+2",
-        "ref": "+5",
-        "will": "",
+        "level": "5th",
+        "bab": "+3",
+        "fort": "+4",
+        "ref": "+1",
+        "will": "+4",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62245,17 +62219,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "8th",
-        "level": "+6/+1",
-        "bab": "+6",
-        "fort": "+2",
-        "ref": "+6",
-        "will": "",
+        "level": "6th",
+        "bab": "+4",
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62265,17 +62239,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "9th",
-        "level": "+6/+1",
-        "bab": "+6",
-        "fort": "+3",
-        "ref": "+6",
-        "will": "",
+        "level": "7th",
+        "bab": "+5",
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+5",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62285,17 +62259,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "10th",
-        "level": "+7/+2",
-        "bab": "+7",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "",
+        "level": "8th",
+        "bab": "+6/+1",
+        "fort": "+6",
+        "ref": "+2",
+        "will": "+6",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62305,17 +62279,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "11th",
-        "level": "+8/+3",
-        "bab": "+7",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "",
+        "level": "9th",
+        "bab": "+6/+1",
+        "fort": "+6",
+        "ref": "+3",
+        "will": "+6",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62325,17 +62299,17 @@
         "5th": "&#8212;",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "12th",
-        "level": "+9/+4",
-        "bab": "+8",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "",
+        "level": "10th",
+        "bab": "+7/+2",
+        "fort": "+7",
+        "ref": "+3",
+        "will": "+7",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62345,17 +62319,17 @@
         "5th": "3",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "13th",
-        "level": "+9/+4",
-        "bab": "+8",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "",
+        "level": "11th",
+        "bab": "+8/+3",
+        "fort": "+7",
+        "ref": "+3",
+        "will": "+7",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62365,17 +62339,17 @@
         "5th": "4",
         "6th": "&#8212;",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "14th",
-        "level": "+10/+5",
-        "bab": "+9",
-        "fort": "+4",
-        "ref": "+9",
-        "will": "",
+        "level": "12th",
+        "bab": "+9/+4",
+        "fort": "+8",
+        "ref": "+4",
+        "will": "+8",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62385,17 +62359,17 @@
         "5th": "5",
         "6th": "3",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "15th",
-        "level": "+11/+6/+1",
-        "bab": "+9",
-        "fort": "+5",
-        "ref": "+9",
-        "will": "",
+        "level": "13th",
+        "bab": "+9/+4",
+        "fort": "+8",
+        "ref": "+4",
+        "will": "+8",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62405,17 +62379,17 @@
         "5th": "6",
         "6th": "4",
         "7th": "&#8212;",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "16th",
-        "level": "+12/+7/+2",
-        "bab": "+10",
-        "fort": "+5",
-        "ref": "+10",
-        "will": "",
+        "level": "14th",
+        "bab": "+10/+5",
+        "fort": "+9",
+        "ref": "+4",
+        "will": "+9",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62425,17 +62399,17 @@
         "5th": "6",
         "6th": "5",
         "7th": "3",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "17th",
-        "level": "+12/+7/+2",
-        "bab": "+10",
-        "fort": "+5",
-        "ref": "+10",
-        "will": "",
+        "level": "15th",
+        "bab": "+11/+6/+1",
+        "fort": "+9",
+        "ref": "+5",
+        "will": "+9",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62445,17 +62419,17 @@
         "5th": "6",
         "6th": "6",
         "7th": "4",
-        "8th": "&#8212;"
+        "8th": "&#8212;",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "18th",
-        "level": "+13/+8/+3",
-        "bab": "+11",
-        "fort": "+6",
-        "ref": "+11",
-        "will": "",
+        "level": "16th",
+        "bab": "+12/+7/+2",
+        "fort": "+10",
+        "ref": "+5",
+        "will": "+10",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62465,17 +62439,17 @@
         "5th": "6",
         "6th": "6",
         "7th": "5",
-        "8th": "3"
+        "8th": "3",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "19th",
-        "level": "+14/+9/+4",
-        "bab": "+11",
-        "fort": "+6",
-        "ref": "+11",
-        "will": "",
+        "level": "17th",
+        "bab": "+12/+7/+2",
+        "fort": "+10",
+        "ref": "+5",
+        "will": "+10",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62485,17 +62459,17 @@
         "5th": "6",
         "6th": "6",
         "7th": "6",
-        "8th": "4"
+        "8th": "4",
+        "9th": "&#8212;"
       },
       {
-        "table 2-2:the mystic": "20th",
-        "level": "+15/+10/+5",
-        "bab": "+12",
-        "fort": "+6",
-        "ref": "+12",
-        "will": "",
+        "level": "18th",
+        "bab": "+13/+8/+3",
+        "fort": "+11",
+        "ref": "+6",
+        "will": "+11",
         "special": [
-          "6"
+          ""
         ],
         "0th": "6",
         "1st": "6",
@@ -62505,7 +62479,48 @@
         "5th": "6",
         "6th": "6",
         "7th": "6",
-        "8th": "6"
+        "8th": "5",
+        "9th": "3"
+      },
+      {
+        "level": "19th",
+        "bab": "+14/+9/+4",
+        "fort": "+11",
+        "ref": "+6",
+        "will": "+11",
+        "special": [
+          ""
+        ],
+        "0th": "6",
+        "1st": "6",
+        "2nd": "6",
+        "3rd": "6",
+        "4th": "6",
+        "5th": "6",
+        "6th": "6",
+        "7th": "6",
+        "8th": "6",
+        "9th": "4"
+      },
+      {
+        "level": "20th",
+        "bab": "+15/+10/+5",
+        "fort": "+12",
+        "ref": "+6",
+        "will": "+12",
+        "special": [
+          ""
+        ],
+        "0th": "6",
+        "1st": "6",
+        "2nd": "6",
+        "3rd": "6",
+        "4th": "6",
+        "5th": "6",
+        "6th": "6",
+        "7th": "6",
+        "8th": "6",
+        "9th": "6"
       }
     ],
     "hit die": "d8",
@@ -64738,164 +64753,208 @@
     "skill points": "4 + Int",
     "advancement": [
       {
-        "table 2-4: the noble": "1st",
-        "level": "+0",
+        "level": "1st",
         "bab": "+0",
-        "fort": "+2",
+        "fort": "+0",
         "ref": "+2",
-        "will": "Bonus class skill, favor +1"
+        "will": "+2",
+        "special": [
+          "Bonus class skill",
+          "favor +1"
+        ]
       },
       {
-        "table 2-4: the noble": "2nd",
-        "level": "+1",
-        "bab": "+0",
-        "fort": "+3",
+        "level": "2nd",
+        "bab": "+1",
+        "fort": "+0",
         "ref": "+3",
-        "will": "Inspire confidence 1/day"
+        "will": "+3",
+        "special": [
+          "Inspire confidence 1/day"
+        ]
       },
       {
-        "table 2-4: the noble": "3rd",
-        "level": "+2",
-        "bab": "+1",
-        "fort": "+3",
+        "level": "3rd",
+        "bab": "+2",
+        "fort": "+1",
         "ref": "+3",
-        "will": "Favor +2"
+        "will": "+3",
+        "special": [
+          "Favor +2"
+        ]
       },
       {
-        "table 2-4: the noble": "4th",
-        "level": "+3",
-        "bab": "+1",
-        "fort": "+4",
+        "level": "4th",
+        "bab": "+3",
+        "fort": "+1",
         "ref": "+4",
-        "will": "Coordinate +1"
+        "will": "+4",
+        "special": [
+          "Coordinate +1"
+        ]
       },
       {
-        "table 2-4: the noble": "5th",
-        "level": "+3",
-        "bab": "+1",
-        "fort": "+4",
+        "level": "5th",
+        "bab": "+3",
+        "fort": "+1",
         "ref": "+4",
-        "will": "Inspire confidence 2/day"
+        "will": "+4",
+        "special": [
+          "Inspire confidence 2/day"
+        ]
       },
       {
-        "table 2-4: the noble": "6th",
-        "level": "+4",
-        "bab": "+2",
-        "fort": "+5",
+        "level": "6th",
+        "bab": "+4",
+        "fort": "+2",
         "ref": "+5",
-        "will": ""
+        "will": "+5",
+        "special": [
+          ""
+        ]
       },
       {
-        "table 2-4: the noble": "7th",
-        "level": "+5",
-        "bab": "+2",
-        "fort": "+5",
+        "level": "7th",
+        "bab": "+5",
+        "fort": "+2",
         "ref": "+5",
-        "will": "Favor +3"
+        "will": "+5",
+        "special": [
+          "Favor +3"
+        ]
       },
       {
-        "table 2-4: the noble": "8th",
-        "level": "+6/+1",
-        "bab": "+2",
-        "fort": "+6",
+        "level": "8th",
+        "bab": "+6/+1",
+        "fort": "+2",
         "ref": "+6",
-        "will": "Coordinate +2"
+        "will": "+6",
+        "special": [
+          "Coordinate +2"
+        ]
       },
       {
-        "table 2-4: the noble": "9th",
-        "level": "+6/+1",
-        "bab": "+3",
-        "fort": "+6",
+        "level": "9th",
+        "bab": "+6/+1",
+        "fort": "+3",
         "ref": "+6",
-        "will": "Inspire confidence 3/day"
+        "will": "+6",
+        "special": [
+          "Inspire confidence 3/day"
+        ]
       },
       {
-        "table 2-4: the noble": "10th",
-        "level": "+7/+2",
-        "bab": "+3",
-        "fort": "+7",
+        "level": "10th",
+        "bab": "+7/+2",
+        "fort": "+3",
         "ref": "+7",
-        "will": ""
+        "will": "+7",
+        "special": [
+          ""
+        ]
       },
       {
-        "table 2-4: the noble": "11th",
-        "level": "+8/+3",
-        "bab": "+3",
-        "fort": "+7",
+        "level": "11th",
+        "bab": "+8/+3",
+        "fort": "+3",
         "ref": "+7",
-        "will": "Inspire greatness (1 ally)"
+        "will": "+7",
+        "special": [
+          "Inspire greatness (1 ally)"
+        ]
       },
       {
-        "table 2-4: the noble": "12th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+8",
+        "level": "12th",
+        "bab": "+9/+4",
+        "fort": "+4",
         "ref": "+8",
-        "will": "Favor +4"
+        "will": "+8",
+        "special": [
+          "Favor +4"
+        ]
       },
       {
-        "table 2-4: the noble": "13th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+8",
+        "level": "13th",
+        "bab": "+9/+4",
+        "fort": "+4",
         "ref": "+8",
-        "will": "Coordinate +3, inspire confidence 4/day"
+        "will": "+8",
+        "special": [
+          "Coordinate +3",
+          "inspire confidence 4/day"
+        ]
       },
       {
-        "table 2-4: the noble": "14th",
-        "level": "+10/ +5",
-        "bab": "+4",
-        "fort": "+9",
+        "level": "14th",
+        "bab": "+10/ +5",
+        "fort": "+4",
         "ref": "+9",
-        "will": "Inspire greatness (2 allies)"
+        "will": "+9",
+        "special": [
+          "Inspire greatness (2 allies)"
+        ]
       },
       {
-        "table 2-4: the noble": "15th",
-        "level": "+11/+6/+1",
-        "bab": "+5",
-        "fort": "+9",
+        "level": "15th",
+        "bab": "+11/+6/+1",
+        "fort": "+5",
         "ref": "+9",
-        "will": ""
+        "will": "+9",
+        "special": [
+          ""
+        ]
       },
       {
-        "table 2-4: the noble": "16th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
-        "fort": "+10",
+        "level": "16th",
+        "bab": "+12/+7/+2",
+        "fort": "+5",
         "ref": "+10",
-        "will": "Favor +5"
+        "will": "+10",
+        "special": [
+          "Favor +5"
+        ]
       },
       {
-        "table 2-4: the noble": "17th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
-        "fort": "+10",
+        "level": "17th",
+        "bab": "+12/+7/+2",
+        "fort": "+5",
         "ref": "+10",
-        "will": "Inspire confidence 5/day, inspire greatness (3 allies)"
+        "will": "+10",
+        "special": [
+          "Inspire confidence 5/day",
+          "inspire greatness (3 allies)"
+        ]
       },
       {
-        "table 2-4: the noble": "18th",
-        "level": "+13/+8/+3",
-        "bab": "+6",
-        "fort": "+11",
+        "level": "18th",
+        "bab": "+13/+8/+3",
+        "fort": "+6",
         "ref": "+11",
-        "will": "Coordinate +4"
+        "will": "+11",
+        "special": [
+          "Coordinate +4"
+        ]
       },
       {
-        "table 2-4: the noble": "19th",
-        "level": "+14/+9/+4",
-        "bab": "+6",
-        "fort": "+11",
+        "level": "19th",
+        "bab": "+14/+9/+4",
+        "fort": "+6",
         "ref": "+11",
-        "will": ""
+        "will": "+11",
+        "special": [
+          ""
+        ]
       },
       {
-        "table 2-4: the noble": "20th",
-        "level": "+15/+10/+5",
-        "bab": "+6",
-        "fort": "+12",
+        "level": "20th",
+        "bab": "+15/+10/+5",
+        "fort": "+6",
         "ref": "+12",
-        "will": "Coordinate +5, inspire greatness (4 allies)"
+        "will": "+12",
+        "special": [
+          "Coordinate +5",
+          "inspire greatness (4 allies)"
+        ]
       }
     ],
     "hit die": "d8",
@@ -85669,264 +85728,270 @@
     "skill points": "2 + Int",
     "advancement": [
       {
-        "&#8212;meldshaping&#8212;": "1st",
-        "level": "+1",
+        "level": "1st",
+        "bab": "+1",
+        "fort": "+2",
+        "ref": "+0",
+        "will": "+0",
+        "special": [
+          "Aura",
+          "smite opposition 1/day"
+        ],
+        "soulmelds": "0",
+        "essentia": "0",
+        "chakra binds": "0"
+      },
+      {
+        "level": "2nd",
         "bab": "+2",
-        "fort": "+0",
+        "fort": "+3",
         "ref": "+0",
-        "will": "Aura, smite opposition 1/day",
+        "will": "+0",
         "special": [
-          "0"
+          "Incarnum defense"
         ],
         "soulmelds": "0",
-        "essentia": "0"
+        "essentia": "0",
+        "chakra binds": "0"
       },
       {
-        "&#8212;meldshaping&#8212;": "2nd",
-        "level": "+2",
+        "level": "3rd",
         "bab": "+3",
-        "fort": "+0",
-        "ref": "+0",
-        "will": "Incarnum defense",
-        "special": [
-          "0"
-        ],
-        "soulmelds": "0",
-        "essentia": "0"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "3rd",
-        "level": "+3",
-        "bab": "+3",
-        "fort": "+1",
+        "fort": "+3",
         "ref": "+1",
-        "will": "Bonus feat",
+        "will": "+1",
         "special": [
-          "0"
+          "Bonus feat"
         ],
         "soulmelds": "0",
-        "essentia": "0"
+        "essentia": "0",
+        "chakra binds": "0"
       },
       {
-        "&#8212;meldshaping&#8212;": "4th",
-        "level": "+4",
+        "level": "4th",
         "bab": "+4",
-        "fort": "+1",
+        "fort": "+4",
         "ref": "+1",
-        "will": "&#8212;",
+        "will": "+1",
         "special": [
-          "1"
-        ],
-        "soulmelds": "0",
-        "essentia": "0"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "5th",
-        "level": "+5",
-        "bab": "+4",
-        "fort": "+1",
-        "ref": "+1",
-        "will": "Smite opposition 2/day",
-        "special": [
-          "1"
-        ],
-        "soulmelds": "0",
-        "essentia": "0"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "6th",
-        "level": "+6/+1",
-        "bab": "+5",
-        "fort": "+2",
-        "ref": "+2",
-        "will": "&#8212;",
-        "special": [
-          "1"
+          "&#8212;"
         ],
         "soulmelds": "1",
-        "essentia": "0"
+        "essentia": "0",
+        "chakra binds": "0"
       },
       {
-        "&#8212;meldshaping&#8212;": "7th",
-        "level": "+7/+2",
+        "level": "5th",
         "bab": "+5",
-        "fort": "+2",
-        "ref": "+2",
-        "will": "Bonus feat",
+        "fort": "+4",
+        "ref": "+1",
+        "will": "+1",
         "special": [
-          "1"
+          "Smite opposition 2/day"
         ],
         "soulmelds": "1",
-        "essentia": "0"
+        "essentia": "0",
+        "chakra binds": "0"
       },
       {
-        "&#8212;meldshaping&#8212;": "8th",
-        "level": "+8/+3",
-        "bab": "+6",
-        "fort": "+2",
+        "level": "6th",
+        "bab": "+6/+1",
+        "fort": "+5",
         "ref": "+2",
-        "will": "Chakra binds (crown, feet, hands)",
+        "will": "+2",
         "special": [
-          "2"
+          "&#8212;"
+        ],
+        "soulmelds": "1",
+        "essentia": "1",
+        "chakra binds": "0"
+      },
+      {
+        "level": "7th",
+        "bab": "+7/+2",
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+2",
+        "special": [
+          "Bonus feat"
+        ],
+        "soulmelds": "1",
+        "essentia": "1",
+        "chakra binds": "0"
+      },
+      {
+        "level": "8th",
+        "bab": "+8/+3",
+        "fort": "+6",
+        "ref": "+2",
+        "will": "+2",
+        "special": [
+          "Chakra binds (crown",
+          "feet",
+          "hands)"
         ],
         "soulmelds": "2",
-        "essentia": "1"
+        "essentia": "2",
+        "chakra binds": "1"
       },
       {
-        "&#8212;meldshaping&#8212;": "9th",
-        "level": "+9/+4",
-        "bab": "+6",
-        "fort": "+3",
+        "level": "9th",
+        "bab": "+9/+4",
+        "fort": "+6",
         "ref": "+3",
-        "will": "Share incarnum defense 1/day",
+        "will": "+3",
         "special": [
-          "2"
+          "Share incarnum defense 1/day"
         ],
         "soulmelds": "2",
-        "essentia": "1"
+        "essentia": "2",
+        "chakra binds": "1"
       },
       {
-        "&#8212;meldshaping&#8212;": "10th",
-        "level": "+10/+5",
-        "bab": "+7",
-        "fort": "+3",
+        "level": "10th",
+        "bab": "+10/+5",
+        "fort": "+7",
         "ref": "+3",
-        "will": "Smite opposition 3/day",
+        "will": "+3",
         "special": [
-          "2"
+          "Smite opposition 3/day"
+        ],
+        "soulmelds": "2",
+        "essentia": "3",
+        "chakra binds": "1"
+      },
+      {
+        "level": "11th",
+        "bab": "+11/+6/+1",
+        "fort": "+7",
+        "ref": "+3",
+        "will": "+3",
+        "special": [
+          "Bonus feat"
+        ],
+        "soulmelds": "2",
+        "essentia": "3",
+        "chakra binds": "1"
+      },
+      {
+        "level": "12th",
+        "bab": "+12/+7/+2",
+        "fort": "+8",
+        "ref": "+4",
+        "will": "+4",
+        "special": [
+          "&#8212;"
         ],
         "soulmelds": "3",
-        "essentia": "1"
+        "essentia": "4",
+        "chakra binds": "1"
       },
       {
-        "&#8212;meldshaping&#8212;": "11th",
-        "level": "+11/+6/+1",
-        "bab": "+7",
-        "fort": "+3",
-        "ref": "+3",
-        "will": "Bonus feat",
+        "level": "13th",
+        "bab": "+13/+8/+3",
+        "fort": "+8",
+        "ref": "+4",
+        "will": "+4",
         "special": [
-          "2"
+          "Share incarnum defense 2/day"
         ],
         "soulmelds": "3",
-        "essentia": "1"
+        "essentia": "4",
+        "chakra binds": "1"
       },
       {
-        "&#8212;meldshaping&#8212;": "12th",
-        "level": "+12/+7/+2",
-        "bab": "+8",
-        "fort": "+4",
+        "level": "14th",
+        "bab": "+14/+9/+4",
+        "fort": "+9",
         "ref": "+4",
-        "will": "&#8212;",
+        "will": "+4",
         "special": [
-          "3"
+          "Chakra binds (arms",
+          "brow",
+          "shoulders)"
+        ],
+        "soulmelds": "3",
+        "essentia": "5",
+        "chakra binds": "2"
+      },
+      {
+        "level": "15th",
+        "bab": "+15/+10/+5",
+        "fort": "+9",
+        "ref": "+5",
+        "will": "+5",
+        "special": [
+          "Smite opposition 4/day"
+        ],
+        "soulmelds": "3",
+        "essentia": "5",
+        "chakra binds": "2"
+      },
+      {
+        "level": "16th",
+        "bab": "+16/+11/+6/+1",
+        "fort": "+10",
+        "ref": "+5",
+        "will": "+5",
+        "special": [
+          "&#8212;"
         ],
         "soulmelds": "4",
-        "essentia": "1"
+        "essentia": "6",
+        "chakra binds": "2"
       },
       {
-        "&#8212;meldshaping&#8212;": "13th",
-        "level": "+13/+8/+3",
-        "bab": "+8",
-        "fort": "+4",
-        "ref": "+4",
-        "will": "Share incarnum defense 2/day",
+        "level": "17th",
+        "bab": "+17/+12/+7/+2",
+        "fort": "+10",
+        "ref": "+5",
+        "will": "+5",
         "special": [
-          "3"
+          "Share incarnum defense 3/day"
         ],
         "soulmelds": "4",
-        "essentia": "1"
+        "essentia": "7",
+        "chakra binds": "2"
       },
       {
-        "&#8212;meldshaping&#8212;": "14th",
-        "level": "+14/+9/+4",
-        "bab": "+9",
-        "fort": "+4",
-        "ref": "+4",
-        "will": "Chakra binds (arms, brow, shoulders)",
+        "level": "18th",
+        "bab": "+18/+13/+8/+3",
+        "fort": "+11",
+        "ref": "+6",
+        "will": "+6",
         "special": [
-          "3"
+          "Chakra binds (throat",
+          "waist)"
+        ],
+        "soulmelds": "4",
+        "essentia": "8",
+        "chakra binds": "3"
+      },
+      {
+        "level": "19th",
+        "bab": "+19/+14/+9/+4",
+        "fort": "+11",
+        "ref": "+6",
+        "will": "+6",
+        "special": [
+          "Timeless body"
+        ],
+        "soulmelds": "4",
+        "essentia": "9",
+        "chakra binds": "3"
+      },
+      {
+        "level": "20th",
+        "bab": "+20/+15/+10/+5",
+        "fort": "+12",
+        "ref": "+6",
+        "will": "+6",
+        "special": [
+          "Smite opposition 5/day"
         ],
         "soulmelds": "5",
-        "essentia": "2"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "15th",
-        "level": "+15/+10/+5",
-        "bab": "+9",
-        "fort": "+5",
-        "ref": "+5",
-        "will": "Smite opposition 4/day",
-        "special": [
-          "3"
-        ],
-        "soulmelds": "5",
-        "essentia": "2"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "16th",
-        "level": "+16/+11/+6/+1",
-        "bab": "+10",
-        "fort": "+5",
-        "ref": "+5",
-        "will": "&#8212;",
-        "special": [
-          "4"
-        ],
-        "soulmelds": "6",
-        "essentia": "2"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "17th",
-        "level": "+17/+12/+7/+2",
-        "bab": "+10",
-        "fort": "+5",
-        "ref": "+5",
-        "will": "Share incarnum defense 3/day",
-        "special": [
-          "4"
-        ],
-        "soulmelds": "7",
-        "essentia": "2"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "18th",
-        "level": "+18/+13/+8/+3",
-        "bab": "+11",
-        "fort": "+6",
-        "ref": "+6",
-        "will": "Chakra binds (throat, waist)",
-        "special": [
-          "4"
-        ],
-        "soulmelds": "8",
-        "essentia": "3"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "19th",
-        "level": "+19/+14/+9/+4",
-        "bab": "+11",
-        "fort": "+6",
-        "ref": "+6",
-        "will": "Timeless body",
-        "special": [
-          "4"
-        ],
-        "soulmelds": "9",
-        "essentia": "3"
-      },
-      {
-        "&#8212;meldshaping&#8212;": "20th",
-        "level": "+20/+15/+10/+5",
-        "bab": "+12",
-        "fort": "+6",
-        "ref": "+6",
-        "will": "Smite opposition 5/day",
-        "special": [
-          "5"
-        ],
-        "soulmelds": "10",
-        "essentia": "3"
+        "essentia": "10",
+        "chakra binds": "3"
       }
     ],
     "hit die": "d10",
@@ -96744,264 +96809,264 @@
     "skill points": "4 + Int",
     "advancement": [
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "1st",
-        "level": "+0",
+        "level": "1st",
         "bab": "+0",
         "fort": "+0",
+        "ref": "+0",
+        "will": "+2",
+        "special": [
+          "Known personal truename"
+        ],
+        "lexicon of the": "1",
+        "evolving mind lexicon of the crafted": "&#8212;",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "2nd",
+        "bab": "+1",
+        "fort": "+0",
+        "ref": "+0",
+        "will": "+3",
+        "special": [
+          "Knowledge focus"
+        ],
+        "lexicon of the": "2",
+        "evolving mind lexicon of the crafted": "&#8212;",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "3rd",
+        "bab": "+2",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+3",
+        "special": [
+          "&#8212;"
+        ],
+        "lexicon of the": "3",
+        "evolving mind lexicon of the crafted": "&#8212;",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "4th",
+        "bab": "+3",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+4",
+        "special": [
+          "&#8212;"
+        ],
+        "lexicon of the": "4",
+        "evolving mind lexicon of the crafted": "1",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "5th",
+        "bab": "+3",
+        "fort": "+1",
+        "ref": "+1",
+        "will": "+4",
+        "special": [
+          "&#8212;"
+        ],
+        "lexicon of the": "5",
+        "evolving mind lexicon of the crafted": "1",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "6th",
+        "bab": "+4",
+        "fort": "+2",
         "ref": "+2",
-        "will": "Known personal truename",
+        "will": "+5",
         "special": [
-          "1"
+          "Truename Research"
         ],
-        "lexicon of the": "&#8212;",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "6",
+        "evolving mind lexicon of the crafted": "1",
+        "tool lexicon of the perfected map": "&#8212;"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "2nd",
-        "level": "+1",
-        "bab": "+0",
-        "fort": "+0",
+        "level": "7th",
+        "bab": "+5",
+        "fort": "+2",
+        "ref": "+2",
+        "will": "+5",
+        "special": [
+          "Knowledge focus"
+        ],
+        "lexicon of the": "7",
+        "evolving mind lexicon of the crafted": "2",
+        "tool lexicon of the perfected map": "&#8212;"
+      },
+      {
+        "level": "8th",
+        "bab": "+6/+1",
+        "fort": "+2",
+        "ref": "+2",
+        "will": "+6",
+        "special": [
+          "Bonus recitation feat"
+        ],
+        "lexicon of the": "8",
+        "evolving mind lexicon of the crafted": "2",
+        "tool lexicon of the perfected map": "1"
+      },
+      {
+        "level": "9th",
+        "bab": "+6/+1",
+        "fort": "+3",
         "ref": "+3",
-        "will": "Knowledge focus",
+        "will": "+6",
         "special": [
-          "2"
+          "See the named 1/day"
         ],
-        "lexicon of the": "&#8212;",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "9",
+        "evolving mind lexicon of the crafted": "2",
+        "tool lexicon of the perfected map": "1"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "3rd",
-        "level": "+2",
-        "bab": "+1",
-        "fort": "+1",
+        "level": "10th",
+        "bab": "+7/+2",
+        "fort": "+3",
         "ref": "+3",
-        "will": "&#8212;",
+        "will": "+7",
         "special": [
-          "3"
+          "Knowledge focus"
         ],
-        "lexicon of the": "&#8212;",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "10",
+        "evolving mind lexicon of the crafted": "2",
+        "tool lexicon of the perfected map": "1"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "4th",
-        "level": "+3",
-        "bab": "+1",
-        "fort": "+1",
+        "level": "11th",
+        "bab": "+8/+3",
+        "fort": "+3",
+        "ref": "+3",
+        "will": "+7",
+        "special": [
+          "&#8212;"
+        ],
+        "lexicon of the": "11",
+        "evolving mind lexicon of the crafted": "3",
+        "tool lexicon of the perfected map": "1"
+      },
+      {
+        "level": "12th",
+        "bab": "+9/+4",
+        "fort": "+4",
         "ref": "+4",
-        "will": "&#8212;",
+        "will": "+8",
         "special": [
-          "4"
+          "&#8212;"
         ],
-        "lexicon of the": "1",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "12",
+        "evolving mind lexicon of the crafted": "3",
+        "tool lexicon of the perfected map": "2"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "5th",
-        "level": "+3",
-        "bab": "+1",
-        "fort": "+1",
+        "level": "13th",
+        "bab": "+9/+4",
+        "fort": "+4",
         "ref": "+4",
-        "will": "&#8212;",
+        "will": "+8",
         "special": [
-          "5"
+          "Sending"
         ],
-        "lexicon of the": "1",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "13",
+        "evolving mind lexicon of the crafted": "3",
+        "tool lexicon of the perfected map": "2"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "6th",
-        "level": "+4",
-        "bab": "+2",
-        "fort": "+2",
+        "level": "14th",
+        "bab": "+10/+5",
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+9",
+        "special": [
+          "Knowledge focus"
+        ],
+        "lexicon of the": "14",
+        "evolving mind lexicon of the crafted": "3",
+        "tool lexicon of the perfected map": "2"
+      },
+      {
+        "level": "15th",
+        "bab": "+11/+6/+1",
+        "fort": "+5",
         "ref": "+5",
-        "will": "Truename Research",
+        "will": "+9",
         "special": [
-          "6"
+          "Bonus recitation feat"
         ],
-        "lexicon of the": "1",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "15",
+        "evolving mind lexicon of the crafted": "4",
+        "tool lexicon of the perfected map": "2"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "7th",
-        "level": "+5",
-        "bab": "+2",
-        "fort": "+2",
+        "level": "16th",
+        "bab": "+12/+7/+2",
+        "fort": "+5",
         "ref": "+5",
-        "will": "Knowledge focus",
+        "will": "+10",
         "special": [
-          "7"
+          "&#8212;"
         ],
-        "lexicon of the": "2",
-        "evolving mind lexicon of the crafted": "&#8212;"
+        "lexicon of the": "16",
+        "evolving mind lexicon of the crafted": "4",
+        "tool lexicon of the perfected map": "3"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "8th",
-        "level": "+6/+1",
-        "bab": "+2",
-        "fort": "+2",
+        "level": "17th",
+        "bab": "+12/+7/+2",
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+10",
+        "special": [
+          "Speak unto the masses"
+        ],
+        "lexicon of the": "17",
+        "evolving mind lexicon of the crafted": "4",
+        "tool lexicon of the perfected map": "3"
+      },
+      {
+        "level": "18th",
+        "bab": "+13/+8/+3",
+        "fort": "+6",
         "ref": "+6",
-        "will": "Bonus recitation feat",
+        "will": "+11",
         "special": [
-          "8"
+          "&#8212;"
         ],
-        "lexicon of the": "2",
-        "evolving mind lexicon of the crafted": "1"
+        "lexicon of the": "18",
+        "evolving mind lexicon of the crafted": "4",
+        "tool lexicon of the perfected map": "3"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "9th",
-        "level": "+6/+1",
-        "bab": "+3",
-        "fort": "+3",
+        "level": "19th",
+        "bab": "+14/+9/+4",
+        "fort": "+6",
         "ref": "+6",
-        "will": "See the named 1/day",
+        "will": "+11",
         "special": [
-          "9"
+          "&#8212;"
         ],
-        "lexicon of the": "2",
-        "evolving mind lexicon of the crafted": "1"
+        "lexicon of the": "19",
+        "evolving mind lexicon of the crafted": "5",
+        "tool lexicon of the perfected map": "3"
       },
       {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "10th",
-        "level": "+7/+2",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "Knowledge focus",
-        "special": [
-          "10"
-        ],
-        "lexicon of the": "2",
-        "evolving mind lexicon of the crafted": "1"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "11th",
-        "level": "+8/+3",
-        "bab": "+3",
-        "fort": "+3",
-        "ref": "+7",
-        "will": "&#8212;",
-        "special": [
-          "11"
-        ],
-        "lexicon of the": "3",
-        "evolving mind lexicon of the crafted": "1"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "12th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "&#8212;",
-        "special": [
-          "12"
-        ],
-        "lexicon of the": "3",
-        "evolving mind lexicon of the crafted": "2"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "13th",
-        "level": "+9/+4",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+8",
-        "will": "Sending",
-        "special": [
-          "13"
-        ],
-        "lexicon of the": "3",
-        "evolving mind lexicon of the crafted": "2"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "14th",
-        "level": "+10/+5",
-        "bab": "+4",
-        "fort": "+4",
-        "ref": "+9",
-        "will": "Knowledge focus",
-        "special": [
-          "14"
-        ],
-        "lexicon of the": "3",
-        "evolving mind lexicon of the crafted": "2"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "15th",
-        "level": "+11/+6/+1",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+9",
-        "will": "Bonus recitation feat",
-        "special": [
-          "15"
-        ],
-        "lexicon of the": "4",
-        "evolving mind lexicon of the crafted": "2"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "16th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+10",
-        "will": "&#8212;",
-        "special": [
-          "16"
-        ],
-        "lexicon of the": "4",
-        "evolving mind lexicon of the crafted": "3"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "17th",
-        "level": "+12/+7/+2",
-        "bab": "+5",
-        "fort": "+5",
-        "ref": "+10",
-        "will": "Speak unto the masses",
-        "special": [
-          "17"
-        ],
-        "lexicon of the": "4",
-        "evolving mind lexicon of the crafted": "3"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "18th",
-        "level": "+13/+8/+3",
-        "bab": "+6",
+        "level": "20th",
+        "bab": "+15/+10/+5",
         "fort": "+6",
-        "ref": "+11",
-        "will": "&#8212;",
+        "ref": "+6",
+        "will": "+12",
         "special": [
-          "18"
+          "Say my name and I am there"
         ],
-        "lexicon of the": "4",
-        "evolving mind lexicon of the crafted": "3"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "19th",
-        "level": "+14/+9/+4",
-        "bab": "+6",
-        "fort": "+6",
-        "ref": "+11",
-        "will": "&#8212;",
-        "special": [
-          "19"
-        ],
-        "lexicon of the": "5",
-        "evolving mind lexicon of the crafted": "3"
-      },
-      {
-        "&#8212;&#8212;&#8212;&#8212;&#8212;utterances known&#8212;&#8212;&#8212;&#8212;&#8212;": "20th",
-        "level": "+15/+10/+5",
-        "bab": "+6",
-        "fort": "+6",
-        "ref": "+12",
-        "will": "Say my name and I am there",
-        "special": [
-          "20"
-        ],
-        "lexicon of the": "5",
-        "evolving mind lexicon of the crafted": "4"
+        "lexicon of the": "20",
+        "evolving mind lexicon of the crafted": "5",
+        "tool lexicon of the perfected map": "4"
       }
     ],
     "hit die": "d6",
