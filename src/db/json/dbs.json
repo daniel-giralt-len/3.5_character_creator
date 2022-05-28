@@ -29990,426 +29990,497 @@
   ],
   "skills": [
     {
+      "id": "1",
       "name": "alchemy",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "2",
       "name": "animal empathy",
       "key ability": "CHA",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "3",
       "name": "appraise",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "4",
       "name": "autohypnosis",
       "key ability": "WIS",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "5",
       "name": "balance",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "6",
       "name": "bluff",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "7",
       "name": "climb",
       "key ability": "STR",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "8",
       "name": "concentration",
       "key ability": "CON",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "9",
       "name": "control shape",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "10",
       "name": "craft",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "11",
       "name": "decipher script",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "12",
       "name": "diplomacy",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "13",
       "name": "disable device",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "14",
       "name": "disguise",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "15",
       "name": "escape artist",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "16",
       "name": "forgery",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "17",
       "name": "gather information",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "18",
       "name": "handle animal",
       "key ability": "CHA",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "19",
       "name": "heal",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "20",
       "name": "hide",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "21",
       "name": "iaijutsu focus",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "22",
       "name": "innuendo",
       "key ability": "WIS",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "23",
       "name": "intimidate",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "24",
       "name": "intuit direction",
       "key ability": "WIS",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "25",
       "name": "jump",
       "key ability": "STR",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "26",
       "name": "knowledge",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "27",
       "name": "knowledge (arcana)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "28",
       "name": "knowledge (architecture and engineering)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "29",
       "name": "knowledge (barbarian lore)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "30",
       "name": "knowledge (code of martial honor)",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "31",
       "name": "knowledge (dungeoneering)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "32",
       "name": "knowledge (geography)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "33",
       "name": "knowledge (history)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "34",
       "name": "knowledge (law)",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "35",
       "name": "knowledge (local)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "36",
       "name": "knowledge (nature)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "37",
       "name": "knowledge (nobility and royalty)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "38",
       "name": "knowledge (psionics)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "39",
       "name": "knowledge (religion)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "40",
       "name": "knowledge (Shadowlands)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "41",
       "name": "knowledge (spirits)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "42",
       "name": "knowledge (tactics)",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "43",
       "name": "knowledge (the planes)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "44",
       "name": "knowledge (War)",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "45",
       "name": "knowledge (weaponry)",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "46",
       "name": "listen",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "47",
       "name": "lucid Dreaming",
       "key ability": "WIS",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "48",
       "name": "martial Lore",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "49",
       "name": "move silently",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "50",
       "name": "open lock",
       "key ability": "DEX",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "51",
       "name": "perform",
       "key ability": "CHA",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "52",
       "name": "pick pocket",
       "key ability": "DEX",
       "trained only": true,
       "armor check penalty": true
     },
     {
+      "id": "53",
       "name": "profession",
       "key ability": "WIS",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "54",
       "name": "psicraft",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "55",
       "name": "read lips",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "56",
       "name": "ride",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "57",
       "name": "scry",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "58",
       "name": "search",
       "key ability": "INT",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "59",
       "name": "sense motive",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "60",
       "name": "sleight of hand",
       "key ability": "DEX",
       "trained only": true,
       "armor check penalty": true
     },
     {
+      "id": "61",
       "name": "speak language",
       "key ability": "None",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "62",
       "name": "spellcraft",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "63",
       "name": "spot",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "64",
       "name": "survival",
       "key ability": "WIS",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "65",
       "name": "swim",
       "key ability": "STR",
       "trained only": false,
       "armor check penalty": true
     },
     {
+      "id": "66",
       "name": "truespeak",
       "key ability": "INT",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "67",
       "name": "tumble",
       "key ability": "DEX",
       "trained only": true,
       "armor check penalty": true
     },
     {
+      "id": "68",
       "name": "use magic device",
       "key ability": "CHA",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "69",
       "name": "use psionic device",
       "key ability": "CHA",
       "trained only": true,
       "armor check penalty": false
     },
     {
+      "id": "70",
       "name": "use rope",
       "key ability": "DEX",
       "trained only": false,
       "armor check penalty": false
     },
     {
+      "id": "71",
       "name": "wilderness lore",
       "key ability": "WIS",
       "trained only": false,
