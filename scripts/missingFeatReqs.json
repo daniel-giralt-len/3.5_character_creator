@@ -1,0 +1,6688 @@
+{
+ "Dragonmarked race (human": [
+  "Aberrant Dragonmark"
+ ],
+ "half-orc)": [
+  "Aberrant Dragonmark"
+ ],
+ "Humanoid": [
+  "Aberration Blood",
+  "Thrall Bred"
+ ],
+ "wild shape ability": [
+  "Aberration Wild Shape",
+  "Dragon Wild Shape",
+  "Frozen Wild Shape",
+  "Natural Spell",
+  "Stone Form"
+ ],
+ "Special attack": [
+  "Ability Focus",
+  "Ability Focus",
+  "Ability Focus",
+  "Ability Focus",
+  "Ability Focus",
+  "Ability Focus",
+  "Sudden Ability Focus"
+ ],
+ "Human or doppelganger": [
+  "Able Learner"
+ ],
+ "ability to spontaneously cast 1st-level spells": [
+  "Accelerate Metamagic"
+ ],
+ "any metamagic feat": [
+  "Accelerate Metamagic",
+  "Energy Substitution",
+  "Midnight Metamagic",
+  "Nonlethal Substitution",
+  "Practical Metamagic",
+  "Residual Magic"
+ ],
+ "Dragonblood subtype": [
+  "Accelerate Metamagic",
+  "Armor of Scales ",
+  "Dragon Tail",
+  "Dragon Trainer",
+  "Dragon Wings",
+  "Entangling Exhalation",
+  "Exhaled Barrier",
+  "Exhaled Immunity",
+  "Extra Exhalation",
+  "Furious Inhalation",
+  "Heart of Dragons ",
+  "Improved Dragon Wings",
+  "Practical Metamagic"
+ ],
+ "Exposure to greater teleport": [
+  "Accurate Jaunt"
+ ],
+ "shadow walk spell": [
+  "Accurate Jaunt"
+ ],
+ "plane shift": [
+  "Accurate Jaunt"
+ ],
+ "teleport": [
+  "Accurate Jaunt"
+ ],
+ "Ability to cast 2nd-level spells": [
+  "Acidic Splatter",
+  "Clutch of Earth",
+  "Fiery Burst",
+  "Hurricane Breath",
+  "Mitigate Suffering",
+  "Shadow Veil",
+  "Sunlight Eyes",
+  "Touch of Healing",
+  "Winter's Blast"
+ ],
+ "Ability to lay on hands": [
+  "Action Healing",
+  "Touch of Silver"
+ ],
+ "Proficiency with shields": [
+  "Active Shield Defense",
+  "Agile Shield Fighter",
+  "Shield Sling",
+  "Shield Specialization",
+  "Shield Ward"
+ ],
+ "1st level only": [
+  "Adamantine Body",
+  "Adamantine Body",
+  "Adamantine Body",
+  "Aereni Focus",
+  "Apprentice",
+  "Dragon Tail",
+  "Dragon Wings",
+  "Dragonwrought",
+  "Du'ulora Ancestor",
+  "Education",
+  "Hashalaq Ancestor",
+  "Ironwood Body",
+  "Mithral Body",
+  "Mithral Body",
+  "Mithral Body",
+  "Psiforged Body",
+  "Unarmored Body"
+ ],
+ "Warforged": [
+  "Adamantine Body",
+  "Adamantine Body",
+  "Adamantine Body",
+  "Brute Fighting",
+  "Cold Iron Tracery",
+  "Construct Lock",
+  "Improved Damage Reduction",
+  "Improved Fortification",
+  "Improved Fortification",
+  "Improved Resiliency",
+  "Ironwood Body",
+  "Jaws of Death",
+  "Mithral Body",
+  "Mithral Body",
+  "Mithral Body",
+  "Mithral Fluidity",
+  "Mithral Fluidity",
+  "Overload Metabolism",
+  "Psiforged Body",
+  "Second Slam",
+  "Shocking Fist",
+  "Silver Tracery",
+  "Spiked Body",
+  "Unarmored Body"
+ ],
+ "Warblade Level 1st": [
+  "Adaptive Style"
+ ],
+ "Druids": [
+  "Adroit Flyby Attack",
+  "Animal Control"
+ ],
+ "and Rangers\">MW</abbr>)": [
+  "Adroit Flyby Attack",
+  "Animal Control"
+ ],
+ "Fly speed 90": [
+  "Adroit Flyby Attack"
+ ],
+ "region of origin Aerenal": [
+  "Aerenal Arcanist",
+  "Aerenal Beastmaster",
+  "Aerenal Half-Life",
+  "Aereni Focus",
+  "Call of the Undying",
+  "Chosen of the Deathless"
+ ],
+ "ability to acquire new animal companion": [
+  "Aerenal Beastmaster"
+ ],
+ "Rashemi human (including the Gurs). Regions: Rashemen": [
+  "Aftersight"
+ ],
+ "Thay": [
+  "Aftersight",
+  "Dreadful Wrath",
+  "Mind over Body"
+ ],
+ "True beholder or beholderkin": [
+  "Agile Tyrant",
+  "Metaray"
+ ],
+ "Ability to cast arcane spells without preparation": [
+  "Air Bloodline",
+  "Anarchic Bloodline",
+  "Arcane Preparation",
+  "Arcane Preparation",
+  "Axiomatic Bloodline",
+  "Celestial Bloodline",
+  "Draconic Bloodline",
+  "Earth Bloodline",
+  "Fey Bloodline",
+  "Fiendish Bloodline",
+  "Fire Bloodline",
+  "Illithid Bloodline",
+  "Necromantic Bloodline",
+  "Penumbra Bloodline",
+  "Plant Bloodline",
+  "Serpent Bloodline",
+  "Water Bloodline"
+ ],
+ "Must prepare arcane spells": [
+  "Alacritous Cogitation "
+ ],
+ "Sneak attack +2d6": [
+  "Aleval School",
+  "Daring Outlaw ",
+  "Maiming Strike",
+  "Sickening Strike",
+  "Terrifying Strike",
+  "Twist the Knife",
+  "Venomous Strike"
+ ],
+ "Sorcerer level 5": [
+  "Alternate Form",
+  "Half-Dragon Form ",
+  "Hidden Strength"
+ ],
+ "True dragon": [
+  "Alternate Form",
+  "Half-Dragon Form ",
+  "Hidden Strength"
+ ],
+ "Base Fortitude save bonus +2": [
+  "Altitude Adaptation",
+  "Cold Endurance",
+  "Improved Toughness",
+  "Improved Toughness",
+  "Improved Toughness",
+  "Improved Toughness",
+  "Improved Toughness"
+ ],
+ "Base Fortitude save +2": [
+  "Altitude Adaptation",
+  "Cold Endurance",
+  "Heat Endurance",
+  "Rapid Swimming",
+  "Silver Blood"
+ ],
+ "Nonlawful alignment": [
+  "Anarchic Heritage",
+  "Fey Heritage",
+  "Fey Legacy",
+  "Fey Power",
+  "Fey Presence",
+  "Fey Skin"
+ ],
+ "region of origin Valenar": [
+  "Ancestral Guidance",
+  "Bladebearer of the Valenar",
+  "Bladebearer of the Valenar",
+  "Bladebearer of Valenar",
+  "Spirit of the Stallion",
+  "Valenar Trample"
+ ],
+ "Any good alignment": [
+  "Ancestral Relic",
+  "Avenging Strike",
+  "Consecrate Spell",
+  "Consecrate Spell",
+  "Consecrate Spell Like Ability",
+  "Consecrate Spell-Like Ability",
+  "Purify Spell",
+  "Purify Spell-like Ability",
+  "Spell Focus (Good)"
+ ],
+ "Illuskan human": [
+  "Ancestral Spirit",
+  "Eldritch Linguist"
+ ],
+ "patron deity Uthgar. Regions: The North": [
+  "Ancestral Spirit"
+ ],
+ "the Great Glacier": [
+  "Ancestral Spirit",
+  "Survivor"
+ ],
+ "Ability to turn undead": [
+  "Ancestral Whispers",
+  "Divine Censure",
+  "Divine Vengeance",
+  "Divine Vengeance",
+  "Divine Vengeance",
+  "Exalted Turning",
+  "Sacred Boost",
+  "Sacred Healing",
+  "Sacred Vengeance",
+  "Sacred Vitality",
+  "Shield Maiden's Grace",
+  "Spurn Death's Touch"
+ ],
+ "worshiper of the Undving Court": [
+  "Ancestral Whispers"
+ ],
+ "ability to cast speak with animals and animal friendship": [
+  "Animal Control"
+ ],
+ "Ability to cast detect animals or plants": [
+  "Animal Defiance",
+  "Plant Defiance",
+  "Plant Defiance"
+ ],
+ "wild empathy class feature": [
+  "Animal Friend"
+ ],
+ "Human (the Shaar)": [
+  "Ankheg Tribe Ambush"
+ ],
+ "Membership in Ankheg tribe (See human tribes of shar P164)": [
+  "Ankheg Tribe Ambush"
+ ],
+ "handaxe": [
+  "Anvil of Thunder",
+  "Bear Fang",
+  "High Sword Low Axe"
+ ],
+ "dwarven waraxe)": [
+  "Anvil of Thunder",
+  "Bear Fang",
+  "High Sword Low Axe"
+ ],
+ "Ability to cast 3rd-level spells": [
+  "Aquatic Breath",
+  "Blade of Force",
+  "Clap of Thunder",
+  "Dimensional Reach",
+  "Face-Changer",
+  "Invisible Needle",
+  "Magic Disruption",
+  "Magic Sensitive",
+  "Sickening Grasp",
+  "Spontaneous Domains",
+  "Touch of Distraction",
+  "Umbral Shroud",
+  "Wind-Guided Arrows"
+ ],
+ "arcane caster level 1": [
+  "Arcane Accompaniment",
+  "Combat Familiar"
+ ],
+ "bardic music": [
+  "Arcane Accompaniment",
+  "Battle Dancer",
+  "Disguise Spell",
+  "Dragonfire Inspiration ",
+  "Enchanting Song",
+  "Green Ear",
+  "Group Inspiration",
+  "Inspire Spellpower",
+  "Metamagic Song",
+  "Misleading Song",
+  "Subsonics"
+ ],
+ "arcane caster level 6th": [
+  "Arcane Consumption"
+ ],
+ "Spell Focus in the chosen school": [
+  "Arcane Defense"
+ ],
+ "Spell Focus in the school chosen": [
+  "Arcane Defense"
+ ],
+ "able to cast arcane spells": [
+  "Arcane Disciple"
+ ],
+ "alignment matches your deity's alignment": [
+  "Arcane Disciple"
+ ],
+ "arcane caster level 1st": [
+  "Arcane Flourish",
+  "Collegiate Wizard",
+  "Netherese Battle Curse",
+  "Precocious Apprentice"
+ ],
+ "Cleric level 3rd": [
+  "Arcane Insight",
+  "Dread Tyranny",
+  "Initiate of Aasterinian ",
+  "Initiate of Astilabor ",
+  "Initiate of Falazure ",
+  "Initiate of Ghaunadaur",
+  "Initiate of Io ",
+  "Initiate of Kossuth",
+  "Initiate of Lendys ",
+  "Radiant Fire",
+  "Undying Fate"
+ ],
+ "deity Boccob": [
+  "Arcane Insight"
+ ],
+ "Wizard level 1": [
+  "Arcane Manipulation",
+  "Collegiate Wizard",
+  "Spell Mastery"
+ ],
+ "Ability to cast arcane spells or use spelllike abilities (including invocations)": [
+  "Arcane mastery"
+ ],
+ "You must be able to cast arcane spells as a bard or sorcerer before you can select this feat": [
+  "Arcane Preparation"
+ ],
+ "You must be able to cast spells as a bard or sorcerer before you can take this feat": [
+  "Arcane Preparation"
+ ],
+ "Deep Imaskari (Underdark [Deep Imaskar])": [
+  "Arcane Schooling"
+ ],
+ "human (Chessenta": [
+  "Arcane Schooling",
+  "Artist",
+  "Education"
+ ],
+ "the Golden Water": [
+  "Arcane Schooling",
+  "Cosmopolitan",
+  "Silver Palm"
+ ],
+ "Halruaa": [
+  "Arcane Schooling",
+  "Spellwise"
+ ],
+ "Lantan": [
+  "Arcane Schooling",
+  "Education",
+  "Mercantile Background"
+ ],
+ "Mulhorand": [
+  "Arcane Schooling",
+  "Magic In The Blood",
+  "Mind over Body"
+ ],
+ "Nimbral": [
+  "Arcane Schooling",
+  "Horse Nomad",
+  "Saddleback",
+  "Spellwise"
+ ],
+ "Unther": [
+  "Arcane Schooling",
+  "Street Smart",
+  "Theocrat",
+  "Thug",
+  "Thug"
+ ],
+ "the Wizards' Reach)": [
+  "Arcane Schooling",
+  "Spellwise",
+  "Street Smart"
+ ],
+ "planetouched (Chessenta)": [
+  "Arcane Schooling",
+  "Knifefighter"
+ ],
+ "Ability to cast 3rd-level arcane spells": [
+  "Arcane Strike",
+  "Power in the Blood"
+ ],
+ "ability to cast arcane spells": [
+  "Arcane Thesis",
+  "Captivating Melody ",
+  "Jester's Magic"
+ ],
+ "arcane caster level 3rd": [
+  "Arcane Toughness",
+  "Obtain Familiar"
+ ],
+ "specialist wizard level 10th": [
+  "Arcane Transfiguration"
+ ],
+ "Dark knowledge": [
+  "Archivist of Nature",
+  "Draconic Archivist"
+ ],
+ "Damaran or Illuskan human. Regions: Damara": [
+  "Arctic Adaptation",
+  "Jotunbrud"
+ ],
+ "Narfell": [
+  "Arctic Adaptation",
+  "Saddleback",
+  "Survivor"
+ ],
+ "the North": [
+  "Arctic Adaptation",
+  "Axethrower",
+  "Daylight Adaptation",
+  "Foe Hunter",
+  "Saddleback"
+ ],
+ "Vaasa": [
+  "Arctic Adaptation"
+ ],
+ "Access to Cold or Winter cleric domain": [
+  "Arctic Priest"
+ ],
+ "Huge size": [
+  "Area Attack",
+  "Blowhard",
+  "Dust Cloud",
+  "Fling Enemy",
+  "Stamp"
+ ],
+ "Proficiency with selected armor type": [
+  "Armor Specialization"
+ ],
+ "Sneak attack ability": [
+  "Arterial Strike",
+  "Hamstring"
+ ],
+ "Base attack +4": [
+  "Arterial Strike",
+  "Hamstring"
+ ],
+ "sneak attack ability": [
+  "Arterial Strike",
+  "Hamstring",
+  "Silencing Strike",
+  "Staggering Strike"
+ ],
+ "Elf (SildÃ«yuir or Snow Eagle Aerie)": [
+  "Artist"
+ ],
+ "Gnome (Thesk or the Western Heartlands)": [
+  "Artist"
+ ],
+ "half-elf (the Dalelands)": [
+  "Artist"
+ ],
+ "Waterdeep": [
+  "Artist",
+  "Cosmopolitan",
+  "Twin Sword Style"
+ ],
+ "the Western Heartlands)": [
+  "Artist",
+  "Bullheaded",
+  "Saddleback",
+  "Snake Blood",
+  "Thug"
+ ],
+ "favored enemy": [
+  "Ascetic Hunter",
+  "Extra Favored Enemy",
+  "Wise to Your Ways"
+ ],
+ "ability to smite evil": [
+  "Ascetic Knight"
+ ],
+ "ability to spontaneously cast 2nd-level arcane spells": [
+  "Ascetic Mage",
+  "Lyric Spell"
+ ],
+ "manifester level 1st": [
+  "Ascetic Psion"
+ ],
+ "sneak attack": [
+  "Ascetic Rogue",
+  "Deft Strike",
+  "Devoted Inquisitor",
+  "Dragonfire Strike ",
+  "Indigo Strike",
+  "Savage Grapple",
+  "Staggering Strike",
+  "Undo Resistance"
+ ],
+ "Ki power": [
+  "Ascetic Stalker",
+  "Expanded Ki Pool"
+ ],
+ "ki strike (magic)": [
+  "Ascetic Stalker"
+ ],
+ "Ability to spontaneously cast summon nature's ally": [
+  "Ashbound",
+  "Child of Winter",
+  "Gatekeeper initiate",
+  "Greensinger Initiate",
+  "Warden initiate"
+ ],
+ "any true or aberrant dragonmark": [
+  "Ashbound Mark",
+  "Dragonmark Fist"
+ ],
+ "ability to assume a new form magically": [
+  "Assume Supernatural Ability",
+  "Improved Assume Supernatural Ability"
+ ],
+ "Darkness as a spell-like ability": [
+  "At Home In The Deep",
+  "Blend Into Shadows",
+  "Intensify Darkness"
+ ],
+ "Darkvision": [
+  "At Home In The Deep",
+  "Deep Vision",
+  "Deep Vision",
+  "Improved Darkvision"
+ ],
+ "arcane spellcaster level 3rd+": [
+  "Attune Gem"
+ ],
+ "Craft (gemcutting) skill": [
+  "Attune Gem"
+ ],
+ "caster level 5th": [
+  "Attune Magical Weapon",
+  "Craft Aboleth Glyph",
+  "Deathless Fleshgrafter",
+  "Eldeen Plantgrafter",
+  "Elemental Grafter",
+  "Razing Strike",
+  "Spell Drain"
+ ],
+ "Spellcaster Level 2": [
+  "Augment Summoning",
+  "Augment Summoning"
+ ],
+ "Alchemy 24 ranks": [
+  "Augmented Alchemy"
+ ],
+ "ability to cast 9th-level arcane or divine spells": [
+  "Automatic Quicken Spell",
+  "Automatic Quicken Spell",
+  "Automatic Silent Spell",
+  "Automatic Silent Spell",
+  "Automatic Still Spell",
+  "Automatic Still Spell",
+  "Ignore Material Components",
+  "Intensify Spell",
+  "Multispell"
+ ],
+ "dragon type": [
+  "Awaken Frightful Presence",
+  "Awaken Spell Resistance",
+  "Embed Spell Focus",
+  "Endure Blows",
+  "Improved Speed"
+ ],
+ "size Large or larger": [
+  "Awesome Blow",
+  "Awesome Blow",
+  "Awesome Blow",
+  "Awesome Blow",
+  "Earthquake Stomp",
+  "Large and in Charge",
+  "Shock Wave",
+  "Tempest Breath",
+  "Wingstorm"
+ ],
+ "smite ability": [
+  "Awesome Smite",
+  "Extra Smiting (Smite Anything)",
+  "Extra Smiting (Smite Good)",
+  "Extra Smiting (Smite Mortals)",
+  "Ghost Smiting",
+  "Improved Smiting"
+ ],
+ "Grimlock": [
+  "Axeshield"
+ ],
+ "Weapon Proficiency with Armor Spikes": [
+  "Axespike"
+ ],
+ "Weapon Proficiency with Greataxe": [
+  "Axespike"
+ ],
+ "Dwarf (the Great Glacier)": [
+  "Axethrower"
+ ],
+ "human (the Great Glacier": [
+  "Axethrower"
+ ],
+ "the Moonshae Isles": [
+  "Axethrower"
+ ],
+ "Vaasa)": [
+  "Axethrower",
+  "Dauntless",
+  "Surefooted",
+  "Tireless"
+ ],
+ "lizardfolk (Surkh)": [
+  "Axethrower",
+  "Dauntless",
+  "Tireless"
+ ],
+ "orc (the Moonsea or Underdark [Northdark])": [
+  "Axethrower"
+ ],
+ "Nonchaotic alignment": [
+  "Axiomatic Heritage",
+  "Ordered Chaos"
+ ],
+ "Ki strike (lawful)": [
+  "Axiomatic Strike",
+  "Sanctify Ki Strike"
+ ],
+ "any lawful alignment": [
+  "Axiomatic Strike",
+  "Righteous Strike"
+ ],
+ "Smite anarchy class feature": [
+  "Axiomatic Strike"
+ ],
+ "shield dwarf": [
+  "Azerblood",
+  "Stoneshaper"
+ ],
+ "Shield dwarf. Regions: Amn": [
+  "Azerblood"
+ ],
+ "favored enemy class feature": [
+  "Azure Enmity"
+ ],
+ "a power point reserve": [
+  "Azure Talent"
+ ],
+ "lay on hands or wholeness of body class feature": [
+  "Azure Touch"
+ ],
+ "turn undead class feature": [
+  "Azure Turning"
+ ],
+ "wild shape class feature": [
+  "Azure Wild Shape",
+  "Bestial Charge",
+  "Corrupted Wild Shape",
+  "Elemental Essence",
+  "Venom's Gift"
+ ],
+ "incorporeal subtype": [
+  "Baleful Moan",
+  "Empowered Ability Damage",
+  "Ghostly Grasp"
+ ],
+ "Undead type": [
+  "Baleful Moan",
+  "Corrupted Wild Shape",
+  "Improved paralysis",
+  "Improved Turn Resistance",
+  "Positive Energy Resistance"
+ ],
+ "Any Siberys dragonmark": [
+  "Bane of Argonnessen",
+  "Mark of Stars"
+ ],
+ "five or more favored enemies": [
+  "Bane of Enemies"
+ ],
+ "Worship of a specific deity. BEBEFIT: you acquire a fovored enemy. The": [
+  "Bane of Infidels"
+ ],
+ "True beholder or must have aberration as a favored enemy": [
+  "Bane of the Unclean"
+ ],
+ "Sting attack": [
+  "Barbed Stinger"
+ ],
+ "Ride (dire bat) skill. REGION: Shield dwarf": [
+  "Batrider"
+ ],
+ "Ability to cast paladin spells": [
+  "Battle Blessing"
+ ],
+ "Ability to ignore arcane spell failure chance from armor": [
+  "Battle Caster"
+ ],
+ "Arcane caster level 3rd": [
+  "Battle Mage Tactics"
+ ],
+ "Spellcraft 6 Ranks": [
+  "Battle Mage Tactics"
+ ],
+ "caster level 1st": [
+  "Battlecaster Defense",
+  "Grell Alchemy",
+  "Magic of the Land",
+  "Node Store",
+  "Smiting Spell"
+ ],
+ "Combat Casting or warmage edge": [
+  "Battlecaster Offense"
+ ],
+ "wild shape 6/day": [
+  "Beast Companion",
+  "Beast Wild Shape",
+  "Dragon Wild Shape",
+  "Magical Beast Wild Shape",
+  "Magical Beast Wild Shape",
+  "Plant Wild Shape",
+  "Vermin Wild Shape"
+ ],
+ "ability to wild shape into Huge animal": [
+  "Beast Shape"
+ ],
+ "Wild empathy class feature": [
+  "Beast Shape",
+  "Beast Totem"
+ ],
+ "Shifter Level 1": [
+  "Beasthide",
+  "Cliffwalk",
+  "Longstride",
+  "Longtooth",
+  "Razorclaw",
+  "Wildhunt"
+ ],
+ "Shifter with the beasthide trait": [
+  "Beasthide Elite"
+ ],
+ "Evil": [
+  "Beloved of Demons",
+  "Blessing of the Godless",
+  "Generous Sacrifice",
+  "Hellsworn",
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)",
+  "Maiming Strike",
+  "Sadistic Reward"
+ ],
+ "caster level 6th": [
+  "Beloved of Demons"
+ ],
+ "Knowledge (the planes) 6 ranks": [
+  "Beloved of Demons"
+ ],
+ "Power Attack.": [
+  "Beloved of Demons"
+ ],
+ "any two luck feats": [
+  "Better Lucky than Good ",
+  "Dumb Luck "
+ ],
+ "caster level 9th": [
+  "Bind Elemental",
+  "Craft Scepter",
+  "Familiar Concentration",
+  "Wand Mastery"
+ ],
+ "Craft Wondrous Item": [
+  "Bind Elemental",
+  "Craft Construct",
+  "Craft Construct",
+  "Craft Construct",
+  "Craft Epic Wondrous Item",
+  "Improved Flight Item",
+  "Portal Master"
+ ],
+ "Sorcerer level 3": [
+  "Black Dragon Lineage "
+ ],
+ "caster level 7th": [
+  "Black Lore of Moil"
+ ],
+ "Ability to channel negative energy": [
+  "Blackwater Invocation"
+ ],
+ "one maneuver from any discipline": [
+  "Blade Meditation"
+ ],
+ "proficiency with scimitar or falchion": [
+  "Bladebearer of the Valenar",
+  "Bladebearer of the Valenar",
+  "Bladebearer of Valenar"
+ ],
+ "Exposure to stoneskin or iron body spell": [
+  "Bladeproof skin"
+ ],
+ "Ability to rage": [
+  "Blazing Berserker",
+  "Destructive Rage",
+  "Ettercap Berserker",
+  "Extended Rage",
+  "Extended Rage",
+  "Extra Rage",
+  "Frozen Berserker",
+  "Great Stag Berserker",
+  "Instantaneous Rage",
+  "Intimidating Rage",
+  "Tiger Blooded",
+  "Wolf Berserker"
+ ],
+ "must have defeated a hippopotamus in single combat": [
+  "Blessed by Tem-Et-Nu"
+ ],
+ "Patron deity Tem-Et-Nu": [
+  "Blessed by Tem-Et-Nu"
+ ],
+ "Able to cast 6th-level arcane spells": [
+  "Blessed of the Seven Sisters"
+ ],
+ "region of origin Xen'drik": [
+  "Blessed of Vulkoor ",
+  "Drow Scorpion Warrior",
+  "Drow Skirmisher"
+ ],
+ "Knowledge (religion) 6 ranks.": [
+  "Blessing of the Godless"
+ ],
+ "Wild shape class feature": [
+  "Blindsense",
+  "Great and Small"
+ ],
+ "Ability to use wild shape to become a dire bat": [
+  "Blindsight"
+ ],
+ "must be descended from a fi end": [
+  "Blood Calls to Blood"
+ ],
+ "Spontaneous arcane caster": [
+  "Blood Calls to Blood"
+ ],
+ "base Leadership score of 10+": [
+  "Blood of the Warlord"
+ ],
+ "Proficiency with spiked armor and spiked shields": [
+  "Blood-Spiked Charger"
+ ],
+ "Centaur (the Plateau of Thay)": [
+  "Blooded",
+  "Thug"
+ ],
+ "dwarf (Underdark [Earthroot])": [
+  "Blooded"
+ ],
+ "elf (Cormanthor Drow": [
+  "Blooded"
+ ],
+ "the Inner S ea": [
+  "Blooded"
+ ],
+ "Menzoberranyr": [
+  "Blooded"
+ ],
+ "the Outer Sea)": [
+  "Blooded"
+ ],
+ "gnoll (the Plateau of Thay)": [
+  "Blooded",
+  "Thug"
+ ],
+ "grimlock (Underdark [Reeshov])": [
+  "Blooded",
+  "Thug"
+ ],
+ "halfl ing (the Chondalwood)": [
+  "Blooded",
+  "Forester",
+  "Treetopper"
+ ],
+ "human (the Dalelands": [
+  "Blooded"
+ ],
+ "the N elanther I sles": [
+  "Blooded"
+ ],
+ "S ilverymoon": [
+  "Blooded"
+ ],
+ "o r Tethyr)": [
+  "Blooded"
+ ],
+ "o r o rc (Underdark [Northdark] or Vaasa)": [
+  "Blooded"
+ ],
+ "Human (Calimshan) or planetouched (Calimshan)": [
+  "Bloodline of fire"
+ ],
+ "sorcerer level 3rd": [
+  "Blue Dragon Lineage ",
+  "Brass Dragon Lineage ",
+  "Bronze Dragon Lineage ",
+  "Copper Dragon Lineage ",
+  "Gold Dragon Lineage ",
+  "Green Dragon Lineage",
+  "Red Dragon Lineage ",
+  "Silver Dragon Lineage ",
+  "White Dragon Lineage "
+ ],
+ "Ability to wild shape": [
+  "Boar's Ferocity",
+  "Cheetah's Speed",
+  "Eagle's Wings",
+  "Grizzly's Claws",
+  "Lion's Pounce",
+  "Serpent's Venom",
+  "Swim like a Fish"
+ ],
+ "Scaled One": [
+  "Body Pouch",
+  "Chameleon Hide"
+ ],
+ "Familiar": [
+  "Bonded Familiar"
+ ],
+ "Breath weapon with limited uses per day": [
+  "Bonus Breath"
+ ],
+ "Extend Spell or Extend Spell-Like Ability": [
+  "Bonus Breath"
+ ],
+ "able to cast 9th-level divine spells": [
+  "Bonus Domain"
+ ],
+ "ability to cast 9th-level divine spells": [
+  "Bonus Domain",
+  "Divine Spell Penetration",
+  "Epic Spellcasting (Arcana)",
+  "Epic Spellcasting (Nature)",
+  "Epic Spellcasting (Religion)",
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)",
+  "Spellcasting Prodigy",
+  "Spontaneous Domain Access"
+ ],
+ "Ability to shape fi ve soulmelds": [
+  "Bonus Soulmeld"
+ ],
+ "Proficiency with Talenta boomerang or Xen'drik boomerang": [
+  "Boomerang Daze"
+ ],
+ "proficiency with Talenta boomerang or Xen'drik boomerang": [
+  "Boomerang Ricochet"
+ ],
+ "Any evil alignment": [
+  "Boost Spell Resistance",
+  "Corrupt Spell",
+  "Corrupt Spell",
+  "Corrupt Spell",
+  "Corrupt Spell-Like Ability",
+  "Malign Spell Focus",
+  "Malign Spell Focus",
+  "Reaping Spell",
+  "Touch of Benevolence",
+  "Veil of Cyric",
+  "Violate Spell"
+ ],
+ "Ability to cast 5th-level spells": [
+  "Borne Aloft",
+  "Mystic Backlash"
+ ],
+ "devil": [
+  "Brand of the Nine Hells"
+ ],
+ "Lawful evil": [
+  "Brand of the Nine Hells"
+ ],
+ "Exposure to legend lore or vision spell": [
+  "Breadth of Knowledge"
+ ],
+ "any true dragonmark": [
+  "Breath of Siberys",
+  "Dragonmarked Summoner",
+  "Improved Draconic Aura"
+ ],
+ "Breath weapon": [
+  "Breath of Siberys",
+  "Rapid Breath"
+ ],
+ "Energy Breath weapon": [
+  "Breath of Unlife"
+ ],
+ "undead": [
+  "Breath of Unlife"
+ ],
+ "Base Will save +2": [
+  "Breathing Link",
+  "Highborn Drow"
+ ],
+ "aquatic elf or water genasi": [
+  "Breathing Link"
+ ],
+ "Aquatic elf or water genasi": [
+  "Breathing Link"
+ ],
+ "base Will save +2": [
+  "Breathing Link",
+  "Highborn Drow",
+  "Highborn Drow"
+ ],
+ "Caster level 3rd": [
+  "Brew Potion",
+  "Craft Wondrous Item ",
+  "Extra Spell",
+  "Wand Surge"
+ ],
+ "member of the Broken Ones monk order": [
+  "Broken One's Sacrifice"
+ ],
+ "Dwarf (Underdark [Earthroot]": [
+  "Bullheaded"
+ ],
+ "Underdark [Northdark]": [
+  "Bullheaded"
+ ],
+ "the Great Rift": [
+  "Bullheaded",
+  "Thunder Twin"
+ ],
+ "the Spine of the World)": [
+  "Bullheaded"
+ ],
+ "human (Altumbel": [
+  "Bullheaded",
+  "Militia"
+ ],
+ "Damara": [
+  "Bullheaded"
+ ],
+ "the Great Dale": [
+  "Bullheaded"
+ ],
+ "Rashemen": [
+  "Bullheaded"
+ ],
+ "taerUNA (the Icerim Mountains)": [
+  "Bullheaded",
+  "Survivor"
+ ],
+ "defensive stance 3/day": [
+  "Bulwark of Defense"
+ ],
+ "access to the Deathless domain": [
+  "Call of the Undying"
+ ],
+ "any Mark of Making": [
+  "Cannith Forgecraft"
+ ],
+ "Craft (armorsmithing": [
+  "Cannith Forgecraft",
+  "Construct Grafter"
+ ],
+ "blacksmithing": [
+  "Cannith Forgecraft"
+ ],
+ "sculpting) 4 ranks": [
+  "Cannith Forgecraft"
+ ],
+ "Bardic music": [
+  "Captivating Melody ",
+  "Chant of Fortitude",
+  "Devoted Performer",
+  "Disguise Spell",
+  "Extra Music",
+  "Extra Music",
+  "Haunting Melody",
+  "Ironskin Chant",
+  "Lingering Song",
+  "Lyric Spell",
+  "Sound of Silence ",
+  "Warning Shout"
+ ],
+ "member of Zealots of the Written Word monk order (see page 105)": [
+  "Carmendine Monk"
+ ],
+ "Catfolk": [
+  "Catfolk Pounce"
+ ],
+ "and Will saves +1": [
+  "Celestial Bloodline"
+ ],
+ "base Fortitude": [
+  "Celestial Bloodline",
+  "Outsider Wings (Celestial)",
+  "Outsider Wings (Fiendish)"
+ ],
+ "Reflex": [
+  "Celestial Bloodline",
+  "Outsider Wings (Celestial)",
+  "Outsider Wings (Fiendish)"
+ ],
+ "Able to acquire a new familiar": [
+  "Celestial Familiar"
+ ],
+ "minimum level requirement (see below)": [
+  "Celestial Familiar",
+  "Exalted Companion",
+  "Vermin Companion"
+ ],
+ "Nonevil alignment": [
+  "Celestial Heritage",
+  "Celestial Summoning Specialist",
+  "Energize Spell"
+ ],
+ "Ability to cast 2nd-level arcane spells": [
+  "Celestial Light",
+  "Dragon Sight",
+  "Fey's Fate",
+  "Friend of the Earth",
+  "Lawful Discipline",
+  "Master Spellthief ",
+  "Mind Weapon"
+ ],
+ "Paladin level 4th": [
+  "Celestial Mount"
+ ],
+ "sorcerer level 1st": [
+  "Celestial Sorcerer Aura",
+  "Celestial Sorcerer Lance",
+  "Celestial Sorcerer Lore",
+  "Celestial Sorcerer Wings",
+  "Draconic Arcane Grace",
+  "Draconic Breath",
+  "Draconic Claw",
+  "Draconic Flight",
+  "Draconic Knowledge",
+  "Draconic Persuasion",
+  "Draconic Power",
+  "Draconic Presence",
+  "Draconic Resistance",
+  "Draconic Skin",
+  "Draconic Toughness",
+  "Draconic Vigor ",
+  "Infernal Sorcerer Eyes",
+  "Infernal Sorcerer Howl",
+  "Infernal Sorcerer Resistance"
+ ],
+ "Sorcerer level 1": [
+  "Celestial Sorcerer Heritage",
+  "Draconic Heritage",
+  "Draconic Heritage",
+  "Draconic Heritage",
+  "Infernal Sorcerer Heritage"
+ ],
+ "any two other celestial sorcerer heritage feats": [
+  "Celestial Sorcerer Lore"
+ ],
+ "ability to cast any summon monster spell": [
+  "Celestial Summoning Specialist",
+  "Fiendish Summoning Specialist"
+ ],
+ "Centaur": [
+  "Centaur Trample"
+ ],
+ "Cleric level 1st. worshiper of the Sovereign Host or one of its deities": [
+  "Ceremonial Empowerment"
+ ],
+ "Any metamagic feat": [
+  "Chain Spell",
+  "Cooperative Spell",
+  "Delay Spell",
+  "Heroic Metamagic",
+  "Invisible Spell ",
+  "Metamagic Spell Trigger",
+  "Repeat Spell",
+  "Sanctum Spell",
+  "Sculpt Spell",
+  "Split Ray",
+  "Sudden Empower",
+  "Sudden Empower",
+  "Sudden Maximize",
+  "Sudden Maximize",
+  "Twin Spell"
+ ],
+ "Any other metamagic feat": [
+  "Chain Spell",
+  "Cooperative Spell",
+  "Delay Spell",
+  "Delay Spell",
+  "Energy Substitution",
+  "Energy Substitution",
+  "Energy Substitution",
+  "Energy Substitution",
+  "Eschew Materials",
+  "Eschew Materials",
+  "Eschew Materials",
+  "Nonlethal Substitution",
+  "Repeat Spell",
+  "Repeat Spell",
+  "Sanctum Spell",
+  "Sculpt Spell",
+  "Split Ray",
+  "Subdual Substitution",
+  "Subdual Substitution",
+  "Twin Spell",
+  "Twin Spell"
+ ],
+ "profi cient with chakram": [
+  "Chakram Ricochet"
+ ],
+ "ability to cast 4thlevel spells": [
+  "Channel Charge"
+ ],
+ "legacy ability with a daily use limit": [
+  "Channel Legacy",
+  "Curative Legacy",
+  "Transfer Legacy"
+ ],
+ "ability to rage": [
+  "Channeled Rage",
+  "Ice Troll Berserker",
+  "Owlbear Berserker",
+  "Snow Tiger Berserker"
+ ],
+ "Rage 5/day": [
+  "Chaotic Rage"
+ ],
+ "ability to prepare and cast spells": [
+  "Chaotic Spell Recall "
+ ],
+ "Any one Abyssal heritor feat": [
+  "Chaotic Spell Recall "
+ ],
+ "Handle animal skill": [
+  "Chariot Archery"
+ ],
+ "Handle Animal skill": [
+  "Chariot Charge",
+  "Chariot Combat",
+  "Chariot Sideswipe",
+  "Chariot Trample"
+ ],
+ "Racial bonus on saving throws against charm effects": [
+  "Charm Immunity",
+  "Charm Resistance"
+ ],
+ "Access to the Death domain": [
+  "Charnel Miasma"
+ ],
+ "Human (The Shaar)": [
+  "Cheetah Tribe Sprint"
+ ],
+ "Membership Cheetah tribe (see human tribes of shaar P164)": [
+  "Cheetah Tribe Sprint"
+ ],
+ "Region of origin Shadow Marches": [
+  "Child of the Swamps",
+  "Indomitable Discipline"
+ ],
+ "nongood alignment": [
+  "Child of Winter",
+  "Greater Corrupt Spell Focus",
+  "Horrific Appearance",
+  "Necrocarnum Acolyte",
+  "Spontaneous Wounder",
+  "Undead Leadership",
+  "Vermin Companion",
+  "Vermin Shape"
+ ],
+ "ability to cast divine spells": [
+  "Chondathan Missionary",
+  "Eldritch Linguist"
+ ],
+ "Chondathan human": [
+  "Chondathan Missionary"
+ ],
+ "Bardic music.": [
+  "Chord of Distraction "
+ ],
+ "Any other vile feat": [
+  "Chosen of Evil"
+ ],
+ "Patron deity must be Iborighu": [
+  "Chosen of Iborighu"
+ ],
+ "ability to t u rn undead": [
+  "Chosen of the Deathless"
+ ],
+ "War domain": [
+  "Chosen Weapon Specialization",
+  "Initiate of Tyr"
+ ],
+ "Weapon Focus with deity's chosen weapon": [
+  "Chosen Weapon Specialization"
+ ],
+ "Divine spellcaster with Galaedros as a patron diety": [
+  "Circle Magic"
+ ],
+ ": Caster level 3rd": [
+  "City Magic "
+ ],
+ "two White Raven maneuvers": [
+  "Clarion Commander"
+ ],
+ "Small or Medium size": [
+  "Clever Wrestling",
+  "Clever Wrestling"
+ ],
+ "Small or Medium-size": [
+  "Clever Wrestling"
+ ],
+ "size Small or Medium": [
+  "Clever Wrestling",
+  "Cunning Sidestep"
+ ],
+ "Shifter with the cliffwalk trait": [
+  "Cliffwalk Elite",
+  "Cliffwalk Elite"
+ ],
+ "Wild shape": [
+  "Climb like an Ape",
+  "Cougar's Vision",
+  "Hawk's Vision",
+  "Powerful Wild shape",
+  "Savage Grapple",
+  "Scent",
+  "Wolverine's Rage"
+ ],
+ "breath weapon with recharge time expressed in rounds": [
+  "Clinging Breath"
+ ],
+ "breath weapon": [
+  "Clinging Breath",
+  "Dragon Breath",
+  "Enlarge Breath",
+  "Entangling Exhalation",
+  "Exhaled Barrier",
+  "Exhaled Immunity",
+  "Extend Spreading Breath",
+  "Furious Inhalation",
+  "Heighten Breath",
+  "Lingering Breath",
+  "Maximize Breath",
+  "Quicken Breath",
+  "Recover Breath",
+  "Shape Breath",
+  "Split Breath",
+  "Spreading Breath",
+  "Strafing Breath",
+  "Tempest Breath"
+ ],
+ "Spell Focus (conjuration) or conjurer level 1st": [
+  "Cloudy Conjuration"
+ ],
+ "rage class feature": [
+  "Cobalt Rage",
+  "Shared Fury"
+ ],
+ "Serpent or serpentfolk": [
+  "Cobra Head",
+  "Puff Torso",
+  "Tail Rattle"
+ ],
+ "The ability to wild shape into a Gargantuan creature": [
+  "Colossal Wild Shape"
+ ],
+ "familiar": [
+  "Combat Familiar",
+  "Heroic Companion",
+  "Lurking Familiar",
+  "Spell-Linked Familiar"
+ ],
+ "any two other combat form feats": [
+  "Combat Strike"
+ ],
+ "Animal companion": [
+  "Companion Spellbond",
+  "Natural Bond"
+ ],
+ "Sneak attack +3d6": [
+  "Concussion Attack",
+  "Gloom Strike"
+ ],
+ "Exposure to call lightning": [
+  "Conductivity"
+ ],
+ "lightning bolt": [
+  "Conductivity"
+ ],
+ "Small or smaller": [
+  "Confound the Big Folk",
+  "Underfoot Combat"
+ ],
+ "ability to turn undead": [
+  "Consecrate Spell Trigger",
+  "Hand of Tyr",
+  "Positive Energy Aura",
+  "Positive Energy Aura",
+  "Purify Spell Trigger",
+  "Sacred Healing",
+  "Sacred Purification",
+  "Sacred Radiance",
+  "Sacred Resilience",
+  "Touch of Silver"
+ ],
+ "Craft Wand or Craft Staff": [
+  "Consecrate Spell Trigger",
+  "Prophecy's Artifex",
+  "Purify Spell Trigger"
+ ],
+ "blacksmithing. or sculpting) 10 ranks": [
+  "Construct Grafter"
+ ],
+ "Paralysis as an extraordinary or supernatural ability": [
+  "Contagious Paralysis"
+ ],
+ "Exposure to fi reball or delayed blast fi reball spell": [
+  "Controlled Immolation"
+ ],
+ "Time limit on how long you can remain out of water": [
+  "Controlled Respiration"
+ ],
+ "Any two mental skill tricks.": [
+  "Cool Head (CS)"
+ ],
+ "animal companion class feature or special mount class feature": [
+  "Coordinated Strike"
+ ],
+ "ability to cast 3rd-level spells": [
+  "Cormanthyran Moon Magic"
+ ],
+ "Gully dwarf": [
+  "Cornered Rat"
+ ],
+ "mild depravity": [
+  "Corrupt Arcana",
+  "Forbidden Lore",
+  "Mad Faith"
+ ],
+ "Spontaneous arcane or divine caster": [
+  "Corrupt Arcana"
+ ],
+ "non-good alignment": [
+  "Corrupt Arcane Studies",
+  "Enervating Touch"
+ ],
+ "Sorcerer or wizard level 3rd": [
+  "Corrupt Arcane Studies"
+ ],
+ "Any nongood alignment": [
+  "Corrupt Spell Focus"
+ ],
+ "Regions: Amn": [
+  "Cosmopolitan"
+ ],
+ "Dwarf (Waterdeep)": [
+  "Cosmopolitan"
+ ],
+ "elf (Waterdeep)": [
+  "Cosmopolitan"
+ ],
+ "half-elf (Waterdeep)": [
+  "Cosmopolitan",
+  "Smooth Talk",
+  "Twin Sword Style"
+ ],
+ "halfl ing (Amn)": [
+  "Cosmopolitan",
+  "Silver Palm"
+ ],
+ "o r human (Amn": [
+  "Cosmopolitan"
+ ],
+ "the Sword Coast": [
+  "Cosmopolitan",
+  "Stormheart",
+  "Tireless"
+ ],
+ "Waterdeep)": [
+  "Cosmopolitan",
+  "Education",
+  "Mercantile Background",
+  "Silver Palm",
+  "Silver Palm",
+  "Smooth Talk",
+  "Thunder Twin"
+ ],
+ "Bardic music (inspire courage) class feature": [
+  "Courageous Rally"
+ ],
+ "Aboleth": [
+  "Craft Aboleth Glyph",
+  "Death Frenzy",
+  "Enlarge Mucus Cloud",
+  "Memory Eater",
+  "Powerful Bite",
+  "Quickslime",
+  "Reach Bite",
+  "Thicken Mucus",
+  "Toxic Mucus"
+ ],
+ "Manifester level 3rd": [
+  "Craft Cognizance Crystal",
+  "Craft Universal Item",
+  "Expanded Knowledge",
+  "Scribe Tattoo"
+ ],
+ "Caster level 11th": [
+  "Craft Contingent Spell"
+ ],
+ "Spellcaster Level 11": [
+  "Craft Contingent Spell"
+ ],
+ "Manifester level 9th+": [
+  "Craft Crystal Capacitor"
+ ],
+ "Spellcaster Level 7+": [
+  "Craft Crystal Weapon"
+ ],
+ "Manifester level 5th+": [
+  "Craft Dorje",
+  "Craft Psionic Arms and Armor"
+ ],
+ "Manifester level 5th": [
+  "Craft Dorje",
+  "Craft Psionic Arms and Armor"
+ ],
+ "Caster level 5th": [
+  "Craft Magic Arms and Armor",
+  "Craft Rune Circle",
+  "Craft Wand",
+  "Spontaneous Casting"
+ ],
+ "Manifester level 12th": [
+  "Craft Psicrown"
+ ],
+ "caster level or manifester level 7th": [
+  "Craft Psionic Seal"
+ ],
+ "psionic ability (spell-like abilities described as psionics": [
+  "Craft Psionic Seal"
+ ],
+ "psi-like abilities": [
+  "Craft Psionic Seal"
+ ],
+ "psionic powers)": [
+  "Craft Psionic Seal"
+ ],
+ "Caster level 9th": [
+  "Craft Rod"
+ ],
+ "Caster level 6th": [
+  "Craft Skull Talisman"
+ ],
+ "Caster level 12th": [
+  "Craft Staff",
+  "Forge Ring"
+ ],
+ "Spellcaster Level 1+": [
+  "Craft Talisman"
+ ],
+ "appropriate Craft skill": [
+  "Craft Talisman",
+  "Inscribe Rune",
+  "Inscribe Rune"
+ ],
+ "Manifester level 3rd+": [
+  "Craft Universal Item"
+ ],
+ "cannot be immune to fear": [
+  "Craven"
+ ],
+ "Sneak attack class feature": [
+  "Craven",
+  "Demonic Sneak Attack "
+ ],
+ "spellcaster level 3rd": [
+  "Create Infusion",
+  "Tattoo Magic"
+ ],
+ "Wilderness Lore 4 ranks": [
+  "Create Infusion"
+ ],
+ "longsword": [
+  "Crescent Moon",
+  "Hammer's Edge",
+  "High Sword Low Axe",
+  "Stormguard Warrior"
+ ],
+ "scimitar": [
+  "Crescent Moon"
+ ],
+ "short sword)": [
+  "Crescent Moon"
+ ],
+ "heavy": [
+  "Crossbow Sniper",
+  "Crossbow Sniper"
+ ],
+ "light crossbow)": [
+  "Crossbow Sniper"
+ ],
+ "Weapon Proficiency with Hand": [
+  "Crossbow Sniper"
+ ],
+ "light crossbow": [
+  "Crossbow Sniper"
+ ],
+ "Huge size. Size --------- Crush Base Damage. Huge --------- 2d8. Gargantuan - 4d6. Colossal ----- 4d8": [
+  "Crush"
+ ],
+ "Proficiency with a bludgeoning weapon": [
+  "Crushing Strike"
+ ],
+ "Weapon Focus with a bludgeoning weapon": [
+  "Crushing Strike"
+ ],
+ "Weapon Mastery (bludgeoning)": [
+  "Crushing Strike"
+ ],
+ "Weapon Specialization with a bludgeoning weapon": [
+  "Crushing Strike"
+ ],
+ "evasion": [
+  "Cunning Evasion",
+  "Evasive Maneuvers"
+ ],
+ "ability to cast cure light wounds": [
+  "Curative Legacy"
+ ],
+ "Ability to smite evil": [
+  "Cuthbert's Smite"
+ ],
+ "Patron deity St. Cuthbert": [
+  "Cuthbert's Smite"
+ ],
+ "Proficient in rapier": [
+  "Dancing Blade"
+ ],
+ "Humanoid (goblinoid)": [
+  "Darguun Mauler"
+ ],
+ "proficiency with flail or heavy flail": [
+  "Darguun Mauler"
+ ],
+ "region of origin Darguun": [
+  "Darguun Mauler"
+ ],
+ "Grace +1": [
+  "Daring Outlaw ",
+  "Daring Warrior"
+ ],
+ "Base Will save bonus +5": [
+  "Dark Speech"
+ ],
+ "Base Will save +5": [
+  "Dark Speech",
+  "Insane Defiance"
+ ],
+ "Will save bonus +5": [
+  "Dark Speech"
+ ],
+ "Dwarf ( the G alena M ountains": [
+  "Dauntless"
+ ],
+ "t he S m oking Mountains": [
+  "Dauntless"
+ ],
+ "Turmish": [
+  "Dauntless",
+  "Luck of Heroes",
+  "Mercantile Background",
+  "Silver Palm",
+  "Thunder Twin"
+ ],
+ "Underdark [Earthroot]": [
+  "Dauntless"
+ ],
+ "Underdark [Old Shanatar])": [
+  "Dauntless",
+  "Tireless"
+ ],
+ "h um an ( Dam ara": [
+  "Dauntless"
+ ],
+ "t he G reat D ale": [
+  "Dauntless"
+ ],
+ "I mpiltur": [
+  "Dauntless"
+ ],
+ "o r t he Moonshae Isles)": [
+  "Dauntless"
+ ],
+ "slyth (Underdark [Fluvenilstra])": [
+  "Dauntless",
+  "Discipline",
+  "Survivor"
+ ],
+ "orc (Amn": [
+  "Dauntless",
+  "Surefooted",
+  "Thug"
+ ],
+ "Chessenta": [
+  "Dauntless",
+  "Street Smart"
+ ],
+ "Dwarf (Underdark [Northdark])": [
+  "Daylight Adaptation"
+ ],
+ "elf (Cormanthor Drow)": [
+  "Daylight Adaptation"
+ ],
+ "kuo-toa (Underdark [Sloopdilmonpolop])": [
+  "Daylight Adaptation",
+  "Dreadful Wrath",
+  "Survivor"
+ ],
+ "orc (Chessenta": [
+  "Daylight Adaptation"
+ ],
+ "the Hordelands": [
+  "Daylight Adaptation",
+  "Saddleback"
+ ],
+ "Thesk)": [
+  "Daylight Adaptation"
+ ],
+ "Light blindness or light sensitivity": [
+  "Daylight Adaptation"
+ ],
+ "Know energy missile* power": [
+  "Dazzling Energy"
+ ],
+ "Privileged Energy*": [
+  "Dazzling Energy",
+  "Paraelemental Power"
+ ],
+ "Faerie ?re as a spell-like ability": [
+  "Dazzling Fire"
+ ],
+ "Spell Focus (illusion) or illusionist level 1st": [
+  "Dazzling Illusion"
+ ],
+ "skirmish or sneak attack ability": [
+  "Deadeye Shot"
+ ],
+ "Ability Focus (poison)": [
+  "Deadly Poison"
+ ],
+ "poison special attack that deals ability damage as secondary damage": [
+  "Deadly Poison",
+  "Deadly Poison"
+ ],
+ "spittle attack": [
+  "Deadly Spittle",
+  "Improved Spit"
+ ],
+ "spit attack": [
+  "Deadly Spittle",
+  "Improved Spit"
+ ],
+ "bardic music class feature": [
+  "Deafening Song",
+  "Epic Inspiration",
+  "Group Inspiration",
+  "Hindering Song",
+  "Inspire Excellence",
+  "Lasting Inspiration",
+  "Lasting Inspiration",
+  "Melodic Casting",
+  "Music of the Gods",
+  "Rapid Inspiration",
+  "Reactive Countersong"
+ ],
+ "undead type": [
+  "Death Master",
+  "Empowered Ability Damage",
+  "Eviscerator",
+  "Lifebond",
+  "Undead Meldshaper"
+ ],
+ "five or more favored enemies (as ranger class feature)": [
+  "Death of Enemies"
+ ],
+ "Wilderness Lore 30 ranks": [
+  "Death of Enemies",
+  "Legendary Tracker"
+ ],
+ "Aereni elf": [
+  "Deathless Fleshgrafter"
+ ],
+ "moderate taint": [
+  "Debilitating Spell",
+  "Debilitating Strike"
+ ],
+ "Dancing lights as a spell-like ability.": [
+  "Deceptive Illumination",
+  "Fascinating Illumination"
+ ],
+ "Underground as sole terrain type": [
+  "Deep Denizen"
+ ],
+ "Able to create darkness as a racial ability": [
+  "Deepening Darkness"
+ ],
+ "one other aberrant feat": [
+  "Deepspawn",
+  "Starspawn",
+  "Waterspawn"
+ ],
+ "any good alignment": [
+  "Defender of the Homeland",
+  "Holy Strike",
+  "Holy Strike"
+ ],
+ "Watchful spirit class feature (see the wu jen class in Complete Arcane)": [
+  "Defending Spirit ",
+  "Hasty Spirit",
+  "Vengeful Spirit"
+ ],
+ "Evil alignment": [
+  "Deformity (Skin)",
+  "Deformity (Tall)",
+  "Deformity (Teeth)",
+  "Deformity (Tongue)",
+  "Willing Deformity"
+ ],
+ "Medium size": [
+  "Deformity (Tall)"
+ ],
+ "Sneak attack +1d6": [
+  "Deft Strike",
+  "Foe Specialist",
+  "Swift Ambusher "
+ ],
+ "Desert terrain type": [
+  "Desert Dweller"
+ ],
+ "One Desert Wind strike": [
+  "Desert Fire"
+ ],
+ "one Desert Wind maneuver": [
+  "Desert Wind Dodge"
+ ],
+ "heavy mace": [
+  "Despana School"
+ ],
+ "warmace)": [
+  "Despana School"
+ ],
+ "ability to cast any summon monster spell.": [
+  "Despana School"
+ ],
+ "Rage or frenzy ability": [
+  "Destructive Rage",
+  "Extend Rage",
+  "Extra Rage",
+  "Intimidating Rage",
+  "Mad Foam Rager"
+ ],
+ "regeneration": [
+  "Detach"
+ ],
+ "Pact with devil": [
+  "Devil's Favor"
+ ],
+ "base Fortitude save +3": [
+  "Devil's Stamina"
+ ],
+ "One Devoted Spirit maneuver": [
+  "Devoted Bulwark"
+ ],
+ "Smite evil": [
+  "Devoted Inquisitor"
+ ],
+ "smite evil.": [
+  "Devoted Performer"
+ ],
+ "smite evil": [
+  "Devoted Tracker"
+ ],
+ "wild empathy": [
+  "Devoted Tracker"
+ ],
+ "slippery mind class feature": [
+  "Dexterous Fortitude",
+  "Dexterous Will"
+ ],
+ "Raised among the barbarians of Bazareene": [
+  "Diehard"
+ ],
+ "Aura ability": [
+  "Dilate Aura"
+ ],
+ "Ability to cast 4th-level spells": [
+  "Dimensional Jaunt",
+  "Drowning Glance",
+  "Holy Warrior",
+  "Minor Shapeshift",
+  "Summon Elemental"
+ ],
+ "Ability to wild shape into a Huge animal": [
+  "Diminutive Wild Shape",
+  "Gargantuan Wild Shape"
+ ],
+ "region of origin Talenta Plains": [
+  "Dinosaur Hunter",
+  "Dinosaur Wrangler",
+  "Talenta Warrior"
+ ],
+ "Ability to generate a mind blade": [
+  "Dire Flail Mind Blade",
+  "Dwarven Urgrosh Mind Blade",
+  "Mind Strike",
+  "Mind Strike Swift",
+  "Monk's Spade Mind Blade",
+  "Orc Double Axe Mind Blade",
+  "Soulblade Warrior",
+  "Two-Bladed Mind Blade"
+ ],
+ "shape mind blade class feature": [
+  "Dire Flail Mind Blade",
+  "Dwarven Urgrosh Mind Blade",
+  "Monk's Spade Mind Blade",
+  "Orc Double Axe Mind Blade",
+  "Two-Bladed Mind Blade"
+ ],
+ "Extra Lurk Augment*": [
+  "Dire Stun"
+ ],
+ "Lurk augment class feature (page 14)": [
+  "Dire Stun"
+ ],
+ "Lawful evil alignment": [
+  "Disciple of Darkness"
+ ],
+ "Ability to turn or rebuke undead": [
+  "Disciple of the Sun",
+  "Divine Accuracy",
+  "Divine Alacrity",
+  "Divine Cleansing",
+  "Divine Conduit",
+  "Divine Countermagic",
+  "Divine Defiance",
+  "Divine Energy Focus",
+  "Divine Intercession",
+  "Divine Justice",
+  "Divine Justice",
+  "Divine Might",
+  "Divine Might",
+  "Divine Might",
+  "Divine Resistance",
+  "Divine Shield",
+  "Divine Spell Power",
+  "Divine Spirit",
+  "Divine Vigor",
+  "Divine Vigor",
+  "Divine Ward",
+  "Domain Spontaneity",
+  "Domain Spontaneity",
+  "Empower Turning",
+  "Empower Turning",
+  "Empower Turning",
+  "Empower Turning",
+  "Empower Turning",
+  "Glorious Weapons",
+  "Heroic Channeling",
+  "Light of Aurifar",
+  "Persistent Refusal",
+  "Pious Defiance",
+  "Quicken Turning",
+  "Quicken Turning",
+  "Quicken Turning",
+  "Quicken Turning",
+  "Quicken Turning"
+ ],
+ "good alignment": [
+  "Disciple of the Sun",
+  "Divine Censure"
+ ],
+ "Chitine (Underdark [Yathchol])": [
+  "Discipline"
+ ],
+ "elf (Evereska or the Yuirwood)": [
+  "Discipline"
+ ],
+ "gnome (the Western Heartlands)": [
+  "Discipline"
+ ],
+ "halfl ing (Luiren)": [
+  "Discipline",
+  "Militia"
+ ],
+ "human (Aglarond": [
+  "Discipline",
+  "Luck of Heroes"
+ ],
+ "Cormyr": [
+  "Discipline",
+  "Foe Hunter"
+ ],
+ "Shadovar": [
+  "Discipline",
+  "Spellwise"
+ ],
+ "Shou Expatriate": [
+  "Discipline",
+  "Mercantile Background",
+  "Mind over Body"
+ ],
+ "Thay)": [
+  "Discipline",
+  "Mind over Body"
+ ],
+ "planetouched (Mulhorand)": [
+  "Discipline"
+ ],
+ "wild dwarf": [
+  "Disentangler"
+ ],
+ "Wild dwarf. Regions: Chult": [
+  "Disentangler"
+ ],
+ "Bardic music ability": [
+  "Disguise Spell",
+  "Extra Music",
+  "Green Ear",
+  "Ice Harmonics",
+  "Lingering Song",
+  "Requiem",
+  "Snowflake Wardance",
+  "Subsonics"
+ ],
+ "ability to cast disintegrate as a spell or use it as a spell-like or supernatural ability": [
+  "Disintegration Finesse"
+ ],
+ "beholder with functional antimagic ability": [
+  "Disjunction Ray"
+ ],
+ "two Setting Sun maneuvers": [
+  "Distant Horizon"
+ ],
+ "Base Reflex save bonus +4": [
+  "Dive For Cover"
+ ],
+ "Half-human": [
+  "Diverse Background"
+ ],
+ "access to the Travel domain": [
+  "Divine Alacrity"
+ ],
+ "ability to turn or rebuke undead": [
+  "Divine Armor",
+  "Divine Fortune",
+  "Divine Soultouch",
+  "Holy Potency",
+  "Planar Turning",
+  "Planar Turning",
+  "Retrieve Spell",
+  "Spectral Strike",
+  "Spectral Strike",
+  "Spiritual Counter"
+ ],
+ "Divine caster level 5th": [
+  "Divine Armor",
+  "Divine Fortune"
+ ],
+ "Turn or rebuke undead ability": [
+  "Divine Cleansing",
+  "Divine Resistance",
+  "Divine Shield",
+  "Divine Vigor",
+  "Sacred Vengeance"
+ ],
+ "Patron deity": [
+  "Divine Conduit",
+  "Divine Fervor"
+ ],
+ "access to Magic or Spell domain": [
+  "Divine Countermagic"
+ ],
+ "ability to rebuke earth creatures": [
+  "Divine Damage Reduction",
+  "Earth's Warding"
+ ],
+ "Divine caster level 3": [
+  "Divine Defiance"
+ ],
+ "Travel or Trickery domain": [
+  "Divine Intercession"
+ ],
+ "Ability to turn undead or rebuke undead": [
+  "Divine Metamagic"
+ ],
+ "turn or rebuke undead ability": [
+  "Divine Might"
+ ],
+ "Proficiency with a shield": [
+  "Divine Shield"
+ ],
+ "alignment matching chosen component": [
+  "Divine Spell Penetration"
+ ],
+ "domain of chosen alignment": [
+  "Divine Spell Penetration"
+ ],
+ "Improved Alignment-Based Casting": [
+  "Divine Spell Penetration"
+ ],
+ "able to cast 1st-level divine spells": [
+  "Divine Spell Power"
+ ],
+ "Ability to rebuke earth creatures": [
+  "Divine Spellshield",
+  "Roots of the Mountain"
+ ],
+ "racial bonus on saves against spells": [
+  "Divine Spellshield"
+ ],
+ "one Devoted Spirit stance": [
+  "Divine Spirit"
+ ],
+ "ability to t u r n or rebuke undead": [
+  "Divine Warrior"
+ ],
+ "Access to relevant domain": [
+  "Domain Focus"
+ ],
+ "Tap Mantle*": [
+  "Don Mantle"
+ ],
+ "Bardic music class feature": [
+  "Doomspeak",
+  "Extra Music",
+  "Haunting Melody",
+  "Music of Growth",
+  "Music of Making",
+  "Ranged Inspiration",
+  "Requiem",
+  "Song of the Heart",
+  "Soothe the Beast",
+  "Sunken Song",
+  "Talfirian Song",
+  "Windsinger"
+ ],
+ "manifester level 9th": [
+  "Dorje Mastery",
+  "Dorje Mastery"
+ ],
+ "Meldshaper level 9th": [
+  "Double Chakra"
+ ],
+ "Ability to project two different draconic auras": [
+  "Double Draconic Aura"
+ ],
+ "ability to project two different draconic auras": [
+  "Double Draconic Aura"
+ ],
+ "Flurry of blows class feature": [
+  "Double Steel Strike"
+ ],
+ "Base Will save +4": [
+  "Draconian Breath Weapon"
+ ],
+ "Draconian": [
+  "Draconian Breath Weapon",
+  "Improved Draconian Breath Weapon",
+  "Spectacular Death Throes"
+ ],
+ "sorcerer le%&amp;quot;el 1st": [
+  "Draconic Armor "
+ ],
+ "any three Knowledge skills": [
+  "Draconic Knowledge"
+ ],
+ "true dragon": [
+  "Draconic Knowledge"
+ ],
+ "Any four draconic feats": [
+  "Draconic Legacy",
+  "Draconic Legacy"
+ ],
+ "dragonblood subtype": [
+  "Draconic Senses ",
+  "Dragonfire Assault ",
+  "Dragonfire Channeling ",
+  "Dragonfire Inspiration ",
+  "Dragonfire Strike ",
+  "Initiate of Aasterinian ",
+  "Initiate of Astilabor ",
+  "Initiate of Falazure ",
+  "Initiate of Garyx ",
+  "Initiate of Hlal ",
+  "Initiate of Io ",
+  "Initiate of Lendys ",
+  "Initiate of Tamara",
+  "Initiate of Tiamat "
+ ],
+ "6 HD": [
+  "Dragon Breath",
+  "Empower Supernatural Ability",
+  "Improved Dragon Wings"
+ ],
+ "Half-dragon": [
+  "Dragon Breath"
+ ],
+ "Speak Language (Draconic)": [
+  "Dragon Cohort",
+  "Dragon Familiar",
+  "Dragon Prophesier",
+  "Dragon Steed",
+  "Dragon Trainer",
+  "Dragonthrall",
+  "Prophecy's Artifex",
+  "Prophecy's Explorer",
+  "Prophecy's Hero",
+  "Prophecy's Mind",
+  "Prophecy's Shaper",
+  "Prophecy's Shepherd",
+  "Prophecy's Slayer",
+  "Words of Draconic Power "
+ ],
+ "ability to acquire a new familiar": [
+  "Dragon Familiar"
+ ],
+ "arcane spellcaster level 7th": [
+  "Dragon Familiar"
+ ],
+ "compatible alignment": [
+  "Dragon Familiar",
+  "Improved Familiar",
+  "Improved Familiar",
+  "Improved Familiar",
+  "Improved Familiar",
+  "Planar Familiar"
+ ],
+ "ability to rage or frenzy": [
+  "Dragon Rage",
+  "Furious Inhalation",
+  "Shifter Savagery"
+ ],
+ "region of origin Argonnessen": [
+  "Dragon Rage"
+ ],
+ "region of origin Argonnessen or Seren": [
+  "Dragon Totem"
+ ],
+ "ability to spontaneously cast 1st-level arcane spells": [
+  "Dragon Totem Lorekeeper"
+ ],
+ "Least Dragonmark or Siberys Dragonmark": [
+  "Dragon's Insight"
+ ],
+ "Base Fort save bonus +11": [
+  "Dragon's Toughness"
+ ],
+ "ability to turn or rebuke undead or elementals": [
+  "Dragonfire Channeling "
+ ],
+ "one of these class features: skirmish": [
+  "Dragonfire Strike "
+ ],
+ "sudden strike": [
+  "Dragonfire Strike ",
+  "Undo Resistance"
+ ],
+ "Any lesser true dragonmark": [
+  "Dragonmark Adept"
+ ],
+ "Any true dragonmark": [
+  "Dragonmark Battlestrike",
+  "Dragonmark Mastery",
+  "Dragonmark Spellturning",
+  "Mark of the Recovery",
+  "Mark of Truth",
+  "Shield of Siberys"
+ ],
+ "Any least true dragonmark": [
+  "Dragonmark Prodigy"
+ ],
+ "Ability to rage or frenzy": [
+  "Dragonmark Rage",
+  "Extend Rage",
+  "Raging Luck"
+ ],
+ "any true or aberrant dragonmark.": [
+  "Dragonmark Rage",
+  "Eldritch Dragonbane",
+  "Eldritch Mark",
+  "Evokers Mark"
+ ],
+ "Ability to make a smite attack": [
+  "Dragonmark Smite"
+ ],
+ "any true dragonmark.": [
+  "Dragonmark Smite",
+  "Gatekeepers Mark",
+  "Greensingers Mark",
+  "Hunters Mark",
+  "Mark of Purity",
+  "Mark of the Wilderness"
+ ],
+ "Any greater true dragonmark": [
+  "Dragonmark Visionary"
+ ],
+ "Kobold": [
+  "Dragonwrought",
+  "Kobold Endurance",
+  "Kobold Foe Strike"
+ ],
+ "Ethran. REGION: Rashemen": [
+  "Draw From The Land"
+ ],
+ "deity Hextor": [
+  "Dread Tyranny"
+ ],
+ "Human (Rashemen)": [
+  "Dreadful Wrath"
+ ],
+ "planetouched (Impiltur": [
+  "Dreadful Wrath",
+  "Thug"
+ ],
+ "the Silver Marches": [
+  "Dreadful Wrath",
+  "Thug"
+ ],
+ "Western Heartlands)": [
+  "Dreadful Wrath"
+ ],
+ "one other dreamtouched feat": [
+  "Dream of Contact",
+  "Dream of Insight"
+ ],
+ "One other Dreamtouched feat": [
+  "Dream of Perception"
+ ],
+ "Shifter with the dreamsight trait": [
+  "Dreamsight Elite"
+ ],
+ "ability to cast spells": [
+  "Drift Magic",
+  "Embed Spell Focus"
+ ],
+ "Knowledge (local wasteland region) 4 ranks": [
+  "Drift Magic"
+ ],
+ "Proficiency with selected piercing weapon": [
+  "Driving Attack"
+ ],
+ "Weapon Focus with selected piercing weapon": [
+  "Driving Attack"
+ ],
+ "Weapon Mastery (piercing)": [
+  "Driving Attack"
+ ],
+ "Weapon Specialization with selected piercing weapon": [
+  "Driving Attack"
+ ],
+ "3 HD": [
+  "Dromite Barrier",
+  "Elan Retainment"
+ ],
+ "Dromite": [
+  "Dromite Barrier",
+  "Dromite Ray"
+ ],
+ "Dromite Ray*": [
+  "Dromite Barrier"
+ ],
+ "Half-drow elf": [
+  "Drow Eyes"
+ ],
+ "Drow. region of origin Xen'drik": [
+  "Drow Skirmisher"
+ ],
+ "Duergar": [
+  "Duergar Expansion",
+  "Duergar Invisibility"
+ ],
+ "expansion psi-like ability": [
+  "Duergar Expansion"
+ ],
+ "invisibility psi-like ability": [
+  "Duergar Invisibility"
+ ],
+ "Gray dwarf": [
+  "Duergar Mindshaper",
+  "Duerran Metaform Training",
+  "Duerran Stealth Training"
+ ],
+ "trap sense class feature": [
+  "Dungeoneer's Intuition"
+ ],
+ "wings or tail": [
+  "Dust Cloud"
+ ],
+ "Base Fort save bonus +5": [
+  "Dwarf's Toughness",
+  "Faster Healing"
+ ],
+ "Armor Profi ciency (heavy)": [
+  "Dwarven Armor Proficiency"
+ ],
+ "human (the Shaar)": [
+  "Eagle Tribe Vision"
+ ],
+ "membership in eagle tribe (see human tribes of the shaar p164)": [
+  "Eagle Tribe Vision"
+ ],
+ "profi ciency with eagle's claw": [
+  "Eagle's Fury"
+ ],
+ "Improved Grapple or improved grab": [
+  "Earth's Embrace"
+ ],
+ "Medium or smaller size": [
+  "Easy Escape",
+  "Giantbane"
+ ],
+ "ability to prepare spells": [
+  "Echoing Spell "
+ ],
+ "Know astral construct power": [
+  "Ectopic Form",
+  "Skin of the Construct"
+ ],
+ "Favored enemy (any outsider)": [
+  "Edgewalker Sentinel"
+ ],
+ "Elf (Evermeet": [
+  "Education"
+ ],
+ "Silverymoon": [
+  "Education",
+  "Education"
+ ],
+ "Snow Eagle Aerie)": [
+  "Education"
+ ],
+ "gnome (Lantan)": [
+  "Education",
+  "Fearless"
+ ],
+ "half-elf (Silverymoon)": [
+  "Education",
+  "Mind over Body"
+ ],
+ "Raised in Tereppek": [
+  "Education",
+  "Gift of Tongues"
+ ],
+ "Heavy armor proficiency": [
+  "Efficient Defender"
+ ],
+ "Item creation feat to be selected": [
+  "Efficient Item Creation"
+ ],
+ "Elan": [
+  "Elan Repletion",
+  "Elan Resilience",
+  "Elan Resistance Enhanced",
+  "Elan Retainment"
+ ],
+ "Any one metamagic feat": [
+  "Eldritch Corruption"
+ ],
+ "moderate depravity": [
+  "Eldritch Corruption"
+ ],
+ "Ability to invoke an eldritch blast": [
+  "Eldritch Dragonbane",
+  "Eldritch Mark"
+ ],
+ "Sneak Attack +4d6": [
+  "Eldritch Erosion "
+ ],
+ "Knowledge (arcana) 1 rank": [
+  "Eldritch Erosion "
+ ],
+ "Elemental mastery class feature (see the wu jen class in Complete Arcane)": [
+  "Elemental Adept"
+ ],
+ "Base Fortitude save +4": [
+  "Elemental Bloodline",
+  "Silver Fang",
+  "Stone Slide"
+ ],
+ "genasi (air": [
+  "Elemental Bloodline"
+ ],
+ "earth": [
+  "Elemental Bloodline",
+  "Final Strike"
+ ],
+ "fire": [
+  "Elemental Bloodline",
+  "Final Strike",
+  "Improved Energy Resistance"
+ ],
+ "water)": [
+  "Elemental Bloodline"
+ ],
+ "Any other wild feat": [
+  "Elemental Essence"
+ ],
+ "Ability to rebuke creatures with an elemental subtype": [
+  "Elemental Healing"
+ ],
+ "at least one elemental graft": [
+  "Elemental Smite"
+ ],
+ "Ability to turn creatures with an elemental subtype": [
+  "Elemental Smiting"
+ ],
+ "Ability to cast arcane spells with the same elemental descriptor as your domain": [
+  "Elemental Theurgy"
+ ],
+ "At least one elemental domain (Air": [
+  "Elemental Theurgy"
+ ],
+ "Earth": [
+  "Elemental Theurgy"
+ ],
+ "Fire": [
+  "Elemental Theurgy"
+ ],
+ "Water)": [
+  "Elemental Theurgy"
+ ],
+ "Ability to wild shape into a Large creature": [
+  "Elephant's Hide"
+ ],
+ "spell-like or commandactivated legacy ability": [
+  "Empower Legacy",
+  "Quicken Legacy"
+ ],
+ "Any metashadow feat": [
+  "Empower Mystery",
+  "Reach Mystery"
+ ],
+ "Spell-like ability at caster level 6th or higher": [
+  "Empower Spell-Like Ability",
+  "Empower Spell-Like Ability",
+  "Heighten Spell-like ability",
+  "Maximize Spell-like Ability"
+ ],
+ "Spell-like ability caster level 4th": [
+  "Empower Spell-Like Ability"
+ ],
+ "Spell-like ability at caster level 6th or higher.": [
+  "Empower Spell-Like Ability"
+ ],
+ "supernatural ability": [
+  "Empower Supernatural Ability",
+  "Enlarge Supernatural Ability",
+  "Extend Supernatural Ability",
+  "Widen Supernatural Ability"
+ ],
+ "abiliry to speak uttera nces": [
+  "Empower Utterance"
+ ],
+ "supernatural ability to drain or damage an ability score": [
+  "Empowered Ability Damage"
+ ],
+ "Manifester level 1st+": [
+  "Encode Stone"
+ ],
+ "Proficiency with armor worn": [
+  "Energize Armor"
+ ],
+ "Invest Armor*": [
+  "Energize Armor"
+ ],
+ "must not have the ability to rebuke undead": [
+  "Energize Spell"
+ ],
+ "Abjurer level 1": [
+  "Energy Abjuration"
+ ],
+ "one other metamagic feat": [
+  "Energy Admixture"
+ ],
+ "able to cast at least one spell of each of these energy types: acid": [
+  "Energy Affinity"
+ ],
+ "and fire": [
+  "Energy Affinity"
+ ],
+ "cold": [
+  "Energy Affinity",
+  "Final Strike",
+  "Improved Energy Resistance"
+ ],
+ "electricity": [
+  "Energy Affinity",
+  "Final Strike",
+  "Improved Energy Resistance"
+ ],
+ "caster level 3rd": [
+  "Energy Gestalt"
+ ],
+ "must not have the ability to turn undead": [
+  "Enervate Spell"
+ ],
+ "Nongood alignment": [
+  "Enervate Spell",
+  "Fiendish Heritage",
+  "Fiendish Summoning Specialist",
+  "Nightbringer Initiate",
+  "Tomb-Born Fortitude",
+  "Tomb-Born Resilience",
+  "Tomb-Born Vitality",
+  "Tomb-Tainted Soul"
+ ],
+ "Psychic enervation class feature": [
+  "Enervation Endurance",
+  "Postpone Enervation"
+ ],
+ "ability to use enervation as a spell-like ability": [
+  "Enervative Healing"
+ ],
+ "Fey'ri": [
+  "Enervative Healing",
+  "Fiendish Bloodline"
+ ],
+ "metamagic effect class ability": [
+  "Enhance Effect"
+ ],
+ "Any other item creation feat": [
+  "Enhance Item",
+  "Sanctify Relic"
+ ],
+ "Psychic aura class feature": [
+  "Enhanced Beneficence"
+ ],
+ "two power sigils": [
+  "Enhanced Power Sigils"
+ ],
+ "4 HD": [
+  "Enlarge Supernatural Ability",
+  "Extend Supernatural Ability"
+ ],
+ "ability to speak utterances": [
+  "Enlarge Utterance",
+  "Extend Utterance",
+  "Focused Lexicon",
+  "Quicken Utterance",
+  "Recitation of Mindful State",
+  "Recitation of the Fortified State",
+  "Recitation of the Meditative State",
+  "Recitation of the Sanguine State",
+  "Recitation of Vital State"
+ ],
+ "Ability to gain a familiar": [
+  "Enspell Familiar"
+ ],
+ "Caster level 1st": [
+  "Enspell Familiar",
+  "Mother Cyst",
+  "Scribe Scroll",
+  "Shadow Trickster",
+  "Spell Rehearsal"
+ ],
+ "Elemental Envoy*": [
+  "Envoy Cognizance"
+ ],
+ "Combat Refl exes": [
+  "Epic Counterspell",
+  "Expert Tactician"
+ ],
+ "I mproved I nitiative": [
+  "Epic Counterspell"
+ ],
+ "Q uick en S pell": [
+  "Epic Counterspell"
+ ],
+ "R eactive Counter spell": [
+  "Epic Counterspell"
+ ],
+ "alignment different from the chosen component": [
+  "Epic Devotion",
+  "Epic Devotion"
+ ],
+ "patron deity who does not accept clerics who have the chosen component": [
+  "Epic Devotion"
+ ],
+ "patron deity who does not accept clerics with the chosen component": [
+  "Epic Devotion"
+ ],
+ "30 ranks": [
+  "Epic Dodge"
+ ],
+ "defensive roll": [
+  "Epic Dodge"
+ ],
+ "improved evasion": [
+  "Epic Dodge",
+  "Epic Dodge",
+  "Scramble"
+ ],
+ "Tumble Dodge": [
+  "Epic Dodge"
+ ],
+ "defensive roll class feature": [
+  "Epic Dodge"
+ ],
+ "Ability to shape three soulmelds": [
+  "Epic Essentia 1",
+  "Epic Essentia 2",
+  "Epic Essentia 3",
+  "Epic Essentia 4",
+  "Epic Essentia 5"
+ ],
+ "ability to manifest powers of the normal maximum power level in at least one psionic class": [
+  "Epic Expanded Knowledge",
+  "Epic Psionic Focus",
+  "Improved Manifestation"
+ ],
+ "Skirmish +4d6/+4 AC": [
+  "Epic Improved Skirmish"
+ ],
+ "Leadership score 25": [
+  "Epic Leadership"
+ ],
+ "20 ranks in the skill selected": [
+  "Epic Skill Focus",
+  "Epic Skill Focus"
+ ],
+ "ability to cast at least one 9th-level spell of the selected school": [
+  "Epic Spell Focus"
+ ],
+ "Greater Spell Focus in the selected school": [
+  "Epic Spell Focus"
+ ],
+ "ability to cast at least one 9th-level spell of the school to be chosen": [
+  "Epic Spell Focus"
+ ],
+ "Greater Spell Focus* and Spell Focus in the school selected": [
+  "Epic Spell Focus"
+ ],
+ "Greater Spell Penetration*": [
+  "Epic Spell Penetration"
+ ],
+ "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks": [
+  "Epic Spellcasting (Arcana)",
+  "Epic Spellcasting (Nature)",
+  "Epic Spellcasting (Religion)"
+ ],
+ "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks": [
+  "Epic Spellcasting (Arcana)",
+  "Epic Spellcasting (Nature)",
+  "Epic Spellcasting (Religion)"
+ ],
+ "Spellfi re Wielder": [
+  "Epic Spellfire Wielder"
+ ],
+ "Greater Weapon Focus and Weapon Focus with the weapon chosen": [
+  "Epic Weapon Focus"
+ ],
+ "Weapon Focus in the weapon to be chosen": [
+  "Epic Weapon Focus"
+ ],
+ "None": [
+  "Eschew Materials"
+ ],
+ "Any other metamagic feat.": [
+  "Eschew Materials",
+  "Eschew Materials",
+  "Eschew Materials",
+  "Twin Spell"
+ ],
+ "Caster level 10th": [
+  "Etch Schema"
+ ],
+ "Cleric level 5th": [
+  "Eternal Strength",
+  "Initiate of Garyx ",
+  "Initiate of Hlal ",
+  "Initiate of Loviatar",
+  "Initiate of Tiamat "
+ ],
+ "deity Kord": [
+  "Eternal Strength"
+ ],
+ "Female": [
+  "Ethran",
+  "Ethran"
+ ],
+ "society approval REGION: Rashemen": [
+  "Ethran"
+ ],
+ "spellcaster level lst+": [
+  "Ethran"
+ ],
+ "human (Rashemen)": [
+  "Ethran"
+ ],
+ "membership in the Ettercap berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Ettercap Berserker"
+ ],
+ "Surging euphoria +1 class feature": [
+  "Euphoric Reduction"
+ ],
+ "Spellcaster Level 11th": [
+  "Evasive Maneuvers"
+ ],
+ "ability to cast invisibility": [
+  "Evasive Maneuvers"
+ ],
+ "Able to acquire a new animal companion": [
+  "Exalted Companion"
+ ],
+ "Smite evil class ability": [
+  "Exalted Smite",
+  "Ranged Smite Evil"
+ ],
+ "spell resistance": [
+  "Exalted Spell Resistance",
+  "Psychic Refusal"
+ ],
+ "Wild shape class ability": [
+  "Exalted Wild Shape"
+ ],
+ "wild shaping class level 8th": [
+  "Exalted Wild Shape"
+ ],
+ "Any item creation feat": [
+  "Exceptional Artisan",
+  "Extraordinary Artisan",
+  "Legendary Artisan",
+  "Magical Artisan",
+  "Magical Artisan",
+  "Metacreative",
+  "Talented Crafter"
+ ],
+ "Armor Proficiency of the appropriate; for example you must have Armor Proficiency (Light) to take Exotic Armor Proficiency (spidersilk)": [
+  "Exotic Armor Proficiency"
+ ],
+ "Armor Profi ciency of the appropriate sort (for example": [
+  "Exotic Armor Proficiency (Heavy)",
+  "Exotic Armor Proficiency (Light)",
+  "Exotic Armor Proficiency (Medium)"
+ ],
+ "you must have Armor Profi ciency [light] to take Exotic Armor Profi ciency [mammoth leather])": [
+  "Exotic Armor Proficiency (Heavy)",
+  "Exotic Armor Proficiency (Light)",
+  "Exotic Armor Proficiency (Medium)"
+ ],
+ "Armor Proficiency of the appropriate sort (for example": [
+  "Exotic Armour Proficiency (Heavy)",
+  "Exotic Armour Proficiency (Light)",
+  "Exotic Armour Proficiency (Medium)"
+ ],
+ "you must have Armor Proficiency [Heavy] to take Exotic Armor Proficiency [feeler plate])": [
+  "Exotic Armour Proficiency (Heavy)",
+  "Exotic Armour Proficiency (Light)",
+  "Exotic Armour Proficiency (Medium)"
+ ],
+ "Shield Profi ciency": [
+  "Exotic Shield Proficiency",
+  "Focused Shield",
+  "Shielded Axe",
+  "Shielded Casting",
+  "Shielded Manifesting",
+  "Stoneback"
+ ],
+ "Aura of courage class feature": [
+  "Expanded Aura of Courage"
+ ],
+ "meldshaper level 1st": [
+  "Expanded Soulmeld Capacity"
+ ],
+ "Soul binding": [
+  "Expel Vestige",
+  "Favored Vestige",
+  "Ignore Special Requirements",
+  "Improved Binding",
+  "Rapid Pact Making",
+  "Skilled Pact Making"
+ ],
+ "Small or larger": [
+  "Extend Spreading Breath"
+ ],
+ "feeler": [
+  "Extended Reach"
+ ],
+ "nonrigid body or a nonrigid attack form such as a tentacle": [
+  "Extended Reach"
+ ],
+ "pseudopod": [
+  "Extended Reach"
+ ],
+ "Small or larger size": [
+  "Extended Reach"
+ ],
+ "Don Mantle*": [
+  "Extra Aura"
+ ],
+ "psychic aura class feature": [
+  "Extra Aura"
+ ],
+ "ability to bind soulmelds to your lesser chakras": [
+  "Extra Chakra Bind"
+ ],
+ "Three chakra binds": [
+  "Extra Chakra Bind"
+ ],
+ "access to one domain spell": [
+  "Extra Domain Spell"
+ ],
+ "Warmage level 4th": [
+  "Extra Edge"
+ ],
+ "breath weapon with limited uses per day": [
+  "Extra Exhalation"
+ ],
+ "at least one favored enemy": [
+  "Extra favored Enemy",
+  "Favored Critical"
+ ],
+ "Crusader level 1st": [
+  "Extra Granted Maneuver"
+ ],
+ "Ability to use lesser invocations": [
+  "Extra Invocation"
+ ],
+ "Multiple limbs or heads": [
+  "Extra Item Space"
+ ],
+ "Swordsage level 1st": [
+  "Extra Readied Maneuver"
+ ],
+ "caster level 12th": [
+  "Extra Rings",
+  "Spell Stowaway"
+ ],
+ "two other shifter feats": [
+  "Extra Shifter Trait",
+  "Extra Shifter Trait",
+  "Extra Shifter Trait",
+  "Shifter Defense",
+  "Shifter Defense"
+ ],
+ "Caster level 4th": [
+  "Extra Slot"
+ ],
+ "Spellcaster Level 4": [
+  "Extra Slot"
+ ],
+ "Spellcaster Level 4th": [
+  "Extra Slot"
+ ],
+ "Smite ability": [
+  "Extra Smiting",
+  "Smite Fiery Foe"
+ ],
+ "Class level 4+": [
+  "Extra Smiting (Smite Anything)",
+  "Extra Smiting (Smite Good)",
+  "Extra Smiting (Smite Mortals)"
+ ],
+ "Spellcaster Level 3": [
+  "Extra Spell"
+ ],
+ "able to cast 2ndlevel spells": [
+  "Extra Spell Secret"
+ ],
+ "Spell secret class ability": [
+  "Extra Spell Secret"
+ ],
+ "Ability to turn or rebuke creatures": [
+  "Extra Turning",
+  "Faith in the Frost",
+  "Improved Turning"
+ ],
+ "Ability to use wild shape": [
+  "Extra Wild Shape",
+  "Extra Wild Shape",
+  "Extra Wild Shape",
+  "Extra Wild Shape",
+  "Natural Spell",
+  "Proportionate Wild Shape",
+  "Speaking Wild Shape"
+ ],
+ "Any two item creation feats": [
+  "Extract Demonic Essence"
+ ],
+ "Any Mark of Detection": [
+  "Eye of Medani"
+ ],
+ "Any other Abyssal heritor feat": [
+  "Eyes of the Abyss"
+ ],
+ "Exposure to scrying or greater scrying spell": [
+  "Eyes to the sky"
+ ],
+ "Darkness as a spell-like ability.": [
+  "Fade Into Darkness",
+  "Instinctive Darkness"
+ ],
+ "access to Cold or Winter cleric domain": [
+  "Faith in the Frost"
+ ],
+ "base artack bonus +6": [
+  "Faith Unswerving"
+ ],
+ "two Devoted Spirit maneuvers": [
+  "Faith Unswerving"
+ ],
+ "one Setting Sun strike": [
+  "Falling Sun Attack"
+ ],
+ "Exposure to charm or dominate spell": [
+  "False Pretenses"
+ ],
+ "Ability to acquire a familiar": [
+  "Familiar Spell"
+ ],
+ "Cleric level 1st": [
+  "Far Horizons",
+  "Law Inviolate",
+  "Servant of the Fallen",
+  "Whispered Secrets"
+ ],
+ "deity Fharlanghn": [
+  "Far Horizons"
+ ],
+ "ability to use wild shape": [
+  "Fast Wild Shape",
+  "Natural Spell"
+ ],
+ "Ability to use wild shape to become a dire animal. Dex 13": [
+  "Fast Wild Shape"
+ ],
+ "ability to wild shape into a dire animal": [
+  "Fast Wild Shape"
+ ],
+ "Base Fortitude save bonus +5": [
+  "Faster Healing"
+ ],
+ "church": [
+  "Favored"
+ ],
+ "Membership in a guild": [
+  "Favored",
+  "Favored in Guild"
+ ],
+ "not merely a congregant (as described on page 105)": [
+  "Favored"
+ ],
+ "other organization. If selecting this feat for a church": [
+  "Favored"
+ ],
+ "you must also be a true member": [
+  "Favored"
+ ],
+ "Membership in a guild (including 2 ranks in two of the guild's associated skills": [
+  "Favored in Guild"
+ ],
+ "and at least 1 rank in another two of the guild's associated skills)": [
+  "Favored in Guild"
+ ],
+ "Member of appropriate dragonmarked race and house": [
+  "Favored in House",
+  "Greater Dragonmark",
+  "Least Dragonmark",
+  "Lesser Dragonmark"
+ ],
+ "Knowledge 6 ranks (in appropriate skill; see below) or favored enemy class feature": [
+  "Favored Magic Foe "
+ ],
+ "Ability to cast mysteries": [
+  "Favored Mystery"
+ ],
+ "Corrupt Spell (Book of Vile Darkness)": [
+  "Favored of the Zulkirs"
+ ],
+ "Red Wizard level 5th": [
+  "Favored of the Zulkirs"
+ ],
+ "Favored enemy ability": [
+  "Favored Power Attack",
+  "Improved Favored Enemy"
+ ],
+ "Favored Enemy": [
+  "Favored Power Attack",
+  "Swift Hunter"
+ ],
+ "Aarakocra (the Stormhorns)": [
+  "Fearless",
+  "Furious Charge"
+ ],
+ "elf (Elven Court or Snow Eagle Aerie)": [
+  "Fearless"
+ ],
+ "gloamingUND (Sphur Upra)": [
+  "Fearless",
+  "Luck of Heroes",
+  "Smooth Talk"
+ ],
+ "halfl ing (Channath Vale or the Western Heartlands)": [
+  "Fearless",
+  "Luck of Heroes"
+ ],
+ "human (Anauroch or Impiltur)": [
+  "Fearless"
+ ],
+ "orc (the Hordelands)": [
+  "Fearless",
+  "Tireless"
+ ],
+ "Human or half-human": [
+  "Fearless Destiny",
+  "Heroic Destiny",
+  "Protected Destiny"
+ ],
+ "Spell Focus (necromancy) or necromancer level 1st": [
+  "Fearsome Necromancy"
+ ],
+ "Animal companion class feature": [
+  "Feral Animal Companion"
+ ],
+ "evil alignment": [
+  "Feral Animal Companion",
+  "Profane Outburst"
+ ],
+ "Any Mark of Handling": [
+  "Feral Mark"
+ ],
+ "Base Fortitude save +1": [
+  "Fiendish Bloodline"
+ ],
+ "Base Reflex save +1": [
+  "Fiendish Bloodline"
+ ],
+ "Base Will save +1": [
+  "Fiendish Bloodline"
+ ],
+ "tanarukk": [
+  "Fiendish Bloodline"
+ ],
+ "Non-good alignment": [
+  "Fiendish Heritage",
+  "Fiendish Legacy",
+  "Fiendish Power",
+  "Fiendish Presence",
+  "Fiendish Resistance",
+  "Ritual of Blight's Embrace"
+ ],
+ "Base Will save +7": [
+  "Filthy Outburst"
+ ],
+ "Acid": [
+  "Final Strike"
+ ],
+ "air": [
+  "Final Strike"
+ ],
+ "water subtype": [
+  "Final Strike"
+ ],
+ "Ability to wild shape into a Diminutive creature": [
+  "Fine Wild Shape"
+ ],
+ "Ability to cast a spell with the fire or light descriptor": [
+  "Flash Casting"
+ ],
+ "profi cient with slashing melee weapon": [
+  "Flay Foe"
+ ],
+ "Elf (the Forest of Lethyr": [
+  "Fleet of Foot"
+ ],
+ "the High Forest": [
+  "Fleet of Foot",
+  "Forester",
+  "Treetopper"
+ ],
+ "the Wealdath)": [
+  "Fleet of Foot"
+ ],
+ "half-elf (the Dalelands or the High Forest)": [
+  "Fleet of Foot"
+ ],
+ "human (the Shaar or Thindol)": [
+  "Fleet of Foot"
+ ],
+ "E xotic Weapon Profi ciency (kama)": [
+  "Flensing Strike"
+ ],
+ "size Large or larger (goliaths qualify by virtue of their powerful build racial trait)": [
+  "Fling Ally",
+  "Fling Enemy",
+  "Improved Rock Hurling",
+  "Knockback",
+  "Rampaging Bull Rush",
+  "Rock Hurling"
+ ],
+ "Rock Hurling or racial ability to throw rocks": [
+  "Fling Enemy"
+ ],
+ "improved grab": [
+  "Fling Enemy",
+  "Greater Multigrab",
+  "Multigrab",
+  "Rending Constriction"
+ ],
+ "Fly speed": [
+  "Flyby Attack",
+  "Flyby Attack",
+  "Flyby Attack",
+  "Flyby Attack",
+  "Flyby Attack",
+  "Flyby Attack",
+  "Flyby Breath",
+  "Great Flyby Attack",
+  "Hover",
+  "Hover",
+  "Hover",
+  "Improved Flyby Attack",
+  "Improved Flyby Attack",
+  "Manifest Flight",
+  "Strafing Breath"
+ ],
+ "Ability to fly": [
+  "Flyby Attack",
+  "Wingover",
+  "Wingover",
+  "Wingover",
+  "Wingover"
+ ],
+ "either naturally or through shapechanging": [
+  "Flyby Attack",
+  "Multiattack"
+ ],
+ "Breath Weapon": [
+  "Flyby Breath",
+  "Transdimensional Breath"
+ ],
+ "Beholder with functional antimagic ability": [
+  "Focused Antimagic"
+ ],
+ "Dwarf (the Galena Mountains or the Spine of the World)": [
+  "Foe Hunter"
+ ],
+ "half-elf (the Dragon Coast)": [
+  "Foe Hunter"
+ ],
+ "halfl ing (the North)": [
+  "Foe Hunter"
+ ],
+ "human (Chult": [
+  "Foe Hunter"
+ ],
+ "Impiltur": [
+  "Foe Hunter",
+  "Militia"
+ ],
+ "the Moonsea": [
+  "Foe Hunter",
+  "Street Smart",
+  "Surefooted",
+  "Thug"
+ ],
+ "Samarach": [
+  "Foe Hunter",
+  "Militia",
+  "Snake Blood",
+  "Spellwise"
+ ],
+ "Tashalar": [
+  "Foe Hunter",
+  "Mercantile Background",
+  "Snake Blood"
+ ],
+ "Thindol)": [
+  "Foe Hunter"
+ ],
+ "Member of the cult of the dragon": [
+  "Follower of the Scaly Way"
+ ],
+ "Speak Draconic": [
+  "Follower of the Scaly Way"
+ ],
+ "Must have Inspiration as a class feature.": [
+  "Font of Inspiration"
+ ],
+ "Must be a living creature": [
+  "Font of Life"
+ ],
+ "Bardic knowledge or lore": [
+  "Forbidden Lore"
+ ],
+ "Forest gnome": [
+  "Forest Gnome Phantasist"
+ ],
+ "Elf (the Chondalwood": [
+  "Forester",
+  "Treetopper"
+ ],
+ "the Forest of Lethyr": [
+  "Forester",
+  "Luck of Heroes"
+ ],
+ "SildÃ«yuir)": [
+  "Forester"
+ ],
+ "gnome (the Great Dale)": [
+  "Forester"
+ ],
+ "half-elf (Aglarond or the High Forest)": [
+  "Forester",
+  "Treetopper"
+ ],
+ "human (the Dalelands or the Great Dale)": [
+  "Forester"
+ ],
+ "volodni (the Forest of Lethyr)": [
+  "Forester"
+ ],
+ "Dwarf (the Smoking Mountains or the Sword Coast)": [
+  "Forgeheart"
+ ],
+ "Serpentfolk": [
+  "Forked Tongue"
+ ],
+ "Access to the Destruction domain": [
+  "Fragile Construct"
+ ],
+ "access to the Madness domain (ECS 107)": [
+  "Frantic Rage"
+ ],
+ "Rage ability": [
+  "Frantic Rage"
+ ],
+ "member of the Harmonious Order (see page 101)": [
+  "From Smite to Song"
+ ],
+ "Base Fortitude save bonus +6": [
+  "Frozen Wild Shape",
+  "Improved Cold Endurance"
+ ],
+ "human (Cormyr": [
+  "Furious Charge"
+ ],
+ "the Ride": [
+  "Furious Charge",
+  "Horse Nomad",
+  "Tireless"
+ ],
+ "Tethyr": [
+  "Furious Charge",
+  "Luck of Heroes"
+ ],
+ "Uthgardt Tribesfolk)": [
+  "Furious Charge"
+ ],
+ "wemic (the Shaar)": [
+  "Furious Charge",
+  "Swift and Silent",
+  "Tireless"
+ ],
+ "orc (Chessenta)": [
+  "Furious Charge"
+ ],
+ "bite attack": [
+  "Furious Inhalation"
+ ],
+ "Swallow whole special attack": [
+  "Gape of the Serpent"
+ ],
+ "Swallow whole": [
+  "Gape of the Serpent"
+ ],
+ "base Will save +3": [
+  "Gestalt Anchor",
+  "Gestalt Anchor"
+ ],
+ "Any host feat* or kalashtar": [
+  "Gestalt Anchor"
+ ],
+ "Base Fort save bonus +8": [
+  "Giant's Toughness",
+  "Resistance to Energy: Acid",
+  "Resistance to Energy: Cold",
+  "Resistance to Energy: Electricity",
+  "Resistance to Energy: Fire",
+  "Resistance to Energy: Sonic"
+ ],
+ "Divine grace class ability": [
+  "Gift of Grace"
+ ],
+ "Ability to cast 2nd-level Arcane spells": [
+  "Githyanki Battlecaster"
+ ],
+ "Githyanki": [
+  "Githyanki Battlecaster",
+  "Githyanki Charm",
+  "Githyanki Control",
+  "Githyanki Dismissal",
+  "Githyanki Dragonrider ",
+  "Githyanki Ectoform"
+ ],
+ "psionic daze psi-like ability": [
+  "Githyanki Charm",
+  "Githzerai Link"
+ ],
+ "far hand psi-like ability": [
+  "Githyanki Control"
+ ],
+ "dimension door psi-like ability": [
+  "Githyanki Dismissal"
+ ],
+ "cat fall psi-like ability": [
+  "Githzerai Burst"
+ ],
+ "Githzerai": [
+  "Githzerai Burst",
+  "Githzerai Feedback",
+  "Githzerai Knock",
+  "Githzerai Link"
+ ],
+ "Inertial armor psi-like ability": [
+  "Githzerai Feedback"
+ ],
+ "two Shadow Hand maneuvers": [
+  "Gloom Razor"
+ ],
+ "darkness as a spell-like ability": [
+  "Gloom Strike"
+ ],
+ "rage or frenzy ability": [
+  "Gnoll Ferocity",
+  "Instantaneous Rage"
+ ],
+ "and Tumble 9 ranks": [
+  "Gnome Tunnel Acrobatics"
+ ],
+ "Mulhorand region": [
+  "Godsight"
+ ],
+ "Mulhorandi (aasimar": [
+  "Godsight"
+ ],
+ "human [Mulan] or tiefl ing)": [
+  "Godsight"
+ ],
+ "Gold dwarf": [
+  "Gold Dwarf Dweomersmith"
+ ],
+ "Shifter with the gorebrute trait": [
+  "Gorebrute Elite"
+ ],
+ "Any Mark of Hospitality.": [
+  "Grace of Ghallanda"
+ ],
+ "Heal (10 ranks)": [
+  "Graft Illithid Flesh"
+ ],
+ "Illithid": [
+  "Graft Illithid Flesh"
+ ],
+ "Yuan-ti": [
+  "Graft Yuan-Ti Flesh"
+ ],
+ "Plains terrain type": [
+  "Grass Trekker"
+ ],
+ "ability to assume the form of a Large creature using wild shape": [
+  "Great and Small"
+ ],
+ "Shifter with the longtooth trait": [
+  "Great Bite",
+  "Longtooth Elite"
+ ],
+ "Shifter with the razorclaw trait": [
+  "Great Rend",
+  "Razorclaw Elite"
+ ],
+ "smite ability (from class feature or domain granted power)": [
+  "Great Smiting",
+  "Great Smiting (Smite Evil)",
+  "Great Smiting (Smite Good)"
+ ],
+ "membership in the Great Stag berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Great Stag Berserker"
+ ],
+ "reserve power points 5+": [
+  "Great Sunder",
+  "Psionic Dodge",
+  "Return Shot",
+  "Up the Walls"
+ ],
+ "12 ranks in any two skills": [
+  "Greater Aberrant Dragonmark",
+  "Greater Dragonmark"
+ ],
+ "learn and perform the associated greater legacy ritual of the chosen item": [
+  "Greater Legacy",
+  "Greater Legacy"
+ ],
+ "Animal or magical beast; Large size": [
+  "Greater Mighty Roar",
+  "Mighty Roar"
+ ],
+ "improved grab special attack": [
+  "Greater Multigrab",
+  "Multigrab",
+  "Rending Constriction"
+ ],
+ "three or more hands": [
+  "Greater Multiweapon Fighting",
+  "Greater Multiweapon Fighting",
+  "Improved Multiweapon Fighting",
+  "Improved Multiweapon Fighting",
+  "Multiweapon Rend",
+  "Perfect Multiweapon Fighting"
+ ],
+ "three arms": [
+  "Greater Multiweapon Fighting",
+  "Improved Multiweapon Fighting"
+ ],
+ "Path Eocus": [
+  "Greater Path Focus"
+ ],
+ "manifester level 12th": [
+  "Greater Power Specialization"
+ ],
+ "Medium or larger size": [
+  "Greater Powerful charge",
+  "Powerful Charge"
+ ],
+ "Medium or larger": [
+  "Greater Powerful charge",
+  "Powerful Charge",
+  "Powerful Charge",
+  "Powerful Charge",
+  "Powerful Charge"
+ ],
+ "Damage reduction as a class feature or innate ability": [
+  "Greater Resiliency",
+  "Greater Resiliency"
+ ],
+ "three other shifter feats": [
+  "Greater Shifter Defense"
+ ],
+ "Spell Focus in the school selected": [
+  "Greater Spell Focus"
+ ],
+ "Two- Weapon Defense": [
+  "Greater Two-Weapon Defense"
+ ],
+ "Two- Weapon Fighting": [
+  "Greater Two-Weapon Fighting",
+  "Pin Shield",
+  "Spellrazor"
+ ],
+ "fighter level 8th": [
+  "Greater Weapon Focus"
+ ],
+ "Proficiency with selected weapon": [
+  "Greater Weapon Focus",
+  "Greater Weapon Specialization",
+  "Ranged Weapon Mastery",
+  "Weapon Focus",
+  "Weapon Specialization"
+ ],
+ "fighter level 12th": [
+  "Greater Weapon Specialization"
+ ],
+ "Greater Weapon Focus with selected weapon": [
+  "Greater Weapon Specialization"
+ ],
+ "Weapon Focus with selected weapon": [
+  "Greater Weapon Specialization",
+  "Necropotent",
+  "Ranged Weapon Mastery"
+ ],
+ "Weapon Specialization with selected weapon": [
+  "Greater Weapon Specialization",
+  "Necropotent",
+  "Ranged Weapon Mastery"
+ ],
+ "permission of a spirit tree": [
+  "Green Bond"
+ ],
+ "Ability to cast any summon nature's ally spell": [
+  "Greenbound Summoning"
+ ],
+ "wild shape": [
+  "Greensingers Mark"
+ ],
+ "Watchful spirit class ability": [
+  "Guardian Spirit"
+ ],
+ "at least one guildmaster-associated feat (see the table below)": [
+  "Guildmaster"
+ ],
+ "at least one of your guild-associated skills must be a class skill for you and must be at maximum rank": [
+  "Guildmaster"
+ ],
+ "your followers and cohorts must also qualify to join the guild": [
+  "Guildmaster"
+ ],
+ "ability to assume humanoid form": [
+  "Half-Dragon Form ",
+  "Hidden Strength"
+ ],
+ "Half-giant": [
+  "Half-Giant Stomp",
+  "Half-Giant Thunderer"
+ ],
+ "stomp racial trait": [
+  "Half-Giant Stomp",
+  "Half-Giant Thunderer"
+ ],
+ "Human (Halruaa)": [
+  "Halruuan Adept"
+ ],
+ "scimitar)": [
+  "Hammer's Edge"
+ ],
+ "Pro?ciency with hand crossbow": [
+  "Hand Crossbow Focus"
+ ],
+ "alignment lawful good": [
+  "Hand of Tyr"
+ ],
+ "Patron Tyr": [
+  "Hand of Tyr"
+ ],
+ "lay on hands class ability": [
+  "Hands of a Healer"
+ ],
+ "Orc or half-orc": [
+  "Headlong Rush",
+  "Initiate of Gruumsh",
+  "Ritual Blood Bonds",
+  "Shadow Marches Warmonger"
+ ],
+ "Spell-like abilities or ability to cast arcane or divine spells": [
+  "Heads Up"
+ ],
+ "Base Will save +3": [
+  "Healing Flames"
+ ],
+ "fire genasi or tanarukk. Fire Size Example Hit Points Healed. Fine ----------- Tindertwig ------ 1. Diminutive ---- Torch ------------ 1d3. Tiny ----------- Small campfire -- 1d6. Small ---------- Large campfire - 2d6. Medium-size - Forge ------------ 3d": [
+  "Healing Flames"
+ ],
+ "Any Mark of Healing": [
+  "Healing Strike"
+ ],
+ "any draconic feat": [
+  "Heart of Dragons "
+ ],
+ "Ability to bind a soulmeld to your heart chakra": [
+  "Heart of Incarnum"
+ ],
+ "Siberys Mark of Healing or Siberys Mark of Sentinel.": [
+  "Heart of Siberys"
+ ],
+ "wings and a glide or fl y speed": [
+  "Heavyweight Wings",
+  "Reinforced Wings"
+ ],
+ "Divine spellcasting ability": [
+  "Heretic of the Faith"
+ ],
+ "Code of Conduct": [
+  "Heretic of the Faith"
+ ],
+ "Patron Deity": [
+  "Heretic of the Faith",
+  "Lolth's Blessing",
+  "Seer"
+ ],
+ "Companion creature": [
+  "Heroic Companion"
+ ],
+ "homunculus": [
+  "Heroic Companion"
+ ],
+ "special mount": [
+  "Heroic Companion"
+ ],
+ "such as an animal companion": [
+  "Heroic Companion"
+ ],
+ "Ability to cast 2nd-level divine spells": [
+  "Heroic Devotion"
+ ],
+ "ability to cast 2nd-level spells": [
+  "Heroic Metamagic",
+  "Prophecy's Shaper",
+  "Southern Magician"
+ ],
+ "This feat can only be taken at 1st level": [
+  "Hidden Talent"
+ ],
+ "scimitar or shortsword)": [
+  "High Sword Low Axe"
+ ],
+ "Lightfoot halfling": [
+  "Hin Wandermage"
+ ],
+ "Ki strike (holy)": [
+  "Holy Ki Strike"
+ ],
+ "ability to spontaneously cast cure or inflict spells": [
+  "Holy Potency"
+ ],
+ "Smite evil class feature": [
+  "Holy Strike",
+  "Holy Strike"
+ ],
+ "access to the War domain": [
+  "Holy Warrior"
+ ],
+ "Human (the Hordelands": [
+  "Horse Nomad"
+ ],
+ "the Shaar)": [
+  "Horse Nomad",
+  "Survivor"
+ ],
+ "Any other host feat*": [
+  "Host Focus",
+  "Strength of Two"
+ ],
+ "Half-ogre or minotaur": [
+  "Hulking Brute"
+ ],
+ "Half-human race or human-descended race": [
+  "Human Heritage"
+ ],
+ "Favored enemy": [
+  "Hunters Mark"
+ ],
+ "Human (the Shaar) Membership Hyena tribe (see human tribes of shaar P164)": [
+  "Hyena Tribe Hunter"
+ ],
+ "membership in the Ice Troll berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Ice Troll Berserker"
+ ],
+ "Eschew Materials*": [
+  "Ignore Material Components"
+ ],
+ "Illithid Heritage*": [
+  "Illithid Blast",
+  "Illithid Enthusiast",
+  "Illithid Grapple",
+  "Illithid Legacy",
+  "Illithid Skin"
+ ],
+ "manifester level 5th": [
+  "Illithid Blast",
+  "Metamorphic Transfer"
+ ],
+ "two other illithid feats": [
+  "Illithid Blast"
+ ],
+ "one other illithid feat": [
+  "Illithid Grapple",
+  "Illithid Legacy"
+ ],
+ "Power point reserve of 1 or more": [
+  "Illithid Heritage"
+ ],
+ "manifester level 3rd": [
+  "Illithid Legacy",
+  "Psicrystal Containment",
+  "Psymbiot"
+ ],
+ "any one other illithid feat": [
+  "Illithid Legacy Greater"
+ ],
+ "manifester level 7th": [
+  "Illithid Legacy Greater"
+ ],
+ "Ability to cast conjuration (healing) spells; access to one or more domains": [
+  "Imbued Healing"
+ ],
+ "Manifester level 1st": [
+  "Imprint Stone",
+  "Psicrystal Affinity"
+ ],
+ "Access to domain of Chaos": [
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)"
+ ],
+ "alignment must match domain chosen": [
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)"
+ ],
+ "Good": [
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)"
+ ],
+ "Law": [
+  "Improved Alignment-Based Casting (Chaos)",
+  "Improved Alignment-Based Casting (Evil)",
+  "Improved Alignment-Based Casting (Good)",
+  "Improved Alignment-Based Casting (Law)"
+ ],
+ "arrow of death class feature": [
+  "Improved Arrow of Death"
+ ],
+ "aura of courage class ability": [
+  "Improved Aura of Courage",
+  "Widen Aura of Courage"
+ ],
+ "aura of despair class ability": [
+  "Improved Aura of Despair",
+  "Widen Aura of Despair"
+ ],
+ "cooperative metamagic class feature": [
+  "Improved Cooperative Metamagic"
+ ],
+ "Proficient with weapon": [
+  "Improved Critical",
+  "Power Critical"
+ ],
+ "Death attack class feature": [
+  "Improved Death Attack",
+  "Mortifying Attack"
+ ],
+ "sneak attack +5d6": [
+  "Improved Death Attack"
+ ],
+ "Base Will save +8": [
+  "Improved Draconian Breath Weapon"
+ ],
+ "ability to wild shape into an elemental": [
+  "Improved Elemental Wild Shape",
+  "Improved Elemental Wild Shape"
+ ],
+ "energy drain supernatural ability": [
+  "Improved Energy Drain",
+  "Spell Drain"
+ ],
+ "Naturally resistant to a form of energy (acid": [
+  "Improved Energy Resistance"
+ ],
+ "sonic)": [
+  "Improved Energy Resistance"
+ ],
+ "essentia pool 2": [
+  "Improved Essentia Capacity"
+ ],
+ "Ability to acquire a new familiar": [
+  "Improved Familiar",
+  "Improved Familiar",
+  "Improved Familiar",
+  "Improved Familiar",
+  "Stitched Flesh Familiar"
+ ],
+ "sufficiently high arcane spellcaster level": [
+  "Improved Familiar",
+  "Improved Familiar"
+ ],
+ "Five or more favored enemies": [
+  "Improved Favored Enemy",
+  "Improved Favored Enemy"
+ ],
+ "Fiendish servant class feature": [
+  "Improved fiendish Servant"
+ ],
+ "Natural fly speed": [
+  "Improved Flight"
+ ],
+ "Ability to fly (naturally": [
+  "Improved Flight",
+  "Improved Flight",
+  "Improved Flight"
+ ],
+ "magically": [
+  "Improved Flight",
+  "Improved Flight",
+  "Improved Flight"
+ ],
+ "through shapechanging)": [
+  "Improved Flight",
+  "Improved Flight",
+  "Improved Flight"
+ ],
+ "Uldra": [
+  "Improved Frosty Touch"
+ ],
+ "Base Fortitude save +6": [
+  "Improved Heat Endurance"
+ ],
+ "Craft Construct or craft homunculus class feature": [
+  "Improved Homunculus"
+ ],
+ "Ki strike +3": [
+  "Improved Ki Strike",
+  "Improved Ki Strike"
+ ],
+ "Naturally able to levitate as a spell-like ability": [
+  "Improved Levitation"
+ ],
+ "Levitate as a spell-like ability": [
+  "Improved Levitation"
+ ],
+ "Low-light vision": [
+  "Improved Low-Light Vision"
+ ],
+ "Fly speed 150 feet": [
+  "Improved Maneuverability"
+ ],
+ "Ability to manifest powers of the normal maximum level in at least one psionic class": [
+  "Improved Manifestation"
+ ],
+ "Manyshot*": [
+  "Improved Manyshot"
+ ],
+ "Four metamagic feats": [
+  "Improved Metamagic",
+  "Improved Metamagic"
+ ],
+ "Spellcraft 30 tanks": [
+  "Improved Metamagic"
+ ],
+ "four metapsionic feats": [
+  "Improved Metapsionics"
+ ],
+ "Psicraft 30 ranks": [
+  "Improved Metapsionics"
+ ],
+ "Three or more natural weapons": [
+  "Improved Multiattack",
+  "Improved Multiattack"
+ ],
+ "Three natural weapons": [
+  "Improved Multiattack"
+ ],
+ "Natural armor": [
+  "Improved Natural Armor",
+  "Improved Natural Armor"
+ ],
+ "Racially granted natural armor": [
+  "Improved Natural Armor"
+ ],
+ "Natural weapon": [
+  "Improved Natural Attack",
+  "Improved Natural Attack",
+  "Improved Natural Attack",
+  "Improved Natural Attack",
+  "Improved Natural Attack"
+ ],
+ "Dreamcasting": [
+  "Improved Oneiromancy"
+ ],
+ "paralysis special ability": [
+  "Improved paralysis"
+ ],
+ "Psicrystal Affi nity": [
+  "Improved Psicrystal",
+  "Psicrystal Containment"
+ ],
+ "aberration": [
+  "Improved Rapidstrike",
+  "Rapidstrike"
+ ],
+ "dragon": [
+  "Improved Rapidstrike",
+  "Rapidstrike",
+  "Shock Wave",
+  "Snatch and Swallow",
+  "Tail Constrict",
+  "Wingstorm"
+ ],
+ "elemental": [
+  "Improved Rapidstrike",
+  "Rapidstrike"
+ ],
+ "magical beast": [
+  "Improved Rapidstrike",
+  "Rapidstrike"
+ ],
+ "plant type": [
+  "Improved Rapidstrike",
+  "Rapidstrike"
+ ],
+ "one or more pairs of natural weapons": [
+  "Improved Rapidstrike",
+  "Rapidstrike"
+ ],
+ "must have taken damage from a dragon attack at least once": [
+  "Improved Resist Dragonfear"
+ ],
+ "Scent ability": [
+  "Improved Scent",
+  "Uncanny Scent"
+ ],
+ "aesh power sigil": [
+  "Improved Sigil (Aesh)"
+ ],
+ "hoon power sigil": [
+  "Improved Sigil (Hoon)"
+ ],
+ "krau power sigil": [
+  "Improved Sigil (Krau)"
+ ],
+ "naen power sigil": [
+  "Improved Sigil (Naen)"
+ ],
+ "uur power sigil": [
+  "Improved Sigil (Uur)"
+ ],
+ "vaul power sigil": [
+  "Improved Sigil (Vaul)"
+ ],
+ "Skirmish +2d6/+1 AC": [
+  "Improved Skirmish "
+ ],
+ "Epic Skill Focus (Spellcraft)": [
+  "Improved Snatch Spell"
+ ],
+ "snatch spell class ability": [
+  "Improved Snatch Spell"
+ ],
+ "Sneak attack +8d6": [
+  "Improved Sneak Attack",
+  "Improved Sneak Attack",
+  "Lingering Damage",
+  "Sneak Attack of Opportunity"
+ ],
+ " Ability to cast spells of the normal maximum spell level in at least one spellcasting class": [
+  "Improved Spell Capacity"
+ ],
+ "Ability to cast spells of the normal maximum spell level in at least one spellcasting class": [
+  "Improved Spell Capacity"
+ ],
+ "Ability to cast spells of the normal maximum spell level in at least one spellcasting class.": [
+  "Improved Spell Capacity"
+ ],
+ "class feature": [
+  "Improved Spell Resistance"
+ ],
+ "Must have spell resistance from a feat": [
+  "Improved Spell Resistance"
+ ],
+ "other permanent effect": [
+  "Improved Spell Resistance"
+ ],
+ "ability to call spells from a spellpool": [
+  "Improved Spellpool Access"
+ ],
+ "Precise Shot and Spit Venom": [
+  "Improved Spit"
+ ],
+ "Sudden strike +8d6": [
+  "Improved Sudden Strike"
+ ],
+ "Undead": [
+  "Improved Turn Resistance",
+  "Improved Turn Resistance"
+ ],
+ "Ability to create webs as an extraordinary ability at least twice per day": [
+  "Improved Web"
+ ],
+ "No essentia pool": [
+  "Incarnum Resistance"
+ ],
+ "ability to cast 1st-level spells": [
+  "Incarnum Spellshaping",
+  "Midnight Metamagic"
+ ],
+ "greater rage class feature": [
+  "Incite Rage",
+  "Mighty Rage"
+ ],
+ "sudden strike class feature": [
+  "Indigo Strike"
+ ],
+ "Adar": [
+  "Indomitable Discipline"
+ ],
+ "Eldeen Reaches": [
+  "Indomitable Discipline"
+ ],
+ "Riedra": [
+  "Indomitable Discipline"
+ ],
+ "Exposure to wail of the banshee or any power word spell": [
+  "Ineluctable Echo"
+ ],
+ "Reserve power points 1+": [
+  "Inertial Armor"
+ ],
+ "Outsider": [
+  "Infernal Bargainer"
+ ],
+ "deity Aasterinian": [
+  "Initiate of Aasterinian "
+ ],
+ "Cleric or Paladin 4th": [
+  "Initiate of Amaunator"
+ ],
+ "heretic of the faith (three-faced sun)": [
+  "Initiate of Amaunator"
+ ],
+ "servant of the fallen (Amaunator)": [
+  "Initiate of Amaunator"
+ ],
+ "Cleric or ranger 5th": [
+  "Initiate of Anhur"
+ ],
+ "patron deity Anhur": [
+  "Initiate of Anhur"
+ ],
+ "cleric or paladin 4th": [
+  "Initiate of Arvoreen",
+  "Initiate of Baravar Cloakshadow"
+ ],
+ "Halfl ing": [
+  "Initiate of Arvoreen"
+ ],
+ "patron deity Arvoreen": [
+  "Initiate of Arvoreen"
+ ],
+ "deity Astilabor": [
+  "Initiate of Astilabor "
+ ],
+ "Cleric level 3rd. dragonblood subtype": [
+  "Initiate of Bahamut "
+ ],
+ "deity Bahamut": [
+  "Initiate of Bahamut "
+ ],
+ "patron deity Baravar Cloakshadow": [
+  "Initiate of Baravar Cloakshadow"
+ ],
+ "cleric or ranger 4th": [
+  "Initiate of Eilistraee"
+ ],
+ "Drow or half-drow": [
+  "Initiate of Eilistraee"
+ ],
+ "patron deity Eilistraee": [
+  "Initiate of Eilistraee"
+ ],
+ "deity Fa 1 azure": [
+  "Initiate of Falazure "
+ ],
+ "deity Garyx": [
+  "Initiate of Garyx "
+ ],
+ "patron deity Ghaunadaur": [
+  "Initiate of Ghaunadaur"
+ ],
+ "ability to cast 2nd-level divine spells": [
+  "Initiate of Gruumsh"
+ ],
+ "patron deity Gruumsh": [
+  "Initiate of Gruumsh"
+ ],
+ "deity Hlal": [
+  "Initiate of Hlal "
+ ],
+ "ranger 4th": [
+  "Initiate of Horus-Re"
+ ],
+ "patron deity Horus-Re": [
+  "Initiate of Horus-Re"
+ ],
+ "Cleric or paladin level 7th": [
+  "Initiate of Ilmater"
+ ],
+ "patron deity Ilmater": [
+  "Initiate of Ilmater"
+ ],
+ "deity lo": [
+  "Initiate of Io "
+ ],
+ "patron deity Kossuth": [
+  "Initiate of Kossuth"
+ ],
+ "deity Lendys": [
+  "Initiate of Lendys "
+ ],
+ "patron deity Loviatar": [
+  "Initiate of Loviatar"
+ ],
+ "Cleric Level 5th": [
+  "Initiate of Loviatar"
+ ],
+ "Patron deity Loviatar": [
+  "Initiate of Loviatar"
+ ],
+ "Cleric or paladin 4th": [
+  "Initiate of Milil",
+  "Initiate of Nobanion",
+  "Initiate of Torm"
+ ],
+ "patron deity Milil": [
+  "Initiate of Milil"
+ ],
+ "patron deity Nobanion": [
+  "Initiate of Nobanion"
+ ],
+ "Able to cast 1st-level divine spells": [
+  "Initiate of Shar",
+  "Initiate of Shar"
+ ],
+ "patron deity Shar": [
+  "Initiate of Shar",
+  "Initiate of Shar"
+ ],
+ "Cleric level": [
+  "Initiate of Tamara"
+ ],
+ "deity Tamara": [
+  "Initiate of Tamara"
+ ],
+ "Cleric or Blackguard 3rd": [
+  "Initiate of Tchazzar"
+ ],
+ "Ranger 5th": [
+  "Initiate of Tchazzar"
+ ],
+ "Servant of a Dragon Ascendant [Tchazzar]": [
+  "Initiate of Tchazzar"
+ ],
+ "Helm": [
+  "Initiate of the Holy Realm"
+ ],
+ "Lathander": [
+  "Initiate of the Holy Realm"
+ ],
+ "Nobanion": [
+  "Initiate of the Holy Realm"
+ ],
+ "ranger 3rd of Chauntea": [
+  "Initiate of the Holy Realm"
+ ],
+ "Sune": [
+  "Initiate of the Holy Realm"
+ ],
+ "Selune": [
+  "Initiate of the Holy Realm"
+ ],
+ "deity Tiamat": [
+  "Initiate of Tiamat "
+ ],
+ "patron deity Torm": [
+  "Initiate of Torm"
+ ],
+ "Cleric or ranger 4th": [
+  "Initiate of Tymora"
+ ],
+ "patron deity Tymora": [
+  "Initiate of Tymora"
+ ],
+ "Cleric level 7th": [
+  "Initiate of Tyr"
+ ],
+ "Patron deity Tyr": [
+  "Initiate of Tyr"
+ ],
+ "cleric level 3rd": [
+  "Initiate of Varae"
+ ],
+ "Extaminaar": [
+  "Initiate of Varae"
+ ],
+ "patron deity Varae": [
+  "Initiate of Varae"
+ ],
+ "divine spellcaster level 3rd+": [
+  "Inscribe Rune"
+ ],
+ "divine spellcaster level 3rd": [
+  "Inscribe Rune"
+ ],
+ "Chosen": [
+  "Insidious Terror",
+  "Quori Dread"
+ ],
+ "Inspired": [
+  "Insidious Terror",
+  "Quori Dread"
+ ],
+ "Spell Focus (divination) or diviner level 1st": [
+  "Insightful Divination"
+ ],
+ "Rapid Reload*": [
+  "Instant Reload"
+ ],
+ "Resistance to the energy type you specify when taking the feat": [
+  "Inured to Energy"
+ ],
+ "Profi ciency with armor worn": [
+  "Invest Armor"
+ ],
+ "Proficient with armor worn": [
+  "Invest Armor"
+ ],
+ "gray dwarf. REGION: Gray dwarf": [
+  "Iron Mind"
+ ],
+ "One Iron Heart stance": [
+  "Ironheart Aura"
+ ],
+ "Gaze attack": [
+  "Irresistible Gaze",
+  "Irresistible Gaze"
+ ],
+ "A character must be at least 3rd level to take this feat": [
+  "Item Familiar"
+ ],
+ "specialist wizard level 5th": [
+  "Item Reprieve"
+ ],
+ "The deity must be at least 6th level": [
+  "Jack of All Trades"
+ ],
+ "The North": [
+  "Jotunbrud"
+ ],
+ "must have survived at least three days in the waste without water": [
+  "Judged by Aurifar"
+ ],
+ "Patron deity Aurifar": [
+  "Judged by Aurifar"
+ ],
+ "mindlink psi-like ability": [
+  "Kalashtar Mindlink"
+ ],
+ "ability to generate a mind blade": [
+  "Kalashtar Thoughtshifter",
+  "Shield of Thought",
+  "Spiritual Force"
+ ],
+ "Can only be taken at first level (Ancestor)": [
+  "Keen Intellect"
+ ],
+ "Clan: Clan: Dragon": [
+  "Keen Intellect"
+ ],
+ "Phoenix.": [
+  "Keen Intellect"
+ ],
+ "ki strike +3": [
+  "Keen Strike",
+  "Shattering Strike",
+  "Vorpal Strike"
+ ],
+ "Male human member of a Bazareene noble family": [
+  "Kihu-Sherem Guardian"
+ ],
+ "Killoren": [
+  "Killoren Ancient",
+  "Killoren Destroyer",
+  "Killoren Hunter"
+ ],
+ "Ability to cast 3rd- level arcane spells": [
+  "Kin Mastery"
+ ],
+ "Any bloodline feat": [
+  "Kin Mastery",
+  "Power in the Blood"
+ ],
+ "Bugbear (the Earthfast Mountains)": [
+  "Knifefighter",
+  "Resist Poison",
+  "Swift and Silent"
+ ],
+ "chitine (Underdark [Yathchol])": [
+  "Knifefighter",
+  "Resist Poison"
+ ],
+ "goblin (the Earthfast Mountains)": [
+  "Knifefighter",
+  "Swift and Silent"
+ ],
+ "half-elf (Dambrath or the Dragon Coast)": [
+  "Knifefighter"
+ ],
+ "halfl ing (Channath Vale)": [
+  "Knifefighter"
+ ],
+ "hobgoblin (the E arthfast Mountains)": [
+  "Knifefighter"
+ ],
+ "human (Anauroch": [
+  "Knifefighter",
+  "Survivor"
+ ],
+ "D ambrath": [
+  "Knifefighter"
+ ],
+ "the Lake of Steam": [
+  "Knifefighter",
+  "Snake Blood",
+  "Stormheart"
+ ],
+ "the Sword Coast)": [
+  "Knifefighter"
+ ],
+ "orc (Thesk)": [
+  "Knifefighter"
+ ],
+ "fi ghter": [
+  "Knight of the Red Falcon"
+ ],
+ "member of the Order of the Red Falcon (see page 103)": [
+  "Knight of the Red Falcon"
+ ],
+ "paladin 4th": [
+  "Knight of the Red Falcon"
+ ],
+ "Paladin or ranger 8th": [
+  "Knight of the Risen Scepter"
+ ],
+ "patron deity Osiris": [
+  "Knight of the Risen Scepter"
+ ],
+ "member of the Knights of Holy Judgment (see page 102)": [
+  "Knight of Tyr's Holy Judgment"
+ ],
+ "member of the Knights of the Merciful Sword (see page 102)": [
+  "Knight ot Tyr's Merciful Sword"
+ ],
+ "Must be gained at or before the first level of the monk class is taken": [
+  "Kung Fu Genius"
+ ],
+ "a kuo-toa can smear a strange sticky substance on it's hands. When using flurry of blows": [
+  "Kuo-Toan Monasticism"
+ ],
+ "Flurry of blows. As a swift action": [
+  "Kuo-Toan Monasticism"
+ ],
+ "the kuo-toa autimatically hits with one of its extra attacks if its first attack hits. A kuo-toa that has this feat uses its Hit Dice": [
+  "Kuo-Toan Monasticism"
+ ],
+ "The character must be at least 9th level": [
+  "Landlord"
+ ],
+ "Aquatic elf": [
+  "Landwalker",
+  "Landwalker"
+ ],
+ "Natural reach of 10 feet or more": [
+  "Large and in Charge"
+ ],
+ "Reach (Large size or larger)": [
+  "Large and in Charge"
+ ],
+ "deity St. Cuthbert": [
+  "Law Inviolate"
+ ],
+ "must be lawful": [
+  "Law Inviolate"
+ ],
+ "learn and perform the associated least legacy ritual of the chosen item": [
+  "Least Legacy",
+  "Least Legacy"
+ ],
+ "must rule own kingdom and have a stronghold": [
+  "Legendary Commander"
+ ],
+ "9 ranks in any two skills": [
+  "Lesser Aberrant Dragonmark",
+  "Lesser Dragonmark"
+ ],
+ "learn and perform the associated lesser legacy ritual of the chosen item": [
+  "Lesser Legacy",
+  "Lesser Legacy"
+ ],
+ "Energy drain supernatural ability": [
+  "Life Drain"
+ ],
+ "Exposure to death touch domain granted power or death knell spell": [
+  "Life Leech"
+ ],
+ "access to either the Fire or Sun domain": [
+  "Light of Aurifar"
+ ],
+ "Able to use light as a spell-like ability": [
+  "Light to Daylight"
+ ],
+ "able to cast divine spells": [
+  "Lightbringer"
+ ],
+ "able to turn undead": [
+  "Lightbringer"
+ ],
+ "Damaran human": [
+  "Lightbringer"
+ ],
+ "Monk level 4": [
+  "Lightning Fists"
+ ],
+ "Any two metashadow feats": [
+  "Line of Shadow"
+ ],
+ "breath weapon with a recharge measured in rounds": [
+  "Lingering Breath"
+ ],
+ "crippling strike class feature": [
+  "Lingering Damage"
+ ],
+ "Human (the Shaar) Membership Lion tribe (see human tribes of shaar P164)": [
+  "Lion Tribe Warrior"
+ ],
+ "Exposure to phantasmal killer spell": [
+  "Live my Nightmare"
+ ],
+ "E scape A rtist 1 r ank": [
+  "Lliira's Blessing"
+ ],
+ "N imbus o f L ight (Book of Exalted Deeds)": [
+  "Lliira's Blessing"
+ ],
+ "able to cast 3rd-level divine spells": [
+  "Lolth's Blessing"
+ ],
+ "patron deity Lolth": [
+  "Lolth's Blessing",
+  "Spider Bite"
+ ],
+ "Able to cast 3rd-level Divine spells": [
+  "Lolth's Blessing"
+ ],
+ "drow or Lolth patron deity": [
+  "Lolth's Boon"
+ ],
+ "Rebuke undead": [
+  "Lolth's Boon",
+  "Lolth's Caress",
+  "Profane Agony"
+ ],
+ "drow or Lolth as patron deity": [
+  "Lolth's Caress"
+ ],
+ "*Race*: Drow": [
+  "Lolth's Meat"
+ ],
+ "Shifter with the longstride trait": [
+  "Longstride Elite",
+  "Longstride Elite"
+ ],
+ "ability to cast a spell with the cold descriptor": [
+  "Lord of the Uttercold"
+ ],
+ "Good alignment. Int 13": [
+  "Lucid Channeling"
+ ],
+ "Elf (Elven Court": [
+  "Luck of Heroes"
+ ],
+ "the Yuirwood)": [
+  "Luck of Heroes",
+  "Treetopper"
+ ],
+ "half-elf (Aglarond)": [
+  "Luck of Heroes"
+ ],
+ "the Dalelands": [
+  "Luck of Heroes",
+  "Militia",
+  "Strong Soul"
+ ],
+ "the Vast)": [
+  "Luck of Heroes"
+ ],
+ "arcane or divine spellcaster level 1st": [
+  "Lunar Magic"
+ ],
+ "Patron deity Selune or Mystra": [
+  "Lunar Magic"
+ ],
+ "Mild depravity": [
+  "Lunatic Insight"
+ ],
+ "Lurk augment class feature": [
+  "Lurk Augment Extra",
+  "Lurk Augment Ranged",
+  "Lurk Master"
+ ],
+ "arcane caster level 6": [
+  "Lurking Familiar"
+ ],
+ "Improved Control Shape feat or Control Shape 8 ranks": [
+  "Lycanthropic Spell"
+ ],
+ "Lycanthrope": [
+  "Lycanthropic Spell"
+ ],
+ "Ability to cast 1st-level divine spells": [
+  "Mad Faith"
+ ],
+ "Maenad": [
+  "Maenad Deafening Scream",
+  "Maenad Fury",
+  "Maenad Scream"
+ ],
+ "Spellcraft 2 Ranks": [
+  "Mage Slayer"
+ ],
+ "Dwarf (Oldonnar or Underdark [Darklands])": [
+  "Magic In The Blood"
+ ],
+ "elf (Menzoberranyr)": [
+  "Magic In The Blood"
+ ],
+ "gnome ( the G reat D ale": [
+  "Magic In The Blood"
+ ],
+ "T hesk": [
+  "Magic In The Blood"
+ ],
+ "o r Underdark [Northdark])": [
+  "Magic In The Blood"
+ ],
+ "spirit folk (Ashane)": [
+  "Magic In The Blood",
+  "Mind over Body"
+ ],
+ "planetouched (Calimshan": [
+  "Magic In The Blood"
+ ],
+ "Unther)": [
+  "Magic In The Blood"
+ ],
+ "elf (Evereska or Evermeet) or human (Halruaa or Nimbral)": [
+  "Magical Training"
+ ],
+ "any luck feat": [
+  "Make Your Own Luck ",
+  "Tempting Fate "
+ ],
+ "ability to cast summon nature's ally I": [
+  "Manifest Druid"
+ ],
+ "Region of origin Eldeen Reaches": [
+  "Manifest Druid"
+ ],
+ "Mror dwarf": [
+  "Manticore's Sting"
+ ],
+ "Monk level 7": [
+  "Mantis Leap"
+ ],
+ "Access to one psionic mantle": [
+  "Mantle Focus",
+  "Tap Mantle"
+ ],
+ "allegiance to Bel": [
+  "Mark of Avernus"
+ ],
+ "allegiance to Mephistopheles": [
+  "Mark of Cania"
+ ],
+ "Any lesser": [
+  "Mark of Deflection",
+  "Protective Mark"
+ ],
+ "greater": [
+  "Mark of Deflection",
+  "Mark of Twelve Moons",
+  "Protective Mark"
+ ],
+ "Siberys dragonmark.": [
+  "Mark of Deflection"
+ ],
+ "Any Siberys dragonmark.": [
+  "Mark of Destiny"
+ ],
+ "allegiance to Dispater": [
+  "Mark of Dis"
+ ],
+ "Your patron deity must be Hleid": [
+  "Mark of Hleid"
+ ],
+ "Any aberrant dragonmark": [
+  "Mark of Madness",
+  "Mark of Vengeance",
+  "Mark of Vermin",
+  "Ward of Khyber"
+ ],
+ "allegiance to Baalzebul": [
+  "Mark of Maladomini"
+ ],
+ "allegiance to Glasya": [
+  "Mark of Malbolge"
+ ],
+ "allegiance to Mammon": [
+  "Mark of Minauros"
+ ],
+ "allegiance to Asmodeus": [
+  "Mark of Nessus"
+ ],
+ "allegiance to Belial or Fierna": [
+  "Mark of Phlegethos"
+ ],
+ "Divine health or purity of body": [
+  "Mark of Purity"
+ ],
+ "Any true or aberrant dragonmark.": [
+  "Mark of Resilience"
+ ],
+ "allegiance to Levistus": [
+  "Mark of Stygia"
+ ],
+ "Any Least": [
+  "Mark of the Dauntless"
+ ],
+ "Lesser": [
+  "Mark of the Dauntless"
+ ],
+ "Greater": [
+  "Mark of the Dauntless"
+ ],
+ "Siberys true Dragonmark ": [
+  "Mark of the Dauntless"
+ ],
+ "Initiate of Ilmater(PG)": [
+  "Mark of the Triad"
+ ],
+ "Initiate of Tyr(PG)": [
+  "Mark of the Triad"
+ ],
+ "Any true lesser": [
+  "Mark of Twelve Moons"
+ ],
+ "Siberys dragonmark": [
+  "Mark of Twelve Moons",
+  "Protective Mark"
+ ],
+ "Mark of Madness.": [
+  "Mark of Xoriat"
+ ],
+ "ki power": [
+  "Martial Stalker"
+ ],
+ "Proficiency with all martial weapons": [
+  "Martial Stalker"
+ ],
+ "One martial maneuver": [
+  "Martial Stance",
+  "Sudden Recovery"
+ ],
+ "Ability to speak four or more languages": [
+  "Master Linguist"
+ ],
+ "Any Mark of Warding": [
+  "Master of Wards"
+ ],
+ "steal spell": [
+  "Master Spellthief "
+ ],
+ "Spellcraft or Psicraft 9 ranks": [
+  "Mastery of Dreams"
+ ],
+ "Any two metashadow teats": [
+  "Maximize Mystery"
+ ],
+ "Weapon Proficiency with selected weapon": [
+  "Melee Weapon Mastery"
+ ],
+ "Orc blood or orc subtype": [
+  "Menacing Demeanor"
+ ],
+ "Ability to gain psionic focus": [
+  "Mental Juggernaut"
+ ],
+ "reserve power points 3+": [
+  "Mental Leap",
+  "Psionic Charge"
+ ],
+ "Base Will save bonus +2": [
+  "Mental Resistance"
+ ],
+ "8 Ranks in at least two of the four skills associated with your Mentor Category": [
+  "Mentor"
+ ],
+ "Must have graduated from an Apprenticeship": [
+  "Mentor"
+ ],
+ "Dwarf (the Sword Coast or Underdark [Darklands])": [
+  "Mercantile Background"
+ ],
+ "gnome (Lantan or Underdark [Northdark])": [
+  "Mercantile Background"
+ ],
+ "halfling (Amn)": [
+  "Mercantile Background"
+ ],
+ "human (Amn": [
+  "Mercantile Background",
+  "Silver Palm",
+  "Street Smart"
+ ],
+ "Sembia": [
+  "Mercantile Background",
+  "Silver Palm"
+ ],
+ "Tharsult": [
+  "Mercantile Background",
+  "Silver Palm",
+  "Snake Blood"
+ ],
+ "Thesk": [
+  "Mercantile Background",
+  "Silver Palm",
+  "Smooth Talk",
+  "Thug"
+ ],
+ "the Vast": [
+  "Mercantile Background",
+  "Thug"
+ ],
+ "Spell Focus (chosen school) or specialist wizard in chosen school": [
+  "Metamagic School Focus"
+ ],
+ "Any two metamagic feats": [
+  "Metamagic Song"
+ ],
+ "Two or more metamagic feats": [
+  "Metamagic Vigor"
+ ],
+ "Spellcaster Level 1": [
+  "Metanode Spell",
+  "Metanode Spell",
+  "Node Defense",
+  "Node Defense",
+  "Node Spellcasting",
+  "Node Spellcasting",
+  "Node Store",
+  "Reserves of Strength"
+ ],
+ "Ability to manifest psionic powers": [
+  "Metapower"
+ ],
+ "any other metapsionic feat": [
+  "Metapower"
+ ],
+ "at least one metamagic feat": [
+  "Metaray"
+ ],
+ "ability to manifest 2nd-level psionic powers": [
+  "Midnight Augmentation"
+ ],
+ "Any true or aberrant dragonmark": [
+  "Mighty Dragonmark",
+  "Nightborn Dragonmark"
+ ],
+ "Half-elf (Aglarond)": [
+  "Militia"
+ ],
+ "Thindol": [
+  "Militia",
+  "Snake Blood",
+  "Tireless"
+ ],
+ "Turmish)": [
+  "Militia"
+ ],
+ "Raised in Bazareene": [
+  "Militia"
+ ],
+ "Mind blade class feature": [
+  "Mind Cleave",
+  "Mind Empowerment"
+ ],
+ "psychic strike class feature": [
+  "Mind Cleave",
+  "Mind Empowerment"
+ ],
+ "Mind Cleave*": [
+  "Mind Empowerment"
+ ],
+ "Regions (Calimshan": [
+  "Mind over Body"
+ ],
+ "moon elf": [
+  "Mind over Body"
+ ],
+ "sun elf)": [
+  "Mind over Body"
+ ],
+ "Elf (Silverymoon or Snow Eagle Aerie)": [
+  "Mind over Body"
+ ],
+ "human (Calimshan": [
+  "Mind over Body"
+ ],
+ "planetouched (Calimshan or Thay)": [
+  "Mind over Body"
+ ],
+ "psychic strike +1d8": [
+  "Mind Strike"
+ ],
+ "psychic strike +2d8": [
+  "Mind Strike Swift"
+ ],
+ "Flurry of Blows": [
+  "Mind-Shattering Strike"
+ ],
+ "Stunnig Fist": [
+  "Mind-Shattering Strike"
+ ],
+ "Telepathy special quality": [
+  "Mindsight"
+ ],
+ "defensive stance 5/day class feature": [
+  "Mobile Defense"
+ ],
+ "Exposure to alter self spell": [
+  "Momentary Alteration"
+ ],
+ "Weapon Focus with the appropriate weapon": [
+  "Monkey Grip"
+ ],
+ "dwarven waraxe": [
+  "Mror Stalwart",
+  "Stormguard Warrior"
+ ],
+ "dwarven urgrosh": [
+  "Mror Stalwart"
+ ],
+ "proficiency with battleaxe": [
+  "Mror Stalwart"
+ ],
+ "region of origin Mror Holds (Ironroot Mountains)": [
+  "Mror Stalwart"
+ ],
+ "warhammer": [
+  "Mror Stalwart"
+ ],
+ "Three or more natural attacks": [
+  "Multiattack",
+  "Multiattack",
+  "Multiattack",
+  "Multiattack",
+  "Multiattack",
+  "Multiattack"
+ ],
+ "Access to a form that has three or more natural weapons": [
+  "Multiattack"
+ ],
+ "Speak Language (your chosen race)": [
+  "Multicultural"
+ ],
+ "Three or more arms": [
+  "Multidexterity"
+ ],
+ "access to a form with three or more arms": [
+  "Multidexterity",
+  "Multidexterity"
+ ],
+ "three or more arms": [
+  "Multidexterity"
+ ],
+ "four or more arms": [
+  "Multitasking"
+ ],
+ "two or more heads": [
+  "Multivoice"
+ ],
+ "Three or more hands": [
+  "Multiweapon Fighting",
+  "Multiweapon Fighting",
+  "Multiweapon Fighting"
+ ],
+ "favored enemy (any one)": [
+  "Murderous Intent"
+ ],
+ "bard level 9th": [
+  "Music of the Outer Spheres"
+ ],
+ "Shapechanger subtype": [
+  "Mutable Body"
+ ],
+ "any evil alignment": [
+  "Mutilator",
+  "Negative Energy Burst",
+  "Negative Energy Burst",
+  "Unholy Strike",
+  "Unholy Strike"
+ ],
+ "gaze attack": [
+  "Narrowed Gaze",
+  "Narrowed Gaze",
+  "Pervasive Gaze",
+  "Piercing Gaze"
+ ],
+ "Exposure to dimensional anchor spell": [
+  "Naturalized Denizen"
+ ],
+ "Ability to shape soulmelds": [
+  "Necrocarnum Acolyte"
+ ],
+ "fi ghter level 4th": [
+  "Necropotent"
+ ],
+ "Profi ciency with selected weapon": [
+  "Necropotent"
+ ],
+ "supernatural ability to drain or damage an ability score or drain energy": [
+  "Necrotic Reserve"
+ ],
+ "ability to rebuke or command undead": [
+  "Negative Energy Burst",
+  "Negative Energy Burst",
+  "Undead Mastery",
+  "Undead Mastery",
+  "Zone of Animation"
+ ],
+ "able to cast infl ict critical wounds": [
+  "Negative Energy Burst"
+ ],
+ "ability to cast inflict critical wounds": [
+  "Negative Energy Burst"
+ ],
+ "Favored enemy class ability": [
+  "Nemesis"
+ ],
+ "ability to spontaneously cast summon nature's ally": [
+  "Nightbringer Initiate"
+ ],
+ "Ability to cast mysteries or a spell with the darkness descriptor": [
+  "Nocturnal Caster"
+ ],
+ "Human (the Shaar) or wemic (the Shaar)": [
+  "Nomadic Trekker"
+ ],
+ "Ability to wild shape into a plant": [
+  "Oaken Resilience"
+ ],
+ "Bardic knowledge or lore class feature": [
+  "Obscure Lore"
+ ],
+ "Bardic knowledge ability": [
+  "Obscure Lore"
+ ],
+ "two or more eyes": [
+  "Ocular Spell"
+ ],
+ "proficiency with weapon": [
+  "Off-Hand Parry",
+  "Off-Hand Parry",
+  "Power Critical"
+ ],
+ "Exposure to commune or contact other plane spell": [
+  "Omniscient Whispers"
+ ],
+ "ability to cast spells of any sort": [
+  "Oneiromancy"
+ ],
+ " CON 17": [
+  "Open Greater Chakra (Throat)"
+ ],
+ "base Will save +4": [
+  "Ordered Chaos",
+  "Skilled Pact Making"
+ ],
+ "Any Mark of Passage": [
+  "Orien Battle Stride"
+ ],
+ "Aasimar or tiefling": [
+  "Outsider Wings (Celestial)",
+  "Outsider Wings (Fiendish)"
+ ],
+ "and Will saves +2": [
+  "Outsider Wings (Celestial)",
+  "Outsider Wings (Fiendish)"
+ ],
+ "Celestial Bloodline or Fiendish Bloodline": [
+  "Outsider Wings (Celestial)",
+  "Outsider Wings (Fiendish)"
+ ],
+ "spellcaster who uses the Weave": [
+  "Overcome Shadow Weave"
+ ],
+ "Vulnerability to energy": [
+  "Overcome Weakness",
+  "Suppress Weakness"
+ ],
+ "membership in the Owlbear berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Owlbear Berserker"
+ ],
+ "member of the Companions of the Noble Heart (see page 100)": [
+  "Paladin of the Noble Heart"
+ ],
+ "Hill or mountain terrain type": [
+  "Peak Hopper"
+ ],
+ "two Diamond Mind maneuvers": [
+  "Perfect Clarity of Mind and Body"
+ ],
+ "Greater Multiweapon Fighting*": [
+  "Perfect Multiweapon Fighting"
+ ],
+ "Greater Two- Weapon Fighting*": [
+  "Perfect Two-Weapon Fighting"
+ ],
+ "ability to cast the spell to be made permanent": [
+  "Permanent Emanation"
+ ],
+ "a portable object of at least 250 gp value native to a chosen planar touchstone plane": [
+  "Personal Touchstone"
+ ],
+ "15 Hit Dice": [
+  "Personal Truename Backlash"
+ ],
+ "gaze special attack": [
+  "Pervasive Gaze",
+  "Piercing Gaze"
+ ],
+ "Petrifi cation Resistance": [
+  "Petrification Immunity"
+ ],
+ "Racial bonus on saving throws against petrifi - cation effects": [
+  "Petrification Immunity"
+ ],
+ "Racial bonus on saving throws against petrifi cation effects": [
+  "Petrification Resistance"
+ ],
+ "Proficiency with a heavy shield": [
+  "Phalanx Fighting"
+ ],
+ "Exposure to barkskin spell": [
+  "Photosynthetic Skin"
+ ],
+ "Spell Focus (evocation) or evoker level 1st": [
+  "Piercing Evocation "
+ ],
+ "Chondathan human. REGION: The Vilhon Reach": [
+  "Plague Resistant"
+ ],
+ "Ability to ac quire a new familiar": [
+  "Planar Familiar"
+ ],
+ "suffi cient arcane spellcaster level": [
+  "Planar Familiar"
+ ],
+ "Portable object of at least 250 gp value native to any designated planar touchstone site": [
+  "Planar Touchstone"
+ ],
+ "earth genasi": [
+  "Planetouched Animal Affinity",
+  "Stone Colossus",
+  "Stone Slide"
+ ],
+ "ability to cast speak with plants": [
+  "Plant Control",
+  "Plant Control"
+ ],
+ "Poison use": [
+  "Poison Expert ",
+  "Poison Master "
+ ],
+ "Poison special attack as an extraordinary ability": [
+  "Poison Immunity",
+  "Poison Immunity",
+  "Poison Resistance",
+  "Poison Resistance"
+ ],
+ "any two other Abyssal heritor feats": [
+  "Poison Talons "
+ ],
+ "Claws of the Beast": [
+  "Poison Talons "
+ ],
+ "Exposure to cone of cold or ice storm spell": [
+  "Polar Chill"
+ ],
+ "flurry of blows class feature": [
+  "Pole Fighter",
+  "Pole Master",
+  "Serpent Strike"
+ ],
+ "Proficiency with the selected weapon": [
+  "Pole Fighter"
+ ],
+ "Weapon Focus with the selected weapon": [
+  "Pole Fighter"
+ ],
+ "Speak Language (five languages)": [
+  "Polyglot",
+  "Polyglot"
+ ],
+ "Deep Imaskar or gloaming": [
+  "Portal Sensitive"
+ ],
+ "able to cast dispel evil": [
+  "Positive Energy Aura"
+ ],
+ "ability to cast dispel evil": [
+  "Positive Energy Aura"
+ ],
+ "wild surge +2": [
+  "Postpone Enervation"
+ ],
+ "fly speed (average maneuverability)": [
+  "Power Climb",
+  "Power Dive",
+  "Power Dive"
+ ],
+ "Weapon Focus with weapon": [
+  "Power Critical"
+ ],
+ "Improved Critical with weapon": [
+  "Power Critical"
+ ],
+ "manifester level 4th": [
+  "Power Specialization"
+ ],
+ "powerful build racial trait": [
+  "Powerful Wild shape"
+ ],
+ "ability to spontaneously cast 3rd-level spells": [
+  "Practical Metamagic"
+ ],
+ "Psicraft 4 ranks": [
+  "Practiced Manifester"
+ ],
+ "Ability to sneak attacks": [
+  "Precise Strike"
+ ],
+ "Spellcasting ability (Int or Cha) 15": [
+  "Precocious Apprentice"
+ ],
+ "any one Abyssal heritor feat": [
+  "Precognitive Visions ",
+  "Primordial Scion "
+ ],
+ "tail attack": [
+  "Prehensile Tail",
+  "Prehensile Tail"
+ ],
+ "Two-Weapon Fighting or Multiweapon Fighting": [
+  "Prehensile Tail"
+ ],
+ "Access to the Fire": [
+  "Priest of the Waste"
+ ],
+ "Summer": [
+  "Priest of the Waste"
+ ],
+ "Sun": [
+  "Priest of the Waste"
+ ],
+ "Travel": [
+  "Priest of the Waste"
+ ],
+ "Water domain.": [
+  "Priest of the Waste"
+ ],
+ "Wild shape ability": [
+  "Primeval Wild Shape"
+ ],
+ "Ability to manifest the energy missile power": [
+  "Privileged Energy"
+ ],
+ "Death or Destruction domain": [
+  "Profane Agony"
+ ],
+ "ability to rebuke undead": [
+  "Profane Aura",
+  "Profane Vigor"
+ ],
+ "Divine caster level 9th": [
+  "Profane Aura",
+  "Sacred Radiance"
+ ],
+ "Ability to rebuke undead": [
+  "Profane Boost",
+  "Profane Lifeleech",
+  "Profane Outburst",
+  "Via Negativa"
+ ],
+ "ability to spontaneously cast cure wounds or infl ict wounds spells": [
+  "Prophecy's Shepherd"
+ ],
+ "Ability to speak a divine language (Abyssal": [
+  "Prophet of the Divine"
+ ],
+ "druidic": [
+  "Prophet of the Divine"
+ ],
+ "infernal as appropriate)": [
+  "Prophet of the Divine"
+ ],
+ "Any initiate feat": [
+  "Prophet of the Divine"
+ ],
+ "natural form neither Small or Medium-size": [
+  "Proportionate Wild Shape"
+ ],
+ "Access to the Protection domain": [
+  "Protective Ward"
+ ],
+ "Spellcaster Level 10th": [
+  "Proteus"
+ ],
+ "Ability to manifest psionic powers or use psi-like abilities": [
+  "Psionic Mastery"
+ ],
+ "Having a power point reserve": [
+  "Psionic Talent"
+ ],
+ "ability to form a mind blade": [
+  "Psycarnum Blade"
+ ],
+ "essentia pool": [
+  "Psycarnum Crystal"
+ ],
+ "Psicrystal Affi nity*": [
+  "Psycarnum Crystal"
+ ],
+ "Will save bonus ++4": [
+  "Psychic Warfare"
+ ],
+ "Knowledge (psionics) 8 ranks": [
+  "Psymbiot"
+ ],
+ "profi cient with bludgeoning melee weapon": [
+  "Pulverize Foe"
+ ],
+ "Any non-evil alignment": [
+  "Pure Soul"
+ ],
+ "no taint": [
+  "Pure Soul"
+ ],
+ "alternate form special quality": [
+  "Quick Change"
+ ],
+ "Ability to manifest from the Ethereal Plane to the Material Plane": [
+  "Quicken Manifestation"
+ ],
+ "Any three metashadow feats": [
+  "Quicken Mystery"
+ ],
+ "Spell-like ability at caster level 10th or higher": [
+  "Quicken Spell-Like Ability",
+  "Quicken Spell-Like Ability",
+  "Quicken Spell-Like Ability",
+  "Quicken Spell-Like Ability",
+  "Quicken Spell-Like Ability"
+ ],
+ "Spell-like ability caster level 8th": [
+  "Quicken Spell-Like Ability"
+ ],
+ "Any Mark of Scribing": [
+  "Quill of Sivis"
+ ],
+ "deity Pelor": [
+  "Radiant Fire"
+ ],
+ "faerie ?re as a spell-like ability": [
+  "Radiant Flicker"
+ ],
+ "rage ability": [
+  "Rampaging Bull Rush",
+  "Reckless Rage",
+  "Stone Rage"
+ ],
+ "caster level 4th": [
+  "Ranged Spell Specialization",
+  "Touch Spell Specialization"
+ ],
+ "Quicken Spell or Quicken Spell-Like Ability": [
+  "Rapid Breath"
+ ],
+ "Artificer level 3rd": [
+  "Rapid Infusion"
+ ],
+ "Meldshaper level 12th": [
+  "Rapid Meldshaping",
+  "Rebind Chakra"
+ ],
+ "ability to spontaneously cast spells": [
+  "Rapid Metamagic"
+ ],
+ "Regeneration ability": [
+  "Rapid Regeneration"
+ ],
+ "proficiency with the crossbow used": [
+  "Rapid Reload",
+  "Rapid Reload"
+ ],
+ "Weapon Proficiency (crossbow type chosen)": [
+  "Rapid Reload"
+ ],
+ "natural swim speed": [
+  "Rapid Swimming"
+ ],
+ "base Fortitude save +2": [
+  "Rapid Swimming"
+ ],
+ "Natural swim speed": [
+  "Rapid Swimming"
+ ],
+ "Spellcaster Level 5": [
+  "Rashemi Elemental Summoning"
+ ],
+ "Sneak attack": [
+  "Razing Strike"
+ ],
+ "Spell resistance": [
+  "Reactive Resistance"
+ ],
+ "two Tiger Claw maneuvers": [
+  "Reaping Talons"
+ ],
+ "must know your own personal truename": [
+  "Recitation of Mindful State",
+  "Recitation of the Fortified State",
+  "Recitation of the Meditative State",
+  "Recitation of the Sanguine State",
+  "Recitation of Vital State"
+ ],
+ "size Huge or larger": [
+  "Rend",
+  "Snatch and Swallow"
+ ],
+ "Two claw attacks": [
+  "Rend"
+ ],
+ "Proficiency with scorpion claw gauntlets. Two-Weapon Fighting": [
+  "Rending Claws"
+ ],
+ "two limbs capable of grappling": [
+  "Rending Constriction"
+ ],
+ "two constricting limbs": [
+  "Rending Constriction"
+ ],
+ "Druid level 3rd": [
+  "Repel Aberration",
+  "Vermin Companion"
+ ],
+ "Ranger lvl 3rd": [
+  "Repel Outsiders"
+ ],
+ "Exposure to spell resistance or spell turning spell": [
+  "Residual Rebound"
+ ],
+ "Must have encountered a dragon at least once.": [
+  "Resist Dragonfear"
+ ],
+ "dwarf (Underdark [Northdark])": [
+  "Resist Poison"
+ ],
+ "goblin (the Earth fast Mountains)": [
+  "Resist Poison"
+ ],
+ "hobgoblin (the Earthfast Mountains)": [
+  "Resist Poison",
+  "Swift and Silent"
+ ],
+ "human (Dambrath or Lapaliiya)": [
+  "Resist Poison"
+ ],
+ "orc (the Moonsea or the North)": [
+  "Resist Poison"
+ ],
+ "Any two divine feats": [
+  "Retrieve Spell"
+ ],
+ "Sonic special attack": [
+  "Reverberation"
+ ],
+ "Human (the Shaar) Membership Rhinoceros tribe (see human tribes of shaar P164)": [
+  "Rhinoceros Tribe Charge"
+ ],
+ "Rage class ability": [
+  "Righteous Wrath"
+ ],
+ "Good alignment": [
+  "Ritual Blessing"
+ ],
+ "Must not be capable of casting arcane spells": [
+  "Ritual of Arcane Opposition"
+ ],
+ "Non-evil alignment": [
+  "Ritual of the Woodland Bond"
+ ],
+ "Rock gnome": [
+  "Rock Gnome Trickster"
+ ],
+ "stability racial trait": [
+  "Roots of the Mountain"
+ ],
+ "rage 5/day": [
+  "Ruinous Rage",
+  "Terrifying Rage",
+  "Terrifying Rage",
+  "Thundering Rage"
+ ],
+ "Effective leadership score 10+": [
+  "Rulership"
+ ],
+ "Leadership or Epic Leadership": [
+  "Rulership"
+ ],
+ "4 ranks in Craft (rune)": [
+  "Runesmith"
+ ],
+ "Unquenchable Flame of Life or Unyielding Bond of Soul": [
+  "Sacred Resilience"
+ ],
+ "Sneak attack class ability": [
+  "Sacred Strike"
+ ],
+ "Patron deity from the Mulhorandi or Untheric pantheon": [
+  "Sacred Tattoo"
+ ],
+ "Human (Cormyr": [
+  "Saddleback"
+ ],
+ "Dambrath": [
+  "Saddleback"
+ ],
+ "Human raised in Thurkasia": [
+  "Saddleback"
+ ],
+ "Swim speed": [
+  "Sahuagin Flip",
+  "Swim-By Attack"
+ ],
+ "One or more natural weapon attacks": [
+  "Sanctify Natural Attack"
+ ],
+ "Any other Item Creation Feat": [
+  "Sanctify Relic"
+ ],
+ "ability to channel positive energy": [
+  "Sanctify Water"
+ ],
+ "Able to cast align weapon": [
+  "Sanctify Weapon"
+ ],
+ "ability to smite (smite evil class feature": [
+  "Sapphire Smite"
+ ],
+ "smite domain power": [
+  "Sapphire Smite"
+ ],
+ "similar ability)": [
+  "Sapphire Smite"
+ ],
+ "Rogue level 10": [
+  "Savvy Rogue "
+ ],
+ "Divine grace": [
+  "Scalding Faith of the Sun"
+ ],
+ "Patron deity Pelor": [
+  "Scalding Faith of the Sun"
+ ],
+ "Turn Undead": [
+  "Scalding Faith of the Sun"
+ ],
+ "Ability to use wild shape to become a wolf. Wis 11": [
+  "Scent"
+ ],
+ "Neutral evil alignment": [
+  "Scion of Sorrow"
+ ],
+ "two Desert Wind maneuvers": [
+  "Scorching Sirocco"
+ ],
+ "Small size or smaller": [
+  "Scramble"
+ ],
+ "Crusader or swordsage level 1st": [
+  "Scribe Martial Script "
+ ],
+ "Manifester leveI3rd+": [
+  "Scribe Tattoo"
+ ],
+ "Divine Favor": [
+  "Seer"
+ ],
+ "Any other Metamagic Feat": [
+  "Selective Spell"
+ ],
+ "Affilitation with Thoon": [
+  "Sense Quintessence"
+ ],
+ "Detect magic (as spell or spell-like ability)": [
+  "Sense Quintessence"
+ ],
+ "Any Mark of Sentinel": [
+  "Sentinel Stance"
+ ],
+ "Divine Grace": [
+  "Serenity",
+  "Shield Maiden's Grace"
+ ],
+ "Simple Weapon Profi - ciency (longspear)": [
+  "Serpent Strike"
+ ],
+ "Divine Spellcaste Level 1": [
+  "Servant of a Dragon Ascendant"
+ ],
+ "Dragon with 12 level of the Dragon Ascendant (from draconomicon) prestige class as a patron deity": [
+  "Servant of a Dragon Ascendant"
+ ],
+ "dead or forgotten god (for example": [
+  "Servant of the Fallen"
+ ],
+ "Amaunator": [
+  "Servant of the Fallen"
+ ],
+ "Bhaal": [
+  "Servant of the Fallen"
+ ],
+ "Moander": [
+  "Servant of the Fallen"
+ ],
+ "Myrkul) as patron deity": [
+  "Servant of the Fallen"
+ ],
+ "One Shadow Hand stance": [
+  "Shadow Blade"
+ ],
+ "shadowcaster level 1st": [
+  "Shadow Cast"
+ ],
+ "Shadowcaster level 3rd": [
+  "Shadow Familiar",
+  "Shadow Reflection"
+ ],
+ "region of origin Shadow Marches": [
+  "Shadow Marches Warmonger"
+ ],
+ "ability to cast the dancing shadows or the clinging darkness mystery": [
+  "Shadow Reflection"
+ ],
+ "Talfir or Tethyrian human of any region. REGION: The Western Heartlands": [
+  "Shadow Shield"
+ ],
+ "bardic music. REGION: The Western Heartlands": [
+  "Shadow Song"
+ ],
+ "one Shadow Hand strike": [
+  "Shadow Trickster"
+ ],
+ "ability to cast the bend perspective or truth revealed mystery": [
+  "Shadow Vision"
+ ],
+ "Patron deity Shar": [
+  "Shadow Weave Magic"
+ ],
+ "Krinth": [
+  "Shadowform Familiar",
+  "Shadowstrike"
+ ],
+ "summon familiar class feature": [
+  "Shadowform Familiar"
+ ],
+ "size Small or larger": [
+  "Shape Breath",
+  "Split Breath",
+  "Spreading Breath"
+ ],
+ "Half ling": [
+  "Shaped Splash"
+ ],
+ "two Stone Dragon maneuvers": [
+  "Shards of Granite"
+ ],
+ "Ability to shape soulmelds and a familiar": [
+  "Share Soulmeld"
+ ],
+ "animal companion": [
+  "Share Soulmeld",
+  "Spider Companion"
+ ],
+ "mount with whom you can share spells": [
+  "Share Soulmeld"
+ ],
+ "animal companion class feature": [
+  "Shared Fury"
+ ],
+ "Female human member of a Bazareene noble family": [
+  "Sherem-Lar Sorcery"
+ ],
+ "female human member of a Bazareene noble family": [
+  "Sherezem-Lar Sorcery"
+ ],
+ "Shield dwarf": [
+  "Shield Dwarf Warder"
+ ],
+ "Least mark of Sentinel or Siberys Mark of Sentinel": [
+  "Shield of Deneith"
+ ],
+ "Profi ciency with dwarven waraxe": [
+  "Shielded Axe"
+ ],
+ "profi ciency with handaxe": [
+  "Shielded Axe"
+ ],
+ "Combat Manifesting": [
+  "Shielded Manifesting"
+ ],
+ "swiftwing trait. Balance 4 ranks": [
+  "Shifter Acrobatics"
+ ],
+ "Shifter with the cliffwalk": [
+  "Shifter Acrobatics",
+  "Shifter Agility"
+ ],
+ "swiftwing trait": [
+  "Shifter Agility"
+ ],
+ "Shifter with the longtooth or razorclaw trait": [
+  "Shifter Multiattack"
+ ],
+ "razorclaw trait": [
+  "Shifter Savagery"
+ ],
+ "Shifter with the gorebrute": [
+  "Shifter Savagery"
+ ],
+ "wildhunt trait": [
+  "Shifter Stamina",
+  "Shifter Stealth"
+ ],
+ "Shifter with the beasthide": [
+  "Shifter Stamina"
+ ],
+ "truedive": [
+  "Shifter Stamina"
+ ],
+ "Shifter with longstride": [
+  "Shifter Stealth"
+ ],
+ "swiftwing": [
+  "Shifter Stealth"
+ ],
+ "region of origin Zilargo": [
+  "Ship Savvy"
+ ],
+ "Proficiency with a reach weapon": [
+  "Short Haft"
+ ],
+ "Weapon Focus with a reach weapon": [
+  "Short Haft"
+ ],
+ "member or ally of the Fangshields (see page 78)": [
+  "Silver Fang"
+ ],
+ "Dwarf (the Great Rift": [
+  "Silver Palm"
+ ],
+ "the Dragon Coast": [
+  "Silver Palm",
+  "Stormheart"
+ ],
+ "the Vilhon Reach": [
+  "Silver Palm",
+  "Snake Blood"
+ ],
+ "Follower of the Silver Flame": [
+  "Silver Smite"
+ ],
+ "smite evil ability": [
+  "Silver Smite"
+ ],
+ "profi cient with piercing melee weapon": [
+  "Skewer Foe"
+ ],
+ "Ability to use telekinesis as a supernatural ability": [
+  "Skilled Telekinetic"
+ ],
+ "Mounted Combat. REGION: Gold dwarf": [
+  "Skyrider"
+ ],
+ "Ride (hippogriff) skill": [
+  "Skyrider"
+ ],
+ "Weapon Proficiency with slashing weapon": [
+  "Slashing Flurry"
+ ],
+ "must not be of the dragonblood subtype": [
+  "Slayer of Dragons "
+ ],
+ "must not have any draconic feats": [
+  "Slayer of Dragons "
+ ],
+ "ability to smite": [
+  "Smiting Power"
+ ],
+ "Elf (Waterdeep)": [
+  "Smooth Talk"
+ ],
+ "gnome (Thesk)": [
+  "Smooth Talk"
+ ],
+ "human (Silverymoon": [
+  "Smooth Talk"
+ ],
+ "Human (Chult": [
+  "Snake Blood"
+ ],
+ "Lapaliiya": [
+  "Snake Blood",
+  "Stormheart"
+ ],
+ "Access to a form with either claws or bite as natural weapons": [
+  "Snatch",
+  "Snatch",
+  "Snatch"
+ ],
+ "Size huge or larger.": [
+  "Snatch"
+ ],
+ "opportunist class feature": [
+  "Sneak Attack of Opportunity"
+ ],
+ "membership in the Snow Tiger berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Snow Tiger Berserker"
+ ],
+ "Woodland stride ability": [
+  "Snowrunner"
+ ],
+ "Spellcraft 5 Ranks": [
+  "Somatic Weaponry"
+ ],
+ "inspire competence ability": [
+  "Song of the Heart"
+ ],
+ "Bardic music (inspire courage)": [
+  "Song of the White Raven"
+ ],
+ "one White Raven maneuver": [
+  "Song of the White Raven"
+ ],
+ "Mulan human": [
+  "Southern Magician"
+ ],
+ "reserve power points 1+": [
+  "Speed of Thought",
+  "Stand Still"
+ ],
+ "Relevant alignment": [
+  "Spell Focus (Chaos)",
+  "Spell Focus (Evil)",
+  "Spell Focus (Good)",
+  "Spell Focus (Law)"
+ ],
+ "Ability to cast spells of the maximum normal spell level of an arcane spellcasting class": [
+  "Spell Knowledge",
+  "Spell Knowledge"
+ ],
+ "specialist wizard level 1st": [
+  "Spell Reprieve"
+ ],
+ "spellcaster level 4th+": [
+  "Spell Specialization: Energy Missile",
+  "Spell Specialization: Ray"
+ ],
+ "Must be able to cast at least one illusion spell": [
+  "Spell Thematics"
+ ],
+ "Arcane spellcaster level 1st": [
+  "Spell Thematics"
+ ],
+ "Spell-like ability": [
+  "Spell-Like Ability Focus"
+ ],
+ "arcane caster level 9": [
+  "Spell-Linked Familiar",
+  "Vatic Gaze"
+ ],
+ "Exotic Weapon Profi ciency (gnome quickrazor)": [
+  "Spellrazor"
+ ],
+ "Elf (Evermeet) or human (Calimshan": [
+  "Spellwise"
+ ],
+ "Verminfriend (Book of Vile Darkness)": [
+  "Spider Bite"
+ ],
+ "must have had a neardeath experience (that is": [
+  "Spirit Sense"
+ ],
+ "must have fallen below 0 hit points)": [
+  "Spirit Sense"
+ ],
+ "Any other divine feat": [
+  "Spiritual Counter"
+ ],
+ "Any other host feat* mind blade class feature": [
+  "Spiritual Force"
+ ],
+ "poison special attack delivered by bite": [
+  "Spit Poison"
+ ],
+ "Poisonous bite attack": [
+  "Spit Venom"
+ ],
+ "Any other metapsionic feat": [
+  "Split Psionic Ray"
+ ],
+ "access to two or more cleric domains": [
+  "Spontaneous Domains"
+ ],
+ "able to cast any cure wounds spell": [
+  "Spontaneous Healer"
+ ],
+ "nonevil alignment": [
+  "Spontaneous Healer"
+ ],
+ "ability to cast the maximum normal spell level of at least one spellcasting class": [
+  "Spontaneous Spell"
+ ],
+ "able to cast any summon nature's ally spell": [
+  "Spontaneous Summoner"
+ ],
+ "any neutral alignment (NG": [
+  "Spontaneous Summoner"
+ ],
+ "LN": [
+  "Spontaneous Summoner"
+ ],
+ "N": [
+  "Spontaneous Summoner"
+ ],
+ "CN": [
+  "Spontaneous Summoner"
+ ],
+ "NE)": [
+  "Spontaneous Summoner"
+ ],
+ "able to cast any infl ict wounds spell": [
+  "Spontaneous Wounder"
+ ],
+ "Warforged or dwarf": [
+  "Stable Footing"
+ ],
+ "feet": [
+  "Stamp"
+ ],
+ "trample special attack": [
+  "Stamp"
+ ],
+ "Climb 8 ranks and Jump 8 ranks": [
+  "Steady Mountaineer"
+ ],
+ "Exposure to ghoul touch or vampiric touch spell": [
+  "Stench of the Dead"
+ ],
+ "ability to cast three or more necromancy spells": [
+  "Stitched Flesh Familiar"
+ ],
+ "proficiency with any pick": [
+  "Stone Breaker"
+ ],
+ "Base Fortitude save +3": [
+  "Stone Colossus"
+ ],
+ "one Stone Dragon maneuver": [
+  "Stone Power"
+ ],
+ "Deep Imaskar or slyth": [
+  "Stone Soul"
+ ],
+ "urdunnir. REGION: Urdunnir": [
+  "Stoneblood",
+  "Stonewalker Fist"
+ ],
+ "Craft (stonemasonry) skill": [
+  "Stoneshaper"
+ ],
+ "gray dwarf": [
+  "Stoneshaper"
+ ],
+ "stonecunning. REGION: Gold dwarf": [
+  "Stoneshaper"
+ ],
+ "urdunnir": [
+  "Stoneshaper"
+ ],
+ "Ability to cast 3rd level spells": [
+  "Storm Bolt"
+ ],
+ "Proficiency with an Iron Heart preferred weapon (bastard sword": [
+  "Stormguard Warrior"
+ ],
+ "twobladed sword)": [
+  "Stormguard Warrior"
+ ],
+ "two Iron Heart maneuvers": [
+  "Stormguard Warrior"
+ ],
+ "Human (Altumbel": [
+  "Stormheart"
+ ],
+ "the Nelanther Isles": [
+  "Stormheart",
+  "Thug"
+ ],
+ "Tharsult)": [
+  "Stormheart"
+ ],
+ "Any Mark of Storm": [
+  "Stormrider",
+  "Storms Riposte"
+ ],
+ "Halfl ing (Amn or Calimshan)": [
+  "Street Smart"
+ ],
+ "Calimshan": [
+  "Street Smart"
+ ],
+ "planetouched (Chessenta or the Western Heartlands)": [
+  "Street Smart"
+ ],
+ "Kalashtar or Inspired": [
+  "Strength of Two"
+ ],
+ "Dwarf (Oldonnar)": [
+  "Strong Soul"
+ ],
+ "elf (Elven Court and Silverymoon)": [
+  "Strong Soul"
+ ],
+ "g nome ( Underdark [Northdark] o r t he W estern Heartlands)": [
+  "Strong Soul"
+ ],
+ "half-elf (Dambrath": [
+  "Strong Soul"
+ ],
+ "Silverymoon)": [
+  "Strong Soul"
+ ],
+ "halfl ing (Channath Vale or Luiren)": [
+  "Strong Soul"
+ ],
+ "human (the Moonshae Isles)": [
+  "Strong Soul"
+ ],
+ "Know two powers that utilize negative energy": [
+  "Stygian Archon"
+ ],
+ "know two powers that utilize negative energy": [
+  "Stygian Power"
+ ],
+ "Exotic Weapon Profi ciency (sugliin)": [
+  "Sugliin Mastery"
+ ],
+ "Deep gnome": [
+  "Summon Earth Elemental",
+  "Svirfneblin Figment Master"
+ ],
+ "Flurry of blows ability": [
+  "Sun School"
+ ],
+ "member of the Sun Soul monk order (see page 25 of the FORGOTTEN REALMS Campaign Setting and page 41 of City of Splendors: Waterdeep)": [
+  "Sun Soul Monk"
+ ],
+ "Monk 6th": [
+  "Sun Soul Monk"
+ ],
+ "favored enemy immune to critical hits": [
+  "Supernatural Blow"
+ ],
+ "Innate spell-like ability": [
+  "Supernatural Transformation"
+ ],
+ "Grimlock (Underdark [Reeshov])": [
+  "Surefooted"
+ ],
+ "human (the Great Glacier or Uthgardt Tribesfolk)": [
+  "Surefooted"
+ ],
+ "Mild taint": [
+  "Surge of Malevolence"
+ ],
+ "nonhumanoid or nonhumanlike form": [
+  "Surrogate Spellcasting"
+ ],
+ "Dwarf (Chult or the Great Glacier)": [
+  "Survivor"
+ ],
+ "elf (the Chondalwood": [
+  "Survivor"
+ ],
+ "the Inner Sea or the Outer Sea)": [
+  "Survivor"
+ ],
+ "Chult": [
+  "Survivor"
+ ],
+ "Raised in Thurkasia": [
+  "Survivor"
+ ],
+ "Marsh terrain": [
+  "Swamp Stalker"
+ ],
+ "Small size": [
+  "Swarmfighting"
+ ],
+ "Size Small": [
+  "Swarmfighting"
+ ],
+ "Any two interaction skill tricks": [
+  "Sweet Talker"
+ ],
+ "Skirmish +1d6/+1 AC": [
+  "Swift Ambusher ",
+  "Swift Hunter"
+ ],
+ "elf (Cormanthor Drow or the Wealdath)": [
+  "Swift and Silent"
+ ],
+ "halfl ing (the Chondalwood or the North)": [
+  "Swift and Silent"
+ ],
+ "human (Uthgardt Tribesfolk)": [
+  "Swift and Silent"
+ ],
+ "orc (the North)": [
+  "Swift and Silent"
+ ],
+ "Special mount class feature": [
+  "Swift Call"
+ ],
+ "Fast Wild ShapeTM": [
+  "Swift Wild Shape"
+ ],
+ "wild shape I class feature": [
+  "Swift Wild Shape"
+ ],
+ "Least Mark of Passage or Siberys Mark of Passage": [
+  "Swiftness of Orien"
+ ],
+ "Shifter with the swiftwing trait": [
+  "Swiftwing Elite"
+ ],
+ "Paladin 4th of Azuth or Mystra": [
+  "Sword of the Arcane Order"
+ ],
+ "ranger 4th of Mystra; member of the Knights of the Mystic Fire (see page 102)": [
+  "Sword of the Arcane Order"
+ ],
+ "the Order of the Shooting Star (see Knights of the Mystic Fire": [
+  "Sword of the Arcane Order"
+ ],
+ "page 102)": [
+  "Sword of the Arcane Order"
+ ],
+ "the Swords of the High One (see page 104)": [
+  "Sword of the Arcane Order"
+ ],
+ "Synad": [
+  "Synad Multitask Enhanced"
+ ],
+ "Tail sweep attack": [
+  "Tail Sweep Knockdown",
+  "Whirlwind Tail Sweep"
+ ],
+ "moderate corruption": [
+  "Tainted Fury"
+ ],
+ "Tethyrian human": [
+  "Talfirian Song"
+ ],
+ "Hal?ing (Luiren)": [
+  "Tall Mouther Hunter"
+ ],
+ "ability to manifest 1st level powers": [
+  "Tashalatora"
+ ],
+ "Specialized in a school of magic. REGION: Thay": [
+  "Tattoo Focus",
+  "Tattoo Focus"
+ ],
+ "human (Thay) or planetouched (Thay)": [
+  "Tattoo Focus"
+ ],
+ "Specialized in a school of magic": [
+  "Tattoo Focus"
+ ],
+ "Craft (calligraphy) or Craft (painting) skill": [
+  "Tattoo Magic"
+ ],
+ "Spellcaster Level 3rd+": [
+  "Tattoo Magic"
+ ],
+ "Skirmish or sneak attack ability": [
+  "Telling Blow"
+ ],
+ "Shadow Weave Magic.": [
+  "Tenacious Magic"
+ ],
+ "Patron deity from the Mulhorandi pantheon. Regions: Mulhorand": [
+  "Theocrat"
+ ],
+ "morningstar": [
+  "Three Mountains"
+ ],
+ "greatclub)": [
+  "Three Mountains"
+ ],
+ "Thri-kreen": [
+  "Thri-Kreen Carapace",
+  "Thri-Kreen Claw",
+  "Thri-Kreen Displacement",
+  "Thri-Kreen Poison"
+ ],
+ "metaphysical claw psi-like ability": [
+  "Thri-Kreen Claw"
+ ],
+ "psionic displacement psi-like ability": [
+  "Thri-Kreen Displacement"
+ ],
+ "poison bite": [
+  "Thri-Kreen Poison"
+ ],
+ "sneak attack +3d6": [
+  "Throat Punch"
+ ],
+ "Proficiency with weapon": [
+  "Throw Anything"
+ ],
+ "dwarf (Underdark [Northdark] or Waterdeep)": [
+  "Thug"
+ ],
+ "human (the Dragon Coast": [
+  "Thug"
+ ],
+ "the Vilhon Reach)": [
+  "Thug"
+ ],
+ "Underdark [Northdark])": [
+  "Thug"
+ ],
+ "Dwarf (the Galena Mountains": [
+  "Thunder Twin",
+  "Tireless"
+ ],
+ "the Smok ing Mountains": [
+  "Thunder Twin"
+ ],
+ "the Spine o f the World": [
+  "Thunder Twin"
+ ],
+ "the Sword C oast": [
+  "Thunder Twin"
+ ],
+ "Underdark [Old Shanatar]": [
+  "Thunder Twin"
+ ],
+ "wild shape; one Tiger Claw maneuver": [
+  "Tiger Blooded"
+ ],
+ "shift (such as the shifter ability from the EBERRON campaign setting or the bloodclaw master prestige class feature; see page 96)": [
+  "Tiger Blooded"
+ ],
+ "human (the Hordelands": [
+  "Tireless"
+ ],
+ "racial dodge bonus to Armor Class against monsters of the giant type": [
+  "Titan Fighting"
+ ],
+ "ability to aquire a new animal companion": [
+  "Totem Companion"
+ ],
+ "Minimum level requirement (see below)": [
+  "Totem Companion"
+ ],
+ "Wild Empathy class feature": [
+  "Totem Companion"
+ ],
+ "any touch attack that deals hit point damage": [
+  "Touch Attack Specialization"
+ ],
+ "ability damage": [
+  "Touch Attack Specialization"
+ ],
+ "ability drain": [
+  "Touch Attack Specialization",
+  "Touch of Taint"
+ ],
+ "Region of origin Demon Wastes": [
+  "Touch of Captivation",
+  "Touch of Deception",
+  "Touch of Summoning"
+ ],
+ "Able to cast 5th-level divine spells": [
+  "Touch of Hate"
+ ],
+ "Patron deity Bane": [
+  "Touch of Hate"
+ ],
+ "worshiper of the Silver Flame": [
+  "Touch of Silver"
+ ],
+ "Natural attack that deals ability damage (including poison)": [
+  "Touch of Taint"
+ ],
+ "energy drain": [
+  "Touch of Taint"
+ ],
+ "in place of the material components": [
+  "Touchstone"
+ ],
+ "possession of a touchstone key (a portable object native to the touchstone's area and worth at least 250 gp). To forge a link between yourself and the touchstone": [
+  "Touchstone"
+ ],
+ "spending 10 XP and 250 gp in material components. Alternatively": [
+  "Touchstone"
+ ],
+ "the key object for the touchstone can be destroyed as part of the ritual": [
+  "Touchstone"
+ ],
+ "you must spend a day in meditation": [
+  "Touchstone"
+ ],
+ "Spell Focus (transmutation) or transmuter level 1st": [
+  "Toughening Transmutation"
+ ],
+ "Chost attack": [
+  "Transdimensional Breath"
+ ],
+ "ability to find traps as a rogue": [
+  "Trap Sense"
+ ],
+ "Elf or trapfinding class feature": [
+  "Trap Sensitivity"
+ ],
+ "trap sense +2": [
+  "Trap Sensitivity",
+  "Trapmaster"
+ ],
+ "Any Mark of Finding": [
+  "Trap Warden"
+ ],
+ "Forest terrain": [
+  "Treefriend"
+ ],
+ "human (Aglarond)": [
+  "Treetopper"
+ ],
+ "reserve power points (see below)": [
+  "Trigger Power"
+ ],
+ "Must choose a single deity to worship. Must be within one step of that god's alignment": [
+  "True Believer"
+ ],
+ "Must be within 1 step of that deities alignment": [
+  "True Believer"
+ ],
+ "Must Choose a single deity to worship": [
+  "True Believer"
+ ],
+ "completion of a bonding ritual": [
+  "Truebond"
+ ],
+ "Shifter with the truedive trait": [
+  "Truedive Elite"
+ ],
+ "Ability to speak utterances": [
+  "Truename Rebuttal",
+  "Utterance Focus"
+ ],
+ "Chitine or grimlock": [
+  "Tunnelrunner"
+ ],
+ "Exotic Armor Profi ciency (battle plate or mountain plate)": [
+  "Turtle Dart"
+ ],
+ "Exotic Shield Profi ciency (extreme shield) or Tower Shield Profi ciency": [
+  "Turtle Dart"
+ ],
+ "drow elf": [
+  "Twin Sword Style"
+ ],
+ "Two-Weapon Fighting. Regions: Sembia": [
+  "Twin Sword Style"
+ ],
+ "Elf (Menzoberranyr or Waterdeep)": [
+  "Twin Sword Style"
+ ],
+ "human (Sembia or Waterdeep)": [
+  "Twin Sword Style"
+ ],
+ "profi cient with martial weapons": [
+  "Twin Sword Style"
+ ],
+ "Raised among the elves of Sura- Khiri": [
+  "Twin Sword Style"
+ ],
+ "Any Mark of Shadow": [
+  "Umbral Mark"
+ ],
+ "Any Luck feat": [
+  "Unbelievable Luck "
+ ],
+ "One of the following: skirmish ability": [
+  "Undo Resistance"
+ ],
+ "deity Wee Jas": [
+  "Undying Fate"
+ ],
+ "Smite good class feature": [
+  "Unholy Strike",
+  "Unholy Strike"
+ ],
+ "Any least": [
+  "Unlock Dragonmark"
+ ],
+ "lesser": [
+  "Unlock Dragonmark"
+ ],
+ "greater true dragonmark": [
+  "Unlock Dragonmark"
+ ],
+ "Gatekeeper Initiate feat": [
+  "Unnatural Enemy"
+ ],
+ "Region of origin Shadow Marches or Eldeen Reaches": [
+  "Unnatural Enemy"
+ ],
+ "one Diamond Mind strike": [
+  "Unnerving Calm"
+ ],
+ "Flurry of Blows Class Feature": [
+  "Unorthodox Flurry"
+ ],
+ "Unseen weapon class feature": [
+  "Unseen Arrow"
+ ],
+ "Spell Focus (enchantment) or enchanter level 1st": [
+  "Unsettling Enchantment "
+ ],
+ "ability to speak three utterances": [
+  "Utterance of the Crafted Tool"
+ ],
+ "ability to speak two utterances": [
+  "Utterance of the Evolving Mind"
+ ],
+ "Truename Trainin ability to speak four utterances": [
+  "Utterance of the Perfected Map"
+ ],
+ "cannot worship an evil god": [
+  "Veil of Cyric"
+ ],
+ "not an outsider": [
+  "Veil of Cyric"
+ ],
+ "ability to assume plant form using wild shape": [
+  "Venom's Gift"
+ ],
+ "Any two wild feats": [
+  "Venom's Gift"
+ ],
+ "poison use": [
+  "Venomous Strike"
+ ],
+ "ability to acquire a new animal companion": [
+  "Vermin Companion"
+ ],
+ "Druid level 5th": [
+  "Vermin Shape"
+ ],
+ "pro?ciency with rapier and hand crossbow": [
+  "Versatile Combatant"
+ ],
+ "Ability to spontaneously cast spells": [
+  "Versatile Spellcaster"
+ ],
+ "wounding special attack": [
+  "Vicious Wound"
+ ],
+ "Weapon Focus with the specified weapon": [
+  "Vile Martial Strike"
+ ],
+ "Natural attack that deals at least 1d8 points of damage": [
+  "Vile Natural Attack",
+  "Vile Natural Attack"
+ ],
+ "Poison attack as an extraordinary ability": [
+  "Virulent Poison"
+ ],
+ "Two martial maneuvers": [
+  "Vital Recovery"
+ ],
+ "Volatile mind class feature": [
+  "Volatile Escalation",
+  "Volatile Leech"
+ ],
+ "Spellcaster Level 6": [
+  "Vow Of The Spider Queen"
+ ],
+ "rebuke undead": [
+  "Vow Of The Spider Queen"
+ ],
+ "Able to cast 1st-level spells. REGION: Rashemen": [
+  "Vremyonni Training"
+ ],
+ "Halfling or 4 ranks in Bluff": [
+  "Wanderer's Diplomacy"
+ ],
+ "and Sense Motive": [
+  "Wanderer's Diplomacy"
+ ],
+ "Evasion": [
+  "Warning Shout"
+ ],
+ "Clan: Lion": [
+  "Warrior Instinct"
+ ],
+ "Clan: Dragon": [
+  "Warrior Shugenja"
+ ],
+ "Half-aquatic elf": [
+  "Water Adaptation"
+ ],
+ "Aquatic half-elf": [
+  "Water Adaptation"
+ ],
+ "fighter level 4th": [
+  "Weapon Specialization"
+ ],
+ "Fighter level 18": [
+  "Weapon Supremacy"
+ ],
+ "Weapon Proficiency with with selected weapon": [
+  "Weapon Supremacy"
+ ],
+ "Weapon Mastery with damage type of selected weapon": [
+  "Weapon Supremacy"
+ ],
+ "proficiency with the whip": [
+  "Whip Climber"
+ ],
+ "fl urry of blows class feature": [
+  "Whirling Steel Strike"
+ ],
+ "Martial Weapon Profi ciency (longsword)": [
+  "Whirling Steel Strike"
+ ],
+ "deity Vecna": [
+  "Whispered Secrets"
+ ],
+ "One White Raven stance": [
+  "White Raven Defense"
+ ],
+ "ability to use ki strike (magic)": [
+  "White Scorpion Strike"
+ ],
+ "8 HD": [
+  "Widen Supernatural Ability"
+ ],
+ "Shifter with the wildhunt trait": [
+  "Wildhunt Elite"
+ ],
+ "wings and a glide or f ly speed": [
+  "Wing Expert"
+ ],
+ "must have wings": [
+  "Winged Warrior"
+ ],
+ "fly speed 20 ft.": [
+  "Wingstorm"
+ ],
+ "Large size": [
+  "Wingstorm"
+ ],
+ "fly speed 20": [
+  "Wingstorm"
+ ],
+ "Paladin level 1st": [
+  "Winter's Champion"
+ ],
+ "Cold terrain": [
+  "Winter's Child"
+ ],
+ "Special mount ability": [
+  "Winter's Mount"
+ ],
+ "any aberrant dragonmark": [
+  "Winters Mark"
+ ],
+ "Slyth or svirfneblin": [
+  "Wisdom Breeds Caution"
+ ],
+ "membership in the Wolf berserker lodge (see Berserker Lodges in Chapter 10: Rashemen). REGION: Rashemen": [
+  "Wolf Berserker"
+ ],
+ "Elf (the Misty Vale)": [
+  "Woodwise"
+ ],
+ "Star elf (Sildeyuir) or Volodni (the Forest of Lethyr)": [
+  "Woodwise"
+ ],
+ "base Will save bonus +5": [
+  "Words of Creation"
+ ],
+ "Worshiper of the Sovereign Host": [
+  "Worldly Focus"
+ ],
+ "Nongood alignment. Cha 15": [
+  "Wrest Possession"
+ ],
+ "Xeph": [
+  "Xeph Burst Extra",
+  "Xeph Celerity"
+ ],
+ "ability to command or rebuke undead": [
+  "Zone of Animation"
+ ]
+}
