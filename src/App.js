@@ -88,6 +88,7 @@ function App() {
         handleChangeTranslations={handleChangeTranslations}
         translate={translate}
         isCorpus={isCorpus}
+        selectedLanguage={language}
       />
       <ContentWrapper>
         <LeftWrapper>

@@ -7,7 +7,7 @@ function Filters({
 }){
     return (
     <div>
-        {translate('Filters')}
+        {translate('Filters')}:
         <SelectedButton
             selected={filters.showDisallowed}
             onClick={() => onFilterChange({...filters, showDisallowed: !filters.showDisallowed})}
