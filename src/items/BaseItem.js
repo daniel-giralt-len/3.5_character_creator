@@ -21,6 +21,13 @@ const AddButton = styled.button`
     box-shadow: 0px 0px 3px 0px #340000;
 `
 
+const LessImportantText = styled.span`
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 0.75em;
+    color: #00000080;
+`
+
 function BaseItem ({
     item,
     isSelected,
@@ -36,8 +43,8 @@ function BaseItem ({
     const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book, edition } = item
 
-    const bookData = (findInDb(dbs, 'rulebooks', book) || {})
-    const editionData = (findInDb(dbs, 'editions', edition) || {})
+    const bookDataName = (findInDb(dbs, 'rulebooks', book) || {}).name
+    const editionDataName = (findInDb(dbs, 'editions', edition) || {}).name
 
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
@@ -45,14 +52,16 @@ function BaseItem ({
     >
         <div>
             {name}
-            {bookData.name}
-            {editionData.name}
         </div>
-        {isAddable && (
-            <AddButton onClick={onSelectItem} isSelectable={isSelectable}>
-                {isSelectable ? '+' : '-'}
-            </AddButton>
-        )}
+        <div>
+            {bookDataName && (<LessImportantText>{bookDataName}</LessImportantText>)}
+            {editionDataName && (<LessImportantText>({editionDataName})</LessImportantText>)}
+            {isAddable && (
+                <AddButton onClick={onSelectItem} isSelectable={isSelectable}>
+                    {isSelectable ? '+' : '-'}
+                </AddButton>
+            )}
+        </div>
     </BaseItemWrapper>)
 
         //There are some classes such as the arcane devotee which have no associated book but have a hidden link to 
