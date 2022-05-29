@@ -62,6 +62,7 @@ function CreationDisplay({
         <RaceDisplay 
           id={races}
           dbs={dbs}
+          translate={translate}
         />
         {Object.entries(rest).map(([type, items]) => (
           <GenericDisplay

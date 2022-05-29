@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
+import MissingItem from "../items/MissingItem";
 
 const ClassLayout = styled.li`
     display: flex;
@@ -9,11 +10,10 @@ const ClassLayout = styled.li`
 function ClassLevel({
     position,
     classData,
-    classStats,
     onReorder,
     onDuplication,
     onDelete,
-    nLevels
+    nLevels,
 }){
     const isLevel20 = nLevels === 20
     const {name} = classData
@@ -39,6 +39,13 @@ function ClassDisplay({
     translate,
     handleClassChange
 }) {
+    if(classes.length === 0) {
+        return (<MissingItem
+            translate={translate}
+            itemType='class'
+        />)
+    }
+
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
         const out = [...classes]
@@ -56,7 +63,7 @@ function ClassDisplay({
 
     return (
         <div>
-            <h3>{translate('classes')}</h3>
+            <h3>{translate('class')}</h3>
             <ul>
                 {classes
                     .map((id,i) => (<ClassLevel
