@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useCookies } from 'react-cookie'
 import styled from 'styled-components'
 
@@ -25,13 +24,18 @@ const RightWrapper = styled.div`grid-area: right;`
 
 function App() {
 
-  const [cookies, setCookie, removeCookie] = useCookies(['character','corpus','isCorpusSelected'])
-  const {corpus, character, selectedCorpus, language, isCorpusSelected} = cookies
+  const [cookies, setCookie, removeCookie] = useCookies(['character','corpus','isCorpusSelected', 'filters'])
+  const {corpus, character, selectedCorpus, language, isCorpusSelected, filters} = cookies
   if(!corpus) setCookie('corpus', {})
   if(!character || Object.keys(character).length === 0) setCookie('character', characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
   if(!language) setCookie('language', 'es')
   if(!isCorpusSelected) setCookie('isCorpusSelected', false)
+  if(!filters) {
+    setCookie('filters', {
+      showDisallowed: true    
+    })
+  }
   const isCorpus = isCorpusSelected === 'true'
   const translations = webTranslations[language]
   
@@ -45,7 +49,8 @@ function App() {
   const handleCorpusChange = e => setCookie('selectedCorpus', e.target.value)
   const handleCreationSwitch = () => setCookie('isCorpusSelected', !isCorpus)
   const handleChangeTranslations = key => setCookie('language', key)
-
+  const handleFilterChange = newFilters => setCookie('filters', newFilters)
+  
   const corpuses = {
     any: {name: translate('any book'), corpus: '*'},
     c44: {name: 'Companyia 44', corpus: corpus44 },
@@ -79,6 +84,8 @@ function App() {
               isCorpus={isCorpus}
               dbs={dbs}
               translate={translate}
+              filters={filters}
+              onFilterChange={handleFilterChange}
             />
           </LeftWrapper>
           <RightWrapper>

@@ -1,13 +1,16 @@
 import ItemBrowser from './ItemBrowser'
 import Filters from './Filters'
 import { useState } from 'react';
+import { useCookies } from 'react-cookie'
 
 function Creator({creation,
   onCreationChange,
   corpus,
   isCorpus,
   dbs,
-  translate
+  translate,
+  filters,
+  onFilterChange
 }) {
 
   const pages = [
@@ -21,9 +24,6 @@ function Creator({creation,
   ]
 
   const [selectedPage, setSelectedPage] = useState('races')
-  const [filters, setFilters] = useState({
-    showDisallowed: true    
-  })
 
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -32,7 +32,7 @@ function Creator({creation,
     })
   }
 
-  const handleFilterChange = newFilters => setFilters(newFilters)
+
   
   return (
     <div>
@@ -40,7 +40,7 @@ function Creator({creation,
           <div>
             <Filters
               selectedPage={selectedPage}
-              onFilterChange={handleFilterChange}
+              onFilterChange={onFilterChange}
               filters={filters}
               translate={translate}
             />
