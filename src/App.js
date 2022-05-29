@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useCookies } from 'react-cookie'
 import styled from 'styled-components'
 
 import Creator from './Creator'
@@ -23,31 +24,34 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 function App() {
-  const [character, setCharacter] = useState(characterBase)
-  const [corpus, setCorpus] = useState({})
-  const [isCorpus, setIsCorpus] = useState(false)
-  const [selectedCorpus, setSelectedCorpus] = useState('c44')
-  const [translations, setTranslation] = useState(webTranslations['es'])
 
+  const [cookies, setCookie, removeCookie] = useCookies(['character','corpus','isCorpusSelected'])
+  const {corpus, character, selectedCorpus, language, isCorpusSelected} = cookies
+  if(!corpus) setCookie('corpus', {})
+  if(!character || Object.keys(character).length === 0) setCookie('character', characterBase)
+  if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
+  if(!language) setCookie('language', 'es')
+  if(!isCorpusSelected) setCookie('isCorpusSelected', false)
+  const isCorpus = isCorpusSelected === 'true'
+  const translations = webTranslations[language]
+  
   const translate = strIn => {
     const str = strIn.toLowerCase()
     return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || strIn)
   }
-  
+  const handleCreationChange = newCreation => isCorpus 
+    ? setCookie('corpus', newCreation)
+    : setCookie('character', newCreation)
+  const handleCorpusChange = e => setCookie('selectedCorpus', e.target.value)
+  const handleCreationSwitch = () => setCookie('isCorpusSelected', !isCorpus)
+  const handleChangeTranslations = key => setCookie('language', key)
 
   const corpuses = {
     any: {name: translate('any book'), corpus: '*'},
     c44: {name: 'Companyia 44', corpus: corpus44 },
   }
-
-  const handleCreationChange = newCreation => isCorpus ? setCorpus(newCreation) : setCharacter(newCreation)
-  const handleCorpusChange = e => setSelectedCorpus(e.target.value)
-
   const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
-
-  const handleCreationSwitch = () => setIsCorpus(!isCorpus)
-  const handleChangeTranslations = key => setTranslation(webTranslations[key])
 
   return (
     <div>
@@ -80,7 +84,7 @@ function App() {
           <RightWrapper>
             <CreationDisplay
               isCharacter={!isCorpus}
-              creation={isCorpus ? corpus : character}
+              creation={usedCreation}
               dbs={dbs}
               translate={translate}
               handleCreationChange={handleCreationChange}
