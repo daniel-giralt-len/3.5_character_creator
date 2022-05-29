@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import findInDb from '../functions/findInDb'
 
 const BaseItemWrapper = styled.div`
-    padding: 15px;
-    margin: 10px;
+    padding: 2px 10px;
+    margin: 5px 10px;
     
     background: ${({isAllowed}) => isAllowed ? '' : 'repeating-linear-gradient(90deg,#ffffff00,#ff000033 0px,#ffffff00 4px)'};
     
@@ -16,8 +16,6 @@ const BaseItemWrapper = styled.div`
 }`
 
 const AddButton = styled.button`
-    padding: 2px ${({isSelectable})=>isSelectable?8:10}px;
-    font-size: 1.25em;
     box-shadow: 0px 0px 3px 0px #340000;
 `
 
@@ -41,10 +39,9 @@ function BaseItem ({
 }) {
     
     const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
-    const { name, book, edition } = item
+    const { name, book } = item
 
     const bookDataName = (findInDb(dbs, 'rulebooks', book) || {}).name
-    const editionDataName = (findInDb(dbs, 'editions', edition) || {}).name
 
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
@@ -55,7 +52,6 @@ function BaseItem ({
         </div>
         <div>
             {bookDataName && (<LessImportantText>{bookDataName}</LessImportantText>)}
-            {editionDataName && (<LessImportantText>({editionDataName})</LessImportantText>)}
             {isAddable && (
                 <AddButton onClick={onSelectItem} isSelectable={isSelectable}>
                     {isSelectable ? '+' : '-'}
