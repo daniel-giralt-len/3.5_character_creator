@@ -51,7 +51,8 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
           )
         }
         {Object.entries(rest).map(([type, items]) => (
-          <GenericDisplay 
+          <GenericDisplay
+            key={type}
             type={type}
             items={items}
             translate={translate}
@@ -65,6 +66,7 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
       <div>
         {Object.entries(creation).map(([type, items]) => (
           <GenericDisplay 
+            key={type}
             type={type}
             items={items}
             translate={translate}

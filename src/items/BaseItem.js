@@ -8,6 +8,11 @@ const BaseItemWrapper = styled.div`
     background: ${({isAllowed}) => isAllowed ? '' : 'repeating-linear-gradient(90deg,#ffffff00,#ff000033 0px,#ffffff00 4px)'};
     
     box-shadow: 0px 0px 1px 0px #340000${({isSelected}) => isSelected ? ', inset 0px 0px 6px 3px #aafd81' : ''};
+
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+}
 `
 
 function BaseItem ({
@@ -31,9 +36,11 @@ function BaseItem ({
         isAllowed={isAllowed} 
         isSelected={isSelected}
     >
-        <span>{name}</span>
-        {bookData.name}
-        {editionData.name}
+        <div>
+            {name}
+            {bookData.name}
+            {editionData.name}
+        </div>
         {isAddable && (
             <button onClick={onSelectItem}>
                 {isSelected ? '-' : '+'}

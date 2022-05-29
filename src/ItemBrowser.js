@@ -16,8 +16,6 @@ function renderItems({
     disabled,
     isLevel20
 }) {
-    console.log(selectedList)
-
     const isSelected = id => (itemType === 'races' && selectedList === id)
         || (itemType === 'classes' && Array.isArray(selectedList) && selectedList.find(i=>i === id))
         || selectedList[id] === true
