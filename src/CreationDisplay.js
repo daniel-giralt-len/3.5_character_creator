@@ -87,6 +87,7 @@ function CreationDisplay({
             dbs={dbs}
           />
         ))}
+        <span>{JSON.stringify(creation)}</span>
       </div>
     )
   }
