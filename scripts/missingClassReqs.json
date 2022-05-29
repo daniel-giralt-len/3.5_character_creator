@@ -2,23 +2,14 @@
  "Must be able to cast 1st-level arcane spells, including at least one abjuration spell.": [
   "Abjurant Champion;spellcasting"
  ],
- " Must be proficient with at least one martial weapon.": [
-  "Abjurant Champion;special"
- ],
  "Cannot be an aberration": [
   "Abolisher;type"
- ],
- " Wild empathy class feature": [
-  "Abolisher;special"
  ],
  "Humanoid": [
   "Acolyte of the Ego;type"
  ],
  "Caster level 5th.": [
   "Acolyte of the Skin;spells or spell-like abilities"
- ],
- "Must undergo the Ritual of Bonding (see above).": [
-  "Acolyte of the Skin;special"
  ],
  "Ability to cast 3rd-level arcane spells.": [
   "Acolyte of the Skin;spells",
@@ -27,50 +18,23 @@
   "Recaster;spells",
   "Savant Aboleth;spells"
  ],
- "The acolyte of the skin must have made peaceful contact with a summoned evil outsider.": [
-  "Acolyte of the Skin;special"
- ],
- " Must have a fly speed or the ability to cast fly at least twice per day.": [
-  "Aerial Avenger;special"
- ],
- "The character must qualify to select regional feats from Aglarond (Aglarond is her home region, or she has 2 ranks in Knowledge [local&#8212;Aglarond]).": [
-  "Aglarondan Griffonrider;special"
- ],
  "Ability to cast 3rd-level arcane spells or infusions.": [
   "Alchemist Savant;spells"
- ],
- "Favored in House (House Cannith) or Least Dragonmark (Mark of Making).": [
-  "Alchemist Savant;special"
  ],
  "Able to cast at least one summoning spell of 3rd level or higher.": [
   "Alienist;spells"
  ],
- "Must have made peaceful contact with an alienist or a pseudonatural creature.": [
-  "Alienist;special"
- ],
  "Ability to cast at least one Divination spell and at least one summoning spell of 3rd level or higher.": [
   "Alienist;spells"
  ],
- "Prior contact with an alienist or a pseudonatural creature.": [
-  "Alienist;special"
- ],
- " Access to an extensive magical library, a tutor of any race who possesses at least fourteen sorcerer or wizard class levels, or any psionic powers or psionic class levels.": [
-  "Ancient Master;special"
- ],
  "Ability to cast 2nd-level arcane spells": [
   "Anima Mage;spellcasting"
- ],
- "Ability to bind a 2nd-level vestige": [
-  "Anima Mage;special"
  ],
  "Ability to cast <em>spider climb</em>, <em>summon swarm</em>, or <em>web</em> as an arcane spell.": [
   "Arachnomancer;spells"
  ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/spider-climb--2877/\">spider climb</a>, <a href=\"/spells/players-handbook-v35--6/summon-swarm--2459/\">summon swarm</a>, and <a href=\"/spells/players-handbook-v35--6/web--2472/\">web</a> as<br />arcane spells.": [
   "Arachnomancer;spells"
- ],
- "The candidate must undergo a scarification ritual.": [
-  "Arachnomancer;special"
  ],
  "Ability to cast 1st level arcane spells.": [
   "Arcane Archer;spells"
@@ -87,37 +51,15 @@
   "Arcane Hierophant;spells",
   "Geomancer;spells"
  ],
- "Trackless step class feature.": [
-  "Arcane Hierophant;special"
- ],
  "Ability to cast mage hand and at least one arcane spell of 3rd level or higher.": [
   "Arcane Trickster;spells",
   "Arcane Trickster;spells"
  ],
- "Sneak attack +2d6.": [
-  "Arcane Trickster;special",
-  "Arcane Trickster;special"
- ],
- "Must find the Monastery of Finithamon amidst the Ever-Changing Chaos of Limbo, successfully petition the sensei for membership, and have slain an arcane spellcaster.": [
-  "Arcanopath Monk;special"
- ],
  "Ability to cast 7th-level arcane spells, knowledge of 5th-level or higher spells from at least five schools.": [
   "Archmage;spells"
  ],
- "Evasion class feature, smite evil class feature, turn undead class feature, must worship the Silver Flame, and join the Order of the Argent Fist.": [
-  "Argent Fist;special"
- ],
  "Able to cast at least five spells with the force descriptor, at least one of which must be 5th level or higher.": [
   "Argent Savant;spells"
- ],
- "Must have ridden an ashworm.": [
-  "Ashworm Dragoon;special"
- ],
- "The character must kill someone for no other reason than to join the assassins.": [
-  "Assassin;special"
- ],
- "Must have been tragically wronged in some manner.": [
-  "Avenging Executioner;special"
  ],
  "Able to cast 3rd-level divine spells.": [
   "Bane of Infidels;spells",
@@ -131,23 +73,8 @@
   "Battle Maiden;gender",
   "Swanmay;gender"
  ],
- "The character must have created a dwarvencraft weapon (see page 159) and used it in battle.": [
-  "Battlesmith;special"
- ],
  "2d6": [
   "Bayushi Deceiver;sneak attack damage"
- ],
- "Rage or frenzy ability.": [
-  "Bear Warrior;special"
- ],
- "Rage, fury or <em>ki</em> frenzy ability.": [
-  "Bear Warrior;special"
- ],
- "Spend at least one week living alone in a dungeon complex.": [
-  "Beast Heart Adept;special"
- ],
- "Must put out central antimagic eye.": [
-  "Beholder Mage;special"
  ],
  "Female.": [
   "Beloved of Valarian;gender",
@@ -155,35 +82,12 @@
   "Hathran;gender",
   "Scourge Maiden;gender"
  ],
- "Before she can become a beloved of Valarian, the character must meditate at a druid's grove and fast until she saves the life of an animal in danger. Should she fail to survive or aid an animal, she does not meet her unicorn companion and cannot advance in this class.": [
-  "Beloved of Valarian;special"
- ],
  "Must speak at least three languages": [
-  "Bereft;languages",
-  "Court Herald;special"
- ],
- "Must have been the subject of the ritual of renaming spell (see page 257). This costs 3,700 gp.": [
-  "Bereft;special"
- ],
- "Ability to rage.": [
-  "Black Blood Cultist;special",
-  "Exotic Weapon Master;special"
- ],
- "Must have received training from a black dog.": [
-  "Black Dog;special"
- ],
- "Able to cast 2nd-level divine spells, Sneak attack damage +1d6, The character must worship the deity to whom the order is dedicated, and the character must slay an enemy of the faith for no other reason than to join the Order of the Black Flame.": [
-  "Black Flame Zealot;special"
- ],
- "The character must have made peaceful contact with an evil outsider who was summoned by him or someone else.": [
-  "Blackguard;special"
+  "Bereft;languages"
  ],
  "Able to cast arcane or divine spells.": [
   "Blade Dancer;spells",
   "Serpent Slayer;spells"
- ],
- " Proficiency with any sword.": [
-  "Blade Dancer;special"
  ],
  "Able to cast arcane spells of 1st level.": [
   "Bladesinger;spells"
@@ -191,54 +95,21 @@
  "Ability to cast arcane spells of 1st level or higher.": [
   "Bladesinger;spells"
  ],
- "Proficiency with longsword.": [
-  "Bladesinger;special"
- ],
- "In a ritual dedicated to Gruumsh, a character seeking to become a blessed of Gruumsh must remove one of his own eyes (to further embody the one-eyed god).": [
-  "Blessed of Gruumsh;special"
- ],
- "The character must be an ex-druid previously capable of casting 3rd-level druid spells, Profession skill must be <em>herbalist</em>.": [
-  "Blighter;special"
- ],
- "The character must be an ex-druid previously capable of casting 3rd-level druid spells.": [
-  "Blighter;special"
- ],
  "Arcane caster level 5th.": [
   "Blood Magus;spells or spell-like abilities",
   "Mindbender;spells or spell-like abilities"
  ],
- "The character must have been killed, then returned to life.": [
-  "Blood Magus;special"
- ],
  "Ability to cast arcane spells of 3rd level or higher.": [
   "Blood Magus;spells"
- ],
- "The blood magus must have been revived after death through another's use of raise dead, resurrection, or other methods of returning life to a dead body.": [
-  "Blood Magus;special"
  ],
  "Must know three Tiger Claw maneuvers.": [
   "Bloodclaw Master;martial maneuvers"
  ],
- "<em>Rage</em>: The dragon must have some sort of rage ability, most commonly derived from levels in the barbarian class, and must be able to enter this rage at least three times per day.": [
-  "Bloodscaled Fury;special"
- ],
  "Must know one Iron Heart strike and one Iron Heart stance.": [
   "Bloodstorm Blade;martial maneuvers"
  ],
- "Must have a familiar.": [
-  "Bonded Summoner;special"
- ],
  " Able to cast 2nd-level arcane spells": [
   "Bonded Summoner;spells"
- ],
- "Must complete a trial assignment for the Cabinet<br />of Faces.": [
-  "Cabinet Trickster;special"
- ],
- " the cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison.": [
-  "Cancer Mage;special"
- ],
- "The candidate must have natural darkvision to allow successful navigation of Underdark tunnels.": [
-  "Cavestalker;special"
  ],
  "Able to cast 4th-level spells.": [
   "Celestial Mystic;spells"
@@ -254,33 +125,18 @@
   "Cerebremancer;psionics",
   "Psychic Theurge;psionics"
  ],
- "Must worship Corellon Larethian.": [
-  "Champion of Corellon Larethian;special"
- ],
  "Ability to cast mysteries or ability to cast spells with the darkness descriptor or from the shadow subschool": [
   "Child of Night;shadowcasting/spellcasting"
- ],
- "Must have visited the Plane of Shadow": [
-  "Child of Night;special"
  ],
  " Able to cast <em>zone of truth</em> as a divine spell.": [
   "Church Inquisitor;spells"
  ],
- " Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization.": [
-  "Church Inquisitor;special"
- ],
  "Ability to cast <a href=\"/spells/players-handbook-v35--6/dispel-magic--2315/\">dispel magic</a> as a divine spell.": [
   "Church Inquisitor;spells"
- ],
- "Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization.": [
-  "Church Inquisitor;special"
  ],
  "Breland": [
   "Citadel Elite;region of origin",
   "Dark Lantern;region of origin"
- ],
- "The prospective student must live for a week on her own in a wilderness region, during which time she can travel no lower than 12,000 feet in altitude.": [
-  "Cloud Anchorite;special"
  ],
  "Able to cast 3rd-level arcane spells.": [
   "Coiled Cabalist;spellcasting",
@@ -290,16 +146,6 @@
   "Rainbow Servant;spells",
   "Red Wizard;spells",
   "Sublime Chord;spells"
- ],
- "Trapfinding.": [
-  "Combat Trapsmith;special"
- ],
- "The candidate must accept an assignment from her church to locate and destroy some specific, individual enemy of the church. A character who fails must wait a year and a day before applying again. If she succeeds, the church accepts her as a consecrated harrier and she may gain levels in the class.": [
-  "Consecrated Harrier;special",
-  "Consecrated Harrier;special"
- ],
- "Must have had direct contact with one's patron deity or a direct servant of that deity, or with an enlightened being embodying the highest principles of an alignment (a solar, for example).": [
-  "Contemplative;special"
  ],
  " Moderate corruption": [
   "Corrupt Avenger;taint"
@@ -313,34 +159,15 @@
  "Cyre": [
   "Cyran Avenger;region of origin"
  ],
- "Cannot be illiterate or affiliated with a religion.": [
-  "Dark Lantern;special"
- ],
  "Ability to cast 4th-level arcane spells.": [
   "Dark Scholar;spellcasting"
- ],
- "You must have an affiliation score of 9 or higher within the Ebon Cabal to become a dark scholar. If your affiliation score drops be low 9 after you have become a dark scholar, you retain all class features but you can't advance further in the class.": [
-  "Dark Scholar;special"
- ],
- "Bardic music ability.": [
-  "Dawncaller;special",
-  "Sublime Chord;special"
  ],
  "Ability to cast 1st-level divine spells.": [
   "Deadgrim;spells",
   "Knight of the Raven;spellcasting"
  ],
- "Must be a sworn member of the Red Watchers organization.": [
-  "Deadgrim;special"
- ],
- "Must have had at least one near-death experience (fallen below 0 hit points and lived)": [
-  "Death Delver;special"
- ],
  "Aberration, dragon, giant, humanoid, magical beast, or monstrous humanoid.": [
   "Death's Chosen;type"
- ],
- "The character must be accepted as a death's chosen by a sentient undead creature with at least as many Hit Dice as the character.": [
-  "Death's Chosen;special"
  ],
  "Ability to cast 2nd-level arcane spells.": [
   "Deep Diviner;spells",
@@ -357,51 +184,9 @@
   "Monk of the Long Death;base will save bonus",
   "Sacred Purifier;base will save bonus"
  ],
- "Defiants cannot worship any deity or have one as a patron. Any character who has any connection to a god, demigod, or other divine entity must renounce that connection before taking a level in this prestige class.": [
-  "Defiant;special"
- ],
- "Must be able to cast at least six arcane spells of the Conjuration school, one of which must be at least 3rd level.": [
-  "Demonologist;special"
- ],
- "Candidate must have fought against a demon.": [
-  "Demonwrecker;special"
- ],
- "Must be a member of the Sentinel Marshals of House Deneith, or must have proven dedication to the house and been granted permission to petition to join the Sentinel Marshals.": [
-  "Deneith Warden;special"
- ],
- "Ability to manifest 3rd-level psionic powers.": [
-  "Diamond Dragon;special"
- ],
- "Bardic music class feature.": [
-  "Dirgesinger;special"
- ],
- "<em>Initiation</em>: Before adopting the prestige class, a dragon must join the loose-knit cult of other disciples and undergo its initiation rites. This process includes the ritual scarring of the dragon's heart&#8212;an extremely dangerous practice that would claim the life of a dragon too weak to qualify for the class, and leaves even those that do robbed of 1 point of Constitution. (Dragons that progress to at least 6th level in this class regain the lost Constitution point eventually.)": [
-  "Disciple of Ashardalon;special"
- ],
- "The sect of Asmodeus initiates its disciples in a horrific rite that involves the sacrifice of an intelligent being. The sacrifice must be of someone with royal blood or of similar political significance.": [
-  "Disciple of Asmodeus;special"
- ],
- "The sect of Baalzebul initiates new disciples in a terrible ritual that involves the sacrifice of an intelligent being. The ritual must take place in the home of the sacrificial victim.": [
-  "Disciple of Baalzebul;special"
- ],
- "Dispater's sect initiates new disciples in a terrible ritual that involves the sacrifice of an intelligent being atop an alter made of iron. The ritual must take place in the presence of an erinyes, who reports back to Dispater afterward.": [
-  "Disciple of Dispater;special"
- ],
- "The character must go through a disgusting and humiliating sexual ritual and betray her closest friend to an evil end before she can properly serve her new master.": [
-  "Disciple of Mammon;special"
- ],
- "The sect of Mephistopheles welcomes new disciples with a terrible ritual that involves the sacrifice of an intelligent being in magical fire.": [
-  "Disciple of Mephistopheles;special"
- ],
  "Dragonblood": [
   "Disciple of the Eye;subtype",
   "Singer of Concordance;subtype"
- ],
- "Evasion": [
-  "Disciple of the Word;special"
- ],
- "Cold Endurance feat or cold subtype.": [
-  "Disciple of Thrym;special"
  ],
  "Able to cast divine spells.": [
   "Dispassionate Watcher of Chronepsis;spells",
@@ -421,9 +206,6 @@
   "Sacred Purifier;spells",
   "Seeker of the Misty Isle;spells"
  ],
- "The divine agent must have made peaceful contact with her deity or its direct agents (sometimes other divine agents acting on the deity's behalf ). Furthermore, a potential divine agent must have completed a specific task assigned by her deity in order to become a divine agent. Once the task is completed, the character can become a divine agent at any point thereafter.": [
-  "Divine Agent;special"
- ],
  "A divine champion must have a patron deity, and it must be the one he serves as a divine champion.": [
   "Divine Champion;patron deity"
  ],
@@ -438,14 +220,8 @@
  "Able to cast at least 2 divination spells.": [
   "Divine Oracle;spells"
  ],
- "The character must be a worshiper of Garl Glittergold.": [
-  "Divine Prankster;special"
- ],
  "A divine seeker must have a patron deity, and it must be the one she serves as a divine seeker.": [
   "Divine Seeker;patron"
- ],
- "Must sunder a weapon, scatter 500 gp into a crowd, and destroy a building. These acts must be witnessed or verified by a member of the Doomguard.": [
-  "Doomlord;special"
  ],
  "Must be able to spontaneously cast 2nd-level arcane spells, must know at least one language-dependent spell.": [
   "Dracolexi;spells"
@@ -463,58 +239,23 @@
   "Talon of Tiamat;languages",
   "Wyrm Wizard;languages"
  ],
- "Consume Hoard: A would-be dragon ascendant must eat its hoard to begin the process of divine ascension. Its hoard must have a value of at least 100,000 gp, but the dragon cannot choose to eat just 100,000 gp and leave the rest alone&#8212;it must consume its entire hoard.": [
-  "Dragon Ascendant;special"
- ],
- "Still mind class feature.": [
-  "Dragon Descendant;special",
-  "Fist of Zuoken;special",
-  "Zerth Cenobite;special"
- ],
  "Nondragon, can't have draconic template.": [
   "Dragon Devotee;race"
  ],
  "Ability to cast 3rd-level arcane spells or imbue 3rd level infusions.": [
   "Dragon Prophet;spells"
  ],
- "Must be recruited by a dragon to become a dragon prophet. This dragon becomes the character's mentor and remains in touch periodically throughout the character's career.": [
-  "Dragon Prophet;special"
- ],
- "Must have ridden a dragon.": [
-  "Dragon Rider;special"
- ],
  "Ability to spontaneously cast arcane spells.": [
   "Dragonheart Mage;spellcasting"
- ],
- "Must be chosen by a dragon of the same alignment. If a dragonkith ever ceases its relationship with the dragon, or the dragon dies, the character loses all special abilities gained from this prestige class.": [
-  "Dragonkith;special"
  ],
  "7 ranks in any two skills.": [
   "Dragonmark Heir;skills"
  ],
- "Evasion, Sneak attack +2d6.": [
-  "Dread Fang of Lolth;special"
- ],
- "The character must own a ship worth at least 10,000 gp. The method of acquisition&#8212;purchase, force of arms, or skullduggery&#8212;makes no difference, as long as he can freely operate it on the high seas.": [
-  "Dread Pirate;special"
- ],
- "The character must own a ship worth at least 10,000 gp. The method of acquisition-purchase, force of arms, or skullduggery&#8212;makes no difference, as long as he can freely operate it on the high seas.": [
-  "Dread Pirate;special"
- ],
  "Ability to cast cause fear and scare": [
   "Dread Witch;spellcasting"
  ],
- "Must have suffered at least one fear effect against which she failed her save": [
-  "Dread Witch;special"
- ],
  "Able to cast 1st-level arcane or divine spells.": [
   "Drow Judicator;spellcasting"
- ],
- "The candidate must survive the rites of entry administered by clerics of Selvetarm or Lolth.": [
-  "Drow Judicator;special"
- ],
- "Flurry of blows ability; evasion ability; must be chosen by existing drunken masters and survive a night of revelry among them without being incarcerated, poisoned, or extraordinarily embarrassed.": [
-  "Drunken Master;special"
  ],
  "Evasion ability, must be chosen by existing drunken masters and survive night of revelry among them without being incarcerated, poisoned, or extraordinarily embarrassed.": [
   "Drunken Master;other"
@@ -522,15 +263,9 @@
  "Rapier": [
   "Duelist;weapon proficiency"
  ],
- "To become a dungeon delver, a character must first survive a great trial underground. This usually takes one of three forms:<ul><li>A solo dungeon expedition that earns the character one-half of the experience points needed for advancement to the next level. (For example, a 7tlilevel character must earn 3,500 XP on such a solo run.) The character must complete the venture in one week, though he may leave the dungeon and return as often as desired during that time.</li><li>Survival of a cave-in or other collapse (see Cave- Ins and Collapses in Chapter 4 of the Dungeon Master's Guide).</li><li>Living for a year without seeing the light of the sun, usually among underground denizens such as the deep dwarves or drow.</li></ul>": [
-  "Dungeon Delver;special"
- ],
  "Able to cast 2nd-level arcane spells and 2nd-level divine spells.": [
   "Durthan;spellcasting",
   "Geomancer;spells"
- ],
- "The character must qualify to select regional feats from Rashemen (Rashemen is her home region, or she has 2 ranks in Knowledge [local&#8212;Rashemen]).": [
-  "Durthan;special"
  ],
  "Any item creation feat and any metamagic feat.": [
   "Dweomerkeeper;feats"
@@ -541,32 +276,14 @@
  "Magic": [
   "Dweomerkeeper;domain"
  ],
- "The candidate must have created at least one magic item, whether of a permanent nature or not.": [
-  "Dweomerkeeper;special"
- ],
- "Able to cast 1st-level spells.": [
-  "Earth Dreamer;special"
- ],
  "Must have a power point reserve of at least 1 power point. ": [
   "Ebon Saint;psionics"
- ],
- " Sneak attack +1d6 or psionic sneak attack +1d6.": [
-  "Ebon Saint;special"
  ],
  "Any two of the following:<a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>,<a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>,<a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>,<a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>,and<a href=\"/feats/forgotten-realms-campaign-setting--19/stealthy--2764/\">Stealthy</a>": [
   "Ebonmar Infiltrator;feats"
  ],
- "Must be a member of House Ebonmar": [
-  "Ebonmar Infiltrator;special"
- ],
  "Must be able to manifest the <em>astral construct</em> power.": [
   "Ectopic Adept;powers"
- ],
- "Must have the <em>simulacrum</em> spell on a class spell list, whether or not the character is able to cast it.": [
-  "Effigy Master;special"
- ],
- "Favored enemy class feature.": [
-  "Eldeen Ranger;special"
  ],
  "Ability to cast 2nd-level divine spells.": [
   "Eldritch Disciple;spells",
@@ -579,9 +296,6 @@
  "Ability to use least invocations.": [
   "Eldritch Disciple;invocations"
  ],
- "Ability to turn or rebuke undead, must worship a chaotic or evil deity.": [
-  "Eldritch Disciple;special"
- ],
  "Martial weapons.": [
   "Eldritch Knight;weapon proficiency",
   "Raumathari Battlemage;weapon proficiency",
@@ -590,41 +304,23 @@
  " Ability to use least invocations.": [
   "Eldritch Theurge;invocations"
  ],
- " <em>Eldritch blast</em> +2d6.": [
-  "Eldritch Theurge;special"
- ],
  "Any three metabreath feats.": [
   "Elemental Master;feats"
  ],
  "Able to cast arcane spells.": [
   "Elemental Master;spells"
  ],
- "<em>Elemental Attunement</em>: The dragon must have an energy or elemental subtype, such as air, cold, earth, electricity, fire, or water.": [
-  "Elemental Master;special"
- ],
  "Able to cast at least three spells that have one of the following descriptors in common: acid, cold, electricity, or fire. One of the spells must be at least 3rd level.": [
   "Elemental Savant;spells"
  ],
- "Must have made peaceful contact with an elemental or outsider that has an elemental subtype (air, earth, fire, or water).": [
-  "Elemental Savant;special"
- ],
  "The elemental language known must match the type of elemental that provides the scion's graft; see Special.": [
   "Elemental Scion of Zilargo;speak language"
- ],
- "Must have at least one elemental graft.": [
-  "Elemental Scion of Zilargo;special"
- ],
- "The character must have traveled to at least one of the Elemental Planes.": [
-  "Elemental Warrior;special"
  ],
  "Able to manifest 1st-level powers.": [
   "Elocater;psionics"
  ],
  "Arcane caster level 3rd.": [
   "Enlightened Fist;spells or spell-like abilities"
- ],
- "<em>Eldritch blast</em> 3d6.": [
-  "Enlightened Spirit;special"
  ],
  "Undead (incorporeal subtype).": [
   "Ephemeral Exemplar;type"
@@ -636,9 +332,6 @@
   "Ultimate Magus;feats",
   "Wyrm Wizard;feats"
  ],
- "Caster level 5th, must worship the Shadow.": [
-  "Escalation Mage;special"
- ],
  "Any two Devoted Spirit or Diamond Mind maneuvers.": [
   "Eternal Blade;martial maneuvers"
  ],
@@ -647,9 +340,6 @@
  ],
  " Able to cast 5th-level arcane spells.": [
   "Eunuch Warlock;spells"
- ],
- " The character must be a eunuch member in the emperor's service. While this service is often inflicted as a punishment, many volunteer for the procedure because of the power eunuchs hold in some societies.": [
-  "Eunuch Warlock;special"
  ],
  "Evereska.": [
   "Evereskan Tomb Guardian;region"
@@ -667,18 +357,6 @@
   "Wavekeeper;spellcasting",
   "Winterhaunt of Iborighu;spells"
  ],
- "Worshiper of the Silver Flame.": [
-  "Exorcist of the Silver Flame;special"
- ],
- "Races that have familiarity with an exotic weapon (such as the dwarf's familiarity with the dwarven waraxe and the dwarven urgrosh) are considered to have the Exotic Weapon Proficiency feat for the purpose of meeting the requirements for this class.": [
-  "Exotic Weapon Master;special"
- ],
- "The character must be a worshiper of Gruumsh and must put out his own right eye in a special ritual. None of the eye of Gruumsh's special abilities function if the character regains sight in both eyes.": [
-  "Eye of Gruumsh;special"
- ],
- "The character must be a worshiper of Gruumsh and must put out his own right eye in a special ritual. None of the eye of Gruumsh's special abilities function if he regains sight in both eyes.": [
-  "Eye of Gruumsh;special"
- ],
  "Mulhorand.": [
   "Eye of Horus-re;region"
  ],
@@ -688,9 +366,6 @@
  "Trickery": [
   "Eye of Lolth;domain"
  ],
- " Evasion, Sneak attack +2d6 or skirmish +2d6.": [
-  "Eye of Lolth;special"
- ],
  "Yuan-ti, human, Yuan-ti-human c rossbreed, tainted one, or other Yuan-ti-created being.": [
   "Fang of Sseth;race"
  ],
@@ -699,9 +374,6 @@
  ],
  "Any two of the following: <a href=\"/feats/players-handbook-v35--6/alertness--56/\">Alertness</a>, <a href=\"/feats/players-handbook-v35--6/deceitful--542/\">Deceitful</a>, <a href=\"/feats/players-handbook-v35--6/deft-hands--571/\">Deft Hands</a>, <a href=\"/feats/players-handbook-v35--6/investigator--1682/\">Investigator</a>, <a href=\"/feats/players-handbook-v35--6/negotiator--2048/\">Negotiator</a>, <a href=\"/feats/players-handbook-v35--6/nimble-fingers--2059/\">Nimble Fingers</a>, <a href=\"/feats/players-handbook-v35--6/persuasive--2148/\">Persuasive</a>, <a href=\"/feats/players-handbook-v35--6/stealthy--2765/\">Stealthy</a>.": [
   "Fang of Sseth;feats"
- ],
- "The candidate must have slain in the name of Sseth and aided a Yuan-ti without prearranged payment or reward.": [
-  "Fang of Sseth;special"
  ],
  "<a href=\"/skills/bluff/\">Bluff</a>, <a href=\"/skills/diplomacy/\">Diplomacy</a>, or <a href=\"/skills/intimidate/\">Intimidate</a> 8 ranks; 5 ranks each in the other two skills.": [
   "Fatemaker;skills"
@@ -718,17 +390,11 @@
  "Must worship Hextor, and must survive the ritual ceremony of induction into the Fists of Hextor (see Organizations on page 44 of this book).": [
   "Fist of Hextor;other"
  ],
- "Must gain aproval as fist of the forest by a leader a band of Guardians of the Green, and then adopt the life style of an animal (See Primal living below).": [
-  "Fist of the Forest;special"
- ],
  "Ability to manifest <em>psionic charm</em>. ": [
   "Flayerspawn Psychic;powers"
  ],
  " Ability to cast divine spells.<br /><strong>Patron Deity:</strong> Ehlonna.": [
   "Fleet Runner of Ehlonna;spells"
- ],
- "Summon familiar class feature.": [
-  "Fleshwarper;special"
  ],
  "At least one metamagic feat,<a href=\"/feats/players-handbook-v35--6/endurance--863/\">Endurance</a>,<a href=\"/feats/players-handbook-v35--6/great-fortitude--1263/\">Great Fortitude</a>": [
   "Flux Adept;feats"
@@ -739,20 +405,8 @@
  "Ability to cast 1st-level arcane and divine spells.": [
   "Fochlucan Lyrist;spells"
  ],
- " Bardic knowledge and evasion abilities.": [
-  "Fochlucan Lyrist;special"
- ],
- "The character must have a favored enemy.": [
-  "Foe Hunter;special"
- ],
  "Ability to cast <em>Magic Missile</em> once per day.": [
   "Force Missile Mage;spells"
- ],
- "Must be chosen as a forest reeve by the leaders of a band of Guardians of the Green, then serve a six-month apprenticeship to a Guardian of the Green who has at least three forest reeve levels. This requirement can be waived if the would-be forest reeve performs an extraordinary service for the Guardians of the Green.": [
-  "Forest Reeve;special"
- ],
- "The character must once have been the victim of a magical attack that seriously wounded him or threatened his life. He must also sell or give away all his magic items (including magic weapons, armor, and potions) and renounce the use of any spellcasting and spelllike abilities he previously used.": [
-  "Forsaker;special"
  ],
  "Any skill 8 ranks.": [
   "Fortune's Friend;skills"
@@ -764,20 +418,8 @@
   "Frost Mage;spells",
   "Runesmith;spells"
  ],
- "The character must spend 24 hours unprotected in a blizzard.": [
-  "Frost Mage;special"
- ],
- "The character must have been reduced to fewer than 0 hit points by cold damage (either from magical cold attacks or by taking enough damage from exposure to extreme cold environments). Whether or not this trauma is what allows the frostrage to take root in the character's soul, or if the trauma merely unhinges the character's mind enough that he decides to become a frostrager, is unknown.": [
-  "Frostrager;special"
- ],
- "To qualify for the gatecrasher class, the character must have visited two planes of existence other than his native plane.": [
-  "Gatecrasher;special"
- ],
  "Ability to cast 2nd-level divine spells": [
   "Gatekeeper Mystagogue;spells"
- ],
- "Must hold the rank of gatekeeper within the Gatekeeper sect": [
-  "Gatekeeper Mystagogue;special"
  ],
  "Able to prepare and cast 3rd-level arcane spells.": [
   "Geometer;spells"
@@ -788,26 +430,11 @@
  " Any from the Mulhorandi pantheon.": [
   "Glorious Servitor;patron deity"
  ],
- " You must have the approval of your patron deity's church.": [
-  "Glorious Servitor;special"
- ],
- "The character must have participated in the successful rescue of captives held by giants, or just have been imprisoned by giants and escaped.": [
-  "Goliath Liberator;special"
- ],
- "Lay on hands class feature; must adhere to a code of conduct that prevents the character from performing evil acts.": [
-  "Gray Guard;special"
- ],
- "Ability to cast 4th-level spells (<em>or</em> <span class=\"caps\">BAB</span> requirement), Must be a member of the Gray Hands.": [
-  "Gray Hand Enforcer;special"
- ],
  "The Great Rift.": [
   "Great Rift Deep Defender;region"
  ],
  "Arcane caster level 1st.": [
   "Green Star Adept;spells or spell-like abilities"
- ],
- "Must acquire a piece of starmetal weighing at least 2 ounces, powder it, and consume it by drinking it in a specially prepared infusion. This infusion requires arcane reagents costing 1,000 gp and takes one week to prepare.": [
-  "Green Star Adept;special"
  ],
  "Any metamagic feat, any one item creation feat.": [
   "Halruaan Elder;feats"
@@ -815,9 +442,6 @@
  "Halruaa.": [
   "Halruaan Elder;region",
   "Halruaan Magehound;region"
- ],
- "The character must petition for entry into the Halruaan Council of Elders and, after a divinatory background check by current elders, be accepted to that ruling body.": [
-  "Halruaan Elder;special"
  ],
  "Ability to cast 4th-level arcane or divine spells. Ability to cast at least three spells that require Fortitude saves and at least three spells that require Reflex saves. (A spell that deals damage but allows no saving throw can substitute for any of these required spells.)": [
   "Halruaan Magehound;spells"
@@ -831,9 +455,6 @@
  "Moradin.": [
   "Hammer of Moradin;patron deity"
  ],
- "The candidate must be a member of the hammers of Moradin.": [
-  "Hammer of Moradin;special"
- ],
  "The Adama.": [
   "Hand of the Adama;patron deity",
   "Maquar Crusader;patron deity"
@@ -841,12 +462,6 @@
  "The Golden Water.": [
   "Hand of the Adama;region",
   "Maquar Crusader;region"
- ],
- "Sneak attack, sudden strike, or skirmish +2d6.": [
-  "Hand of the Winged Masters;special"
- ],
- "The candidate must be sponsored by a member in good standing of the Harpers and win approval from the High Harpers.": [
-  "Harper Agent;special"
  ],
  "Rashemen.": [
   "Hathran;region"
@@ -858,20 +473,8 @@
  "Chauntea, Mielikki, or Mystra.": [
   "Hathran;patron deity"
  ],
- "The candidate must be a member in good standing of the Witches of Rashemen, and she may not possess any item creation feats other than Scribe Scroll.": [
-  "Hathran;special"
- ],
  "15 ranks in any two skills.": [
   "Heir of Siberys;skills"
- ],
- "A character who has the Aberrant Dragonmark, Least Dragonmark, Lesser Dragonmark, or Greater Dragonmark feat cannot enter this prestige class. Also, once a character gains any levels in this class, he can't adopt the dragonmark heir prestige class.": [
-  "Heir of Siberys;special"
- ],
- "Must slay an outsider with the evil subtype": [
-  "Hellreaver;special"
- ],
- "Purity of body class ability.": [
-  "Henshin Mystic;special"
  ],
  "Able to cast lightning bolt as a divine spell.": [
   "Hexer;spellcasting"
@@ -882,34 +485,17 @@
  "Ability to cast 3rd-level spells or infusions": [
   "High Elemental Binder;spells"
  ],
- "Skirmish or sneak attack class feature.": [
-  "Highland Stalker;special"
- ],
  "Yondalla.": [
   "Hin Fist;patron deity"
  ],
  "Luiren.": [
   "Hin Fist;region"
  ],
- "The character must have participated in the location and recovery of a treasure hoard (dragon or otherwise) valued at 5,000 gp or more.": [
-  "Hoardstealer;special"
- ],
  " Able to cast 3rd-level divine spells, including the three lowest-level spells of the Plant domain.": [
   "Holt Warden;spellcasting"
  ],
- " Must be chosen as a holt warden by the leaders of a band of Guardians of the Green, then serve a one-year apprenticeship to a Guardian of the Green who has at least five holt warden levels.": [
-  "Holt Warden;special"
- ],
  "Able to cast three evocation spells, able to cast 3rd-level arcane spells.": [
   "Holy Scourge;spellcasting"
- ],
- "Large size or larger.": [
-  "Hulking Hurler;special"
- ],
- "Ability to turn undead.": [
-  "Hunter of the Dead;special",
-  "Prestige Paladin;special",
-  "Swift Wing;special"
  ],
  "The character must have lost one level or had an ability score point permanently drained by an undead creature. This is the scar of unlife that all hunters of the dead carry.": [
   "Hunter of the Dead;scar of unlife"
@@ -917,26 +503,11 @@
  "Illithid, illithidkin, or a creature with the half-illithid template.": [
   "Illithid Body Tamer;race"
  ],
- " Must have consumed the brain of a creature of CR 9 or greater.": [
-  "Illithid Savant;special"
- ],
  "Must have a power point reserve of at least 1 power point.": [
   "Illithid Slayer;psionics",
   "Pyrokineticist;psionics",
   "Sanctified Mind;psionics",
   "War Mind;psionics"
- ],
- "Must have killed an illithid, either individually or as part of a group composed of no more than six members.": [
-  "Illithid Slayer;special"
- ],
- "Mind blade, psychic strike +1d8.": [
-  "Illumine Soul;special"
- ],
- "The candidate must have slain a creature or enemy purely for revenge. She must also swear to obey the Imaskari vengeance taker code (see sidebar on page 38).": [
-  "Imaskari Vengeance Taker;special"
- ],
- "Favored enemy (aberrations) or Gatekeeper Initiate feat (from the <span class=\"caps\">EBERRON</span> Campaign Setting).": [
-  "Impure Prince;special"
  ],
  " Able to cast 3rd-level arcane spells.": [
   "Incantatrix;spellcasting"
@@ -945,9 +516,6 @@
   "Incantatrix;feats",
   "Magical Trickster;feats",
   "Raumathari Battlemage;feats"
- ],
- "The candidate cannot have abjuration as a prohibited school.": [
-  "Incantatrix;special"
  ],
  "Able to cast five abjuration spells, including at least two of 4th level or higher.": [
   "Initiate of the Sevenfold Veil;spells"
@@ -959,9 +527,6 @@
  "Ability to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a>.": [
   "Insidious Corruptor;spells"
  ],
- "The candidate must defeat a worthy opponent in single combat using one or more daggers, kukris, or punching daggers in any combination as his only weapons.": [
-  "Invisible Blade;special"
- ],
  "Able to manifest one 1st-level psionic power.": [
   "Iron Mind;powers"
  ],
@@ -971,29 +536,17 @@
  "Must know at least two martial maneuvers, including one strike.": [
   "Jade Phoenix Mage;martial maneuvers"
  ],
- "Candidate must have visited two or more planes other than his home plane.": [
-  "Jaunter;special"
- ],
  "+6.": [
   "Jordain Vizier;will"
  ],
  "One of Halruaa's accepted deities, usually Mystra or Azuth.": [
   "Jordain Vizier;patron deity"
  ],
- "Must be literate and speak Common, Halruaan, and at least two other languages. Must have been raised by House Jordain. Such rearing precludes the practice of arcane magic and the use of many magic items, subject to investigation by a magehound.": [
-  "Jordain Vizier;special"
- ],
  "Tyr.": [
   "Justiciar of Tyr;patron deity"
  ],
  "Cannot be an aberration.": [
   "Keeper of the Cerulean Sign;type"
- ],
- "Must create a cerulean sign without aid.": [
-  "Keeper of the Cerulean Sign;special"
- ],
- "Must complete an other of service (see sidebar) to either an overlord or an ideal.": [
-  "Kensai;special"
  ],
  "Lance (uma-yari).": [
   "Kishi Charger;weapon proficiency"
@@ -1007,21 +560,6 @@
  "Magic (+1 or better) full plate armor.": [
   "Knight of the Chalice;equipment"
  ],
- "Has demons as a favored enemy, and has defeated a demon or driven it back to its home plane.": [
-  "Knight of the Chalice;special"
- ],
- "Before a character is accepted into the Order of the Iron Glacier, she must first prove to the order that her intentions are noble and true. Typically, this means the character must undertake some form of task or quest in a region of the frostfell, such as defending a remote village from an attack by orcs or slaying a white dragon that has been menacing a region. Usually, high-ranking knights will send aspiring knights on a particular quest, but sometimes they waive this requirement for someone they have seen upholding Iron Glacier ideals even though she has not herself approached the order for membership.": [
-  "Knight of the Iron Glacier;special"
- ],
- "Must be accepted as a member of the Order of the Pearl.": [
-  "Knight of the Pearl;special"
- ],
- "Must meet an existing knight on friendly terms and then spend an overnight prayer vigil in the chapel of Ravenloft.": [
-  "Knight of the Raven;special"
- ],
- "Soul binding class feature": [
-  "Knight of the Sacred Seal;special"
- ],
  "Gain membership in the order.": [
   "Knight Protector of the Great Kingdom;other"
  ],
@@ -1029,21 +567,6 @@
   "Landforged Walker;race",
   "Reforged;race",
   "Warforged Juggernaut;race"
- ],
- "The lasher must own a whip or whip dagger (see Chapter 5). Usually, a lasher owns both types of whip (and, if wealthy enough, mighty versions of both types).": [
-  "Lasher;special"
- ],
- "Must possess a legacy item, character level 10th.": [
-  "Legacy Champion;special"
- ],
- "Must be the captain or master of a ship.": [
-  "Legendary Captain;special"
- ],
- "Base Leadership score of 7 or higher.": [
-  "Legendary Leader;special"
- ],
- "Favored enemy (aberrations, animals, dragons, or magical beasts).": [
-  "Leviathan Hunter;special"
  ],
  "Any.": [
   "Lightbringer;associated classes"
@@ -1054,18 +577,8 @@
  "Able to cast <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-ii--2451/\">summon natures ally II</a>.": [
   "Lion of Talisid;spells"
  ],
- "The character must have an animal companion as a class feature.": [
-  "Lion of Talisid;special"
- ],
- " You must undergo an initiation ritual and return with a relic (see Playing a Lord of Tides, below).": [
-  "Lord of Tides;special"
- ],
  "Ability to cast at least one 3rd-level arcane spell from the divination school.": [
   "Loredelver;spells or spell like abilities"
- ],
- "Trapfinding class feature.": [
-  "Loredelver;special",
-  "Trapsmith;special"
  ],
  "Any three metamagic or item creation feats, plus Skill Focus (Knowledge [any individual Knowledge skill]).": [
   "Loremaster;feats"
@@ -1086,12 +599,6 @@
   "Lurking Terror;type",
   "Tomb Warden;type"
  ],
- "If the character possesses the incorporeal subtype, it need not meet the Move Silently requirement.": [
-  "Lurking Terror;special"
- ],
- " Bardic music 5/day.": [
-  "Lyric Thaumaturge;special"
- ],
  " Any two item creation feats.": [
   "Maester;feats"
  ],
@@ -1102,9 +609,6 @@
  "Able to prepare and cast 2nd-level arcane spells.": [
   "Mage of the Arcane Order;spells"
  ],
- "Prospective members must pay an initiation fee of 750 gp.": [
-  "Mage of the Arcane Order;special"
- ],
  "Ability to cast 5th-level arcane spells.": [
   "Magelord;spells"
  ],
@@ -1114,20 +618,8 @@
  "Celestial, Infernal.": [
   "Malconvoker;languages"
  ],
- " Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iii--2443/\">summon monster III</a>": [
-  "Malconvoker;special"
- ],
- "The character must have a reputation as an honorable and dedicated person. He must spend one full month living by the standards of the Maquar crusader's code of conduct before being admitted into the Maquar.": [
-  "Maquar Crusader;special"
- ],
- "Wild shape class feature.": [
-  "Master of Many Forms;special"
- ],
  "Any four.": [
   "Master of Masks;languages"
- ],
- " Must have successfully impersonated an individual, fooling even that person's friends and associates.": [
-  "Master of Masks;special"
  ],
  "10 ranks in four key discipline skills.": [
   "Master of Nine;skills"
@@ -1138,14 +630,8 @@
  "Ability to cast divine spells, and access to at least one of these domains: Death, Evil, Protection. A character who can cast at least one spell from a domain counts as having access for this purpose.": [
   "Master of Shrouds;spells"
  ],
- "Ability to channel negative energy.": [
-  "Master of Shrouds;special"
- ],
  " Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.": [
   "Master of Shrouds;spells"
- ],
- " Able to rebuke undead": [
-  "Master of Shrouds;special"
  ],
  "Ability to cast divine spells and a spell that appears on the spell list for the Death, Evil, or Protection domain.": [
   "Master of Shrouds;spells"
@@ -1156,14 +642,8 @@
  "Able to cast the <a href=\"/spells/players-handbook-v35--6/telekinesis--2883/\"><em>telekinesis</em></a> spell, or access to telekinesis as a spell-like or supernatural ability": [
   "Master of the Unseen Hand;spells"
  ],
- "The character must qualify to select regional feats from Aglarond or the star elf region (the region is his home region, or he has 2 ranks in Knowledge [local&#8212;Aglarond or star elf]).": [
-  "Master of the Yuirwood;special"
- ],
  "Must be able to cast 2nd-level arcane spells.": [
   "Master Specialist;spellcasting"
- ],
- "Must be a specialist wizard.": [
-  "Master Specialist;special"
  ],
  "Able to cast <em>alter self</em> and <em>polymorph</em>.": [
   "Master Transmogrifist;spells"
@@ -1171,29 +651,14 @@
  "Ability to cast 2nd-level divine spells, including at least three divinations.": [
   "Medani Prophet;spellcasting"
  ],
- "Must be a worshiper of Aureon, and must have received training from the Voice of Aureon.": [
-  "Medani Prophet;special"
- ],
  "Common, any two others, must be literate.": [
   "Merchant Prince;languages"
- ],
- "You mush own a business. If you no longer own a business, you cannot advance further in this class.": [
-  "Merchant Prince;special"
  ],
  "Manifester level 4th.": [
   "Metamind;psionics"
  ],
  "Able to cast <em>charm person</em>, use <em>charm person</em> as a spell-like ability, or use the <em>charm invocation</em>.": [
   "Mindbender;spells"
- ],
- "Able to cast the <a href=\"/spells/players-handbook-v35--6/detect-thoughts--2494/\"><em>detect thoughts</em></a> spell or to use <a href=\"/spells/players-handbook-v35--6/detect-thoughts--2494/\"><em>detect thoughts</em></a> as a spell-like ability.": [
-  "Mindspy;special"
- ],
- "Must obtain permission to join the order at any one of the many chapter houses that dot the land.": [
-  "Monk of the Enabled Hand;special"
- ],
- "The candidate must be inducted into the monks of the long death via a secret ceremony consisting of various morbid and hideous acts designed to test his resolve.": [
-  "Monk of the Long Death;special"
  ],
  "Ability to cast 3rd-level divine spells.": [
   "Moon Guardian;spells",
@@ -1204,14 +669,8 @@
  "The candidate must be an afflicted lycanthrope aware of his condition.": [
   "Moon Guardian;other"
  ],
- "Membership in the Knights of the North": [
-  "Moonsea Skysentinel;special"
- ],
  "Ability to cast <em>disguise self</em> and <em>identify</em>.": [
   "Moonstar Agent;spells"
- ],
- " Bardic knowledge, lore (loremaster class feature or any similar ability), Harper knowledge, or ability to cast legend lore, Must be a member of the Tel Teukiira.": [
-  "Moonstar Agent;special"
  ],
  "Able to cast 3rd-level divine spells, one of which must be <a href=\"/spells/players-handbook-v35--6/daylight--2601/\">daylight</a>.": [
   "Morninglord of Lathander;spells"
@@ -1225,10 +684,6 @@
  "Able to cast 2nd-level divine spells and 2nd-level arcane spells.": [
   "Mystic Theurge;spells"
  ],
- "Must be a member of the Disciples of Legend.": [
-  "Mythic Exemplar;special",
-  "Squire of Legend;special"
- ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a> as a spell.": [
   "Naga Overlord;spellcasting"
  ],
@@ -1238,18 +693,8 @@
  "Abyssal.": [
   "Nar Demonbinder;languages"
  ],
- "Wild shape ability": [
-  "Nature's Warrior;special",
-  "Vermin Keeper;special"
- ],
  "Ability to shape soulmelds, ability to bind soulmelds to the crown, feet, and hands chakras.": [
   "Necrocarnate;meldshaping"
- ],
- "The character must qualify to take regional feats from the Great Dale character region (the Great Dale is her home region, or she has 2 ranks of Knowledge [local&#8212; Great Dale]).": [
-  "Nentyar Hunter;special"
- ],
- "Evasion and uncanny dodge class features.": [
-  "Night Mask Deathbringer;special"
  ],
  "Ability to cast 3rd-level divine spells. A cleric candidate must have access to the Evil domain.": [
   "Nightcloak;spells"
@@ -1260,24 +705,15 @@
  "Evasion class feature, must contact Crescent Moon leadership.": [
   "Ninja of the Crescent Moon;other"
  ],
- "Evasion class ability": [
-  "Ninja Spy;special"
- ],
  "Able to cast 2nd-level mysteries": [
   "Noctumancer;shadowcasting"
  ],
  "Able to cast 2nd-level arcane spells": [
   "Noctumancer;spellcasting"
  ],
- "An heir of Siberys with the Mark of Healing can take this class without meeting the Least Dragonmark prerequisite.": [
-  "Nosomatic Chirurgeon;special"
- ],
  "Any two metamagic feats.": [
   "Olin Gisir;feats",
   "Recaster;feats"
- ],
- "Abjuration must not be a prohibited school for you.": [
-  "Olin Gisir;special"
  ],
  "Dwarf": [
   "Ollam;race"
@@ -1291,47 +727,23 @@
  "Able to cast magic weapon as a divine spell.": [
   "Ordained Champion;spellcasting"
  ],
- " Must worship Hextor or Heironeous.": [
-  "Ordained Champion;special"
- ],
  "Ability to cast at least three transmutation spells, one of which must be 1st level or higher.": [
   "Osteomancer;spells"
- ],
- "An appropriate legal authority must pronounce a writ of outlawry upon the character, though he need not actually be guilty of any of the crimes named therein. In addition, the character must swear to abide by the Outlaw's Code (see sidebar).": [
-  "Outlaw of the Crimson Road;special"
  ],
  "Must be able to cast 3rd-level arcane spells.": [
   "Pact-bound Adept;spellcasting"
  ],
- "Must have an active dragonpact (see page 87) with a dragon.": [
-  "Pact-bound Adept;special"
- ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> and <a href=\"/spells/players-handbook-v35--6/vampiric-touch--2768/\">vampiric touch</a> as arcane spells.": [
   "Pale Master;spells"
- ],
- "The candidate must have spent three or more days locked in a tomb with animate undead. This contact may be peaceful or violent. A character who is slain by the undead and later raised still meets the requirement, although the resulting level loss may delay compliance with other prerequisites.": [
-  "Pale Master;special"
  ],
  "Able to cast 3rd-level spells or use spell-like abilities of equivalent level.": [
   "Paragnostic Apostle;spellcasting"
  ],
- "Must be a member of the Paragnostic Assembly.": [
-  "Paragnostic Apostle;special"
- ],
  "The planar champion must have visited at least two planes other than her native plane before taking this prestige class. The champion does not need to have been the instigator of these travels.": [
   "Planar Champion;special requirements"
  ],
- "Wild shape class feature": [
-  "Planar Shepherd;special"
- ],
  "Able to cast 5th-level arcane spells.": [
   "Planeshifter;spells"
- ],
- "Must have visited an Inner or Outer Plane before taking this prestige class.": [
-  "Planeshifter;special"
- ],
- "Ability to cast at least one 1st-level arcane spell from each of the divination, enchantment, and illusion schools.": [
-  "Prestige Bard;special"
  ],
  "Ability to cast protection from evil as a divine spell.": [
   "Prestige Paladin;spellcasting"
@@ -1342,44 +754,20 @@
  "Caster level 7th.": [
   "Primal Scholar;spells or spell-like abilities"
  ],
- "Must know at least four languages.": [
-  "Prime Underdark Guide;special"
- ],
  "Any three.": [
   "Psibond Agent;languages"
  ],
  " Power point reserve of at least 1.": [
   "Psibond Agent;psionics"
  ],
- " Sneak attack +1d6.": [
-  "Psibond Agent;special"
- ],
  "Able to manifest 3rd-level powers.": [
   "Psion Uncarnate;psionics"
- ],
- "Must have had some instruction by another psion uncarnate, have access to teachings of the Golden Mind, or belong to an organization that has access to or is administered by the Golden Mind.": [
-  "Psion Uncarnate;special"
- ],
- "Ability to turn undead": [
-  "Purifier of the Hallowed Doctrine;special"
- ],
- "Membership in the Purple Dragons": [
-  "Purple Dragon Knight;special"
  ],
  "The candidate must have Cormyr as his home region or have 8 ranks in Knowledge (Cormyr local).": [
   "Purple Dragon Knight;region"
  ],
- "The candidate must be a member of the Purple Dragons.": [
-  "Purple Dragon Knight;special"
- ],
- "Must have set fire to a structure of any size just to watch it burn.": [
-  "Pyrokineticist;special"
- ],
  "Must know thought shield*.": [
   "Quori Mindhunter;psionics"
- ],
- "Must lure and defeat a quori spirit in a dreamstate combat (See initiation ritual below).": [
-  "Quori Mindhunter;special"
  ],
  "Any one psionic feat.": [
   "Quori Nightmare;feats"
@@ -1387,35 +775,17 @@
  " Able to cast 1st-level divine spells and access to the Sun domain.": [
   "Radiant Servant of Pelor;spells"
  ],
- " Must have Pelor as patron deity. (Adapt as desired for sun god of the setting.)": [
-  "Radiant Servant of Pelor;special"
- ],
- " Rage or frenzy ability.": [
-  "Rage Mage;special"
- ],
- " Must find the hidden jungle temples of the couatls.": [
-  "Rainbow Servant;special"
- ],
  "Able to cast 3rd-level arcane spells and knowledge of at least four evocation spells.": [
   "Raumathari Battlemage;spellcasting"
  ],
  "Able to read Roushoum and the Imaskari script (this generally requires a Speak Language skill rank for each dead language).": [
   "Raumathari Battlemage;languages"
  ],
- "The character must find a mentor who already has levels in Raumathari battlemage and spend at least ten days studying in the mentor's company. During this time of study, both mentor and student must spend at least 8 hours a day in training.": [
-  "Raumathari Battlemage;special"
- ],
- "Must survive the ravager initiation rites (see the sidebar).": [
-  "Ravager;special"
- ],
  "Must survive the Ravager initiation rites. (See the Ravager organization description on page 50 of this book.)": [
   "Ravager;other"
  ],
  "Shifter.": [
   "Reachrunner;race"
- ],
- "The candidate must have defeated at least three opponents one size category larger than himself with his bare hands": [
-  "Reaping Mauler;special"
  ],
  "Total of three metamagic feats or item creation feats.": [
   "Red Wizard;feats"
@@ -1429,20 +799,8 @@
  "Hleid.": [
   "Rimefire Witch;patron deity"
  ],
- "Once a character meets all the requirements listed above, she soon has a vivid dream in which she receives a call from a rimefire eidolon. Once she wakes from the dream, she knows the most direct route to the rimefire eidolon's iceberg, as if she had cast <a href=\"/spells/players-handbook-v35--6/discern-location--2497/\"><em>discern location</em></a> to find it. This call does not force the character to answer, but until she travels to the iceberg and accepts the bond of the rimefire eidolon that dwells within, she cannot take any levels of rimefire witch. The journey to the iceberg should be played out as a minor quest, perhaps with some encounters with Iborighu cultists bent on preventing the rise of a new rimefire witch.": [
-  "Rimefire Witch;special"
- ],
  "Any one skill 9 ranks, Speak Language (Celestial).": [
   "Risen Martyr;skills"
- ],
- "The character must have suffered martyrdom (see Chapter 2) and must not have been returned to life. As a special feature of this prestige class, the character rises with the abilities of a 0-level risen martyr added to the character's previous abilities. When the character earns enough experience points to advance another level, he must become a 1st-level risen martyr.": [
-  "Risen Martyr;special"
- ],
- "Must have fled or been exiled from the service of a feudal lord, commonly for disobeying orders, displaying rudeness or cowardice at a crucial juncture, or failing in a crucial task.": [
-  "Ronin;special"
- ],
- "The character must be admitted to the Royal Explorers Society. This requires fulfilling all the requirements listed above and also submitting a verifiable report of a significant exploration to the society's review council. Such a report should include, at minimum, a detailed map of the area explored, descriptions of native flora and fauna, a narrative of encounters with the area's inhabitants, and a significant relic (preferably magical) brought back for the society's museum.": [
-  "Royal Explorer;special"
  ],
  "Any skill 9 ranks, OR": [
   "Ruathar;skills"
@@ -1451,30 +809,17 @@
   "Ruathar;spells",
   "Spellwarp Sniper;spellcasting"
  ],
- "In addition to meeting one of the three requirements given above, you must have performed a great service to an elf community, such as participating in the defeat of a monster of at least CR 10, recovering a valuable elven magic item, or risking death in order to save an elf's life.": [
-  "Ruathar;special"
- ],
  "Must know at least one Devoted Spirit maneuver.": [
   "Ruby Knight Vindicator;martial maneuvers"
  ],
  "Wee Jas.": [
   "Ruby Knight Vindicator;deity"
  ],
- "Ability to turn or rebuke undead.": [
-  "Ruby Knight Vindicator;special"
- ],
  "At least one berserker lodge feat from Chapter 3: Regions and Feats.": [
   "Runescarred Berserker;feats"
  ],
- "The character must be able to rage at least once per day, as the barbarian class ability, and must be a member of a berserker lodge. (For more information about berserker lodges, see Chapter 10: Rashemen.) Also, the character must qualify to select regional feats from Rashemen (Rashemen is his home region, or he has 2 ranks in Knowledge [local&#8212; Rashemen]).": [
-  "Runescarred Berserker;special"
- ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/dismissal--2310/\">dismissal</a> or <a href=\"/spells/players-handbook-v35--6/dispel-evil--2312/\">dispel evil</a> .": [
   "Sacred Exorcist;spells"
- ],
- "Adopting this prestige class requires the sanction of a church or order that ordains sacred exorcists. Only characters judged by their church to be exemplary in faith and devotion, strong of will and upright in morality, are made sacred exorcists.": [
-  "Sacred Exorcist;special",
-  "Sacred Exorcist;special"
  ],
  "Ability to cast dismissal or dispel evil.": [
   "Sacred Exorcist;spells"
@@ -1482,38 +827,14 @@
  "Ability to cast divine spells.": [
   "Sacred Fist;spells"
  ],
- "Able to turn undead.": [
-  "Sacred Purifier;special"
- ],
  "Protection": [
   "Sacred Warder of Bahamut;domain"
- ],
- "Damage reduction 5/magic.": [
-  "Sacred Warder of Bahamut;special"
- ],
- "Must complete a sanctification ritual performed by a priest or other authority of the chosen deity's church.": [
-  "Sanctified One;special"
  ],
  "Ability to shape three soulmelds.": [
   "Sapphire Hierarch;meldshaping"
  ],
- "Access to the <a href=\"/spells/domains/law/\">Law</a> domain.": [
-  "Sapphire Hierarch;special"
- ],
  "Character must have either the aquatic or the reptilian subtype.": [
   "Scaled Horror;race"
- ],
- "Must have established a reputation as a fearsome pirate.": [
-  "Scarlet Corsair;special"
- ],
- "Ability to bind Dantalion": [
-  "Scion of Dantalion;special"
- ],
- " You must be blessed by Tem-Et-Nu in a ritual held in one of her temples.": [
-  "Scion of Tem-et-nu;special"
- ],
- "Must have survived the venomous sting of a monstrous scorpion.": [
-  "Scorpion Heritor;special"
  ],
  "Loviatar.": [
   "Scourge Maiden;patron deity"
@@ -1524,41 +845,11 @@
  "Ability to cast arcane spells, which must include <em>control water</em>, <em>control weather</em>, or <em>favorable wind</em>, as well as <em>summon monster III</em> (or any higher-level <em>summon monster</em> spell).": [
   "Sea Witch;spells"
  ],
- " Must be inducted into the order by another member.": [
-  "Seeker of the Misty Isle;special"
- ],
- "Must have been exposed to the primal music by hearing another seeker of the song use a seeker music ability.": [
-  "Seeker of the Song;special"
- ],
- "You must have an affiliation score of 9 or higher within the Luminous Order to become a serene guardian. If your affiliation score drops below 9 after you have become a serene guardian, you retain all class features and the ability to advance in the class.": [
-  "Serene Guardian;special"
- ],
  "The Shaar.": [
   "Shaaryan Hunter;region"
  ],
- "Shades as a favored enemy, trapfinding class feature.": [
-  "Shade Hunter;special"
- ],
- "Must be proficient with martial weapons.": [
-  "Shadow Hunter;special"
- ],
- "Must pass combat examination from sentinel leaders.": [
-  "Shadow Sentinel;special"
- ],
  "Must know one 2nd-level Setting Sun or Shadow Hand maneuver, one Setting Sun maneuver of any level, and one Shadow Hand maneuver of any level.": [
   "Shadow Sun Ninja;martial maneuvers"
- ],
- "The candidate must be a member of a Shadow Thieves' guild.": [
-  "Shadow Thief of Amn;special"
- ],
- "Detect evil class feature or ability to cast detect evil as a divine spell, Turn undead class feature, Sneak attack class feature.": [
-  "Shadowbane Inquisitor;special"
- ],
- "Detect evil class feature or ability to cast detect evil as a divine spell, Sneak attack +1d6.": [
-  "Shadowbane Stalker;special"
- ],
- "Must have been exposed to shadow at some point prior to taking this class, either through travel on the Plane of Shadow, being subject to a mystery or a spell with the darkness descriptor, or through physical contact with a shadow or dark creature (such as a shadow mastiff or a dark lion)": [
-  "Shadowblade;special"
  ],
  "Able to cast at least three illusion spells, including at least one shadow spell of 4th level or higher.": [
   "Shadowcraft Mage;spells"
@@ -1566,75 +857,26 @@
  "Able to cast any 3rd-level or higher spell with the illusion (shadow) descriptor.": [
   "Shadowcrafter;spells"
  ],
- "Manifester level 3rd, Able to manifest <em>concealing amorpha</em>.": [
-  "Shadowmind;special"
- ],
- "Must have been exposed to shadow at some point prior to taking this class, either through travel on the Plane of Shadow, being subject to a mystery or a spell with the darkness descriptor, or physical contact with a shadow or dark creature (such as a shadow mastiff or a dark lion)": [
-  "Shadowsmith;special"
- ],
- "Must be a cleric or paladin of Pelor.": [
-  "Shadowspy;special"
- ],
  "Ability to cast six spells from the school of transmutation.": [
   "Shaper of Form;spells"
- ],
- " Spirits of form, mysterious beings from beyond the normal ken of mortals, must have contacted the character. A character who wishes to join this class does well to study both magical and mundane means of altering the world around her in order to attract the attention of these beings.": [
-  "Shaper of Form;special"
- ],
- "Alternate Form&#8212;Must either know <a href=\"/spells/tome-and-blood-a-guidebook-to-wizards-and-sorcerers--51/polymorph-self--3422/\"><em>polymorph self</em></a> or have a natural alternate form, <em>alter self</em>, <em>polymorph self</em>, or <em>shapechange</em> ability.": [
-  "Shapeshifter;special"
- ],
- "Flight&#8212;The character must have the ability to fly, either by casting a spell (such as fly), or as a natural ability. Using a magic item that grants flight does not meet this requirement. The ability to change shape into a form with a fly speed does meet the requirement.": [
-  "Sharn Skymage;special"
  ],
  "Able to cast 3rd-level spells.": [
   "Shifter;spells"
  ],
- "Alternate Form&#8212;must either know polymorph self or have a natural alternate form, alter self, polymorph self, shapechange, or wild shape ability.": [
-  "Shifter;special"
- ],
  " Able to cast 1st-level divine spells": [
   "Shining Blade of Heironeous;spells"
- ],
- " Must have Heironeous as a patron deity.": [
-  "Shining Blade of Heironeous;special"
- ],
- "Still mind class ability.": [
-  "Shintao Monk;special"
- ],
- "The character must qualify to select regional feats from the Shou expatriate or Thesk regions (the region is her home region, or she has 2 ranks in Knowledge [local&#8212;Shou expatriate or Thesk]).": [
-  "Shou Disciple;special"
  ],
  "Io.": [
   "Singer of Concordance;deity"
  ],
- "Must possess an innate sonic, mind-affecting ability.": [
-  "Siren;special"
- ],
- "Able to turn undead, sneak attack +2d6.": [
-  "Skullclan Hunter;special"
- ],
  "one exalted feat": [
   "Skylord;feats"
- ],
- "The character must spend 1 week living and meditating atop a mountain.": [
-  "Skylord;special"
  ],
  "Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iv--2444/\">summon monster IV</a> or <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-iv--2453/\">summon nature's ally IV</a>": [
   "Skypledged;spells"
  ],
- "Flight extraordinary ability.": [
-  "Skypledged;special",
-  "Stormtalon;special"
- ],
  "Any slaad.": [
   "Slaad Brooder;race"
- ],
- "Sneak attack +3d6, evasion class ability": [
-  "Slayer of Domiel;special"
- ],
- "Must participate in the Ritual of Feathers (see Advancement).": [
-  "Solar Channeler;special"
  ],
  "Those who meet the entry requirements and wish to do so are invited to take part in the day long Ritual of Feathers at the Shining Citadel. At the conclusion of this prayer-filled ceremony, an actual solar briefly appears and wordlessly touches you with its sword. From that moment forward, you find that the gates on your ability to channel positive energy have been opened. Taking on the form of a solar requires further practice and greater inner strength.": [
   "Solar Channeler;advancement"
@@ -1642,41 +884,14 @@
  "Any living nonhumanoid (monstrous humanoid is acceptable)": [
   "Soul Eater;type"
  ],
- "Throw mind blade class feature.": [
-  "Soulbow;special"
- ],
  "Ability to shape three soulmelds; ability to bind a soulmeld to a chakra.": [
   "Soulcaster;meldshaping"
  ],
  "Ability to cast 1st-level divine spells": [
   "Soulguard;spellcasting"
  ],
- "The candidate must be accepted into the Spellguard.": [
-  "Spellguard of Silverymoon;special"
- ],
- " Must have defeated a foe through force of arms alone, without recourse to spellcasting.": [
-  "Spellsword;special"
- ],
  " Proficiency with all simple and martial weapons and with all armor (heavy, medium, and light).": [
   "Spellsword;feats"
- ],
- " Sneak attack or sudden strike +1d6.": [
-  "Spellwarp Sniper;special"
- ],
- "The character must have 5 ranks in each of two skills from the following list: Diplomacy, Disguise, Forgery, and Sense Motive.": [
-  "Spymaster;special"
- ],
- "The character must be invited to become a stone blessed by a member of the chosen race. Fulfilling this requirement usually entails living with the race in question for several years, although it might (at the DM's discretion) also involve the completion of a single great task.": [
-  "Stoneblessed;special"
- ],
- "The character must undergo an arduous ritual involving immersion in sacred loam, long fasting periods deep underground, and the ingestion of 1,000 gp worth of powdered gemstones. The gem type chosen is then the stonelord's totem gem, and she must carry that type of stone with her at all times to access the spell-like abilities she gains as a stonelord": [
-  "Stonelord;special"
- ],
- "Wild shape ability.": [
-  "Stonespeaker Guardian;special"
- ],
- "Energy mantle or Natural World mantle.": [
-  "Storm Disciple;special"
  ],
  "Must have the ability to cast <em>gust of wind</em> and either <em>lightning bolt</em> or <em>call lightning</em>.": [
   "Stormcaster;spellcasting"
@@ -1687,35 +902,17 @@
  " Talos.": [
   "Stormlord;patron"
  ],
- " The character must have been hit by a bolt of lightning, whether a natural bolt or one created by magic, and survived.": [
-  "Stormlord;special"
- ],
- "The stormsinger must have the bardic music class ability.": [
-  "Stormsinger;special"
- ],
- "Must read the Grimoire Arcanamacha, or study with a willing instructor who has done so. Reading the Grimoire requires one full week of uninterrupted study, and the ability to read Ancient Suloise. Learning from a willing instructor requires four weeks of training.": [
-  "Suel Arcanamach;special"
- ],
  "Amaunator.": [
   "Sunmaster;patron deity"
  ],
- "You must own a holy symbol of Amaunator, either personally recovered from a ruined temple of that deity or given to you by an existing sunmaster.": [
-  "Sunmaster;special"
- ],
  "Highest base save bonus must be lower than character level.": [
   "Survivor;base save bonus"
- ],
- " The path of the survivor requires a concentrated month of study to enter the prestige class. During this month, the character must stay in one place and spend all his waking hours in study, practice, and meditation.": [
-  "Survivor;special"
  ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/speak-with-animals--2515/\">speak with animals</a>.": [
   "Swanmay;spells"
  ],
  "Either <a href=\"/feats/book-of-exalted-deeds--52/favored-of-the-companions--1091/\">Favored of the Companions</a>, <a href=\"/feats/book-of-exalted-deeds--52/knight-of-stars--1718/\">Knight of Stars</a>, or <a href=\"/feats/book-of-exalted-deeds--52/servant-of-the-heavens--2553/\">Servant of the Heavens</a>, plus one additional exalted feat.": [
   "Sword of Righteousness;feats"
- ],
- "Must have an innate spell-like divination ability.": [
-  "Sybil;special"
  ],
  "Ability to cast 1st-level arcane spells or use least invocations (warlock)": [
   "Tainted Scholar;spellcasting"
@@ -1732,66 +929,20 @@
  "Able to cast animal friendship.": [
   "Tamer of Beasts;spells"
  ],
- "Must be accepted by the tattooed monk order.": [
-  "Tattooed Monk;special"
- ],
  "If the character is not a shadow-walker, he must either possess the ability to shadow jump (as the shadowdancer prestige class ability) or be able to cast dimension door as a spell or spell-like ability.": [
   "Telflammar Shadowlord;spellcasting"
- ],
- "The character must qualify to select regional feats from Thesk (the region is his home region, or he has 2 ranks in Knowledge [local&#8212;Thesk]).": [
-  "Telflammar Shadowlord;special"
- ],
- "The character must worship Olidammara and be invited to join the ranks of the temple raiders by at least three current members of that prestige class.": [
-  "Temple Raider of Olidammara;special",
-  "Temple Raider of Olidammara;special"
  ],
  "Able to cast <em>lesser planar ally</em>.": [
   "Thaumaturgist;spells"
  ],
- "Must possess at least one natural weapon, Must undergo a ritual developed by the Zulkir of Transmutation that grants the class its abilities.": [
-  "Thayan Gladiator;special"
- ],
- "Sworn allegiance to the Red Wizards of Thay": [
-  "Thayan Knight;special"
- ],
- "Any nongood alignment, humanoid or monstrous humanoid, must be a member of the Blood of Vol, sneak attack +2d6.": [
-  "Thief of Life;special"
- ],
- "Evasion class feature.": [
-  "Thief-acrobat;special"
- ],
- "A thrall of Demogorgon is initiated in a horrific rite that involves the sacrifice of an intelligent being dedicated to Demogorgon. This ceremony must take place on unhallowed ground, at night, in the presence of a demon.": [
-  "Thrall of Demogorgon;special"
- ],
- "Graz'zt's followers initiate new thralls in a horrific rite that involves the sacrifice of an intellegent being. This rite must be performed within an area of magical darkness under the influence of a <a href=\"/spells/players-handbook-v35--6/desecrate--2604/\"><em>desecrate</em> </a> or<a href=\"/spells/players-handbook-v35--6/unhallow--2656/\"> <em>unhallow</em></a> spell.": [
-  "Thrall of Graz'zt;special"
- ],
- "The thrall of Juiblex is initiated in a horrific rite that involves the sacrifice of an intelligent being. At least three oozes, slimes or puddings must be present for the ritual. The victim of the ritual must be dissolved in acid. ": [
-  "Thrall of Juiblex;special"
- ],
- "The sacrifice of an intelligent being is the centerpiece of the horrific rite that initiates a new thrall of Orcus. This ritual takes place in complete darkness atop an alter made of at least thirty skulls.": [
-  "Thrall of Orcus;special"
- ],
  "Manifester level 5th and able to manifest mindlink.": [
   "Thrallherd;psionics"
- ],
- "A tomb warden must dedicate itself to the protection of a tomb, graveyard, or similar resting place of the dead.": [
-  "Tomb Warden;special"
  ],
  "+3 OR divine grace class feature.": [
   "Topaz Guardian;will"
  ],
- "Must be sponsored by an existing member and approved by a High Sunwarden of the order.": [
-  "Topaz Guardian;special"
- ],
- "Ability to bind soulmelds to totem chakra, rage class feature.": [
-  "Totem Rager;special"
- ],
  "Ilmater, Torm, and/or Tyr.": [
   "Triadic Knight;patron deity"
- ],
- "Aura of good class feature.": [
-  "Triadic Knight;special"
  ],
  "Any humanoid or monstrous humanoid except dwarf, elf, gnome, halfling, half-elf, or human.": [
   "Tribal Protector;race"
@@ -1802,9 +953,6 @@
  "Able to cast <a href=\"/spells/libris-mortis-the-book-of-the-dead--71/summon-undead-ii--1461/\">summon undead II</a> as a divine spell and <a href=\"/spells/players-handbook-v35--6/command-undead--2720/\">command undead</a> as an arcane spell.": [
   "True Necromancer;spells"
  ],
- "You must ritualistically consume twistroot (see Advancement).": [
-  "Twisted Lord;special"
- ],
  "Anyone who has earned the rank of Ebon master and has shown the ability to manipulate people by guile and coercion is eligible to consume twistroot from the Slaughterscar. If done in ritual fashion, twistroot ingestion turns you into a twisted lord. The process is not only painful, it's accompanied by horrifying nightmares that a few would-be twisted lords find fatally frightening. The twistroot nightmares leave persistent scars on your psyche that you eventually learn to use as weapons.": [
   "Twisted Lord;advancement"
  ],
@@ -1813,9 +961,6 @@
  ],
  "Ability to prepare 3rd-level arcane spells or imbue 3rd-level infusions.": [
   "Unbound Scroll;spellcasting"
- ],
- "Must have performed a task specified by the Viceroy of the Ninth College.": [
-  "Unbound Scroll;special"
  ],
  "Any four skills 8 ranks each.": [
   "Uncanny Trickster;skills"
@@ -1826,23 +971,8 @@
  "Ability to cast 1st-level arcane spells, including at least two divination spells.": [
   "Unseen Seer;spellcasting"
  ],
- " The character must have no ability to cast divine spells. If such spellcasting ability was previously possessed (as with an ex-cleric), that ability is forever forsaken. The character must be trained by another ur-priest.": [
-  "Ur-priest;special"
- ],
  "8 ranks in any one, and 2 ranks in each of the other two:<a href=\"/skills/knowledge-dungeoneering/\">Knowledge (dungeoneering)</a>(2 or)8 ranks,<a href=\"/skills/knowledge-local/\">Knowledge (local)</a>(8 or)2 ranks,and<a href=\"/skills/knowledge-nature/\">Knowledge (nature)</a>(8 or)2 ranks": [
   "Urban Savant;skills"
- ],
- "Blessing from the temple of Urbanus.": [
-  "Urban Soul;special"
- ],
- "The character must have single-handedly slain a juvenile (or older) red dragon": [
-  "Vassal of Bahamut;special"
- ],
- "Proficiency with heavy armor and heavy shields.": [
-  "Vengeance Knight;special"
- ],
- "Must have been accepted into the Order of the Vigilant Sentinels and accept an oath to obey its masters in all you do (see Code of Conduct, below).": [
-  "Vigilant Sentinel of Aerenal;special"
  ],
  "Arcane caster level 1st": [
   "Virtuoso;spells"
@@ -1850,20 +980,8 @@
  "Able to cast 0-level arcane spells (cantrips).": [
   "Virtuoso;spells"
  ],
- "Must be inducted by a member of the Mind's Eye.": [
-  "Visionary Seeker;special"
- ],
  " Ability to cast at least three spells of the Sand or Thirst domain as divine spells.": [
   "Walker In the Waste;spells"
- ],
- "Able to use the inspire courage bardic music ability.": [
-  "War Chanter;special"
- ],
- "Must be Large or larger.": [
-  "War Hulk;special"
- ],
- "Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.": [
-  "War Mind;special"
  ],
  "Ability to cast 3rd-level arcane spells": [
   "War Weaver;spells"
@@ -1871,26 +989,8 @@
  " Ability to cast 4th-level arcane spells.": [
   "War Wizard of Cormyr;spellcasting"
  ],
- "Must have led a tribe in battle.": [
-  "Warchief;special"
- ],
  "Access to at least one of these domains: Destruction, Protection, Strength, War. A character who can cast at least one spell from a domain counts as having access for this purpose.": [
   "Warpriest;spells"
- ],
- "Ability to channel positive or negative energy.": [
-  "Warpriest;special"
- ],
- "the character must endure a week of painful and scarring black magic rituals performed in solitude, the secrets of which take months to study and research successfully.": [
-  "Warrior of Darkness;special"
- ],
- " Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper.": [
-  "Warshaper;special"
- ],
- "The watch detective must honor the Rule of Evidence (see sidebar). If he abandons this code, he loses all special abilities of the prestige class until he retrains for six months under a local authority.": [
-  "Watch Detective;special"
- ],
- "Animal companion with aquatic subtype or swim speed.": [
-  "Wavekeeper;special"
  ],
  "Fey, humanoid, monstrous humanoid, or outsider with the aquatic subtype.": [
   "Waverider;race"
@@ -1898,44 +998,17 @@
  "Able to cast <em>teleport</em>.": [
   "Wayfarer Guide;spell"
  ],
- "A prospective wayfarer guide must join the Wayfarers Union (although she can later quit without losing previously acquired levels).": [
-  "Wayfarer Guide;special"
- ],
  "With your weapon of choice.": [
   "Weapon Master;weapon proficiency"
- ],
- "Must own a masterwork weapon of choice.": [
-  "Weapon Master (Kensei);special"
- ],
- "Sneak attack +1d6.": [
-  "Whisperknife;special"
- ],
- "Must be able to cast 2nd-level arcane spells; must make peaceful contact with a fey creature and peacefully spend at least a day among fey.": [
-  "Wild Soul;special"
- ],
- "Must have a mount.": [
-  "Windrider;special"
  ],
  "Iborighu.": [
   "Winterhaunt of Iborighu;patron deity"
  ],
- "The character must successfully create an iceheart. This can be either a minor iceheart or a major iceheart; most prospective cultists opt to create a minor iceheart, naturally. The iceheart, once created, serves as the winterhaunt's badge of office in the cult; if it is lost or destroyed, he must replace it with a new one within a week. Failure to do so results in the loss of all spellcasting and supernatural abilities granted by this prestige class. Regaining these abilities is possible only if the winterhaunt gains a new iceheart and then receives an atonement spell.": [
-  "Winterhaunt of Iborighu;special"
- ],
  "Able to cast <a href=\"/spells/oriental-adventures--96/magic-circle-against-taint--2021/\"><em>magic circle against Taint</em></a> or <a href=\"/spells/players-handbook-v35--6/magic-circle-against-evil--2335/\"><em>magic circle against evil</em></a>.": [
   "Witch Hunter;spells"
  ],
- "Must have been selected by another witch hunter, and trained under that mentor before entering the prestige class.": [
-  "Witch Hunter;special"
- ],
- "Must have fought a binder or possessed creature": [
-  "Witch Slayer;special"
- ],
  "Meldshaper level 6th.": [
   "Witchborn Binder;meldshaping"
- ],
- "May not possess any arcane spellcasting class levels.": [
-  "Witchborn Binder;special"
  ],
  "Able to cast 3rd-level arcane or divine spells, or to manifest 3rd-level psionic powers.": [
   "Wonderworker;spells"

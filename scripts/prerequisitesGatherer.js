@@ -19,7 +19,7 @@ const newJson = Object.values(featStats)
 fs.writeFileSync('./scripts/missingFeatReqs.json', JSON.stringify(newJson, null, 1))
 
 
-const kk = ['bab', 'essentia pool', 'martial stances', 'skill tricks', 'mysteries/spellcasting','language']
+const kk = ['bab', 'essentia pool', 'martial stances', 'skill tricks', 'mysteries/spellcasting','language','special']
 const newJson2 = Object.values(classStats)
     .reduce((acc,c) => {
         if(!c.requirements) return acc
