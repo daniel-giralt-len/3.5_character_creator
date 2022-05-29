@@ -27,6 +27,7 @@ function renderItems({
             isSelected={isSelected(item.id)}
             onSelectItem={() => onSelectItem(item.id, selectedList)}
             isAllowed={isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType})}
+            isSelectable={!isSelected(item.id) || (itemType==='classes')}
             isExclusive={isExclusive}
             disabled={disabled}
             dbs={dbs}

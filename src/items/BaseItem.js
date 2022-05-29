@@ -18,6 +18,7 @@ const BaseItemWrapper = styled.div`
 function BaseItem ({
     item,
     isSelected,
+    isSelectable,
     onSelectItem,
     isAllowed,
     dbs,
@@ -43,7 +44,7 @@ function BaseItem ({
         </div>
         {isAddable && (
             <button onClick={onSelectItem}>
-                {isSelected ? '-' : '+'}
+                {isSelectable ? '+' : '-'}
             </button>
         )}
     </BaseItemWrapper>)
