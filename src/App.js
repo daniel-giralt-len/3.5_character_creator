@@ -1,5 +1,5 @@
 import { useCookies } from 'react-cookie'
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 import Creator from './Creator'
 import Header from './Header'
@@ -11,6 +11,21 @@ import corpus44 from './db/json/corpus_44.json'
 import dbs from './db/json/dbs.json'
 
 import webTranslations from './translations/webTranslations.json'
+
+const GlobalStyle = createGlobalStyle`
+  html, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+  }
+  button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+  }
+`;
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -60,43 +75,47 @@ function App() {
 
   return (
     <div>
-        <Header
-          handleCreationSwitch={handleCreationSwitch}
-          handleChangeTranslations={handleChangeTranslations}
-          translate={translate}
-          isCorpus={isCorpus}
-        />
-        <ContentWrapper>
-          <LeftWrapper>
-            {isCharacter && (
-              <CorpusSelector 
-                corpuses={corpuses}
-                translate={translate}
-                handleCorpusChange={handleCorpusChange}
-                selectedCorpus={selectedCorpus}
-              />
-            )}
-            <Creator 
-              creation={usedCreation}
-              corpus={usedCorpus}
-              isCorpus={isCorpus}
-              dbs={dbs}
-              filters={filters}
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
+      <GlobalStyle />
+      <Header
+        handleCreationSwitch={handleCreationSwitch}
+        handleChangeTranslations={handleChangeTranslations}
+        translate={translate}
+        isCorpus={isCorpus}
+      />
+      <ContentWrapper>
+        <LeftWrapper>
+          {isCharacter && (
+            <CorpusSelector 
+              corpuses={corpuses}
               translate={translate}
-              onCreationChange={handleCreationChange}
-              onFilterChange={handleFilterChange}
+              handleCorpusChange={handleCorpusChange}
+              selectedCorpus={selectedCorpus}
             />
-          </LeftWrapper>
-          <RightWrapper>
-            <CreationDisplay
-              isCharacter={!isCorpus}
-              creation={usedCreation}
-              dbs={dbs}
-              translate={translate}
-              handleCreationChange={handleCreationChange}
-            />
-          </RightWrapper>
-        </ContentWrapper>
+          )}
+          <Creator 
+            creation={usedCreation}
+            corpus={usedCorpus}
+            isCorpus={isCorpus}
+            dbs={dbs}
+            filters={filters}
+            translate={translate}
+            onCreationChange={handleCreationChange}
+            onFilterChange={handleFilterChange}
+          />
+        </LeftWrapper>
+        <RightWrapper>
+          <CreationDisplay
+            isCharacter={!isCorpus}
+            creation={usedCreation}
+            dbs={dbs}
+            translate={translate}
+            handleCreationChange={handleCreationChange}
+          />
+        </RightWrapper>
+      </ContentWrapper>
     </div>
   );
 }
