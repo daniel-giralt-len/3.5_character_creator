@@ -4278,7 +4278,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 2,
         "ref save": 0,
@@ -4299,7 +4299,7 @@
         "9th": ""
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 3,
         "ref save": 0,
@@ -4319,7 +4319,7 @@
         "9th": ""
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 1,
         "fort save": 3,
         "ref save": 1,
@@ -4339,7 +4339,7 @@
         "9th": ""
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 2,
         "fort save": 4,
         "ref save": 1,
@@ -4359,7 +4359,7 @@
         "9th": ""
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 2,
         "fort save": 4,
         "ref save": 1,
@@ -4379,7 +4379,7 @@
         "9th": ""
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 3,
         "fort save": 5,
         "ref save": 2,
@@ -4399,7 +4399,7 @@
         "9th": ""
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 3,
         "fort save": 5,
         "ref save": 2,
@@ -4419,7 +4419,7 @@
         "9th": ""
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 4,
         "fort save": 6,
         "ref save": 2,
@@ -4439,7 +4439,7 @@
         "9th": ""
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 4,
         "fort save": 6,
         "ref save": 3,
@@ -4459,7 +4459,7 @@
         "9th": ""
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 5,
         "fort save": 7,
         "ref save": 3,
@@ -4479,7 +4479,7 @@
         "9th": ""
       },
       {
-        "class level": 11,
+        "level": 11,
         "base attack bonus": 5,
         "fort save": 7,
         "ref save": 3,
@@ -4499,7 +4499,7 @@
         "9th": ""
       },
       {
-        "class level": 12,
+        "level": 12,
         "base attack bonus": 1,
         "fort save": 8,
         "ref save": 4,
@@ -4519,7 +4519,7 @@
         "9th": ""
       },
       {
-        "class level": 13,
+        "level": 13,
         "base attack bonus": 1,
         "fort save": 8,
         "ref save": 4,
@@ -4539,7 +4539,7 @@
         "9th": ""
       },
       {
-        "class level": 14,
+        "level": 14,
         "base attack bonus": 2,
         "fort save": 9,
         "ref save": 4,
@@ -4559,7 +4559,7 @@
         "9th": ""
       },
       {
-        "class level": 15,
+        "level": 15,
         "base attack bonus": 2,
         "fort save": 9,
         "ref save": 5,
@@ -4579,7 +4579,7 @@
         "9th": ""
       },
       {
-        "class level": 16,
+        "level": 16,
         "base attack bonus": 3,
         "fort save": 10,
         "ref save": 5,
@@ -4599,7 +4599,7 @@
         "9th": ""
       },
       {
-        "class level": 17,
+        "level": 17,
         "base attack bonus": 3,
         "fort save": 10,
         "ref save": 5,
@@ -4619,7 +4619,7 @@
         "9th": 2
       },
       {
-        "class level": 18,
+        "level": 18,
         "base attack bonus": 4,
         "fort save": 11,
         "ref save": 6,
@@ -4639,7 +4639,7 @@
         "9th": 3
       },
       {
-        "class level": 19,
+        "level": 19,
         "base attack bonus": 4,
         "fort save": 11,
         "ref save": 6,
@@ -4659,7 +4659,7 @@
         "9th": 4
       },
       {
-        "class level": 20,
+        "level": 20,
         "base attack bonus": 5,
         "fort save": 12,
         "ref save": 6,
@@ -30408,7 +30408,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 0,
         "ref save": 0,
@@ -30428,7 +30428,7 @@
         "9th": ""
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 0,
         "ref save": 0,
@@ -30447,7 +30447,7 @@
         "9th": ""
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 1,
         "fort save": 1,
         "ref save": 1,
@@ -30466,7 +30466,7 @@
         "9th": ""
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -30486,7 +30486,7 @@
         "9th": ""
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -30505,7 +30505,7 @@
         "9th": ""
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 3,
         "fort save": 2,
         "ref save": 2,
@@ -30524,7 +30524,7 @@
         "9th": ""
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 3,
         "fort save": 2,
         "ref save": 2,
@@ -30544,7 +30544,7 @@
         "9th": ""
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 4,
         "fort save": 2,
         "ref save": 2,
@@ -30565,7 +30565,7 @@
         "9th": ""
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 4,
         "fort save": 3,
         "ref save": 3,
@@ -30584,7 +30584,7 @@
         "9th": ""
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 5,
         "fort save": 3,
         "ref save": 3,
@@ -30603,7 +30603,7 @@
         "9th": ""
       },
       {
-        "class level": 11,
+        "level": 11,
         "base attack bonus": 5,
         "fort save": 3,
         "ref save": 3,
@@ -30623,7 +30623,7 @@
         "9th": ""
       },
       {
-        "class level": 12,
+        "level": 12,
         "base attack bonus": 1,
         "fort save": 4,
         "ref save": 4,
@@ -30643,7 +30643,7 @@
         "9th": ""
       },
       {
-        "class level": 13,
+        "level": 13,
         "base attack bonus": 1,
         "fort save": 4,
         "ref save": 4,
@@ -30662,7 +30662,7 @@
         "9th": ""
       },
       {
-        "class level": 14,
+        "level": 14,
         "base attack bonus": 2,
         "fort save": 4,
         "ref save": 4,
@@ -30681,7 +30681,7 @@
         "9th": ""
       },
       {
-        "class level": 15,
+        "level": 15,
         "base attack bonus": 2,
         "fort save": 5,
         "ref save": 5,
@@ -30700,7 +30700,7 @@
         "9th": ""
       },
       {
-        "class level": 16,
+        "level": 16,
         "base attack bonus": 3,
         "fort save": 5,
         "ref save": 5,
@@ -30720,7 +30720,7 @@
         "9th": ""
       },
       {
-        "class level": 17,
+        "level": 17,
         "base attack bonus": 3,
         "fort save": 5,
         "ref save": 5,
@@ -30740,7 +30740,7 @@
         "9th": ""
       },
       {
-        "class level": 18,
+        "level": 18,
         "base attack bonus": 4,
         "fort save": 6,
         "ref save": 6,
@@ -30759,7 +30759,7 @@
         "9th": 3
       },
       {
-        "class level": 19,
+        "level": 19,
         "base attack bonus": 4,
         "fort save": 6,
         "ref save": 6,
@@ -30778,7 +30778,7 @@
         "9th": 4
       },
       {
-        "class level": 20,
+        "level": 20,
         "base attack bonus": 5,
         "fort save": 6,
         "ref save": 6,
@@ -31995,7 +31995,7 @@
     "advancement": [
       {
         "racial level": 1,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Duergar base traits",
           "naturally psionic",
@@ -32005,7 +32005,7 @@
       },
       {
         "racial level": 2,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Bonus power points",
           "psi-like abilities (1/day&#8212;expansion",
@@ -32016,77 +32016,77 @@
       },
       {
         "racial level": 3,
-        "class level": 2,
+        "level": 2,
         "special": [
           ""
         ]
       },
       {
         "racial level": 4,
-        "class level": 3,
+        "level": 3,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 5,
-        "class level": 4,
+        "level": 4,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 6,
-        "class level": 5,
+        "level": 5,
         "special": [
           ""
         ]
       },
       {
         "racial level": 7,
-        "class level": 6,
+        "level": 6,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 8,
-        "class level": 7,
+        "level": 7,
         "special": [
           ""
         ]
       },
       {
         "racial level": 9,
-        "class level": 8,
+        "level": 8,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 10,
-        "class level": 9,
+        "level": 9,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 11,
-        "class level": 10,
+        "level": 10,
         "special": [
           ""
         ]
       },
       {
         "racial level": 12,
-        "class level": 11,
+        "level": 11,
         "special": [
           ""
         ]
       },
       {
         "racial level": 13,
-        "class level": 12,
+        "level": 12,
         "special": [
           "Ability score increase",
           "feat"
@@ -32094,49 +32094,49 @@
       },
       {
         "racial level": 14,
-        "class level": 13,
+        "level": 13,
         "special": [
           ""
         ]
       },
       {
         "racial level": 15,
-        "class level": 14,
+        "level": 14,
         "special": [
           ""
         ]
       },
       {
         "racial level": 16,
-        "class level": 15,
+        "level": 15,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 17,
-        "class level": 16,
+        "level": 16,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 18,
-        "class level": 17,
+        "level": 17,
         "special": [
           ""
         ]
       },
       {
         "racial level": 19,
-        "class level": 18,
+        "level": 18,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 20,
-        "class level": 19,
+        "level": 19,
         "special": [
           ""
         ]
@@ -33041,7 +33041,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 0,
         "ref save": 0,
@@ -33052,7 +33052,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 0,
         "ref save": 0,
@@ -33063,7 +33063,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 1,
         "fort save": 1,
         "ref save": 1,
@@ -33074,7 +33074,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -33085,7 +33085,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -33096,7 +33096,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 3,
         "fort save": 2,
         "ref save": 2,
@@ -33107,7 +33107,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 3,
         "fort save": 2,
         "ref save": 2,
@@ -33118,7 +33118,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 4,
         "fort save": 2,
         "ref save": 2,
@@ -33129,7 +33129,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 4,
         "fort save": 3,
         "ref save": 3,
@@ -33140,7 +33140,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 5,
         "fort save": 3,
         "ref save": 3,
@@ -43485,7 +43485,7 @@
     "advancement": [
       {
         "racial level": 1,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Githyanki base traits",
           "naturally psionic",
@@ -43495,7 +43495,7 @@
       },
       {
         "racial level": 2,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Bonus power points",
           "+2 Constitution",
@@ -43504,14 +43504,14 @@
       },
       {
         "racial level": 3,
-        "class level": 2,
+        "level": 2,
         "special": [
           "Psi-like ability (1/day&#8212;concealing amorpha)"
         ]
       },
       {
         "racial level": 4,
-        "class level": 2,
+        "level": 2,
         "special": [
           "Power resistance",
           "psi-like ability (2/day&#8212;concealing amorpha)"
@@ -43519,7 +43519,7 @@
       },
       {
         "racial level": 5,
-        "class level": 3,
+        "level": 3,
         "special": [
           "Psi-like ability (3/day&#8212;concealing amorpha)",
           "feat"
@@ -43527,7 +43527,7 @@
       },
       {
         "racial level": 6,
-        "class level": 4,
+        "level": 4,
         "special": [
           "Psi-like ability (1/day&#8212;psionic dimension door)",
           "ability score increase"
@@ -43535,14 +43535,14 @@
       },
       {
         "racial level": 7,
-        "class level": 5,
+        "level": 5,
         "special": [
           "Psi-like ability (2/day&#8212;psionic dimension door)"
         ]
       },
       {
         "racial level": 8,
-        "class level": 6,
+        "level": 6,
         "special": [
           "Psi-like ability (3/day&#8212;psionic dimension door)",
           "feat"
@@ -43550,7 +43550,7 @@
       },
       {
         "racial level": 9,
-        "class level": 7,
+        "level": 7,
         "special": [
           "Psi-like ability (1/day&#8212;psionic plane shift",
           "telekinetic thrust)"
@@ -43558,7 +43558,7 @@
       },
       {
         "racial level": 10,
-        "class level": 8,
+        "level": 8,
         "special": [
           "Psi-like ability (2/day&#8212;telekinetic thrust)",
           "ability score increase"
@@ -43566,7 +43566,7 @@
       },
       {
         "racial level": 11,
-        "class level": 9,
+        "level": 9,
         "special": [
           "Psi-like ability (3/day&#8212;telekinetic thrust)",
           "feat"
@@ -43574,21 +43574,21 @@
       },
       {
         "racial level": 12,
-        "class level": 10,
+        "level": 10,
         "special": [
           ""
         ]
       },
       {
         "racial level": 13,
-        "class level": 11,
+        "level": 11,
         "special": [
           ""
         ]
       },
       {
         "racial level": 14,
-        "class level": 12,
+        "level": 12,
         "special": [
           "Ability score increase",
           "feat"
@@ -43596,42 +43596,42 @@
       },
       {
         "racial level": 15,
-        "class level": 13,
+        "level": 13,
         "special": [
           ""
         ]
       },
       {
         "racial level": 16,
-        "class level": 14,
+        "level": 14,
         "special": [
           ""
         ]
       },
       {
         "racial level": 17,
-        "class level": 15,
+        "level": 15,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 18,
-        "class level": 16,
+        "level": 16,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 19,
-        "class level": 17,
+        "level": 17,
         "special": [
           ""
         ]
       },
       {
         "racial level": 20,
-        "class level": 18,
+        "level": 18,
         "special": [
           "Feat"
         ]
@@ -43646,7 +43646,7 @@
     "advancement": [
       {
         "racial level": 1,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Githzerai base traits",
           "naturally psionic",
@@ -43656,7 +43656,7 @@
       },
       {
         "racial level": 2,
-        "class level": 1,
+        "level": 1,
         "special": [
           "+2 Dexterity",
           "+2 Wisdom",
@@ -43665,14 +43665,14 @@
       },
       {
         "racial level": 3,
-        "class level": 2,
+        "level": 2,
         "special": [
           "Psi-like ability (3/day&#8212;inertial armor)"
         ]
       },
       {
         "racial level": 4,
-        "class level": 2,
+        "level": 2,
         "special": [
           "Power resistance",
           "+2 Dexterity",
@@ -43681,7 +43681,7 @@
       },
       {
         "racial level": 5,
-        "class level": 3,
+        "level": 3,
         "special": [
           "Psi-like ability (2/day&#8212;concussion blast)",
           "feat"
@@ -43689,7 +43689,7 @@
       },
       {
         "racial level": 6,
-        "class level": 4,
+        "level": 4,
         "special": [
           "Psi-like ability (3/day&#8212;concussion blast)",
           "ability score increase"
@@ -43697,56 +43697,56 @@
       },
       {
         "racial level": 7,
-        "class level": 5,
+        "level": 5,
         "special": [
           ""
         ]
       },
       {
         "racial level": 8,
-        "class level": 6,
+        "level": 6,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 9,
-        "class level": 7,
+        "level": 7,
         "special": [
           ""
         ]
       },
       {
         "racial level": 10,
-        "class level": 8,
+        "level": 8,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 11,
-        "class level": 9,
+        "level": 9,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 12,
-        "class level": 10,
+        "level": 10,
         "special": [
           ""
         ]
       },
       {
         "racial level": 13,
-        "class level": 11,
+        "level": 11,
         "special": [
           "Psi-like ability (1/day&#8212;psionic plane shift)"
         ]
       },
       {
         "racial level": 14,
-        "class level": 12,
+        "level": 12,
         "special": [
           "Ability score increase",
           "feat"
@@ -43754,42 +43754,42 @@
       },
       {
         "racial level": 15,
-        "class level": 13,
+        "level": 13,
         "special": [
           ""
         ]
       },
       {
         "racial level": 16,
-        "class level": 14,
+        "level": 14,
         "special": [
           ""
         ]
       },
       {
         "racial level": 17,
-        "class level": 15,
+        "level": 15,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 18,
-        "class level": 16,
+        "level": 16,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 19,
-        "class level": 17,
+        "level": 17,
         "special": [
           ""
         ]
       },
       {
         "racial level": 20,
-        "class level": 18,
+        "level": 18,
         "special": [
           "Feat"
         ]
@@ -44913,7 +44913,7 @@
     "advancement": [
       {
         "racial level": 1,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Half-giant base traits",
           "feat"
@@ -44921,7 +44921,7 @@
       },
       {
         "racial level": 2,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Powerful build",
           "+2 Strength",
@@ -44931,77 +44931,77 @@
       },
       {
         "racial level": 3,
-        "class level": 2,
+        "level": 2,
         "special": [
           ""
         ]
       },
       {
         "racial level": 4,
-        "class level": 3,
+        "level": 3,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 5,
-        "class level": 4,
+        "level": 4,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 6,
-        "class level": 5,
+        "level": 5,
         "special": [
           ""
         ]
       },
       {
         "racial level": 7,
-        "class level": 6,
+        "level": 6,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 8,
-        "class level": 7,
+        "level": 7,
         "special": [
           ""
         ]
       },
       {
         "racial level": 9,
-        "class level": 8,
+        "level": 8,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 10,
-        "class level": 9,
+        "level": 9,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 11,
-        "class level": 10,
+        "level": 10,
         "special": [
           ""
         ]
       },
       {
         "racial level": 12,
-        "class level": 11,
+        "level": 11,
         "special": [
           ""
         ]
       },
       {
         "racial level": 13,
-        "class level": 12,
+        "level": 12,
         "special": [
           "Ability score increase",
           "feat"
@@ -45009,49 +45009,49 @@
       },
       {
         "racial level": 14,
-        "class level": 13,
+        "level": 13,
         "special": [
           ""
         ]
       },
       {
         "racial level": 15,
-        "class level": 14,
+        "level": 14,
         "special": [
           ""
         ]
       },
       {
         "racial level": 16,
-        "class level": 15,
+        "level": 15,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 17,
-        "class level": 16,
+        "level": 16,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 18,
-        "class level": 17,
+        "level": 17,
         "special": [
           ""
         ]
       },
       {
         "racial level": 19,
-        "class level": 18,
+        "level": 18,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 20,
-        "class level": 19,
+        "level": 19,
         "special": [
           ""
         ]
@@ -52547,7 +52547,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 0,
         "ref save": 0,
@@ -52558,7 +52558,7 @@
         ]
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 0,
         "ref save": 0,
@@ -52568,7 +52568,7 @@
         ]
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -52578,7 +52578,7 @@
         ]
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 3,
         "fort save": 1,
         "ref save": 1,
@@ -52588,7 +52588,7 @@
         ]
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 3,
         "fort save": 1,
         "ref save": 1,
@@ -52598,7 +52598,7 @@
         ]
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 4,
         "fort save": 2,
         "ref save": 2,
@@ -52608,7 +52608,7 @@
         ]
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 5,
         "fort save": 2,
         "ref save": 2,
@@ -52618,7 +52618,7 @@
         ]
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 6,
         "fort save": 2,
         "ref save": 2,
@@ -52628,7 +52628,7 @@
         ]
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 6,
         "fort save": 3,
         "ref save": 3,
@@ -52638,7 +52638,7 @@
         ]
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 7,
         "fort save": 3,
         "ref save": 3,
@@ -55990,7 +55990,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 1,
         "fort save": 2,
         "ref save": 0,
@@ -56001,7 +56001,7 @@
         ]
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 2,
         "fort save": 3,
         "ref save": 0,
@@ -56011,7 +56011,7 @@
         ]
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 3,
         "fort save": 3,
         "ref save": 1,
@@ -56021,7 +56021,7 @@
         ]
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 4,
         "fort save": 4,
         "ref save": 1,
@@ -56032,7 +56032,7 @@
         ]
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 5,
         "fort save": 4,
         "ref save": 1,
@@ -56042,7 +56042,7 @@
         ]
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 6,
         "fort save": 5,
         "ref save": 2,
@@ -56052,7 +56052,7 @@
         ]
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 7,
         "fort save": 5,
         "ref save": 2,
@@ -56063,7 +56063,7 @@
         ]
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 8,
         "fort save": 6,
         "ref save": 2,
@@ -56073,7 +56073,7 @@
         ]
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 9,
         "fort save": 6,
         "ref save": 3,
@@ -56083,7 +56083,7 @@
         ]
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 10,
         "fort save": 7,
         "ref save": 3,
@@ -56431,7 +56431,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 1,
         "fort save": 2,
         "ref save": 0,
@@ -56441,7 +56441,7 @@
         ]
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 2,
         "fort save": 3,
         "ref save": 0,
@@ -56451,7 +56451,7 @@
         ]
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 3,
         "fort save": 3,
         "ref save": 1,
@@ -56461,7 +56461,7 @@
         ]
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 4,
         "fort save": 4,
         "ref save": 1,
@@ -56472,7 +56472,7 @@
         ]
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 5,
         "fort save": 4,
         "ref save": 1,
@@ -56482,7 +56482,7 @@
         ]
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 6,
         "fort save": 5,
         "ref save": 2,
@@ -56492,7 +56492,7 @@
         ]
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 7,
         "fort save": 5,
         "ref save": 2,
@@ -56502,7 +56502,7 @@
         ]
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 8,
         "fort save": 6,
         "ref save": 2,
@@ -56512,7 +56512,7 @@
         ]
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 9,
         "fort save": 6,
         "ref save": 3,
@@ -56522,7 +56522,7 @@
         ]
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 10,
         "fort save": 7,
         "ref save": 3,
@@ -62267,7 +62267,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 0,
         "ref save": 0,
@@ -62278,7 +62278,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 0,
         "ref save": 0,
@@ -62289,7 +62289,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 2,
         "fort save": 1,
         "ref save": 1,
@@ -62300,7 +62300,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 3,
         "fort save": 1,
         "ref save": 1,
@@ -62311,7 +62311,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 3,
         "fort save": 1,
         "ref save": 1,
@@ -62322,7 +62322,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 4,
         "fort save": 2,
         "ref save": 2,
@@ -62333,7 +62333,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 5,
         "fort save": 2,
         "ref save": 2,
@@ -62344,7 +62344,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 6,
         "fort save": 2,
         "ref save": 2,
@@ -62355,7 +62355,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 6,
         "fort save": 3,
         "ref save": 3,
@@ -62366,7 +62366,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 7,
         "fort save": 3,
         "ref save": 3,
@@ -64619,7 +64619,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 1,
         "fort save": 2,
         "ref save": 2,
@@ -64631,7 +64631,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 2,
         "fort save": 3,
         "ref save": 3,
@@ -64642,7 +64642,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 3,
         "fort save": 3,
         "ref save": 3,
@@ -64653,7 +64653,7 @@
         "spells per day/spells known": ""
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 4,
         "fort save": 4,
         "ref save": 4,
@@ -64664,7 +64664,7 @@
         "spells per day/spells known": "+1 level of existing divine spellcasting class"
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 5,
         "fort save": 4,
         "ref save": 4,
@@ -67342,7 +67342,7 @@
     },
     "advancement": [
       {
-        "class level": 1,
+        "level": 1,
         "base attack bonus": 0,
         "fort save": 2,
         "ref save": 0,
@@ -67353,7 +67353,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 2,
+        "level": 2,
         "base attack bonus": 1,
         "fort save": 3,
         "ref save": 0,
@@ -67364,7 +67364,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 3,
+        "level": 3,
         "base attack bonus": 2,
         "fort save": 3,
         "ref save": 1,
@@ -67375,7 +67375,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 4,
+        "level": 4,
         "base attack bonus": 3,
         "fort save": 4,
         "ref save": 1,
@@ -67386,7 +67386,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 5,
+        "level": 5,
         "base attack bonus": 3,
         "fort save": 4,
         "ref save": 1,
@@ -67397,7 +67397,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 6,
+        "level": 6,
         "base attack bonus": 4,
         "fort save": 5,
         "ref save": 2,
@@ -67408,7 +67408,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 7,
+        "level": 7,
         "base attack bonus": 5,
         "fort save": 5,
         "ref save": 2,
@@ -67419,7 +67419,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 8,
+        "level": 8,
         "base attack bonus": 6,
         "fort save": 6,
         "ref save": 2,
@@ -67430,7 +67430,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 9,
+        "level": 9,
         "base attack bonus": 6,
         "fort save": 6,
         "ref save": 3,
@@ -67441,7 +67441,7 @@
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
       {
-        "class level": 10,
+        "level": 10,
         "base attack bonus": 7,
         "fort save": 7,
         "ref save": 3,
@@ -100549,7 +100549,7 @@
     "advancement": [
       {
         "racial level": 1,
-        "class level": 0,
+        "level": 0,
         "special": [
           "Racial Hit Die (1d8)",
           "thri-kreen base traits",
@@ -100560,7 +100560,7 @@
       },
       {
         "racial level": 2,
-        "class level": 0,
+        "level": 0,
         "special": [
           "Racial Hit Die (2d8)",
           "leap",
@@ -100570,7 +100570,7 @@
       },
       {
         "racial level": 3,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Naturally psionic",
           "psi-like ability (3/day&#8212;know direction and location)",
@@ -100579,7 +100579,7 @@
       },
       {
         "racial level": 4,
-        "class level": 1,
+        "level": 1,
         "special": [
           "Poison",
           "psi-like ability (3/day&#8212;chameleon; 1/day&#8212;metaphysical claw)"
@@ -100587,14 +100587,14 @@
       },
       {
         "racial level": 5,
-        "class level": 2,
+        "level": 2,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 6,
-        "class level": 2,
+        "level": 2,
         "special": [
           "+4 Dexterity",
           "psi-like ability (1/day&#8212;greater concealing amorpha)",
@@ -100603,56 +100603,56 @@
       },
       {
         "racial level": 7,
-        "class level": 3,
+        "level": 3,
         "special": [
           ""
         ]
       },
       {
         "racial level": 8,
-        "class level": 4,
+        "level": 4,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 9,
-        "class level": 5,
+        "level": 5,
         "special": [
           ""
         ]
       },
       {
         "racial level": 10,
-        "class level": 6,
+        "level": 6,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 11,
-        "class level": 7,
+        "level": 7,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 12,
-        "class level": 8,
+        "level": 8,
         "special": [
           ""
         ]
       },
       {
         "racial level": 13,
-        "class level": 9,
+        "level": 9,
         "special": [
           ""
         ]
       },
       {
         "racial level": 14,
-        "class level": 10,
+        "level": 10,
         "special": [
           "Ability score increase",
           "feat"
@@ -100660,42 +100660,42 @@
       },
       {
         "racial level": 15,
-        "class level": 11,
+        "level": 11,
         "special": [
           ""
         ]
       },
       {
         "racial level": 16,
-        "class level": 12,
+        "level": 12,
         "special": [
           ""
         ]
       },
       {
         "racial level": 17,
-        "class level": 13,
+        "level": 13,
         "special": [
           "Feat"
         ]
       },
       {
         "racial level": 18,
-        "class level": 14,
+        "level": 14,
         "special": [
           "Ability score increase"
         ]
       },
       {
         "racial level": 19,
-        "class level": 15,
+        "level": 15,
         "special": [
           ""
         ]
       },
       {
         "racial level": 20,
-        "class level": 16,
+        "level": 16,
         "special": [
           "Feat"
         ]
