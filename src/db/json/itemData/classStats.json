@@ -8681,11 +8681,11 @@
     "bookId": "15",
     "requirements": {
       "bab": 5,
-      "skills": {
+      "skills": [{
         "any": true,
         "amount": 3,
         "ranks": 6
-      },
+      }],
       "skill tricks": 2
     },
     "skill points": {
@@ -108191,7 +108191,24 @@
     "isPrestige": true,
     "bookId": "8",
     "requirements": {
-      "skills": "8 ranks in any one, and 2 ranks in each of the other two:<a href=\"/skills/knowledge-dungeoneering/\">Knowledge (dungeoneering)</a>(2 or)8 ranks,<a href=\"/skills/knowledge-local/\">Knowledge (local)</a>(8 or)2 ranks,and<a href=\"/skills/knowledge-nature/\">Knowledge (nature)</a>(8 or)2 ranks",
+      "skills": [{
+        "amount": 1,
+        "ranks": 8,
+        "list": [
+          "Knowledge (dungeoneering)",
+          "Knowledge (local)",
+          "Knowledge (nature)"
+        ]
+      },
+      {
+        "amount": 2,
+        "ranks": 2,
+        "list": [
+          "Knowledge (dungeoneering)",
+          "Knowledge (local)",
+          "Knowledge (nature)"
+        ]
+      }],      
       "feats": [
         "Favored"
       ],
