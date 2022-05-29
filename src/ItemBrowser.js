@@ -12,10 +12,11 @@ function isItemPermitted({corpus, item, itemType}){
     )
 }
 
-function renderItems({items,
+function renderItems({
+    items,
     searchedText,
     selectedList,
-    handleCreationChange,
+    onSelectItem,
     permittedCorpus,
     itemType,
     isCorpus,
@@ -43,7 +44,7 @@ function renderItems({items,
             key={item.id}
             item={item}
             isSelected={isSelected(item.id)}
-            handleItemSelection={() => handleCreationChange(item.id, selectedList)}
+            onSelectItem={() => onSelectItem(item.id, selectedList)}
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
             disabled={disabled}
@@ -59,7 +60,7 @@ const ItemSearchBar = styled.textarea`
 function ItemBrowser({
     items,
     selected={},
-    handleCreationChange,
+    onCreationChange,
     permittedCorpus,
     itemType,
     isCorpus,
@@ -75,13 +76,13 @@ function ItemBrowser({
         if(disabled) return
         if(itemType === 'classes' && !isCorpus){
             const out = [...selectedList, id]
-            return handleCreationChange(out)
+            return onCreationChange(out)
         }
         const out = isExclusive ? id : {
             ...selectedList,
             [id]: !selectedList[id]
         }
-        handleCreationChange(out)
+        onCreationChange(out)
     }
 
     return (
@@ -91,7 +92,7 @@ function ItemBrowser({
                 items,
                 searchedText,
                 selectedList: selected,
-                handleCreationChange: handleCreationItemSelection,
+                onSelectItem: handleCreationItemSelection,
                 permittedCorpus,
                 itemType,
                 isCorpus,

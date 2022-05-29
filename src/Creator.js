@@ -65,7 +65,7 @@ function Creator({
         {selectedPageItems.map(({name, isExclusive, isUsableOnlyInCorpus}) => (
           <ItemBrowser
             key={name}
-            handleCreationChange={list => handleCreationChange(name, list)}
+            onCreationChange={list => handleCreationChange(name, list)}
             selected={creation[name]}
             items={dbs[name]}
             permittedCorpus={corpus}

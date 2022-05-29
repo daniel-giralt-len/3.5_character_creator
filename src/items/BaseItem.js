@@ -13,7 +13,7 @@ const BaseItemWrapper = styled.div`
 function BaseItem ({
     item,
     isSelected,
-    handleItemSelection,
+    onSelectItem,
     isAllowed,
     dbs,
     isExclusive,
@@ -31,7 +31,7 @@ function BaseItem ({
         <span>{name}</span>
         {book && findInDb(dbs, 'rulebooks', book) && findInDb(dbs, 'rulebooks', book).name}
         {edition && findInDb(dbs, 'editions', edition) && findInDb(dbs, 'editions', edition).name}
-        {isAddable && (<button onClick={handleItemSelection}>{isSelected ? '-' : '+'}</button>)}
+        {isAddable && (<button onClick={onSelectItem}>{isSelected ? '-' : '+'}</button>)}
     </BaseItemWrapper>)
 
         //There are some classes such as the arcane devotee which have no associated book but have a hidden link to 
