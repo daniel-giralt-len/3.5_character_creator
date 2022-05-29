@@ -26,7 +26,9 @@ const GlobalStyle = createGlobalStyle`
     background: none;
     box-shadow: 0px 0px 1px 0px #340000;
     margin: 2px;
+    transition: box-shadow .3s;
   }
+  ${({disabled}) => disabled ? '' : 'button:hover { box-shadow: 0 0 3px 0px #340000; }'}
 `;
 
 const ContentWrapper = styled.div`

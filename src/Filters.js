@@ -1,5 +1,6 @@
+import { SelectedButton } from './styles'
+
 function Filters({
-    selectedPage,
     onFilterChange,
     filters,
     translate,
@@ -7,11 +8,12 @@ function Filters({
     return (
     <div>
         {translate('Filters')}
-        <button 
+        <SelectedButton
+            selected={filters.showDisallowed}
             onClick={() => onFilterChange({...filters, showDisallowed: !filters.showDisallowed})}
         >
             {translate('show disallowed')} [{filters.showDisallowed ? translate('ON') : translate('OFF')}]
-        </button>
+        </SelectedButton>
     </div>)
 }
 export default Filters

@@ -1,17 +1,24 @@
-import ItemBrowser from './ItemBrowser'
-import Filters from './Filters'
 import { useState } from 'react';
+
+import { SelectedButton } from './styles'
+import Filters from './Filters'
+import ItemBrowser from './ItemBrowser'
 
 const PageSelector = ({
   pages,
   onSelectPage,
-  translate
+  translate,
+  selectedPage = false,
 }) => {
   return (
     <div>{pages.map(({name}) => (
-      <button key={name} onClick={()=>onSelectPage(name)}>
+      <SelectedButton
+        key={name}
+        onClick={()=>onSelectPage(name)}
+        selected={selectedPage===name}
+      >
         {translate(name)}
-      </button>))}
+      </SelectedButton>))}
     </div>
   )
 }
@@ -51,12 +58,12 @@ function Creator({
     <div>
         <nav>
           <Filters
-            selectedPage={selectedPage}
             onFilterChange={onFilterChange}
             filters={filters}
             translate={translate}
           />
           <PageSelector
+            selectedPage={selectedPage}
             pages={pages}
             onSelectPage={setSelectedPage}
             translate={translate}

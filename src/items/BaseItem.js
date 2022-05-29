@@ -12,6 +12,7 @@ const BaseItemWrapper = styled.div`
     display: flex;
     align-content: space-around;
     justify-content: space-between;
+    align-items: center;
 }`
 
 const AddButton = styled.button`
