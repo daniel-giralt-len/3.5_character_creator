@@ -2,15 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components'
 import BaseItem from './items/BaseItem'
 import getItemRegex from './functions/getItemRegex';
-
-const isItemPermitted = ({corpus, item, itemType}) => {
-    return (
-        itemType === 'language' ||
-        corpus === '*' ||
-        corpus.rulebooks[item.book] === true ||
-        (corpus[itemType] && corpus[itemType][item.id] === true)
-    )
-}
+import isItemAllowed from './functions/isItemAllowed';
 
 function renderItems({
     items,
@@ -27,7 +19,6 @@ function renderItems({
 
     const isSelected = id => (itemType === 'races' && selectedList === id)
         || selectedList[id] === true
-    
 
     return items
         .map(item => (<BaseItem
@@ -35,7 +26,7 @@ function renderItems({
             item={item}
             isSelected={isSelected(item.id)}
             onSelectItem={() => onSelectItem(item.id, selectedList)}
-            isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
+            isAllowed={isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
             disabled={disabled}
             dbs={dbs}
@@ -64,10 +55,9 @@ function ItemBrowser({
 
     const isLevel20 = itemType==='classes' && selected.length === 20
 
-    let filteredItems = items.filter(item => searchRegex.test(item.name))
-    if(userFilters.showDisallowed === false){
-        filteredItems = filteredItems.filter(item => isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType}))
-    }
+    let filteredItems = items
+        .filter(item => searchRegex.test(item.name))
+        .filter(item => userFilters.showDisallowed || isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType}))
 
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => {
