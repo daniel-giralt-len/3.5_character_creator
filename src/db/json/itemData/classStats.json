@@ -58001,7 +58001,7 @@
         "Knowledge (religion)",
         "Ride"
       ],
-      "base save bonus": 4
+      "base save bonus": {"fortitude": 4}
     },
     "skill points": {
       "base": 2,
@@ -103683,7 +103683,7 @@
         "Willing Deformity"
       ],
       "special": "The thrall of Juiblex is initiated in a horrific rite that involves the sacrifice of an intelligent being. At least three oozes, slimes or puddings must be present for the ritual. The victim of the ritual must be dissolved in acid. ",
-      "base save bonus": 6
+      "base save bonus": {"fortitude": 6}
     },
     "skill points": {
       "base": 2,
@@ -110063,7 +110063,7 @@
         "Intimidate",
         "Perform"
       ],
-      "spells": 1
+      "spells": "Arcane caster level 1st"
     },
     "skill points": {
       "base": 6,
