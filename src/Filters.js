@@ -12,7 +12,7 @@ function Filters({
             selected={filters.showDisallowed}
             onClick={() => onFilterChange({...filters, showDisallowed: !filters.showDisallowed})}
         >
-            {translate('show disallowed')} [{filters.showDisallowed ? translate('ON') : translate('OFF')}]
+            {translate('show disallowed')}
         </SelectedButton>
     </div>)
 }

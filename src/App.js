@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 2px;
     transition: box-shadow .3s;
   }
-  ${({disabled}) => disabled ? '' : 'button:hover { box-shadow: 0 0 3px 0px #340000; }'}
+  button:hover { box-shadow: 0 0 3px 0px #340000; }
 `;
 
 const ContentWrapper = styled.div`
@@ -65,7 +65,7 @@ function App() {
   const handleCreationChange = newCreation => isCorpus 
     ? setCookie('corpus', newCreation)
     : setCookie('character', newCreation)
-  const handleCorpusChange = e => setCookie('selectedCorpus', e.target.value)
+  const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleCreationSwitch = () => setCookie('isCorpusSelected', !isCorpus)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
@@ -80,7 +80,7 @@ function App() {
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
       <GlobalStyle />
       <Header
@@ -95,7 +95,7 @@ function App() {
             <CorpusSelector 
               corpuses={corpuses}
               translate={translate}
-              handleCorpusChange={handleCorpusChange}
+              onCorpusChange={handleCorpusChange}
               selectedCorpus={selectedCorpus}
             />
           )}
