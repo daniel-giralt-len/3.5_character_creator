@@ -36,9 +36,6 @@
  "The character must qualify to select regional feats from Aglarond (Aglarond is her home region, or she has 2 ranks in Knowledge [local&#8212;Aglarond]).": [
   "Aglarondan Griffonrider;special"
  ],
- "Human(Lion)": [
-  "Akodo Champion;race"
- ],
  "Ability to cast 3rd-level arcane spells or infusions.": [
   "Alchemist Savant;spells"
  ],
@@ -119,9 +116,6 @@
  "The character must kill someone for no other reason than to join the assassins.": [
   "Assassin;special"
  ],
- "Kalashtar": [
-  "Atavist;race"
- ],
  "Must have been tragically wronged in some manner.": [
   "Avenging Executioner;special"
  ],
@@ -137,23 +131,8 @@
   "Battle Maiden;gender",
   "Swanmay;gender"
  ],
- "Dwarf": [
-  "Battlesmith;race",
-  "Deepstone Sentinel;race",
-  "Deepwarden;race",
-  "Dwarven Defender;race",
-  "Hammer of Moradin;race",
-  "Ironsoul Forgemaster;race",
-  "Ollam;race",
-  "Runesmith;race",
-  "Silver Key;race",
-  "Stonelord;race"
- ],
  "The character must have created a dwarvencraft weapon (see page 159) and used it in battle.": [
   "Battlesmith;special"
- ],
- "Human(Scorpion)": [
-  "Bayushi Deceiver;race"
  ],
  "2d6": [
   "Bayushi Deceiver;sneak attack damage"
@@ -166,9 +145,6 @@
  ],
  "Spend at least one week living alone in a dungeon complex.": [
   "Beast Heart Adept;special"
- ],
- "True beholder (beholderkin cannot become beholder mages).": [
-  "Beholder Mage;race"
  ],
  "Must put out central antimagic eye.": [
   "Beholder Mage;special"
@@ -202,12 +178,6 @@
  "The character must have made peaceful contact with an evil outsider who was summoned by him or someone else.": [
   "Blackguard;special"
  ],
- "Gnome": [
-  "Blade Bravo;race",
-  "Divine Prankster;race",
-  "Gnome Giant-slayer;race",
-  "Shadowcraft Mage;race"
- ],
  "Able to cast arcane or divine spells.": [
   "Blade Dancer;spells",
   "Serpent Slayer;spells"
@@ -215,28 +185,14 @@
  " Proficiency with any sword.": [
   "Blade Dancer;special"
  ],
- "Half-elf or Elf": [
-  "Bladesinger;race"
- ],
  "Able to cast arcane spells of 1st level.": [
   "Bladesinger;spells"
- ],
- "ElforHalf-elf": [
-  "Bladesinger;race",
-  "Champion of Corellon Larethian;race",
-  "Darkwood Stalker;race",
-  "Master of the Yuirwood;race",
-  "Skylord;race",
-  "Wildrunner;race"
  ],
  "Ability to cast arcane spells of 1st level or higher.": [
   "Bladesinger;spells"
  ],
  "Proficiency with longsword.": [
   "Bladesinger;special"
- ],
- "Must beOrcorHalf-Orc": [
-  "Blessed of Gruumsh;race"
  ],
  "In a ritual dedicated to Gruumsh, a character seeking to become a blessed of Gruumsh must remove one of his own eyes (to further embody the one-eyed god).": [
   "Blessed of Gruumsh;special"
@@ -263,15 +219,6 @@
  "Must know three Tiger Claw maneuvers.": [
   "Bloodclaw Master;martial maneuvers"
  ],
- "Any dragon.": [
-  "Bloodscaled Fury;race",
-  "Disciple of Ashardalon;race",
-  "Dispassionate Watcher of Chronepsis;race",
-  "Elemental Master;race",
-  "Hidecarved Dragon;race",
-  "Sacred Warder of Bahamut;race",
-  "Unholy Ravager of Tiamat;race"
- ],
  "<em>Rage</em>: The dragon must have some sort of rage ability, most commonly derived from levels in the barbarian class, and must be able to enter this rage at least three times per day.": [
   "Bloodscaled Fury;special"
  ],
@@ -283,10 +230,6 @@
  ],
  " Able to cast 2nd-level arcane spells": [
   "Bonded Summoner;spells"
- ],
- "Changeling.": [
-  "Cabinet Trickster;race",
-  "Recaster;race"
  ],
  "Must complete a trial assignment for the Cabinet<br />of Faces.": [
   "Cabinet Trickster;special"
@@ -310,9 +253,6 @@
  "Able to manifest 2nd-level powers.": [
   "Cerebremancer;psionics",
   "Psychic Theurge;psionics"
- ],
- "HumanorDoppleganger": [
-  "Chameleon;race"
  ],
  "Must worship Corellon Larethian.": [
   "Champion of Corellon Larethian;special"
@@ -373,9 +313,6 @@
  "Cyre": [
   "Cyran Avenger;region of origin"
  ],
- "Human(Crane)": [
-  "Daidoji Bodyguard;race"
- ],
  "Cannot be illiterate or affiliated with a religion.": [
   "Dark Lantern;special"
  ],
@@ -384,11 +321,6 @@
  ],
  "You must have an affiliation score of 9 or higher within the Ebon Cabal to become a dark scholar. If your affiliation score drops be low 9 after you have become a dark scholar, you retain all class features but you can't advance further in the class.": [
   "Dark Scholar;special"
- ],
- "Goliath": [
-  "Dawncaller;race",
-  "Goliath Liberator;race",
-  "Peregrine Runner;race"
  ],
  "Bardic music ability.": [
   "Dawncaller;special",
@@ -427,14 +359,6 @@
  ],
  "Defiants cannot worship any deity or have one as a patron. Any character who has any connection to a god, demigod, or other divine entity must renounce that connection before taking a level in this prestige class.": [
   "Defiant;special"
- ],
- "Drow": [
-  "Demonbinder;race",
-  "Dread Fang of Lolth;race",
-  "Drow Judicator;race",
-  "Eye of Lolth;race",
-  "Insidious Corruptor;race",
-  "Kinslayer;race"
  ],
  "Must be able to cast at least six arcane spells of the Conjuration school, one of which must be at least 3rd level.": [
   "Demonologist;special"
@@ -529,9 +453,6 @@
  "Must be able to speak Draconic plus at least two languages from the following list: Auran, Dwarven, Elven, Ignan.": [
   "Dracolexi;languages"
  ],
- "Any nondragon.": [
-  "Dracolyte;race"
- ],
  "Draconic.": [
   "Dracolyte;languages",
   "Dragon Devotee;languages",
@@ -541,9 +462,6 @@
   "Swift Wing;languages",
   "Talon of Tiamat;languages",
   "Wyrm Wizard;languages"
- ],
- "Any true dragon.": [
-  "Dragon Ascendant;race"
  ],
  "Consume Hoard: A would-be dragon ascendant must eat its hoard to begin the process of divine ascension. Its hoard must have a value of at least 100,000 gp, but the dragon cannot choose to eat just 100,000 gp and leave the rest alone&#8212;it must consume its entire hoard.": [
   "Dragon Ascendant;special"
@@ -570,9 +488,6 @@
  ],
  "Must be chosen by a dragon of the same alignment. If a dragonkith ever ceases its relationship with the dragon, or the dragon dies, the character loses all special abilities gained from this prestige class.": [
   "Dragonkith;special"
- ],
- "Member of appropriate dragonmarked race and house.": [
-  "Dragonmark Heir;race"
  ],
  "7 ranks in any two skills.": [
   "Dragonmark Heir;skills"
@@ -724,12 +639,6 @@
  "Caster level 5th, must worship the Shadow.": [
   "Escalation Mage;special"
  ],
- "Elf": [
-  "Eternal Blade;race",
-  "Evereskan Tomb Guardian;race",
-  "Olin Gisir;race",
-  "Revenant Blade;race"
- ],
  "Any two Devoted Spirit or Diamond Mind maneuvers.": [
   "Eternal Blade;martial maneuvers"
  ],
@@ -764,14 +673,8 @@
  "Races that have familiarity with an exotic weapon (such as the dwarf's familiarity with the dwarven waraxe and the dwarven urgrosh) are considered to have the Exotic Weapon Proficiency feat for the purpose of meeting the requirements for this class.": [
   "Exotic Weapon Master;special"
  ],
- "Half-OrcorOrc": [
-  "Eye of Gruumsh;race"
- ],
  "The character must be a worshiper of Gruumsh and must put out his own right eye in a special ritual. None of the eye of Gruumsh's special abilities function if the character regains sight in both eyes.": [
   "Eye of Gruumsh;special"
- ],
- "OrcorHalf-Orc": [
-  "Eye of Gruumsh;race"
  ],
  "The character must be a worshiper of Gruumsh and must put out his own right eye in a special ritual. None of the eye of Gruumsh's special abilities function if he regains sight in both eyes.": [
   "Eye of Gruumsh;special"
@@ -882,9 +785,6 @@
  "Must have at least two feats from the list of fighter bonus feats. You do not have to earn them as a fighter, but they must appear on that list.": [
   "Gladiator;feats"
  ],
- "AasimarorHumanorTiefling(home region Mulhorand)": [
-  "Glorious Servitor;race"
- ],
  " Any from the Mulhorandi pantheon.": [
   "Glorious Servitor;patron deity"
  ],
@@ -900,9 +800,6 @@
  "Ability to cast 4th-level spells (<em>or</em> <span class=\"caps\">BAB</span> requirement), Must be a member of the Gray Hands.": [
   "Gray Hand Enforcer;special"
  ],
- "Gold dwarf.": [
-  "Great Rift Deep Defender;race"
- ],
  "The Great Rift.": [
   "Great Rift Deep Defender;region"
  ],
@@ -911,14 +808,6 @@
  ],
  "Must acquire a piece of starmetal weighing at least 2 ounces, powder it, and consume it by drinking it in a specially prepared infusion. This infusion requires arcane reagents costing 1,000 gp and takes one week to prepare.": [
   "Green Star Adept;special"
- ],
- "Halfling": [
-  "Halfling Outrider;race",
-  "Halfling Outrider;race",
-  "Hin Fist;race",
-  "Luckstealer;race",
-  "Luiren Marchwarden;race",
-  "Whisperknife;race"
  ],
  "Any metamagic feat, any one item creation feat.": [
   "Halruaan Elder;feats"
@@ -972,9 +861,6 @@
  "The candidate must be a member in good standing of the Witches of Rashemen, and she may not possess any item creation feats other than Scribe Scroll.": [
   "Hathran;special"
  ],
- "Dragonmarked race.": [
-  "Heir of Siberys;race"
- ],
  "15 ranks in any two skills.": [
   "Heir of Siberys;skills"
  ],
@@ -989,9 +875,6 @@
  ],
  "Able to cast lightning bolt as a divine spell.": [
   "Hexer;spellcasting"
- ],
- "Human(Crab)": [
-  "Hida Defender;race"
  ],
  "Able to cast 7th-level divine spells.": [
   "Hierophant;spells"
@@ -1034,9 +917,6 @@
  "Illithid, illithidkin, or a creature with the half-illithid template.": [
   "Illithid Body Tamer;race"
  ],
- "Mind flayer": [
-  "Illithid Savant;race"
- ],
  " Must have consumed the brain of a creature of CR 9 or greater.": [
   "Illithid Savant;special"
  ],
@@ -1072,10 +952,6 @@
  "Able to cast five abjuration spells, including at least two of 4th level or higher.": [
   "Initiate of the Sevenfold Veil;spells"
  ],
- "Kuo-Toa": [
-  "Inquisitor of the Drowning Goddess;race",
-  "Sea Mother Whip;race"
- ],
  "Blibdoolpoolp.": [
   "Inquisitor of the Drowning Goddess;patron",
   "Sea Mother Whip;patron"
@@ -1097,9 +973,6 @@
  ],
  "Candidate must have visited two or more planes other than his home plane.": [
   "Jaunter;special"
- ],
- "Human(Halruaan)": [
-  "Jordain Vizier;race"
  ],
  "+6.": [
   "Jordain Vizier;will"
@@ -1137,9 +1010,6 @@
  "Has demons as a favored enemy, and has defeated a demon or driven it back to its home plane.": [
   "Knight of the Chalice;special"
  ],
- "HumanorHalf-moon elf": [
-  "Knight of the Flying Hunt;race"
- ],
  "Before a character is accepted into the Order of the Iron Glacier, she must first prove to the order that her intentions are noble and true. Typically, this means the character must undertake some form of task or quest in a region of the frostfell, such as defending a remote village from an attack by orcs or slaying a white dragon that has been menacing a region. Usually, high-ranking knights will send aspiring knights on a particular quest, but sometimes they waive this requirement for someone they have seen upholding Iron Glacier ideals even though she has not herself approached the order for membership.": [
   "Knight of the Iron Glacier;special"
  ],
@@ -1151,9 +1021,6 @@
  ],
  "Soul binding class feature": [
   "Knight of the Sacred Seal;special"
- ],
- "DwarforElforHalf-elforHuman": [
-  "Knight Protector of the Great Kingdom;race"
  ],
  "Gain membership in the order.": [
   "Knight Protector of the Great Kingdom;other"
@@ -1193,10 +1060,6 @@
  " You must undergo an initiation ritual and return with a relic (see Playing a Lord of Tides, below).": [
   "Lord of Tides;special"
  ],
- "Illumian": [
-  "Loredelver;race",
-  "Shadow Sentinel;race"
- ],
  "Ability to cast at least one 3rd-level arcane spell from the divination school.": [
   "Loredelver;spells or spell like abilities"
  ],
@@ -1228,9 +1091,6 @@
  ],
  " Bardic music 5/day.": [
   "Lyric Thaumaturge;special"
- ],
- "Gnome.": [
-  "Maester;race"
  ],
  " Any two item creation feats.": [
   "Maester;feats"
@@ -1314,9 +1174,6 @@
  "Must be a worshiper of Aureon, and must have received training from the Voice of Aureon.": [
   "Medani Prophet;special"
  ],
- "Half-Orc": [
-  "Menacing Brute;race"
- ],
  "Common, any two others, must be literate.": [
   "Merchant Prince;languages"
  ],
@@ -1331,9 +1188,6 @@
  ],
  "Able to cast the <a href=\"/spells/players-handbook-v35--6/detect-thoughts--2494/\"><em>detect thoughts</em></a> spell or to use <a href=\"/spells/players-handbook-v35--6/detect-thoughts--2494/\"><em>detect thoughts</em></a> as a spell-like ability.": [
   "Mindspy;special"
- ],
- "Human(Dragon)": [
-  "Mirumoto Niten Master;race"
  ],
  "Must obtain permission to join the order at any one of the many chapter houses that dot the land.": [
   "Monk of the Enabled Hand;special"
@@ -1352,10 +1206,6 @@
  ],
  "Membership in the Knights of the North": [
   "Moonsea Skysentinel;special"
- ],
- "Shifter.": [
-  "Moonspeaker;race",
-  "Reachrunner;race"
  ],
  "Ability to cast <em>disguise self</em> and <em>identify</em>.": [
   "Moonstar Agent;spells"
@@ -1378,9 +1228,6 @@
  "Must be a member of the Disciples of Legend.": [
   "Mythic Exemplar;special",
   "Squire of Legend;special"
- ],
- "Naga.": [
-  "Naga Overlord;race"
  ],
  "Able to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a> as a spell.": [
   "Naga Overlord;spellcasting"
@@ -1432,6 +1279,9 @@
  "Abjuration must not be a prohibited school for you.": [
   "Olin Gisir;special"
  ],
+ "Dwarf": [
+  "Ollam;race"
+ ],
  "Able to cast 3rd-level arcane or divine spells.": [
   "Oozemaster;spellcasting",
   "Shadow Adept;spells",
@@ -1446,9 +1296,6 @@
  ],
  "Ability to cast at least three transmutation spells, one of which must be 1st level or higher.": [
   "Osteomancer;spells"
- ],
- "Half-elforHalf-OrcorHalf-ogre": [
-  "Outcast Champion;race"
  ],
  "An appropriate legal authority must pronounce a writ of outlawry upon the character, though he need not actually be guilty of any of the crimes named therein. In addition, the character must swear to abide by the Outlaw's Code (see sidebar).": [
   "Outlaw of the Crimson Road;special"
@@ -1534,9 +1381,6 @@
  "Must lure and defeat a quori spirit in a dreamstate combat (See initiation ritual below).": [
   "Quori Mindhunter;special"
  ],
- "Kalashtar or Inspired.": [
-  "Quori Nightmare;race"
- ],
  "Any one psionic feat.": [
   "Quori Nightmare;feats"
  ],
@@ -1567,11 +1411,11 @@
  "Must survive the Ravager initiation rites. (See the Ravager organization description on page 50 of this book.)": [
   "Ravager;other"
  ],
+ "Shifter.": [
+  "Reachrunner;race"
+ ],
  "The candidate must have defeated at least three opponents one size category larger than himself with his bare hands": [
   "Reaping Mauler;special"
- ],
- "Human(from Thay)": [
-  "Red Wizard;race"
  ],
  "Total of three metamagic feats or item creation feats.": [
   "Red Wizard;feats"
@@ -1656,21 +1500,11 @@
  "Access to the <a href=\"/spells/domains/law/\">Law</a> domain.": [
   "Sapphire Hierarch;special"
  ],
- "Aboleth.": [
-  "Savant Aboleth;race"
- ],
  "Character must have either the aquatic or the reptilian subtype.": [
   "Scaled Horror;race"
  ],
- "Half-elf": [
-  "Scar Enforcer;race",
-  "Windwright Captain;race"
- ],
  "Must have established a reputation as a fearsome pirate.": [
   "Scarlet Corsair;special"
- ],
- "Half-elforHalf-OrcorHuman": [
-  "Scion of Dantalion;race"
  ],
  "Ability to bind Dantalion": [
   "Scion of Dantalion;special"
@@ -1689,9 +1523,6 @@
  ],
  "Ability to cast arcane spells, which must include <em>control water</em>, <em>control weather</em>, or <em>favorable wind</em>, as well as <em>summon monster III</em> (or any higher-level <em>summon monster</em> spell).": [
   "Sea Witch;spells"
- ],
- "Elfor Half-elf": [
-  "Seeker of the Misty Isle;race"
  ],
  " Must be inducted into the order by another member.": [
   "Seeker of the Misty Isle;special"
@@ -1756,9 +1587,6 @@
  "Flight&#8212;The character must have the ability to fly, either by casting a spell (such as fly), or as a natural ability. Using a magic item that grants flight does not meet this requirement. The ability to change shape into a form with a fly speed does meet the requirement.": [
   "Sharn Skymage;special"
  ],
- "Human(Phoenix)": [
-  "Shiba Protector;race"
- ],
  "Able to cast 3rd-level spells.": [
   "Shifter;spells"
  ],
@@ -1791,10 +1619,6 @@
  ],
  "The character must spend 1 week living and meditating atop a mountain.": [
   "Skylord;special"
- ],
- "Raptoran": [
-  "Skypledged;race",
-  "Stormtalon;race"
  ],
  "Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iv--2444/\">summon monster IV</a> or <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-iv--2453/\">summon nature's ally IV</a>": [
   "Skypledged;spells"
@@ -1839,9 +1663,6 @@
  " Sneak attack or sudden strike +1d6.": [
   "Spellwarp Sniper;special"
  ],
- "Skarn": [
-  "Spinemeld Warrior;race"
- ],
  "The character must have 5 ranks in each of two skills from the following list: Diplomacy, Disguise, Forgery, and Sense Motive.": [
   "Spymaster;special"
  ],
@@ -1850,9 +1671,6 @@
  ],
  "The character must undergo an arduous ritual involving immersion in sacred loam, long fasting periods deep underground, and the ingestion of 1,000 gp worth of powdered gemstones. The gem type chosen is then the stonelord's totem gem, and she must carry that type of stone with her at all times to access the spell-like abilities she gains as a stonelord": [
   "Stonelord;special"
- ],
- "Feral garganorGoliath": [
-  "Stonespeaker Guardian;race"
  ],
  "Wild shape ability.": [
   "Stonespeaker Guardian;special"
@@ -1932,11 +1750,6 @@
  ],
  "Must possess at least one natural weapon, Must undergo a ritual developed by the Zulkir of Transmutation that grants the class its abilities.": [
   "Thayan Gladiator;special"
- ],
- "Human": [
-  "Thayan Knight;race",
-  "Thayan Slaver;race",
-  "Urban Soul;race"
  ],
  "Sworn allegiance to the Red Wizards of Thay": [
   "Thayan Knight;special"
@@ -2028,9 +1841,6 @@
  "Proficiency with heavy armor and heavy shields.": [
   "Vengeance Knight;special"
  ],
- "Aerenal elf or half-elf.": [
-  "Vigilant Sentinel of Aerenal;race"
- ],
  "Must have been accepted into the Order of the Vigilant Sentinels and accept an oath to obey its masters in all you do (see Code of Conduct, below).": [
   "Vigilant Sentinel of Aerenal;special"
  ],
@@ -2073,9 +1883,6 @@
  "the character must endure a week of painful and scarring black magic rituals performed in solitude, the secrets of which take months to study and research successfully.": [
   "Warrior of Darkness;special"
  ],
- "Any (but see below).": [
-  "Warshaper;race"
- ],
  " Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper.": [
   "Warshaper;special"
  ],
@@ -2099,9 +1906,6 @@
  ],
  "Must own a masterwork weapon of choice.": [
   "Weapon Master (Kensei);special"
- ],
- "Shifter": [
-  "Weretouched Master;race"
  ],
  "Sneak attack +1d6.": [
   "Whisperknife;special"
@@ -2144,9 +1948,6 @@
  ],
  "Chitine, or any race that can spin webs from its body. Characters who know or can prepare web as either a spell or a spell-like ability also qualify.": [
   "Yathchol Webrider;race"
- ],
- "Yuan-ti halfblood or abomination.": [
-  "Yuan-ti Cultist;race"
  ],
  "Merrshaulk.": [
   "Yuan-ti Cultist;patron"

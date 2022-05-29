@@ -1360,7 +1360,7 @@
       "alignment": [
         "lawful good"
       ],
-      "race": "Human(Lion)",
+      "race": ["Human(Lion)"],
       "skills": [
         "Knowledge (history)"
       ],
@@ -6726,7 +6726,7 @@
         "lawful good",
         "lawful neutral"
       ],
-      "race": "Kalashtar",
+      "race": ["Kalashtar"],
       "skills": [
         "Concentration"
       ],
@@ -8759,7 +8759,7 @@
     "bookId": "80",
     "requirements": {
       "bab": 5,
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Craft",
         "Craft"
@@ -8848,7 +8848,7 @@
       "alignment": [
         "any nonlawful"
       ],
-      "race": "Human(Scorpion)",
+      "race": ["Human(Scorpion)"],
       "skills": [
         "Bluff",
         "Diplomacy"
@@ -10023,7 +10023,7 @@
     "isPrestige": true,
     "bookId": "54",
     "requirements": {
-      "race": "True beholder (beholderkin cannot become beholder mages).",
+      "race": ["True beholder (beholderkin cannot become beholder mages)."],
       "special": "Must put out central antimagic eye."
     },
     "skill points": {
@@ -11444,7 +11444,7 @@
     "bookId": "80",
     "requirements": {
       "bab": 5,
-      "race": "Gnome",
+      "race": ["Gnome"],
       "skills": [
         "Bluff"
       ],
@@ -11882,7 +11882,7 @@
     "bookId": "16",
     "requirements": {
       "bab": 5,
-      "race": "Half-elf or Elf",
+      "race": ["Half-elf","Elf"],
       "skills": [
         "Balance",
         "Concentration",
@@ -11913,7 +11913,7 @@
     "bookId": "101",
     "requirements": {
       "bab": 5,
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Concentration",
         "Perform",
@@ -12098,7 +12098,7 @@
       "alignment": [
         "any non-good"
       ],
-      "race": "Must beOrcorHalf-Orc",
+      "race": ["Orc","Half-Orc"],
       "skills": [
         "Knowledge (religion)"
       ],
@@ -13443,7 +13443,7 @@
         "Shock Wave",
         "Wingstorm"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon"],
       "special": "<em>Rage</em>: The dragon must have some sort of rage ability, most commonly derived from levels in the barbarian class, and must be able to enter this rage at least three times per day."
     },
     "skill points": {
@@ -14221,7 +14221,7 @@
       "feats": [
         "Persona Immersion"
       ],
-      "race": "Changeling.",
+      "race": ["Changeling."],
       "special": "Must complete a trial assignment for the Cabinet<br />of Faces."
     },
     "skill points": {
@@ -15772,7 +15772,7 @@
     "isPrestige": true,
     "bookId": "77",
     "requirements": {
-      "race": "HumanorDoppleganger",
+      "race": ["Human","Doppleganger"],
       "skills": [
         "Bluff",
         "Disguise",
@@ -15984,7 +15984,7 @@
       "alignment": [
         "any nonevil"
       ],
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Diplomacy",
         "Knowledge (religion)"
@@ -21104,7 +21104,7 @@
       "alignment": [
         "any lawful"
       ],
-      "race": "Human(Crane)",
+      "race": ["Human(Crane)"],
       "feats": [
         "Improved Initiative",
         "Dodge",
@@ -21875,7 +21875,7 @@
     "bookId": "16",
     "requirements": {
       "bab": 5,
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Hide",
         "Listen",
@@ -22035,7 +22035,7 @@
     "isPrestige": true,
     "bookId": "80",
     "requirements": {
-      "race": "Goliath",
+      "race": ["Goliath"],
       "skills": [
         "Perform",
         "Spot",
@@ -23126,7 +23126,7 @@
     "bookId": "102",
     "requirements": {
       "bab": 10,
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Balance"
       ],
@@ -23224,7 +23224,7 @@
     "bookId": "80",
     "requirements": {
       "bab": 5,
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Climb",
         "Heal",
@@ -23791,7 +23791,7 @@
       "alignment": [
         "chaotic evil"
       ],
-      "race": "Drow",
+      "race": ["Drow"],
       "skills": [
         "Bluff",
         "Knowledge (the planes)",
@@ -25202,7 +25202,7 @@
         "Iron Will",
         "Quicken Spell-Like Ability"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "special": "<em>Initiation</em>: Before adopting the prestige class, a dragon must join the loose-knit cult of other disciples and undergo its initiation rites. This process includes the ritual scarring of the dragon's heart&#8212;an extremely dangerous practice that would claim the life of a dragon too weak to qualify for the class, and leaves even those that do robbed of 1 point of Constitution. (Dragons that progress to at least 6th level in this class regain the lost Constitution point eventually.)"
     },
     "skill points": {
@@ -26628,7 +26628,7 @@
       "skills": [
         "Knowledge"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "spells": "Able to cast divine spells.",
       "domain": "Knowledge (or able to cast at least three Knowledge domain spells as arcane spells)."
     },
@@ -27846,7 +27846,7 @@
     "isPrestige": true,
     "bookId": "80",
     "requirements": {
-      "race": "Gnome",
+      "race": ["Gnome"],
       "skills": [
         "Bluff",
         "Perform",
@@ -28463,7 +28463,7 @@
         "Dragonfriend",
         "Toughness"
       ],
-      "race": "Any nondragon.",
+      "race": ["Any nondragon."],
       "languages": "Draconic.",
       "spellcasting": "Able to cast 2nd-level divine spells."
     },
@@ -28611,7 +28611,7 @@
         "Iron Will",
         "Lightning Reflexes"
       ],
-      "race": "Any true dragon.",
+      "race": ["Any true dragon."],
       "special": "Consume Hoard: A would-be dragon ascendant must eat its hoard to begin the process of divine ascension. Its hoard must have a value of at least 100,000 gp, but the dragon cannot choose to eat just 100,000 gp and leave the rest alone&#8212;it must consume its entire hoard."
     },
     "skill points": {
@@ -30593,7 +30593,7 @@
         "Favored in House",
         "Least Dragonmark"
       ],
-      "race": "Member of appropriate dragonmarked race and house.",
+      "race": ["Member of appropriate dragonmarked race and house."],
       "skills": "7 ranks in any two skills."
     },
     "skill points": {
@@ -31250,7 +31250,7 @@
       "alignment": [
         "lawful evil"
       ],
-      "race": "Drow",
+      "race": ["Drow"],
       "skills": [
         "Hide",
         "Listen",
@@ -32273,7 +32273,7 @@
       "alignment": [
         "any evil"
       ],
-      "race": "Drow",
+      "race": ["Drow"],
       "skills": [
         "Intimidate",
         "Knowledge (religion)"
@@ -33988,7 +33988,7 @@
       "alignment": [
         "any lawful"
       ],
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "feats": [
         "Dodge",
         "Endurance",
@@ -35481,7 +35481,7 @@
     "bookId": "19",
     "requirements": {
       "bab": 20,
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "feats": "Any three metabreath feats.",
       "spells": "Able to cast arcane spells.",
       "special": "<em>Elemental Attunement</em>: The dragon must have an energy or elemental subtype, such as air, cold, earth, electricity, fire, or water."
@@ -37359,7 +37359,7 @@
     "bookId": "102",
     "requirements": {
       "bab": 10,
-      "race": "Elf",
+      "race": ["Elf"],
       "feats": [
         "Weapon Focus"
       ],
@@ -37843,7 +37843,7 @@
     "bookId": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/",
     "requirements": {
       "bab": 4,
-      "race": "Elf",
+      "race": ["Elf"],
       "skills": [
         "Hide",
         "Listen",
@@ -39040,7 +39040,7 @@
         " chaotic neutral",
         "neutral evil."
       ],
-      "race": "Half-OrcorOrc",
+      "race": ["Half-OrcorOrc"],
       "feats": [
         "Exotic Weapon Proficiency",
         "Weapon Focus"
@@ -39188,7 +39188,7 @@
         " chaotic neutral",
         " neutral evil"
       ],
-      "race": "OrcorHalf-Orc",
+      "race": ["OrcorHalf-Orc"],
       "feats": [
         "Exotic Weapon Proficiency",
         "Weapon Focus"
@@ -39471,7 +39471,7 @@
     "isPrestige": true,
     "bookId": "26",
     "requirements": {
-      "race": "Drow",
+      "race": ["Drow"],
       "skills": [
         "Hide",
         "Knowledge (religion)",
@@ -45529,7 +45529,7 @@
     "bookId": "55",
     "requirements": {
       "bab": 7,
-      "race": "AasimarorHumanorTiefling(home region Mulhorand)",
+      "race": ["Aasimar","Human","Tiefling(home region Mulhorand)"],
       "skills": [
         "Diplomacy",
         "Knowledge (local)",
@@ -45674,7 +45674,7 @@
     "isPrestige": true,
     "bookId": "16",
     "requirements": {
-      "race": "Gnome",
+      "race": ["Gnome"],
       "skills": [
         "Escape Artist",
         "Tumble"
@@ -45927,7 +45927,7 @@
     "bookId": "80",
     "requirements": {
       "bab": 7,
-      "race": "Goliath",
+      "race": ["Goliath"],
       "skills": [
         "Hide",
         "Move Silently"
@@ -46297,7 +46297,7 @@
         "Endurance",
         "Toughness"
       ],
-      "race": "Gold dwarf.",
+      "race": ["Gold dwarf."],
       "region": "The Great Rift."
     },
     "skill points": {
@@ -46732,7 +46732,7 @@
     "bookId": "16",
     "requirements": {
       "bab": 5,
-      "race": "Halfling",
+      "race": ["Halfling"],
       "skills": [
         "Listen",
         "Ride",
@@ -46891,7 +46891,7 @@
     "bookId": "98",
     "requirements": {
       "bab": 5,
-      "race": "Halfling",
+      "race": ["Halfling"],
       "skills": [
         "Listen",
         "Ride",
@@ -47326,7 +47326,7 @@
     "bookId": "/rulebooks/forgotten-realms-35--4/players-guide-to-faerun--22/",
     "requirements": {
       "bab": 7,
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Craft"
       ],
@@ -48698,7 +48698,7 @@
       "feats": [
         "Heroic Spirit"
       ],
-      "race": "Dragonmarked race.",
+      "race": ["Dragonmarked race."],
       "skills": "15 ranks in any two skills.",
       "special": "A character who has the Aberrant Dragonmark, Least Dragonmark, Lesser Dragonmark, or Greater Dragonmark feat cannot enter this prestige class. Also, once a character gains any levels in this class, he can't adopt the dragonmark heir prestige class."
     },
@@ -49774,7 +49774,7 @@
       "alignment": [
         "any nonevil"
       ],
-      "race": "Human(Crab)",
+      "race": ["Human(Crab)"],
       "feats": [
         "Armor Proficiency (heavy)",
         "Power Attack",
@@ -49904,7 +49904,7 @@
       "feats": [
         "Iron Will"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "natural armor bonus": 20,
       "base save bonus": {
         "will": 12
@@ -50465,7 +50465,7 @@
       "alignment": [
         "lawful good"
       ],
-      "race": "Halfling",
+      "race": ["Halfling"],
       "patron deity": "Yondalla.",
       "region": "Luiren."
     }
@@ -52520,7 +52520,7 @@
       "skills": [
         "Knowledge (arcana)"
       ],
-      "race": "Mind flayer",
+      "race": ["Mind flayer"],
       "special": " Must have consumed the brain of a creature of CR 9 or greater."
     },
     "skill points": {
@@ -54621,7 +54621,7 @@
         "lawful evil",
         "lawful neutral"
       ],
-      "race": "Kuo-Toa",
+      "race": ["Kuo-Toa"],
       "skills": [
         "Concentration",
         "Knowledge (religion)"
@@ -54715,7 +54715,7 @@
       "alignment": [
         "any evil"
       ],
-      "race": "Drow",
+      "race": ["Drow"],
       "skills": [
         "Bluff",
         "Diplomacy",
@@ -55141,7 +55141,7 @@
       "alignment": [
         "any nonevil"
       ],
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Craft",
         "Knowledge (arcana)"
@@ -55945,7 +55945,7 @@
       "alignment": [
         "any lawful"
       ],
-      "race": "Human(Halruaan)",
+      "race": ["Human(Halruaan)"],
       "skills": [
         "Concentration",
         "Diplomacy",
@@ -57055,7 +57055,7 @@
     "isPrestige": true,
     "bookId": "26",
     "requirements": {
-      "race": "Drow",
+      "race": ["Drow"],
       "feats": [
         "Endurance",
         "Diehard",
@@ -58152,7 +58152,7 @@
         " neutral good",
         "lawful neutral"
       ],
-      "race": "HumanorHalf-moon elf",
+      "race": ["Human","Half-moon elf"],
       "skills": [
         "Handle Animal",
         "Ride"
@@ -59645,7 +59645,7 @@
       "alignment": [
         "lawful"
       ],
-      "race": "DwarforElforHalf-elforHuman",
+      "race": ["Dwarf","Elf","Half-elf","Human"],
       "skills": [
         "Diplomacy",
         "Knowledge (nobility and royalty)",
@@ -61032,7 +61032,7 @@
     "isPrestige": true,
     "bookId": "77",
     "requirements": {
-      "race": "Illumian",
+      "race": ["Illumian"],
       "skills": [
         "Decipher Script",
         "Disable Device",
@@ -61342,7 +61342,7 @@
     "isPrestige": true,
     "bookId": "82",
     "requirements": {
-      "race": "Halfling",
+      "race": ["Halfling"],
       "skills": [
         "Profession"
       ],
@@ -61497,7 +61497,7 @@
       "alignment": [
         "any nonevil"
       ],
-      "race": "Halfling",
+      "race": ["Halfling"],
       "skills": [
         "Knowledge",
         "Knowledge (geography)"
@@ -62144,7 +62144,7 @@
         "Craft",
         "Use Magic Device"
       ],
-      "race": "Gnome.",
+      "race": ["Gnome."],
       "feats": " Any two item creation feats.",
       "spells": " Arcane caster level 5th."
     }
@@ -64766,7 +64766,7 @@
       "alignment": [
         "any nonevil"
       ],
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Knowledge (nature)",
         "Survival"
@@ -65632,7 +65632,7 @@
       "alignment": [
         "any nongood"
       ],
-      "race": "Half-Orc",
+      "race": ["Half-Orc"],
       "skills": [
         "Intimidate",
         "Knowledge (local)",
@@ -66239,7 +66239,7 @@
     "bookId": "69",
     "requirements": {
       "bab": 5,
-      "race": "Human(Dragon)",
+      "race": ["Human(Dragon)"],
       "skills": [
         "Knowledge (arcana)"
       ],
@@ -67203,7 +67203,7 @@
         "Knowledge (nature)",
         "Knowledge (religion)"
       ],
-      "race": "Shifter.",
+      "race": ["Shifter."],
       "spells": "Ability to cast 2nd-level divine spells."
     },
     "skill points": {
@@ -68899,7 +68899,7 @@
         "Skill Focus",
         "Spell Focus"
       ],
-      "race": "Naga.",
+      "race": ["Naga."],
       "spellcasting": "Able to cast <a href=\"/spells/players-handbook-v35--6/dominate-person--2547/\">dominate person</a> as a spell."
     },
     "skill points": {
@@ -71630,7 +71630,7 @@
     "isPrestige": true,
     "bookId": "55",
     "requirements": {
-      "race": "Elf",
+      "race": ["Elf"],
       "skills": [
         "Concentration",
         "Knowledge (arcana)",
@@ -72639,7 +72639,7 @@
     "isPrestige": true,
     "bookId": "77",
     "requirements": {
-      "race": "Half-elforHalf-OrcorHalf-ogre",
+      "race": ["Half-elf","Half-Orc","Half-ogre"],
       "skills": [
         "Diplomacy",
         "Intimidate"
@@ -74332,7 +74332,7 @@
     "bookId": "80",
     "requirements": {
       "bab": 4,
-      "race": "Goliath",
+      "race": ["Goliath"],
       "skills": [
         "Climb",
         "Diplomacy",
@@ -77938,7 +77938,7 @@
         "Concentration",
         "Intimidate"
       ],
-      "race": "Kalashtar or Inspired.",
+      "race": ["Kalashtar","Inspired."],
       "feats": "Any one psionic feat."
     },
     "skill points": {
@@ -79483,7 +79483,7 @@
         "Knowledge (arcana)",
         "Spellcraft"
       ],
-      "race": "Changeling.",
+      "race": ["Changeling."],
       "feats": "Any two metamagic feats.",
       "spells": "Ability to cast 3rd-level arcane spells."
     },
@@ -79762,7 +79762,7 @@
       "alignment": [
         "any nongood"
       ],
-      "race": "Human(from Thay)",
+      "race": ["Human(from Thay)"],
       "skills": [
         "Spellcraft"
       ],
@@ -80150,7 +80150,7 @@
     "bookId": "71",
     "requirements": {
       "bab": 5,
-      "race": "Elf",
+      "race": ["Elf"],
       "skills": [
         "Hide",
         "Knowledge (history)",
@@ -81819,7 +81819,7 @@
     "isPrestige": true,
     "bookId": "80",
     "requirements": {
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Concentration",
         "Craft"
@@ -82661,7 +82661,7 @@
         "Endure Blows",
         "Power Attack"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "spells": "Able to cast divine spells.",
       "domain": "Protection",
       "special": "Damage reduction 5/magic."
@@ -84088,7 +84088,7 @@
         "Craft Aboleth Glyph",
         "Quickslime"
       ],
-      "race": "Aboleth.",
+      "race": ["Aboleth."],
       "spells": "Ability to cast 3rd-level arcane spells."
     },
     "skill points": {
@@ -84384,7 +84384,7 @@
       "alignment": [
         "any nongood"
       ],
-      "race": "Half-elf",
+      "race": ["Half-elf"],
       "skills": [
         "Bluff",
         "Hide",
@@ -84664,7 +84664,7 @@
     "isPrestige": true,
     "bookId": "103",
     "requirements": {
-      "race": "Half-elforHalf-OrcorHuman",
+      "race": ["Half-elf","Half-Orc","Human"],
       "skills": [
         "Knowledge (nobility and royalty)"
       ],
@@ -85543,7 +85543,7 @@
         " chaotic evil",
         "neutral"
       ],
-      "race": "Kuo-Toa",
+      "race": ["Kuo-Toa"],
       "skills": [
         "Knowledge (religion)"
       ],
@@ -85771,7 +85771,7 @@
     "isPrestige": true,
     "bookId": "12",
     "requirements": {
-      "race": "Elfor Half-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Knowledge (religion)",
         "Survival"
@@ -87802,7 +87802,7 @@
     "bookId": "77",
     "requirements": {
       "bab": 5,
-      "race": "Illumian",
+      "race": ["Illumian"],
       "feats": [
         "Weapon Focus"
       ],
@@ -88997,7 +88997,7 @@
     "isPrestige": true,
     "bookId": "80",
     "requirements": {
-      "race": "Gnome",
+      "race": ["Gnome"],
       "skills": [
         "Bluff",
         "Hide"
@@ -90347,7 +90347,7 @@
     "bookId": "69",
     "requirements": {
       "bab": 5,
-      "race": "Human(Phoenix)",
+      "race": ["Human(Phoenix)"],
       "skills": [
         "Knowledge (religion)"
       ],
@@ -91581,7 +91581,7 @@
     "isPrestige": true,
     "bookId": "23",
     "requirements": {
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Disable Device",
         "Hide",
@@ -92436,7 +92436,7 @@
       "alignment": [
         "any good"
       ],
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Handle Animal",
         "Ride"
@@ -92590,7 +92590,7 @@
     "isPrestige": true,
     "bookId": "82",
     "requirements": {
-      "race": "Raptoran",
+      "race": ["Raptoran"],
       "spells": "Ability to cast <a href=\"/spells/players-handbook-v35--6/summon-monster-iv--2444/\">summon monster IV</a> or <a href=\"/spells/players-handbook-v35--6/summon-natures-ally-iv--2453/\">summon nature's ally IV</a>",
       "special": "Flight extraordinary ability."
     },
@@ -96182,7 +96182,7 @@
       "alignment": [
         "any lawful"
       ],
-      "race": "Skarn",
+      "race": ["Skarn"],
       "essentia pool": 1
     },
     "skill points": {
@@ -97526,7 +97526,7 @@
     "bookId": "16",
     "requirements": {
       "bab": 5,
-      "race": "Dwarf",
+      "race": ["Dwarf"],
       "skills": [
         "Craft",
         "Speak Language"
@@ -97677,7 +97677,7 @@
     "isPrestige": true,
     "bookId": "80",
     "requirements": {
-      "race": "Feral garganorGoliath",
+      "race": ["Feral gargan","Goliath"],
       "skills": [
         "Knowledge (nature)",
         "Survival"
@@ -98416,7 +98416,7 @@
     "bookId": "82",
     "requirements": {
       "bab": 5,
-      "race": "Raptoran",
+      "race": ["Raptoran"],
       "special": "Flight extraordinary ability."
     },
     "skill points": {
@@ -102639,7 +102639,7 @@
       "alignment": [
         "any nongood"
       ],
-      "race": "Human",
+      "race": ["Human"],
       "skills": [
         "Intimidate",
         "Knowledge (arcana)",
@@ -102753,7 +102753,7 @@
       "alignment": [
         "any evil"
       ],
-      "race": "Human",
+      "race": ["Human"],
       "skills": [
         "Appraise",
         "Intimidate",
@@ -106891,7 +106891,7 @@
         "Recover Breath",
         "Tempest Breath"
       ],
-      "race": "Any dragon.",
+      "race": ["Any dragon."],
       "spells": "Able to cast divine spells.",
       "domain": "Destruction"
     },
@@ -108363,7 +108363,7 @@
     "isPrestige": true,
     "bookId": "77",
     "requirements": {
-      "race": "Human",
+      "race": ["Human"],
       "skills": [
         "Knowledge (local)",
         "Knowledge (architecture and engineering)",
@@ -109572,7 +109572,7 @@
         "Move Silently",
         "Sense Motive"
       ],
-      "race": "Aerenal elf or half-elf.",
+      "race": ["Aerenal elf","half-elf."],
       "special": "Must have been accepted into the Order of the Vigilant Sentinels and accept an oath to obey its masters in all you do (see Code of Conduct, below)."
     },
     "skill points": {
@@ -113730,7 +113730,7 @@
     "bookId": "16",
     "requirements": {
       "bab": 4,
-      "race": "Any (but see below).",
+      "race": ["Any (but see below)."],
       "special": " Must be able to change shape in one of the following five ways:<ul><li>Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).</li><li>Shapechanger subtype (lycanthropes, phasm).</li><li><a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).</li><li>Able to cast the <a href=\"/spells/players-handbook-v35--6/polymorph--2854/\"><em>Polymorph</em></a> spell.</li><li>Wild shape or similar class feature (<a href=\"/classes/bear-warrior/\">bear warrior</a>, <a href=\"/classes/druid/\">druid</a>).</li></ul><br />The alternate form ability (possesed by quasits, vampires, and others) is insufficient to become a warshaper."
     },
     "skill points": {
@@ -114740,7 +114740,7 @@
         "Knowledge (nature)",
         "Survival"
       ],
-      "race": "Shifter",
+      "race": ["Shifter"],
       "feats": [
         "Any shifter feat."
       ]
@@ -114827,7 +114827,7 @@
     "bookId": "82",
     "requirements": {
       "bab": 4,
-      "race": "Halfling",
+      "race": ["Halfling"],
       "skills": [
         "Balance",
         "Climb",
@@ -115683,7 +115683,7 @@
         "any good",
         "chaotic"
       ],
-      "race": "ElforHalf-elf",
+      "race": ["Elf","Half-elf"],
       "skills": [
         "Hide",
         "Knowledge (nature)",
@@ -116018,7 +116018,7 @@
     "isPrestige": true,
     "bookId": "38",
     "requirements": {
-      "race": "Half-elf",
+      "race": ["Half-elf"],
       "skills": [
         "Balance",
         "Profession",
@@ -118167,7 +118167,7 @@
         "Knowledge (religion)",
         "Perform"
       ],
-      "race": "Yuan-ti halfblood or abomination.",
+      "race": ["Yuan-ti halfblood","abomination."],
       "alignment": [
         "any evil."
       ],
