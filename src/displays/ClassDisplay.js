@@ -13,8 +13,9 @@ function ClassLevel({
     onReorder,
     onDuplication,
     onDelete,
-    isLevel20
+    nLevels
 }){
+    const isLevel20 = nLevels === 20
     const {name} = classData
     const level = position+1
     return (
@@ -25,8 +26,8 @@ function ClassLevel({
             <div>
                 {!isLevel20 && <button onClick={() => onDuplication(position)}>D</button>}
                 <button onClick={() => onDelete(position)}>-</button>
-                <button onClick={() => onReorder(position, 'up')}>^</button>
-                <button onClick={() => onReorder(position, 'down')}>v</button>
+                <button onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</button>
+                <button onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</button>
             </div>
         </ClassLayout>
     )
@@ -38,7 +39,6 @@ function ClassDisplay({
     translate,
     handleClassChange
 }) {
-    const isLevel20 = classes.length === 20
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
         const out = [...classes]
@@ -59,15 +59,15 @@ function ClassDisplay({
             <h3>{translate('classes')}</h3>
             <ul>
                 {classes
-                    .map((id2,i) => (<ClassLevel
-                        key={`${i+1}-${id2}`}
+                    .map((id,i) => (<ClassLevel
+                        key={`${i+1}-${id}`}
                         position={i}
-                        classData={dbs.classes.find(({id})=>id2===id)}
-                        classStats={classStats[id2]}
+                        classData={dbs.classes.find(c=>id === c.id)}
+                        classStats={classStats[id]}
                         onReorder={handleReorder}
                         onDuplication={handleDuplication}
                         onDelete={handleDelete}
-                        isLevel20={isLevel20}
+                        nLevels={classes.length}
                 />))
                 }
             </ul>

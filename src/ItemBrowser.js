@@ -55,7 +55,7 @@ function ItemBrowser({
     const [searchedText, setSearchedText] = useState('')
     const searchRegex = getItemRegex(searchedText)
 
-    const isLevel20 = itemType==='classes' && selected.length === 20
+    const isLevel20 = itemType === 'classes' && selected.length === 20
 
     let filteredItems = items
         .filter(item => searchRegex.test(item.name))
