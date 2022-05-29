@@ -1334,9 +1334,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Detect evil"
         ]
@@ -1344,9 +1344,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Ancestral favor",
           "Leadership feat",
@@ -1356,9 +1356,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Aura of courage"
         ]
@@ -1366,9 +1366,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Great leader (+1)"
         ]
@@ -1376,9 +1376,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Inspire greatness (1 ally)"
         ]
@@ -1386,9 +1386,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ]
@@ -1396,9 +1396,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Great leader (+2)",
           "inspire greatness (2 allies)"
@@ -1407,9 +1407,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           ""
         ]
@@ -1417,9 +1417,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Inspire greatness (3 allies)"
         ]
@@ -1427,9 +1427,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Great leader (+3)"
         ]
@@ -4280,9 +4280,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Dark knowledge (tactics) 3/day",
           "Scribe Scroll"
@@ -4301,9 +4301,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Lore mastery"
         ],
@@ -4321,9 +4321,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Dark knowledge 4/day"
         ],
@@ -4341,9 +4341,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Still mind"
         ],
@@ -4361,9 +4361,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Dark knowledge (puissance)"
         ],
@@ -4381,9 +4381,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Dark knowledge 5/day"
         ],
@@ -4401,9 +4401,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Lore mastery"
         ],
@@ -4421,9 +4421,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Dark knowledge (foe)"
         ],
@@ -4441,9 +4441,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Dark knowledge 6/day"
         ],
@@ -4461,9 +4461,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Bonus feat"
         ],
@@ -4481,9 +4481,9 @@
       {
         "level": 11,
         "bab": 5,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Dark knowledge (dread secret)"
         ],
@@ -4501,9 +4501,9 @@
       {
         "level": 12,
         "bab": 1,
-        "fort save": 8,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Dark knowledge 7/day"
         ],
@@ -4521,9 +4521,9 @@
       {
         "level": 13,
         "bab": 1,
-        "fort save": 8,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Lore mastery"
         ],
@@ -4541,9 +4541,9 @@
       {
         "level": 14,
         "bab": 2,
-        "fort save": 9,
-        "ref save": 4,
-        "will save": 9,
+        "fort": 9,
+        "ref": 4,
+        "will": 9,
         "special": [
           "Dark knowledge (foreknowledge)"
         ],
@@ -4561,9 +4561,9 @@
       {
         "level": 15,
         "bab": 2,
-        "fort save": 9,
-        "ref save": 5,
-        "will save": 9,
+        "fort": 9,
+        "ref": 5,
+        "will": 9,
         "special": [
           "Dark knowledge 8/day"
         ],
@@ -4581,9 +4581,9 @@
       {
         "level": 16,
         "bab": 3,
-        "fort save": 10,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
         "special": [
           ""
         ],
@@ -4601,9 +4601,9 @@
       {
         "level": 17,
         "bab": 3,
-        "fort save": 10,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
         "special": [
           "Lore mastery"
         ],
@@ -4621,9 +4621,9 @@
       {
         "level": 18,
         "bab": 4,
-        "fort save": 11,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
         "special": [
           "Dark knowledge 9/day"
         ],
@@ -4641,9 +4641,9 @@
       {
         "level": 19,
         "bab": 4,
-        "fort save": 11,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
         "special": [
           ""
         ],
@@ -4661,9 +4661,9 @@
       {
         "level": 20,
         "bab": 5,
-        "fort save": 12,
-        "ref save": 6,
-        "will save": 12,
+        "fort": 12,
+        "ref": 6,
+        "will": 12,
         "special": [
           "Bonus feat"
         ],
@@ -8299,9 +8299,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Special mount",
           2
@@ -8310,9 +8310,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Burst of speed"
         ]
@@ -8320,9 +8320,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           2
         ]
@@ -8330,9 +8330,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Defensive riding"
         ]
@@ -8340,9 +8340,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           4
         ]
@@ -8350,9 +8350,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           ""
         ]
@@ -8360,9 +8360,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           4
         ]
@@ -8370,9 +8370,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Heal mount"
         ]
@@ -8380,9 +8380,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           6
         ]
@@ -8390,9 +8390,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           ""
         ]
@@ -8598,9 +8598,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 2,
+        "ref": 2,
+        "will": 0,
         "special": [
           6,
           "poison use"
@@ -8609,9 +8609,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 3,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Strike first",
           "strike last"
@@ -8620,9 +8620,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 3,
+        "ref": 3,
+        "will": 1,
         "special": [
           6
         ]
@@ -8630,9 +8630,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Scorpion feint"
         ]
@@ -8640,9 +8640,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           6
         ]
@@ -8650,9 +8650,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Improved Disarm feat"
         ]
@@ -8660,9 +8660,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           6
         ]
@@ -8670,9 +8670,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 6,
+        "ref": 6,
+        "will": 2,
         "special": [
           "Opportunist"
         ]
@@ -8680,9 +8680,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 6,
+        "ref": 6,
+        "will": 3,
         "special": [
           6
         ]
@@ -8690,9 +8690,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 7,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Improved Critical feat"
         ]
@@ -8750,9 +8750,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Bear form (black)"
         ]
@@ -8760,9 +8760,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "&#8211;"
         ]
@@ -8770,9 +8770,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Scent"
         ]
@@ -8780,9 +8780,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "&#8211;"
         ]
@@ -8790,9 +8790,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Bear form (brown)"
         ]
@@ -8800,9 +8800,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "&#8211;"
         ]
@@ -8810,9 +8810,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Rage +1/day"
         ]
@@ -8820,9 +8820,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "&#8211;"
         ]
@@ -8830,9 +8830,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "&#8211;"
         ]
@@ -8840,9 +8840,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Bear form (dire)"
         ]
@@ -8875,9 +8875,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Bear form (black) 1/day"
         ]
@@ -8885,9 +8885,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           ""
         ]
@@ -8895,9 +8895,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Scent"
         ]
@@ -8905,9 +8905,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Bear form (brown) 2/day"
         ]
@@ -8915,9 +8915,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Extra raging"
         ]
@@ -8925,9 +8925,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ]
@@ -8935,9 +8935,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ]
@@ -8945,9 +8945,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Bear form (dire) 3/day"
         ]
@@ -8955,9 +8955,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ]
@@ -8965,9 +8965,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Extra raging"
         ]
@@ -11258,9 +11258,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Acrobatics (+10)",
           "leap of the clouds",
@@ -11270,9 +11270,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Enchanted blade I"
         ]
@@ -11280,9 +11280,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           ""
         ]
@@ -11290,9 +11290,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Ride the wind",
           "fast movement"
@@ -11301,9 +11301,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Acrobatics (+20)",
           "acrobatic attack"
@@ -11312,9 +11312,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Enchanted blade II"
         ]
@@ -11322,9 +11322,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Fast movement"
         ]
@@ -11332,9 +11332,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 2,
+        "ref": 6,
+        "will": 2,
         "special": [
           ""
         ]
@@ -11342,9 +11342,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           ""
         ]
@@ -11352,9 +11352,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Acrobatics (+30)",
           "enchanted blade III",
@@ -14270,9 +14270,9 @@
       {
         "level*": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Special mount",
           1,
@@ -14283,9 +14283,9 @@
       {
         "level*": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           1
         ]
@@ -14293,9 +14293,9 @@
       {
         "level*": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Burst of speed"
         ]
@@ -14303,9 +14303,9 @@
       {
         "level*": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Deadly charge 2/day",
           4
@@ -14314,9 +14314,9 @@
       {
         "level*": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           2
         ]
@@ -14324,9 +14324,9 @@
       {
         "level*": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Deadly charge 3/day",
           "full mounted attack",
@@ -14336,9 +14336,9 @@
       {
         "level*": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           6
         ]
@@ -14346,9 +14346,9 @@
       {
         "level*": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Deadly charge 4/day"
         ]
@@ -14356,9 +14356,9 @@
       {
         "level*": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           3,
           8
@@ -14367,9 +14367,9 @@
       {
         "level*": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Unstoppable charge 5/day",
           3
@@ -20447,9 +20447,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Defensive refocus"
         ]
@@ -20457,9 +20457,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Defensive awareness (Dex bonus to AC)"
         ]
@@ -20467,9 +20467,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Evasion"
         ]
@@ -20477,9 +20477,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Moving the shadow"
         ]
@@ -20487,9 +20487,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Defensive awareness (can't be flanked)"
         ]
@@ -20497,9 +20497,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Damage reduction 3/&#8212;"
         ]
@@ -20507,9 +20507,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           ""
         ]
@@ -20517,9 +20517,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Defensive roll"
         ]
@@ -20527,9 +20527,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Damage reduction 6/&#8212;"
         ]
@@ -20537,9 +20537,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Defensive awareness (+1 versus traps)"
         ]
@@ -20593,9 +20593,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Improved stonecunning"
         ]
@@ -20603,9 +20603,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Enhanced darkvision"
         ]
@@ -20613,9 +20613,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           6
         ]
@@ -20623,9 +20623,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Stone's hue"
         ]
@@ -20633,9 +20633,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Death attack"
         ]
@@ -21197,9 +21197,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 2,
+        "ref": 2,
+        "will": 0,
         "special": [
           2
         ]
@@ -21207,9 +21207,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 3,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Uncanny dodge"
         ]
@@ -21217,9 +21217,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 3,
+        "ref": 3,
+        "will": 1,
         "special": [
           6
         ]
@@ -21227,9 +21227,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           4,
           "darkvision 30 ft."
@@ -21238,9 +21238,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Improved uncanny dodge"
         ]
@@ -21248,9 +21248,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           6
         ]
@@ -21258,9 +21258,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           6,
           "darkvision 60 ft."
@@ -21269,9 +21269,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 6,
+        "ref": 6,
+        "will": 2,
         "special": [
           "Dodge critical"
         ]
@@ -21279,9 +21279,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 6,
+        "ref": 6,
+        "will": 3,
         "special": [
           6
         ]
@@ -21289,9 +21289,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 7,
+        "ref": 7,
+        "will": 3,
         "special": [
           8,
           "death attack"
@@ -23708,9 +23708,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 0,
+        "ref": 2,
+        "will": 2,
         "ac bonus": 1,
         "special": [
           "Dervish dance 1/day",
@@ -23721,9 +23721,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 0,
+        "ref": 3,
+        "will": 3,
         "ac bonus": 1,
         "special": [
           "Fast movement +5 ft."
@@ -23732,9 +23732,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 1,
+        "ref": 3,
+        "will": 3,
         "ac bonus": 1,
         "special": [
           "Spring Attack",
@@ -23744,9 +23744,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
         "ac bonus": 1,
         "special": [
           "Dance of death"
@@ -23755,9 +23755,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
         "ac bonus": 2,
         "special": [
           "Fast movement +10 ft.",
@@ -23767,9 +23767,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
         "ac bonus": 2,
         "special": [
           "Improved reaction"
@@ -23778,9 +23778,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
         "ac bonus": 2,
         "special": [
           "Elaborate parry",
@@ -23790,9 +23790,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 2,
+        "ref": 6,
+        "will": 6,
         "ac bonus": 2,
         "special": [
           "Fast movement +15 ft."
@@ -23801,9 +23801,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 3,
+        "ref": 6,
+        "will": 6,
         "ac bonus": 3,
         "special": [
           "Tireless dance",
@@ -23813,9 +23813,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 3,
+        "ref": 7,
+        "will": 7,
         "ac bonus": 3,
         "special": [
           "A thousand cuts"
@@ -30410,9 +30410,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Charnel touch",
           "rebuke undead"
@@ -30430,9 +30430,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           2
         ],
@@ -30449,9 +30449,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Negative energy burst 1/day"
         ],
@@ -30468,9 +30468,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Advanced learning",
           2
@@ -30488,9 +30488,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Fear aura"
         ],
@@ -30507,9 +30507,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Scabrous touch 1/day"
         ],
@@ -30526,9 +30526,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           4,
           "summon familiar"
@@ -30546,9 +30546,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Advanced learning",
           "negative energy burst 2/day",
@@ -30567,9 +30567,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Negative energy resistance"
         ],
@@ -30586,9 +30586,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Light fortification 25%"
         ],
@@ -30605,9 +30605,9 @@
       {
         "level": 11,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           6,
           "scabrous touch 2/day"
@@ -30625,9 +30625,9 @@
       {
         "level": 12,
         "bab": 1,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Advanced learning",
           "enervating touch"
@@ -30645,9 +30645,9 @@
       {
         "level": 13,
         "bab": 1,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Negative energy burst 3/day"
         ],
@@ -30664,9 +30664,9 @@
       {
         "level": 14,
         "bab": 2,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 9,
+        "fort": 4,
+        "ref": 4,
+        "will": 9,
         "special": [
           4
         ],
@@ -30683,9 +30683,9 @@
       {
         "level": 15,
         "bab": 2,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 9,
+        "fort": 5,
+        "ref": 5,
+        "will": 9,
         "special": [
           8
         ],
@@ -30702,9 +30702,9 @@
       {
         "level": 16,
         "bab": 3,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 5,
+        "ref": 5,
+        "will": 10,
         "special": [
           "Advanced learning",
           "scabrous touch 3/day"
@@ -30722,9 +30722,9 @@
       {
         "level": 17,
         "bab": 3,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 5,
+        "ref": 5,
+        "will": 10,
         "special": [
           "Enervating touch",
           "light fortification 50%"
@@ -30742,9 +30742,9 @@
       {
         "level": 18,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 6,
+        "ref": 6,
+        "will": 11,
         "special": [
           "Negative energy burst 4/day"
         ],
@@ -30761,9 +30761,9 @@
       {
         "level": 19,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 6,
+        "ref": 6,
+        "will": 11,
         "special": [
           "Craft wondrous item"
         ],
@@ -30780,9 +30780,9 @@
       {
         "level": 20,
         "bab": 5,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 12,
+        "fort": 6,
+        "ref": 6,
+        "will": 12,
         "special": [
           "Advanced learning",
           "lich transformation"
@@ -31440,9 +31440,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 2,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Drink like a demon",
           "improvised weapons"
@@ -31451,9 +31451,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 3,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Stagger"
         ]
@@ -31461,9 +31461,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 3,
+        "ref": 3,
+        "will": 1,
         "special": [
           "Swaying waist"
         ]
@@ -31471,9 +31471,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           1,
           "improved improvised weapons"
@@ -31482,9 +31482,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           "greater improvised weapons"
         ]
@@ -31492,9 +31492,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Improved Feint"
         ]
@@ -31502,9 +31502,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Improved Grapple"
         ]
@@ -31512,9 +31512,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 6,
+        "ref": 6,
+        "will": 2,
         "special": [
           "For medicinal purposes"
         ]
@@ -31522,9 +31522,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 6,
+        "ref": 6,
+        "will": 3,
         "special": [
           2,
           "corkscrew rush",
@@ -31534,9 +31534,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 7,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Breath of flame"
         ]
@@ -33043,9 +33043,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           1
         ],
@@ -33054,9 +33054,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Arcane sight"
         ],
@@ -33065,9 +33065,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           2
         ],
@@ -33076,9 +33076,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Supernatural spell 1/day"
         ],
@@ -33087,9 +33087,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           3
         ],
@@ -33098,9 +33098,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Supernatural spell 2/day"
         ],
@@ -33109,9 +33109,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           4
         ],
@@ -33120,9 +33120,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Supernatural spell 3/day"
         ],
@@ -33131,9 +33131,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           5
         ],
@@ -33142,9 +33142,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Cloak of mysteries",
           "supernatural spell 4/day"
@@ -36277,9 +36277,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Greater spell focus"
         ],
@@ -36288,9 +36288,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           "1st mighty spell"
         ],
@@ -36299,9 +36299,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Leadership"
         ],
@@ -36310,9 +36310,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "2nd mighty spell"
         ],
@@ -36321,9 +36321,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "New spell level"
         ],
@@ -36332,9 +36332,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "3rd mighty spell"
         ],
@@ -36343,9 +36343,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -36354,9 +36354,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "4th mighty spell"
         ],
@@ -36365,9 +36365,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ],
@@ -36376,9 +36376,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "5th mighty spell",
           "new spell level"
@@ -37061,9 +37061,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Exotic weapon stunt"
         ]
@@ -37071,9 +37071,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Exotic weapon stunt"
         ]
@@ -37081,9 +37081,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Exotic weapon stunt"
         ]
@@ -37686,9 +37686,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Blind-Fight",
           "command the horde",
@@ -37698,9 +37698,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Swing blindly"
         ]
@@ -37708,9 +37708,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           1
         ]
@@ -37718,9 +37718,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Blinding spittle 2/day"
         ]
@@ -37728,9 +37728,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Blindsight 5 ft."
         ]
@@ -37738,9 +37738,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           2
         ]
@@ -37748,9 +37748,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Blinding spittle 4/day"
         ]
@@ -37758,9 +37758,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Blindsight 10 ft."
         ]
@@ -37768,9 +37768,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           3
         ]
@@ -37778,9 +37778,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Sight of Gruumsh"
         ]
@@ -41939,9 +41939,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Frenzy 1/day",
           "Diehard"
@@ -41950,9 +41950,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Supreme cleave"
         ]
@@ -41960,9 +41960,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Frenzy 2/day"
         ]
@@ -41970,9 +41970,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Deathless frenzy"
         ]
@@ -41980,9 +41980,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Frenzy 3/day",
           "improved power attack"
@@ -41991,9 +41991,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Inspire frenzy 1/day"
         ]
@@ -42001,9 +42001,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Frenzy 4/day"
         ]
@@ -42011,9 +42011,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Greater frenzy",
           "inspire frenzy 2/day"
@@ -42022,9 +42022,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Frenzy 5/day"
         ]
@@ -42032,9 +42032,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Inspire frenzy 3/day",
           "tireless frenzy",
@@ -44089,9 +44089,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           2
         ]
@@ -44099,9 +44099,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Crafty fighter"
         ]
@@ -44109,9 +44109,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Slippery"
         ]
@@ -44119,9 +44119,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           4
         ]
@@ -44129,9 +44129,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Close shot"
         ]
@@ -44139,9 +44139,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Fast movement"
         ]
@@ -44149,9 +44149,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           6
         ]
@@ -44159,9 +44159,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Improved mobility"
         ]
@@ -44169,9 +44169,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Annoying strike"
         ]
@@ -44179,9 +44179,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           8,
           "defensive roll"
@@ -48010,9 +48010,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Smite",
           "critical focus"
@@ -48021,9 +48021,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Rage 1/day"
         ]
@@ -48031,9 +48031,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Damage reduction 1/&#8212;"
         ]
@@ -48041,9 +48041,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Rage 2/day"
         ]
@@ -48051,9 +48051,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Damage reduction 2/&#8212;"
         ]
@@ -48061,9 +48061,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Rage 3/day"
         ]
@@ -48071,9 +48071,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Damage reduction 3/&#8212;"
         ]
@@ -48081,9 +48081,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Rage 4/day"
         ]
@@ -48091,9 +48091,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Damage reduction 4/&#8212;"
         ]
@@ -48101,9 +48101,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Rage 5/day"
         ]
@@ -50382,9 +50382,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Weapon finesse",
           "canny defense"
@@ -50393,9 +50393,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Lightning blade"
         ]
@@ -50403,9 +50403,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           ""
         ]
@@ -50413,9 +50413,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Bonus feat"
         ]
@@ -50423,9 +50423,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Strike from the Void"
         ]
@@ -50433,9 +50433,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           ""
         ]
@@ -50443,9 +50443,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           ""
         ]
@@ -50453,9 +50453,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 2,
+        "ref": 6,
+        "will": 2,
         "special": [
           "One strike",
           "two cuts"
@@ -50464,9 +50464,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           "Bonus feat"
         ]
@@ -50474,9 +50474,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Strike with no thought"
         ]
@@ -52549,9 +52549,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Extreme focus",
           "trap sense (+1)"
@@ -52560,9 +52560,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Erudite synergy"
         ]
@@ -52570,9 +52570,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Uncanny dodge"
         ]
@@ -52580,9 +52580,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Trap sense (+2)"
         ]
@@ -52590,9 +52590,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Erudite synergy"
         ]
@@ -52600,9 +52600,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Improved uncanny dodge"
         ]
@@ -52610,9 +52610,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Trap sense (+3)"
         ]
@@ -52620,9 +52620,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Erudite synergy"
         ]
@@ -52630,9 +52630,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ]
@@ -52640,9 +52640,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Intuitive logic"
         ]
@@ -53995,7 +53995,7 @@
         "Iron Will",
         "Spellwise"
       ],
-      "base will save": "+6.",
+      "will": "+6.",
       "patron deity": "One of Halruaa's accepted deities, usually Mystra or Azuth.",
       "special": "Must be literate and speak Common, Halruaan, and at least two other languages. Must have been raised by House Jordain. Such rearing precludes the practice of arcane magic and the use of many magic items, subject to investigation by a magehound."
     },
@@ -55225,9 +55225,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           2,
           "Expertise"
@@ -55236,9 +55236,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Deadly charge 1/day"
         ]
@@ -55246,9 +55246,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Burst of speed"
         ]
@@ -55256,9 +55256,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Deadly charge 2/day",
           4
@@ -55267,9 +55267,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "One spirit"
         ]
@@ -55277,9 +55277,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Deadly charge 3/day",
           "full mounted attack"
@@ -55288,9 +55288,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           6
         ]
@@ -55298,9 +55298,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Deadly charge 4/day"
         ]
@@ -55308,9 +55308,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Dancing with the Fortunes"
         ]
@@ -55318,9 +55318,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Deadly charge 5/day",
           8
@@ -55992,9 +55992,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Strengh of honor 1/day",
           "knightly courage"
@@ -56003,9 +56003,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           1
         ]
@@ -56013,9 +56013,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Fight to the Death"
         ]
@@ -56023,9 +56023,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Honorable will",
           "strength of honor 2/day"
@@ -56034,9 +56034,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           2
         ]
@@ -56044,9 +56044,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Might of honor"
         ]
@@ -56054,9 +56054,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Armored mobility",
           "strength of honor 3/day"
@@ -56065,9 +56065,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           3
         ]
@@ -56075,9 +56075,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Aura of Courage"
         ]
@@ -56085,9 +56085,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Crown of knighthood",
           "strength of honor 4/day"
@@ -56433,9 +56433,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           6
         ]
@@ -56443,9 +56443,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Demoralize"
         ]
@@ -56453,9 +56453,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Fight to the Death"
         ]
@@ -56463,9 +56463,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           6,
           "unbreakable will (+2 bonus)"
@@ -56474,9 +56474,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           ""
         ]
@@ -56484,9 +56484,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Armored Mobility"
         ]
@@ -56494,9 +56494,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           6
         ]
@@ -56504,9 +56504,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Unbreakable will (+4 bonus)"
         ]
@@ -56514,9 +56514,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           ""
         ]
@@ -56524,9 +56524,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           "One thought",
           6
@@ -60158,9 +60158,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           6
         ],
@@ -60169,9 +60169,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Bonus Mastered Spell"
         ],
@@ -60180,9 +60180,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           "Signature Supremacy"
         ],
@@ -60191,9 +60191,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Bonus Mastered Spell"
         ],
@@ -60202,9 +60202,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           6
         ],
@@ -60213,9 +60213,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Bonus Mastered Spell"
         ],
@@ -60224,9 +60224,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Signature Supremacy"
         ],
@@ -60235,9 +60235,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           "Bonus Mastered Spell"
         ],
@@ -60246,9 +60246,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           6
         ],
@@ -60257,9 +60257,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Magelord Mastery"
         ],
@@ -60690,9 +60690,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "reflex save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Skill Focus (Diplomacy)",
           "minor aura"
@@ -60703,9 +60703,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "reflex save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           1
         ],
@@ -60715,9 +60715,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "reflex save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           ""
         ],
@@ -60727,9 +60727,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "reflex save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Grant move action 1/day"
         ],
@@ -60739,9 +60739,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "reflex save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           ""
         ],
@@ -60751,9 +60751,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "reflex save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -60763,9 +60763,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "reflex save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           2
         ],
@@ -60775,9 +60775,9 @@
       {
         "level": 8,
         "bab": 1,
-        "fort save": 6,
-        "reflex save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Grant move action 2/day"
         ],
@@ -60787,9 +60787,9 @@
       {
         "level": 9,
         "bab": 1,
-        "fort save": 6,
-        "reflex save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ],
@@ -60799,9 +60799,9 @@
       {
         "level": 10,
         "bab": 2,
-        "fort save": 7,
-        "reflex save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           ""
         ],
@@ -60811,9 +60811,9 @@
       {
         "level": 11,
         "bab": 3,
-        "fort save": 7,
-        "reflex save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           ""
         ],
@@ -60823,9 +60823,9 @@
       {
         "level": 12,
         "bab": 4,
-        "fort save": 8,
-        "reflex save": 4,
-        "will save": 8,
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Grant move action 3/day"
         ],
@@ -60835,9 +60835,9 @@
       {
         "level": 13,
         "bab": 4,
-        "fort save": 8,
-        "reflex save": 4,
-        "will save": 8,
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
         "special": [
           ""
         ],
@@ -60847,9 +60847,9 @@
       {
         "level": 14,
         "bab": 5,
-        "fort save": 9,
-        "reflex save": 4,
-        "will save": 9,
+        "fort": 9,
+        "ref": 4,
+        "will": 9,
         "special": [
           3
         ],
@@ -60859,9 +60859,9 @@
       {
         "level": 15,
         "bab": 1,
-        "fort save": 9,
-        "reflex save": 5,
-        "will save": 9,
+        "fort": 9,
+        "ref": 5,
+        "will": 9,
         "special": [
           ""
         ],
@@ -60871,9 +60871,9 @@
       {
         "level": 16,
         "bab": 2,
-        "fort save": 10,
-        "reflex save": 5,
-        "will save": 10,
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
         "special": [
           "Grant move action 4/day"
         ],
@@ -60883,9 +60883,9 @@
       {
         "level": 17,
         "bab": 2,
-        "fort save": 10,
-        "reflex save": 5,
-        "will save": 10,
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
         "special": [
           ""
         ],
@@ -60895,9 +60895,9 @@
       {
         "level": 18,
         "bab": 3,
-        "fort save": 11,
-        "reflex save": 6,
-        "will save": 11,
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
         "special": [
           ""
         ],
@@ -60907,9 +60907,9 @@
       {
         "level": 19,
         "bab": 4,
-        "fort save": 11,
-        "reflex save": 6,
-        "will save": 11,
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
         "special": [
           ""
         ],
@@ -60919,9 +60919,9 @@
       {
         "level": 20,
         "bab": 5,
-        "fort save": 12,
-        "reflex save": 6,
-        "will save": 12,
+        "fort": 12,
+        "ref": 6,
+        "will": 12,
         "special": [
           "Grant move action 5/day",
           4
@@ -62269,9 +62269,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Summon undead (allip/shadow) 1/day"
         ],
@@ -62280,9 +62280,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Extra turning"
         ],
@@ -62291,9 +62291,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Summon undead (allips/shadows) 2/day"
         ],
@@ -62302,9 +62302,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           ""
         ],
@@ -62313,9 +62313,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Summon undead (wraiths) 3/day"
         ],
@@ -62324,9 +62324,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -62335,9 +62335,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Summon undead (spectres) 4/day"
         ],
@@ -62346,9 +62346,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           ""
         ],
@@ -62357,9 +62357,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Summon undead (greater shadows) 5/day"
         ],
@@ -62368,9 +62368,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           ""
         ],
@@ -63917,9 +63917,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Niten technique (+2 AC)"
         ]
@@ -63927,9 +63927,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           ""
         ]
@@ -63937,9 +63937,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Aid shugenja 1/day"
         ]
@@ -63947,9 +63947,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Niten technique (+3 AC)"
         ]
@@ -63957,9 +63957,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Aid shugenja 2/day"
         ]
@@ -63967,9 +63967,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ]
@@ -63977,9 +63977,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Niten technique (+4 AC)",
           "aid shugenja 3/day"
@@ -63988,9 +63988,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Diamond soul"
         ]
@@ -63998,9 +63998,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Aid shugenja (maximize) 4/day"
         ]
@@ -64008,9 +64008,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Niten technique (+5 AC)"
         ]
@@ -64621,9 +64621,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 2,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Natural spell",
           "voluntary change"
@@ -64633,9 +64633,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 3,
+        "ref": 3,
+        "will": 0,
         "special": [
           ""
         ],
@@ -64644,9 +64644,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 3,
+        "ref": 3,
+        "will": 1,
         "special": [
           "Rapid change"
         ],
@@ -64655,9 +64655,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           ""
         ],
@@ -64666,9 +64666,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Instantaneous change"
         ],
@@ -67344,9 +67344,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Might of darkness"
         ],
@@ -67355,9 +67355,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Eyes of night"
         ],
@@ -67366,9 +67366,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           ""
         ],
@@ -67377,9 +67377,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Shadow talk"
         ],
@@ -67388,9 +67388,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "True lies"
         ],
@@ -67399,9 +67399,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -67410,9 +67410,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Grace of the dark"
         ],
@@ -67421,9 +67421,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Minions of night"
         ],
@@ -67432,9 +67432,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ],
@@ -67443,9 +67443,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Voice of ineffable evil"
         ],
@@ -68344,9 +68344,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 2,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Exotic weapon",
           "ki breath",
@@ -68356,9 +68356,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Slow fall (20 ft.)",
           "improved evasion",
@@ -68368,9 +68368,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Exotic weapon",
           "acrobatics (+10)",
@@ -68380,9 +68380,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Slow fall (30 ft.)",
           "hide in plain sight"
@@ -68391,9 +68391,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Water walk",
           6
@@ -68402,9 +68402,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Exotic weapon",
           "slow fall (50 ft.)"
@@ -68413,9 +68413,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Thousand faces",
           "acrobatics (+20)"
@@ -68424,9 +68424,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Poison immunity",
           6
@@ -68435,9 +68435,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Exotic weapon",
           "slippery mind"
@@ -68446,9 +68446,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 7,
+        "ref": 7,
+        "will": 7,
         "special": [
           "Abundant step"
         ]
@@ -84616,9 +84616,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
         "special": [
           1,
           "fast movement"
@@ -84627,9 +84627,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 0,
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
         "special": [
           "Evasion"
         ]
@@ -84637,9 +84637,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
         "special": [
           "Detect enemy"
         ]
@@ -84647,9 +84647,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           2
         ]
@@ -84657,9 +84657,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 1,
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
         "special": [
           ""
         ]
@@ -84667,9 +84667,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Memory"
         ]
@@ -84677,9 +84677,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
         "special": [
           3
         ]
@@ -84687,9 +84687,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Freeze"
         ]
@@ -84697,9 +84697,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Smite enemy"
         ]
@@ -84707,9 +84707,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
         "special": [
           4
         ]
@@ -86990,9 +86990,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 2,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Wild shape (3/day)",
           "extra shifting"
@@ -87002,9 +87002,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           ""
         ],
@@ -87013,9 +87013,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Wild shape (Large)"
         ],
@@ -87024,9 +87024,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Wild shape (4/day)"
         ],
@@ -87035,9 +87035,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Wild shape (Tiny)"
         ],
@@ -87046,9 +87046,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Thousand faces"
         ],
@@ -87057,9 +87057,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Wild shape (dire)"
         ],
@@ -87068,9 +87068,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Wild shape (5/day)"
         ],
@@ -87079,9 +87079,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Wild shape (Huge)"
         ],
@@ -87090,9 +87090,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 7,
+        "ref": 7,
+        "will": 7,
         "special": [
           "Wild shape (elemental 1/day)",
           "natural shapechanger"
@@ -87234,9 +87234,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "No thought"
         ]
@@ -87244,9 +87244,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Aid shugenja 1/day"
         ]
@@ -87254,9 +87254,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           2
         ]
@@ -87264,9 +87264,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Aid shugenja 2/day"
         ]
@@ -87274,9 +87274,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           4
         ]
@@ -87284,9 +87284,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "One with nothing",
           "aid shugenja 3/day"
@@ -87295,9 +87295,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           6
         ]
@@ -87305,9 +87305,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Aid shugenja (maximize) 4/day"
         ]
@@ -87315,9 +87315,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Diamond soul"
         ]
@@ -87325,9 +87325,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "One with all and nothing"
         ]
@@ -87658,9 +87658,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 2,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Monk abilities",
           "touch the Void dragon",
@@ -87670,9 +87670,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Detect Taint",
           "smite Taint",
@@ -87682,9 +87682,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Grasp the earth dragon",
           "bonus feat"
@@ -87693,9 +87693,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Purity of Shinsei"
         ]
@@ -87703,9 +87703,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Channel the fire dragon",
           "bonus feat"
@@ -87714,9 +87714,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Great silence"
         ]
@@ -87724,9 +87724,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Steal the air dragon",
           "bonus feat"
@@ -87735,9 +87735,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Ancestral guidance"
         ]
@@ -87745,9 +87745,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Ride the water dragon",
           "bonus feat"
@@ -87756,9 +87756,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 7,
+        "ref": 7,
+        "will": 7,
         "special": [
           "Kukan-do"
         ]
@@ -88825,9 +88825,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Lion's roar",
           "Great Ki Shout"
@@ -88836,9 +88836,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Lion's fury 3/day"
         ]
@@ -88846,9 +88846,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Lion's courage",
           "Remain Conscious"
@@ -88857,9 +88857,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Lion's pounce"
         ]
@@ -88867,9 +88867,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Roaring strike"
         ]
@@ -88877,9 +88877,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Lion's fury 4/day"
         ]
@@ -88887,9 +88887,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Swiftness of the lioness"
         ]
@@ -88897,9 +88897,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Greater fury"
         ]
@@ -88907,9 +88907,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ]
@@ -88917,9 +88917,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Lion's fury 5/day",
           "no longer winded after fury"
@@ -92429,9 +92429,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           6,
           "steal spell (0 or 1st)",
@@ -92445,9 +92445,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Detect magic",
           1,
@@ -92461,9 +92461,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           10
         ],
@@ -92475,9 +92475,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Steal spell (2nd)"
         ],
@@ -92489,9 +92489,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           6,
           "steal spell-like ability"
@@ -92504,9 +92504,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Steal spell (3rd)"
         ],
@@ -92518,9 +92518,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Absorb spell"
         ],
@@ -92532,9 +92532,9 @@
       {
         "level": 8,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Steal spell (4th)"
         ],
@@ -92546,9 +92546,9 @@
       {
         "level": 9,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Arcane sight",
           6
@@ -92561,9 +92561,9 @@
       {
         "level": 10,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Steal spell (5th)"
         ],
@@ -92575,9 +92575,9 @@
       {
         "level": 11,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           2,
           20
@@ -92590,9 +92590,9 @@
       {
         "level": 12,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Steal spell (6th)"
         ],
@@ -92604,9 +92604,9 @@
       {
         "level": 13,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Discover spells",
           6
@@ -92619,9 +92619,9 @@
       {
         "level": 14,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 9,
+        "fort": 4,
+        "ref": 4,
+        "will": 9,
         "special": [
           "Steal spell (7th)"
         ],
@@ -92633,9 +92633,9 @@
       {
         "level": 15,
         "bab": 1,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 9,
+        "fort": 5,
+        "ref": 5,
+        "will": 9,
         "special": [
           "Steal spell resistance"
         ],
@@ -92647,9 +92647,9 @@
       {
         "level": 16,
         "bab": 2,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 5,
+        "ref": 5,
+        "will": 10,
         "special": [
           "Steal spell (8th)"
         ],
@@ -92661,9 +92661,9 @@
       {
         "level": 17,
         "bab": 2,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 10,
+        "fort": 5,
+        "ref": 5,
+        "will": 10,
         "special": [
           6
         ],
@@ -92675,9 +92675,9 @@
       {
         "level": 18,
         "bab": 3,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 6,
+        "ref": 6,
+        "will": 11,
         "special": [
           "Steal spell (9th)"
         ],
@@ -92689,9 +92689,9 @@
       {
         "level": 19,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 11,
+        "fort": 6,
+        "ref": 6,
+        "will": 11,
         "special": [
           30
         ],
@@ -92703,9 +92703,9 @@
       {
         "level": 20,
         "bab": 5,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 12,
+        "fort": 6,
+        "ref": 6,
+        "will": 12,
         "special": [
           "Absorb spell (immediate casting)",
           3
@@ -96633,9 +96633,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 0,
+        "ref": 2,
+        "will": 2,
         "special": [
           1,
           "discipline focus (weapon focus)"
@@ -96647,9 +96647,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 0,
+        "ref": 3,
+        "will": 3,
         "special": [
           "AC Bonus"
         ],
@@ -96660,9 +96660,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 1,
+        "ref": 3,
+        "will": 3,
         "special": [
           ""
         ],
@@ -96673,9 +96673,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Discipline focus (insightful strike)"
         ],
@@ -96686,9 +96686,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
         "special": [
           2
         ],
@@ -96699,9 +96699,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
         "special": [
           ""
         ],
@@ -96712,9 +96712,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Sense magic"
         ],
@@ -96725,9 +96725,9 @@
       {
         "level": 8,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 2,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Discipline focus (defensive stance"
         ],
@@ -96738,9 +96738,9 @@
       {
         "level": 9,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 3,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Evasion"
         ],
@@ -96751,9 +96751,9 @@
       {
         "level": 10,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 3,
+        "ref": 7,
+        "will": 7,
         "special": [
           3
         ],
@@ -96764,9 +96764,9 @@
       {
         "level": 11,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 3,
+        "ref": 7,
+        "will": 7,
         "special": [
           ""
         ],
@@ -96777,9 +96777,9 @@
       {
         "level": 12,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 8,
-        "will save": 8,
+        "fort": 4,
+        "ref": 8,
+        "will": 8,
         "special": [
           "Discipline focus (insightful strike)"
         ],
@@ -96790,9 +96790,9 @@
       {
         "level": 13,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 8,
-        "will save": 8,
+        "fort": 4,
+        "ref": 8,
+        "will": 8,
         "special": [
           ""
         ],
@@ -96803,9 +96803,9 @@
       {
         "level": 14,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 9,
-        "will save": 9,
+        "fort": 4,
+        "ref": 9,
+        "will": 9,
         "special": [
           ""
         ],
@@ -96816,9 +96816,9 @@
       {
         "level": 15,
         "bab": 1,
-        "fort save": 5,
-        "ref save": 9,
-        "will save": 9,
+        "fort": 5,
+        "ref": 9,
+        "will": 9,
         "special": [
           4
         ],
@@ -96829,9 +96829,9 @@
       {
         "level": 16,
         "bab": 2,
-        "fort save": 5,
-        "ref save": 10,
-        "will save": 10,
+        "fort": 5,
+        "ref": 10,
+        "will": 10,
         "special": [
           "Discipline focus (defensive stance)"
         ],
@@ -96842,9 +96842,9 @@
       {
         "level": 17,
         "bab": 3,
-        "fort save": 5,
-        "ref save": 10,
-        "will save": 10,
+        "fort": 5,
+        "ref": 10,
+        "will": 10,
         "special": [
           "Improved evasion"
         ],
@@ -96855,9 +96855,9 @@
       {
         "level": 18,
         "bab": 3,
-        "fort save": 6,
-        "ref save": 11,
-        "will save": 11,
+        "fort": 6,
+        "ref": 11,
+        "will": 11,
         "special": [
           ""
         ],
@@ -96868,9 +96868,9 @@
       {
         "level": 19,
         "bab": 4,
-        "fort save": 6,
-        "ref save": 11,
-        "will save": 11,
+        "fort": 6,
+        "ref": 11,
+        "will": 11,
         "special": [
           ""
         ],
@@ -96881,9 +96881,9 @@
       {
         "level": 20,
         "bab": 5,
-        "fort save": 6,
-        "ref save": 12,
-        "will save": 12,
+        "fort": 6,
+        "ref": 12,
+        "will": 12,
         "special": [
           "Dual boost 3/day",
           5
@@ -97845,9 +97845,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 2,
+        "fort": 2,
+        "ref": 2,
+        "will": 2,
         "special": [
           "Monk abilities",
           "tattoo"
@@ -97856,9 +97856,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           ""
         ]
@@ -97866,9 +97866,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 3,
+        "fort": 3,
+        "ref": 3,
+        "will": 3,
         "special": [
           "Tattoo"
         ]
@@ -97876,9 +97876,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           ""
         ]
@@ -97886,9 +97886,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 4,
+        "fort": 4,
+        "ref": 4,
+        "will": 4,
         "special": [
           "Tattoo"
         ]
@@ -97896,9 +97896,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           ""
         ]
@@ -97906,9 +97906,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 5,
-        "ref save": 5,
-        "will save": 5,
+        "fort": 5,
+        "ref": 5,
+        "will": 5,
         "special": [
           "Tattoo"
         ]
@@ -97916,9 +97916,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           ""
         ]
@@ -97926,9 +97926,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 6,
-        "ref save": 6,
-        "will save": 6,
+        "fort": 6,
+        "ref": 6,
+        "will": 6,
         "special": [
           "Tattoo"
         ]
@@ -97936,9 +97936,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 7,
-        "ref save": 7,
-        "will save": 7,
+        "fort": 7,
+        "ref": 7,
+        "will": 7,
         "special": [
           ""
         ]
@@ -101021,7 +101021,7 @@
       "feats": [
         "Quick Recovery"
       ],
-      "base will save": "+3 OR divine grace class feature.",
+      "will": "+3 OR divine grace class feature.",
       "special": "Must be sponsored by an existing member and approved by a High Sunwarden of the order."
     },
     "skill points": {
@@ -106959,9 +106959,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 0,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Sense Void (physical senses",
           "1/day)"
@@ -106971,9 +106971,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 0,
+        "ref": 0,
+        "will": 3,
         "special": [
           ""
         ],
@@ -106982,9 +106982,9 @@
       {
         "level": 3,
         "bab": 1,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 1,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Sense Void (2/day)"
         ],
@@ -106993,9 +106993,9 @@
       {
         "level": 4,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Moment of clarity (2/day)"
         ],
@@ -107004,9 +107004,9 @@
       {
         "level": 5,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 1,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Sense Void (magical senses",
           "3/day)"
@@ -107016,9 +107016,9 @@
       {
         "level": 6,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -107027,9 +107027,9 @@
       {
         "level": 7,
         "bab": 3,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 2,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Altering the course",
           "sense void (4/day)"
@@ -107039,9 +107039,9 @@
       {
         "level": 8,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 2,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Moment of clarity (3/day)"
         ],
@@ -107050,9 +107050,9 @@
       {
         "level": 9,
         "bab": 4,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 3,
+        "ref": 3,
+        "will": 6,
         "special": [
           "Sense Void (empathic senses",
           "5/day)"
@@ -107062,9 +107062,9 @@
       {
         "level": 10,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Void release"
         ],
@@ -107073,9 +107073,9 @@
       {
         "level": 11,
         "bab": 5,
-        "fort save": 3,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 3,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Sense Void (6/day)"
         ],
@@ -107084,9 +107084,9 @@
       {
         "level": 12,
         "bab": 6,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Void suppression",
           "moment of clarity (4/day)"
@@ -107096,9 +107096,9 @@
       {
         "level": 13,
         "bab": 6,
-        "fort save": 4,
-        "ref save": 4,
-        "will save": 8,
+        "fort": 4,
+        "ref": 4,
+        "will": 8,
         "special": [
           "Void strike",
           "sense Void (mental senses",
@@ -110715,9 +110715,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Weapon of choice",
           "ki damage 1/day/level"
@@ -110726,9 +110726,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Increased multiplier 1/day"
         ]
@@ -110736,9 +110736,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           "Superior Weapon Focus"
         ]
@@ -110746,9 +110746,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Increased multiplier 2/day"
         ]
@@ -110756,9 +110756,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Superior Combat Reflexes"
         ]
@@ -110766,9 +110766,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Increased multiplier 3/day"
         ]
@@ -110776,9 +110776,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           "Ki critical"
         ]
@@ -110786,9 +110786,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 2,
+        "ref": 6,
+        "will": 2,
         "special": [
           "Increased multiplier 4/day"
         ]
@@ -110796,9 +110796,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           "Ki Whirlwind Attack"
         ]
@@ -110806,9 +110806,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Increased multiplier 5/day"
         ]
@@ -112341,9 +112341,9 @@
       {
         "level": 1,
         "bab": 1,
-        "fort save": 2,
-        "ref save": 0,
-        "will save": 2,
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
         "special": [
           "Detect evil",
           "kami's grace"
@@ -112353,9 +112353,9 @@
       {
         "level": 2,
         "bab": 2,
-        "fort save": 3,
-        "ref save": 0,
-        "will save": 3,
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
         "special": [
           "Smite evil"
         ],
@@ -112364,9 +112364,9 @@
       {
         "level": 3,
         "bab": 3,
-        "fort save": 3,
-        "ref save": 1,
-        "will save": 3,
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
         "special": [
           "Aura of courage"
         ],
@@ -112375,9 +112375,9 @@
       {
         "level": 4,
         "bab": 4,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           "Bonus feat: Power Attack"
         ],
@@ -112386,9 +112386,9 @@
       {
         "level": 5,
         "bab": 5,
-        "fort save": 4,
-        "ref save": 1,
-        "will save": 4,
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
         "special": [
           ""
         ],
@@ -112397,9 +112397,9 @@
       {
         "level": 6,
         "bab": 6,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           "Bonus feat: Cleave"
         ],
@@ -112408,9 +112408,9 @@
       {
         "level": 7,
         "bab": 7,
-        "fort save": 5,
-        "ref save": 2,
-        "will save": 5,
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
         "special": [
           ""
         ],
@@ -112419,9 +112419,9 @@
       {
         "level": 8,
         "bab": 8,
-        "fort save": 6,
-        "ref save": 2,
-        "will save": 6,
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
         "special": [
           "Resist evil magic"
         ],
@@ -112430,9 +112430,9 @@
       {
         "level": 9,
         "bab": 9,
-        "fort save": 6,
-        "ref save": 3,
-        "will save": 6,
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
         "special": [
           ""
         ],
@@ -112441,9 +112441,9 @@
       {
         "level": 10,
         "bab": 10,
-        "fort save": 7,
-        "ref save": 3,
-        "will save": 7,
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
         "special": [
           "Bonus feat: Great Cleave"
         ],
@@ -113871,9 +113871,9 @@
       {
         "level": 1,
         "bab": 0,
-        "fort save": 0,
-        "ref save": 2,
-        "will save": 0,
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
         "special": [
           "Uncanny dodge (Dex bonus to AC)",
           "defensive roll"
@@ -113882,9 +113882,9 @@
       {
         "level": 2,
         "bab": 1,
-        "fort save": 0,
-        "ref save": 3,
-        "will save": 0,
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
         "special": [
           "Improved evasion"
         ]
@@ -113892,9 +113892,9 @@
       {
         "level": 3,
         "bab": 2,
-        "fort save": 1,
-        "ref save": 3,
-        "will save": 1,
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
         "special": [
           "Yakuza knowledge"
         ]
@@ -113902,9 +113902,9 @@
       {
         "level": 4,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Uncanny dodge (can't be flanked)"
         ]
@@ -113912,9 +113912,9 @@
       {
         "level": 5,
         "bab": 3,
-        "fort save": 1,
-        "ref save": 4,
-        "will save": 1,
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
         "special": [
           "Leadership"
         ]
@@ -113922,9 +113922,9 @@
       {
         "level": 6,
         "bab": 4,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           ""
         ]
@@ -113932,9 +113932,9 @@
       {
         "level": 7,
         "bab": 5,
-        "fort save": 2,
-        "ref save": 5,
-        "will save": 2,
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
         "special": [
           ""
         ]
@@ -113942,9 +113942,9 @@
       {
         "level": 8,
         "bab": 6,
-        "fort save": 2,
-        "ref save": 6,
-        "will save": 2,
+        "fort": 2,
+        "ref": 6,
+        "will": 2,
         "special": [
           "Uncanny dodge (+1 to traps)"
         ]
@@ -113952,9 +113952,9 @@
       {
         "level": 9,
         "bab": 6,
-        "fort save": 3,
-        "ref save": 6,
-        "will save": 3,
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
         "special": [
           ""
         ]
@@ -113962,9 +113962,9 @@
       {
         "level": 10,
         "bab": 7,
-        "fort save": 3,
-        "ref save": 7,
-        "will save": 3,
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
         "special": [
           "Slippery mind"
         ]
