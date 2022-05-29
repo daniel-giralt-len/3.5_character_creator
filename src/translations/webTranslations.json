@@ -71,7 +71,7 @@
     "ca": {
         "score": "Puntuació",
         "base": "Base",
-        "bonuses": "Bonusos",
+        "bonuses": "Bonus",
         "total": "Total",
         "filters": "Filtres",
         "show disallowed": "Mostrar prohibit",

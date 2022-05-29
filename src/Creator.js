@@ -1,7 +1,6 @@
 import ItemBrowser from './ItemBrowser'
 import Filters from './Filters'
 import { useState } from 'react';
-import { useCookies } from 'react-cookie'
 
 function Creator({creation,
   onCreationChange,

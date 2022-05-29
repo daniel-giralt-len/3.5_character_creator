@@ -18,7 +18,6 @@ const ContentWrapper = styled.div`
   grid-template-areas: 
     "left right";
 `
-const HeaderWrapper = styled.div``
 const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
@@ -37,6 +36,7 @@ function App() {
     })
   }
   const isCorpus = isCorpusSelected === 'true'
+  const isCharacter = !isCorpus
   const translations = webTranslations[language]
   
   const translate = strIn => {
@@ -60,23 +60,22 @@ function App() {
 
   return (
     <div>
-        <HeaderWrapper>
-          <Header
-            handleCreationSwitch={handleCreationSwitch}
-            handleChangeTranslations={handleChangeTranslations}
-            translate={translate}
-            isCorpus={isCorpus}
-          />
-        </HeaderWrapper>
+        <Header
+          handleCreationSwitch={handleCreationSwitch}
+          handleChangeTranslations={handleChangeTranslations}
+          translate={translate}
+          isCorpus={isCorpus}
+        />
         <ContentWrapper>
           <LeftWrapper>
-            <CorpusSelector 
-              isCorpus={isCorpus}
-              corpuses={corpuses}
-              translate={translate}
-              handleCorpusChange={handleCorpusChange}
-              selectedCorpus={selectedCorpus}
-            />
+            {isCharacter && (
+              <CorpusSelector 
+                corpuses={corpuses}
+                translate={translate}
+                handleCorpusChange={handleCorpusChange}
+                selectedCorpus={selectedCorpus}
+              />
+            )}
             <Creator 
               creation={usedCreation}
               onCreationChange={handleCreationChange}
