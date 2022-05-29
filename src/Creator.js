@@ -1,8 +1,15 @@
+import styled from 'styled-components'
 import { useState } from 'react';
 
 import { SelectedButton } from './styles'
 import Filters from './Filters'
 import ItemBrowser from './ItemBrowser'
+
+const PageSelectorWrapper = styled.div`
+  margin: 8px 0px;
+  display: flex;
+  justify-content: center;
+`
 
 const PageSelector = ({
   pages,
@@ -11,7 +18,7 @@ const PageSelector = ({
   selectedPage = false,
 }) => {
   return (
-    <div>{pages.map(({name}) => (
+    <PageSelectorWrapper>{pages.map(({name}) => (
       <SelectedButton
         key={name}
         onClick={()=>onSelectPage(name)}
@@ -19,7 +26,7 @@ const PageSelector = ({
       >
         {translate(name)}
       </SelectedButton>))}
-    </div>
+    </PageSelectorWrapper>
   )
 }
 

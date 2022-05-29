@@ -38,7 +38,7 @@ function renderItems({
 const ItemSearchBar = styled.textarea`
     resize: none;
     font-size: 1.5em;
-    padding: 10px 3px;
+    padding: 10px 10px;
     border-width: 2px;
     border-color: #340000;
     border-radius: 15px;
