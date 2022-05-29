@@ -24,14 +24,21 @@ function BaseItem ({
     const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book, edition } = item
 
+    const bookData = (findInDb(dbs, 'rulebooks', book) || {})
+    const editionData = (findInDb(dbs, 'editions', edition) || {})
+
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
         isSelected={isSelected}
     >
         <span>{name}</span>
-        {book && findInDb(dbs, 'rulebooks', book) && findInDb(dbs, 'rulebooks', book).name}
-        {edition && findInDb(dbs, 'editions', edition) && findInDb(dbs, 'editions', edition).name}
-        {isAddable && (<button onClick={onSelectItem}>{isSelected ? '-' : '+'}</button>)}
+        {bookData.name}
+        {editionData.name}
+        {isAddable && (
+            <button onClick={onSelectItem}>
+                {isSelected ? '-' : '+'}
+            </button>
+        )}
     </BaseItemWrapper>)
 
         //There are some classes such as the arcane devotee which have no associated book but have a hidden link to 
