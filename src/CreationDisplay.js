@@ -1,4 +1,4 @@
-import findInDb from "./findInDb";
+import findInDb from "./functions/findInDb";
 
 import ScoreDisplay from "./displays/ScoreDisplay";
 import ClassDisplay from "./displays/ClassDisplay";

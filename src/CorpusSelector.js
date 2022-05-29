@@ -24,7 +24,7 @@ function CorpusSelector({
                     ))
                     }
                 </div>
-            </div>)
+            </div>
         </>
     )
 }

@@ -78,12 +78,12 @@ function App() {
             )}
             <Creator 
               creation={usedCreation}
-              onCreationChange={handleCreationChange}
               corpus={usedCorpus}
               isCorpus={isCorpus}
               dbs={dbs}
-              translate={translate}
               filters={filters}
+              translate={translate}
+              onCreationChange={handleCreationChange}
               onFilterChange={handleFilterChange}
             />
           </LeftWrapper>

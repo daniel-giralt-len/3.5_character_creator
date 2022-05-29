@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import findInDb from '../findInDb'
+import findInDb from '../functions/findInDb'
 
 const BaseItemWrapper = styled.div`
     padding: 15px;

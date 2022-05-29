@@ -2,13 +2,28 @@ import ItemBrowser from './ItemBrowser'
 import Filters from './Filters'
 import { useState } from 'react';
 
-function Creator({creation,
-  onCreationChange,
+const PageSelector = ({
+  pages,
+  onSelectPage,
+  translate
+}) => {
+  return (
+    <div>{pages.map(({name}) => (
+      <button key={name} onClick={()=>onSelectPage(name)}>
+        {translate(name)}
+      </button>))}
+    </div>
+  )
+}
+
+function Creator({
+  creation,
   corpus,
   isCorpus,
   dbs,
-  translate,
   filters,
+  translate,
+  onCreationChange,
   onFilterChange
 }) {
 
@@ -23,6 +38,7 @@ function Creator({creation,
   ]
 
   const [selectedPage, setSelectedPage] = useState('races')
+  const selectedPageItems = pages.filter(({name}) => name === selectedPage)
 
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -30,37 +46,37 @@ function Creator({creation,
       [type]: list
     })
   }
-
-
   
   return (
     <div>
         <nav>
-          <div>
-            <Filters
-              selectedPage={selectedPage}
-              onFilterChange={onFilterChange}
-              filters={filters}
-              translate={translate}
-            />
-          </div>
-          <div>{pages.map(({name}) => (<button key={name} onClick={()=>setSelectedPage(name)}>{translate(name)}</button>))}</div>
+          <Filters
+            selectedPage={selectedPage}
+            onFilterChange={onFilterChange}
+            filters={filters}
+            translate={translate}
+          />
+          <PageSelector
+            pages={pages}
+            onSelectPage={setSelectedPage}
+            translate={translate}
+          />
         </nav>
-          {pages.filter(({name}) => name === selectedPage).map(({name, isExclusive, isUsableOnlyInCorpus}) => (
-            <ItemBrowser
-              key={name}
-              handleCreationChange={list => handleCreationChange(name, list)}
-              selected={creation[name]}
-              items={dbs[name]}
-              permittedCorpus={corpus}
-              itemType={name}
-              isCorpus={isCorpus}
-              isExclusive={!isCorpus && isExclusive}
-              disabled={isUsableOnlyInCorpus && !isCorpus}
-              dbs={dbs}
-              userFilters={filters}
-            />
-          ))}
+        {selectedPageItems.map(({name, isExclusive, isUsableOnlyInCorpus}) => (
+          <ItemBrowser
+            key={name}
+            handleCreationChange={list => handleCreationChange(name, list)}
+            selected={creation[name]}
+            items={dbs[name]}
+            permittedCorpus={corpus}
+            itemType={name}
+            isCorpus={isCorpus}
+            isExclusive={!isCorpus && isExclusive}
+            disabled={isUsableOnlyInCorpus && !isCorpus}
+            dbs={dbs}
+            userFilters={filters}
+          />
+        ))}
     </div>
   );
 }

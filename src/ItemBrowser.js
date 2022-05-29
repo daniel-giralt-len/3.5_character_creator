@@ -1,16 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components'
 import BaseItem from './items/BaseItem'
-
-const accents = [
-    [/[aàáäâ]/g, 'a'],
-    [/[eèéëê]/g, 'e'],
-    [/[iìíïî]/g, 'i'],
-    [/[oòóöô]/g, 'o'],
-    [/[uùúüû]/g, 'u'],
-    [/[nñ]/g, 'n'],
-    [/ +/g, ' '],
-]
+import getItemRegex from './functions/getItemRegex';
 
 function isItemPermitted({corpus, item, itemType}){
     return (
@@ -34,9 +25,6 @@ function renderItems({items,
     userFilters,
     isLevel20
 }) {
-    let regexText = searchedText.toLocaleLowerCase()
-    accents.forEach(accent => regexText = regexText.replace(accent[0], accent[1]))
-    const regex = new RegExp(regexText)
 
     let filteredItems = items
     if(userFilters.showDisallowed === false){
@@ -46,9 +34,11 @@ function renderItems({items,
 
     const isSelected = id => (itemType === 'races' && selectedList === id)
         || selectedList[id] === true
+    
+     const searchRegex = getItemRegex(searchedText)
 
     return filteredItems
-        .filter(item => item.name.toLocaleLowerCase().match(regex))
+        .filter(item => searchRegex.test(item.name))
         .map(item => (<BaseItem
             key={item.id}
             item={item}
