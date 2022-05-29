@@ -4279,7 +4279,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 2,
         "ref save": 0,
         "will save": 2,
@@ -4300,7 +4300,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 0,
         "will save": 3,
@@ -4320,7 +4320,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 1,
         "will save": 3,
@@ -4340,7 +4340,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -4360,7 +4360,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -4380,7 +4380,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -4400,7 +4400,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -4420,7 +4420,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 2,
         "will save": 6,
@@ -4440,7 +4440,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 3,
         "will save": 6,
@@ -4460,7 +4460,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 7,
         "ref save": 3,
         "will save": 7,
@@ -4480,7 +4480,7 @@
       },
       {
         "level": 11,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 7,
         "ref save": 3,
         "will save": 7,
@@ -4500,7 +4500,7 @@
       },
       {
         "level": 12,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 8,
         "ref save": 4,
         "will save": 8,
@@ -4520,7 +4520,7 @@
       },
       {
         "level": 13,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 8,
         "ref save": 4,
         "will save": 8,
@@ -4540,7 +4540,7 @@
       },
       {
         "level": 14,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 9,
         "ref save": 4,
         "will save": 9,
@@ -4560,7 +4560,7 @@
       },
       {
         "level": 15,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 9,
         "ref save": 5,
         "will save": 9,
@@ -4580,7 +4580,7 @@
       },
       {
         "level": 16,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 10,
         "ref save": 5,
         "will save": 10,
@@ -4600,7 +4600,7 @@
       },
       {
         "level": 17,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 10,
         "ref save": 5,
         "will save": 10,
@@ -4620,7 +4620,7 @@
       },
       {
         "level": 18,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 11,
         "ref save": 6,
         "will save": 11,
@@ -4640,7 +4640,7 @@
       },
       {
         "level": 19,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 11,
         "ref save": 6,
         "will save": 11,
@@ -4660,7 +4660,7 @@
       },
       {
         "level": 20,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 12,
         "ref save": 6,
         "will save": 12,
@@ -14269,7 +14269,7 @@
     "advancement": [
       {
         "level*": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 2,
@@ -14282,7 +14282,7 @@
       },
       {
         "level*": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 3,
@@ -14292,7 +14292,7 @@
       },
       {
         "level*": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 3,
@@ -14302,7 +14302,7 @@
       },
       {
         "level*": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -14313,7 +14313,7 @@
       },
       {
         "level*": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -14323,7 +14323,7 @@
       },
       {
         "level*": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -14335,7 +14335,7 @@
       },
       {
         "level*": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -14345,7 +14345,7 @@
       },
       {
         "level*": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 6,
@@ -14355,7 +14355,7 @@
       },
       {
         "level*": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 6,
@@ -14366,7 +14366,7 @@
       },
       {
         "level*": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 7,
@@ -20592,7 +20592,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 2,
         "will save": 0,
@@ -20602,7 +20602,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 0,
         "ref save": 3,
         "will save": 0,
@@ -20612,7 +20612,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 3,
         "will save": 1,
@@ -20622,7 +20622,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 1,
         "ref save": 4,
         "will save": 1,
@@ -20632,7 +20632,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 1,
         "ref save": 4,
         "will save": 1,
@@ -21196,7 +21196,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 2,
         "will save": 0,
@@ -21206,7 +21206,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 3,
         "will save": 0,
@@ -21216,7 +21216,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 3,
         "will save": 1,
@@ -21226,7 +21226,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -21237,7 +21237,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -21247,7 +21247,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 5,
         "will save": 2,
@@ -21257,7 +21257,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 5,
         "will save": 2,
@@ -21268,7 +21268,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 6,
         "will save": 2,
@@ -21278,7 +21278,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 6,
         "will save": 3,
@@ -21288,7 +21288,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 7,
         "will save": 3,
@@ -30409,7 +30409,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 0,
         "will save": 2,
@@ -30429,7 +30429,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 0,
         "will save": 3,
@@ -30448,7 +30448,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 1,
         "ref save": 1,
         "will save": 3,
@@ -30467,7 +30467,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -30487,7 +30487,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -30506,7 +30506,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -30525,7 +30525,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -30545,7 +30545,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 2,
         "will save": 6,
@@ -30566,7 +30566,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 3,
         "ref save": 3,
         "will save": 6,
@@ -30585,7 +30585,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -30604,7 +30604,7 @@
       },
       {
         "level": 11,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -30624,7 +30624,7 @@
       },
       {
         "level": 12,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 4,
         "ref save": 4,
         "will save": 8,
@@ -30644,7 +30644,7 @@
       },
       {
         "level": 13,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 4,
         "ref save": 4,
         "will save": 8,
@@ -30663,7 +30663,7 @@
       },
       {
         "level": 14,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 4,
         "ref save": 4,
         "will save": 9,
@@ -30682,7 +30682,7 @@
       },
       {
         "level": 15,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 5,
         "ref save": 5,
         "will save": 9,
@@ -30701,7 +30701,7 @@
       },
       {
         "level": 16,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 5,
         "ref save": 5,
         "will save": 10,
@@ -30721,7 +30721,7 @@
       },
       {
         "level": 17,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 5,
         "ref save": 5,
         "will save": 10,
@@ -30741,7 +30741,7 @@
       },
       {
         "level": 18,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 6,
         "will save": 11,
@@ -30760,7 +30760,7 @@
       },
       {
         "level": 19,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 6,
         "will save": 11,
@@ -30779,7 +30779,7 @@
       },
       {
         "level": 20,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 6,
         "ref save": 6,
         "will save": 12,
@@ -31439,7 +31439,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 2,
         "ref save": 2,
         "will save": 0,
@@ -31450,7 +31450,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 3,
         "will save": 0,
@@ -31460,7 +31460,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 3,
         "will save": 1,
@@ -31470,7 +31470,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -31481,7 +31481,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -31491,7 +31491,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 5,
         "ref save": 5,
         "will save": 2,
@@ -31501,7 +31501,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 5,
         "ref save": 5,
         "will save": 2,
@@ -31511,7 +31511,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 6,
         "ref save": 6,
         "will save": 2,
@@ -31521,7 +31521,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 6,
         "ref save": 6,
         "will save": 3,
@@ -31533,7 +31533,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 7,
         "ref save": 7,
         "will save": 3,
@@ -33042,7 +33042,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 0,
         "will save": 2,
@@ -33053,7 +33053,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 0,
         "will save": 3,
@@ -33064,7 +33064,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 1,
         "ref save": 1,
         "will save": 3,
@@ -33075,7 +33075,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -33086,7 +33086,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -33097,7 +33097,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -33108,7 +33108,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -33119,7 +33119,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 2,
         "will save": 6,
@@ -33130,7 +33130,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 3,
         "ref save": 3,
         "will save": 6,
@@ -33141,7 +33141,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -37060,7 +37060,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -37070,7 +37070,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -37080,7 +37080,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -37685,7 +37685,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -37697,7 +37697,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -37707,7 +37707,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -37717,7 +37717,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -37727,7 +37727,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -37737,7 +37737,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -37747,7 +37747,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -37757,7 +37757,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 2,
@@ -37767,7 +37767,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 3,
@@ -37777,7 +37777,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 3,
@@ -41938,7 +41938,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -41949,7 +41949,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -41959,7 +41959,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -41969,7 +41969,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -41979,7 +41979,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -41990,7 +41990,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -42000,7 +42000,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -42010,7 +42010,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 2,
@@ -42021,7 +42021,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 3,
@@ -42031,7 +42031,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 3,
@@ -44088,7 +44088,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -44098,7 +44098,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -44108,7 +44108,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -44118,7 +44118,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -44128,7 +44128,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -44138,7 +44138,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -44148,7 +44148,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -44158,7 +44158,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 2,
@@ -44168,7 +44168,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 3,
@@ -44178,7 +44178,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 3,
@@ -52548,7 +52548,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 0,
         "will save": 2,
@@ -52559,7 +52559,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 0,
         "will save": 3,
@@ -52569,7 +52569,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 3,
@@ -52579,7 +52579,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -52589,7 +52589,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -52599,7 +52599,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -52609,7 +52609,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -52619,7 +52619,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 2,
         "ref save": 2,
         "will save": 6,
@@ -52629,7 +52629,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 3,
         "ref save": 3,
         "will save": 6,
@@ -52639,7 +52639,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -55991,7 +55991,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -56002,7 +56002,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -56012,7 +56012,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -56022,7 +56022,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -56033,7 +56033,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -56043,7 +56043,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -56053,7 +56053,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -56064,7 +56064,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 2,
@@ -56074,7 +56074,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 3,
@@ -56084,7 +56084,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 3,
@@ -56432,7 +56432,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 0,
         "will save": 0,
@@ -56442,7 +56442,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 0,
         "will save": 0,
@@ -56452,7 +56452,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 1,
         "will save": 1,
@@ -56462,7 +56462,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -56473,7 +56473,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 1,
         "will save": 1,
@@ -56483,7 +56483,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -56493,7 +56493,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 5,
         "ref save": 2,
         "will save": 2,
@@ -56503,7 +56503,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 8,
+        "bab": 8,
         "fort save": 6,
         "ref save": 2,
         "will save": 2,
@@ -56513,7 +56513,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 9,
+        "bab": 9,
         "fort save": 6,
         "ref save": 3,
         "will save": 3,
@@ -56523,7 +56523,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 10,
+        "bab": 10,
         "fort save": 7,
         "ref save": 3,
         "will save": 3,
@@ -60157,7 +60157,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 2,
         "will save": 0,
@@ -60168,7 +60168,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 3,
         "will save": 0,
@@ -60179,7 +60179,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 1,
         "ref save": 3,
         "will save": 1,
@@ -60190,7 +60190,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 4,
         "will save": 1,
@@ -60201,7 +60201,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 4,
         "will save": 1,
@@ -60212,7 +60212,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 5,
         "will save": 2,
@@ -60223,7 +60223,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 2,
         "ref save": 5,
         "will save": 2,
@@ -60234,7 +60234,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 3,
         "ref save": 6,
         "will save": 3,
@@ -60245,7 +60245,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 3,
         "ref save": 6,
         "will save": 3,
@@ -60256,7 +60256,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 3,
         "ref save": 7,
         "will save": 3,
@@ -60689,7 +60689,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 2,
         "reflex save": 0,
         "will save": 2,
@@ -60702,7 +60702,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "reflex save": 0,
         "will save": 3,
@@ -60714,7 +60714,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "reflex save": 1,
         "will save": 3,
@@ -60726,7 +60726,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "reflex save": 1,
         "will save": 4,
@@ -60738,7 +60738,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "reflex save": 1,
         "will save": 4,
@@ -60750,7 +60750,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 5,
         "reflex save": 2,
         "will save": 5,
@@ -60762,7 +60762,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 5,
         "reflex save": 2,
         "will save": 5,
@@ -60774,7 +60774,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 6,
         "reflex save": 2,
         "will save": 6,
@@ -60786,7 +60786,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 6,
         "reflex save": 3,
         "will save": 6,
@@ -60798,7 +60798,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 7,
         "reflex save": 3,
         "will save": 7,
@@ -60810,7 +60810,7 @@
       },
       {
         "level": 11,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 7,
         "reflex save": 3,
         "will save": 7,
@@ -60822,7 +60822,7 @@
       },
       {
         "level": 12,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 8,
         "reflex save": 4,
         "will save": 8,
@@ -60834,7 +60834,7 @@
       },
       {
         "level": 13,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 8,
         "reflex save": 4,
         "will save": 8,
@@ -60846,7 +60846,7 @@
       },
       {
         "level": 14,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 9,
         "reflex save": 4,
         "will save": 9,
@@ -60858,7 +60858,7 @@
       },
       {
         "level": 15,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 9,
         "reflex save": 5,
         "will save": 9,
@@ -60870,7 +60870,7 @@
       },
       {
         "level": 16,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 10,
         "reflex save": 5,
         "will save": 10,
@@ -60882,7 +60882,7 @@
       },
       {
         "level": 17,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 10,
         "reflex save": 5,
         "will save": 10,
@@ -60894,7 +60894,7 @@
       },
       {
         "level": 18,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 11,
         "reflex save": 6,
         "will save": 11,
@@ -60906,7 +60906,7 @@
       },
       {
         "level": 19,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 11,
         "reflex save": 6,
         "will save": 11,
@@ -60918,7 +60918,7 @@
       },
       {
         "level": 20,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 12,
         "reflex save": 6,
         "will save": 12,
@@ -62268,7 +62268,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 0,
         "will save": 2,
@@ -62279,7 +62279,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 0,
         "will save": 3,
@@ -62290,7 +62290,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 3,
@@ -62301,7 +62301,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -62312,7 +62312,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -62323,7 +62323,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -62334,7 +62334,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -62345,7 +62345,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 2,
         "ref save": 2,
         "will save": 6,
@@ -62356,7 +62356,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 3,
         "ref save": 3,
         "will save": 6,
@@ -62367,7 +62367,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -64620,7 +64620,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 2,
         "will save": 0,
@@ -64632,7 +64632,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 3,
         "will save": 0,
@@ -64643,7 +64643,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 3,
         "will save": 1,
@@ -64654,7 +64654,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -64665,7 +64665,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 4,
         "will save": 1,
@@ -67343,7 +67343,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 2,
         "ref save": 0,
         "will save": 2,
@@ -67354,7 +67354,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 0,
         "will save": 3,
@@ -67365,7 +67365,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 1,
         "will save": 3,
@@ -67376,7 +67376,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -67387,7 +67387,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 4,
         "ref save": 1,
         "will save": 4,
@@ -67398,7 +67398,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -67409,7 +67409,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 5,
         "ref save": 2,
         "will save": 5,
@@ -67420,7 +67420,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 6,
         "ref save": 2,
         "will save": 6,
@@ -67431,7 +67431,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 6,
+        "bab": 6,
         "fort save": 6,
         "ref save": 3,
         "will save": 6,
@@ -67442,7 +67442,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 7,
+        "bab": 7,
         "fort save": 7,
         "ref save": 3,
         "will save": 7,
@@ -92428,7 +92428,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 0,
         "will save": 2,
@@ -92444,7 +92444,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 0,
         "will save": 3,
@@ -92460,7 +92460,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 1,
         "will save": 3,
@@ -92474,7 +92474,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -92488,7 +92488,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 1,
         "will save": 4,
@@ -92503,7 +92503,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -92517,7 +92517,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 2,
         "ref save": 2,
         "will save": 5,
@@ -92531,7 +92531,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 2,
         "will save": 6,
@@ -92545,7 +92545,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 3,
         "will save": 6,
@@ -92560,7 +92560,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -92574,7 +92574,7 @@
       },
       {
         "level": 11,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 3,
         "will save": 7,
@@ -92589,7 +92589,7 @@
       },
       {
         "level": 12,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 4,
         "will save": 8,
@@ -92603,7 +92603,7 @@
       },
       {
         "level": 13,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 4,
         "will save": 8,
@@ -92618,7 +92618,7 @@
       },
       {
         "level": 14,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 4,
         "will save": 9,
@@ -92632,7 +92632,7 @@
       },
       {
         "level": 15,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 5,
         "ref save": 5,
         "will save": 9,
@@ -92646,7 +92646,7 @@
       },
       {
         "level": 16,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 5,
         "ref save": 5,
         "will save": 10,
@@ -92660,7 +92660,7 @@
       },
       {
         "level": 17,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 5,
         "ref save": 5,
         "will save": 10,
@@ -92674,7 +92674,7 @@
       },
       {
         "level": 18,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 6,
         "ref save": 6,
         "will save": 11,
@@ -92688,7 +92688,7 @@
       },
       {
         "level": 19,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 6,
         "will save": 11,
@@ -92702,7 +92702,7 @@
       },
       {
         "level": 20,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 6,
         "ref save": 6,
         "will save": 12,
@@ -96632,7 +96632,7 @@
     "advancement": [
       {
         "level": 1,
-        "base attack bonus": 0,
+        "bab": 0,
         "fort save": 0,
         "ref save": 2,
         "will save": 2,
@@ -96646,7 +96646,7 @@
       },
       {
         "level": 2,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 0,
         "ref save": 3,
         "will save": 3,
@@ -96659,7 +96659,7 @@
       },
       {
         "level": 3,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 1,
         "ref save": 3,
         "will save": 3,
@@ -96672,7 +96672,7 @@
       },
       {
         "level": 4,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 4,
         "will save": 4,
@@ -96685,7 +96685,7 @@
       },
       {
         "level": 5,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 1,
         "ref save": 4,
         "will save": 4,
@@ -96698,7 +96698,7 @@
       },
       {
         "level": 6,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 2,
         "ref save": 5,
         "will save": 5,
@@ -96711,7 +96711,7 @@
       },
       {
         "level": 7,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 2,
         "ref save": 5,
         "will save": 5,
@@ -96724,7 +96724,7 @@
       },
       {
         "level": 8,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 2,
         "ref save": 6,
         "will save": 6,
@@ -96737,7 +96737,7 @@
       },
       {
         "level": 9,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 3,
         "ref save": 6,
         "will save": 6,
@@ -96750,7 +96750,7 @@
       },
       {
         "level": 10,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 3,
         "ref save": 7,
         "will save": 7,
@@ -96763,7 +96763,7 @@
       },
       {
         "level": 11,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 3,
         "ref save": 7,
         "will save": 7,
@@ -96776,7 +96776,7 @@
       },
       {
         "level": 12,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 4,
         "ref save": 8,
         "will save": 8,
@@ -96789,7 +96789,7 @@
       },
       {
         "level": 13,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 8,
         "will save": 8,
@@ -96802,7 +96802,7 @@
       },
       {
         "level": 14,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 4,
         "ref save": 9,
         "will save": 9,
@@ -96815,7 +96815,7 @@
       },
       {
         "level": 15,
-        "base attack bonus": 1,
+        "bab": 1,
         "fort save": 5,
         "ref save": 9,
         "will save": 9,
@@ -96828,7 +96828,7 @@
       },
       {
         "level": 16,
-        "base attack bonus": 2,
+        "bab": 2,
         "fort save": 5,
         "ref save": 10,
         "will save": 10,
@@ -96841,7 +96841,7 @@
       },
       {
         "level": 17,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 5,
         "ref save": 10,
         "will save": 10,
@@ -96854,7 +96854,7 @@
       },
       {
         "level": 18,
-        "base attack bonus": 3,
+        "bab": 3,
         "fort save": 6,
         "ref save": 11,
         "will save": 11,
@@ -96867,7 +96867,7 @@
       },
       {
         "level": 19,
-        "base attack bonus": 4,
+        "bab": 4,
         "fort save": 6,
         "ref save": 11,
         "will save": 11,
@@ -96880,7 +96880,7 @@
       },
       {
         "level": 20,
-        "base attack bonus": 5,
+        "bab": 5,
         "fort save": 6,
         "ref save": 12,
         "will save": 12,
