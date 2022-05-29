@@ -1,5 +1,6 @@
 import { useCookies } from 'react-cookie'
 import styled, { createGlobalStyle } from 'styled-components'
+import queryString from 'query-string';
 
 import Creator from './Creator'
 import Header from './Header'
@@ -41,20 +42,18 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 function App() {
-
-  const [cookies, setCookie, removeCookie] = useCookies(['character','corpus','isCorpusSelected', 'filters'])
-  const {corpus, character, selectedCorpus, language, isCorpusSelected, filters} = cookies
+  const [cookies, setCookie, removeCookie] = useCookies(['character','corpus', 'filters'])
+  const {corpus, character, selectedCorpus, language, filters} = cookies
   if(!corpus) setCookie('corpus', {})
   if(!character || Object.keys(character).length === 0) setCookie('character', characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
   if(!language) setCookie('language', 'es')
-  if(!isCorpusSelected) setCookie('isCorpusSelected', false)
   if(!filters) {
     setCookie('filters', {
       showDisallowed: true    
     })
   }
-  const isCorpus = isCorpusSelected === 'true'
+  const isCorpus = queryString.parse(window.location.search).isCorpus
   const isCharacter = !isCorpus
   const translations = webTranslations[language]
   

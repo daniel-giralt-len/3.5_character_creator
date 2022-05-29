@@ -22,13 +22,9 @@ function Header({
     return (
         <HeaderWrapper>
             <div>
-                <span>{isCorpus 
+                {isCorpus 
                     ? translate('creating a corpus') 
-                    : translate('creating a character')}
-                </span>
-                <button onClick = {handleCreationSwitch}>
-                    {translate('switch')}
-                </button>
+                    : translate('creating a character')}...
             </div>
             <div>
                 {languages.map(key => (
