@@ -134,12 +134,23 @@ if(a===2){ //get sections
             keys = [...keys.filter(k=>!includesSpellcasting(k)), ...spellKeys]
         }
         keys = keys.map(k=>k.toLowerCase())
+
+        const keySubstitutions = {
+            'class level': 'level',
+            'base attack bonus': 'bab',
+            'ref save': 'ref',
+            'will save': 'will',
+            'fort save': 'fort',
+            'reflex save': 'ref',
+        }
+
         const keyedLevels = rows.reduce((acc, row) => {
             return [
                 ...acc,
                 row.reduce((acc2, cell, i) => {
-                    const key = keys[i]
+                    let key = keys[i]
                     const value = key === 'special' ? cell.split(',').map(v=>v.trim()) : cell
+                    if(keySubstitutions[key]) key=keySubstitutions[key]
                     
                     return {
                         ...acc2,
@@ -199,6 +210,10 @@ if(a===3){ // parse ints
         }
         if(t === 'string'){
             let match
+
+            const babRegex = RegExp(/\+?([0-9]+)(?:\/\+[0-9]+)+$/)
+            match = babRegex.exec(v)
+            if(match) { return parseInt(match[1]) }
 
             const numberRegex = RegExp(/\+?([0-9]+)$/)
             match = numberRegex.exec(v)
