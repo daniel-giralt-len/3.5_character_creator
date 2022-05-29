@@ -21,11 +21,7 @@ function Header({
 
     return (
         <HeaderWrapper>
-            <div>
-                {isCorpus 
-                    ? translate('creating a corpus') 
-                    : translate('creating a character')}...
-            </div>
+            <div/>
             <div>
                 {languages.map(key => (
                     <SelectedButton

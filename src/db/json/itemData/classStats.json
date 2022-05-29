@@ -2776,7 +2776,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -2806,7 +2806,7 @@
         "ref": 2,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -2836,7 +2836,7 @@
         "ref": 3,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -3616,7 +3616,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -4597,7 +4597,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 5,
@@ -4797,7 +4797,7 @@
         "ref": 6,
         "will": 12,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 5,
@@ -5284,7 +5284,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "sense link"
         ],
         "spells per day/spells known": "+1 level of existing spellcasting class"
@@ -5318,7 +5318,7 @@
         "ref": 5,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spells per day/spells known": "+1 level of existing spellcasting class"
       },
@@ -5351,7 +5351,7 @@
         "ref": 7,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "death holds no mysteries"
         ],
         "spells per day/spells known": "+1 level of existing spellcasting class"
@@ -5991,7 +5991,7 @@
         "ref": 2,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "craft reserve": 250,
         "1st": 3,
@@ -6128,7 +6128,7 @@
         "ref": 5,
         "will": 10,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "craft reserve": 0,
         "1st": 4,
@@ -6196,7 +6196,7 @@
         "ref": 6,
         "will": 12,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "craft reserve": 0,
         "1st": 4,
@@ -6267,7 +6267,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -6337,7 +6337,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -8710,7 +8710,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -10632,7 +10632,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -10702,7 +10702,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -10772,7 +10772,7 @@
         "ref": 6,
         "will": 11,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -11487,7 +11487,7 @@
         "ref": 3,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -11517,7 +11517,7 @@
         "ref": 5,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -11547,7 +11547,7 @@
         "ref": 6,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -11956,7 +11956,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 2,
         "2nd": 0,
@@ -12012,7 +12012,7 @@
         "ref": 5,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 3,
         "2nd": 3,
@@ -12068,7 +12068,7 @@
         "ref": 7,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 4,
         "2nd": 4,
@@ -15819,7 +15819,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -16044,7 +16044,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -16074,7 +16074,7 @@
         "ref": 2,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -16104,7 +16104,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       }
     ],
@@ -16935,7 +16935,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -16975,7 +16975,7 @@
         "ref": 6,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -19452,7 +19452,7 @@
         "ref": 5,
         "will": 6,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ],
         "1st": 4,
         "2nd": 3,
@@ -19893,7 +19893,7 @@
         "ref": 3,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "shadow walk"
         ]
       },
@@ -21837,7 +21837,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "dancing feint"
         ]
       },
@@ -21848,7 +21848,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           2
         ]
       },
@@ -21859,7 +21859,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "combat dancing"
         ]
       }
@@ -26988,7 +26988,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           1
         ]
       },
@@ -27009,7 +27009,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           2
         ]
       },
@@ -28175,7 +28175,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "destructive expertise"
         ],
         "spells per day/spells known": "+1 level of existing class"
@@ -28220,7 +28220,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spells per day/spells known": "+1 level of existing class"
       },
@@ -28264,7 +28264,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "entropic blow (3/day)"
         ],
         "spells per day/spells known": "+1 level of existing class"
@@ -28325,7 +28325,7 @@
         "ref": 0,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "+1 level of existing arcane spellcasting class"
       },
@@ -29360,7 +29360,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "+1 level of existing arcane spellcasting or infusion-imbuing class"
       },
@@ -29404,7 +29404,7 @@
         "ref": 2,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "+1 level of existing arcane spellcasting or infusion-imbuing class"
       },
@@ -30722,7 +30722,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -35203,7 +35203,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38095,7 +38095,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38126,7 +38126,7 @@
         "ref": 2,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38157,7 +38157,7 @@
         "ref": 3,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38747,7 +38747,7 @@
         "good saves": 2,
         "poor save": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38756,7 +38756,7 @@
         "good saves": 3,
         "poor save": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38774,7 +38774,7 @@
         "good saves": 4,
         "poor save": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38810,7 +38810,7 @@
         "good saves": 6,
         "poor save": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38846,7 +38846,7 @@
         "good saves": 8,
         "poor save": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38882,7 +38882,7 @@
         "good saves": 10,
         "poor save": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -38918,7 +38918,7 @@
         "good saves": 12,
         "poor save": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       }
     ],
@@ -39844,7 +39844,7 @@
         "ref": 3,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41201,7 +41201,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41211,7 +41211,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41231,7 +41231,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41251,7 +41251,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41271,7 +41271,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41291,7 +41291,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41311,7 +41311,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41331,7 +41331,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41351,7 +41351,7 @@
         "ref": 5,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41371,7 +41371,7 @@
         "ref": 6,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -41391,7 +41391,7 @@
         "ref": 6,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       }
     ],
@@ -49358,7 +49358,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "hexblade's curse 2/day"
         ],
         "1st": 0,
@@ -49429,7 +49429,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 1,
@@ -49499,7 +49499,7 @@
         "ref": 5,
         "will": 9,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ],
         "1st": 2,
         "2nd": 1,
@@ -51531,7 +51531,7 @@
         "ref": 0,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "lay on hands"
         ],
         "spellcasting": ""
@@ -51576,7 +51576,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": ""
       },
@@ -51620,7 +51620,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": ""
       },
@@ -51730,7 +51730,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -51750,7 +51750,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -51770,7 +51770,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -52284,7 +52284,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -52335,7 +52335,7 @@
         "ref": 6,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -55580,7 +55580,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 3,
         "1st": 0,
@@ -55631,7 +55631,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           2
         ],
         "0th": 3,
@@ -56092,7 +56092,7 @@
         "ref": 3,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "woodland stride"
         ],
         "1st": 1,
@@ -56178,7 +56178,7 @@
         "ref": 6,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 3,
         "2nd": 3,
@@ -56962,7 +56962,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -57004,7 +57004,7 @@
         "ref": 2,
         "will": 6,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           15
         ]
       },
@@ -57420,7 +57420,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "vigilant defender"
         ]
       },
@@ -57471,7 +57471,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -57521,7 +57521,7 @@
         "ref": 5,
         "will": 9,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -58211,7 +58211,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -58251,7 +58251,7 @@
         "ref": 2,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -60359,7 +60359,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           2
         ]
       },
@@ -63229,7 +63229,7 @@
         "ref": 3,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "contact (3rd level)"
         ]
       },
@@ -63250,7 +63250,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "contact (6th level)"
         ]
       },
@@ -66411,7 +66411,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "flurry of blows",
           "unarmed strike"
         ],
@@ -66426,7 +66426,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "evasion"
         ],
         "damage": 6,
@@ -66480,7 +66480,7 @@
         "ref": 5,
         "will": 5,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "slow fall 30 ft."
         ],
         "damage": 8,
@@ -75730,7 +75730,7 @@
         "ref": 3,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "woodland stride"
         ],
         "spells per day": "+1 level of existing divine spellcasting class"
@@ -75786,7 +75786,7 @@
         "ref": 5,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spells per day": ""
       },
@@ -76681,7 +76681,7 @@
         "ref": 0,
         "will": 2,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "discipline"
         ],
         "power points per day": 2,
@@ -76734,7 +76734,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "power points per day": 25,
         "powers known": 11,
@@ -76799,7 +76799,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "power points per day": 88,
         "powers known": 21,
@@ -76864,7 +76864,7 @@
         "ref": 5,
         "will": 9,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "power points per day": 195,
         "powers known": 28,
@@ -76929,7 +76929,7 @@
         "ref": 6,
         "will": 12,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "power points per day": 343,
         "powers known": 36,
@@ -79826,7 +79826,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "circle leader"
         ],
         "spells per day": "+1 level of existing arcane spellcasting class"
@@ -80924,7 +80924,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -80964,7 +80964,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83076,7 +83076,7 @@
         "ref": 0,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83096,7 +83096,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83126,7 +83126,7 @@
         "ref": 2,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83156,7 +83156,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83186,7 +83186,7 @@
         "ref": 4,
         "will": 8,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83216,7 +83216,7 @@
         "ref": 5,
         "will": 10,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -83246,7 +83246,7 @@
         "ref": 6,
         "will": 11,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -85346,7 +85346,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ]
       },
       {
@@ -85434,7 +85434,7 @@
         "ref": 8,
         "will": 4,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ]
       },
       {
@@ -85476,7 +85476,7 @@
         "ref": 10,
         "will": 5,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ]
       },
       {
@@ -88206,7 +88206,7 @@
         "ref": 3,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "uncanny dodge"
         ]
       },
@@ -88228,7 +88228,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           2
         ]
       },
@@ -89734,7 +89734,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "immunity to blindness"
         ],
         "spellcasting": "+1 level of existing spellcasting class"
@@ -89768,7 +89768,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": ""
       },
@@ -89801,7 +89801,7 @@
         "ref": 6,
         "will": 6,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "sun's revelation"
         ],
         "spellcasting": "+1 level of existing spellcasting class"
@@ -91072,7 +91072,7 @@
         "unarmed damage": 8,
         "dodge bonus": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -91096,7 +91096,7 @@
         "unarmed damage": 10,
         "dodge bonus": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -93895,7 +93895,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "soulmelds": 0,
         "essentia": 0,
@@ -93947,7 +93947,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "soulmelds": 1,
         "essentia": 1,
@@ -94001,7 +94001,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "soulmelds": 2,
         "essentia": 3,
@@ -94216,7 +94216,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -94257,7 +94257,7 @@
         "ref": 6,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -95073,7 +95073,7 @@
         "good save": 2,
         "poor saves": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 2,
@@ -95149,7 +95149,7 @@
         "good save": 4,
         "poor saves": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 6,
         "1st": 5,
@@ -95244,7 +95244,7 @@
         "good save": 7,
         "poor saves": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 6,
         "1st": 6,
@@ -95339,7 +95339,7 @@
         "good save": 9,
         "poor saves": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 6,
         "1st": 6,
@@ -95434,7 +95434,7 @@
         "good save": 12,
         "poor saves": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 6,
         "1st": 6,
@@ -95613,7 +95613,7 @@
         "ref": 0,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "&#8211;"
       },
@@ -101826,7 +101826,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 1,
@@ -101882,7 +101882,7 @@
         "ref": 2,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 2,
         "2nd": 1,
@@ -105445,7 +105445,7 @@
         "ref": 2,
         "will": 0,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "tribal enemy",
           "homeland"
         ]
@@ -105487,7 +105487,7 @@
         "ref": 4,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -105527,7 +105527,7 @@
         "ref": 6,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -106449,7 +106449,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "+1 level of existing prepared arcane casting class and +1 level of existing spontaneous arcane casting class"
       },
@@ -106493,7 +106493,7 @@
         "ref": 3,
         "will": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "spellcasting": "+1 level of existing prepared arcane casting class and +1 level of existing spontaneous arcane casting class"
       },
@@ -108582,7 +108582,7 @@
         "ref": 3,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": "",
@@ -108624,7 +108624,7 @@
         "ref": 5,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 1,
@@ -108666,7 +108666,7 @@
         "ref": 6,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 1,
@@ -108775,7 +108775,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 0,
@@ -108817,7 +108817,7 @@
         "ref": 2,
         "will": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 1,
         "2nd": 1,
@@ -108859,7 +108859,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "1st": 2,
         "2nd": 2,
@@ -108953,7 +108953,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -109013,7 +109013,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           3
         ]
       },
@@ -111808,7 +111808,7 @@
         "ref": 1,
         "will": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "maneuvers known": 6,
         "maneuvers readied": 4,
@@ -111860,7 +111860,7 @@
         "ref": 3,
         "will": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "maneuvers known": 8,
         "maneuvers readied": 4,
@@ -111912,7 +111912,7 @@
         "ref": 4,
         "will": 4,
         "special": [
-          "Bonus Feat"
+          "bonus feat"
         ],
         "maneuvers known": 10,
         "maneuvers readied": 5,
@@ -111964,7 +111964,7 @@
         "ref": 5,
         "will": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "maneuvers known": 12,
         "maneuvers readied": 6,
@@ -113400,7 +113400,7 @@
         "good save": 2,
         "poor saves": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113409,7 +113409,7 @@
         "good save": 3,
         "poor saves": 0,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113427,7 +113427,7 @@
         "good save": 4,
         "poor saves": 1,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113445,7 +113445,7 @@
         "good save": 5,
         "poor saves": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113463,7 +113463,7 @@
         "good save": 6,
         "poor saves": 2,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113481,7 +113481,7 @@
         "good save": 7,
         "poor saves": 3,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113499,7 +113499,7 @@
         "good save": 8,
         "poor saves": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113517,7 +113517,7 @@
         "good save": 9,
         "poor saves": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113535,7 +113535,7 @@
         "good save": 10,
         "poor saves": 5,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113553,7 +113553,7 @@
         "good save": 11,
         "poor saves": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       },
       {
@@ -113571,7 +113571,7 @@
         "good save": 12,
         "poor saves": 6,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ]
       }
     ],
@@ -115897,7 +115897,7 @@
         "ref": 1,
         "will": 3,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "mount healing"
         ],
         "1st": 1,
@@ -115955,7 +115955,7 @@
         "ref": 2,
         "will": 5,
         "special": [
-          "Bonus feat",
+          "bonus feat",
           "mount link"
         ],
         "1st": 2,
@@ -116823,7 +116823,7 @@
         "ref": 1,
         "will": 4,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 3,
@@ -116923,7 +116923,7 @@
         "ref": 3,
         "will": 7,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 4,
@@ -117023,7 +117023,7 @@
         "ref": 5,
         "will": 9,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 4,
@@ -117123,7 +117123,7 @@
         "ref": 6,
         "will": 12,
         "special": [
-          "Bonus feat"
+          "bonus feat"
         ],
         "0th": 4,
         "1st": 4,

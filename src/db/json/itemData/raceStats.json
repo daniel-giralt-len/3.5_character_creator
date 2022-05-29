@@ -48,12 +48,12 @@
       "5",
       "6"
     ],
-    "racial hit dice": "3",
+    "racial hit dice": 3,
     "racial base attack": 3,
     "racial base saves": {
-      "fortitude": "+3",
-      "reflex": "+3",
-      "will": "+3"
+      "fortitude": 3,
+      "reflex": 3,
+      "will": 3
     },
     "bonus languages": []
   },
@@ -446,7 +446,8 @@
     "space": 5,
     "reach": 5,
     "automatic languages": [],
-    "bonus languages": []
+    "bonus languages": [],
+    "bonus feats": 1
   },
   "21": {
     "name": "Illumian",
@@ -619,12 +620,12 @@
       "26",
       "33"
     ],
-    "racial hit dice": "6",
+    "racial hit dice": 6,
     "racial base attack": 6,
     "racial base saves": {
-      "fortitude": "+2",
-      "reflex": "+5",
-      "will": "+5"
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 5
     }
   },
   "28": {

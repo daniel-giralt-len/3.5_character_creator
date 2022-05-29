@@ -7,6 +7,7 @@ import RaceDisplay from "./displays/RaceDisplay";
 
 import raceStats from './db/json/itemData/raceStats.json'
 import calculateCharacterBonuses from "./functions/calculateCharacterBonuses";
+import calculateMaxFeats from "./functions/calculateMaxFeats";
 
 const CodeArea = styled.div`
   border: 1px solid black;
@@ -44,6 +45,8 @@ function CreationDisplay({
     
     const raceData = raceStats[races]
     const bonuses = calculateCharacterBonuses({raceData, classes})
+    const nFeats = calculateMaxFeats({raceData, classes})
+    const usedFeats = (Object.values(rest.feats).filter(v=>v)||[]).length
 
     const handleScoreChange = scores => handleCreationChange({...creation, scores})
     const handleClassChange = classes => handleCreationChange({...creation, classes})
@@ -57,6 +60,8 @@ function CreationDisplay({
           bab={bab}
           saves={saves}
           scoreBonuses={bonuses}
+          usedFeats={usedFeats}
+          maxFeats={nFeats}
         /> 
         <ClassDisplay
           dbs={dbs}
