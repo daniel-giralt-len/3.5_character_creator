@@ -1,3 +1,4 @@
+import styled from 'styled-components'
 
 import findInDb from "./functions/findInDb";
 import ScoreDisplay from "./displays/ScoreDisplay";
@@ -6,6 +7,10 @@ import RaceDisplay from "./displays/RaceDisplay";
 
 import raceStats from './db/json/itemData/raceStats.json'
 import calculateCharacterBonuses from "./functions/calculateCharacterBonuses";
+
+const CodeArea = styled.div`
+  border: 1px solid black;
+`
 
 const GenericDisplay = ({type, items, translate, dbs}) => (
   <div key={type}>
@@ -87,7 +92,7 @@ function CreationDisplay({
             dbs={dbs}
           />
         ))}
-        <span>{JSON.stringify(creation)}</span>
+        <CodeArea>{JSON.stringify(creation)}</CodeArea>
       </div>
     )
   }
