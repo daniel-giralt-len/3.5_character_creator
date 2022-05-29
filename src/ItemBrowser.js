@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import BaseItem from './items/BaseItem'
 import getItemRegex from './functions/getItemRegex';
 
-function isItemPermitted({corpus, item, itemType}){
+const isItemPermitted = ({corpus, item, itemType}) => {
     return (
         itemType === 'language' ||
         corpus === '*' ||
@@ -14,7 +14,6 @@ function isItemPermitted({corpus, item, itemType}){
 
 function renderItems({
     items,
-    searchedText,
     selectedList,
     onSelectItem,
     permittedCorpus,
@@ -23,23 +22,14 @@ function renderItems({
     dbs,
     isExclusive,
     disabled,
-    userFilters,
     isLevel20
 }) {
-
-    let filteredItems = items
-    if(userFilters.showDisallowed === false){
-        filteredItems = filteredItems
-            .filter(item => isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType}))
-    }
 
     const isSelected = id => (itemType === 'races' && selectedList === id)
         || selectedList[id] === true
     
-     const searchRegex = getItemRegex(searchedText)
 
-    return filteredItems
-        .filter(item => searchRegex.test(item.name))
+    return items
         .map(item => (<BaseItem
             key={item.id}
             item={item}
@@ -69,8 +59,16 @@ function ItemBrowser({
     dbs,
     userFilters
 }) {
-    const isLevel20 = itemType==='classes' && selected.length === 20
     const [searchedText, setSearchedText] = useState('')
+    const searchRegex = getItemRegex(searchedText)
+
+    const isLevel20 = itemType==='classes' && selected.length === 20
+
+    let filteredItems = items.filter(item => searchRegex.test(item.name))
+    if(userFilters.showDisallowed === false){
+        filteredItems = filteredItems.filter(item => isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType}))
+    }
+
     const handleSearchChange = event => setSearchedText(event.target.value || '')
     const handleCreationItemSelection = (id, selectedList) => {
         if(disabled) return
@@ -89,8 +87,7 @@ function ItemBrowser({
         <div>
             <ItemSearchBar rows={1} cols={50} key={itemType} onChange={handleSearchChange} />
             {renderItems({
-                items,
-                searchedText,
+                items: filteredItems,
                 selectedList: selected,
                 onSelectItem: handleCreationItemSelection,
                 permittedCorpus,
@@ -99,7 +96,6 @@ function ItemBrowser({
                 dbs,
                 isExclusive,
                 disabled,
-                userFilters,
                 isLevel20
             })}
         </div>
