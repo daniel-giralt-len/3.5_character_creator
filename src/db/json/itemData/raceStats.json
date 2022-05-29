@@ -1,5 +1,9 @@
 {
   "1": {
+    "name": "Aasimar",
+    "link": "/races/races-of-destiny--81/aasimar--17/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -25,6 +29,10 @@
     ]
   },
   "2": {
+    "name": "Bariaur",
+    "link": "/races/book-of-exalted-deeds--52/bariaur--23/",
+    "bookId": "3",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 40",
     "STR": 4,
@@ -50,6 +58,10 @@
     "bonus languages": []
   },
   "3": {
+    "name": "Diabolus",
+    "link": "/races/dragon-compendium--109/diabolus--29/",
+    "bookId": "20",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -73,6 +85,10 @@
     ]
   },
   "4": {
+    "name": "Diopsid",
+    "link": "/races/dragon-compendium--109/diopsid--30/",
+    "bookId": "20",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -97,6 +113,10 @@
     ]
   },
   "5": {
+    "name": "Doppleganger",
+    "link": "/races/races-of-destiny--81/doppleganger--9/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -112,6 +132,10 @@
     "bonus languages": []
   },
   "6": {
+    "name": "Drow",
+    "link": "/races/monster-manual-v35--5/drow--6/",
+    "bookId": "68",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -138,6 +162,10 @@
     ]
   },
   "7": {
+    "name": "Dvati",
+    "link": "/races/dragon-compendium--109/dvati--31/",
+    "bookId": "20",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -156,6 +184,10 @@
     "bonus languages": []
   },
   "8": {
+    "name": "Dwarf",
+    "link": "/races/players-handbook-v35--6/dwarf--4/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 20",
     "STR": 0,
@@ -171,6 +203,10 @@
     "bonus languages": []
   },
   "9": {
+    "name": "Elf",
+    "link": "/races/players-handbook-v35--6/elf--2/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -186,6 +222,10 @@
     "bonus languages": []
   },
   "10": {
+    "name": "Feral gargan",
+    "link": "/races/races-of-stone--82/feral-gargan--14/",
+    "bookId": "80",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -201,6 +241,10 @@
     "bonus languages": []
   },
   "11": {
+    "name": "Gnome",
+    "link": "/races/players-handbook-v35--6/gnome--12/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -216,6 +260,10 @@
     "bonus languages": []
   },
   "12": {
+    "name": "Goliath",
+    "link": "/races/races-of-stone--82/goliath--13/",
+    "bookId": "80",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -231,6 +279,10 @@
     "bonus languages": []
   },
   "13": {
+    "name": "Half-elf",
+    "link": "/races/players-handbook-v35--6/half-elf--3/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -246,6 +298,10 @@
     "bonus languages": []
   },
   "14": {
+    "name": "Half-moon elf",
+    "link": "/races/forgotten-realms-campaign-setting--19/half-moon-elf--19/",
+    "bookId": "47",
+    "editionId": "7",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -261,6 +317,10 @@
     "bonus languages": []
   },
   "15": {
+    "name": "Half-ogre",
+    "link": "/races/races-of-destiny--81/half-ogre--11/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -276,6 +336,10 @@
     "bonus languages": []
   },
   "16": {
+    "name": "Half-ogres",
+    "link": "/races/savage-species--47/half-ogres--40/",
+    "bookId": "86",
+    "editionId": "1",
     "size": "large",
     "base speed": "Land 30",
     "STR": 6,
@@ -301,6 +365,10 @@
     ]
   },
   "17": {
+    "name": "Half-Orc",
+    "link": "/races/players-handbook-v35--6/half-orc--7/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 2,
@@ -316,6 +384,10 @@
     "bonus languages": []
   },
   "18": {
+    "name": "Halfling",
+    "link": "/races/players-handbook-v35--6/halfling--15/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -331,6 +403,10 @@
     "bonus languages": []
   },
   "19": {
+    "name": "Hengeyokai",
+    "link": "/races/oriental-adventures--96/hengeyokai--38/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -354,6 +430,10 @@
     ]
   },
   "20": {
+    "name": "Human",
+    "link": "/races/players-handbook-v35--6/human--5/",
+    "bookId": "74",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -369,6 +449,10 @@
     "bonus languages": []
   },
   "21": {
+    "name": "Illumian",
+    "link": "/races/races-of-destiny--81/illumian--10/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -384,6 +468,10 @@
     "bonus languages": []
   },
   "22": {
+    "name": "Jerren",
+    "link": "/races/book-of-vile-darkness--37/jerren--36/",
+    "bookId": "4",
+    "editionId": "1",
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -407,6 +495,10 @@
     ]
   },
   "23": {
+    "name": "Kalashtar",
+    "link": "/races/races-of-eberron--10/kalashtar--39/",
+    "bookId": "78",
+    "editionId": "5",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -428,6 +520,10 @@
     ]
   },
   "24": {
+    "name": "Korobukuru",
+    "link": "/races/oriental-adventures--96/korobukuru--34/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "small",
     "base speed": "Land 20",
     "STR": 0,
@@ -451,6 +547,10 @@
     ]
   },
   "25": {
+    "name": "Kuo-Toa",
+    "link": "/races/underdark--34/kuo-toa--21/",
+    "bookId": "105",
+    "editionId": "3",
     "size": "medium",
     "base speed": "Land 20,Swim 50",
     "STR": 2,
@@ -466,6 +566,10 @@
     "bonus languages": []
   },
   "26": {
+    "name": "Lupin",
+    "link": "/races/dragon-compendium--109/lupin--32/",
+    "bookId": "20",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -490,6 +594,10 @@
     ]
   },
   "27": {
+    "name": "Minotaur",
+    "link": "/races/monster-manual-v35--5/minotaur--1/",
+    "bookId": "68",
+    "editionId": "6",
     "size": "large",
     "base speed": "Land 40",
     "STR": 8,
@@ -520,6 +628,10 @@
     }
   },
   "28": {
+    "name": "Nezumi",
+    "link": "/races/oriental-adventures--96/nezumi--25/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 40",
     "STR": 0,
@@ -541,6 +653,10 @@
     ]
   },
   "29": {
+    "name": "Orc",
+    "link": "/races/monster-manual-v35--5/orc--8/",
+    "bookId": "68",
+    "editionId": "6",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 4,
@@ -564,6 +680,10 @@
     ]
   },
   "30": {
+    "name": "Pixie (Sprite)",
+    "link": "/races/savage-species--47/pixie-sprite--22/",
+    "bookId": "86",
+    "editionId": "1",
     "size": "small",
     "base speed": "Land 20",
     "STR": -4,
@@ -579,6 +699,10 @@
     "bonus languages": []
   },
   "31": {
+    "name": "Raptoran",
+    "link": "/races/races-of-the-wild--84/raptoran--16/",
+    "bookId": "82",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -594,6 +718,10 @@
     "bonus languages": []
   },
   "32": {
+    "name": "Skarn",
+    "link": "/races/magic-of-incarnum--74/skarn--18/",
+    "bookId": "59",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -609,6 +737,10 @@
     "bonus languages": []
   },
   "33": {
+    "name": "Skulk",
+    "link": "/races/races-of-destiny--81/skulk--42/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -624,6 +756,10 @@
     "bonus languages": []
   },
   "34": {
+    "name": "Spirit Folk (Bamboo)",
+    "link": "/races/oriental-adventures--96/spirit-folk-bamboo--26/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -648,6 +784,10 @@
     ]
   },
   "35": {
+    "name": "Spirit Folk (River)",
+    "link": "/races/oriental-adventures--96/spirit-folk-river--27/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 30,Swim 30",
     "STR": 0,
@@ -672,6 +812,10 @@
     ]
   },
   "36": {
+    "name": "Spirit Folk (Sea)",
+    "link": "/races/oriental-adventures--96/spirit-folk-sea--28/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 30,Swim 30",
     "STR": 0,
@@ -696,6 +840,10 @@
     ]
   },
   "37": {
+    "name": "Tibbit",
+    "link": "/races/dragon-compendium--109/tibbit--33/",
+    "bookId": "20",
+    "editionId": "2",
     "size": "small",
     "base speed": "Land 20",
     "STR": -2,
@@ -714,6 +862,10 @@
     "bonus languages": []
   },
   "38": {
+    "name": "Tiefling",
+    "link": "/races/races-of-destiny--81/tiefling--20/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -740,6 +892,10 @@
     ]
   },
   "39": {
+    "name": "Underfolk",
+    "link": "/races/races-of-destiny--81/underfolk--41/",
+    "bookId": "77",
+    "editionId": "2",
     "size": "medium",
     "base speed": "Land 30",
     "STR": 0,
@@ -763,6 +919,10 @@
     ]
   },
   "40": {
+    "name": "Vanara",
+    "link": "/races/oriental-adventures--96/vanara--24/",
+    "bookId": "69",
+    "editionId": "8",
     "size": "medium",
     "base speed": "Land 30,Climb 20",
     "STR": -2,
@@ -786,6 +946,10 @@
     ]
   },
   "41": {
+    "name": "Vashar",
+    "link": "/races/book-of-vile-darkness--37/vashar--37/",
+    "bookId": "4",
+    "editionId": "1",
     "size": "medium",
     "base speed": "",
     "STR": 0,
@@ -803,6 +967,10 @@
     "bonus languages": []
   },
   "42": {
+    "name": "Whisper Gnome",
+    "link": "/races/races-of-stone--82/whisper-gnome--35/",
+    "bookId": "80",
+    "editionId": "2",
     "size": "small",
     "base speed": "Land 30",
     "STR": -2,
