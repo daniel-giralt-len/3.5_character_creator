@@ -30,6 +30,7 @@ function renderItems({items,
     isCorpus,
     dbs,
     isExclusive,
+    disabled,
     userFilters,
     isLevel20
 }) {
@@ -52,6 +53,7 @@ function renderItems({items,
             handleItemSelection={() => handleCreationChange(item.id, selectedList)}
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
+            disabled={disabled}
             dbs={dbs}
             isLevel20={isLevel20}
         />))
@@ -102,6 +104,7 @@ function ItemBrowser({
                 isCorpus,
                 dbs,
                 isExclusive,
+                disabled,
                 userFilters,
                 isLevel20
             })}

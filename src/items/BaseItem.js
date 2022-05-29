@@ -10,9 +10,18 @@ const BaseItemWrapper = styled.div`
     box-shadow: 0px 0px 1px 0px #340000${({isSelected}) => isSelected ? ', inset 0px 0px 6px 3px #aafd81' : ''};
 `
 
-function BaseItem ({item, isSelected, handleItemSelection, isAllowed, dbs, isExclusive, isLevel20}) {
+function BaseItem ({
+    item,
+    isSelected,
+    handleItemSelection,
+    isAllowed,
+    dbs,
+    isExclusive,
+    disabled,
+    isLevel20
+}) {
     
-    const isAddable = isAllowed && !(isExclusive && isSelected) && !isLevel20
+    const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book, edition } = item
 
     return (<BaseItemWrapper 
