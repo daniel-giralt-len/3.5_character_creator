@@ -277,7 +277,7 @@
         "Truespeak"
       ],
       "type": "Humanoid",
-      "languages": "Must speak at least four languages"
+      "language": 4
     },
     "skill points": {
       "base": 4,
@@ -1056,7 +1056,7 @@
         "Mobility"
       ],
       "base save bonus": {
-        "reflex": "3"
+        "reflex": 3
       },
       "special": " Must have a fly speed or the ability to cast fly at least twice per day."
     },
@@ -2066,7 +2066,7 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "race": "Yuan-ti.",
+      "race": ["Yuan-ti"],
       "special": " Access to an extensive magical library, a tutor of any race who possesses at least fourteen sorcerer or wizard class levels, or any psionic powers or psionic class levels."
     },
     "skill points": {
@@ -2884,7 +2884,7 @@
         "Vow of Nonviolence"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       }
     },
     "skill points": {
@@ -3285,7 +3285,7 @@
         "any evil"
       ],
       "base save bonus": {
-        "fortitude": "4"
+        "fortitude": 4
       },
       "spells": "Able to cast <a href=\"/spells/players-handbook-v35--6/spider-climb--2877/\">spider climb</a>, <a href=\"/spells/players-handbook-v35--6/summon-swarm--2459/\">summon swarm</a>, and <a href=\"/spells/players-handbook-v35--6/web--2472/\">web</a> as<br />arcane spells.",
       "special": "The candidate must undergo a scarification ritual."
@@ -3442,7 +3442,7 @@
     "bookId": "28",
     "requirements": {
       "bab": 6,
-      "race": "Elf(or)orHalf-elf",
+      "race": ["Elf, Half-elf"],
       "feats": [
         "Point Blank Shot",
         "Precise Shot",
@@ -8681,7 +8681,11 @@
     "bookId": "15",
     "requirements": {
       "bab": 5,
-      "skills": "Any three skills 6 ranks each.",
+      "skills": {
+        "any": true,
+        "amount": 3,
+        "ranks": 6
+      },
       "skill tricks": 2
     },
     "skill points": {
@@ -14320,7 +14324,7 @@
         "Toughness"
       ],
       "base save bonus": {
-        "fortitude": "5"
+        "fortitude": 5
       },
       "special": " the cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison."
     },
@@ -16573,7 +16577,7 @@
         "Spellcraft"
       ],
       "base save bonus": {
-        "will": "3"
+        "will": 3
       },
       "spells": " Able to cast <em>zone of truth</em> as a divine spell.",
       "special": " Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization."
@@ -17909,7 +17913,7 @@
         "Concentration",
         "Knowledge (arcana)"
       ],
-      "race": "Yuan-ti.",
+      "race": ["Yuan-ti"],
       "spellcasting": "Able to cast 3rd-level arcane spells."
     },
     "skill points": {
@@ -36913,7 +36917,7 @@
       "bab": 3,
       "type": "Undead (incorporeal subtype).",
       "base save bonus": {
-        "will": "5"
+        "will": 5
       }
     },
     "skill points": {
@@ -37971,7 +37975,7 @@
         "Purify Spell"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "spells": "Able to spontaneously cast 3rd-level arcane spells."
     },
@@ -42244,7 +42248,7 @@
         "Run"
       ],
       "base save bonus": {
-        "will": "3"
+        "will": 3
       },
       "spells": " Ability to cast divine spells.<br /><strong>Patron Deity:</strong> Ehlonna."
     },
@@ -49903,7 +49907,7 @@
       "race": "Any dragon.",
       "natural armor bonus": 20,
       "base save bonus": {
-        "will": "12"
+        "will": 12
       }
     },
     "skill points": {
@@ -54035,9 +54039,9 @@
         "Servant of the Heavens"
       ],
       "base save bonus": {
-        "will": "5",
-        "fortitude": "5",
-        "reflex": "5"
+        "will": 5,
+        "fortitude": 5,
+        "reflex": 5
       }
     },
     "skill points": {
@@ -64232,7 +64236,7 @@
         "Spellcraft"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "spells": "Ability to cast divine spells, and access to at least one of these domains: Death, Evil, Protection. A character who can cast at least one spell from a domain counts as having access for this purpose.",
       "special": "Ability to channel negative energy."
@@ -64375,7 +64379,7 @@
         "Spell Focus"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "spells": " Able to cast <a href=\"/spells/players-handbook-v35--6/protection-from-good--2349/\"><em>protection from good</em></a> as a divine spell.",
       "special": " Able to rebuke undead"
@@ -64528,7 +64532,7 @@
         "Spellcraft"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "spells": "Ability to cast divine spells and a spell that appears on the spell list for the Death, Evil, or Protection domain.",
       "other": "Ability to command or rebuke undead."
@@ -64790,7 +64794,7 @@
       "feats": [
         "Great Fortitude"
       ],
-      "race": "Yuan-ti."
+      "race": ["Yuan-ti"]
     },
     "skill points": {
       "base": 6,
@@ -78032,7 +78036,7 @@
         "Extra Turning"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "spells": " Able to cast 1st-level divine spells and access to the Sun domain.",
       "special": " Must have Pelor as patron deity. (Adapt as desired for sun god of the setting.)"
@@ -80428,9 +80432,9 @@
         "Any one other exalted feat."
       ],
       "base save bonus": {
-        "will": "2",
-        "fortitude": "2",
-        "reflex": "2"
+        "will": 2,
+        "fortitude": 2,
+        "reflex": 2
       },
       "skills": "Any one skill 9 ranks, Speak Language (Celestial).",
       "special": "The character must have suffered martyrdom (see Chapter 2) and must not have been returned to life. As a special feature of this prestige class, the character rises with the abilities of a 0-level risen martyr added to the character's previous abilities. When the character earns enough experience points to advance another level, he must become a 1st-level risen martyr."
@@ -90641,7 +90645,7 @@
         "Knowledge (religion)"
       ],
       "base save bonus": {
-        "will": "3"
+        "will": 3
       },
       "spells": " Able to cast 1st-level divine spells",
       "special": " Must have Heironeous as a patron deity."
@@ -98104,7 +98108,7 @@
         "Weapon Focus"
       ],
       "base save bonus": {
-        "fortitude": "4"
+        "fortitude": 4
       },
       "spells": " Able to cast 3rd-level divine spells.",
       "patron": " Talos.",
@@ -104550,7 +104554,7 @@
       ],
       "type": "Undead.",
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "special": "A tomb warden must dedicate itself to the protection of a tomb, graveyard, or similar resting place of the dead."
     },
@@ -107485,8 +107489,8 @@
         "Spell Focus"
       ],
       "base save bonus": {
-        "will": "3",
-        "fortitude": "3"
+        "will": 3,
+        "fortitude": 3
       },
       "special": " The character must have no ability to cast divine spells. If such spellcasting ability was previously possessed (as with an ex-cleric), that ability is forever forsaken. The character must be trained by another ur-priest."
     },
@@ -117182,7 +117186,7 @@
         "any good"
       ],
       "base save bonus": {
-        "will": "5"
+        "will": 5
       },
       "feats": "One exalted feat, plus either <a href=\"/feats/book-of-exalted-deeds--52/favored-of-the-companions--1091/\">Favored of the Companions</a>, <a href=\"/feats/book-of-exalted-deeds--52/knight-of-stars--1718/\">Knight of Stars</a>, or <a href=\"/feats/book-of-exalted-deeds--52/servant-of-the-heavens--2553/\">Servant of the Heavens</a>.",
       "spells": "Able to cast 3rd-level arcane or divine spells, or to manifest 3rd-level psionic powers."

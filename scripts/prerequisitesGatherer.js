@@ -19,14 +19,15 @@ const newJson = Object.values(featStats)
 fs.writeFileSync('./scripts/missingFeatReqs.json', JSON.stringify(newJson, null, 1))
 
 
+const kk = ['bab', 'essentia pool', 'martial stances', 'skill tricks', 'mysteries/spellcasting','language']
 const newJson2 = Object.values(classStats)
     .reduce((acc,c) => {
         if(!c.requirements) return acc
-        Object.values(c.requirements)
-            .filter(p=>typeof p !== 'object')
-            .forEach(p=>{
+        Object.entries(c.requirements)
+            .filter(([k,p])=> typeof p === 'string' && !kk.includes(k))
+            .forEach(([k,p])=>{
                 acc[p] = acc[p] || []
-                acc[p].push(c.name)
+                acc[p].push(c.name+';'+k)
             })
         return acc
     },{})
