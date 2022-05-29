@@ -12,7 +12,12 @@ const BaseItemWrapper = styled.div`
     display: flex;
     align-content: space-around;
     justify-content: space-between;
-}
+}`
+
+const AddButton = styled.button`
+    padding: 2px ${({isSelectable})=>isSelectable?8:10}px;
+    font-size: 1.25em;
+    box-shadow: 0px 0px 3px 0px #340000;
 `
 
 function BaseItem ({
@@ -43,9 +48,9 @@ function BaseItem ({
             {editionData.name}
         </div>
         {isAddable && (
-            <button onClick={onSelectItem}>
+            <AddButton onClick={onSelectItem} isSelectable={isSelectable}>
                 {isSelectable ? '+' : '-'}
-            </button>
+            </AddButton>
         )}
     </BaseItemWrapper>)
 
