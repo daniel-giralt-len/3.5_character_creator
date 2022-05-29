@@ -451,7 +451,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8 and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -463,7 +466,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8, and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -475,7 +481,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8 and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -621,7 +630,10 @@
     "special": "Aereni Focus counts as Skill Focus for the purpose of meeting any requirement or prerequisite.",
     "benefit": "A single skill of your choice is now a class skill for you, and you gain a +3 bonus on checks using that skill.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       {
         "type": "races",
         "id": "9"
@@ -867,7 +879,14 @@
     "special": "Only bronze, gold, and silver dragons possess the alternate form ability.",
     "benefit": "You gain the alternate form supernatural ability (Medium or smaller animal or humanoid only) and can use it three times per day.",
     "prerequisites": [
-      "Sorcerer level 5",
+      {
+        "type": "level",
+        "value": "5"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      },
       "True dragon"
     ]
   },
@@ -1184,7 +1203,10 @@
     "isSkillTrick": false,
     "special": "In the case of the death or loss of a mentor, an ally or associate of the prior mentor (who is of an equal level to the original mentor) typically takes the place of the original. The benefits gained from the Apprentice feat are not altered. Two conditions can alter the apprentice benefits. ",
     "prerequisites": [
-      {"type":"level", "value": 1}
+      {
+        "type": "level",
+        "value": 1
+      }
     ]
   },
   "91": {
@@ -1241,7 +1263,14 @@
         "type": "skills",
         "id": "51"
       },
-      "arcane caster level 1",
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "arcane caster"
+      },
       "bardic music"
     ]
   },
@@ -1326,7 +1355,14 @@
     "isSkillTrick": false,
     "benefit": "Add Knowledge (arcana) to your list of cleric class skills. You gain a +2 insight bonus on Spellcraft checks. In addition, you may add the following spells to your cleric spell list: 1st True Strike: +20 on your next attack roll. 3rd Arcane Sight: Magical auras become visible to you. 5th Rary's Telepathic Bond: Link lets allies communicate. 7th Arcane Sight, Greater: As arcane sight, but also reveals magic effects on creatures and objects. 8th Moment of Prescience: You gain insight bonus on a single attack roll, check, or save.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Boccob"
     ]
   },
@@ -1337,7 +1373,14 @@
     "isSkillTrick": false,
     "benefit": "When you prepare spells, you can break down up to three existing arcane spell slots to create a specified number of lower-level spell slots. (A 0-level spell counts as 1/2 level for this purpose, so a 1st-level spell slot could be broken into two 0-level spell slots.) The sum of the levels of all the new spell slots must equal the level of the original. The number of spell slots you can create in this manner is otherwise unlimited. Spell slots that you break down into multiple lower-level slots remain that way until the next time you prepare spells, at which time you can choose to restore your spell slots to normal or break them up again.",
     "prerequisites": [
-      "Wizard level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 976
+      }
     ]
   },
   "103": {
@@ -1954,7 +1997,14 @@
     "isSkillTrick": false,
     "benefit": "Creatures you summon with any summoning spell are slightly enhanced. They gain one more die of hit points (but they are not treated as +1 HD creatures) and a +1 competence bonus on their attack and damage rolls.",
     "prerequisites": [
-      "Spellcaster Level 2"
+      {
+        "type": "level",
+        "value": "2"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "151": {
@@ -1977,7 +2027,14 @@
     "isSkillTrick": false,
     "benefit": "Creatures you conjure with any summon spell gain +1 hit point per Hit Die and a +1 competence modifier on attack and damage rolls",
     "prerequisites": [
-      "Spellcaster Level 2"
+      {
+        "type": "level",
+        "value": "2"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "153": {
@@ -2887,7 +2944,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a beasthide shifter gains a +2 bonus to Constitution and natural armor that provides a +2 bonus to AC.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "214": {
@@ -3035,7 +3099,14 @@
         "type": "feats",
         "id": "786"
       },
-      "Sorcerer level 3"
+      {
+        "type": "level",
+        "value": "3"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "226": {
@@ -4425,7 +4496,14 @@
     "isSkillTrick": false,
     "benefit": "You gain a bonus on saves against electricity and petrification equal to the number of celestial sorcerer feats you possess. You also add protection from evil to your list of 1st-level sorcerer spells known. This spell is in addition to the spells you gain normally based on your sorcerer level.",
     "prerequisites": [
-      "Sorcerer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "329": {
@@ -5319,7 +5397,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a cliffwalk shifter gains a +2 bonus to Dexterity and has a climb speed of 20 feet.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "394": {
@@ -5709,7 +5794,14 @@
         "score": "INT",
         "value": 13
       },
-      "Wizard level 1",
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 976
+      },
       "arcane caster level 1st"
     ]
   },
@@ -5945,7 +6037,14 @@
     "isSkillTrick": false,
     "benefit": "If your familiar holds the charge for a touch spell, it does not provoke an attack of opportunity for entering an opponent's square.",
     "prerequisites": [
-      "arcane caster level 1",
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "arcane caster"
+      },
       "familiar"
     ]
   },
@@ -6826,7 +6925,14 @@
     "isSkillTrick": false,
     "benefit": "You can make contingent any spell for which you meet the prerequisites. Crafting a contingent spell takes one day for each 1,000 gp in its base price. To craft a contingent spell, you must spend 1/25 of its base price in XP and use up raw materials costing half its base price. Some contingent spells incur extra costs in material components or XP as noted in their descriptions. These costs are in addition to those derived from the contingent spell's base price. See Contingent Spells in Chapter 4: Magic and Spells for more information.",
     "prerequisites": [
-      "Spellcaster Level 11"
+      {
+        "type": "level",
+        "value": "11"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "504": {
@@ -10093,7 +10199,14 @@
     "isSkillTrick": false,
     "benefit": "You can spend one of your turn or rebuke undead attempts as an immediate action to counter a spell or spelllike effect. For example, if an evil cleric targets Jozan with a hold person spell, as an immediate action, Jozan can spend a turn undead attempt to counter the spell if he had prepared a hold person or dispel magic spell. You must have the relevant spell prepared as normal (or dispel magic), and you must make a Spellcraft check to identify the target's spell if applicable. (See PH 170 for details on counterspells.)",
     "prerequisites": [
-      "Divine caster level 3",
+      {
+        "type": "level",
+        "value": "3"
+      },
+      {
+        "type": "classes",
+        "value": "Divine caster"
+      },
       "Ability to turn or rebuke undead"
     ]
   },
@@ -10915,7 +11028,14 @@
     "isSkillTrick": false,
     "benefit": "Choose one dragon from the Draconic Heritage list below and gain the indicated skill as a class skill. This is your draconic heritage, which cannot be changed once the feat has been taken. Half-dragons must choose the same dragon kind as their dragon parent. In addition, you gain a bonus on saving throws against sleep and paralysis, as well as spells and abilities with the energy type of your Draconic Heritage. This bonus is equal to the number of draconic feats you have. Draconic Heritage. Dragon -- Energy ----- Skill. Black -----Acid ---------Hide. Blue ------Electricity --- Listen. Green ----Acid -------- Move Silently. Red ------ Fire --------- Intimidate. White ---- Cold -------- Balance. Brass ---- Fire -------- Gather Information. Bronze -- Electricity -- Survival. Copper -- Acid -------- Hide. Gold ----- Fire --------- Heal. Silver ---- Cold -------- Disguise.",
     "prerequisites": [
-      "Sorcerer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "787": {
@@ -10926,7 +11046,14 @@
     "special": "With your DM's permission, you can choose a draconic heritage associated with a kind of dragon not found in the Monster Manual. For details and more options, see Draconic Heritage, page 102 of Races of the Dragon.",
     "benefit": "You gain the dragonblood subtype. Choose one kind of dragon from the list in the. table below. This is your draconic heritage, which cannot later be changed unless you undergo the Rite of Draconic Affinity (see page 59 of Races of the Dragon). Half-dragons must choose the same dragon kind as their dragon parent. When you declare your draconic heritage, you gain a bonus on saving throws against magic sleep and paralysis effects, as well as on saves against spells and abilities with a descriptor that matches the corresponding energy type. This bonus equals the number of draconic feats you have. In addition, you gain the corresponding skill as a sorcerer class skill. Dragon Kind - Energy Type - Skill. Black - Acid - Hide. Blue - Electricity - Listen . Brass - Fire - Gather Information. Bronze - Electricity - Survival. Copper - Acid - Hide. Gold - Fire - Heal. Green - Acid - Move Silently. Red - Fire - Intimidate. Silver - Cold - Disguise. White - Cold - Balance.",
     "prerequisites": [
-      "Sorcerer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "788": {
@@ -10937,7 +11064,14 @@
     "special": "A character who chooses yu lung as his draconic heritage can, when he selects another draconic feat, choose to change his draconic heritage to any other lung dragon (chiang lung, li lung, lung wang, pan lung, shen lung, t'ien lung, or tun mi lung). Once this choice is made, it can only be changed by undergoing the Rite of Draconic Affi nity (see page 59).",
     "benefit": "You gain the dragonblood subtype. Choose one kind of dragon from the list in the accompanying table. This is your draconic heritage, which can only be changed by undergoing the Rite of Draconic Affi nity (see page 59). Half-dragons must choose the same dragon kind as their dragon parent. When you declare your draconic heritage, you gain the skill indicated on the table as a sorcerer class skill. In addition, you gain a bonus equal to the number of draconic feats you have on saving throws against magic sleep and paralysis effects, as well as on saves against spells and abilities with a descriptor that matches the corresponding entry in the accompanying table. (Seee RoDr p103). Draconic Heritage for All True Dragons The table above provides the benefi ts of the Draconic Heritage feat for all the kinds of true dragons published in D&amp;amp;D products to date. Many of the draconic bloodlines listed on the table don't grant a bonus on saves against effects of a particular energy type. Instead, you gain a bonus on saves against spells and abilities associated with the effect (such as force for the Tarterian dragon) or subschool (such as compulsion for the chaos dragon) that matches the entry on the table, as well as the normal bonus provided by the feat against magic sleep and paralysis effects.",
     "prerequisites": [
-      "Sorcerer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "789": {
@@ -11329,7 +11463,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation.",
     "benefit": "You have a tail that you can use to make a secondary natural attack in combat. This attack deals bludgeoning damage according to your size, as shown on the table below. If you already have a tail slap attack when you take this feat, use the value from the table or your existing damage value, whichever is greater. Size --- Tail Slap Damage. Fine ----------- 1. Diminutive --- 1d2. Tiny ---------- 1d3. Small --------- 1d4. Medium ------ 1d6. Large -------- 1d8. Huge --------- 2d6. Gargantuan - 2d8. Colossal ----- 4d6.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Dragonblood subtype"
     ]
   },
@@ -11481,7 +11618,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. A kobold with the Dragonwrought feat can take this feat at 3rd level.",
     "benefit": "You have wings that aid your jumps, granting a +10 racial bonus on Jump checks. In addition, you can use your wings to glide, negating damage from a fall from any height and allowing 20 feet of forward travel for every 5 feet of descent. You glide at a speed of 30 feet with average maneuverability. Even if your maneuverability improves, you can't hover while gliding. You can't glide while carrying a medium or heavy load. If you become unconscious or helpless while in midair, your wings naturally unfurl, and powerful ligaments stiffen them. You descend in a tight corkscrew and take only 1d6 points of falling damage, no matter what the actual distance of the fall.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Dragonblood subtype"
     ]
   },
@@ -11876,7 +12016,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Having this feat allows you to take the Dragon Wings feat at 3rd level.",
     "benefit": "You are a dragon wrought kobold. Your type is dragon rather than humanoid, and you lose the dragonblood subtype. You retain all your other subtypes and your kobold racial traits. Your scales become tinted with a color that matches that of your draconic heritage. As a dragon, you are immune to magic sleep and paralysis effects. You have darkvision out to 60 feet and low-light vision. You gain a +2 racial bonus on the skill indicated for your draconic heritage on the table on page 103.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Kobold"
     ]
   },
@@ -11902,7 +12045,14 @@
         "score": "STR",
         "value": 13
       },
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Hextor"
     ]
   },
@@ -12190,7 +12340,10 @@
         "score": "CON",
         "value": 13
       },
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       {
         "type": "races",
         "id": "23"
@@ -12897,7 +13050,10 @@
     "isSkillTrick": false,
     "benefit": "All Knowledge skills are class skills for you. You get a +1 bonus on all checks with any two Knowledge skills of your choice.",
     "prerequisites": [
-      {"type":"level", "value": 1}
+      {
+        "type": "level",
+        "value": 1
+      }
     ]
   },
   "919": {
@@ -13845,7 +14001,14 @@
         "type": "feats",
         "id": "3058"
       },
-      "Abjurer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Abjurer"
+      }
     ]
   },
   "989": {
@@ -16169,7 +16332,14 @@
     "special": "You can gain this feat multiple times. Each time, you gain an extra spell slot at any level up to one level lower than the highest-level spell you can cast.",
     "benefit": "You gain one extra spell slot in your daily allotment. This extra slot can be at any level up to one level lower than the highest-level spell you can cast. For example, a 4th-level sorcerer gains either an extra 0-level or 1st-level slot, allowing him to cast any known spell of the chosen level one more time each day. A 4th-level wizard can prepare any extra 0-level or 1st-level spell she knows. Once selected, the extra spell slot never migrates up or down in level.",
     "prerequisites": [
-      "Spellcaster Level 4"
+      {
+        "type": "level",
+        "value": "4"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "1169": {
@@ -16250,7 +16420,14 @@
     "special": "You can gain this feat multiple times. Each time, you learn a new spell at any level up to one lower than the highest-level spell you can cast.",
     "benefit": "You learn one additional spell at any level up to one level lower than the highest-level spell you can cast. Thus, a 4th-level sorcerer gains a new 0-level or 1stlevel spell, expanding his repertoire. A 4th-level wizard can likewise learn an extra 0-level or 1st-level spell, but since wizards learn spells far more easily than sorcerers, this feat is of less use to her.",
     "prerequisites": [
-      "Spellcaster Level 3"
+      {
+        "type": "level",
+        "value": "3"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "1176": {
@@ -21204,7 +21381,14 @@
     "isSkillTrick": false,
     "benefit": "You can expend a use of your alternate form ability to take the form of a Medium or smaller humanoid with the half-dragon template. You also gain the following abilities:",
     "prerequisites": [
-      "Sorcerer level 5",
+      {
+        "type": "level",
+        "value": "5"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      },
       "ability to assume humanoid form",
       "True dragon"
     ]
@@ -21464,7 +21648,10 @@
         "score": "CHA",
         "value": 13
       },
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       {
         "type": "races",
         "id": "23"
@@ -22136,7 +22323,14 @@
     "isSkillTrick": false,
     "benefit": "When using alternate form, you receive up to a +8 bonus to Strength and a +4 bonus to Constitution; these bonuses cannot provide you with a Strength or Constitution score greater than what you possess in dragon form.",
     "prerequisites": [
-      "Sorcerer level 5",
+      {
+        "type": "level",
+        "value": "5"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      },
       "ability to assume humanoid form",
       "True dragon"
     ]
@@ -25789,7 +25983,14 @@
     "isSkillTrick": false,
     "benefit": "You gain a bonus on saves againstfireand poison equal to the number of infernal sorcerer heritage feats you possess. When you use a conjuration (summoning) spell to summon an evil outsider, you gain a +2 bonus to your caster level.",
     "prerequisites": [
-      "Sorcerer level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 793
+      }
     ]
   },
   "1831": {
@@ -25880,7 +26081,14 @@
     "isSkillTrick": false,
     "benefit": "Add Bluff, Disguise, Speak Language, and Sleight of Hand to your list of cleric, class skills. If you are a spellscale (see Races of the Dragon), you also gain a +2 competence bonus on Bluff, Disguise, and Sleight of Hand checks. In addition, you add the following spells to your cleric spell list. 1st Expeditious Retreat: Your speed increases by 30 ft. 2nd Soul of Anarchy: You gain +5 on Escape Artist checks and grapple checks to avoid being grappled, your natural weapons are chaotic, and you are treated as being chaotic for adjudicating effects. 4th Invisibility, Greater: As invisibility, but subject can attack and stay invisible. 6th Shadow Walk: Step into shadow to travel rapidly.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "classes",
+        "value": 130
+      },
       "deity Aasterinian",
       "dragonblood subtype"
     ]
@@ -25931,7 +26139,14 @@
     "isSkillTrick": false,
     "benefit": "Add Disable Device, Open Lock, and Search to your list of cleric class skills. In addition, you add the following spells to your cleric spell list. 1st Hoard Gullet: Gain a second stomach to store objects in, similar to a bag of holding. 2nd Knock: Open locked or magically sealed door, 3rd Nondetection'1: Hides subject from divination and scrying. 7th Sequester: Subject is invisible to sight and scrying; render creature comatose.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Astilabor",
       "dragonblood subtype"
     ]
@@ -25981,7 +26196,14 @@
     "isSkillTrick": false,
     "benefit": "When you cast an inflict spell on an undead creature, you add the spell's level to the damage healed by the spell. In addition, you add the following spells to your cleric spell list. 1st Rot of Ages: Cloud of rotting debris sickens or nauseates one creature, provides concealment for others. 3rd Vampiric Touch: Touch deals ld6 damage per 2 levels; caster gains damage as hp. 5th Waves of Fatigue: Several targets become fatigued. 7th Waves of Exhaustion: Several targets become exhausted.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Fa 1 azure",
       "dragonblood subtype"
     ]
@@ -26005,7 +26227,14 @@
     "isSkillTrick": false,
     "benefit": "You can command or rebuke oozes as an evil cleric commands or rebukes undead. You can use this supernatural ability a number of times per day equal to 3 + your Cha modifi er. In addition, you add the following spells to your cleric spell list. 1st Corrosive GraspMag: 1 touch/level deals 1d6+1 acid damage. 2nd BlindsightPG: Grants blindsight out to 30 ft. 3rd Amorphous FormUnd: Subject becomes puddinglike and can slip through cracks quickly. 5th Slime Hurl: Hurl up to three globs of green slime. 7th Mantle of the Slime Lord: Nonintelligent oozes do not attack you, and you gain some ooze immunities.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "patron deity Ghaunadaur"
     ]
   },
@@ -26070,7 +26299,14 @@
     "isSkillTrick": false,
     "benefit": "You gain a +2 competence bonus on saves against effects created by dragons and creatures of the dragonblood subtype. This includes spells, spell-like abilities, supernatural abilities, or any other effect with a saving throw DC. (II you have the draconic or half-dragon template, this bonus improves to You can treat your cleric levels as sorcerer levels for the purpose of qualifying for draconic feats. In addition, you add the following spells to your cleric spell list. 1st Detect Dragonblood: Detect dragons and dragonblood creatures within 60 ft. 2nd Dragoneye Rune: Create an invisible draconic mark on an object or creature. 2nd Magic of the Dragonheart: Enhance the benefits of your draconic feats. 7th Kiss of Draconic Defiance: Hinder nearby spellcasters; counter one spell automatically",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity lo",
       "dragonblood subtype"
     ]
@@ -26082,7 +26318,14 @@
     "isSkillTrick": false,
     "benefit": "Allfireelementals that you summon using the summon monster spells have +2 hit points per die (instead of average hit points). In addition, you add the following spells to your cleric spell list. Level 2nd Aganazzar's Scorcher, Path of fire deals 1d8 damage per 2 levels (max 5d8). 4th Fire Stride: Multiple use dimension door that works only through large fires. 5th Shroud of Flame: Target bursts into flames, taking 2d6 fire damage per round and dealing 1d4 fire damage to creatures within 10 ft. 8th Incendiary Cloud: Cloud deals 4d6 fire damage/round.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "patron deity Kossuth"
     ]
   },
@@ -26093,7 +26336,14 @@
     "isSkillTrick": false,
     "benefit": "Add Gather Information and Sense Motive to your list of cleric class skills. You gain a +1 competence bonus on Gather Information and Sense Motive checks. In addition, you add the following spells to your cleric spell list. 2nd Detect Thoughts: Allows &amp;quot;listening&amp;quot; to surface thoughts. 2nd Soul of Order: Cain +2 on Will saves to resist enchantments, your natural weapons are lawful, and you are treated as being lawful for adjudicating effects. 4th Geas, Lesser: Command subject of 7 or fewer Hit Dice. 5th Hold Monster: As hold person, but any creature. 7th Justice of the Wyrm King: Create a field of arcane force that deals 4d6 damage to melee attackers.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Lendys",
       "dragonblood subtype"
     ]
@@ -26270,7 +26520,14 @@
     "isSkillTrick": false,
     "benefit": "Once per day, as a standard action, you can transform your skin into shimmering emerald scales. The scales absorb magic missile damage as the shield spell, and they enable you to pass through walls of force as if they weren't there. The emerald scales last for 1 minute per character level. This is a supernatural ability. In addition, you add the following spells to your cleric spell list. 2nd Blinding SpittlePG: Ranged touch attack blinds subject. 4th Serpent ArrowSK: Transforms up to eight missiles into Tiny vipers. 6th Veil: Changes appearance of group of creatures. 8th Animal Shapes: One ally/level polymorphs into chosen animal (snakes only).",
     "prerequisites": [
-      "cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "Extaminaar",
       "patron deity Varae"
     ]
@@ -26906,7 +27163,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation. A warforged with this feat who then takes Improved Damage Reduction (see page 55 of the EBERRON Campaign Setting) can choose to gain damage reduction 1/adamantine or improve the damage reduction granted by this feat by 2. Unlike the Adamantine Body and Mithral Body feats, warforged druids who take this feat can cast druid spells and use the druid's supernatural and spell-like abilities.",
     "benefit": "Your armor bonus increases to +3 and you gain damage reduction 2/slashing. You are considered to be wearing light armor, and have a +4 maximum Dexterity bonus to AC, a -3 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 20%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -28356,7 +28616,14 @@
     "isSkillTrick": false,
     "benefit": "You can make two extra attacks in a round. All attacks made this round suffer a -5 attack penalty. This feat requires the full attack action",
     "prerequisites": [
-      "Monk level 4",
+      {
+        "type": "level",
+        "value": "4"
+      },
+      {
+        "type": "classes",
+        "value": 576
+      },
       {
         "type": "score",
         "score": "DEX",
@@ -28654,7 +28921,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a longstride shifter gains a +2 bonus to Dexterity and a bonus of +10 feet to her base land speed.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "2037": {
@@ -28684,7 +28958,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a longtooth shifter gains a +2 bonus to Strength and grows fangs that can be used as a natural weapon, dealing 1d6 points of damage (plus an additional +1 for every four character levels she has) with a successful bite attack. She cannot attack more than once per round with her bite, even if her base attack bonus is high enough to give her multiple attacks. She can use her bite as a secondary attack (taking a -5 penalty on her attack roll) while wielding a weapon.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "2040": {
@@ -28917,7 +29198,14 @@
         "type": "feats",
         "id": "435"
       },
-      "arcane caster level 6",
+      {
+        "type": "level",
+        "value": "6"
+      },
+      {
+        "type": "classes",
+        "value": "arcane caster"
+      },
       "familiar"
     ]
   },
@@ -29455,7 +29743,14 @@
         "type": "skills",
         "id": "25"
       },
-      "Monk level 7"
+      {
+        "type": "level",
+        "value": "7"
+      },
+      {
+        "type": "classes",
+        "value": 576
+      }
     ]
   },
   "2099": {
@@ -30885,7 +31180,14 @@
         "type": "feats",
         "id": "2340"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2197": {
@@ -30899,7 +31201,14 @@
         "type": "feats",
         "id": "2340"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2198": {
@@ -31432,7 +31741,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of their druid supernatural or spell-like class abilities. Warforged characters with this feat do not gain the benefi t of any class feature prohibited to a character wearing light armor.",
     "benefit": "Your armor bonus is increased to +5, and you are considered to be wearing light armor. You now have a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -31444,7 +31756,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of their druid supernatural or spell-like class abilities. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing light armor.",
     "benefit": "The warforged's armor bonus is increased to +5, and the character is considered to be wearing light armor. He now has a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -31456,7 +31771,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefi t of any class feature prohibited to a character wearing light armor.",
     "benefit": "Your armor bonus is increased to +5 and you are considered to be wearing light armor. You now have a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -32888,7 +33206,14 @@
         "type": "feats",
         "id": "2340"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2337": {
@@ -32902,7 +33227,14 @@
         "type": "feats",
         "id": "2340"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2338": {
@@ -32928,7 +33260,14 @@
     "isSkillTrick": false,
     "benefit": "You may take full advantage of earth nodes and node magic, as described in Chapter 4: Magic and Spells. This feat grants you access to the various node magic feats and allows you to make a <a href=\"/skills/spellcraft/\">Spellcraft</a> check instead of an Intelligence check to notice nearby nodes and manipulate various node powers.",
     "prerequisites": [
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2341": {
@@ -32939,7 +33278,14 @@
     "special": "You can gain this feat multiple times. Each time you take the feat, it attunes you to a different node type.",
     "benefit": "You are attuned to one type of node and the magical power it provides. When you choose this feat, choose a type of node (earth, evil, or Shadow Weave). This feat grants you access to the various node magic feats and node powers, and allows you to make a <a href=\"/skills/spellcraft/\">Spellcraft</a> check instead of an Intelligence check to notice nearby nodes of the type to which you are attuned.",
     "prerequisites": [
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2342": {
@@ -32954,7 +33300,14 @@
         "type": "feats",
         "id": "2340"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2343": {
@@ -36427,7 +36780,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation.",
     "benefit": "You gain 1 extra power point at 1st level, regardless of whether you choose a psionic class. As you gain experience, you can attune the crystals infused in your body to the psionic energies of your mind. You can treat your body as a cognizance crystal, storing up to 1 power point plus 1 power point per two character levels (up to a maximum of 11 power points at 20th level), and withdrawing those stored power points at some later time. For more details on cognizance crystals, see page 167 of the Expanded Psionics Handbook.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -37492,7 +37848,14 @@
     "isSkillTrick": false,
     "benefit": "You gain a +2 insight bonus on damage rolls against creatures with the evil subtype. In addition, you may add the following spells to your cleric spell list: Level Spell 2nd Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (maximum 3). 3rd Summon Monster III*: Calls extraplanar creature to fight for you. 5th Summon Monster V*: Calls extraplanar creature to fight for you. 6th Summon Monster VI*: Calls extraplanar creature to fight for you. 8th Summon Monster VIII*: Calls extraplanar creature to fight for you. *Fire elementals only.",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Pelor"
     ]
   },
@@ -38061,7 +38424,14 @@
     "isSkillTrick": false,
     "benefit": "When casting a spell that summons air or earth elementals, you may choose to summon an orglash or thomil instead. (See the Orglash and Thomil entries in Chapter 6: Monsters of the East) For example, if you cast summon monster V, which can summon a medium elemental, you may summon an orglash or thomil using a medium elemental as the base creature. If you cast elemental swarm, you could opt to summon orglashes or thomils based on large, huge, and greater air or earth elementals. Altering the spell in this manner does not change any other aspects of the spell. You may use this ability outside of Rashemen.",
     "prerequisites": [
-      "Spellcaster Level 5"
+      {
+        "type": "level",
+        "value": "5"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2697": {
@@ -38109,7 +38479,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a razorclaw shifter gains a +2 bonus to Strength and grows claws that can be used as natural weapons. These claws deal 1d4 points of damage (plus an additional +1 for every four character levels she has) with each successful attack. She can attack with one claw as a standard action or with two claws as a full attack action (as a primary natural weapon). She can not attack more than once per round with a single claw, even if her base attack bonus is high enough to give her multiple attacks. She can attack with a claw as a light off-hand weapon while wielding a weapon in her primary hand, but all her attacks in that round take a -2 penalty.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "2700": {
@@ -38933,7 +39310,14 @@
         "type": "feats",
         "id": "1910"
       },
-      "Spellcaster Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      }
     ]
   },
   "2754": {
@@ -40211,7 +40595,14 @@
     "isSkillTrick": false,
     "benefit": "Based on the rogue special abilities you have (PH 50), you gain one or more additional special benefits as described below. You gain the benefits for all the special abilities you have, even those you gain after selecting this feat. <br /><em>Crippling Strike:</em> You can deal Strength damage even to a target that is immune to extra damage from sneak attacks. <br /><em>Defensive Roll:</em> You can use this ability three times per day, rather than once per day. <br /><em>Improved Evasion:</em> You gain a +2 competence bonus on Reflex saves. <br /><em>Opportunist:</em> You can use the opportunist ability as many times per round as you can make attacks of opportunity, but no more than once per creature per round. Each use of the opportunist ability counts as an attack of opportunity. <br /><em>Skill Mastery:</em> When taking 10 with a skill to which you have assigned skill mastery, you can treat the die roll as a 12 instead of as a 10. (In effect, you're &quot;taking 12.&quot;) <br /><em>Slippery Mind:</em> You gain a +2 competence bonus on the extra save granted by slippery mind.",
     "prerequisites": [
-      "Rogue level 10"
+      {
+        "type": "level",
+        "value": "10"
+      },
+      {
+        "type": "classes",
+        "value": 700
+      }
     ]
   },
   "2848": {
@@ -40745,7 +41136,14 @@
     "special": "You can take this feat only once, Choosing this feat changes your patron deity from your previous deity to a dragon quazi deity of you choice, and you take no penalties for the change. If you later choose a different patron deity, you lose the benefit of this feat, but you new patron deity can grant you spells as he or shee would any other cleric. Tchazzar is the only active dragon quasi-deity (dragon with 12 levels of dragon ascendant class) active in Faerun",
     "benefit": "You can name a dragon quazi deity asyour patron deity, and still recieve you divine spells normally. In addition, you can call upon your draconic paatron to add a +1 luck bonus on any one attack roll, saveing throw, ability check, or level check.",
     "prerequisites": [
-      "Divine Spellcaste Level 1",
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": "Divine Spellcaste"
+      },
       "Dragon with 12 level of the Dragon Ascendant (from draconomicon) prestige class as a patron deity"
     ]
   },
@@ -43251,7 +43649,14 @@
     "isSkillTrick": false,
     "benefit": "Each time you take this feat, choose a number of spells equal to your Intelligence modifier that you already know. From that point on, you can prepare these spells without referring to a spellbook.",
     "prerequisites": [
-      "Wizard level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 976
+      }
     ]
   },
   "3069": {
@@ -43395,7 +43800,14 @@
     "isSkillTrick": false,
     "benefit": "Your familiar can cast spells that you grant to it. A familiar gains spells based on your arcane caster level, and any spells granted to your familiar are subtracted from your daily allotment.",
     "prerequisites": [
-      "arcane caster level 9",
+      {
+        "type": "level",
+        "value": "9"
+      },
+      {
+        "type": "classes",
+        "value": "arcane caster"
+      },
       "familiar"
     ]
   },
@@ -47892,7 +48304,10 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. If you later select any warforged feat that grants or adjusts an armor bonus or damage reduction, you lose this feat and all its effects.",
     "benefit": "You lose the normal +2 armor bonus and light fortifi cation common to warforged characters, but you have no inherent chance of arcane spell failure and can wear armor or magic robes and gain their full effects.",
     "prerequisites": [
-      {"type":"level", "value": 1},
+      {
+        "type": "level",
+        "value": 1
+      },
       "Warforged"
     ]
   },
@@ -48172,7 +48587,14 @@
     "isSkillTrick": false,
     "benefit": "As a swift action, you can determine how close creatures are to death. This extraordinary ability can be used at will but otherwise functions like the deathwatch spell. In addition, you may add the following spells to your cleric spell list: 2nd False Life: Gain 1d10 temporary hp +1/level (max +10). 3rd Halt Undead: Immobilizes undead for 1 round/level. 5th Blight: Withers one plant or deals 1d6/level damage to plant creature. 7th Finger of Death: Kills one subject or deals 3d6 damage +1/level (max +25).",
     "prerequisites": [
-      "Cleric level 3rd",
+      {
+        "type": "level",
+        "value": 3
+      },
+      {
+        "type": "class",
+        "value": "cleric"
+      },
       "deity Wee Jas"
     ]
   },
@@ -48559,7 +48981,14 @@
     "isSkillTrick": false,
     "benefit": "You can use detect magic at will. Also, as a swift action, you can attempt to determine an opponent's spellcasting ability. You make a Sense Motive check (DC 5 + target's caster level). If this check succeeds, you learn the highest-level spells the target is capable of casting. This benefit grants you no insight into spell-like or supernatural abilities.",
     "prerequisites": [
-      "arcane caster level 9"
+      {
+        "type": "level",
+        "value": "9"
+      },
+      {
+        "type": "classes",
+        "value": "arcane caster"
+      }
     ]
   },
   "3453": {
@@ -49201,7 +49630,14 @@
         "type": "feats",
         "id": "3435"
       },
-      "Spellcaster Level 6",
+      {
+        "type": "level",
+        "value": "6"
+      },
+      {
+        "type": "classes",
+        "value": "Spellcaster"
+      },
       "rebuke undead"
     ]
   },
@@ -49770,7 +50206,14 @@
         "type": "feats",
         "id": "1495"
       },
-      "Fighter level 18",
+      {
+        "type": "level",
+        "value": "18"
+      },
+      {
+        "type": "classes",
+        "value": 358
+      },
       "Weapon Proficiency with with selected weapon",
       "Weapon Mastery with damage type of selected weapon"
     ]
@@ -50030,7 +50473,14 @@
     "isSkillTrick": false,
     "benefit": "While shifting, a wildhunt shifter gains a +2 bonus to Constitution and the scent ability. This ability allows the shifter to detect approaching enemies, sniff out hidden foes, and track by sense of smell. A wildhunt shifter can identify familiar odors just as a human does familiar sights. A wildhunt shifter can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. These stronger scents block other scents, so they can sometimes be used to confuse or hamper this shifter trait. When a wildhunt shifter detects a scent, the exact location of the source i sn't rev ealed--only i ts presence somewhere within range. The shifter can take a move action to note the direction of the scent. Whenever the shifter comes within 5 feet of the source, she pinpoints the source's location. While shifting, a wildhunt shifter who has the Track feat can follow tracks by smell, making Survival checks to fi nd or follow a trail. The typical DC for a fresh trail is 10 (regardless of the surface that holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures producing the odor, and the age of the trail. For each hour that the trail grows cold, the DC increases by 2. This ability otherwise follows the rules for the Track feat. Shifters tracking by scent ignore the effects of surface conditions and poor visibility. When not shifting, a wildhunt shifter gains a +2 bonus on Survival checks due to the lingering effects of the scent ability.",
     "prerequisites": [
-      "Shifter Level 1"
+      {
+        "type": "level",
+        "value": "1"
+      },
+      {
+        "type": "classes",
+        "value": 769
+      }
     ]
   },
   "3566": {

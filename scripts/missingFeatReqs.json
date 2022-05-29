@@ -182,11 +182,6 @@
   "Twist the Knife",
   "Venomous Strike"
  ],
- "Sorcerer level 5": [
-  "Alternate Form",
-  "Half-Dragon Form ",
-  "Hidden Strength"
- ],
  "True dragon": [
   "Alternate Form",
   "Half-Dragon Form ",
@@ -305,10 +300,6 @@
   "Umbral Shroud",
   "Wind-Guided Arrows"
  ],
- "arcane caster level 1": [
-  "Arcane Accompaniment",
-  "Combat Familiar"
- ],
  "bardic music": [
   "Arcane Accompaniment",
   "Battle Dancer",
@@ -343,26 +334,8 @@
   "Netherese Battle Curse",
   "Precocious Apprentice"
  ],
- "Cleric level 3rd": [
-  "Arcane Insight",
-  "Dread Tyranny",
-  "Initiate of Aasterinian ",
-  "Initiate of Astilabor ",
-  "Initiate of Falazure ",
-  "Initiate of Ghaunadaur",
-  "Initiate of Io ",
-  "Initiate of Kossuth",
-  "Initiate of Lendys ",
-  "Radiant Fire",
-  "Undying Fate"
- ],
  "deity Boccob": [
   "Arcane Insight"
- ],
- "Wizard level 1": [
-  "Arcane Manipulation",
-  "Collegiate Wizard",
-  "Spell Mastery"
  ],
  "Ability to cast arcane spells or use spelllike abilities (including invocations)": [
   "Arcane mastery"
@@ -582,10 +555,6 @@
   "Razing Strike",
   "Spell Drain"
  ],
- "Spellcaster Level 2": [
-  "Augment Summoning",
-  "Augment Summoning"
- ],
  "Alchemy 24 ranks": [
   "Augmented Alchemy"
  ],
@@ -768,14 +737,6 @@
   "Beast Shape",
   "Beast Totem"
  ],
- "Shifter Level 1": [
-  "Beasthide",
-  "Cliffwalk",
-  "Longstride",
-  "Longtooth",
-  "Razorclaw",
-  "Wildhunt"
- ],
  "Shifter with the beasthide trait": [
   "Beasthide Elite"
  ],
@@ -818,9 +779,6 @@
   "Craft Epic Wondrous Item",
   "Improved Flight Item",
   "Portal Master"
- ],
- "Sorcerer level 3": [
-  "Black Dragon Lineage "
  ],
  "caster level 7th": [
   "Black Lore of Moil"
@@ -1190,13 +1148,6 @@
   "Infernal Sorcerer Howl",
   "Infernal Sorcerer Resistance"
  ],
- "Sorcerer level 1": [
-  "Celestial Sorcerer Heritage",
-  "Draconic Heritage",
-  "Draconic Heritage",
-  "Draconic Heritage",
-  "Infernal Sorcerer Heritage"
- ],
  "any two other celestial sorcerer heritage feats": [
   "Celestial Sorcerer Lore"
  ],
@@ -1551,9 +1502,6 @@
   "Scribe Tattoo"
  ],
  "Caster level 11th": [
-  "Craft Contingent Spell"
- ],
- "Spellcaster Level 11": [
   "Craft Contingent Spell"
  ],
  "Manifester level 9th+": [
@@ -2130,9 +2078,6 @@
   "Divine Damage Reduction",
   "Earth's Warding"
  ],
- "Divine caster level 3": [
-  "Divine Defiance"
- ],
  "Travel or Trickery domain": [
   "Divine Intercession"
  ],
@@ -2622,9 +2567,6 @@
  "must not have the ability to rebuke undead": [
   "Energize Spell"
  ],
- "Abjurer level 1": [
-  "Energy Abjuration"
- ],
  "one other metamagic feat": [
   "Energy Admixture"
  ],
@@ -2992,9 +2934,6 @@
  "Caster level 4th": [
   "Extra Slot"
  ],
- "Spellcaster Level 4": [
-  "Extra Slot"
- ],
  "Spellcaster Level 4th": [
   "Extra Slot"
  ],
@@ -3006,9 +2945,6 @@
   "Extra Smiting (Smite Anything)",
   "Extra Smiting (Smite Good)",
   "Extra Smiting (Smite Mortals)"
- ],
- "Spellcaster Level 3": [
-  "Extra Spell"
  ],
  "able to cast 2ndlevel spells": [
   "Extra Spell Secret"
@@ -4313,9 +4249,6 @@
  "Patron deity Tyr": [
   "Initiate of Tyr"
  ],
- "cleric level 3rd": [
-  "Initiate of Varae"
- ],
  "Extaminaar": [
   "Initiate of Varae"
  ],
@@ -4544,9 +4477,6 @@
  "Damaran human": [
   "Lightbringer"
  ],
- "Monk level 4": [
-  "Lightning Fists"
- ],
  "Any two metashadow feats": [
   "Line of Shadow"
  ],
@@ -4634,9 +4564,6 @@
   "Lurk Augment Ranged",
   "Lurk Master"
  ],
- "arcane caster level 6": [
-  "Lurking Familiar"
- ],
  "Improved Control Shape feat or Control Shape 8 ranks": [
   "Lycanthropic Spell"
  ],
@@ -4694,9 +4621,6 @@
  ],
  "Mror dwarf": [
   "Manticore's Sting"
- ],
- "Monk level 7": [
-  "Mantis Leap"
  ],
  "Access to one psionic mantle": [
   "Mantle Focus",
@@ -4875,16 +4799,6 @@
  ],
  "Two or more metamagic feats": [
   "Metamagic Vigor"
- ],
- "Spellcaster Level 1": [
-  "Metanode Spell",
-  "Metanode Spell",
-  "Node Defense",
-  "Node Defense",
-  "Node Spellcasting",
-  "Node Spellcasting",
-  "Node Store",
-  "Reserves of Strength"
  ],
  "Ability to manifest psionic powers": [
   "Metapower"
@@ -5451,9 +5365,6 @@
  "Natural swim speed": [
   "Rapid Swimming"
  ],
- "Spellcaster Level 5": [
-  "Rashemi Elemental Summoning"
- ],
  "Sneak attack": [
   "Razing Strike"
  ],
@@ -5600,9 +5511,6 @@
  "similar ability)": [
   "Sapphire Smite"
  ],
- "Rogue level 10": [
-  "Savvy Rogue "
- ],
  "Divine grace": [
   "Scalding Faith of the Sun"
  ],
@@ -5651,9 +5559,6 @@
  ],
  "Simple Weapon Profi - ciency (longspear)": [
   "Serpent Strike"
- ],
- "Divine Spellcaste Level 1": [
-  "Servant of a Dragon Ascendant"
  ],
  "Dragon with 12 level of the Dragon Ascendant (from draconomicon) prestige class as a patron deity": [
   "Servant of a Dragon Ascendant"
@@ -5921,10 +5826,6 @@
  ],
  "Spell-like ability": [
   "Spell-Like Ability Focus"
- ],
- "arcane caster level 9": [
-  "Spell-Linked Familiar",
-  "Vatic Gaze"
  ],
  "Exotic Weapon Profi ciency (gnome quickrazor)": [
   "Spellrazor"
@@ -6545,9 +6446,6 @@
   "Volatile Escalation",
   "Volatile Leech"
  ],
- "Spellcaster Level 6": [
-  "Vow Of The Spider Queen"
- ],
  "rebuke undead": [
   "Vow Of The Spider Queen"
  ],
@@ -6577,9 +6475,6 @@
  ],
  "fighter level 4th": [
   "Weapon Specialization"
- ],
- "Fighter level 18": [
-  "Weapon Supremacy"
  ],
  "Weapon Proficiency with with selected weapon": [
   "Weapon Supremacy"
