@@ -37,6 +37,13 @@ function renderItems({
 
 const ItemSearchBar = styled.textarea`
     resize: none;
+    font-size: 1.5em;
+    padding: 10px 3px;
+    border-width: 2px;
+    border-color: #340000;
+    border-radius: 15px;
+    margin: 10px;
+    width: -webkit-fill-available;
 `
 
 function ItemBrowser({
@@ -49,7 +56,8 @@ function ItemBrowser({
     isExclusive,
     disabled,
     dbs,
-    userFilters
+    userFilters,
+    translate
 }) {
     const [searchedText, setSearchedText] = useState('')
     const searchRegex = getItemRegex(searchedText)
@@ -76,7 +84,12 @@ function ItemBrowser({
 
     return (
         <div>
-            <ItemSearchBar rows={1} cols={50} key={itemType} onChange={handleSearchChange} />
+            <ItemSearchBar
+                rows={1}
+                cols={50}
+                onChange={handleSearchChange}
+                placeholder={`${translate('search')}...`}
+            />
             {renderItems({
                 items: filteredItems,
                 selectedList: selected,

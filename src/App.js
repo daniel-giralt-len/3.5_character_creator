@@ -13,7 +13,7 @@ import dbs from './db/json/dbs.json'
 import webTranslations from './translations/webTranslations.json'
 
 const GlobalStyle = createGlobalStyle`
-  html, button, input {
+  html, button, input, textarea {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
   }

@@ -82,6 +82,7 @@ function Creator({
             disabled={isUsableOnlyInCorpus && !isCorpus}
             dbs={dbs}
             userFilters={filters}
+            translate={translate}
           />
         ))}
     </div>
