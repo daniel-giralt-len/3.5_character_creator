@@ -1,9 +1,12 @@
 import styled from 'styled-components'
 
-const ScoreLayout = styled.ul`
+const ScoreLayout = styled.li`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "label counter bonuses total";
+    grid-column-gap: 5px;
+    margin-bottom: 5px;
+    text-align: center;
 `
 
 const LabelWrapper = styled.label`
