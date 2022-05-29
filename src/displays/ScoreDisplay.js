@@ -33,10 +33,17 @@ const TotalWrapper = styled.div`
     grid-area: total;
 `
 
-function ScoreDisplay({scores, translate, handleScoreChange, scoreBonuses = {}}) {
+function ScoreDisplay({
+    scores,
+    translate,
+    handleScoreChange,
+    bab,
+    saves,
+    scoreBonuses = {},
+}) {
     const onScoreChange = (score, value) => handleScoreChange({ ...scores, [score]: parseInt(value) })
 
-
+    console.log(bab, saves)
 
     return (
         <div>
@@ -65,6 +72,19 @@ function ScoreDisplay({scores, translate, handleScoreChange, scoreBonuses = {}})
                             />
                             <BonusesWrapper>{(scoreBonuses[score]||0)}</BonusesWrapper>
                             <TotalWrapper>{value + (scoreBonuses[score]||0)}</TotalWrapper>
+                        </ScoreLayout>
+                    ))
+                }
+                <ScoreLayout>
+                    <LabelHeaderWrapper>{translate('bab')}</LabelHeaderWrapper>
+                    <TotalWrapper>{bab}</TotalWrapper>
+                </ScoreLayout>
+                {Object
+                    .entries(saves)
+                    .map(([save, value]) => (
+                        <ScoreLayout key={save}>
+                            <LabelWrapper>{translate(save)}</LabelWrapper>
+                            <TotalWrapper>{value}</TotalWrapper>
                         </ScoreLayout>
                     ))
                 }

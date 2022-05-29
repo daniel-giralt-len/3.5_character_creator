@@ -35,18 +35,19 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
         {isCharacter && (
             <>
               <h3>Race: {races}</h3>
-              <ScoreDisplay scores={scores} translate={translate} handleScoreChange={handleScoreChange} /> 
-              <ClassDisplay dbs={dbs} classes={classes} translate={translate} handleClassChange={handleClassChange} />
-              <h3>{translate('bab')}: {bab}</h3>
-              <div>
-                  <h3>{translate('saves')}</h3>
-                  <ul>
-                      {Object
-                          .entries(saves)
-                          .map(([score, value]) => (<li key={score}> {translate(score)}: {value} </li>))
-                      }
-                  </ul>
-              </div>
+              <ScoreDisplay
+                scores={scores}
+                translate={translate}
+                handleScoreChange={handleScoreChange}
+                bab={bab}
+                saves={saves}
+              /> 
+              <ClassDisplay
+                dbs={dbs}
+                classes={classes}
+                translate={translate}
+                handleClassChange={handleClassChange}
+              />
             </>
           )
         }
