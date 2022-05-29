@@ -44,12 +44,15 @@ function renderItems({items,
             .filter(item => isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType}))
     }
 
+    const isSelected = id => (itemType === 'races' && selectedList === id)
+        || selectedList[id] === true
+
     return filteredItems
         .filter(item => item.name.toLocaleLowerCase().match(regex))
         .map(item => (<BaseItem
             key={item.id}
             item={item}
-            isSelected={selectedList[item.id] === true}
+            isSelected={isSelected(item.id)}
             handleItemSelection={() => handleCreationChange(item.id, selectedList)}
             isAllowed={isCorpus || isItemPermitted({corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
