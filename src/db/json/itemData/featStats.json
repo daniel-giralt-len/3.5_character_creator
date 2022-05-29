@@ -451,7 +451,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8 and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -463,7 +463,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8, and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -475,7 +475,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing heavy armor.",
     "benefit": "Your armor bonus is increased to +8 and you gain damage reduction 2/adamantine. However, your base land speed is reduced to 20 feet, and you are considered to be wearing heavy armor. You have a +1 maximum Dexterity bonus to AC, a -5 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 35%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -621,7 +621,7 @@
     "special": "Aereni Focus counts as Skill Focus for the purpose of meeting any requirement or prerequisite.",
     "benefit": "A single skill of your choice is now a class skill for you, and you gain a +3 bonus on checks using that skill.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       {
         "type": "races",
         "id": "9"
@@ -1184,7 +1184,7 @@
     "isSkillTrick": false,
     "special": "In the case of the death or loss of a mentor, an ally or associate of the prior mentor (who is of an equal level to the original mentor) typically takes the place of the original. The benefits gained from the Apprentice feat are not altered. Two conditions can alter the apprentice benefits. ",
     "prerequisites": [
-      "1st level only"
+      {"type":"level", "value": 1}
     ]
   },
   "91": {
@@ -11329,7 +11329,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation.",
     "benefit": "You have a tail that you can use to make a secondary natural attack in combat. This attack deals bludgeoning damage according to your size, as shown on the table below. If you already have a tail slap attack when you take this feat, use the value from the table or your existing damage value, whichever is greater. Size --- Tail Slap Damage. Fine ----------- 1. Diminutive --- 1d2. Tiny ---------- 1d3. Small --------- 1d4. Medium ------ 1d6. Large -------- 1d8. Huge --------- 2d6. Gargantuan - 2d8. Colossal ----- 4d6.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Dragonblood subtype"
     ]
   },
@@ -11481,7 +11481,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. A kobold with the Dragonwrought feat can take this feat at 3rd level.",
     "benefit": "You have wings that aid your jumps, granting a +10 racial bonus on Jump checks. In addition, you can use your wings to glide, negating damage from a fall from any height and allowing 20 feet of forward travel for every 5 feet of descent. You glide at a speed of 30 feet with average maneuverability. Even if your maneuverability improves, you can't hover while gliding. You can't glide while carrying a medium or heavy load. If you become unconscious or helpless while in midair, your wings naturally unfurl, and powerful ligaments stiffen them. You descend in a tight corkscrew and take only 1d6 points of falling damage, no matter what the actual distance of the fall.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Dragonblood subtype"
     ]
   },
@@ -11876,7 +11876,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Having this feat allows you to take the Dragon Wings feat at 3rd level.",
     "benefit": "You are a dragon wrought kobold. Your type is dragon rather than humanoid, and you lose the dragonblood subtype. You retain all your other subtypes and your kobold racial traits. Your scales become tinted with a color that matches that of your draconic heritage. As a dragon, you are immune to magic sleep and paralysis effects. You have darkvision out to 60 feet and low-light vision. You gain a +2 racial bonus on the skill indicated for your draconic heritage on the table on page 103.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Kobold"
     ]
   },
@@ -12190,7 +12190,7 @@
         "score": "CON",
         "value": 13
       },
-      "1st level only",
+      {"type":"level", "value": 1},
       {
         "type": "races",
         "id": "23"
@@ -12897,7 +12897,7 @@
     "isSkillTrick": false,
     "benefit": "All Knowledge skills are class skills for you. You get a +1 bonus on all checks with any two Knowledge skills of your choice.",
     "prerequisites": [
-      "1st level only"
+      {"type":"level", "value": 1}
     ]
   },
   "919": {
@@ -21464,7 +21464,7 @@
         "score": "CHA",
         "value": 13
       },
-      "1st level only",
+      {"type":"level", "value": 1},
       {
         "type": "races",
         "id": "23"
@@ -26906,7 +26906,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation. A warforged with this feat who then takes Improved Damage Reduction (see page 55 of the EBERRON Campaign Setting) can choose to gain damage reduction 1/adamantine or improve the damage reduction granted by this feat by 2. Unlike the Adamantine Body and Mithral Body feats, warforged druids who take this feat can cast druid spells and use the druid's supernatural and spell-like abilities.",
     "benefit": "Your armor bonus increases to +3 and you gain damage reduction 2/slashing. You are considered to be wearing light armor, and have a +4 maximum Dexterity bonus to AC, a -3 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 20%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -31432,7 +31432,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of their druid supernatural or spell-like class abilities. Warforged characters with this feat do not gain the benefi t of any class feature prohibited to a character wearing light armor.",
     "benefit": "Your armor bonus is increased to +5, and you are considered to be wearing light armor. You now have a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -31444,7 +31444,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of their druid supernatural or spell-like class abilities. Warforged characters with this feat do not gain the benefit of any class feature prohibited to a character wearing light armor.",
     "benefit": "The warforged's armor bonus is increased to +5, and the character is considered to be wearing light armor. He now has a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks that armor check penalties apply to (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -31456,7 +31456,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. Warforged druids who take this feat cannot cast druid spells or use any of the druid's supernatural or spell-like class features. Warforged characters with this feat do not gain the benefi t of any class feature prohibited to a character wearing light armor.",
     "benefit": "Your armor bonus is increased to +5 and you are considered to be wearing light armor. You now have a +5 maximum Dexterity bonus to AC, a -2 penalty on all skill checks to which armor check penalties apply (Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, Swim, and Tumble), and an arcane spell failure chance of 15%.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -36427,7 +36427,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level during character creation.",
     "benefit": "You gain 1 extra power point at 1st level, regardless of whether you choose a psionic class. As you gain experience, you can attune the crystals infused in your body to the psionic energies of your mind. You can treat your body as a cognizance crystal, storing up to 1 power point plus 1 power point per two character levels (up to a maximum of 11 power points at 20th level), and withdrawing those stored power points at some later time. For more details on cognizance crystals, see page 167 of the Expanded Psionics Handbook.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
@@ -47892,7 +47892,7 @@
     "special": "Unlike most feats, this feat must be taken at 1st level, during character creation. If you later select any warforged feat that grants or adjusts an armor bonus or damage reduction, you lose this feat and all its effects.",
     "benefit": "You lose the normal +2 armor bonus and light fortifi cation common to warforged characters, but you have no inherent chance of arcane spell failure and can wear armor or magic robes and gain their full effects.",
     "prerequisites": [
-      "1st level only",
+      {"type":"level", "value": 1},
       "Warforged"
     ]
   },
