@@ -1937,9 +1937,6 @@
  "May not possess any arcane spellcasting class levels.": [
   "Witchborn Binder;special"
  ],
- "One exalted feat, plus either <a href=\"/feats/book-of-exalted-deeds--52/favored-of-the-companions--1091/\">Favored of the Companions</a>, <a href=\"/feats/book-of-exalted-deeds--52/knight-of-stars--1718/\">Knight of Stars</a>, or <a href=\"/feats/book-of-exalted-deeds--52/servant-of-the-heavens--2553/\">Servant of the Heavens</a>.": [
-  "Wonderworker;feats"
- ],
  "Able to cast 3rd-level arcane or divine spells, or to manifest 3rd-level psionic powers.": [
   "Wonderworker;spells"
  ],
