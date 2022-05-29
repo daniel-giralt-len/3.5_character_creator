@@ -2,6 +2,7 @@ import findInDb from "./functions/findInDb";
 
 import ScoreDisplay from "./displays/ScoreDisplay";
 import ClassDisplay from "./displays/ClassDisplay";
+import RaceDisplay from "./displays/RaceDisplay";
 
 const GenericDisplay = ({type, items, translate, dbs}) => (
   <div key={type}>
@@ -34,7 +35,6 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
       <div>
         {isCharacter && (
             <>
-              <h3>Race: {races}</h3>
               <ScoreDisplay
                 scores={scores}
                 translate={translate}
@@ -47,6 +47,10 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
                 classes={classes}
                 translate={translate}
                 handleClassChange={handleClassChange}
+              />
+              <RaceDisplay 
+                id={races}
+                dbs={dbs}
               />
             </>
           )
