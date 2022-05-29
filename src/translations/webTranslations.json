@@ -5,7 +5,7 @@
         "ca": "Català"
     },
     "en": {
-        "score": "Score",
+        "name": "Name",
         "base": "Base",
         "bonuses": "Bonuses",
         "total": "Total",
@@ -37,7 +37,7 @@
         "any book": "Any book"
     },
     "es": {
-        "score": "Puntuación",
+        "name": "Nom",
         "base": "Base",
         "bonuses": "Bonuses",
         "total": "Total",
@@ -69,7 +69,7 @@
         "any book": "Cualquier libro"
     },
     "ca": {
-        "score": "Puntuació",
+        "name": "Nom",
         "base": "Base",
         "bonuses": "Bonus",
         "total": "Total",

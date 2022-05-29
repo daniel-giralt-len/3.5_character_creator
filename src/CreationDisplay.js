@@ -1,8 +1,11 @@
-import findInDb from "./functions/findInDb";
 
+import findInDb from "./functions/findInDb";
 import ScoreDisplay from "./displays/ScoreDisplay";
 import ClassDisplay from "./displays/ClassDisplay";
 import RaceDisplay from "./displays/RaceDisplay";
+
+import raceStats from './db/json/itemData/raceStats.json'
+import calculateCharacterBonuses from "./functions/calculateCharacterBonuses";
 
 const GenericDisplay = ({type, items, translate, dbs}) => (
   <div key={type}>
@@ -17,7 +20,13 @@ const GenericDisplay = ({type, items, translate, dbs}) => (
   </div>
 )
 
-function CreationDisplay({creation, dbs, translate, handleCreationChange, isCharacter}) {
+function CreationDisplay({
+  creation,
+  dbs,
+  translate,
+  handleCreationChange,
+  isCharacter
+}) {
   if(isCharacter){
     const {
       scores,
@@ -27,34 +36,33 @@ function CreationDisplay({creation, dbs, translate, handleCreationChange, isChar
       saves,
       ...rest
     } = creation
+    
+    const raceData = raceStats[races]
+    const bonuses = calculateCharacterBonuses({raceData, classes})
 
     const handleScoreChange = scores => handleCreationChange({...creation, scores})
     const handleClassChange = classes => handleCreationChange({...creation, classes})
 
     return (
       <div>
-        {isCharacter && (
-            <>
-              <ScoreDisplay
-                scores={scores}
-                translate={translate}
-                handleScoreChange={handleScoreChange}
-                bab={bab}
-                saves={saves}
-              /> 
-              <ClassDisplay
-                dbs={dbs}
-                classes={classes}
-                translate={translate}
-                handleClassChange={handleClassChange}
-              />
-              <RaceDisplay 
-                id={races}
-                dbs={dbs}
-              />
-            </>
-          )
-        }
+        <ScoreDisplay
+          baseAbilityScores={scores}
+          translate={translate}
+          handleScoreChange={handleScoreChange}
+          bab={bab}
+          saves={saves}
+          scoreBonuses={bonuses}
+        /> 
+        <ClassDisplay
+          dbs={dbs}
+          classes={classes}
+          translate={translate}
+          handleClassChange={handleClassChange}
+        />
+        <RaceDisplay 
+          id={races}
+          dbs={dbs}
+        />
         {Object.entries(rest).map(([type, items]) => (
           <GenericDisplay
             key={type}

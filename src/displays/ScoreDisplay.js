@@ -34,29 +34,27 @@ const TotalWrapper = styled.div`
 `
 
 function ScoreDisplay({
-    scores,
+    baseAbilityScores,
     translate,
     handleScoreChange,
     bab,
     saves,
     scoreBonuses = {},
 }) {
-    const onScoreChange = (score, value) => handleScoreChange({ ...scores, [score]: parseInt(value) })
-
-    console.log(bab, saves)
+    const onScoreChange = (score, value) => handleScoreChange({ ...baseAbilityScores, [score]: parseInt(value) })
 
     return (
         <div>
             <h3>{translate('scores')}</h3>
             <ul>
                 <ScoreLayout>
-                    <LabelHeaderWrapper>{translate('score')}</LabelHeaderWrapper>
+                    <LabelHeaderWrapper>{translate('name')}</LabelHeaderWrapper>
                     <CounterHeaderWrapper>{translate('base')}</CounterHeaderWrapper>
                     <BonusesWrapper>{translate('bonuses')}</BonusesWrapper>
                     <TotalWrapper>{translate('total')}</TotalWrapper>
                 </ScoreLayout>
                 {Object
-                    .entries(scores)
+                    .entries(baseAbilityScores)
                     .map(([score, value]) => (
                         <ScoreLayout key={score}>
                             <LabelWrapper>{translate(score)}</LabelWrapper>
@@ -77,14 +75,14 @@ function ScoreDisplay({
                 }
                 <ScoreLayout>
                     <LabelHeaderWrapper>{translate('bab')}</LabelHeaderWrapper>
-                    <TotalWrapper>{bab}</TotalWrapper>
+                    <TotalWrapper>{scoreBonuses.bab}</TotalWrapper>
                 </ScoreLayout>
                 {Object
                     .entries(saves)
                     .map(([save, value]) => (
                         <ScoreLayout key={save}>
                             <LabelWrapper>{translate(save)}</LabelWrapper>
-                            <TotalWrapper>{value}</TotalWrapper>
+                            <TotalWrapper>{scoreBonuses[save]}</TotalWrapper>
                         </ScoreLayout>
                     ))
                 }

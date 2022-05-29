@@ -4,7 +4,7 @@ function RaceDisplay({
     id,
     dbs
 }){
-    const raceData = findInDb(dbs, 'races', id)
+    const raceData = findInDb(dbs, 'races', id) || {}
 
     return (
         <div>
