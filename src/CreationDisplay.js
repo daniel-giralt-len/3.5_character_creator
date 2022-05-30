@@ -4,6 +4,7 @@ import findInDb from "./functions/findInDb";
 import ScoreDisplay from "./displays/ScoreDisplay";
 import ClassDisplay from "./displays/ClassDisplay";
 import RaceDisplay from "./displays/RaceDisplay";
+import FeatDisplay from "./displays/FeatDisplay";
 
 import raceStats from './db/json/itemData/raceStats.json'
 import calculateCharacterBonuses from "./functions/calculateCharacterBonuses";
@@ -40,16 +41,22 @@ function CreationDisplay({
       races,
       bab,
       saves,
+      feats,
       ...rest
     } = creation
-    
+    console.log(feats)
     const raceData = raceStats[races]
     const bonuses = calculateCharacterBonuses({raceData, classes})
+    const selectedFeats = Object
+      .entries(feats)
+      .filter(([_, selected])=>selected)
+      .reduce((acc,[id])=>({...acc,[id]:true}),{})
     const nFeats = calculateMaxFeats({raceData, classes})
-    const usedFeats = (Object.values(rest.feats).filter(v=>v)||[]).length
+    const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
 
     const handleScoreChange = scores => handleCreationChange({...creation, scores})
     const handleClassChange = classes => handleCreationChange({...creation, classes})
+    const handleFeatsChange = feats => handleCreationChange({...creation, feats})
 
     return (
       <div>
@@ -63,6 +70,12 @@ function CreationDisplay({
           usedFeats={usedFeats}
           maxFeats={nFeats}
         /> 
+        <FeatDisplay
+          feats={selectedFeats}
+          dbs={dbs}
+          onFeatsChange={handleFeatsChange}
+          translate={translate}
+        />
         <ClassDisplay
           dbs={dbs}
           classes={classes}
