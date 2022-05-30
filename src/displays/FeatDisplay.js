@@ -7,6 +7,7 @@ const FeatLayout = styled.li`
     
 const FeatList = styled.ul`
     padding: 2px 4px;
+    font-size: 0.9em;
 `
 
 function FeatItem({

@@ -14,6 +14,17 @@ const CodeArea = styled.div`
   border: 1px solid black;
 `
 
+const CreationDisplayLayout = styled.section`
+  h3{
+    margin-top: 10px;
+    margin-bottom: 3px;
+  }
+  ul{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+`
+
 const GenericDisplay = ({type, items, translate, dbs}) => (
   <div key={type}>
     <h3>{translate(type)}</h3>
@@ -59,7 +70,7 @@ function CreationDisplay({
     const handleFeatsChange = feats => handleCreationChange({...creation, feats})
 
     return (
-      <div>
+      <CreationDisplayLayout>
         <ScoreDisplay
           baseAbilityScores={scores}
           translate={translate}
@@ -96,7 +107,7 @@ function CreationDisplay({
             dbs={dbs}
           />
         ))}
-      </div>
+      </CreationDisplayLayout>
     );
   }else{
     return (
