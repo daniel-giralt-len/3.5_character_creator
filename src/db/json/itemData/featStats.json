@@ -885,7 +885,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       },
       "True dragon"
     ]
@@ -1379,7 +1379,7 @@
       },
       {
         "type": "classes",
-        "value": 976
+        "id": "976"
       }
     ]
   },
@@ -2950,7 +2950,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
@@ -3105,7 +3105,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -4502,7 +4502,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -5403,7 +5403,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
@@ -5800,7 +5800,7 @@
       },
       {
         "type": "classes",
-        "value": 976
+        "id": "976"
       },
       "arcane caster level 1st"
     ]
@@ -11034,7 +11034,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -11052,7 +11052,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -11070,7 +11070,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -21387,7 +21387,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       },
       "ability to assume humanoid form",
       "True dragon"
@@ -22329,7 +22329,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       },
       "ability to assume humanoid form",
       "True dragon"
@@ -25989,7 +25989,7 @@
       },
       {
         "type": "classes",
-        "value": 793
+        "id": "793"
       }
     ]
   },
@@ -26087,7 +26087,7 @@
       },
       {
         "type": "classes",
-        "value": 130
+        "id": "130"
       },
       "deity Aasterinian",
       "dragonblood subtype"
@@ -28622,7 +28622,7 @@
       },
       {
         "type": "classes",
-        "value": 576
+        "id": "576"
       },
       {
         "type": "score",
@@ -28927,7 +28927,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
@@ -28964,7 +28964,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
@@ -29749,7 +29749,7 @@
       },
       {
         "type": "classes",
-        "value": 576
+        "id": "576"
       }
     ]
   },
@@ -38485,7 +38485,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
@@ -40601,7 +40601,7 @@
       },
       {
         "type": "classes",
-        "value": 700
+        "id": "700"
       }
     ]
   },
@@ -43655,7 +43655,7 @@
       },
       {
         "type": "classes",
-        "value": 976
+        "id": "976"
       }
     ]
   },
@@ -50212,7 +50212,7 @@
       },
       {
         "type": "classes",
-        "value": 358
+        "id": "358"
       },
       "Weapon Proficiency with with selected weapon",
       "Weapon Mastery with damage type of selected weapon"
@@ -50479,7 +50479,7 @@
       },
       {
         "type": "classes",
-        "value": 769
+        "id": "769"
       }
     ]
   },
