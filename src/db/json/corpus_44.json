@@ -1,6 +1,7 @@
 {
     "rulebooks": {
         "3": true,
+        "4": true,
         "8": true,
         "9": true,
         "10": true,
@@ -26,11 +27,11 @@
         "54": true,
         "56": true,
         "62": true,
-        "63": true,
         "64": true,
         "65": true,
         "66": true,
         "67": true,
+        "68": true,
         "73": true,
         "74": true,
         "77": true,
@@ -43,7 +44,6 @@
         "96": true,
         "102": true,
         "103": true,
-        "105": true,
         "106": true
     },
     "editions": {
