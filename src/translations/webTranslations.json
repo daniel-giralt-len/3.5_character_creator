@@ -5,6 +5,7 @@
         "ca": "Català"
     },
     "en": {
+        "levels": "Levels",
         "search": "Search",
         "your character needs a": "Your character needs a",
         "name": "Name",
@@ -41,6 +42,7 @@
         "any book": "Any book"
     },
     "es": {
+        "levels": "Niveles",
         "search": "Busca",
         "your character needs a": "Tu personaje requiere una",
         "name": "Nombre",
@@ -77,6 +79,7 @@
         "any book": "Cualquier libro"
     },
     "ca": {
+        "level": "Nivells",
         "search": "Cerca",
         "your character needs a": "El teu personatge requereix una",
         "name": "Nom",

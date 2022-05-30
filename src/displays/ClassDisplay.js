@@ -63,7 +63,7 @@ function ClassDisplay({
 
     return (
         <div>
-            <h3>{translate('class')}</h3>
+            <h3>{translate('levels')}</h3>
             <ul>
                 {classes
                     .map((id,i) => (<ClassLevel

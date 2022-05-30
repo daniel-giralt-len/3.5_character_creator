@@ -74,7 +74,7 @@ function CreationDisplay({
           dbs={dbs}
           translate={translate}
         />
-        {Object.entries(rest).map(([type, items]) => (
+        {Object.entries(rest).map(([type, items]) => ( //TODO: feats before race and languages
           <GenericDisplay
             key={type}
             type={type}
