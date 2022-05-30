@@ -7,7 +7,15 @@ const ScoreLayout = styled.li`
     grid-column-gap: 5px;
     margin-bottom: 5px;
     text-align: center;
-    background: ${({warning}) => warning ? 'repeating-linear-gradient(90deg,#ffffff00,#ff000033 0px,#ffffff00 4px)' : ''};
+    background: ${({warning}) => warning ? '#fff90033' : ''};
+`
+
+const WarningText = styled.div`
+    display: inline;
+    ${({warning}) => warning ? `
+    color: #ff0000;
+    font-weight: bold;
+    ` : ''};
 `
 
 const LabelWrapper = styled.label`
@@ -44,6 +52,7 @@ function ScoreDisplay({
     maxFeats,
 }) {
     const onScoreChange = (score, value) => handleScoreChange({ ...baseAbilityScores, [score]: parseInt(value) })
+    const areFeatsOverBudget = usedFeats>maxFeats
 
     return (
         <div>
@@ -75,9 +84,9 @@ function ScoreDisplay({
                         </ScoreLayout>
                     ))
                 }
-                <ScoreLayout warning={usedFeats>maxFeats}>
+                <ScoreLayout warning={areFeatsOverBudget}>
                     <LabelHeaderWrapper>{translate('feats')}</LabelHeaderWrapper>
-                    <TotalWrapper>{usedFeats} / {maxFeats}</TotalWrapper>
+                    <TotalWrapper><WarningText warning={areFeatsOverBudget}>{usedFeats}</WarningText> / {maxFeats}</TotalWrapper>
                 </ScoreLayout>
                 <ScoreLayout>
                     <LabelHeaderWrapper>{translate('bab')}</LabelHeaderWrapper>
