@@ -4,6 +4,7 @@ import Scores from './Scores'
 import ClassNames from './ClassNames'
 import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
+import Bab from './Bab'
 
 import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
@@ -30,9 +31,7 @@ const CharacterSheetLayout = styled.section`
 const SavesLayout = styled.div`
     grid-area: saves;
 `
-const BabLayout = styled.div`
-    grid-area: bab;
-`
+
 const FeatsLayout = styled.div`
     grid-area: feats;
 `
@@ -105,7 +104,10 @@ function CharacterSheet({
                     onSkillChange={onSkillChange}
                 />
                 <SavesLayout></SavesLayout>
-                <BabLayout></BabLayout>
+                <Bab
+                    translate={translate}
+                    bab={bonuses.bab}
+                />
                 <FeatsLayout></FeatsLayout>
                 <SkilltricksLayout></SkilltricksLayout>
                 <ClassesDetail

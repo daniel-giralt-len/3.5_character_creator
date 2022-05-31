@@ -50,7 +50,8 @@
         "any book": "Any book",
         "skills": "Skills",
         "ranks": "Ranks",
-        "mod": "Mod."
+        "mod": "Mod.",
+        "base attack power": "base attack bonus"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -98,7 +99,8 @@
         "any book": "Cualquier libro",
         "skills": "Habilidades",
         "ranks": "Rangos",
-        "mod": "Mod."
+        "mod": "Mod.",
+        "base attack power": "bonus de ataque base"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -146,6 +148,7 @@
         "any book": "Qualsevol llibre",
         "skills": "Habilitats",
         "ranks": "Rangs",
-        "mod": "Mod."
+        "mod": "Mod.",
+        "base attack power": "bonus d'atac base"
     }
 }
