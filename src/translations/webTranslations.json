@@ -47,7 +47,9 @@
         "will": "Will",
         "reflex": "Reflex",
         "fortitude": "Fortitude",
-        "any book": "Any book"
+        "any book": "Any book",
+        "skills": "Skills",
+        "ranks": "Ranks"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -92,7 +94,9 @@
         "will": "Voluntad",
         "reflex": "Reflejos",
         "fortitude": "Fortaleza",
-        "any book": "Cualquier libro"
+        "any book": "Cualquier libro",
+        "skills": "Habilidades",
+        "ranks": "Rangos"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -137,6 +141,8 @@
         "will": "Voluntat",
         "reflex": "Reflexes",
         "fortitude": "Fortalesa",
-        "any book": "Qualsevol llibre"
+        "any book": "Qualsevol llibre",
+        "skills": "Habilitats",
+        "ranks": "Rangs"
     }
 }

@@ -18,10 +18,13 @@ const ScoresLayout = styled.ul`
     padding: 0;
     margin: 0;
 
+    max-height: 265px;
+
     * {
         display:flex;
         align-items: center;
         justify-content: center;
+        max-height: 40px;
     }
 `
 
@@ -42,13 +45,15 @@ function Scores({
                         .map(([id, value]) => (
                             <>
                                 <BlackLabel
+                                    key={id+'label'}
                                     name={translate(id)}
                                     subtitle={translate(`${id}_long`)}
                                 />
-                                <BoldText>
+                                <BoldText key={id+'total'}>
                                     {value+bonuses[id]}
                                 </BoldText>
                                 <CounterInput 
+                                    key={id+'counter'}
                                     type="number"
                                     step="1"
                                     value={value}
@@ -58,7 +63,7 @@ function Scores({
                                     min={0}
                                     onChange={e => onScoreChange(id, e.target.value)}
                                 />
-                                <span>
+                                <span key={id+'bonuses'}>
                                     {bonuses[id]}
                                 </span>
                             </>

@@ -2,16 +2,14 @@ import styled from 'styled-components'
 import Name from './Name'
 import Scores from './Scores'
 import ClassNames from './ClassNames'
+import Skills from './Skills'
+
 import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 
-import { 
-    TextInput,
-    SmallText,
-} from './sharedComponents';
-
 const CharacterSheetLayout = styled.section`
+    max-width: 1000px;
     display: grid;
 
     grid-template-columns: 1fr 1fr;
@@ -28,15 +26,6 @@ const CharacterSheetLayout = styled.section`
         "classes classes";
 `
 
-const NameLayout = styled.div`
-    grid-area: name;
-`
-const ClassNamesLayout = styled.div`
-    grid-area: class-names;
-`
-const SkillsLayout = styled.div`
-    grid-area: skills;
-`
 const SavesLayout = styled.div`
     grid-area: saves;
 `
@@ -65,7 +54,7 @@ function CharacterSheet({
             feats,
             races,
             name,
-            skillRanks
+            skills
         } = character
 
         const raceData = raceStats[races]
@@ -81,6 +70,7 @@ function CharacterSheet({
         
         const onNameChange = name => onCreationChange({ ...character, name })
         const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
+        const onSkillChange = skills => onCreationChange({...character, skills}); console.log(skills)
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         
@@ -101,14 +91,14 @@ function CharacterSheet({
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />
-                <Scores
+                
+                <Skills
                     scores={scores}
                     bonuses={bonuses}
-                    skillRanks={skillRanks}
+                    skills={skills}
                     translate={translate}
-                    onScoreChange={onScoreChange}
+                    onSkillChange={onSkillChange}
                 />
-                <SkillsLayout></SkillsLayout>
                 <SavesLayout></SavesLayout>
                 <BabLayout></BabLayout>
                 <FeatsLayout></FeatsLayout>

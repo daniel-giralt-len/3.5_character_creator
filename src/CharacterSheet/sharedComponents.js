@@ -36,10 +36,6 @@ const CounterInput = styled.input`
     padding: 0px 5px;
 `
 
-const SkillModCounterInput = styled.input`${underlined}`
-
-const SkillClassCheckbox = styled.input`${boxed}`
-
 const ReadOnlyInput = styled.span`
     ${underlined}
 `
@@ -48,25 +44,36 @@ const BlackLabelWrapper = styled.div`
     ${fullCenteredText}
     background: #000;
     color: #FFF;
-    display: flex;
     flex-direction: column;
     padding: 2px 8px;
 `
 const BoldText = styled.span`
     font-weight: 900;
     font-size: 1.3em;
+    ${({centered}) => centered ? fullCenteredText : ''}
+    ${({box}) => box ? boxed : ''}
+    ${({underline}) => underline ? underlined : ''}
 `
-const SmallTextWrapper = styled.span`
+const SmallTextWrapper = styled.div`
     font-size: 0.75em;
     font-weight: 500;
+    ${({centered}) => centered ? fullCenteredText : ''}
+    ${({box}) => box ? boxed : ''}
+    ${({underline}) => underline ? underlined : ''}
 `
 
-const SmallText = ({children}) => (<SmallTextWrapper>{children.toUpperCase()}</SmallTextWrapper>)
+const SmallText = ({children, className, ...rest}) => (<SmallTextWrapper
+    className={className} 
+    {...rest}
+    >
+        {children.toString().toUpperCase()}
+    </SmallTextWrapper>
+)
 
-const BlackLabel = ({name, subtitle})=>(
-    <BlackLabelWrapper>
-        <BoldText>{name.toUpperCase()}</BoldText>
-        {subtitle && (<SmallText>{subtitle.toUpperCase()}</SmallText>)}
+const BlackLabel = ({name, subtitle, className})=>(
+    <BlackLabelWrapper className={className}>
+        <BoldText>{name.toString().toUpperCase()}</BoldText>
+        {subtitle && (<SmallText>{subtitle.toString().toUpperCase()}</SmallText>)}
     </BlackLabelWrapper>
 )
 
@@ -77,8 +84,6 @@ export {
     underlined,
     TextInput,
     CounterInput,
-    SkillModCounterInput,
-    SkillClassCheckbox,
     ReadOnlyInput,
     BlackLabelWrapper,
     BoldText,

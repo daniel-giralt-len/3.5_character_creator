@@ -17,7 +17,7 @@ function Name({
     
     return(
         <NameLayout>
-            <TextInput onChange={e => onNameChange(e.target.value)} rows={1}>{name}</TextInput>
+            <TextInput onChange={e => onNameChange(e.target.value)} value={name} rows={1} />
             <SmallText>{translate('character name')}</SmallText>
         </NameLayout>
     )

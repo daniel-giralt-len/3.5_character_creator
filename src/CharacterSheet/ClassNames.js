@@ -23,8 +23,7 @@ function ClassNames({
     
     return(
         <ClassNamesLayout>
-            <TextInput rows={1} disabled>{accClassListString}</TextInput>
-            <SmallText>{translate('classes and levels')}</SmallText>
+            <TextInput rows={1} disabled value={accClassListString} />
         </ClassNamesLayout>
     )
 }
