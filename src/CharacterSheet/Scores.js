@@ -11,7 +11,7 @@ const ScoresLayout = styled.ul`
     grid-area: scores;
 
     display: grid;
-    grid-template-columns: 110px 50px 75px 50px;
+    grid-template-columns: 110px 50px 50px 75px 50px;
     grid-row-gap: 5px;
     grid-column-gap: 5px;
 
@@ -32,11 +32,13 @@ function Scores({
         scores,
         bonuses,
         translate,
-        onScoreChange
+        onScoreChange,
+        modifiers
     }){
         return(
                 <ScoresLayout>
                     <SmallText>{translate('name')}</SmallText>
+                    <SmallText>{translate('mod')}</SmallText>
                     <SmallText>{translate('total')}</SmallText>
                     <SmallText>{translate('base')}</SmallText>
                     <SmallText>{translate('race')}</SmallText>
@@ -49,7 +51,10 @@ function Scores({
                                     name={translate(id)}
                                     subtitle={translate(`${id}_long`)}
                                 />
-                                <BoldText key={id+'total'}>
+                                <div key={id+'mod'}>
+                                    {modifiers[id]}
+                                </div>
+                                <BoldText key={id+'total'} box>
                                     {value+bonuses[id]}
                                 </BoldText>
                                 <CounterInput 

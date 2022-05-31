@@ -32,8 +32,12 @@ const TextInput = styled.textarea`
 `
 
 const CounterInput = styled.input`
-    ${boxed}
     padding: 0px 5px;
+
+    border: 0;
+    ${({centered}) => centered ? fullCenteredText : ''}
+    ${({box}) => box ? boxed : ''}
+    ${({underline}) => underline ? underlined : ''}
 `
 
 const ReadOnlyInput = styled.span`

@@ -29,8 +29,10 @@ const SkillItem = ({
     isTrainedOnly,
     name,
     nRanks=0,
-    scoreValue,
-    onRankChange
+    scoreName,
+    modifierValue,
+    onRankChange,
+    translate
 })=>(
     <>
         <CheckboxWrapper>
@@ -40,12 +42,14 @@ const SkillItem = ({
             />
         </CheckboxWrapper>
         <div>
-            <SkillName>{name}</SkillName>
+            <SkillName>{translate(name)}</SkillName>
             {isTrainedOnly && <SmallText>▉</SmallText>}
+            <SkillName>{`(${translate(scoreName)})`}</SkillName>
         </div>
-        <BoldText centered>{scoreValue+nRanks}</BoldText>
-        <SmallText centered underline>{scoreValue}</SmallText>
+        <BoldText box centered>{modifierValue+nRanks}</BoldText>
+        <SmallText centered underline>{modifierValue}</SmallText>
         <CounterInput 
+            underline
             type="number"
             step="1"
             value={nRanks}

@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Name from './Name'
 import Scores from './Scores'
 import ClassNames from './ClassNames'
+import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
 
 import raceStats from '../db/json/itemData/raceStats.json'
@@ -22,8 +23,8 @@ const CharacterSheetLayout = styled.section`
         "saves skills"
         "bab skills"
         "feats skills"
-        "skilltricks skills"
-        "classes classes";
+        "classes skills"
+        "skilltricks skills";
 `
 
 const SavesLayout = styled.div`
@@ -59,6 +60,8 @@ function CharacterSheet({
 
         const raceData = raceStats[races]
         const bonuses = calculateCharacterBonuses({raceData, classes})
+        const modifiers = Object.keys(scores).reduce((acc,id)=>({...acc, [id]: Math.floor(((scores[id] || 0) + (bonuses[id] || 0) - 10)/2)}),{})
+
         const selectedFeats = Object
             .entries(feats)
             .filter(([_, selected])=>selected)
@@ -70,7 +73,7 @@ function CharacterSheet({
         
         const onNameChange = name => onCreationChange({ ...character, name })
         const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
-        const onSkillChange = skills => onCreationChange({...character, skills}); console.log(skills)
+        const onSkillChange = skills => onCreationChange({...character, skills})
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         
@@ -88,6 +91,7 @@ function CharacterSheet({
                 <Scores
                     scores={scores}
                     bonuses={bonuses}
+                    modifiers={modifiers}
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />
@@ -95,6 +99,7 @@ function CharacterSheet({
                 <Skills
                     scores={scores}
                     bonuses={bonuses}
+                    modifiers={modifiers}
                     skills={skills}
                     translate={translate}
                     onSkillChange={onSkillChange}
@@ -103,7 +108,11 @@ function CharacterSheet({
                 <BabLayout></BabLayout>
                 <FeatsLayout></FeatsLayout>
                 <SkilltricksLayout></SkilltricksLayout>
-                <ClassesLayout></ClassesLayout>
+                <ClassesDetail
+                    classes={classes}
+                    translate={translate}
+                    handleClassChange
+                />
 
             </CharacterSheetLayout>
         )

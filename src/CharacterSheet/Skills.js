@@ -43,8 +43,7 @@ const Title = styled(SmallText)`
 
 function Skills({
         skills,
-        scores,
-        bonuses,
+        modifiers,
         translate,
         onSkillChange
     }){
@@ -66,7 +65,6 @@ function Skills({
                         skillsData.map(skill =>{
                             const data = skills[skill.name] || {}
                             const scoreName = skill['key ability']
-                            const score = scores[scoreName] + bonuses[scoreName]
                             return (<SkillItem
                                 key={skill.name}
                                 isClass={skill.isClass}
@@ -74,8 +72,10 @@ function Skills({
                                 armorCheckPenalty={skill['armor check penalty']}
                                 name={skill.name}
                                 nRanks={data.nRanks}
-                                scoreValue={score}
+                                scoreName={scoreName}
+                                modifierValue={modifiers[scoreName]}
                                 onRankChange={handleSkillChange}
+                                translate={translate}
                             />)
                         })
                     }
