@@ -5,6 +5,8 @@
         "ca": "Català"
     },
     "en": {
+        "classes and levels": "Classes and Levels",
+        "character name": "Character Name",
         "levels": "Levels",
         "search": "Search",
         "your character needs a": "Your character needs a",
@@ -48,6 +50,8 @@
         "any book": "Any book"
     },
     "es": {
+        "classes and levels": "Clases y Niveles",
+        "character name": "Nombre de Personaje",
         "levels": "Niveles",
         "search": "Busca",
         "your character needs a": "Tu personaje requiere una",
@@ -91,6 +95,8 @@
         "any book": "Cualquier libro"
     },
     "ca": {
+        "classes and levels": "Classes i Nivells",
+        "character name": "Nom de Personatge",
         "levels": "Nivells",
         "search": "Cerca",
         "your character needs a": "El teu personatge requereix una",

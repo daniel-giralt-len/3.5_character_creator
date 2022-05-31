@@ -6,17 +6,29 @@ justify-content: center;`
 
 
 const border = `2px solid black;`
-const boxed = `border: ${border}`
-const underlined = `border-bottom: ${border};`
+const boxed = `border: ${border}
+border-radius: 0px;
+`
+const underlined = `
+border: 0px;
+border-bottom: ${border}
+border-radius: 0px;
+`
 
 const TextInput = styled.textarea`
     resize: none;
     font-size: 1.5em;
-    padding: 10px 10px;
+
+    padding: 2px 5px;
+    margin: 0;
+
     border-color: #000;
-    margin: 10px;
     width: -webkit-fill-available;
-    ${boxed}
+    rows: 1;
+    ${underlined}
+    &:focus{
+        outline: none;
+    }
 `
 
 const CounterInput = styled.input`
@@ -44,15 +56,17 @@ const BoldText = styled.span`
     font-weight: 900;
     font-size: 1.3em;
 `
-const SmallText = styled.span`
+const SmallTextWrapper = styled.span`
     font-size: 0.75em;
     font-weight: 500;
 `
 
+const SmallText = ({children}) => (<SmallTextWrapper>{children.toUpperCase()}</SmallTextWrapper>)
+
 const BlackLabel = ({name, subtitle})=>(
     <BlackLabelWrapper>
-        <BoldText>{name}</BoldText>
-        {subtitle && (<SmallText>{subtitle}</SmallText>)}
+        <BoldText>{name.toUpperCase()}</BoldText>
+        {subtitle && (<SmallText>{subtitle.toUpperCase()}</SmallText>)}
     </BlackLabelWrapper>
 )
 

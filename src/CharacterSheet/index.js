@@ -1,13 +1,22 @@
 import styled from 'styled-components'
 import Scores from './Scores'
 import raceStats from '../db/json/itemData/raceStats.json'
-import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
+import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 
+import { 
+    TextInput,
+    SmallText,
+    ReadOnlyInput
+} from './sharedComponents';
 
 const CharacterSheetLayout = styled.section`
     display: grid;
+
     grid-template-columns: 2fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+
     grid-template-areas: 
         "name classNames"
         "scores skills"
@@ -58,6 +67,7 @@ function CharacterSheet({
         } = character
 
         const raceData = raceStats[races]
+        const bonuses = calculateCharacterBonuses({raceData, classes})
         const selectedFeats = Object
             .entries(feats)
             .filter(([_, selected])=>selected)
@@ -74,7 +84,14 @@ function CharacterSheet({
 
         return(
             <CharacterSheetLayout>
-                <NameLayout>{name}</NameLayout>
+                <NameLayout>
+                    <TextInput rows={1}>{name}</TextInput>
+                    <SmallText>{translate('character name')}</SmallText>
+                </NameLayout>
+                <NameLayout>
+                    <ReadOnlyInput>{name}</ReadOnlyInput>
+                    <SmallText>{translate('classes and levels')}</SmallText>
+                </NameLayout>
                 <ClassNamesLayout>
                     
                 </ClassNamesLayout>
