@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Name from './Name'
 import Scores from './Scores'
 import ClassNames from './ClassNames'
 import raceStats from '../db/json/itemData/raceStats.json'
@@ -78,16 +79,18 @@ function CharacterSheet({
         
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
+        const onNameChange = name => onCreationChange({ ...character, name })
         const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         
         return(
             <CharacterSheetLayout>
-                <NameLayout>
-                    <TextInput rows={1}>{name}</TextInput>
-                    <SmallText>{translate('character name')}</SmallText>
-                </NameLayout>
+                <Name
+                    name={name}
+                    translate={translate}
+                    onNameChange={onNameChange}
+                />
                 <ClassNames
                     classes={classes}
                     translate={translate}
