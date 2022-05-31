@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Name from './Name'
 import Scores from './Scores'
+import Saves from './Saves'
 import ClassNames from './ClassNames'
 import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
@@ -26,10 +27,7 @@ const CharacterSheetLayout = styled.section`
         "feats skills"
         "classes skills"
         "skilltricks skills";
-`
-
-const SavesLayout = styled.div`
-    grid-area: saves;
+        ". skills";
 `
 
 const FeatsLayout = styled.div`
@@ -37,9 +35,6 @@ const FeatsLayout = styled.div`
 `
 const SkilltricksLayout = styled.div`
     grid-area: skilltricks;
-`
-const ClassesLayout = styled.div`
-    grid-area: classes;
 `
 
 function CharacterSheet({
@@ -94,6 +89,11 @@ function CharacterSheet({
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />
+                <Saves
+                    bonuses={bonuses}
+                    modifiers={modifiers}
+                    translate={translate}
+                />
                 
                 <Skills
                     scores={scores}
@@ -103,7 +103,6 @@ function CharacterSheet({
                     translate={translate}
                     onSkillChange={onSkillChange}
                 />
-                <SavesLayout></SavesLayout>
                 <Bab
                     translate={translate}
                     bab={bonuses.bab}
