@@ -51,6 +51,13 @@ const BlackLabelWrapper = styled.div`
     flex-direction: column;
     padding: 2px 8px;
 `
+
+const Text = styled.div`
+    ${({centered}) => centered ? fullCenteredText : ''}
+    ${({box}) => box ? boxed : ''}
+    ${({underline}) => underline ? underlined : ''}
+`
+
 const BoldText = styled.span`
     font-weight: 900;
     font-size: 1.3em;
@@ -93,4 +100,5 @@ export {
     BoldText,
     SmallText,
     BlackLabel,
+    Text
 }

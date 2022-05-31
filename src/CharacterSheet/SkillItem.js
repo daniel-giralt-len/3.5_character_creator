@@ -4,7 +4,7 @@ import {
     boxed,
     CounterInput,
     SmallText,
-    BoldText
+    Text
 } from './sharedComponents'
 
 const SkillClassCheckbox = styled.div`
@@ -19,8 +19,8 @@ const SkillName = styled(SmallText)`
 `
 
 const CheckboxWrapper = styled.div`
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 `
 
 
@@ -46,7 +46,7 @@ const SkillItem = ({
             {isTrainedOnly && <SmallText>▉</SmallText>}
             <SkillName>{`(${translate(scoreName)})`}</SkillName>
         </div>
-        <BoldText box centered>{modifierValue+nRanks}</BoldText>
+        <Text box centered>{modifierValue+nRanks}</Text>
         <SmallText centered underline>{modifierValue}</SmallText>
         <CounterInput 
             underline
