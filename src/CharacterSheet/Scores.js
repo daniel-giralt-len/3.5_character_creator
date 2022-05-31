@@ -11,14 +11,12 @@ const ScoresLayout = styled.ul`
     grid-area: scores;
 
     display: grid;
-    grid-template-columns: 110px 50px 50px 75px 50px;
+    grid-template-columns: 2.2fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 5px;
     grid-column-gap: 5px;
 
     padding: 0;
     margin: 0;
-
-    max-height: 265px;
 
     * {
         display:flex;
@@ -58,6 +56,7 @@ function Scores({
                                     {value+bonuses[id]}
                                 </BoldText>
                                 <CounterInput 
+                                    underline
                                     key={id+'counter'}
                                     type="number"
                                     step="1"

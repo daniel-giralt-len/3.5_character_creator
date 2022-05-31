@@ -18,7 +18,6 @@ const ScoresLayout = styled.ul`
     padding: 0;
     margin: 0;
 
-    max-height: 20em;
 
     * {
         display:flex;

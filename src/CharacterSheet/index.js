@@ -16,6 +16,7 @@ const CharacterSheetLayout = styled.section`
     display: grid;
 
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 19em 8em 1em;
     grid-row-gap: 15px;
     grid-column-gap: 10px;
 
