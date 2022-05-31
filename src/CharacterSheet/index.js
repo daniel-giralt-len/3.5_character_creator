@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Scores from './Scores'
+import ClassNames from './ClassNames'
 import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
@@ -7,18 +8,17 @@ import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import { 
     TextInput,
     SmallText,
-    ReadOnlyInput
 } from './sharedComponents';
 
 const CharacterSheetLayout = styled.section`
     display: grid;
 
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-row-gap: 15px;
     grid-column-gap: 10px;
 
     grid-template-areas: 
-        "name classNames"
+        "name class-names"
         "scores skills"
         "saves skills"
         "bab skills"
@@ -31,7 +31,7 @@ const NameLayout = styled.div`
     grid-area: name;
 `
 const ClassNamesLayout = styled.div`
-    grid-area: classnames;
+    grid-area: class-names;
 `
 const SkillsLayout = styled.div`
     grid-area: skills;
@@ -63,7 +63,8 @@ function CharacterSheet({
             classes,
             feats,
             races,
-            name
+            name,
+            skillRanks
         } = character
 
         const raceData = raceStats[races]
@@ -81,22 +82,26 @@ function CharacterSheet({
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         
-
         return(
             <CharacterSheetLayout>
                 <NameLayout>
                     <TextInput rows={1}>{name}</TextInput>
                     <SmallText>{translate('character name')}</SmallText>
                 </NameLayout>
-                <NameLayout>
-                    <ReadOnlyInput>{name}</ReadOnlyInput>
-                    <SmallText>{translate('classes and levels')}</SmallText>
-                </NameLayout>
-                <ClassNamesLayout>
-                    
-                </ClassNamesLayout>
+                <ClassNames
+                    classes={classes}
+                    translate={translate}
+                />
                 <Scores
-                    character={character}
+                    scores={scores}
+                    bonuses={bonuses}
+                    translate={translate}
+                    onScoreChange={onScoreChange}
+                />
+                <Scores
+                    scores={scores}
+                    bonuses={bonuses}
+                    skillRanks={skillRanks}
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />

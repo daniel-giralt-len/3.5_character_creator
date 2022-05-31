@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import skills from '../db/json/skills.json'
 
 import {
     CounterInput,
@@ -7,36 +8,22 @@ import {
     BlackLabel,
 } from './sharedComponents'
 
-const ScoresLayout = styled.ul`
-    grid-area: scores;
 
-    display: grid;
-    grid-template-columns: 110px 50px 75px 50px;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
+const SkillsLayout = styled.ul``
 
-    padding: 0;
-    margin: 0;
-
-    * {
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-`
-
-function Scores({
+function Skills({
         scores,
         bonuses,
         translate,
-        onScoreChange
+        onSkillChange,
+        skillRanks
     }){
         return(
-                <ScoresLayout>
-                    <SmallText>{translate('name')}</SmallText>
-                    <SmallText>{translate('total')}</SmallText>
-                    <SmallText>{translate('base')}</SmallText>
-                    <SmallText>{translate('race')}</SmallText>
+                <SkillsLayout>
+                    <SmallText>{translate('name').toUpperCase()}</SmallText>
+                    <SmallText>{translate('total').toUpperCase()}</SmallText>
+                    <SmallText>{translate('base').toUpperCase()}</SmallText>
+                    <SmallText>{translate('race').toUpperCase()}</SmallText>
                     {Object
                         .entries(scores)
                         .map(([id, value]) => (
@@ -64,8 +51,8 @@ function Scores({
                             </>
                         ))
                     }
-                </ScoresLayout>
+                </SkillsLayout>
         )
 }
 
-export default Scores
+export default Skills
