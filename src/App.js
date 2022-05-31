@@ -2,6 +2,7 @@ import { useCookies } from 'react-cookie'
 import styled, { createGlobalStyle } from 'styled-components'
 import queryString from 'query-string';
 
+import CharacterSheet from './CharacterSheet'
 import Creator from './Creator'
 import Header from './Header'
 import CorpusSelector from './CorpusSelector'
@@ -75,6 +76,21 @@ function App() {
   }
   const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
+
+  const n=true
+  if(n){
+  return (<>
+    <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
+    <GlobalStyle />
+    <CharacterSheet
+      character={usedCreation}
+      onCreationChange={handleCreationChange}
+      translate={translate}
+    />
+    </>)
+  }
 
   return (
     <div>

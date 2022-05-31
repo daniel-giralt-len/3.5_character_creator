@@ -55,7 +55,6 @@ function CreationDisplay({
       feats,
       ...rest
     } = creation
-    console.log(feats)
     const raceData = raceStats[races]
     const bonuses = calculateCharacterBonuses({raceData, classes})
     const selectedFeats = Object
