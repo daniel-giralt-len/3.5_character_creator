@@ -11,6 +11,7 @@ import Bab from './Bab'
 import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
+import getCharacterClassData from '../functions/getCharacterClassData'
 
 const CharacterSheetLayout = styled.section`
     max-width: 1000px;
@@ -64,6 +65,7 @@ function CharacterSheet({
             .reduce((acc,[id])=>({...acc,[id]:true}),{})
         const nFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
+        const classSkillsData = getCharacterClassData(classes, bonuses, raceData)
         
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
@@ -99,13 +101,13 @@ function CharacterSheet({
                     bonuses={bonuses}
                     modifiers={modifiers}
                     translate={translate}
-                />
-                
+                /> 
                 <Skills
                     scores={scores}
                     bonuses={bonuses}
                     modifiers={modifiers}
                     skills={skills}
+                    classSkillsData={classSkillsData}
                     translate={translate}
                     onSkillChange={onSkillChange}
                 />

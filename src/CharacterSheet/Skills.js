@@ -45,16 +45,23 @@ function Skills({
         skills,
         modifiers,
         translate,
+        classSkillsData,
         onSkillChange
     }){
+        const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
 
-        const handleSkillChange = (name,rank) => onSkillChange({...skills, [name]:{...skills[name], nRanks: parseInt(rank)}})
+        const handleSkillChange = (name,rank) => {
+            const newSkills = {...skills, [name]:{...skills[name], nRanks: parseInt(rank)}}
+            const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
+            if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > classSkillsData.points) return
+            onSkillChange(newSkills)
+        }
 
         return(
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
-                        subtitle={'Points'}
+                        subtitle={`${nUsedSkillPoints}/${classSkillsData.points}`}
                     />
                     <Title>{translate('class')}</Title>
                     <Title>{translate('name')}</Title>
@@ -67,7 +74,7 @@ function Skills({
                             const scoreName = skill['key ability']
                             return (<SkillItem
                                 key={skill.name}
-                                isClass={skill.isClass}
+                                isClass={classSkillsData.skills.includes(skill.name)}
                                 isTrainedOnly={skill['trained only']}
                                 armorCheckPenalty={skill['armor check penalty']}
                                 name={skill.name}
