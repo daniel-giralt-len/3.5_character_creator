@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Necrotic Curse &ndash; Spell &ndash; D&amp;D Tools</title>
+<link href="/static/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="canonical" href="https://dndtools.org/spells/complete-mage--58/necrotic-curse--856/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href=/m/spells/complete-mage--58/necrotic-curse--856/>
+<meta name="description" content="Complete list of all D&amp;D spells, rulebooks, feats, classes and more!" />
+<meta name="keywords" content="D&amp;D, Spells, Feats, Classes" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="T0e3C-V9mijfHz3l51TYGDuvtf14Oz7MWKTxtUbT8Gs" />
+<link rel="stylesheet" type="text/css" href="/static/css/style.css?1634225994" title="style" />
+<link rel="stylesheet" type="text/css" href="/static/css/chosen.css?1634225994" title="style" />
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript" src="/static/js/jquery-1.7.min.js"></script>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript" src="/static/js/jquery.cookie.js"></script>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript" src="/static/js/chosen.jquery.min.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121297939-1" type="7124c5ef4a3bab5e1b7a2cbd-text/javascript"></script>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121297939-1');
+</script>
+<link rel="stylesheet" href="//www.google.com/cse/style/look/default.css" type="text/css" />
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27000767-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+      (function() {
+          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://api.flattr.com/js/0.6/load.js?mode=auto';
+          t.parentNode.insertBefore(s, t);
+      })();
+  </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="main">
+<div id="header">
+<div id="logo">
+<div id="logo_text">
+<h1>
+<a href="/">D&amp;D<span class="logo_colour">tools</span></a><span id="counter" title="1 unread news">1</span>
+</h1>
+<h2>Feats. Spells. Prestige Classes. And more!</h2>
+</div>
+<div id="google-search-holder">
+<script async src="https://cse.google.com/cse.js?cx=partner-pub-6807656243068332:2563783509" type="7124c5ef4a3bab5e1b7a2cbd-text/javascript"></script>
+<div class="gcse-searchbox-only"></div>
+</div>
+</div>
+<div id="menus">
+<div id="menubar">
+<ul id="menu">
+<li id="menu_rulebooks"><a href="/rulebooks/">Rulebooks</a></li>
+<li id="menu_character_options"><a href="/classes/">Character Options</a></li>
+<li class="selected arrow" id="menu_magic"><a href="/spells/">Magic</a></li>
+<li id="menu_bestiary"><a href="/races/">Bestiary</a></li>
+<li id="menu_items"><a href="/items/">Items</a></li>
+<li id="menu_"><span class="disabled" title="Not yet">My D&amp;D</span></li>
+<li id="menu_contacts"><a href="/contacts/">Contacts</a></li>
+<li class="android"><a href="\m">Android</a></li>
+</ul>
+</div>
+<div id="submenubar">
+<ul id="submenu_rulebooks">
+<li><a href="/rulebooks/">All</a></li>
+<li><a href="/rulebooks/editions/">Editions</a></li>
+<li><a href="/rulebooks/core-35--1/">3.5 Core</a></li>
+<li><a href="/rulebooks/supplementals-35--5/">3.5 Supplements</a></li>
+<li><a href="/rulebooks/dragonlance-35--9/">3.5 Dragonlance</a></li>
+<li><a href="/rulebooks/eberron-35--3/">3.5 Eberron</a></li>
+<li><a href="/rulebooks/forgotten-realms-35--4/">3.5 Forgotten Realms</a></li>
+<li><a href="/rules/">Rules</a></li>
+</ul>
+<ul id="submenu_character_options">
+<li><a href="/classes/">Classes</a></li>
+<li><a href="/feats/">Feats</a></li>
+<li><a href="/feats/categories/">Feat Categories</a></li>
+<li><a href="/feats/categories/trait/">Traits</a></li>
+<li><a href="/feats/categories/flaw/">Flaws</a></li>
+<li><a href="/skills/">Skills</a></li>
+<li><a href="/feats/categories/skill-trick/">Skill Tricks</a></li>
+<li><a href="/deities/">Deities</a></li>
+<li><a href="/languages/">Languages</a></li>
+</ul>
+<ul id="submenu_magic" class="enabled">
+<li class="selected"><a href="/spells/">Spells</a></li>
+<li><a href="/spells/schools/">Spell Schools</a></li>
+<li><a href="/spells/descriptors/">Descriptors</a></li>
+<li><span class="disabled" title="Not yet">Shadow Casting</span></li>
+<li><span class="disabled" title="Not yet">Invocations</span></li>
+<li><span class="disabled" title="Not yet">Psionics</span></li>
+<li><span class="disabled" title="Not yet">Auras</span></li>
+<li><span class="disabled" title="Not yet">Maneuvers</span></li>
+<li><a href="/spells/domains/">Domains</a></li>
+</ul>
+<ul id="submenu_bestiary">
+<li><a href="/races/">Races</a></li>
+<li><a href="/races/types/">Race Types</a></li>
+<li><a href="/monsters/">Monsters</a></li>
+<li><span class="disabled" title="Not yet">Monstrous Types</span></li>
+<li><span class="disabled" title="Not yet">Monstrous Traits</span></li>
+<li><span class="disabled" title="Not yet">Templates</span></li>
+</ul>
+<ul id="submenu_items">
+<li><a href="/items/">Magical</a></li>
+<li><span class="disabled" title="Not yet">Mundane / Alchemical</span></li>
+</ul>
+<ul id="submenu_contacts">
+<li><a href="/contacts/">Contact Us</a></li>
+<li><a href="/">News</a></li>
+<li><a href="/contacts/staff/">Staff</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="site_content">
+<div id="breadcrumbs">
+&raquo; <a href="/spells/">Spells</a>
+&raquo; <a href="/spells/complete-mage--58/">Complete Mage</a> (<a href="/rulebooks/supplementals-35--5/complete-mage--58/">book</a>)
+&raquo; <a href="/spells/complete-mage--58/necrotic-curse--856/">Necrotic Curse</a>
+</div>
+<div class="sidebar">
+<script async src='https://cse.google.com/cse.js?cx=partner-pub-6807656243068332:9264923226' type="7124c5ef4a3bab5e1b7a2cbd-text/javascript"></script><div class="gcse-searchbox-only"></div>
+<div style="text-align: center; padding: 10px;"><a href=/m/spells/complete-mage--58/necrotic-curse--856/> Mobile Version </a> </div>
+<form action="." method="get">
+<label for="disable_social">
+<input id="disable_social" name="disable_social" type="checkbox" /> All social disabled (faster)
+</label>
+</form>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+            var resetMenuTimer;
+            $("#menu").find("li").mouseenter(function() {
+                $('#menu').find('li').removeClass('arrow');
+                $(this).addClass('arrow');
+                $('#submenubar').find('ul').hide();
+                $('#sub' + $(this).attr('id')).show();
+            });
+            var $menus = $('#menus');
+            $menus.mouseleave(function() {
+                window.clearTimeout(resetMenuTimer);
+                resetMenuTimer = window.setTimeout(resetMenu, 500);
+            });
+            $menus.mouseenter(function () {
+                window.clearTimeout(resetMenuTimer);
+            });
+            function resetMenu() {
+                var $menu = $('#menu');
+                $menu.find('li').removeClass('arrow');
+                $menu.find('li.selected').addClass('arrow');
+                var $submenubar = $('#submenubar');
+                $submenubar.find('ul').hide();
+                $submenubar.find('ul.enabled').show();
+            }
+
+            $("#disable_social").change(function(){
+                        if (this.checked) {
+                            $.cookie("disable_social", 1, { expires : 3650, path : '/'});
+                        } else {
+                            $.cookie("disable_social", null, {path: '/'});
+                        }
+                        location.reload();
+                    }
+            );
+        </script>
+(Rank this page)
+<ul class="buttons">
+<li><div class="g-plusone" data-size="tall" data-href="https://dndtools.org/spells/complete-mage--58/necrotic-curse--856/"></div>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script></li>
+<li><div class="fb-like" data-href="https://dndtools.org/spells/complete-mage--58/necrotic-curse--856/" data-send="true" data-layout="box_count" data-width="50" data-show-faces="true"></div></li>
+</ul>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="2SGQMZV7QXMPW" />
+<input type="hidden" name="item_name" value="Pay hosting and developer to improve dndtools" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="7124c5ef4a3bab5e1b7a2cbd-text/javascript"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="2986438800"></ins>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="2986438800"></ins>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="content">
+<div id="inaccurate"><a href="/inaccurate_content/?url=https%3A//dndtools.org/spells/complete-mage--58/necrotic-curse--856/"><img src="/static/media/inaccurate.png" alt="Inaccurate?" /></a></div>
+<h2>Necrotic Curse</h2>
+(<a href="/rulebooks/supplementals-35--5/complete-mage--58/">Complete Mage</a>)
+<br />
+<br />
+<a href="/spells/schools/necromancy/">Necromancy</a>
+[<a href="/spells/descriptors/evil/">Evil</a>]
+<br />
+<strong>Level:</strong>
+<a href="/classes/cleric/spells-level-7/">Cleric 7</a>,
+<a href="/classes/sorcerer/spells-level-7/">Sorcerer 7</a>,
+<a href="/classes/wizard/spells-level-7/">Wizard 7</a>,
+<br />
+<strong>Components:</strong>
+<abbr title="Verbal">V</abbr>,
+<abbr title="Somatic">S</abbr>,
+<abbr title="Material">M</abbr>,
+<br />
+<strong>Casting Time:</strong> 1 full round<br />
+<strong>Range:</strong> Close (25 ft. + 5 ft./2 levels)<br />
+<strong>Area:</strong> 20-ft.-radius emanation<br />
+<strong>Duration:</strong> 1 hour/level<br />
+<strong>Saving Throw:</strong> None<br />
+<strong>Spell Resistance:</strong> Yes<br />
+<br />
+<div class="nice-textile">
+<p>You feel a wave of cold pass through you as it seeps into the land, the air, and even the souls of those nearby.<br />You imbue the area with negative energy so powerful it transforms positive energy into its opposite.<br />Anyone in the area who casts a healing spell must succeed on a caster level check (DC 11 + your caster level); if the check fails, the healing spell deals damage to each of its subjects equal to the caster&#39;s caster level instead of its normal effect.<br />Living creatures that rest in this area do not regain hit points or lost ability score points.<br />Undead in the area heal damage at the rate of 1 point per Hit Die every 24 hours.<br />In addition to the normal means of ending a spell&#39;s duration, this effect can be ended by a remove curse (or similar spell) cast within its area for that purpose.<br />Material Component: Grave dust.</p>
+</div>
+</div>
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="7124c5ef4a3bab5e1b7a2cbd-text/javascript"></script>
+<ins class="adsbygoogle" style="display:inline-block;width:400px;height:100px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="8812537205"></ins>
+<script type="7124c5ef4a3bab5e1b7a2cbd-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="fb-comments-holder">
+<h3>Comments on this single page only</h3>
+<div class="fb-comments" data-href="https://dndtools.org/spells/complete-mage--58/necrotic-curse--856/" data-num-posts="10" data-width="790"></div>
+</div>
+</div>
+<div id="content_footer"></div>
+<div id="footer">
+</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7124c5ef4a3bab5e1b7a2cbd-|49" defer=""></script></body>
+</html>

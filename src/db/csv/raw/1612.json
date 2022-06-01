@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Extract Gift &ndash; Spell &ndash; D&amp;D Tools</title>
+<link href="/static/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="canonical" href="https://dndtools.org/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href=/m/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/>
+<meta name="description" content="Complete list of all D&amp;D spells, rulebooks, feats, classes and more!" />
+<meta name="keywords" content="D&amp;D, Spells, Feats, Classes" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="T0e3C-V9mijfHz3l51TYGDuvtf14Oz7MWKTxtUbT8Gs" />
+<link rel="stylesheet" type="text/css" href="/static/css/style.css?1634225994" title="style" />
+<link rel="stylesheet" type="text/css" href="/static/css/chosen.css?1634225994" title="style" />
+<script type="64ae9af2aaa7705961422795-text/javascript" src="/static/js/jquery-1.7.min.js"></script>
+<script type="64ae9af2aaa7705961422795-text/javascript" src="/static/js/jquery.cookie.js"></script>
+<script type="64ae9af2aaa7705961422795-text/javascript" src="/static/js/chosen.jquery.min.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121297939-1" type="64ae9af2aaa7705961422795-text/javascript"></script>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121297939-1');
+</script>
+<link rel="stylesheet" href="//www.google.com/cse/style/look/default.css" type="text/css" />
+<script type="64ae9af2aaa7705961422795-text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27000767-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+      (function() {
+          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://api.flattr.com/js/0.6/load.js?mode=auto';
+          t.parentNode.insertBefore(s, t);
+      })();
+  </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script type="64ae9af2aaa7705961422795-text/javascript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="main">
+<div id="header">
+<div id="logo">
+<div id="logo_text">
+<h1>
+<a href="/">D&amp;D<span class="logo_colour">tools</span></a><span id="counter" title="1 unread news">1</span>
+</h1>
+<h2>Feats. Spells. Prestige Classes. And more!</h2>
+</div>
+<div id="google-search-holder">
+<script async src="https://cse.google.com/cse.js?cx=partner-pub-6807656243068332:2563783509" type="64ae9af2aaa7705961422795-text/javascript"></script>
+<div class="gcse-searchbox-only"></div>
+</div>
+</div>
+<div id="menus">
+<div id="menubar">
+<ul id="menu">
+<li id="menu_rulebooks"><a href="/rulebooks/">Rulebooks</a></li>
+<li id="menu_character_options"><a href="/classes/">Character Options</a></li>
+<li class="selected arrow" id="menu_magic"><a href="/spells/">Magic</a></li>
+<li id="menu_bestiary"><a href="/races/">Bestiary</a></li>
+<li id="menu_items"><a href="/items/">Items</a></li>
+<li id="menu_"><span class="disabled" title="Not yet">My D&amp;D</span></li>
+<li id="menu_contacts"><a href="/contacts/">Contacts</a></li>
+<li class="android"><a href="\m">Android</a></li>
+</ul>
+</div>
+<div id="submenubar">
+<ul id="submenu_rulebooks">
+<li><a href="/rulebooks/">All</a></li>
+<li><a href="/rulebooks/editions/">Editions</a></li>
+<li><a href="/rulebooks/core-35--1/">3.5 Core</a></li>
+<li><a href="/rulebooks/supplementals-35--5/">3.5 Supplements</a></li>
+<li><a href="/rulebooks/dragonlance-35--9/">3.5 Dragonlance</a></li>
+<li><a href="/rulebooks/eberron-35--3/">3.5 Eberron</a></li>
+<li><a href="/rulebooks/forgotten-realms-35--4/">3.5 Forgotten Realms</a></li>
+<li><a href="/rules/">Rules</a></li>
+</ul>
+<ul id="submenu_character_options">
+<li><a href="/classes/">Classes</a></li>
+<li><a href="/feats/">Feats</a></li>
+<li><a href="/feats/categories/">Feat Categories</a></li>
+<li><a href="/feats/categories/trait/">Traits</a></li>
+<li><a href="/feats/categories/flaw/">Flaws</a></li>
+<li><a href="/skills/">Skills</a></li>
+<li><a href="/feats/categories/skill-trick/">Skill Tricks</a></li>
+<li><a href="/deities/">Deities</a></li>
+<li><a href="/languages/">Languages</a></li>
+</ul>
+<ul id="submenu_magic" class="enabled">
+<li class="selected"><a href="/spells/">Spells</a></li>
+<li><a href="/spells/schools/">Spell Schools</a></li>
+<li><a href="/spells/descriptors/">Descriptors</a></li>
+<li><span class="disabled" title="Not yet">Shadow Casting</span></li>
+<li><span class="disabled" title="Not yet">Invocations</span></li>
+<li><span class="disabled" title="Not yet">Psionics</span></li>
+<li><span class="disabled" title="Not yet">Auras</span></li>
+<li><span class="disabled" title="Not yet">Maneuvers</span></li>
+<li><a href="/spells/domains/">Domains</a></li>
+</ul>
+<ul id="submenu_bestiary">
+<li><a href="/races/">Races</a></li>
+<li><a href="/races/types/">Race Types</a></li>
+<li><a href="/monsters/">Monsters</a></li>
+<li><span class="disabled" title="Not yet">Monstrous Types</span></li>
+<li><span class="disabled" title="Not yet">Monstrous Traits</span></li>
+<li><span class="disabled" title="Not yet">Templates</span></li>
+</ul>
+<ul id="submenu_items">
+<li><a href="/items/">Magical</a></li>
+<li><span class="disabled" title="Not yet">Mundane / Alchemical</span></li>
+</ul>
+<ul id="submenu_contacts">
+<li><a href="/contacts/">Contact Us</a></li>
+<li><a href="/">News</a></li>
+<li><a href="/contacts/staff/">Staff</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="site_content">
+<div id="breadcrumbs">
+&raquo; <a href="/spells/">Spells</a>
+&raquo; <a href="/spells/fiendish-codex-i-hordes-of-the-abyss--66/">Fiendish Codex I: Hordes of the Abyss</a> (<a href="/rulebooks/supplementals-35--5/fiendish-codex-i-hordes-of-the-abyss--66/">book</a>)
+&raquo; <a href="/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/">Extract Gift</a>
+</div>
+<div class="sidebar">
+<script async src='https://cse.google.com/cse.js?cx=partner-pub-6807656243068332:9264923226' type="64ae9af2aaa7705961422795-text/javascript"></script><div class="gcse-searchbox-only"></div>
+<div style="text-align: center; padding: 10px;"><a href=/m/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/> Mobile Version </a> </div>
+<form action="." method="get">
+<label for="disable_social">
+<input id="disable_social" name="disable_social" type="checkbox" /> All social disabled (faster)
+</label>
+</form>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+            var resetMenuTimer;
+            $("#menu").find("li").mouseenter(function() {
+                $('#menu').find('li').removeClass('arrow');
+                $(this).addClass('arrow');
+                $('#submenubar').find('ul').hide();
+                $('#sub' + $(this).attr('id')).show();
+            });
+            var $menus = $('#menus');
+            $menus.mouseleave(function() {
+                window.clearTimeout(resetMenuTimer);
+                resetMenuTimer = window.setTimeout(resetMenu, 500);
+            });
+            $menus.mouseenter(function () {
+                window.clearTimeout(resetMenuTimer);
+            });
+            function resetMenu() {
+                var $menu = $('#menu');
+                $menu.find('li').removeClass('arrow');
+                $menu.find('li.selected').addClass('arrow');
+                var $submenubar = $('#submenubar');
+                $submenubar.find('ul').hide();
+                $submenubar.find('ul.enabled').show();
+            }
+
+            $("#disable_social").change(function(){
+                        if (this.checked) {
+                            $.cookie("disable_social", 1, { expires : 3650, path : '/'});
+                        } else {
+                            $.cookie("disable_social", null, {path: '/'});
+                        }
+                        location.reload();
+                    }
+            );
+        </script>
+(Rank this page)
+<ul class="buttons">
+<li><div class="g-plusone" data-size="tall" data-href="https://dndtools.org/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/"></div>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script></li>
+<li><div class="fb-like" data-href="https://dndtools.org/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/" data-send="true" data-layout="box_count" data-width="50" data-show-faces="true"></div></li>
+</ul>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="2SGQMZV7QXMPW" />
+<input type="hidden" name="item_name" value="Pay hosting and developer to improve dndtools" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="64ae9af2aaa7705961422795-text/javascript"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="2986438800"></ins>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="2986438800"></ins>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="content">
+<div id="inaccurate"><a href="/inaccurate_content/?url=https%3A//dndtools.org/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/"><img src="/static/media/inaccurate.png" alt="Inaccurate?" /></a></div>
+<h2>Extract Gift</h2>
+(<a href="/rulebooks/supplementals-35--5/fiendish-codex-i-hordes-of-the-abyss--66/">Fiendish Codex I: Hordes of the Abyss</a>)
+<br />
+<br />
+<a href="/spells/schools/necromancy/">Necromancy</a>
+[<a href="/spells/descriptors/chaotic/">Chaotic</a>]
+<br />
+<strong>Level:</strong>
+<a href="/classes/cleric/spells-level-5/">Cleric 5</a>,
+<a href="/classes/sorcerer/spells-level-5/">Sorcerer 5</a>,
+<a href="/classes/wizard/spells-level-5/">Wizard 5</a>,
+<br />
+<strong>Components:</strong>
+<abbr title="Verbal">V</abbr>,
+<abbr title="Somatic">S</abbr>,
+<abbr title="Material">M</abbr>,
+<abbr title="Experience">XP</abbr>,
+<br />
+<strong>Casting Time:</strong> 1 hour<br />
+<strong>Range:</strong> Close (25 ft. + 5 ft./2 levels)<br />
+<strong>Target:</strong> One demon and one willing creature<br />
+<strong>Duration:</strong> Permanent<br />
+<strong>Saving Throw:</strong> Will negates; see text<br />
+<strong>Spell Resistance:</strong> Yes<br />
+<br />
+<div class="nice-textile">
+<p>You painstakingly create two magic circles.<br />In one stands a demon, and in the other stands your willing subject.<br />After an hour-long ritual incantation, you pull a roiling black cloud of demonic essence out of the demon and channel it into the willing recipient.<br />You transfer a portion of a demon&#39;s essence into a willing creature, enhancing one of its ability scores or skills.<br />The demon must be either allied and willing or captured and constrained (as if by a planar binding spell).<br />An unwilling demon can make a Will save to negate the effects of the spell.<br />Both the recipient and the donor demon must remain within specially prepared circles inscribed on the floor for the entire casting time.<br />These circles are similar to summoning circles and can be integrated into a summoning circle without impacting the function of either spell, but neither the demon nor the recipient need be summoned specifically into the circle for this spell&#39;s circle&#8212;each needs only to stand within it during the casting.<br />The benefit granted by this spell can be applied to one of the recipient&#39;s ability scores (as an enhancement bonus) or to one of his skills (as a competence bonus), as you designate.<br />Once this decision is made, it cannot be changed, and the effect cannot be dispelled except by a caster of higher level than you were when you cast the spell.<br />If you wish, you can increase the save DC for this spell by allowing the demon power over the target.<br />The specific concessions you can make to the demon and the corresponding increases to the save DC are given below.<br />+1 Increase: The donor demon can track the recipient&#39;s location and condition, effectively gaining the effect of a constant status spell on it.<br />+3 Increase: The demon can see through the recipient&#39;s eyes and hear through its ears.<br />+5 Increase: The demon can telepathically communicate with the recipient as if by Rary&#39;s telepathic bond.<br />+7 Increase: The demon can use demand on the recipient once per day as a spell-like ability (caster level equals your caster level at the time you cast extract gift).<br />The effects of the concessions are cumulative, but the save DC increases do not stack.<br />Thus, allowing the demon to track the recipient, use its senses, and communicate with it telepathically would increase the save DC by 5.<br />Increasing the save DC in this manner is an evil act, since it grants the demon more than the usual opportunity to work its evil.<br />Thus, using this option adds the evil descriptor to the spell.<br />Ability Bonus: The recipient gains an enhancement bonus to one ability score of your choice.<br />The value of this bonus depends on your caster level and the abilities of the donor demon, as given below.<br />The maximum value of the bonus you can grant is one-fourth of your caster level (rounded down).<br />Thus, you could grant the recipient up to a +2 enhancement bonus at 9th level, or up to a +5 bonus at 20th level.<br />You can always choose to grant a bonus lower than your maximum.<br />The donor demon&#39;s ability modifier for the corresponding score must be at least twice that of the granted bonus.<br />Thus, to grant a +2 bonus to Dexterity, you must extract essence from a demon with a Dexterity score of at least 18 (such as a marilith).<br />To grant a +5 bonus to Charisma, you need a demon with a Charisma score of at least 30 (such as a lilitu).<br />Skill Bonus: The recipient gains a competence bonus on checks made with one skill of your choice.<br />The value of this bonus depends on your caster level and the abilities of the donor demon, as given below.<br />The maximum value of the bonus you can grant is one-half your caster level (rounded down).<br />Thus, you could grant the recipient up to a +4 enhancement bonus at 9th level, or up to a +10 bonus at 20th level.<br />You can always choose to grant a bonus lower than your maximum.<br />The donor demon&#39;s ranks in the selected skill must be at least twice the granted bonus.<br />Thus, to grant a +5 bonus on Disable Device checks, you must extract essence from a demon with at least 10 ranks in Disable Device (such as a babau).<br />To grant a +10 bonus on Bluff checks, you need a demon with at least 20 ranks in Bluff (such as a balor).<br />Material Component: The circles in which the donor and recipient stand during the casting must be inscribed with expensive paints made from powdered diamonds, cold iron, blood, and various rare and exotic pigments.<br />Each circle must also be decorated with five flawless sapphires, which serve as conduits between the donor demon and the recipient.<br />The total cost of these pigments and gems depends on the nature and magnitude of the bonus to be imparted.<br />For an ability bonus, the cost equals the bonus squared times 1,000 gp (1,000 gp for +1, 4,000 gp for +2, 9,000 gp for +3, 16,000 gp for +4, and 25,000 gp for +5).<br />For a skill bonus, the cost equals the bonus squared times 100 gp (100 gp for +1, 400 gp for +2, 900 gp for +3, 1,600 gp for +4, 2,500 gp for +5, 3,600 gp for +6, 4,900 gp for +7, 6,400 gp for +8, 8,100 gp for +9, and 10,000 gp for +10).<br />XP Cost: You must spend XP equal to 1/25 the required cost of the material components when you cast this spell.</p>
+</div>
+</div>
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="64ae9af2aaa7705961422795-text/javascript"></script>
+<ins class="adsbygoogle" style="display:inline-block;width:400px;height:100px" data-ad-client="ca-pub-6807656243068332" data-ad-slot="8812537205"></ins>
+<script type="64ae9af2aaa7705961422795-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="fb-comments-holder">
+<h3>Comments on this single page only</h3>
+<div class="fb-comments" data-href="https://dndtools.org/spells/fiendish-codex-i-hordes-of-the-abyss--66/extract-gift--1154/" data-num-posts="10" data-width="790"></div>
+</div>
+</div>
+<div id="content_footer"></div>
+<div id="footer">
+</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="64ae9af2aaa7705961422795-|49" defer=""></script></body>
+</html>
