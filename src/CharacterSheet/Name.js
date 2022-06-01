@@ -7,6 +7,9 @@ import {
 
 const NameLayout = styled.div`
     grid-area: name;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 `
 
 function Name({

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Name from './Name'
+import Race from './Race'
 import Scores from './Scores'
 import Saves from './Saves'
 import ClassNames from './ClassNames'
@@ -16,12 +17,13 @@ const CharacterSheetLayout = styled.section`
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 19em 8em 1em;
+    grid-template-rows: auto auto 19em 8em 1em;
     grid-row-gap: 15px;
     grid-column-gap: 10px;
 
     grid-template-areas: 
         "name class-names"
+        "race class-names"
         "scores skills"
         "saves skills"
         "bab skills"
@@ -45,7 +47,6 @@ function CharacterSheet({
     }){
         const {
             scores,
-            saves,
             classes,
             feats,
             races,
@@ -78,6 +79,10 @@ function CharacterSheet({
                     name={name}
                     translate={translate}
                     onNameChange={onNameChange}
+                />
+                <Race
+                    race={raceData.name}
+                    translate={translate}
                 />
                 <ClassNames
                     classes={classes}

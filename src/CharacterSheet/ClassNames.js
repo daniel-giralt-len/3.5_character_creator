@@ -10,6 +10,9 @@ import {
 
 const ClassNamesLayout = styled.div`
     grid-area: class-names;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 `
 
 function ClassNames({
@@ -23,7 +26,8 @@ function ClassNames({
     
     return(
         <ClassNamesLayout>
-            <TextInput rows={1} disabled value={accClassListString} />
+            <TextInput rows={3} disabled value={accClassListString} />
+            <SmallText>{translate('classes')}</SmallText>
         </ClassNamesLayout>
     )
 }
