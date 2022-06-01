@@ -122,7 +122,6 @@ function CharacterSheet({
                     translate={translate}
                     handleClassChange
                 />
-
             </CharacterSheetLayout>
         )
 }

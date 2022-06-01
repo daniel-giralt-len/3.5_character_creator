@@ -2,12 +2,17 @@ import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import MissingItem from "../items/MissingItem";
 import dbs from '../db/json/dbs.json'
+import { SmallText } from './sharedComponents';
+import { boxed } from './sharedComponents';
 
-const ClassLayout = styled.li`
-    display: flex;
-    justify-content: space-between;
+const ClassesLayout = styled.li`
     grid-area: classes;
+    display: grid;
+    grid-template-areas: "level name buttons";
+    grid-template-columns: 1fr 4fr 3fr;
 `
+
+const ButtonWrapper = styled.button`${boxed}`
 
 function ClassLevel({
     position,
@@ -21,17 +26,16 @@ function ClassLevel({
     const {name} = classData
     const level = position+1
     return (
-        <ClassLayout>
+        <>
+            <div>{level}</div>
+            <div>{name}</div>
             <div>
-                {level}:{name}
+                {!isLevel20 && <ButtonWrapper onClick={() => onDuplication(position)}>D</ButtonWrapper>}
+                <ButtonWrapper onClick={() => onDelete(position)}>-</ButtonWrapper>
+                <ButtonWrapper onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</ButtonWrapper>
+                <ButtonWrapper onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</ButtonWrapper>
             </div>
-            <div>
-                {!isLevel20 && <button onClick={() => onDuplication(position)}>D</button>}
-                <button onClick={() => onDelete(position)}>-</button>
-                <button onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</button>
-                <button onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</button>
-            </div>
-        </ClassLayout>
+        </>
     )
 }
 
@@ -63,23 +67,23 @@ function ClassDisplay({
     const handleDelete = position => handleClassChange(classes.filter((_,i)=>i!==position))
 
     return (
-        <div>
-            <h3>{translate('classes')}</h3>
-            <ul>
-                {classes
-                    .map((id,i) => (<ClassLevel
-                        key={`${i+1}-${id}`}
-                        position={i}
-                        classData={dbs.classes.find(c=>id === c.id)}
-                        classStats={classStats[id]}
-                        onReorder={handleReorder}
-                        onDuplication={handleDuplication}
-                        onDelete={handleDelete}
-                        nLevels={classes.length}
-                />))
-                }
-            </ul>
-        </div>
+        <ClassesLayout>
+            <SmallText>{translate('level')}</SmallText>
+            <SmallText>{translate('class')}</SmallText>
+            <SmallText />
+            {classes
+                .map((id,i) => (<ClassLevel
+                    key={`${i+1}-${id}`}
+                    position={i}
+                    classData={dbs.classes.find(c=>id === c.id)}
+                    classStats={classStats[id]}
+                    onReorder={handleReorder}
+                    onDuplication={handleDuplication}
+                    onDelete={handleDelete}
+                    nLevels={classes.length}
+            />))
+            }
+        </ClassesLayout>
     );
 }
 

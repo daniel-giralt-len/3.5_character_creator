@@ -4,7 +4,6 @@ const fullCenteredText = `display: flex;
 align-items: center;
 justify-content: center;`
 
-
 const border = `2px solid black;`
 const boxed = `border: ${border}
 border-radius: 0px;
@@ -73,7 +72,7 @@ const SmallTextWrapper = styled.div`
     ${({underline}) => underline ? underlined : ''}
 `
 
-const SmallText = ({children, className, ...rest}) => (<SmallTextWrapper
+const SmallText = ({children='', className, ...rest}) => (<SmallTextWrapper
     className={className} 
     {...rest}
     >
@@ -81,7 +80,7 @@ const SmallText = ({children, className, ...rest}) => (<SmallTextWrapper
     </SmallTextWrapper>
 )
 
-const BlackLabel = ({name, subtitle, className})=>(
+const BlackLabel = ({name='', subtitle='', className})=>(
     <BlackLabelWrapper className={className}>
         <BoldText>{name.toString().toUpperCase()}</BoldText>
         {subtitle && (<SmallText>{subtitle.toString().toUpperCase()}</SmallText>)}
