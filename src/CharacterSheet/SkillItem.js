@@ -23,6 +23,11 @@ const CheckboxWrapper = styled.div`
     justify-content: center;
 `
 
+const NameWrapper = styled.div`
+    display: flex;
+    justify-content: space-between
+`
+
 
 const SkillItem = ({
     isClass,
@@ -42,11 +47,13 @@ const SkillItem = ({
                 type='checkbox'
             />
         </CheckboxWrapper>
-        <div>
-            <SkillName>{translate(name)}</SkillName>
-            {isTrainedOnly && <SmallText>▉</SmallText>}
+        <NameWrapper>
+            <div>
+                <SkillName>{translate(name)}</SkillName>
+                {isTrainedOnly && <SmallText>▉</SmallText>}
+            </div>
             <SkillName>{`(${translate(scoreName)})`}</SkillName>
-        </div>
+        </NameWrapper>
         <Text box centered>{modifierValue+calculatedRanks}</Text>
         <SmallText centered underline>{modifierValue}</SmallText>
         <CounterInput 
