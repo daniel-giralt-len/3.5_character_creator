@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import MissingItem from "../items/MissingItem";
 import dbs from '../db/json/dbs.json'
-import { SmallText } from './sharedComponents';
-import { boxed } from './sharedComponents';
+import { SmallText, SquareButton } from './sharedComponents';
 
 const ClassesLayout = styled.li`
     grid-area: classes;
@@ -11,8 +10,6 @@ const ClassesLayout = styled.li`
     grid-template-areas: "level name buttons";
     grid-template-columns: 1fr 4fr 3fr;
 `
-
-const ButtonWrapper = styled.button`${boxed}`
 
 function ClassLevel({
     position,
@@ -30,10 +27,10 @@ function ClassLevel({
             <div>{level}</div>
             <div>{name}</div>
             <div>
-                {!isLevel20 && <ButtonWrapper onClick={() => onDuplication(position)}>D</ButtonWrapper>}
-                <ButtonWrapper onClick={() => onDelete(position)}>-</ButtonWrapper>
-                <ButtonWrapper onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</ButtonWrapper>
-                <ButtonWrapper onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</ButtonWrapper>
+                {!isLevel20 && <SquareButton onClick={() => onDuplication(position)}>D</SquareButton>}
+                <SquareButton onClick={() => onDelete(position)}>-</SquareButton>
+                <SquareButton onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</SquareButton>
+                <SquareButton onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</SquareButton>
             </div>
         </>
     )

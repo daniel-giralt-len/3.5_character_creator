@@ -4,6 +4,7 @@ import Race from './Race'
 import Scores from './Scores'
 import Saves from './Saves'
 import ClassNames from './ClassNames'
+import Feats from './Feats'
 import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
 import Bab from './Bab'
@@ -11,14 +12,14 @@ import Bab from './Bab'
 import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
-import getCharacterClassData from '../functions/getCharacterClassData'
+import getCharacterClassData from '../functions/getCharacterClassData';
 
 const CharacterSheetLayout = styled.section`
     max-width: 1000px;
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 19em 8em 1em;
+    grid-template-rows: auto auto 19em 8em 2em;
     grid-row-gap: 15px;
     grid-column-gap: 10px;
 
@@ -34,9 +35,6 @@ const CharacterSheetLayout = styled.section`
         ". skills";
 `
 
-const FeatsLayout = styled.div`
-    grid-area: feats;
-`
 const SkilltricksLayout = styled.div`
     grid-area: skilltricks;
 `
@@ -63,7 +61,7 @@ function CharacterSheet({
             .entries(feats)
             .filter(([_, selected])=>selected)
             .reduce((acc,[id])=>({...acc,[id]:true}),{})
-        const nFeats = calculateMaxFeats({raceData, classes})
+        const maxFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
         const classSkillsData = getCharacterClassData(classes, bonuses, raceData)
         
@@ -115,7 +113,13 @@ function CharacterSheet({
                     translate={translate}
                     bab={bonuses.bab}
                 />
-                <FeatsLayout></FeatsLayout>
+                <Feats 
+                    feats={selectedFeats}
+                    translate={translate}
+                    onFeatsChange={onFeatsChange}
+                    maxFeats={maxFeats}
+                    usedFeats={usedFeats}
+                />
                 <SkilltricksLayout></SkilltricksLayout>
                 <ClassesDetail
                     classes={classes}

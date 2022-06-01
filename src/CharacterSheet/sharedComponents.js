@@ -14,6 +14,8 @@ border-bottom: ${border}
 border-radius: 0px;
 `
 
+const SquareButton = styled.button`${boxed}`
+
 const TextInput = styled.textarea`
     resize: none;
     font-size: 1.5em;
@@ -99,5 +101,6 @@ export {
     BoldText,
     SmallText,
     BlackLabel,
-    Text
+    Text,
+    SquareButton
 }
