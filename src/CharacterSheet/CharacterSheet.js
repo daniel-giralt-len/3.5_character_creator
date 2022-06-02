@@ -41,7 +41,7 @@ const CharacterSheetLayout = styled.section`
         "skilltricks skills";
         ". skills";
     @media (max-width: 700px) {
-        max-width: 100%;
+        grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto;
         grid-template-areas: 
             "name"

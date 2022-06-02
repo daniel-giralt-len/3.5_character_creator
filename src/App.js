@@ -41,6 +41,14 @@ const ContentWrapper = styled.div`
   grid-template-areas: 
     "header header-selector"
     "left right";
+  @media (max-width: 700px) {
+    grid-template-columns: auto;
+    grid-template-areas: 
+      "header"
+      "left"
+      "header-selector"
+      "right";
+  }
 `
 const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
