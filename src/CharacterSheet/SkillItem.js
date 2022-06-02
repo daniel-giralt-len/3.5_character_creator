@@ -49,7 +49,7 @@ const SkillItem = ({
         </CheckboxWrapper>
         <NameWrapper>
             <div>
-                <SkillName>{translate(name)}</SkillName>
+                <SkillName>{translate(name, 'skills')}</SkillName>
                 {isTrainedOnly && <SmallText>▉</SmallText>}
             </div>
             <SkillName>{`(${translate(scoreName)})`}</SkillName>
