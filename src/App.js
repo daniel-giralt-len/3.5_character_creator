@@ -1,4 +1,5 @@
 import { useCookies } from 'react-cookie'
+import { useState } from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import queryString from 'query-string';
 
@@ -55,42 +56,62 @@ function App() {
       showDisallowed: true    
     })
   }
-  const isCorpus = queryString.parse(window.location.search).isCorpus
-  const isCharacter = !isCorpus
+  const [selectorItem, setSelectorItem] = useState('')
   
   const translate = getTranslator(language)
-  const handleCreationChange = newCreation => isCorpus 
-    ? setCookie('corpus', newCreation)
-    : setCookie('character', newCreation)
+  const handleCreationChange = newCreation => setCookie('character', newCreation)
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
-  const handleCreationSwitch = () => setCookie('isCorpusSelected', !isCorpus)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
+
+  const handleOpenSelector = item => setSelectorItem(item)
   
   const corpuses = {
     any: {name: translate('any book'), corpus: '*'},
     c44: {name: 'Companyia 44', corpus: corpus44 },
   }
-  const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
 
-  return (<>
+  return (<ContentWrapper>
     <link rel="preconnect" href="https://fonts.googleapis.com"></link>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
     <GlobalStyle />
     <Header
-        handleChangeTranslations={handleChangeTranslations}
-        translate={translate}
-        selectedLanguage={language}
-      />
-    <CharacterSheet
-      character={usedCreation}
-      onCreationChange={handleCreationChange}
+      handleChangeTranslations={handleChangeTranslations}
       translate={translate}
+      selectedLanguage={language}
     />
-  </>)
-
+    <LeftWrapper>
+      <CharacterSheet
+        character={character}
+        onCreationChange={handleCreationChange}
+        translate={translate}
+        onOpenSelector={handleOpenSelector}
+      />
+    </LeftWrapper>
+    {selectorItem !== '' && (<RightWrapper>
+      <CorpusSelector
+        corpuses={corpuses}
+        translate={translate}
+        onCorpusChange={handleCorpusChange}
+        selectedCorpus={selectedCorpus}
+      />
+      <Creator 
+        openTab={selectorItem}
+        onChangeTab={handleOpenSelector}
+        creation={character}
+        corpus={usedCorpus}
+        isCorpus={false}
+        dbs={dbs}
+        filters={filters}
+        translate={translate}
+        onCreationChange={handleCreationChange}
+        onFilterChange={handleFilterChange}
+    />
+    </RightWrapper>)}
+  </ContentWrapper>)
+/* 
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
@@ -136,7 +157,7 @@ function App() {
         </RightWrapper>
       </ContentWrapper>
     </div>
-  );
+  ); */
 }
 
 export default App;

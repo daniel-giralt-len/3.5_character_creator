@@ -16,12 +16,13 @@ const RaceLayout = styled.div`
 function Race({
     raceName,
     translate,
+    onOpenSelector
 }){
-    
+    const onOpenRacesSelectors = () => onOpenSelector('races')
     return(
-        <RaceLayout>
+        <RaceLayout onClick={onOpenRacesSelectors}>
             {raceName 
-                ? (<TextInput disabled value={raceName} rows={1} />)
+                ? (<TextInput disabled value={raceName} rows={1}/>)
                 : (<MissingItem
                     translate={translate}
                     itemType='race'

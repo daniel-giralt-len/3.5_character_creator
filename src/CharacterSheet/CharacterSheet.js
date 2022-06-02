@@ -42,7 +42,8 @@ const SkilltricksLayout = styled.div`
 function CharacterSheet({
         character,
         translate,
-        onCreationChange
+        onCreationChange,
+        onOpenSelector
     }){
         const {
             scores,
@@ -83,10 +84,12 @@ function CharacterSheet({
                 <Race
                     race={raceData.name}
                     translate={translate}
+                    onOpenSelector={onOpenSelector}
                 />
                 <ClassNames
                     classes={classes}
                     translate={translate}
+                    onOpenSelector={onOpenSelector}
                 />
                 <Scores
                     scores={scores}

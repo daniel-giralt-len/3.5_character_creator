@@ -18,8 +18,10 @@ const ClassNamesLayout = styled.div`
 
 function ClassNames({
         classes,
-        translate
+        translate,
+        onOpenSelector
     }){
+    const onOpenClassesSelectors = () => onOpenSelector('classes')
 
     const accClassListString = groupClassesByLevels(classes)
         .map(({id, ...rest}) => ({id, ...rest, ...findInDb(dbs, 'classes', id)}))
@@ -27,10 +29,10 @@ function ClassNames({
         .join('/')
     
     return(
-        <ClassNamesLayout>
+        <ClassNamesLayout onClick={onOpenClassesSelectors}>
             {classes.length === 0
-                ? (<MissingItem translate={translate} itemType='class' />)
-                : (<TextInput rows={3} disabled value={accClassListString} />)
+                ? (<MissingItem translate={translate} itemType='class'/>)
+                : (<TextInput rows={3} disabled value={accClassListString}/>)
             }
             <Text small>{translate('classes')}</Text>
         </ClassNamesLayout>

@@ -13,16 +13,16 @@ const PageSelectorWrapper = styled.div`
 
 const PageSelector = ({
   pages,
-  onSelectPage,
+  openTab = '',
+  onChangeTab,
   translate,
-  selectedPage = false,
 }) => {
   return (
     <PageSelectorWrapper>{pages.map(({name}) => (
       <SelectedButton
         key={name}
-        onClick={()=>onSelectPage(name)}
-        selected={selectedPage===name}
+        onClick={()=>onChangeTab(name)}
+        selected={openTab===name}
       >
         {translate(name)}
       </SelectedButton>))}
@@ -31,6 +31,8 @@ const PageSelector = ({
 }
 
 function Creator({
+  openTab,
+  onChangeTab,
   creation,
   corpus,
   isCorpus,
@@ -51,8 +53,7 @@ function Creator({
     { name: 'editions',    isUsableOnlyInCorpus: true  },
   ]
 
-  const [selectedPage, setSelectedPage] = useState('races')
-  const selectedPageItems = pages.filter(({name}) => name === selectedPage)
+  const selectedPageItems = pages.filter(({name}) => name === openTab)
 
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -70,9 +71,9 @@ function Creator({
             translate={translate}
           />
           <PageSelector
-            selectedPage={selectedPage}
+            openTab={openTab}
             pages={pages}
-            onSelectPage={setSelectedPage}
+            onChangeTab={onChangeTab}
             translate={translate}
           />
         </nav>
