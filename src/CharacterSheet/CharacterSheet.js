@@ -89,7 +89,7 @@ function CharacterSheet({
                     onNameChange={onNameChange}
                 />
                 <Race
-                    race={raceData.name}
+                    raceName={raceData.name}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
