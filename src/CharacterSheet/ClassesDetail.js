@@ -15,7 +15,7 @@ const ClassesLayout = styled.li`
     grid-template-columns: 1fr 4fr 3fr;
 `
 
-function ClassDisplay({
+function ClassesDisplay({
     classes = [],
     translate,
     handleClassChange
@@ -59,4 +59,4 @@ function ClassDisplay({
     );
 }
 
-export default ClassDisplay;
+export default ClassesDisplay;

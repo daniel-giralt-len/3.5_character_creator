@@ -147,11 +147,11 @@ function CharacterSheet({
                     maxFeats={maxFeats}
                     usedFeats={usedFeats}
                 />
-                <SkilltricksLayout></SkilltricksLayout>
+                <SkilltricksLayout />
                 <ClassesDetail
                     classes={classes}
                     translate={translate}
-                    handleClassChange
+                    handleClassChange={onClassChange}
                 />
             </CharacterSheetLayout>
         )

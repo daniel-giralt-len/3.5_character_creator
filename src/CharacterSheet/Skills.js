@@ -64,8 +64,6 @@ function Skills({
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
-        console.log(refinedSkillsData.map(a=>a.translatedName))
-
         return(
                 <SkillsLayout>
                     <HeaderWrapper
