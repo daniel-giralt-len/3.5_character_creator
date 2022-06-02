@@ -3,7 +3,7 @@ import { MissingItem } from './sharedComponents';
 
 import { 
     TextInput,
-    SmallText,
+    Text
 } from './sharedComponents';
 
 const RaceLayout = styled.div`
@@ -28,7 +28,7 @@ function Race({
                 />)
             }
             
-            <SmallText>{translate('race')}</SmallText>
+            <Text small>{translate('race')}</Text>
         </RaceLayout>
     )
 }

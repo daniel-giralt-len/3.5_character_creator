@@ -5,8 +5,8 @@ import dbs from '../db/json/dbs.json'
 
 import { 
     TextInput,
-    SmallText,
-    MissingItem
+    MissingItem,
+    Text
 } from './sharedComponents';
 
 const ClassNamesLayout = styled.div`
@@ -32,7 +32,7 @@ function ClassNames({
                 ? (<MissingItem translate={translate} itemType='class' />)
                 : (<TextInput rows={3} disabled value={accClassListString} />)
             }
-            <SmallText>{translate('classes')}</SmallText>
+            <Text small>{translate('classes')}</Text>
         </ClassNamesLayout>
     )
 }

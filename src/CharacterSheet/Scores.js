@@ -3,8 +3,7 @@ import { Fragment } from 'react'
 
 import {
     CounterInput,
-    BoldText,
-    SmallText,
+    Text,
     BlackLabel,
 } from './sharedComponents'
 
@@ -36,11 +35,11 @@ function Scores({
     }){
         return(
                 <ScoresLayout>
-                    <SmallText>{translate('name')}</SmallText>
-                    <SmallText>{translate('mod')}</SmallText>
-                    <SmallText>{translate('total')}</SmallText>
-                    <SmallText>{translate('base')}</SmallText>
-                    <SmallText>{translate('race')}</SmallText>
+                    <Text small>{translate('name')}</Text>
+                    <Text small>{translate('mod')}</Text>
+                    <Text small>{translate('total')}</Text>
+                    <Text small>{translate('base')}</Text>
+                    <Text small>{translate('race')}</Text>
                     {Object
                         .entries(scores)
                         .map(([id, value]) => (
@@ -52,9 +51,9 @@ function Scores({
                                 <div >
                                     {modifiers[id]}
                                 </div>
-                                <BoldText box>
+                                <Text bold box>
                                     {value+bonuses[id]}
-                                </BoldText>
+                                </Text>
                                 <CounterInput 
                                     underline
                                     type="number"

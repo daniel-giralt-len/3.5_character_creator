@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { BlackLabel, BoldText } from "./sharedComponents";
+import { BlackLabel, Text } from "./sharedComponents";
 
 const BabLayout = styled.div`
     grid-area: bab;
@@ -18,9 +18,9 @@ const Bab = ({
             subtitle={translate('base attack power')}
         />
         <div/>
-        <BoldText centered box>
+        <Text bold centered box>
             {bab || 0}
-        </BoldText>
+        </Text>
     </BabLayout>
 )
 

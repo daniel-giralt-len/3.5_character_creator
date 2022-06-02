@@ -3,8 +3,6 @@ import { Fragment } from 'react'
 
 import {
     Text,
-    BoldText,
-    SmallText,
     BlackLabel,
 } from './sharedComponents'
 
@@ -35,16 +33,16 @@ function Saves({
     }){
         return(
                 <ScoresLayout>
-                    <SmallText>{translate('name')}</SmallText>
+                    <Text small>{translate('name')}</Text>
                     <Text>{translate('total')}</Text>
-                    <SmallText>{translate('base')}</SmallText>
-                    <SmallText>{translate('mod')}</SmallText>
+                    <Text small>{translate('base')}</Text>
+                    <Text small>{translate('mod')}</Text>
                     {
                         [['fortitude', 'CON'], ['reflex', 'DEX'], ['will', 'WIS']].map(([name, score])=> (<Fragment key={name}>
                             <BlackLabel
                                 name={translate(name)}
                             />
-                            <BoldText box>{bonuses[name]+modifiers[score]}</BoldText>
+                            <Text bold box>{bonuses[name]+modifiers[score]}</Text>
                             <Text>{bonuses[name]}</Text>
                             <Text>{modifiers[score]}</Text>
                         </Fragment>

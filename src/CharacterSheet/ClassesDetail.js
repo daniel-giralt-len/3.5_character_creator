@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import dbs from '../db/json/dbs.json'
-import { SmallText, SquareButton } from './sharedComponents';
+import { Text, SquareButton } from './sharedComponents';
 
 const ClassesLayout = styled.li`
     grid-area: classes;
@@ -59,9 +59,9 @@ function ClassDisplay({
 
     return (
         <ClassesLayout>
-            <SmallText>{translate('level')}</SmallText>
-            <SmallText>{translate('class')}</SmallText>
-            <SmallText />
+            <Text small>{translate('level')}</Text>
+            <Text small>{translate('class')}</Text>
+            <Text small />
             {classes
                 .map((id,i) => (<ClassLevel
                     key={`${i+1}-${id}`}

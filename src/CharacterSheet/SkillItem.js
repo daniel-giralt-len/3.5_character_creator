@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import {
     boxed,
     CounterInput,
-    SmallText,
     Text
 } from './sharedComponents'
 
@@ -14,7 +13,7 @@ const SkillClassCheckbox = styled.div`
     ${boxed}
 `
 
-const SkillName = styled(SmallText)`
+const SkillName = styled(Text)`
     margin-right: 4px;
 `
 
@@ -49,13 +48,13 @@ const SkillItem = ({
         </CheckboxWrapper>
         <NameWrapper>
             <div>
-                <SkillName>{translate(name, 'skills')}</SkillName>
-                {isTrainedOnly && <SmallText>▉</SmallText>}
+                <SkillName small>{translate(name, 'skills')}</SkillName>
+                {isTrainedOnly && <Text small>▉</Text>}
             </div>
             <SkillName>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
         <Text box centered>{modifierValue+calculatedRanks}</Text>
-        <SmallText centered underline>{modifierValue}</SmallText>
+        <Text small centered underline>{modifierValue}</Text>
         <CounterInput 
             underline
             type="number"
