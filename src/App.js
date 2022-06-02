@@ -104,6 +104,7 @@ function App() {
         onCreationChange={handleCreationChange}
         translate={translate}
         onChangeSelectorTab={handleChangeSelectorTab}
+        usedCorpus={usedCorpus}
       />
     </LeftWrapper>
     <RightWrapper>

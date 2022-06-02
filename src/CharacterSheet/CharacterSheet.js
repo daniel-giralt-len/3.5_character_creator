@@ -64,7 +64,8 @@ function CharacterSheet({
         character,
         translate,
         onCreationChange,
-        onChangeSelectorTab
+        onChangeSelectorTab,
+        usedCorpus
     }){
         const {
             scores,
@@ -132,6 +133,8 @@ function CharacterSheet({
                     translate={translate}
                     onSkillChange={onSkillChange}
                     maxPointsPerSkill={3+nLevels}
+                    permittedSkills={usedCorpus.skills}
+                    extraSkills={usedCorpus.extraSkills}
                 />
                 <Bab
                     translate={translate}

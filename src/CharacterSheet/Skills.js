@@ -42,7 +42,9 @@ function Skills({
         translate,
         classSkillsData,
         onSkillChange,
-        maxPointsPerSkill
+        maxPointsPerSkill,
+        permittedSkills,
+        extraSkills
     }){
         const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
         const maxSkillPoints = classSkillsData.points || 0
@@ -56,9 +58,13 @@ function Skills({
             onSkillChange(newSkills)
         }
         
-        const translatedSkillData = skillsData
-            .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
-            .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
+        const refinedSkillsData = skillsData
+                .filter(({id})=>permittedSkills.includes(id))
+                .concat(...extraSkills)
+                .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
+                .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
+
+        console.log(refinedSkillsData.map(a=>a.translatedName))
 
         return(
                 <SkillsLayout>
@@ -72,7 +78,7 @@ function Skills({
                     <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
                     {
-                        translatedSkillData.map(skill =>{
+                        refinedSkillsData.map(skill =>{
                             const data = skills[skill.name] || {}
                             const scoreName = skill['key ability']
                             return (<SkillItem
