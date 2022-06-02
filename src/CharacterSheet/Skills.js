@@ -3,7 +3,7 @@ import skillsData from '../db/json/skills.json'
 import SkillItem from './SkillItem'
 
 import {
-    SmallText,
+    Text,
     fullCenteredText,
     BlackLabel
 } from './sharedComponents'
@@ -37,7 +37,7 @@ const SkillsLayout = styled.ul`
     }
 `
 
-const Title = styled(SmallText)`
+const Title = styled(Text)`
     ${fullCenteredText}
 `
 
@@ -64,11 +64,11 @@ function Skills({
                         name={translate('skills').toUpperCase()}
                         subtitle={`${nUsedSkillPoints}/${maxSkillPoints}`}
                     />
-                    <Title>{translate('class')}</Title>
-                    <Title>{translate('name')}</Title>
-                    <Title>{translate('total')}</Title>
-                    <Title>{translate('base')}</Title>
-                    <Title>{translate('ranks')}</Title>
+                    <Text small centered>{translate('class')}</Text>
+                    <Text small centered>{translate('name')}</Text>
+                    <Text small centered>{translate('total')}</Text>
+                    <Text small centered>{translate('base')}</Text>
+                    <Text small centered>{translate('ranks')}</Text>
                     {
                         skillsData.map(skill =>{
                             const data = skills[skill.name] || {}

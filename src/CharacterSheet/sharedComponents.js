@@ -13,6 +13,13 @@ border: 0px;
 border-bottom: ${border}
 border-radius: 0px;
 `
+const smallText = `
+font-size: 0.75em;
+font-weight: 500;`
+
+const boldText = `
+font-weight: 900;
+font-size: 1.3em;`
 
 const SquareButton = styled.button`${boxed}`
 
@@ -53,39 +60,26 @@ const BlackLabelWrapper = styled.div`
     padding: 2px 8px;
 `
 
-const Text = styled.div`
+const TextWrapper = styled.div`
+    ${({small}) => small ? smallText : ''}
+    ${({bold}) => bold ? boldText : ''}
     ${({centered}) => centered ? fullCenteredText : ''}
     ${({box}) => box ? boxed : ''}
     ${({underline}) => underline ? underlined : ''}
 `
 
-const BoldText = styled.span`
-    font-weight: 900;
-    font-size: 1.3em;
-    ${({centered}) => centered ? fullCenteredText : ''}
-    ${({box}) => box ? boxed : ''}
-    ${({underline}) => underline ? underlined : ''}
-`
-const SmallTextWrapper = styled.div`
-    font-size: 0.75em;
-    font-weight: 500;
-    ${({centered}) => centered ? fullCenteredText : ''}
-    ${({box}) => box ? boxed : ''}
-    ${({underline}) => underline ? underlined : ''}
-`
-
-const SmallText = ({children='', className, ...rest}) => (<SmallTextWrapper
+const Text = ({children='', className, ...rest}) => (<TextWrapper
     className={className} 
     {...rest}
     >
         {children.toString().toUpperCase()}
-    </SmallTextWrapper>
+    </TextWrapper>
 )
 
 const BlackLabel = ({name='', subtitle='', className})=>(
     <BlackLabelWrapper className={className}>
-        <BoldText>{name.toString().toUpperCase()}</BoldText>
-        {subtitle && (<SmallText>{subtitle.toString().toUpperCase()}</SmallText>)}
+        <Text bold>{name.toString().toUpperCase()}</Text>
+        {subtitle && (<Text small>{subtitle.toString().toUpperCase()}</Text>)}
     </BlackLabelWrapper>
 )
 
@@ -115,8 +109,6 @@ export {
     CounterInput,
     ReadOnlyInput,
     BlackLabelWrapper,
-    BoldText,
-    SmallText,
     BlackLabel,
     Text,
     SquareButton,

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import { 
     TextInput,
-    SmallText,
+    Text,
 } from './sharedComponents';
 
 const NameLayout = styled.div`
@@ -21,7 +21,7 @@ function Name({
     return(
         <NameLayout>
             <TextInput onChange={e => onNameChange(e.target.value)} value={name} rows={1} />
-            <SmallText>{translate('character name')}</SmallText>
+            <Text small>{translate('character name')}</Text>
         </NameLayout>
     )
 }
