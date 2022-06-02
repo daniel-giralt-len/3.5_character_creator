@@ -18,6 +18,10 @@ const CharacterSheetLayout = styled.section`
     max-width: 1000px;
     display: grid;
 
+    box-shadow: 1px 1px 4px 0px #340000;
+    margin: 2px 10px 0px 0px;
+    padding: 10px;
+
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 19em 8em 2em;
     grid-row-gap: 15px;
