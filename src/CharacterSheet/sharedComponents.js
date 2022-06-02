@@ -112,5 +112,6 @@ export {
     BlackLabel,
     Text,
     SquareButton,
-    MissingItem
+    MissingItem,
+    smallText
 }

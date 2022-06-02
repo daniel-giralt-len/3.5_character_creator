@@ -1,39 +1,19 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import dbs from '../db/json/dbs.json'
-import { Text, SquareButton } from './sharedComponents';
+import { Text, BlackLabel } from './sharedComponents';
+import ClassDetailItem from './ClassDetailItem';
+
+const Header = styled(BlackLabel)`grid-area: header`
 
 const ClassesLayout = styled.li`
     grid-area: classes;
     display: grid;
-    grid-template-areas: "level name buttons";
+    grid-template-areas: 
+        "header header header"
+        "level name buttons";
     grid-template-columns: 1fr 4fr 3fr;
 `
-
-function ClassLevel({
-    position,
-    classData,
-    onReorder,
-    onDuplication,
-    onDelete,
-    nLevels,
-}){
-    const isLevel20 = nLevels === 20
-    const {name} = classData
-    const level = position+1
-    return (
-        <>
-            <div>{level}</div>
-            <div>{name}</div>
-            <div>
-                {!isLevel20 && <SquareButton onClick={() => onDuplication(position)}>D</SquareButton>}
-                <SquareButton onClick={() => onDelete(position)}>-</SquareButton>
-                <SquareButton onClick={() => onReorder(position, 'up')} disabled={position === 0}>^</SquareButton>
-                <SquareButton onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>v</SquareButton>
-            </div>
-        </>
-    )
-}
 
 function ClassDisplay({
     classes = [],
@@ -59,11 +39,12 @@ function ClassDisplay({
 
     return (
         <ClassesLayout>
-            <Text small>{translate('level')}</Text>
-            <Text small>{translate('class')}</Text>
+            <Header name={translate('classes')} />
+            <Text small centered>{translate('level')}</Text>
+            <Text small centered>{translate('class')}</Text>
             <Text small />
             {classes
-                .map((id,i) => (<ClassLevel
+                .map((id,i) => (<ClassDetailItem
                     key={`${i+1}-${id}`}
                     position={i}
                     classData={dbs.classes.find(c=>id === c.id)}
