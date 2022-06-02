@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 import dbs from '../db/json/dbs.json'
-import { BlackLabel, SquareButton } from './sharedComponents';
+import { BlackLabel, SquareButton, Text } from './sharedComponents';
 
 const FeatsLayout = styled.ul`
     grid-area: feats;
     padding: 0;
+    margin: 0;
 `
 
 const FeatLayout = styled.li`
     display: flex;
     justify-content: space-between;
+    align-items: center;
 `
     
 function FeatItem({
@@ -18,9 +20,9 @@ function FeatItem({
 }){
     return (
         <FeatLayout>
-            <div>
+            <Text>
                 {feat.name}
-            </div>
+            </Text>
             <SquareButton onClick={() => onDelete(feat.id)}>
                 -
             </SquareButton>

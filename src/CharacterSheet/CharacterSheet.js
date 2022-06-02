@@ -29,7 +29,6 @@ const CharacterSheetLayout = styled.section`
    
     max-width: 1000px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 19em 10em 2em;
     grid-template-areas: 
         "name class-names"
         "race class-names"
@@ -38,7 +37,7 @@ const CharacterSheetLayout = styled.section`
         "bab skills"
         "feats skills"
         "classes skills"
-        "skilltricks skills";
+        "skilltricks skills"
         ". skills";
     @media (max-width: 700px) {
         grid-template-columns: auto;
