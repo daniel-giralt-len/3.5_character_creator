@@ -6,6 +6,7 @@ import dbs from '../db/json/dbs.json'
 import { 
     TextInput,
     SmallText,
+    MissingItem
 } from './sharedComponents';
 
 const ClassNamesLayout = styled.div`
@@ -19,6 +20,7 @@ function ClassNames({
         classes,
         translate
     }){
+
     const accClassListString = groupClassesByLevels(classes)
         .map(({id, ...rest}) => ({id, ...rest, ...findInDb(dbs, 'classes', id)}))
         .reduce((acc,{name, count})=>([...acc,`${name} ${count}`]),[])
@@ -26,7 +28,10 @@ function ClassNames({
     
     return(
         <ClassNamesLayout>
-            <TextInput rows={3} disabled value={accClassListString} />
+            {classes.length === 0
+                ? (<MissingItem translate={translate} itemType='class' />)
+                : (<TextInput rows={3} disabled value={accClassListString} />)
+            }
             <SmallText>{translate('classes')}</SmallText>
         </ClassNamesLayout>
     )

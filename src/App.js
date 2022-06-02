@@ -77,9 +77,7 @@ function App() {
   const usedCreation = isCorpus ? corpus : character
   const usedCorpus = corpuses[selectedCorpus].corpus
 
-  const n=true
-  if(n){
-  return (<>
+  return (<div>
     <link rel="preconnect" href="https://fonts.googleapis.com"></link>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
@@ -89,8 +87,7 @@ function App() {
       onCreationChange={handleCreationChange}
       translate={translate}
     />
-    </>)
-  }
+  </div>)
 
   return (
     <div>

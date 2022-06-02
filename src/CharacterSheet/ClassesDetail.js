@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import dbs from '../db/json/dbs.json'
-import { SmallText, SquareButton, MissingItem } from './sharedComponents';
+import { SmallText, SquareButton } from './sharedComponents';
 
 const ClassesLayout = styled.li`
     grid-area: classes;
@@ -40,12 +40,7 @@ function ClassDisplay({
     translate,
     handleClassChange
 }) {
-    if(classes.length === 0) {
-        return (<MissingItem
-            translate={translate}
-            itemType='class'
-        />)
-    }
+    
 
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
