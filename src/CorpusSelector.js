@@ -10,6 +10,8 @@ function CorpusSelector({
         <>
             <div>
                 {translate('selected corpus')}
+            </div>
+            <div>
                 {Object.entries(corpuses).map(([id, { name }]) => {
                     const onClick = () => onCorpusChange(id)
                     return(

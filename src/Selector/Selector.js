@@ -1,13 +1,25 @@
 import styled from 'styled-components'
+import CorpusSelector from '../CorpusSelector'
 
 import { SelectedButton } from '../styles'
 import Filters from './Filters'
 import ItemBrowser from './ItemBrowser'
 
 const PageSelectorWrapper = styled.div`
-  margin: 8px 0px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  grid-area: page-selector;
+`
+
+const Navigation = styled.nav`
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-areas:
+    "corpus-label corpuses"
+    "filter-label filters"
+    "page-selector page-selector";
+  grid-row-gap: 2px;
 `
 
 const PageSelector = ({
@@ -39,7 +51,10 @@ function Creator({
   filters,
   translate,
   onCreationChange,
-  onFilterChange
+  onFilterChange,
+  corpuses,
+  onCorpusChange,
+  selectedCorpus
 }) {
 
   const pages = [
@@ -63,7 +78,13 @@ function Creator({
   
   return (
     <div>
-        <nav>
+        <Navigation>
+          <CorpusSelector
+            corpuses={corpuses}
+            translate={translate}
+            onCorpusChange={onCorpusChange}
+            selectedCorpus={selectedCorpus}
+          />
           <Filters
             onFilterChange={onFilterChange}
             filters={filters}
@@ -75,7 +96,7 @@ function Creator({
             onChangeTab={onChangeTab}
             translate={translate}
           />
-        </nav>
+        </Navigation>
         {selectedPageItems.map(({name, isExclusive, isUsableOnlyInCorpus}) => (
           <ItemBrowser
             key={name}

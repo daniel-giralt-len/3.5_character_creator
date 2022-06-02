@@ -37,12 +37,12 @@ const GlobalStyle = createGlobalStyle`
 
 const ContentWrapper = styled.div`
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr minmax(0,1fr);
   grid-template-areas: 
     "header header-selector"
     "left right";
   @media (max-width: 700px) {
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-areas: 
       "header"
       "left"
@@ -109,17 +109,14 @@ function App() {
     </LeftWrapper>
     <RightWrapper>
       {isSelectorOpen && (<>
-        <CorpusSelector
-          corpuses={corpuses}
-          translate={translate}
-          onCorpusChange={handleCorpusChange}
-          selectedCorpus={selectedCorpus}
-        />
         <Selector 
           openTab={selectorItem}
           onChangeTab={handleChangeSelectorTab}
           creation={character}
           corpus={usedCorpus}
+          corpuses={corpuses}
+          onCorpusChange={handleCorpusChange}
+          selectedCorpus={selectedCorpus}
           isCorpus={false}
           dbs={dbs}
           filters={filters}

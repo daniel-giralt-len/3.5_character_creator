@@ -6,7 +6,7 @@ function Filters({
     translate,
 }){
     return (
-    <div>
+    <>
         {translate('Filters')}:
         <SelectedButton
             selected={filters.showDisallowed}
@@ -14,6 +14,6 @@ function Filters({
         >
             {translate('show disallowed')}
         </SelectedButton>
-    </div>)
+    </>)
 }
 export default Filters
