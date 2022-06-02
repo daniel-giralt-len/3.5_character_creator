@@ -1,3 +1,5 @@
+import { SelectedButton } from "./styles";
+
 function CorpusSelector({
     corpuses,
     translate,
@@ -13,16 +15,19 @@ function CorpusSelector({
                     return(
                         <span onClick={onClick} key={id}>
                             <input
-                                onChange={onClick}
                                 type='radio'
                                 name='corpus'
                                 value={id}
                                 key={id}
                                 checked={selectedCorpus === id}
+                                hidden
                             />
-                            <label htmlFor={id}>
+                            <SelectedButton
+                                htmlFor={id}
+                                selected={selectedCorpus === id}
+                            >
                                 {translate(name)}
-                            </label>
+                            </SelectedButton>
                         </span>
                     )
                 })

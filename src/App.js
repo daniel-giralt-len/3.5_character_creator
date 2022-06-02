@@ -4,7 +4,7 @@ import styled, { createGlobalStyle } from 'styled-components'
 import queryString from 'query-string';
 
 import CharacterSheet from './CharacterSheet'
-import Creator from './Creator'
+import Selector from './Selector/Selector'
 import Header from './Header'
 import CorpusSelector from './CorpusSelector'
 import CreationDisplay from './CreationDisplay'
@@ -106,7 +106,7 @@ function App() {
           onCorpusChange={handleCorpusChange}
           selectedCorpus={selectedCorpus}
         />
-        <Creator 
+        <Selector 
           openTab={selectorItem}
           onChangeTab={handleChangeSelectorTab}
           creation={character}
