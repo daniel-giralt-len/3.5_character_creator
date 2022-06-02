@@ -7,12 +7,13 @@ const getCharacterSkillData = (classes = [], scores = {}, race) => {
         .reduce((acc, c, i) => {
             let levelScore = c['skill points'].base + scores[c['skill points'].score]
             if(race.name === 'human') levelScore += 1
+            levelScore = Math.max(levelScore, 0)
             if(i===0) levelScore *= 4
-            return ({
-                ...acc,
+
+            return {
                 skills: [...(acc.skills||[]), ...c['class skills']], 
                 points: (acc.points||0) + levelScore
-            })
+            }
         }, {})
     out.skills = (out.skills||[]).filter(onlyUnique)
     return out
