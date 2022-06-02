@@ -21,6 +21,7 @@ const CharacterSheetLayout = styled.section`
     box-shadow: 1px 1px 4px 0px #340000;
     margin: 2px 10px 0px 0px;
     padding: 10px;
+    border-radius: 2px;
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 19em 8em 2em;

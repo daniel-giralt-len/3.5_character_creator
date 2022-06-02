@@ -8,7 +8,6 @@ import Creator from './Creator'
 import Header from './Header'
 import CorpusSelector from './CorpusSelector'
 import CreationDisplay from './CreationDisplay'
-import SelectorSwitch from './SelectorSwitch'
 
 import characterBase from './db/json/characterBase.json'
 import corpus44 from './db/json/corpus_44.json'
@@ -40,7 +39,7 @@ const ContentWrapper = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 
-    "header header"
+    "header header-selector"
     "left right";
 `
 const LeftWrapper = styled.div`grid-area: left;`
@@ -88,6 +87,8 @@ function App() {
       handleChangeTranslations={handleChangeTranslations}
       translate={translate}
       selectedLanguage={language}
+      isSelectorOpen={isSelectorOpen}
+      onSelectorSwitch={handleSwitchSelectorOpen}
     />
     <LeftWrapper>
       <CharacterSheet
@@ -98,10 +99,6 @@ function App() {
       />
     </LeftWrapper>
     <RightWrapper>
-    <SelectorSwitch
-        isSelectorOpen={isSelectorOpen}
-        onSelectorSwitch={handleSwitchSelectorOpen}
-     />
       {isSelectorOpen && (<>
         <CorpusSelector
           corpuses={corpuses}
