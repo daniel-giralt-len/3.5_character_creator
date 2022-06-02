@@ -55,6 +55,10 @@ function Skills({
             if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return
             onSkillChange(newSkills)
         }
+        
+        const translatedSkillData = skillsData
+            .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
+            .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
         return(
                 <SkillsLayout>
@@ -68,7 +72,7 @@ function Skills({
                     <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
                     {
-                        skillsData.map(skill =>{
+                        translatedSkillData.map(skill =>{
                             const data = skills[skill.name] || {}
                             const scoreName = skill['key ability']
                             return (<SkillItem

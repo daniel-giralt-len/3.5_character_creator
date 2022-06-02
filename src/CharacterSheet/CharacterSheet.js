@@ -16,7 +16,6 @@ import getCharacterSkillData from '../functions/getCharacterSkillData';
 import getModifiersFromScores from '../functions/getModifiersFromScores'
 
 const CharacterSheetLayout = styled.section`
-    max-width: 1000px;
     display: grid;
 
     box-shadow: 1px 1px 4px 0px #340000;
@@ -24,11 +23,13 @@ const CharacterSheetLayout = styled.section`
     padding: 10px;
     border-radius: 2px;
 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 19em 8em 2em;
+    
     grid-row-gap: 15px;
     grid-column-gap: 10px;
-
+   
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 19em 8em 2em;
     grid-template-areas: 
         "name class-names"
         "race class-names"
@@ -39,6 +40,21 @@ const CharacterSheetLayout = styled.section`
         "classes skills"
         "skilltricks skills";
         ". skills";
+    @media (max-width: 700px) {
+        max-width: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 
+            "name"
+            "race"
+            "class-names"
+            "scores"
+            "saves"
+            "bab"
+            "feats"
+            "classes"
+            "skilltricks"
+            "skills";
+    }
 `
 
 const SkilltricksLayout = styled.div`
