@@ -53,7 +53,7 @@ function CharacterSheet({
             skills
         } = character
 
-        const raceData = raceStats[races]
+        const raceData = (raceStats[races] || {})
         const bonuses = calculateCharacterBonuses({raceData, classes})
         const modifiers = Object.keys(scores).reduce((acc,id)=>({...acc, [id]: Math.floor(((scores[id] || 0) + (bonuses[id] || 0) - 10)/2)}),{})
 

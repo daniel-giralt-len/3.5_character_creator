@@ -14,7 +14,7 @@ const getCharacterClassData = (classes = [], scores = {}, race) => {
                 points: (acc.points||0) + levelScore
             })
         }, {})
-    out.skills = out.skills.filter(onlyUnique)
+    out.skills = (out.skills||[]).filter(onlyUnique)
     return out
 }
 export default getCharacterClassData

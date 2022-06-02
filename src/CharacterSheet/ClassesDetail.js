@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
-import MissingItem from "../items/MissingItem";
 import dbs from '../db/json/dbs.json'
-import { SmallText, SquareButton } from './sharedComponents';
+import { SmallText, SquareButton, MissingItem } from './sharedComponents';
 
 const ClassesLayout = styled.li`
     grid-area: classes;

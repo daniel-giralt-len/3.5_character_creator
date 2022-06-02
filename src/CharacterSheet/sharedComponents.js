@@ -89,6 +89,21 @@ const BlackLabel = ({name='', subtitle='', className})=>(
     </BlackLabelWrapper>
 )
 
+const MissingItemWrapper = styled(TextInput)`
+    ${underlined}
+    background: #fff90033;
+}`
+
+
+function MissingItem ({ itemType, translate }) {
+    const value = `${translate('your character needs a')} ${translate(itemType).toLowerCase()}.`
+    return (<MissingItemWrapper
+        disabled
+        value={value}
+    />)
+}
+
+
 export {
     fullCenteredText,
     border,
@@ -102,5 +117,6 @@ export {
     SmallText,
     BlackLabel,
     Text,
-    SquareButton
+    SquareButton,
+    MissingItem
 }

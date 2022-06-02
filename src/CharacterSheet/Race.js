@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { MissingItem } from './sharedComponents';
 
 import { 
     TextInput,
@@ -13,13 +14,20 @@ const RaceLayout = styled.div`
 `
 
 function Race({
-    race,
+    raceName,
     translate,
 }){
     
     return(
         <RaceLayout>
-            <TextInput disabled value={race} rows={1} />
+            {raceName 
+                ? (<TextInput disabled value={raceName} rows={1} />)
+                : (<MissingItem
+                    translate={translate}
+                    itemType='race'
+                />)
+            }
+            
             <SmallText>{translate('race')}</SmallText>
         </RaceLayout>
     )
