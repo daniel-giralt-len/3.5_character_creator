@@ -40,7 +40,7 @@ function ClassDisplay({
     translate,
     handleClassChange
 }) {
-    
+    if(classes.length === 0) return
 
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
