@@ -83,6 +83,12 @@ const BlackLabel = ({name='', subtitle='', className})=>(
     </BlackLabelWrapper>
 )
 
+const SidewaysBlackLabel = styled(BlackLabel)`
+    height: 2em;
+    flex-direction: row;
+    justify-content: space-around;
+`
+
 const MissingItemWrapper = styled(TextInput)`
     ${underlined}
     background: #fff90033;
@@ -113,5 +119,6 @@ export {
     Text,
     SquareButton,
     MissingItem,
-    smallText
+    smallText,
+    SidewaysBlackLabel
 }

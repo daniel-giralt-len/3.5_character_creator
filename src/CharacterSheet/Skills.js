@@ -4,17 +4,11 @@ import SkillItem from './SkillItem'
 
 import {
     Text,
-    BlackLabel
+    SidewaysBlackLabel
 } from './sharedComponents'
 
-const HeaderWrapper = styled(BlackLabel)`
-    height: 2em;
-    flex-direction: row;
-    justify-content: space-around;
+const HeaderWrapper = styled(SidewaysBlackLabel)`
     grid-area: header;
-    background: #000;
-    color: #FFF;
-    padding: 2px 8px;
 `
 
 const SkillsLayout = styled.ul`
