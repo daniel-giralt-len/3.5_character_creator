@@ -8,6 +8,7 @@ import Creator from './Creator'
 import Header from './Header'
 import CorpusSelector from './CorpusSelector'
 import CreationDisplay from './CreationDisplay'
+import SelectorSwitch from './SelectorSwitch'
 
 import characterBase from './db/json/characterBase.json'
 import corpus44 from './db/json/corpus_44.json'
@@ -39,6 +40,7 @@ const ContentWrapper = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 
+    "header header"
     "left right";
 `
 const LeftWrapper = styled.div`grid-area: left;`
@@ -56,7 +58,8 @@ function App() {
       showDisallowed: true    
     })
   }
-  const [selectorItem, setSelectorItem] = useState('')
+  const [isSelectorOpen, setIsSelectorOpen] = useState(false)
+  const [selectorItem, setSelectorItem] = useState('races')
   
   const translate = getTranslator(language)
   const handleCreationChange = newCreation => setCookie('character', newCreation)
@@ -64,7 +67,11 @@ function App() {
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
 
-  const handleOpenSelector = item => setSelectorItem(item)
+  const handleChangeSelectorTab = item => {
+    setIsSelectorOpen(true)
+    setSelectorItem(item)
+  }
+  const handleSwitchSelectorOpen = () => setIsSelectorOpen(!isSelectorOpen)
   
   const corpuses = {
     any: {name: translate('any book'), corpus: '*'},
@@ -87,29 +94,35 @@ function App() {
         character={character}
         onCreationChange={handleCreationChange}
         translate={translate}
-        onOpenSelector={handleOpenSelector}
+        onChangeSelectorTab={handleChangeSelectorTab}
       />
     </LeftWrapper>
-    {selectorItem !== '' && (<RightWrapper>
-      <CorpusSelector
-        corpuses={corpuses}
-        translate={translate}
-        onCorpusChange={handleCorpusChange}
-        selectedCorpus={selectedCorpus}
+    <RightWrapper>
+    <SelectorSwitch
+        isSelectorOpen={isSelectorOpen}
+        onSelectorSwitch={handleSwitchSelectorOpen}
+     />
+      {isSelectorOpen && (<>
+        <CorpusSelector
+          corpuses={corpuses}
+          translate={translate}
+          onCorpusChange={handleCorpusChange}
+          selectedCorpus={selectedCorpus}
+        />
+        <Creator 
+          openTab={selectorItem}
+          onChangeTab={handleChangeSelectorTab}
+          creation={character}
+          corpus={usedCorpus}
+          isCorpus={false}
+          dbs={dbs}
+          filters={filters}
+          translate={translate}
+          onCreationChange={handleCreationChange}
+          onFilterChange={handleFilterChange}
       />
-      <Creator 
-        openTab={selectorItem}
-        onChangeTab={handleOpenSelector}
-        creation={character}
-        corpus={usedCorpus}
-        isCorpus={false}
-        dbs={dbs}
-        filters={filters}
-        translate={translate}
-        onCreationChange={handleCreationChange}
-        onFilterChange={handleFilterChange}
-    />
-    </RightWrapper>)}
+      </>)}
+    </RightWrapper>
   </ContentWrapper>)
 /* 
   return (

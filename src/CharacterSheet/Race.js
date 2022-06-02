@@ -16,9 +16,9 @@ const RaceLayout = styled.div`
 function Race({
     raceName,
     translate,
-    onOpenSelector
+    onChangeSelectorTab
 }){
-    const onOpenRacesSelectors = () => onOpenSelector('races')
+    const onOpenRacesSelectors = () => onChangeSelectorTab('races')
     return(
         <RaceLayout onClick={onOpenRacesSelectors}>
             {raceName 

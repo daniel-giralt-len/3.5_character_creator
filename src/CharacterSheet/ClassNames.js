@@ -19,9 +19,9 @@ const ClassNamesLayout = styled.div`
 function ClassNames({
         classes,
         translate,
-        onOpenSelector
+        onChangeSelectorTab
     }){
-    const onOpenClassesSelectors = () => onOpenSelector('classes')
+    const onOpenClassesSelectors = () => onChangeSelectorTab('classes')
 
     const accClassListString = groupClassesByLevels(classes)
         .map(({id, ...rest}) => ({id, ...rest, ...findInDb(dbs, 'classes', id)}))

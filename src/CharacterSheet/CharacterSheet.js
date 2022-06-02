@@ -43,7 +43,7 @@ function CharacterSheet({
         character,
         translate,
         onCreationChange,
-        onOpenSelector
+        onChangeSelectorTab
     }){
         const {
             scores,
@@ -84,12 +84,12 @@ function CharacterSheet({
                 <Race
                     race={raceData.name}
                     translate={translate}
-                    onOpenSelector={onOpenSelector}
+                    onChangeSelectorTab={onChangeSelectorTab}
                 />
                 <ClassNames
                     classes={classes}
                     translate={translate}
-                    onOpenSelector={onOpenSelector}
+                    onChangeSelectorTab={onChangeSelectorTab}
                 />
                 <Scores
                     scores={scores}

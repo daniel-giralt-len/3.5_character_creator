@@ -4,9 +4,7 @@ import { SelectedButton } from './styles'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.header`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    grid-area: header;
     margin-bottom: 15px;
 `
 
@@ -19,7 +17,6 @@ function Header({
 
     return (
         <HeaderWrapper>
-            <div/>
             <div>
                 {languages.map(key => (
                     <SelectedButton
