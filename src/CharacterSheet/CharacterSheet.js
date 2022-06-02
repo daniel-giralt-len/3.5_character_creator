@@ -69,7 +69,7 @@ function CharacterSheet({
             .reduce((acc,[id])=>({...acc,[id]:true}),{})
         const maxFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
-        const classSkillsData = getCharacterSkillData(classes, bonuses, raceData)
+        const classSkillsData = getCharacterSkillData(classes, scores, bonuses, raceData)
         
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         

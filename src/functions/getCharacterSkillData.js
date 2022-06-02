@@ -1,11 +1,11 @@
 import classStats from '../db/json/itemData/classStats.json'
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
-const getCharacterSkillData = (classes = [], scores = {}, race) => {
+const getCharacterSkillData = (classes = [], scores = {}, bonuses = {}, race) => {
     const out = classes
         .map(id=>classStats[id])
         .reduce((acc, c, i) => {
-            let levelScore = c['skill points'].base + scores[c['skill points'].score]
+            let levelScore = c['skill points'].base + scores[c['skill points'].score] + bonuses[c['skill points'].score]
             if(race.name === 'human') levelScore += 1
             levelScore = Math.max(levelScore, 0)
             if(i===0) levelScore *= 4
