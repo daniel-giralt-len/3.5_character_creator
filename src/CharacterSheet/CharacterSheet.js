@@ -29,7 +29,7 @@ const CharacterSheetLayout = styled.section`
    
     max-width: 1000px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 19em 8em 2em;
+    grid-template-rows: auto auto 19em 10em 2em;
     grid-template-areas: 
         "name class-names"
         "race class-names"

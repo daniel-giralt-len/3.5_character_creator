@@ -34,13 +34,14 @@ function Saves({
         return(
                 <ScoresLayout>
                     <Text small>{translate('name')}</Text>
-                    <Text>{translate('total')}</Text>
+                    <Text small>{translate('total')}</Text>
                     <Text small>{translate('base')}</Text>
                     <Text small>{translate('mod')}</Text>
                     {
                         [['fortitude', 'CON'], ['reflex', 'DEX'], ['will', 'WIS']].map(([name, score])=> (<Fragment key={name}>
                             <BlackLabel
                                 name={translate(name)}
+                                subtitle={`(${translate(`${score}_long`)})`}
                             />
                             <Text bold box>{bonuses[name]+modifiers[score]}</Text>
                             <Text>{bonuses[name]}</Text>
