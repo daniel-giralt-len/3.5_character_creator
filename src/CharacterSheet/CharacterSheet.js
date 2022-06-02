@@ -13,6 +13,7 @@ import raceStats from '../db/json/itemData/raceStats.json'
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import getCharacterSkillData from '../functions/getCharacterSkillData';
+import getModifiersFromScores from '../functions/getModifiersFromScores'
 
 const CharacterSheetLayout = styled.section`
     max-width: 1000px;
@@ -61,7 +62,7 @@ function CharacterSheet({
 
         const raceData = (raceStats[races] || {})
         const bonuses = calculateCharacterBonuses({raceData, classes})
-        const modifiers = Object.keys(scores).reduce((acc,id)=>({...acc, [id]: Math.floor(((scores[id] || 0) + (bonuses[id] || 0) - 10)/2)}),{})
+        const modifiers = getModifiersFromScores(scores, bonuses)
 
         const selectedFeats = Object
             .entries(feats)
@@ -69,7 +70,7 @@ function CharacterSheet({
             .reduce((acc,[id])=>({...acc,[id]:true}),{})
         const maxFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
-        const classSkillsData = getCharacterSkillData(classes, scores, bonuses, raceData)
+        const classSkillsData = getCharacterSkillData(classes, modifiers, raceData)
         
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
@@ -109,8 +110,6 @@ function CharacterSheet({
                     translate={translate}
                 /> 
                 <Skills
-                    scores={scores}
-                    bonuses={bonuses}
                     modifiers={modifiers}
                     skills={skills}
                     classSkillsData={classSkillsData}

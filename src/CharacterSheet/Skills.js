@@ -4,7 +4,6 @@ import SkillItem from './SkillItem'
 
 import {
     Text,
-    fullCenteredText,
     BlackLabel
 } from './sharedComponents'
 
@@ -35,10 +34,6 @@ const SkillsLayout = styled.ul`
         display: flex;
         align-items: center;
     }
-`
-
-const Title = styled(Text)`
-    ${fullCenteredText}
 `
 
 function Skills({
