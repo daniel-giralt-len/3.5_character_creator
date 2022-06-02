@@ -1,7 +1,7 @@
 import classStats from '../db/json/itemData/classStats.json'
 const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
-const getCharacterClassData = (classes = [], scores = {}, race) => {
+const getCharacterSkillData = (classes = [], scores = {}, race) => {
     const out = classes
         .map(id=>classStats[id])
         .reduce((acc, c, i) => {
@@ -17,5 +17,5 @@ const getCharacterClassData = (classes = [], scores = {}, race) => {
     out.skills = (out.skills||[]).filter(onlyUnique)
     return out
 }
-export default getCharacterClassData
+export default getCharacterSkillData
 

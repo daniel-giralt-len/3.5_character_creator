@@ -1,4 +1,4 @@
-import { SelectedButton } from './styles'
+import { SelectedButton } from '../styles'
 
 function Filters({
     onFilterChange,

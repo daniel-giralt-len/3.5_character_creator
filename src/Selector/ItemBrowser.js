@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import styled from 'styled-components'
-import BaseItem from './items/BaseItem'
-import getItemRegex from './functions/getItemRegex';
-import isItemAllowed from './functions/isItemAllowed';
+import BaseItem from '../items/BaseItem'
+import getItemRegex from '../functions/getItemRegex';
+import isItemAllowed from '../functions/isItemAllowed';
 
 function renderItems({
     items,

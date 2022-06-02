@@ -21,6 +21,7 @@ function CorpusSelector({
                                 key={id}
                                 checked={selectedCorpus === id}
                                 hidden
+                                readOnly
                             />
                             <SelectedButton
                                 htmlFor={id}

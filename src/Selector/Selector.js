@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import { useState } from 'react';
 
 import { SelectedButton } from '../styles'
-import Filters from '../Filters'
-import ItemBrowser from '../ItemBrowser'
+import Filters from './Filters'
+import ItemBrowser from './ItemBrowser'
 
 const PageSelectorWrapper = styled.div`
   margin: 8px 0px;
