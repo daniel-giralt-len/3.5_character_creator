@@ -11,11 +11,9 @@ const HeaderWrapper = styled.header`
 `
 
 function Header({
-    handleCreationSwitch,
     handleChangeTranslations,
     translate,
     selectedLanguage,
-    isCorpus
 }){
     const languages = Object.keys(webTranslations).filter(v => v !== '*')
 
