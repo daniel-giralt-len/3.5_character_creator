@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Fragment } from 'react'
 
 import {
     CounterInput,
@@ -43,21 +44,19 @@ function Scores({
                     {Object
                         .entries(scores)
                         .map(([id, value]) => (
-                            <>
+                            <Fragment key={id}>
                                 <BlackLabel
-                                    key={id+'label'}
                                     name={translate(id)}
                                     subtitle={translate(`${id}_long`)}
                                 />
-                                <div key={id+'mod'}>
+                                <div >
                                     {modifiers[id]}
                                 </div>
-                                <BoldText key={id+'total'} box>
+                                <BoldText box>
                                     {value+bonuses[id]}
                                 </BoldText>
                                 <CounterInput 
                                     underline
-                                    key={id+'counter'}
                                     type="number"
                                     step="1"
                                     value={value}
@@ -67,10 +66,10 @@ function Scores({
                                     min={0}
                                     onChange={e => onScoreChange(id, e.target.value)}
                                 />
-                                <span key={id+'bonuses'}>
+                                <span>
                                     {bonuses[id]}
                                 </span>
-                            </>
+                            </Fragment>
                         ))
                     }
                 </ScoresLayout>

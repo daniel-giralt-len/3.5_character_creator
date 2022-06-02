@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Fragment } from 'react'
 
 import {
     Text,
@@ -39,14 +40,14 @@ function Saves({
                     <SmallText>{translate('base')}</SmallText>
                     <SmallText>{translate('mod')}</SmallText>
                     {
-                        [['fortitude', 'CON'], ['reflex', 'DEX'], ['will', 'WIS']].map(([name, score])=> (<>
+                        [['fortitude', 'CON'], ['reflex', 'DEX'], ['will', 'WIS']].map(([name, score])=> (<Fragment key={name}>
                             <BlackLabel
                                 name={translate(name)}
                             />
                             <BoldText box>{bonuses[name]+modifiers[score]}</BoldText>
                             <Text>{bonuses[name]}</Text>
                             <Text>{modifiers[score]}</Text>
-                        </>
+                        </Fragment>
                         ))
                     }
                 </ScoresLayout>
