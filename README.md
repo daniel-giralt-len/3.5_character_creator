@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# [TAKE ME TO THE APP!](https://daniel-giralt-len.github.io/3.5_character_creator/build/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [☕ A tip for the hardworking dev?](https://ko-fi.com/ironygames)
 
-## Available Scripts
+## 3.5 Character creator
 
-In the project directory, you can run:
+DnD 3.5 is an old edition from the 2000s. As such any dnd helper web pages were designed at the time, with all the pros and cons of the era.
 
-### `npm start`
+This app is meant to be a fresh one stop shop for character creation. It features
+- Picking your race
+- Picking your (multi)class levels
+- Have all the basic modifiers calculated
+- Picking feats (only just enough)
+- Buy ranks (respecting level maximums)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app is still in development, but will feature
+- Calculate class requirements
+- Calculate feat prerequisites
+- Spell picker
+- Item budgeting
 
-### `npm test`
+The full dev board is on [Trello](https://trello.com/b/jOIVfKps/creador-de-personatges-dnd-35) (in catalan).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribute
 
-### `npm run build`
+### Languages
+You can translate [game items and web labels](src/db/json/translations) in any language you want.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### "I can do a better interface than you, dweeb."
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Rude.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Still, lots of 3.5 data have been stored in [json files](src/db/json). Feel free to use them for your own app. :)
