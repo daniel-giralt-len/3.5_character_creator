@@ -1,4 +1,4 @@
-import webTranslations from './translations/webTranslations.json'
+import webTranslations from './db/json/translations/webTranslations.json'
 import { SelectedButton } from './styles'
 
 import styled from 'styled-components'

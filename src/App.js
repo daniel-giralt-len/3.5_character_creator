@@ -12,7 +12,8 @@ import characterBase from './db/json/characterBase.json'
 import corpus44 from './db/json/corpus_44.json'
 import dbs from './db/json/dbs.json'
 
-import webTranslations from './translations/webTranslations.json'
+import getTranslator from './functions/getTranslator'
+
 
 const GlobalStyle = createGlobalStyle`
   html, button, input, textarea {
@@ -56,12 +57,8 @@ function App() {
   }
   const isCorpus = queryString.parse(window.location.search).isCorpus
   const isCharacter = !isCorpus
-  const translations = webTranslations[language]
   
-  const translate = strIn => {
-    const str = strIn.toLowerCase()
-    return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || strIn)
-  }
+  const translate = getTranslator(language)
   const handleCreationChange = newCreation => isCorpus 
     ? setCookie('corpus', newCreation)
     : setCookie('character', newCreation)
