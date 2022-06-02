@@ -49,11 +49,12 @@ function Skills({
         onSkillChange
     }){
         const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
+        const maxSkillPoints = classSkillsData.points || 0
 
         const handleSkillChange = (name,rank) => {
             const newSkills = {...skills, [name]:{...skills[name], nRanks: parseInt(rank)}}
             const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
-            if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > classSkillsData.points) return
+            if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return
             onSkillChange(newSkills)
         }
 
@@ -61,7 +62,7 @@ function Skills({
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
-                        subtitle={`${nUsedSkillPoints}/${classSkillsData.points}`}
+                        subtitle={`${nUsedSkillPoints}/${maxSkillPoints}`}
                     />
                     <Title>{translate('class')}</Title>
                     <Title>{translate('name')}</Title>
