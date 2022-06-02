@@ -41,12 +41,15 @@ function Skills({
         modifiers,
         translate,
         classSkillsData,
-        onSkillChange
+        onSkillChange,
+        maxPointsPerSkill
     }){
         const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
         const maxSkillPoints = classSkillsData.points || 0
 
         const handleSkillChange = (name,rank) => {
+            const nRanks = parseInt(rank)
+            if(nRanks < 0 || nRanks > maxPointsPerSkill) return
             const newSkills = {...skills, [name]:{...skills[name], nRanks: parseInt(rank)}}
             const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
             if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return

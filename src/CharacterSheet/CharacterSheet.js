@@ -60,6 +60,7 @@ function CharacterSheet({
             skills
         } = character
 
+        const nLevels = classes.length
         const raceData = (raceStats[races] || {})
         const bonuses = calculateCharacterBonuses({raceData, classes})
         const modifiers = getModifiersFromScores(scores, bonuses)
@@ -115,6 +116,7 @@ function CharacterSheet({
                     classSkillsData={classSkillsData}
                     translate={translate}
                     onSkillChange={onSkillChange}
+                    maxPointsPerSkill={3+nLevels}
                 />
                 <Bab
                     translate={translate}
