@@ -21,7 +21,7 @@ function RaceDisplay({
         />)
     }
 
-    const raceData = findInDb(dbs, 'races', id) || {}
+    const raceData = findInDb('races', id) || {}
     return (
         <RaceLayout>
             <h3>

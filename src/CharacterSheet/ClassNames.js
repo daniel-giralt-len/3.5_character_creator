@@ -24,7 +24,7 @@ function ClassNames({
     const onOpenClassesSelectors = () => onChangeSelectorTab('classes')
 
     const accClassListString = groupClassesByLevels(classes)
-        .map(({id, ...rest}) => ({id, ...rest, ...findInDb(dbs, 'classes', id)}))
+        .map(({id, ...rest}) => ({id, ...rest, ...findInDb('classes', id)}))
         .reduce((acc,{name, count})=>([...acc,`${name} ${count}`]),[])
         .join('/')
     

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import BaseItem from '../items/BaseItem'
+import BaseItem from './BaseItem'
 import getItemRegex from '../functions/getItemRegex';
 import isItemAllowed from '../functions/isItemAllowed';
 import ItemSearchBar from './ItemSearchBar';

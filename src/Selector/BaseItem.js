@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import findInDb from '../functions/findInDb'
 
 const BaseItemWrapper = styled.div`
@@ -41,7 +42,7 @@ function BaseItem ({
     const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book } = item
 
-    const bookDataName = (findInDb(dbs, 'rulebooks', book) || {}).name
+    const bookDataName = (findInDb('rulebooks', book) || {}).name
 
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
@@ -61,7 +62,7 @@ function BaseItem ({
     </BaseItemWrapper>)
 
         //There are some classes such as the arcane devotee which have no associated book but have a hidden link to 
-        //a book such as the player's guide to faehrun -- LINKS. The findInDb(dbs, 'rulebooks', book) check is there to guard
+        //a book such as the player's guide to faehrun -- LINKS. The findInDb('rulebooks', book) check is there to guard
         //against such UNREGISTERED books. Will fix this maybe never. Yay.
     
 }

@@ -31,7 +31,7 @@ const GenericDisplay = ({type, items, translate, dbs}) => (
     <ul>
       {Object.entries(items).filter(([n,v])=>v).map(([n])=>
       (<li key={n}>
-        {findInDb(dbs,type, n).name}
+        {findInDb(type, n).name}
       </li>)
       )}
     </ul>
