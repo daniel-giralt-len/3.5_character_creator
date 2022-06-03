@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import styled from 'styled-components'
 import BaseItem from '../items/BaseItem'
 import getItemRegex from '../functions/getItemRegex';
 import isItemAllowed from '../functions/isItemAllowed';
+import ItemSearchBar from './ItemSearchBar';
 
 function renderItems({
     items,
@@ -35,16 +35,7 @@ function renderItems({
         />))
 }
 
-const ItemSearchBar = styled.textarea`
-    resize: none;
-    font-size: 1.5em;
-    padding: 10px 10px;
-    border-width: 2px;
-    border-color: #340000;
-    border-radius: 15px;
-    margin: 10px;
-    width: -webkit-fill-available;
-`
+
 
 function ItemBrowser({
     items,
@@ -85,10 +76,8 @@ function ItemBrowser({
     return (
         <div>
             <ItemSearchBar
-                rows={1}
-                cols={50}
                 onChange={handleSearchChange}
-                placeholder={`${translate('search')}...`}
+                translate={translate}
             />
             {renderItems({
                 items: filteredItems,
