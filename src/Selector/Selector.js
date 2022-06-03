@@ -85,6 +85,8 @@ function Selector({
     })
   }
 
+  console.log(creation, openTab)
+
   return (
     <div>
         <Navigation>
@@ -108,7 +110,7 @@ function Selector({
         </Navigation>
         <ItemBrowser
           onCreationChange={list => handleCreationChange(openTab, list)}
-          selected={creation[openTab]}
+          selected={creation[openTab] || []} //default is for character in rulebooks and editions
           items={dbs[openTab]}
           permittedCorpus={corpus}
           itemType={openTab}
