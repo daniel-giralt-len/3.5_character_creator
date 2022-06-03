@@ -5,6 +5,7 @@ import findInDb from '../functions/findInDb'
 const BaseItemWrapper = styled.div`
     padding: 2px 10px;
     margin: 5px 10px;
+    user-select: none;
     
     ${({isForbidden, isAllowed}) => (isForbidden || !isAllowed) ? `text-decoration: line-through;
     background: #ff000033`: ''};
