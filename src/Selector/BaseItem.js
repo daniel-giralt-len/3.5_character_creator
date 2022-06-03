@@ -6,11 +6,15 @@ const BaseItemWrapper = styled.div`
     padding: 2px 10px;
     margin: 5px 10px;
     
-    background: ${({isAllowed}) => isAllowed ? '' : 'repeating-linear-gradient(90deg,#ffffff00,#ff000033 0px,#ffffff00 4px)'};
-    ${({isForbidden}) => isForbidden ? `text-decoration: line-through;
-    border: 2px solid #ff000033`: ''};
+    ${({isForbidden, isAllowed}) => (isForbidden || !isAllowed) ? `text-decoration: line-through;
+    background: #ff000033`: ''};
     
-    box-shadow: 0px 0px 1px 0px #340000${({isSelected}) => isSelected ? ', inset 0px 0px 6px 3px #aafd81' : ''};
+    box-shadow: 0px 0px 1px 0px #340000;
+    ${({isSelected}) => isSelected ? 'border: 2px solid #aafd81' : ''};
+
+    ${({hoverable})=>hoverable?`&:hover { 
+        box-shadow: 0 0 3px 0px #340000; 
+    }`:''}
 
     display: flex;
     align-content: space-around;
@@ -19,7 +23,8 @@ const BaseItemWrapper = styled.div`
 }`
 
 const AddButton = styled.button`
-    box-shadow: 0px 0px 3px 0px #340000;
+    box-shadow: 0px 0px 1px 0px #340000;
+    ${({hoverable})=>hoverable?`&:hover { box-shadow: 0 0 3px 0px #340000; }`:''}
 `
 
 const LessImportantText = styled.span`
@@ -50,6 +55,7 @@ function BaseItem ({
         isAllowed={isAllowed} 
         isSelected={isSelected}
         isForbidden={isForbidden}
+        hoverable={isAddable && !canBeAddedMultipleTimes}
         onClick={isAddable && !canBeAddedMultipleTimes && onSelectItem}
     >
         <div>
@@ -60,7 +66,10 @@ function BaseItem ({
                 {bookDataName}
             </LessImportantText>)}
             {isAddable && canBeAddedMultipleTimes && (
-                <AddButton onClick={onSelectItem}>
+                <AddButton
+                    hoverable={isAddable && canBeAddedMultipleTimes}
+                    onClick={onSelectItem}
+                >
                     {isSelectable ? '+' : '-'}
                 </AddButton>
             )}

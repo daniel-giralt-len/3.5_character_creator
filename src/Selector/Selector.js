@@ -84,7 +84,7 @@ function Selector({
       [type]: list
     })
   }
-  
+
   return (
     <div>
         <Navigation>

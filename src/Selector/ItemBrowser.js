@@ -43,8 +43,6 @@ function renderItems({
         />))
 }
 
-
-
 function ItemBrowser({
     items,
     selected,
