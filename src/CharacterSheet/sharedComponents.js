@@ -93,6 +93,7 @@ const MissingItemWrapper = styled(TextInput)`
     ${underlined}
     background: #fff90033;
     font-size: 0.9em;
+    cursor: pointer;
 }`
 
 
