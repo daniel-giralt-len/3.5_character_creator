@@ -31,7 +31,6 @@ function CorpusCreatorPage() {
   const translate = getTranslator(language)
   const handleCreationChange = newCreation => setCookie('corpus', newCreation)
   const handleChangeTranslations = key => setCookie('language', key)
-
   const handleChangeSelectorTab = item => setSelectorItem(item)
 
   return (<ContentWrapper>

@@ -7,6 +7,8 @@ const BaseItemWrapper = styled.div`
     margin: 5px 10px;
     
     background: ${({isAllowed}) => isAllowed ? '' : 'repeating-linear-gradient(90deg,#ffffff00,#ff000033 0px,#ffffff00 4px)'};
+    ${({isForbidden}) => isForbidden ? `text-decoration: line-through;
+    border: 2px solid #ff000033`: ''};
     
     box-shadow: 0px 0px 1px 0px #340000${({isSelected}) => isSelected ? ', inset 0px 0px 6px 3px #aafd81' : ''};
 
@@ -30,6 +32,7 @@ const LessImportantText = styled.span`
 function BaseItem ({
     item,
     isSelected,
+    isForbidden,
     isSelectable,
     onSelectItem,
     isAllowed,
@@ -46,7 +49,8 @@ function BaseItem ({
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
         isSelected={isSelected}
-        onClick={isAddable && !canBeAddedMultipleTimes &&onSelectItem}
+        isForbidden={isForbidden}
+        onClick={isAddable && !canBeAddedMultipleTimes && onSelectItem}
     >
         <div>
             {name}

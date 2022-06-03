@@ -1,4 +1,5 @@
 {
+    "races": {"allowed": [], "forbidden": []},
     "rulebooks": {"allowed": [], "forbidden": []},
     "editions": {"allowed": [], "forbidden": []},
     "feats": {"allowed": [], "forbidden": []},

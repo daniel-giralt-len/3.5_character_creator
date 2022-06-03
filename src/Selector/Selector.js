@@ -72,7 +72,7 @@ function Selector({
 
   if(isCharacter){
     pages.rulebooks.disabled = true
-    pages.rulebooks.editions = true
+    pages.editions.disabled = true
   }
 
   const openPage = pages[openTab]
