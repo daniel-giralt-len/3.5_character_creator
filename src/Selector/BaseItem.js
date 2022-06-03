@@ -33,7 +33,6 @@ function BaseItem ({
     isSelectable,
     onSelectItem,
     isAllowed,
-    dbs,
     isExclusive,
     disabled,
     isLevel20

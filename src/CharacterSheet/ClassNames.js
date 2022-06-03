@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import groupClassesByLevels from "../functions/groupClassesByLevels";
 import findInDb from '../functions/findInDb';
-import dbs from '../db/json/dbs.json'
 
 import { 
     TextInput,

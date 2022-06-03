@@ -11,7 +11,6 @@ function renderItems({
     permittedCorpus,
     itemType,
     isCorpus,
-    dbs,
     isExclusive,
     disabled,
     isLevel20
@@ -25,12 +24,11 @@ function renderItems({
             key={item.id}
             item={item}
             isSelected={isSelected(item.id)}
+            isSelectable={!isSelected(item.id) || (itemType==='classes')}
             onSelectItem={() => onSelectItem(item.id, selectedList)}
             isAllowed={isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType})}
-            isSelectable={!isSelected(item.id) || (itemType==='classes')}
             isExclusive={isExclusive}
             disabled={disabled}
-            dbs={dbs}
             isLevel20={isLevel20}
         />))
 }
@@ -46,7 +44,6 @@ function ItemBrowser({
     isCorpus,
     isExclusive,
     disabled,
-    dbs,
     userFilters = {},
     translate
 }) {
@@ -86,7 +83,6 @@ function ItemBrowser({
                 permittedCorpus,
                 itemType,
                 isCorpus,
-                dbs,
                 isExclusive,
                 disabled,
                 isLevel20

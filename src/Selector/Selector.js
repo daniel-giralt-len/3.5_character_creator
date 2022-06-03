@@ -31,13 +31,13 @@ const PageSelector = ({
   return (
     <PageSelectorWrapper>{
       Object.keys(pages).map(name => (
-      <SelectedButton
-        key={name}
-        onClick={()=>onChangeTab(name)}
-        selected={openTab===name}
-      >
-        {translate(name)}
-      </SelectedButton>))}
+        <SelectedButton
+          key={name}
+          onClick={()=>onChangeTab(name)}
+          selected={openTab===name}
+        >
+          {translate(name)}
+        </SelectedButton>))}
     </PageSelectorWrapper>
   )
 }
@@ -76,6 +76,7 @@ function Selector({
   }
 
   const openPage = pages[openTab]
+  const isExclusive = isCharacter && openPage.isExclusive
 
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -105,22 +106,18 @@ function Selector({
             translate={translate}
           />
         </Navigation>
-        {
-          <ItemBrowser
-            key={openTab}
-            onCreationChange={list => handleCreationChange(openTab, list)}
-            selected={creation[openTab]}
-            items={dbs[openTab]}
-            permittedCorpus={corpus}
-            itemType={openTab}
-            isCorpus={isCorpus}
-            isExclusive={isCharacter && openPage.isExclusive}
-            disabled={openPage.disabled}
-            dbs={dbs}
-            userFilters={filters}
-            translate={translate}
-          />
-        }
+        <ItemBrowser
+          onCreationChange={list => handleCreationChange(openTab, list)}
+          selected={creation[openTab]}
+          items={dbs[openTab]}
+          permittedCorpus={corpus}
+          itemType={openTab}
+          isCorpus={isCorpus}
+          isExclusive={isExclusive}
+          disabled={openPage.disabled}
+          userFilters={filters}
+          translate={translate}
+        />
     </div>
   );
 }
