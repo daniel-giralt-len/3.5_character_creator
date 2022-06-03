@@ -6,7 +6,7 @@ const BaseItemWrapper = styled.div`
     padding: 2px 10px;
     margin: 5px 10px;
     user-select: none;
-    
+
     ${({isForbidden, isAllowed}) => (isForbidden || !isAllowed) ? `text-decoration: line-through;
     background: #ff000033`: ''};
     
@@ -57,7 +57,7 @@ function BaseItem ({
         isSelected={isSelected}
         isForbidden={isForbidden}
         hoverable={isAddable && !canBeAddedMultipleTimes}
-        onClick={isAddable && !canBeAddedMultipleTimes && onSelectItem}
+        onClick={(isAddable && !canBeAddedMultipleTimes) ? onSelectItem : undefined}
     >
         <div>
             {name}
