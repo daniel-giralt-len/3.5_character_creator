@@ -15,6 +15,8 @@ function renderItems({
     disabled,
     isLevel20
 }) {
+    const canBeAddedMultipleTimes = !isCorpus && itemType === 'classes'
+
     const isSelected = id => (itemType === 'races' && selectedList === id)
         || (itemType === 'classes' && Array.isArray(selectedList) && selectedList.find(i=>i === id))
         || selectedList[id] === true
@@ -30,6 +32,7 @@ function renderItems({
             isExclusive={isExclusive}
             disabled={disabled}
             isLevel20={isLevel20}
+            canBeAddedMultipleTimes={canBeAddedMultipleTimes}
         />))
 }
 

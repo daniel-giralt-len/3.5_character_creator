@@ -35,9 +35,9 @@ function BaseItem ({
     isAllowed,
     isExclusive,
     disabled,
-    isLevel20
+    isLevel20,
+    canBeAddedMultipleTimes
 }) {
-    
     const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book } = item
 
@@ -46,14 +46,17 @@ function BaseItem ({
     return (<BaseItemWrapper 
         isAllowed={isAllowed} 
         isSelected={isSelected}
+        onClick={isAddable && !canBeAddedMultipleTimes &&onSelectItem}
     >
         <div>
             {name}
         </div>
         <div>
-            {bookDataName && (<LessImportantText>{bookDataName}</LessImportantText>)}
-            {isAddable && (
-                <AddButton onClick={onSelectItem} isSelectable={isSelectable}>
+            {bookDataName && (<LessImportantText>
+                {bookDataName}
+            </LessImportantText>)}
+            {isAddable && canBeAddedMultipleTimes && (
+                <AddButton onClick={onSelectItem}>
                     {isSelectable ? '+' : '-'}
                 </AddButton>
             )}
