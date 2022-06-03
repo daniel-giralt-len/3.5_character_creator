@@ -1,0 +1,10 @@
+{
+    "rulebooks": {"allowed": [], "forbidden": []},
+    "editions": {"allowed": [], "forbidden": []},
+    "feats": {"allowed": [], "forbidden": []},
+    "classes": {"allowed": [], "forbidden": []},
+    "skillTricks": {"allowed": [], "forbidden": []},
+    "languages": {"allowed": [], "forbidden": []},
+    "skills": [],
+    "extraSkills": []
+}

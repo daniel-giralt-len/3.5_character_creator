@@ -18,7 +18,8 @@ function Header({
     translate,
     selectedLanguage,
     isSelectorOpen,
-    onSelectorSwitch
+    onSelectorSwitch,
+    hideSelectorSwitch
 }){
     const languages = Object.keys(webTranslations).filter(v => v !== '*')
 
@@ -35,12 +36,14 @@ function Header({
                     </SelectedButton>
                 ))}
             </HeaderWrapper>
-            <SelectorSwitchWrapper>
-                <SelectorSwitch
-                    isSelectorOpen={isSelectorOpen}
-                    onSelectorSwitch={onSelectorSwitch}
-                />
-            </SelectorSwitchWrapper>
+            {!hideSelectorSwitch &&
+                <SelectorSwitchWrapper>
+                    <SelectorSwitch
+                        isSelectorOpen={isSelectorOpen}
+                        onSelectorSwitch={onSelectorSwitch}
+                    />
+                </SelectorSwitchWrapper>
+            }
         </>
     )
 }

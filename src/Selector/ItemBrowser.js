@@ -56,7 +56,7 @@ function ItemBrowser({
     isExclusive,
     disabled,
     dbs,
-    userFilters,
+    userFilters = {},
     translate
 }) {
     const [searchedText, setSearchedText] = useState('')

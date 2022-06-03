@@ -32,8 +32,7 @@ const RightWrapper = styled.div`grid-area: right;`
 
 function CharacterCreatorPage() {
   const [cookies, setCookie] = useCookies(['character','corpus', 'filters'])
-  const {corpus, character, selectedCorpus, language, filters} = cookies
-  if(!corpus) setCookie('corpus', {})
+  const {character, selectedCorpus, language, filters} = cookies
   if(!character || Object.keys(character).length === 0) setCookie('character', characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
   if(!language) setCookie('language', 'es')

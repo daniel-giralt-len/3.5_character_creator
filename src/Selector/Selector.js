@@ -67,6 +67,8 @@ function Selector({
     { name: 'editions',    isUsableOnlyInCorpus: true  },
   ]
 
+  const isCharacter = !isCorpus
+
   const selectedPageItems = pages.filter(({name}) => name === openTab)
 
   const handleCreationChange = (type, list) => {
@@ -79,17 +81,17 @@ function Selector({
   return (
     <div>
         <Navigation>
-          <CorpusSelector
+          {isCharacter && <CorpusSelector
             corpuses={corpuses}
             translate={translate}
             onCorpusChange={onCorpusChange}
             selectedCorpus={selectedCorpus}
-          />
-          <Filters
+          />}
+          {filters && <Filters
             onFilterChange={onFilterChange}
             filters={filters}
             translate={translate}
-          />
+          />}
           <PageSelector
             openTab={openTab}
             pages={pages}
