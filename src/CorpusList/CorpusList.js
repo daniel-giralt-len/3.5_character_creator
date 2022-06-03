@@ -9,6 +9,8 @@ const CorpusListWrapper = styled.ul`
     *{
         margin-bottom: 2px;
     }
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
 `
 
 const CorpusList = ({
@@ -26,25 +28,27 @@ const CorpusList = ({
 }) => (
     <>
         {Object.entries(lists).map(([listName, list]) => (
-            <CorpusListWrapper key={listName}>
+            <>
                 <SidewaysBlackLabel
                     name={translate(listName)}
                 />
-                {
-                    [
-                        ...list.allowed.map(id=>({id, allowed:true})),
-                        ...list.forbidden.map(id=>({id, allowed:false}))
-                    ]
-                    .map(({id, ...rest})=>({id, ...findInDb(listName, id) ,...rest}))
-                    .sort((a,b) => a.name.localeCompare(b.name))
-                    .map(({name, allowed}) => (<CorpusItem
-                        key={name}
-                        name={name}
-                        allowed={allowed}
-                    />))
+                <CorpusListWrapper key={listName}>
+                    {
+                        [
+                            ...list.allowed.map(id=>({id, allowed:true})),
+                            ...list.forbidden.map(id=>({id, allowed:false}))
+                        ]
+                        .map(({id, ...rest})=>({id, ...findInDb(listName, id) ,...rest}))
+                        .sort((a,b) => a.name.localeCompare(b.name))
+                        .map(({name, allowed, book}) => (<CorpusItem
+                            key={`${name}-${book}`}
+                            name={name}
+                            allowed={allowed}
+                        />))
 
-            }
-            </CorpusListWrapper>
+                }
+                </CorpusListWrapper>
+            </>
         ))}
         <CorpusListWrapper>
             

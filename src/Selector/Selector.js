@@ -85,8 +85,6 @@ function Selector({
     })
   }
 
-  console.log(creation, openTab)
-
   return (
     <div>
         <Navigation>
