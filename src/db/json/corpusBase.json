@@ -4,8 +4,8 @@
     "editions": {"allowed": [], "forbidden": []},
     "feats": {"allowed": [], "forbidden": []},
     "classes": {"allowed": [], "forbidden": []},
-    "skillTricks": {"allowed": [], "forbidden": []},
-    "languages": {"allowed": [], "forbidden": []},
+    "skilltricks": {"allowed": [], "forbidden": []},
+    "language": {"allowed": [], "forbidden": []},
     "skills": [],
     "extraSkills": []
 }
