@@ -5,7 +5,7 @@ import SkillItem from './SkillItem'
 import {
     Text,
     SidewaysBlackLabel
-} from './sharedComponents'
+} from '../sharedComponents'
 
 const HeaderWrapper = styled(SidewaysBlackLabel)`
     grid-area: header;

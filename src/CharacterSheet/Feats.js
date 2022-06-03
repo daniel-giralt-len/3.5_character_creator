@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import dbs from '../db/json/dbs.json'
-import { SquareButton, Text, SidewaysBlackLabel } from './sharedComponents';
+import { SquareButton, Text, SidewaysBlackLabel } from '../sharedComponents';
 
 const FeatsLayout = styled.ul`
     grid-area: feats;

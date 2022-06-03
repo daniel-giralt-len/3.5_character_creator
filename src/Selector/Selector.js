@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import CorpusSelector from '../CorpusSelector'
 
-import { SelectedButton } from '../styles'
+import { SelectedButton } from '../sharedComponents'
 import Filters from './Filters'
 import ItemBrowser from './ItemBrowser'
 

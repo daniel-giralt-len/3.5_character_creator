@@ -1,5 +1,5 @@
 import webTranslations from './db/json/translations/webTranslations.json'
-import { SelectedButton } from './styles'
+import { SelectedButton } from './sharedComponents'
 import SelectorSwitch from './SelectorSwitch'
 
 import styled from 'styled-components'

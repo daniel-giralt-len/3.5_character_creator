@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import { MissingItem } from './sharedComponents';
+import { MissingItem } from '../sharedComponents';
 
 import { 
     TextInput,
     Text
-} from './sharedComponents';
+} from '../sharedComponents';
 
 const RaceLayout = styled.div`
     grid-area: race;

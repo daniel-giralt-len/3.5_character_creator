@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { BlackLabel, Text } from "./sharedComponents";
+import { BlackLabel, Text } from "../sharedComponents";
 
 const BabLayout = styled.div`
     grid-area: bab;

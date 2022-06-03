@@ -4,7 +4,7 @@ import { Fragment } from 'react'
 import {
     Text,
     BlackLabel,
-} from './sharedComponents'
+} from '../sharedComponents'
 
 const ScoresLayout = styled.ul`
     grid-area: saves;

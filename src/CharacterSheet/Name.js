@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { 
     TextInput,
     Text,
-} from './sharedComponents';
+} from '../sharedComponents';
 
 const NameLayout = styled.div`
     grid-area: name;

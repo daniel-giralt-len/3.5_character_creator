@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import dbs from '../db/json/dbs.json'
-import { Text, BlackLabel } from './sharedComponents';
+import { Text, BlackLabel } from '../sharedComponents';
 import ClassDetailItem from './ClassDetailItem';
 
 const Header = styled(BlackLabel)`grid-area: header`

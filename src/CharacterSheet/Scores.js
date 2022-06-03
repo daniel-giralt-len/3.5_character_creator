@@ -5,7 +5,7 @@ import {
     CounterInput,
     Text,
     BlackLabel,
-} from './sharedComponents'
+} from '../sharedComponents'
 
 const ScoresLayout = styled.ul`
     grid-area: scores;

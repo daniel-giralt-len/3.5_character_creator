@@ -4,7 +4,7 @@ import {
     boxed,
     CounterInput,
     Text
-} from './sharedComponents'
+} from '../sharedComponents'
 
 const SkillClassCheckbox = styled.div`
     width: 0.75em;

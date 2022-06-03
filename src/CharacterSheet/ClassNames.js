@@ -6,7 +6,7 @@ import {
     TextInput,
     MissingItem,
     Text
-} from './sharedComponents';
+} from '../sharedComponents';
 
 const ClassNamesLayout = styled.div`
     grid-area: class-names;

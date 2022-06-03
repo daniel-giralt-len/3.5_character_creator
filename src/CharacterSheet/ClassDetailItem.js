@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, smallText, SquareButton } from './sharedComponents';
+import { Text, smallText, SquareButton } from '../sharedComponents';
 
 const ButtonText = styled.div`${smallText}`
 
