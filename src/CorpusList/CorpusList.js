@@ -1,21 +1,35 @@
 import styled from 'styled-components'
 import CorpusItem from './CorpusItem'
+import { SidewaysBlackLabel } from '../sharedComponents'
 import findInDb from '../functions/findInDb'
+
+const CorpusListWrapper = styled.ul`
+    padding: 0;
+    margin: 10px 0;
+    *{
+        margin-bottom: 2px;
+    }
+`
 
 const CorpusList = ({
     skills,
     extraSkills,
+    translate,
     ...lists
-    /* rulebooks,
-    editions,
-    feats,
-    classes,
-    skillTricks,
-    languages, */
+    /* races
+    rulebooks
+    editions
+    feats
+    classes
+    skilltricks
+    language */
 }) => (
     <>
         {Object.entries(lists).map(([listName, list]) => (
-            <ul>
+            <CorpusListWrapper key={listName}>
+                <SidewaysBlackLabel
+                    name={translate(listName)}
+                />
                 {
                     [
                         ...list.allowed.map(id=>({id, allowed:true})),
@@ -23,13 +37,18 @@ const CorpusList = ({
                     ]
                     .map(({id, ...rest})=>({id, ...findInDb(listName, id) ,...rest}))
                     .sort((a,b) => a.name.localeCompare(b.name))
-                    .map(item => (<li>{JSON.stringify(item)}</li>
-                        
-                    ))
+                    .map(({name, allowed}) => (<CorpusItem
+                        key={name}
+                        name={name}
+                        allowed={allowed}
+                    />))
 
             }
-            </ul>
+            </CorpusListWrapper>
         ))}
+        <CorpusListWrapper>
+            
+        </CorpusListWrapper>
     </>
 )
 

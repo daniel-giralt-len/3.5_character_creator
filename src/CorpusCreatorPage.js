@@ -3,6 +3,7 @@ import { useState } from 'react'
 import styled from 'styled-components'
 
 import Selector from './Selector/Selector'
+import CorpusList from './CorpusList/CorpusList'
 
 import Header from './Header'
 import corpusBase from './db/json/corpusBase.json'
@@ -41,7 +42,10 @@ function CorpusCreatorPage() {
         hideSelectorSwitch={true}
       />
       <LeftWrapper>
-
+        <CorpusList 
+          {...corpus}
+          translate={translate}
+        />
       </LeftWrapper>
       <RightWrapper>
         <Selector 
