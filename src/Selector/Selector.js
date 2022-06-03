@@ -29,7 +29,8 @@ const PageSelector = ({
   translate,
 }) => {
   return (
-    <PageSelectorWrapper>{pages.map(({name}) => (
+    <PageSelectorWrapper>{
+      Object.keys(pages).map(name => (
       <SelectedButton
         key={name}
         onClick={()=>onChangeTab(name)}
@@ -57,19 +58,24 @@ function Selector({
   selectedCorpus
 }) {
 
-  const pages = [
-    { name: 'races',       isExclusive: true},
-    { name: 'classes',     },
-    { name: 'feats',       },
-    { name: 'skilltricks', },
-    { name: 'language',    },
-    { name: 'rulebooks',   isUsableOnlyInCorpus: true  },
-    { name: 'editions',    isUsableOnlyInCorpus: true  },
-  ]
+  const pages = {
+    races: {isExclusive: true},
+    classes: {},
+    feats: {},
+    skilltricks: {},
+    language: {},
+    rulebooks: {},
+    editions: {},
+  }
 
   const isCharacter = !isCorpus
 
-  const selectedPageItems = pages.filter(({name}) => name === openTab)
+  if(isCharacter){
+    pages.rulebooks.disabled = true
+    pages.rulebooks.editions = true
+  }
+
+  const openPage = pages[openTab]
 
   const handleCreationChange = (type, list) => {
     onCreationChange({
@@ -99,22 +105,22 @@ function Selector({
             translate={translate}
           />
         </Navigation>
-        {selectedPageItems.map(({name, isExclusive, isUsableOnlyInCorpus}) => (
+        {
           <ItemBrowser
-            key={name}
-            onCreationChange={list => handleCreationChange(name, list)}
-            selected={creation[name]}
-            items={dbs[name]}
+            key={openTab}
+            onCreationChange={list => handleCreationChange(openTab, list)}
+            selected={creation[openTab]}
+            items={dbs[openTab]}
             permittedCorpus={corpus}
-            itemType={name}
+            itemType={openTab}
             isCorpus={isCorpus}
-            isExclusive={!isCorpus && isExclusive}
-            disabled={isUsableOnlyInCorpus && !isCorpus}
+            isExclusive={isCharacter && openPage.isExclusive}
+            disabled={openPage.disabled}
             dbs={dbs}
             userFilters={filters}
             translate={translate}
           />
-        ))}
+        }
     </div>
   );
 }
