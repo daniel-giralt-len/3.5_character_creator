@@ -41,7 +41,7 @@ const PageSelector = ({
   )
 }
 
-function Creator({
+function Selector({
   openTab,
   onChangeTab,
   creation,
@@ -117,4 +117,4 @@ function Creator({
   );
 }
 
-export default Creator;
+export default Selector;

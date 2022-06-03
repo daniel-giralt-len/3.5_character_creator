@@ -1,36 +1,14 @@
 import { useCookies } from 'react-cookie'
 import { useState } from 'react'
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
-import CharacterSheet from './CharacterSheet'
 import Selector from './Selector/Selector'
-import Header from './Header'
 
 import characterBase from './db/json/characterBase.json'
 import corpus44 from './db/json/corpus_44.json'
 import dbs from './db/json/dbs.json'
 
 import getTranslator from './functions/getTranslator'
-
-
-const GlobalStyle = createGlobalStyle`
-  html, button, input, textarea {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-  }
-  button {
-    display: inline-block;
-    border: none;
-    margin: 0;
-    text-decoration: none;
-    cursor: pointer;
-    background: none;
-    box-shadow: 0px 0px 1px 0px #340000;
-    margin: 2px;
-    transition: box-shadow .3s;
-  }
-  button:hover { box-shadow: 0 0 3px 0px #340000; }
-`;
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -47,10 +25,7 @@ const ContentWrapper = styled.div`
       "right";
   }
 `
-const LeftWrapper = styled.div`grid-area: left;`
-const RightWrapper = styled.div`grid-area: right;`
-
-function CharacterCreatorPage() {
+function CorpusCreatorPage() {
   const [cookies, setCookie] = useCookies(['character','corpus', 'filters'])
   const {corpus, character, selectedCorpus, language, filters} = cookies
   if(!corpus) setCookie('corpus', {})
@@ -84,45 +59,21 @@ function CharacterCreatorPage() {
   const usedCorpus = corpuses[selectedCorpus].corpus
 
   return (<ContentWrapper>
-    <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
-    <GlobalStyle />
-    <Header
-      handleChangeTranslations={handleChangeTranslations}
-      translate={translate}
-      selectedLanguage={language}
-      isSelectorOpen={isSelectorOpen}
-      onSelectorSwitch={handleSwitchSelectorOpen}
-    />
-    <LeftWrapper>
-      <CharacterSheet
-        character={character}
-        onCreationChange={handleCreationChange}
+      <Selector 
+        openTab={selectorItem}
+        onChangeTab={handleChangeSelectorTab}
+        creation={character}
+        corpus={usedCorpus}
+        corpuses={corpuses}
+        onCorpusChange={handleCorpusChange}
+        selectedCorpus={selectedCorpus}
+        isCorpus={true}
+        dbs={dbs}
+        filters={filters}
         translate={translate}
-        onChangeSelectorTab={handleChangeSelectorTab}
-        usedCorpus={usedCorpus}
-      />
-    </LeftWrapper>
-    <RightWrapper>
-      {isSelectorOpen && (<>
-        <Selector 
-          openTab={selectorItem}
-          onChangeTab={handleChangeSelectorTab}
-          creation={character}
-          corpus={usedCorpus}
-          corpuses={corpuses}
-          onCorpusChange={handleCorpusChange}
-          selectedCorpus={selectedCorpus}
-          isCorpus={false}
-          dbs={dbs}
-          filters={filters}
-          translate={translate}
-          onCreationChange={handleCreationChange}
-          onFilterChange={handleFilterChange}
-      />
-      </>)}
-    </RightWrapper>
+        onCreationChange={handleCreationChange}
+        onFilterChange={handleFilterChange}
+    />
   </ContentWrapper>)
 /* 
   return (
@@ -173,4 +124,4 @@ function CharacterCreatorPage() {
   ); */
 }
 
-export default CharacterCreatorPage;
+export default CorpusCreatorPage;
