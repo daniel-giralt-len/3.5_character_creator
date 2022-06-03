@@ -11,7 +11,15 @@ import dbs from './db/json/dbs.json'
 import getTranslator from './functions/getTranslator'
 
 const ContentWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "left right";
 `
+const LeftWrapper = styled.div`grid-area: left;`
+const RightWrapper = styled.div`grid-area: right;`
+
 function CorpusCreatorPage() {
   const [cookies, setCookie] = useCookies(['character','corpus', 'filters'])
   const {corpus, language} = cookies
@@ -33,15 +41,20 @@ function CorpusCreatorPage() {
         selectedLanguage={language}
         hideSelectorSwitch={true}
       />
-      <Selector 
-        openTab={selectorItem}
-        onChangeTab={handleChangeSelectorTab}
-        creation={corpus}
-        isCorpus={true}
-        dbs={dbs}
-        translate={translate}
-        onCreationChange={handleCreationChange}
-    />
+      <LeftWrapper>
+
+      </LeftWrapper>
+      <RightWrapper>
+        <Selector 
+          openTab={selectorItem}
+          onChangeTab={handleChangeSelectorTab}
+          creation={corpus}
+          isCorpus={true}
+          dbs={dbs}
+          translate={translate}
+          onCreationChange={handleCreationChange}
+        />
+      </RightWrapper>
   </ContentWrapper>)
 }
 
