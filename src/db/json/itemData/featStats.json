@@ -1360,8 +1360,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Boccob"
     ]
@@ -12050,8 +12050,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Hextor"
     ]
@@ -26144,8 +26144,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Astilabor",
       "dragonblood subtype"
@@ -26201,8 +26201,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Fa 1 azure",
       "dragonblood subtype"
@@ -26232,8 +26232,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "patron deity Ghaunadaur"
     ]
@@ -26304,8 +26304,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity lo",
       "dragonblood subtype"
@@ -26323,8 +26323,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "patron deity Kossuth"
     ]
@@ -26341,8 +26341,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Lendys",
       "dragonblood subtype"
@@ -26525,8 +26525,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "Extaminaar",
       "patron deity Varae"
@@ -37853,8 +37853,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Pelor"
     ]
@@ -48592,8 +48592,8 @@
         "value": 3
       },
       {
-        "type": "class",
-        "value": "cleric"
+        "type": "classes",
+        "value": ["130", "131", "132", "133"]
       },
       "deity Wee Jas"
     ]
