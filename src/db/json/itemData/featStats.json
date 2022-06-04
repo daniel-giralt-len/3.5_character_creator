@@ -910,7 +910,11 @@
     "special": "This feat grants a +2 bonus on all Survival checks made in high altitude (above 5,000 feet) areas",
     "benefit": "You gain a +4 bonus on all Fortitude saving throws to avoid the effects of altitude. Additionally, when you determine what effect the altitude has on you, you apply the effect for the next lower category of altitude than the category you are actually in. After you spend a week at a specific altitude, you become acclimated to that altitude and all lower altitudes, and no longer have to make Fortitude saving throws for each 6-hour period to avoid altitude sickness. If you travel to a lower altitude and remain there for a week, you lose your acclimation to the higher altitude and must reacclimatize, although you always retain the other benefits granted by this feat.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "69": {
@@ -920,7 +924,11 @@
     "isSkillTrick": false,
     "special": "This feat grants a +2 bonus on Survival checks made in high altitude (above 5,000 feet) areas.",
     "prerequisites": [
-      "Base Fortitude save +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "70": {
@@ -4172,7 +4180,11 @@
     "special": "You may select this feat more than once. Each time you take this feat, you may affect an additional creature with this ability. All such creatures need to remain within 5 feet of you (not each other). If one creature exceeds the range of this ability, it has no effect on the other creatures you are helping.",
     "benefit": "As a free action on your turn, you may select one creature within 5 feet of you and give that creature the ability to breathe water as easily as you do. This supernatural ability renews automatically for that creature until you direct the ability to another creature or withdraw your power from it (a free action). The creature's ability to breathe water ends immediately if you are separated by more than 5 feet or if you die, at which point the creature begins to drown if it is still underwater. This ability does not hamper the creature's ability to breathe air, nor does it change the creature's ability (or inability) to swim.",
     "prerequisites": [
-      "Base Will save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      },
       "aquatic elf or water genasi"
     ]
   },
@@ -4185,7 +4197,11 @@
     "benefit": "As a free action on your turn, you can select one creature within 5 feet of you and give that creature the ability to breathe water as easily as you do. This supernatural ability renews automatically for that creature until you direct the ability to another creature or withdraw your power from it (a free action). The creature's ability to breathe water ends immediately if you are separated by more than 5 feet or if you die, at which point the creature begins to drown if it is still underwater. This ability does not hamper the creature's ability to breathe air, nor does it change the creature's ability (or inability) to swim.",
     "prerequisites": [
       "Aquatic elf or water genasi",
-      "base Will save +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      }
     ]
   },
   "294": {
@@ -4572,7 +4588,7 @@
       },
       "and Will saves +1",
       "base Fortitude",
-      "Reflex"
+      "reflexes"
     ]
   },
   "322": {
@@ -5889,7 +5905,11 @@
     "isSkillTrick": false,
     "benefit": "You can exist comfortably in conditions between 0Â° F and 90Â° F without having to make Fortitude saves (as described in Cold Dangers, page 8). You also gain a +2 bonus on saving throws against cold effects. Cold Endurance doesn't provide any level of resistance to cold damage.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "417": {
@@ -5898,7 +5918,11 @@
     "bookId": "87",
     "isSkillTrick": false,
     "prerequisites": [
-      "Base Fortitude save +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "418": {
@@ -8009,7 +8033,11 @@
         "score": "INT",
         "value": 15
       },
-      "Base Will save bonus +5",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 5
+      },
       {
         "type": "score",
         "score": "CHA",
@@ -8025,7 +8053,11 @@
     "special": "You gain a +4 circumstance bonus on saving throws made when someone uses the Dark Speech against you.",
     "benefit": "You can use the Dark Speech to bring loathing and fear to others, to help cast evil spells and create evil magic items, and to weaken physical objects.",
     "prerequisites": [
-      "Base Will save +5",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 5
+      },
       {
         "type": "score",
         "score": "INT",
@@ -8046,7 +8078,11 @@
     "special": "You gain a +4 circumstance bonus on saving throws made when someone uses the Dark Speech against you.",
     "benefit": "You can use the Dark Speech to bring loathing and fear to others, to help cast evil spells and create evil magic items, and to weaken physical objects. The four basic uses are detailed below.",
     "prerequisites": [
-      "Will save bonus +5",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 5
+      },
       {
         "type": "score",
         "score": "INT",
@@ -9662,7 +9698,11 @@
         "type": "feats",
         "id": "667"
       },
-      "base Fortitude save +3"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 3
+      }
     ]
   },
   "671": {
@@ -10312,7 +10352,11 @@
     "isSkillTrick": false,
     "benefit": "If you fail a Reflex saving throw, you can immediately attempt the saving throw again. You must take the second result, whether it succeeds or fails. You become prone immediately after attempting the second roll.",
     "prerequisites": [
-      "Base Reflex save bonus +4"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "reflexes",
+        "value": 4
+      }
     ]
   },
   "718": {
@@ -11141,7 +11185,11 @@
     "isSkillTrick": false,
     "benefit": "You gain the ability to use a breath weapon as a supernatural ability once per day. Your breath weapon deals 3d8 damage (Ref half, save DC 10 + 1/2 HD + Con modifier). The exact type of your breath weapon depends on your draconian race:",
     "prerequisites": [
-      "Base Will save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 4
+      },
       "Draconian"
     ]
   },
@@ -13618,7 +13666,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 saving throw bonus on saving throws against poison, sleep, paralysis, or stunning. You also have a 25% chance to turn a critical hit or a sneak attack against you into a normal hit (as if you were wearing light fortification armor). If you are wearing fortification armor (or a similar item or have an ability with a similar effect), use the one that has the larger percentage chance.",
     "prerequisites": [
-      "Base Fortitude save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 4
+      },
       "genasi (air",
       "earth",
       "fire",
@@ -17483,7 +17535,11 @@
     "isSkillTrick": false,
     "benefit": "You recover lost hit points and ability score points faster than you normally would, according to the table on the next page",
     "prerequisites": [
-      "Base Fortitude save bonus +5"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 5
+      }
     ]
   },
   "1221": {
@@ -17984,9 +18040,21 @@
     "isSkillTrick": false,
     "benefit": "You gain the ability to cast protection from good three times per day and bane once per day as spell-like abilities with a caster level equal to your character level.",
     "prerequisites": [
-      "Base Fortitude save +1",
-      "Base Reflex save +1",
-      "Base Will save +1",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 1
+      },
+      {
+        "type": "saveBaseBonus",
+        "saveType": "reflexes",
+        "value": 1
+      },
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 1
+      },
       "Fey'ri",
       "tanarukk",
       {
@@ -18222,7 +18290,11 @@
         "type": "feats",
         "id": "562"
       },
-      "Base Will save +7"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 7
+      }
     ]
   },
   "1273": {
@@ -19508,7 +19580,11 @@
     "isSkillTrick": false,
     "benefit": "You may use your wild shape ability to assume the form of any magical beast with the cold subtype. Your new form must still fall within the size limitations of your wild shape ability. As with the standard wild shape ability, you do not gain any of the extraordinary special qualities or any supernatural abilities possessed by the new form, with the exception of the cold subtype. This subtype grants you immunity to cold but vulnerability to fi re, which means you take half again as much (+50%) damage as normal fromfirewhile in a frozen wild shape, regardless of whether a saving throw is allowed, or if the save is a success or failure. Possible cold magical beasts from the Monster Manual include cryohydras (Huge wild shape required), frost worms (Huge wild shape required), and winter wolves. Possible cold magical beasts from Monster Manual II include frost salamanders. Possible cold magical beasts from this book include brantas (Large wild shape required), ice toads (Large wild shape required), urskans (Large wild shape required), and tlalusks (Huge wild shape required).",
     "prerequisites": [
-      "Base Fortitude save bonus +6",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 6
+      },
       "wild shape ability"
     ]
   },
@@ -19655,7 +19731,11 @@
     "isSkillTrick": false,
     "benefit": "While you are psionically focused and within 60 feet of a kalashtar ally, you and all kalashtar allies within 60 feet gain a +2 insight bonus on initiative checks and Reflex saves.",
     "prerequisites": [
-      "base Will save +3",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 3
+      },
       {
         "type": "races",
         "id": "23"
@@ -19670,7 +19750,11 @@
     "benefit": "While you are psionically focused and within 60 feet of an ally that serves as a host or who is a kalashtar, you and all host or kalashtar allies within 60 feet gain a +2 insight bonus on initiative checks and Reflex saves.",
     "prerequisites": [
       "Any host feat* or kalashtar",
-      "base Will save +3"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 3
+      }
     ]
   },
   "1371": {
@@ -22371,7 +22455,11 @@
     "isSkillTrick": false,
     "benefit": "When you use your control flame spell-like ability, you instead may touch the flame and heal yourself a number of hit points of damage depending upon the size of the fire. This counts as a use of your control flame ability for the day. Touching the flame causes you no harm when you use this ability, but if you enter the flame, touch more than just its edge, or remain in contact with it for more than 1 round, you take damage from the fire.",
     "prerequisites": [
-      "Base Will save +3",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 3
+      },
       "fire genasi or tanarukk. Fire Size Example Hit Points Healed. Fine ----------- Tindertwig ------ 1. Diminutive ---- Torch ------------ 1d3. Tiny ----------- Small campfire -- 1d6. Small ---------- Large campfire - 2d6. Medium-size - Forge ------------ 3d"
     ]
   },
@@ -22484,7 +22572,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +2 bonus on saving throws against fi re effects. You can exist comfortably in temperatures up to 120Â° F without having to make Fortitude saves (see Heat Dangers, page 12). Your protection against heat is level 1 (see Protection against Heat, page 14).",
     "prerequisites": [
-      "Base Fortitude save +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1561": {
@@ -22901,7 +22993,11 @@
     "isSkillTrick": false,
     "benefit": "You may use detect good, detect magic, and levitate once per day as spell-like abilities with a caster level equal to your character level.",
     "prerequisites": [
-      "base Will save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      },
       {
         "type": "races",
         "id": "6"
@@ -22915,7 +23011,11 @@
     "isSkillTrick": false,
     "benefit": "You may use detect good, detect magic, and levitate once per day as spell-like abilities, with a caster level equal to your character level.",
     "prerequisites": [
-      "base Will save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      },
       {
         "type": "races",
         "id": "6"
@@ -22929,7 +23029,11 @@
     "isSkillTrick": false,
     "benefit": "You can use <em>detect good</em>, <em>detect magic</em>, and <em>levitate</em> once per day as spell-like abilities with a caster level equal to your character level.",
     "prerequisites": [
-      "Base Will save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      },
       {
         "type": "races",
         "id": "6"
@@ -23909,7 +24013,11 @@
         "type": "feats",
         "id": "416"
       },
-      "Base Fortitude save bonus +6"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 6
+      }
     ]
   },
   "1660": {
@@ -24167,7 +24275,11 @@
         "type": "feats",
         "id": "774"
       },
-      "Base Will save +8",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 8
+      },
       "Draconian"
     ]
   },
@@ -24737,7 +24849,11 @@
         "type": "feats",
         "id": "1560"
       },
-      "Base Fortitude save +6"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 6
+      }
     ]
   },
   "1716": {
@@ -26120,7 +26236,11 @@
     "special": "A fighter may select Improved Toughness as one of his fighter bonus feats.",
     "benefit": "You gain a number of hit points equal to your current Hit Dice. Each time you gain a HD (such as by gaining a level), you gain 1 additional hit point. If you lose a HD (such as by losing a level), you lose 1 hit point permanently.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1798": {
@@ -26130,7 +26250,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a number of hit points equal to your current Hit Dice. Each time you gain a Hit Die (such as by gaining a level), you gain 1 additional hit point. If you lose a Hit Die (such as by losing a level), you lose 1 hit point permanently",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1799": {
@@ -26141,7 +26265,11 @@
     "special": "A fighter can select Improved Toughness as one of his fi ghter bonus feats.",
     "benefit": "The creature gains a number of hit points equal to its current Hit Dice. Each time it gains a Hit Die (such as by gaining a level), it gains 1 additional hit point. If it loses a Hit Die (such as by losing a level), it loses 1 hit point permanently.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1800": {
@@ -26152,7 +26280,11 @@
     "special": "A fighter can select Improved Toughness as one of his bonus feats.",
     "benefit": "You gain a number of hit points equal to your current Hit Dice. Each time you gain a Hit Die (such as by gaining a level), you gain 1 additional hit point. If you lose a Hit Die (such as by losing a level), you lose 1 hit point permanently.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1801": {
@@ -26163,7 +26295,11 @@
     "special": "A fighter can select Improved Toughness as one of his bonus feats.",
     "benefit": "You gain a number of hit points equal to your current Hit Dice. Each time you gain a Hit Die (such as by gaining a level), you gain 1 additional hit point. If you lose a Hit Die (such as by losing a level), you lose 1 hit point permanently.",
     "prerequisites": [
-      "Base Fortitude save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "1802": {
@@ -27310,7 +27446,11 @@
     "isSkillTrick": false,
     "benefit": "As an immediate action, whenever you are the target of a mind-affecting spell or spell-like ability, you can take 1 point of Wisdom damage to retarget the effect to another creature of your choice within the effect's range. The new target takes a &#8212;4 circumstance penalty on its saving throw, if any, against that effect.",
     "prerequisites": [
-      "Base Will save +5"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 5
+      }
     ]
   },
   "1876": {
@@ -31721,7 +31861,11 @@
     "special": "You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
     "benefit": "Against psionic attacks that do not employ an energy type to deal damage, such as mind thrust, you gain damage reduction 3/-. In addition, when you are hit with ability damage (but not ability drain or ability burn damage) from a psionic attack, you take 3 points less than you would normally take. The benefit of this feat applies only to psionic powers and psi-like abilities. This is an exception to the psionics-magic transparency rule (see page 55).",
     "prerequisites": [
-      "Base Will save bonus +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 2
+      }
     ]
   },
   "2184": {
@@ -34550,7 +34694,11 @@
     "isSkillTrick": false,
     "benefit": "Your alignment is not affected by the Abyssal heritor feats you possess. Spells and effects that are keyed to alignment affect you as if you were chaotic, as well as your actual alignment. For example, you become immune to spells such as chaos hammer and word of chaos, you could wield an anarchic weapon without fear of gaining a negative level, and you could take the Primordial Scion feat despite its chaotic alignment prerequisite",
     "prerequisites": [
-      "base Will save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 4
+      },
       "Nonchaotic alignment"
     ]
   },
@@ -34599,7 +34747,7 @@
       "and Will saves +2",
       "base Fortitude",
       "Celestial Bloodline or Fiendish Bloodline",
-      "Reflex"
+      "reflexes"
     ]
   },
   "2383": {
@@ -34613,7 +34761,7 @@
       "and Will saves +2",
       "base Fortitude",
       "Celestial Bloodline or Fiendish Bloodline",
-      "Reflex"
+      "reflexes"
     ]
   },
   "2384": {
@@ -39146,7 +39294,11 @@
     "isSkillTrick": false,
     "benefit": "Your swim speed increases by 20 feet.",
     "prerequisites": [
-      "Base Fortitude save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      },
       "natural swim speed"
     ]
   },
@@ -39157,7 +39309,11 @@
     "isSkillTrick": false,
     "benefit": "Your swim speed increases by 20 feet",
     "prerequisites": [
-      "base Fortitude save +2",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      },
       "Natural swim speed"
     ]
   },
@@ -43314,7 +43470,11 @@
     "special": "If you are already an affl icted lycanthrope, the DCs for your Control Shape checks increase by 5 and you lose your lycanthrope damage reduction. If you are already a natural lycanthrope, you must make a DC 15 Control Shape check to change form and your lycanthrope damage reduction decreases to 5/silver.",
     "benefit": "You cannot be infected with lycanthropy. Any lycanthrope that bites you must make a Fortitude save (DC 10 + 1/2 your Hit Dice + your Con modifier) or take damage equal to your Constitution modifi er (minimum 1 point). This damage is treated as silver for the purpose of overcoming a lycanthrope's damage reduction.",
     "prerequisites": [
-      "Base Fortitude save +2"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 2
+      }
     ]
   },
   "2977": {
@@ -43339,7 +43499,11 @@
     "special": "If you are a lycanthrope, your natural attacks no longer infect others with lycanthropy.",
     "benefit": "Your natural attacks and unarmed strikes count as silver weapons for the purpose of overcoming damage reduction.",
     "prerequisites": [
-      "Base Fortitude save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 4
+      },
       "member or ally of the Fangshields (see page 78)"
     ]
   },
@@ -43483,7 +43647,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on binding checks.",
     "prerequisites": [
-      "base Will save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 4
+      },
       "Soul binding"
     ]
   },
@@ -45666,7 +45834,11 @@
     "isSkillTrick": false,
     "benefit": "When you use the attack action or full attack action in melee, you can take a penalty of as much as -5 on your attack and add the same number (up to +5) to your Armor Class as a natural armor bonus. This number may not exceed your base attack bonus. The changes to attack rolls and Armor Class last until your next action.",
     "prerequisites": [
-      "Base Fortitude save +3",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 3
+      },
       "earth genasi"
     ]
   },
@@ -45732,7 +45904,11 @@
     "isSkillTrick": false,
     "benefit": "Instead of using your spell-like ability to pass without trace, you may instead meld into stone as a 5th-level druid. This uses your ability to pass without trace for the day.",
     "prerequisites": [
-      "Base Fortitude save +4",
+      {
+        "type": "saveBaseBonus",
+        "saveType": "fortitude",
+        "value": 4
+      },
       "earth genasi"
     ]
   },
@@ -51853,7 +52029,11 @@
         "score": "CHA",
         "value": 15
       },
-      "base Will save bonus +5"
+      {
+        "type": "saveBaseBonus",
+        "saveType": "will",
+        "value": 5
+      }
     ]
   },
   "3595": {
