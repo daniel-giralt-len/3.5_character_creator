@@ -2083,7 +2083,11 @@
         "score": "INT",
         "value": 21
       },
-      "Alchemy 24 ranks"
+      {
+        "type": "skills",
+        "id": 1,
+        "value": 24
+      }
     ]
   },
   "154": {
@@ -2843,7 +2847,11 @@
         "value": "arcane caster",
         "level": 3
       },
-      "Spellcraft 6 Ranks"
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 6
+      }
     ]
   },
   "203": {
@@ -3078,7 +3086,11 @@
         "value": "caster",
         "level": 6
       },
-      "Knowledge (the planes) 6 ranks",
+      {
+        "type": "skills",
+        "id": 43,
+        "value": 6
+      },
       {
         "type": "feats",
         "id": "1089"
@@ -7478,7 +7490,11 @@
     "benefit": "You create an infusion of any divine spell available to you. Infusing an herb with a spell takes one day. When you create an infusion, you set the caster level, which must be sufficient to cast the spell in question but not higher than your own level. The base price of an infusion is its spell level times its caster level times 50 gp. To create an infusion, you must spend 1/25 of this base price in XP and use up raw materials costing one-half this base price. Any infusion that storcs a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, you must also expend the material component or pay the XP when creating the infusion.",
     "prerequisites": [
       "spellcaster level 3rd",
-      "Wilderness Lore 4 ranks"
+      {
+        "type": "skills",
+        "id": 70,
+        "value": 4
+      }
     ]
   },
   "533": {
@@ -8434,7 +8450,11 @@
         "id": "191"
       },
       "five or more favored enemies (as ranger class feature)",
-      "Wilderness Lore 30 ranks"
+      {
+        "type": "skills",
+        "id": 70,
+        "value": 30
+      }
     ]
   },
   "596": {
@@ -13471,7 +13491,11 @@
     "benefit": "Your successful sneak attack reduces your target's spell resistance and power resistance by 5 (minimum 0) for 10 rounds. If you use this feat a second time on a target before the ten rounds have elapsed, the effect of the first expires. using this reduces your sneak attack damage by 4d6",
     "prerequisites": [
       "Sneak Attack +4d6",
-      "Knowledge (arcana) 1 rank"
+      {
+        "type": "skills",
+        "id": 27,
+        "value": 1
+      }
     ]
   },
   "935": {
@@ -14792,7 +14816,11 @@
         "score": "DEX",
         "value": 25
       },
-      "30 ranks",
+      {
+        "type": "skills",
+        "id": "*",
+        "value": 30
+      },
       "defensive roll",
       "improved evasion",
       "Tumble Dodge"
@@ -15165,7 +15193,7 @@
             "spellType": "arcane"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -15185,7 +15213,7 @@
             "spellType": "divine"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -15226,7 +15254,7 @@
             "spellType": "arcane"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -15246,7 +15274,7 @@
             "spellType": "divine"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -15287,7 +15315,7 @@
             "spellType": "arcane"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -15307,7 +15335,7 @@
             "spellType": "divine"
           },
           {
-            "type": "skill",
+            "type": "skills",
             "id": 61,
             "value": 24
           }
@@ -19995,7 +20023,11 @@
         "type": "skills",
         "id": "31"
       },
-      "and Tumble 9 ranks",
+      {
+        "type": "skills",
+        "id": 66,
+        "value": 9
+      },
       {
         "type": "bab",
         "value": 4
@@ -24827,7 +24859,11 @@
         "value": 21
       },
       "four metapsionic feats",
-      "Psicraft 30 ranks"
+      {
+        "type": "skills",
+        "id": 54,
+        "value": 30
+      }
     ]
   },
   "1732": {
@@ -28858,7 +28894,11 @@
         "score": "WIS",
         "value": 25
       },
-      "Wilderness Lore 30 ranks"
+      {
+        "type": "skills",
+        "id": 70,
+        "value": 30
+      }
     ]
   },
   "1996": {
@@ -29849,7 +29889,11 @@
         "type": "bab",
         "value": 3
       },
-      "Spellcraft 2 Ranks"
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 2
+      }
     ]
   },
   "2071": {
@@ -31044,7 +31088,21 @@
         "type": "skills",
         "id": "43"
       },
-      "Spellcraft or Psicraft 9 ranks"
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "skills",
+            "id": 61,
+            "value": 9
+          },
+          {
+            "type": "skills",
+            "id": 54,
+            "value": 9
+          }
+        ]
+      }
     ]
   },
   "2156": {
@@ -36704,7 +36762,11 @@
     "special": "You can select this feat multiple times. Each time you choose it, you must apply it to a different manifesting class.",
     "benefit": "Your manifester level for the chosen manifesting class increases by four. This benefit can't increase your manifester level higher than your Hit Dice. Even if you cant benefit from the full bonus immediately, however, if you later gain levels of nonmanifesting classes, you might be able to apply the rest of the bonus. For example, a human 5th-level psion/3rd-level fighter who selects this feat would increase his psion manifester level from 5th to 8th (since he has 8 Hit Dice). If he later gained a fighter level, he would gain the remainder of the bonus, and his psion manifester level would become 9th (since he now has 9 Hit Dice). A character with, two or more manifesting classes (such as a psychic warrior/psion) must choose which class gains the feats effect. This feat does not affect your powers per day or powers known. It only increases your manifester level, which helps you overcome power resistance and increases the duration and other effects of your powers.",
     "prerequisites": [
-      "Psicraft 4 ranks"
+      {
+        "type": "skills",
+        "id": 54,
+        "value": 4
+      }
     ]
   },
   "2538": {
@@ -37756,7 +37818,11 @@
     "isSkillTrick": false,
     "benefit": "When you are psionically focused and one or more psionic characters or creatures with a manifester level of 3rd or higher stands within 10 feet of you, you gain a +2 bonus on ability checks, skill checks, and saving throws. Psionic entities such as those described in any of the host feats in this book are not separate creatures for the purpose of gaining this feat's benefit, nor are astral constructs, or any psionic creatures crafted, projected, or summoned by you.",
     "prerequisites": [
-      "Knowledge (psionics) 8 ranks",
+      {
+        "type": "skills",
+        "id": 38,
+        "value": 8
+      },
       "manifester level 3rd"
     ]
   },
@@ -42529,7 +42595,12 @@
         "type": "feats",
         "id": "2036"
       },
-      "swiftwing trait. Balance 4 ranks",
+      "swiftwing trait",
+      {
+        "type": "skills",
+        "id": 5,
+        "value": 4
+      },
       "Shifter with the cliffwalk"
     ]
   },
@@ -43791,7 +43862,11 @@
         "score": "CON",
         "value": 5
       },
-      "Spellcraft 5 Ranks"
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 5
+      }
     ]
   },
   "3032": {
@@ -45238,7 +45313,16 @@
         "type": "races",
         "id": "12"
       },
-      "Climb 8 ranks and Jump 8 ranks"
+      {
+        "type": "skills",
+        "id": 7,
+        "value": 8
+      },
+      {
+        "type": "skills",
+        "id": 25,
+        "value": 8
+      }
     ]
   },
   "3136": {
