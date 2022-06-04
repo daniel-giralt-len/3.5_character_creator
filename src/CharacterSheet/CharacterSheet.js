@@ -5,6 +5,7 @@ import Scores from './Scores'
 import Saves from './Saves'
 import ClassNames from './ClassNames'
 import Feats from './Feats'
+import Alignment from './Alignment'
 import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
 import Bab from './Bab'
@@ -30,8 +31,8 @@ const CharacterSheetLayout = styled.section`
     max-width: 1000px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "name class-names"
-        "race class-names"
+        "name race"
+        "class-names alignment"
         "scores skills"
         "saves skills"
         "bab skills"
@@ -44,6 +45,7 @@ const CharacterSheetLayout = styled.section`
         grid-template-rows: auto auto auto auto auto auto;
         grid-template-areas: 
             "name"
+            "alignment"
             "race"
             "class-names"
             "scores"
@@ -73,7 +75,8 @@ function CharacterSheet({
             feats,
             races,
             name,
-            skills
+            skills,
+            alignment
         } = character
 
         const nLevels = classes.length
@@ -96,7 +99,8 @@ function CharacterSheet({
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
-        
+        const onAlignmentChange = alignment => onCreationChange({...character, alignment})
+
         return(
             <CharacterSheetLayout>
                 <Name
@@ -113,6 +117,11 @@ function CharacterSheet({
                     classes={classes}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
+                />
+                <Alignment
+                    alignment={alignment}
+                    onAlignmentChange={onAlignmentChange}
+                    translate={translate}
                 />
                 <Scores
                     scores={scores}

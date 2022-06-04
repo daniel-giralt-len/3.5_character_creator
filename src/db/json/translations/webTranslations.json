@@ -51,7 +51,17 @@
         "skills": "Skills",
         "ranks": "Ranks",
         "mod": "Mod.",
-        "base attack power": "base attack bonus"
+        "base attack power": "base attack bonus",
+        "lawful good": "LG",
+        "lawful neutral": "LN",
+        "lawful evil": "LE",
+        "neutral good": "NG",
+        "neutral neutral": "N",
+        "neutral evil": "NE",
+        "chaotic good": "CG",
+        "chaotic neutral": "CN",
+        "chaotic evil": "CE",
+        "alignment": "Alignment"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -100,7 +110,17 @@
         "skills": "Habilidades",
         "ranks": "Rangos",
         "mod": "Mod.",
-        "base attack power": "bonus de ataque base"
+        "base attack power": "bonus de ataque base",
+        "lawful good": "LB",
+        "lawful neutral": "LN",
+        "lawful evil": "LM",
+        "neutral good": "NB",
+        "neutral neutral": "N",
+        "neutral evil": "NM",
+        "chaotic good": "CB",
+        "chaotic neutral": "CN",
+        "chaotic evil": "CM",
+        "alignment": "Alineamiento"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -149,6 +169,16 @@
         "skills": "Habilitats",
         "ranks": "Rangs",
         "mod": "Mod.",
-        "base attack power": "bonus d'atac base"
+        "base attack power": "bonus d'atac base",
+        "lawful good": "LB",
+        "lawful neutral": "LN",
+        "lawful evil": "LM",
+        "neutral good": "NB",
+        "neutral neutral": "N",
+        "neutral evil": "NM",
+        "chaotic good": "CB",
+        "chaotic neutral": "CN",
+        "chaotic evil": "CM",
+        "alignment": "Alineament"
     }
 }

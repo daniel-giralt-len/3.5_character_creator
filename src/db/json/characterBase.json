@@ -7,5 +7,6 @@
     "races": "",
     "skills": {},
     "skilltricks": {},
-    "language": {}
+    "language": {},
+    "alignment": {"legality": "neutral", "goodness": "neutral"}
 }
