@@ -1594,7 +1594,10 @@
     "isSkillTrick": false,
     "benefit": "You can use your dark knowledge on giants and fey. You use Knowledge (nature) for dark knowledge checks regarding these two creature types.",
     "prerequisites": [
-      "Dark knowledge"
+      {
+        "type": "classAbility",
+        "value": "dark knowledge"
+      }
     ]
   },
   "115": {
@@ -11230,7 +11233,10 @@
     "isSkillTrick": false,
     "benefit": "You can use your dark knowledge ability on dragons and constructs. You use Knowledge (arcana) for dark knowledge checks regarding these two creature types.",
     "prerequisites": [
-      "Dark knowledge"
+      {
+        "type": "classAbility",
+        "value": "dark knowledge"
+      }
     ]
   },
   "777": {
