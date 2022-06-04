@@ -1375,7 +1375,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -2131,7 +2136,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -2154,7 +2162,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -2177,7 +2188,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -2200,7 +2214,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -2223,7 +2240,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -2246,7 +2266,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -4797,7 +4820,10 @@
         "type": "skills",
         "id": "68"
       },
-      "ability to cast 4thlevel spells"
+      {
+        "type": "spellcasting",
+        "level": 4
+      }
     ]
   },
   "344": {
@@ -12213,7 +12239,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -15125,13 +15156,41 @@
         "type": "skills",
         "id": "36"
       },
-      "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "arcane"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      },
       {
         "type": "spellcasting",
         "level": 9,
         "spellType": "divine"
       },
-      "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "divine"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      }
     ]
   },
   "1061": {
@@ -15158,13 +15217,41 @@
         "type": "skills",
         "id": "36"
       },
-      "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "arcane"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      },
       {
         "type": "spellcasting",
         "level": 9,
         "spellType": "divine"
       },
-      "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "divine"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      }
     ]
   },
   "1062": {
@@ -15191,13 +15278,41 @@
         "type": "skills",
         "id": "36"
       },
-      "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "arcane"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      },
       {
         "type": "spellcasting",
         "level": 9,
         "spellType": "divine"
       },
-      "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
+      {
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "spellcasting",
+            "level": 9,
+            "spellType": "divine"
+          },
+          {
+            "type": "skill",
+            "id": 61,
+            "value": 24
+          }
+        ]
+      }
     ]
   },
   "1063": {
@@ -23192,7 +23307,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       },
       "Eschew Materials*"
     ]
@@ -26432,7 +26550,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -26495,7 +26618,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -26532,7 +26660,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       "patron deity Ghaunadaur"
     ]
@@ -26611,7 +26744,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -26633,7 +26771,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       "patron deity Kossuth"
     ]
@@ -26651,7 +26794,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -26844,7 +26992,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       "Extaminaar",
       "patron deity Varae"
@@ -27289,7 +27442,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -27964,7 +28120,11 @@
     "special": "You may take this feat more than once. Each time you take it after the first, you gain an extra use per day of your chosen turning ability.",
     "benefit": "Once per day, you may turn or rebuke creatures of the same kind as your bloodline ancestor as a cleric of 1/2 your level in the arcane spellcasting class that granted you access to your base bloodline feat. You may choose to either turn or rebuke such creatures upon taking this feat, but you cannot later change that decision.",
     "prerequisites": [
-      "Ability to cast 3rd- level arcane spells",
+      {
+        "type": "spellcasting",
+        "level": 3,
+        "spellType": "arcane"
+      },
       "Any bloodline feat"
     ]
   },
@@ -32717,7 +32877,10 @@
       {
         "type": "spellcasting",
         "level": 9,
-        "spellType": ["arcane", "divine"]
+        "spellType": [
+          "arcane",
+          "divine"
+        ]
       }
     ]
   },
@@ -38251,7 +38414,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
@@ -45376,7 +45544,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an electricity spell of 3rd level or higher available to cast, you can fire a 20-foot line of electricity as a standard action. This bolt deals 1d6 points of electricity damage per level of the highest-level electricity spell you have available to cast. A successful Reflex save halves damage. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting electricity spells.",
     "prerequisites": [
-      "Ability to cast 3rd level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "3157": {
@@ -49068,7 +49239,12 @@
       },
       {
         "type": "classes",
-        "value": ["130", "131", "132", "133"]
+        "value": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ]
       },
       {
         "type": "deities",
