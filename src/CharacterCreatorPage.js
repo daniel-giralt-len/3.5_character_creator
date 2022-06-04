@@ -7,7 +7,8 @@ import Selector from './Selector/Selector'
 import Header from './Header'
 
 import characterBase from './db/json/characterBase.json'
-import corpus44 from './db/json/corpus_44.json'
+import corpus44 from './db/json/corpuses/44.json'
+import corpusAny from './db/json/corpuses/any.json'
 import dbs from './db/json/dbs.json'
 
 import getTranslator from './functions/getTranslator'
@@ -38,7 +39,7 @@ function CharacterCreatorPage() {
   if(!language) setCookie('language', 'es')
   if(!filters) {
     setCookie('filters', {
-      showDisallowed: true    
+      showDisallowed: false 
     })
   }
   const [isSelectorOpen, setIsSelectorOpen] = useState(false)
@@ -57,7 +58,7 @@ function CharacterCreatorPage() {
   const handleSwitchSelectorOpen = () => setIsSelectorOpen(!isSelectorOpen)
   
   const corpuses = {
-    any: {name: translate('any book'), corpus: '*'},
+    any: {name: translate('any book'), corpus: corpusAny},
     c44: {name: 'Companyia 44', corpus: corpus44 },
   }
   const usedCorpus = corpuses[selectedCorpus].corpus

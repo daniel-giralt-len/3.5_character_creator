@@ -53,7 +53,7 @@ function Skills({
         }
         
         const refinedSkillsData = skillsData
-                .filter(({id})=>permittedSkills.includes(id))
+                .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id))
                 .concat(...extraSkills)
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))

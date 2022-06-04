@@ -1,0 +1,11 @@
+{
+    "races": {"allowed": "*", "forbidden": []},
+    "rulebooks": {"allowed": "*", "forbidden": []},
+    "editions": {"allowed": "*", "forbidden": []},
+    "feats": {"allowed": "*", "forbidden": []},
+    "classes": {"allowed": "*", "forbidden": []},
+    "skilltricks": {"allowed": "*", "forbidden": []},
+    "language": {"allowed": "*", "forbidden": []},
+    "skills": "*",
+    "extraSkills": []
+}
