@@ -313,9 +313,6 @@
   "Misleading Song",
   "Subsonics"
  ],
- "arcane caster level 6th": [
-  "Arcane Consumption"
- ],
  "Spell Focus in the chosen school": [
   "Arcane Defense"
  ],
@@ -327,12 +324,6 @@
  ],
  "alignment matches your deity's alignment": [
   "Arcane Disciple"
- ],
- "arcane caster level 1st": [
-  "Arcane Flourish",
-  "Collegiate Wizard",
-  "Netherese Battle Curse",
-  "Precocious Apprentice"
  ],
  "Ability to cast arcane spells or use spelllike abilities (including invocations)": [
   "Arcane mastery"
@@ -400,10 +391,6 @@
   "Arcane Thesis",
   "Captivating Melody ",
   "Jester's Magic"
- ],
- "arcane caster level 3rd": [
-  "Arcane Toughness",
-  "Obtain Familiar"
  ],
  "specialist wizard level 10th": [
   "Arcane Transfiguration"
@@ -701,9 +688,6 @@
  ],
  "Ability to ignore arcane spell failure chance from armor": [
   "Battle Caster"
- ],
- "Arcane caster level 3rd": [
-  "Battle Mage Tactics"
  ],
  "Spellcraft 6 Ranks": [
   "Battle Mage Tactics"
