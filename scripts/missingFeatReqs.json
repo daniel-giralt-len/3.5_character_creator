@@ -140,36 +140,8 @@
   "Agile Tyrant",
   "Metaray"
  ],
- "Ability to cast arcane spells without preparation": [
-  "Air Bloodline",
-  "Anarchic Bloodline",
-  "Arcane Preparation",
-  "Arcane Preparation",
-  "Axiomatic Bloodline",
-  "Celestial Bloodline",
-  "Draconic Bloodline",
-  "Earth Bloodline",
-  "Fey Bloodline",
-  "Fiendish Bloodline",
-  "Fire Bloodline",
-  "Illithid Bloodline",
-  "Necromantic Bloodline",
-  "Penumbra Bloodline",
-  "Plant Bloodline",
-  "Serpent Bloodline",
-  "Water Bloodline"
- ],
  "Must prepare arcane spells": [
   "Alacritous Cogitation "
- ],
- "Sneak attack +2d6": [
-  "Aleval School",
-  "Daring Outlaw ",
-  "Maiming Strike",
-  "Sickening Strike",
-  "Terrifying Strike",
-  "Twist the Knife",
-  "Venomous Strike"
  ],
  "True dragon": [
   "Alternate Form",
@@ -401,19 +373,9 @@
  "Proficiency with selected armor type": [
   "Armor Specialization"
  ],
- "Sneak attack ability": [
-  "Arterial Strike",
-  "Hamstring"
- ],
  "Base attack +4": [
   "Arterial Strike",
   "Hamstring"
- ],
- "sneak attack ability": [
-  "Arterial Strike",
-  "Hamstring",
-  "Silencing Strike",
-  "Staggering Strike"
  ],
  "Elf (SildÃ«yuir or Snow Eagle Aerie)": [
   "Artist"
@@ -450,16 +412,6 @@
  ],
  "manifester level 1st": [
   "Ascetic Psion"
- ],
- "sneak attack": [
-  "Ascetic Rogue",
-  "Deft Strike",
-  "Devoted Inquisitor",
-  "Dragonfire Strike ",
-  "Indigo Strike",
-  "Savage Grapple",
-  "Staggering Strike",
-  "Undo Resistance"
  ],
  "Ki power": [
   "Ascetic Stalker",
@@ -1241,10 +1193,6 @@
   "Companion Spellbond",
   "Natural Bond"
  ],
- "Sneak attack +3d6": [
-  "Concussion Attack",
-  "Gloom Strike"
- ],
  "Exposure to call lightning": [
   "Conductivity"
  ],
@@ -1408,10 +1356,6 @@
  ],
  "cannot be immune to fear": [
   "Craven"
- ],
- "Sneak attack class feature": [
-  "Craven",
-  "Demonic Sneak Attack "
  ],
  "spellcaster level 3rd": [
   "Create Infusion",
@@ -1661,11 +1605,6 @@
  ],
  "Medium size": [
   "Deformity (Tall)"
- ],
- "Sneak attack +1d6": [
-  "Deft Strike",
-  "Foe Specialist",
-  "Swift Ambusher "
  ],
  "Desert terrain type": [
   "Desert Dweller"
@@ -2292,9 +2231,6 @@
  "Ability to invoke an eldritch blast": [
   "Eldritch Dragonbane",
   "Eldritch Mark"
- ],
- "Sneak Attack +4d6": [
-  "Eldritch Erosion "
  ],
  "Elemental mastery class feature (see the wu jen class in Complete Arcane)": [
   "Elemental Adept"
@@ -3587,9 +3523,6 @@
   "Improved Death Attack",
   "Mortifying Attack"
  ],
- "sneak attack +5d6": [
-  "Improved Death Attack"
- ],
  "Base Will save +8": [
   "Improved Draconian Breath Weapon"
  ],
@@ -3779,12 +3712,6 @@
  ],
  "snatch spell class ability": [
   "Improved Snatch Spell"
- ],
- "Sneak attack +8d6": [
-  "Improved Sneak Attack",
-  "Improved Sneak Attack",
-  "Lingering Damage",
-  "Sneak Attack of Opportunity"
  ],
  " Ability to cast spells of the normal maximum spell level in at least one spellcasting class": [
   "Improved Spell Capacity"
@@ -5070,9 +4997,6 @@
  "Natural swim speed": [
   "Rapid Swimming"
  ],
- "Sneak attack": [
-  "Razing Strike"
- ],
  "Spell resistance": [
   "Reactive Resistance"
  ],
@@ -5175,9 +5099,6 @@
  ],
  "Unquenchable Flame of Life or Unyielding Bond of Soul": [
   "Sacred Resilience"
- ],
- "Sneak attack class ability": [
-  "Sacred Strike"
  ],
  "Patron deity from the Mulhorandi or Untheric pantheon": [
   "Sacred Tattoo"
@@ -5866,9 +5787,6 @@
  ],
  "poison bite": [
   "Thri-Kreen Poison"
- ],
- "sneak attack +3d6": [
-  "Throat Punch"
  ],
  "Proficiency with weapon": [
   "Throw Anything"

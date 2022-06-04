@@ -832,7 +832,12 @@
         "type": "bab",
         "value": 4
       },
-      "Sneak attack +2d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      }
     ]
   },
   "64": {
@@ -1729,7 +1734,10 @@
         "type": "bab",
         "value": 4
       },
-      "Sneak attack ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "127": {
@@ -1740,7 +1748,10 @@
     "benefit": "If you hit with a sneak attack, you may choose to forgo +1d6 points of extra sneak attack damage to deliver a wound that won't stop bleeding. Each wound so infl icted does an additional 1 point of damage per round. Wounds from multiple arterial strikes result in cumulative blood loss--that is, two successful arterial strikes do an additional 2 points of damage per round. Blood loss, whether from one such wound or several, stops when the victim receives one successful Heal check, any cure spell, or any other form of magical healing. Creatures not subject to sneak attacks are immune to this effect.",
     "prerequisites": [
       "Base attack +4",
-      "sneak attack ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "128": {
@@ -1851,7 +1862,10 @@
         "type": "feats",
         "id": "1809"
       },
-      "sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "136": {
@@ -6513,7 +6527,12 @@
     "isSkillTrick": false,
     "benefit": "Your successful sneak attack imposes a <del>2 penalty on the target's Intelligence and Wisdom checks, as well as on any Intelligence</del> and Wisdom-based skill checks, for 10 rounds. If you use this feat a second time on a target before 10 rounds have elapsed, the effect of the first use expires. Using this feat reduces your sneak attack damage by 2d6.",
     "prerequisites": [
-      "Sneak attack +3d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 3,
+        "diceType": "d6"
+      }
     ]
   },
   "455": {
@@ -7503,7 +7522,10 @@
     "benefit": "You take a -2 penalty on saving throws against fear effects. However, when making a sneak attack, you deal an extra 1 point of damage per character level.",
     "prerequisites": [
       "cannot be immune to fear",
-      "Sneak attack class feature"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "532": {
@@ -7950,7 +7972,12 @@
     "isSkillTrick": false,
     "benefit": "Your rogue and swashbuckler levels stack for the purpose of determining your competence bonus on Reflex saves from the grace class feature and the swashbuckler's dodge bonus to AC. For example, a 7th-level rogue/4th-level swashbuckler has grace +2 and gains a +2 dodge bonus to AC, as if she were an 11th-level swashbuckler.",
     "prerequisites": [
-      "Sneak attack +2d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      },
       "Grace +1"
     ]
   },
@@ -9172,7 +9199,10 @@
         "score": "INT",
         "value": 13
       },
-      "sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "640": {
@@ -9195,7 +9225,12 @@
         "score": "INT",
         "value": 13
       },
-      "Sneak attack +1d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 1,
+        "diceType": "d6"
+      }
     ]
   },
   "641": {
@@ -9303,7 +9338,10 @@
     "special": "You trade feints for finesse and find it difficult to hide your more malicious intentions; consequently, you take a -2 penalty on Bluff checks.",
     "benefit": "When you make a successful sneak attack, you can reroll a number of sneak attack damage dice equal to the number of Abyssal heritor feats you possess. You must take the results of the rerolled dice.",
     "prerequisites": [
-      "Sneak attack class feature"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "652": {
@@ -9663,7 +9701,10 @@
     "benefit": "When you successfully use your sneak attack ability and your smite evil ability against the same foe in a single attack, you can potentially daze your foe. An opponent affected by both abilities must make a Will saving throw (DC 10 + 1/2 your character level + your Cha modifier) or be dazed for 1 round. In addition, you can multiclass freely between the paladin and rogue classes. You must still remain lawful good in order to retain your paladin abilities and take paladin levels. You still face the normal XP penalties for having multiple classes more than one level apart.",
     "prerequisites": [
       "Smite evil",
-      "sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "674": {
@@ -12018,7 +12059,10 @@
       },
       "dragonblood subtype",
       "one of these class features: skirmish",
-      "sneak attack",
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      },
       "sudden strike"
     ]
   },
@@ -13522,7 +13566,12 @@
     "isSkillTrick": false,
     "benefit": "Your successful sneak attack reduces your target's spell resistance and power resistance by 5 (minimum 0) for 10 rounds. If you use this feat a second time on a target before the ten rounds have elapsed, the effect of the first expires. using this reduces your sneak attack damage by 4d6",
     "prerequisites": [
-      "Sneak Attack +4d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 4,
+        "diceType": "d6"
+      },
       {
         "type": "skills",
         "id": 27,
@@ -18919,7 +18968,12 @@
     "isSkillTrick": false,
     "benefit": "Choose a type of creature from Table 3-14: Ranger Favored Enemies, page 47 of the Player's Handbook.You deal an extra 1d6 points of damage on successful sneak attacks against that type of creature. (The selected type cannot be construct, elemental, ooze, plant, or undead, since those types are not subject to critical hits.) SPECIAL: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new creature type from among those that remain eligible.",
     "prerequisites": [
-      "Sneak attack +1d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 1,
+        "diceType": "d6"
+      },
       {
         "type": "bab",
         "value": 4
@@ -20013,7 +20067,12 @@
     "isSkillTrick": false,
     "benefit": "Your sneak attack creates an aura of magical darkness that impedes your target's vision for 3 rounds. The target takes a &#8212;4 penalty on Spot checks and treats all other creatures as having concealment. Neither darkvision nor low-light vision pierces this effect, though the ability to see through magical darkness does. Any spell with the light descriptor suppresses the effect.",
     "prerequisites": [
-      "Sneak attack +3d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 3,
+        "diceType": "d6"
+      },
       "darkness as a spell-like ability"
     ]
   },
@@ -21968,7 +22027,10 @@
         "type": "bab",
         "value": 4
       },
-      "Sneak attack ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "1527": {
@@ -21979,7 +22041,10 @@
     "benefit": "If you hit with a sneak attack, you may choose to forgo +2d6 of your sneak attack damage to reduce your opponent's land speed by half. Other forms of movement (fl y, burrow, and so forth) aren't affected. The speed reduction ends when the target receives healing (a successful Heal check, any cure spell, or other magical healing) or after 24 hours, whichever comes fi rst. A hamstring attack does not slow creatures that are immune to sneak attack damage or those that have either no legs at all or more than four legs. It takes two successful hamstring attacks to affect a quadruped.",
     "prerequisites": [
       "Base attack +4",
-      "sneak attack ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "1528": {
@@ -24036,7 +24101,12 @@
     "benefit": "Add +2 to the DC of your death attack.",
     "prerequisites": [
       "Death attack class feature",
-      "sneak attack +5d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 5,
+        "diceType": "d6"
+      }
     ]
   },
   "1673": {
@@ -25728,7 +25798,12 @@
     "special": "This feat may be taken multiple times. Its effects stack",
     "benefit": "Add +1d6 to your sneak attack damage.",
     "prerequisites": [
-      "Sneak attack +8d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 8,
+        "diceType": "d6"
+      }
     ]
   },
   "1779": {
@@ -25739,7 +25814,12 @@
     "special": "This feat may be taken multiple times. Its effects stack.",
     "benefit": "Add +1d6 to your sneak attack damage.",
     "prerequisites": [
-      "Sneak attack +8d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 8,
+        "diceType": "d6"
+      }
     ]
   },
   "1780": {
@@ -26385,7 +26465,10 @@
         "value": 13
       },
       "sudden strike class feature",
-      "sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "1824": {
@@ -29298,7 +29381,12 @@
     "isSkillTrick": false,
     "benefit": "Any time you deal damage with a sneak attack, that target takes damage equal to your sneak attack bonus damage on your next turn as well.",
     "prerequisites": [
-      "Sneak attack +8d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 8,
+        "diceType": "d6"
+      },
       "crippling strike class feature"
     ]
   },
@@ -30200,7 +30288,12 @@
     "isSkillTrick": false,
     "benefit": "Whenever you make a successful sneak attack on a target creature, you can reduce your extra damage and deal Charisma damage instead. For every 2 dice of extra damage that you sacrifice, your attack deals 1 point of Charisma damage.",
     "prerequisites": [
-      "Sneak attack +2d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      },
       "Evil"
     ]
   },
@@ -39171,7 +39264,10 @@
         "value": "caster",
         "level": 5
       },
-      "Sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "2699": {
@@ -40867,7 +40963,10 @@
     "isSkillTrick": false,
     "benefit": "When you use your sneak attack ability against an evil creature, roll d8s for your sneak attack dice (instead of d6s) and your sneak attack damage is considered good-aligned for purposes of overcoming damage reduction.",
     "prerequisites": [
-      "Sneak attack class ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "2815": {
@@ -41286,7 +41385,10 @@
     "isSkillTrick": false,
     "benefit": "While you are in a wild shape, any time you make a successful grapple check to damage a creature with which you are already grappling, you can add your sneak attack damage as well. Creatures not subject to sneak attacks don't take this extra damage.",
     "prerequisites": [
-      "sneak attack",
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      },
       "Wild shape"
     ]
   },
@@ -43098,7 +43200,12 @@
     "isSkillTrick": false,
     "benefit": "The target of your sneak attack, if it is a living creature, is sickened for 1 round.",
     "prerequisites": [
-      "Sneak attack +2d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      }
     ]
   },
   "2970": {
@@ -43180,7 +43287,10 @@
     "isSkillTrick": false,
     "benefit": "You can use one of the daily uses of your silence spell-like ability to turn a sneak attack into a silencing strike. You must declare the use of this feat before you make your attack roll. If you hit your target with a melee attack and successfully deal sneak attack damage, a fi eld of supernatural silence also surrounds the target. The effect of this fi eld of silence is identical to that of the spell of the same name, except that there is no saving throw to resist this effect. The silence lasts for a number of rounds equal to your character level. You can dismiss the fi eld as a standard action.",
     "prerequisites": [
-      "sneak attack ability",
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      },
       {
         "type": "races",
         "id": "42"
@@ -43813,7 +43923,12 @@
     "isSkillTrick": false,
     "benefit": "Any attack of opportunity you make is considered a sneak attack.",
     "prerequisites": [
-      "Sneak attack +8d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 8,
+        "diceType": "d6"
+      },
       "opportunist class feature"
     ]
   },
@@ -45223,7 +45338,10 @@
         "type": "bab",
         "value": 6
       },
-      "sneak attack"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "3126": {
@@ -45237,7 +45355,10 @@
         "type": "bab",
         "value": 6
       },
-      "sneak attack ability"
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      }
     ]
   },
   "3127": {
@@ -46936,7 +47057,12 @@
     "benefit": "Your rogue and scout levels stack for the purpose of determining the extra damage and bonus to Armor Class granted when skirmishing. For example, a 4th-level scout/7th-level rogue would deal an extra 3d6 points of damage and gain a +3 competence bonus to AC when skirmishing, as if she were an 11th-level scout. In addition, you can qualify for ambush feats (see page 71) as if your sneak attack bonus damage were the sum of your skirmish damage and sneak attack bonus damage. You cannot sacrifice skirmish extra damage to use those feats, however.",
     "prerequisites": [
       "Skirmish +1d6/+1 AC",
-      "Sneak attack +1d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 1,
+        "diceType": "d6"
+      }
     ]
   },
   "3248": {
@@ -47515,7 +47641,12 @@
         "type": "skills",
         "id": "23"
       },
-      "Sneak attack +2d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      }
     ]
   },
   "3292": {
@@ -47766,7 +47897,12 @@
         "type": "feats",
         "id": "1809"
       },
-      "sneak attack +3d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 3,
+        "diceType": "d6"
+      }
     ]
   },
   "3308": {
@@ -48917,7 +49053,12 @@
         "type": "feats",
         "id": "1669"
       },
-      "Sneak attack +2d6"
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      }
     ]
   },
   "3394": {
@@ -49370,7 +49511,10 @@
     "benefit": "If you successfully deal sneak attack damage with a cold iron weapon, you reduce the target's spell resistance by 1 point per die of sneak attack damage. Multiple uses of this feat stack. Undo Resistance can reduce a target's spell resistance to 0, but not below 0. Spell resistance reduced in this manner returns to normal 1 hour after the last sneak attack.",
     "prerequisites": [
       "One of the following: skirmish ability",
-      "sneak attack",
+    {
+        "type": "classAbility",
+        "value": "sneak attack"
+      },
       "sudden strike"
     ]
   },
@@ -49866,7 +50010,12 @@
     "isSkillTrick": false,
     "benefit": "If you are wielding a poisoned weapon as part of your sneak attack, the poison's save DC increases by 2.",
     "prerequisites": [
-      "Sneak attack +2d6",
+      {
+        "type": "classAbility",
+        "value": "sneak attack",
+        "diceAmount": 2,
+        "diceType": "d6"
+      },
       "poison use"
     ]
   },
