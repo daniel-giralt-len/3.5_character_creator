@@ -972,7 +972,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on saving throws against polymorph or petrifi cation effects. You also gain a +1 bonus on saving throws against spells or other effects created by lawful creatures.",
     "prerequisites": [
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "73": {
@@ -1015,7 +1019,11 @@
     "isSkillTrick": false,
     "benefit": "Choose an item you own. The item must be of masterwork quality, and it must be an item that once belonged to a member of your family. Alternatively, the item may have belonged to another person to whom you are somehow connected, such as another member of your religious order. At any time, you may retreat to a consecrated or hallowed location and spend time in prayer in order to awaken the spirits in your ancestral relic. This requires a sacrifice of valuable items worth the difference between the market price of the magic item your relic will become and the market price of your current relic. This sacrifice does not have to be gold--you can sacrifice magic items or other goods worth the required amount, rather than selling your goods (at half value) to pay for the sacrifice. You must spend 1 day per 1,000 gp value you sacrifice. During this time, you must spend at least 8 hours each day in prayer or meditation, not stopping to eat or rest. For example, a 4th-level paladin has a masterwork bastard sword she inherited from her grandfather. She makes sacrifices worth 2,000 gp and spends two days in prayer and fasting in the temple of Heironeous. When she emerges, her devotion has awakened the magic inherent in the blade, making it a +1 bastard sword. When she reaches 7th level, she once again retreats to the temple for 6 days, sacrificing items worth an additional 6,000 gp to make her weapon a +2 bastard sword (market price 8,000 gp). When she reaches 11th level, she can make it a +2 holy bastard sword by making sacrifices worth 24,000 gp (the difference between 32,000 and 8,000 gp) and spending 24 days in prayer. A character's level dictates the maximum value of his or her ancestral relic, as shown in Table 4-2. No character may have more than one ancestral relic. Table 4-2: Ancestral Relic Character Maximum Character Maximum Level Relic Value Level Relic Value. 3rd - 1,350 gp. 4th - 2,700 gp. 5th - 4,500 gp. 6th - 6,500 gp. 7th - 9,500 gp. 8th - 13,500 gp. 9th - 18,000 gp. 10th - 24,500 gp. 11th - 33,000 gp. 12th - 44,000 gp. 13th - 55,000 gp. 14th - 75,000 gp. 15th - 100,000 gp. 16th - 130,000 gp. 17th - 170,000 gp. 18th - 220,000 gp. 19th - 290,000 gp. 20th - 380,000 gp.",
     "prerequisites": [
-      "Any good alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      },
       {
         "type": "level",
         "value": 3
@@ -2340,7 +2348,11 @@
     "isSkillTrick": false,
     "benefit": "As a swift action, you can channel the power of your faith and energy to enhance a single attack you make. You gain a bonus equal to your Charisma bonus (if any) on the attack roll and damage roll for the next melee attack you make against an outsider with the evil subtype. You can use this ability a number of times per day equal to your Charisma bonus (minimum l).",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "164": {
@@ -2556,7 +2568,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on Will saving throws against enchantment (charm) spells and effects. You also gain a +1 bonus on saving throws against spells or other effects created by chaotic creatures",
     "prerequisites": [
-      "Nonchaotic alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","lawful"],
+        "goodness": "*"
+      }
     ]
   },
   "176": {
@@ -2580,7 +2596,11 @@
     "isSkillTrick": false,
     "benefit": "Any weapon you wield is treated as an axiomatic weapon (lawful-aligned, deals an extra 2d6 points of damage against creatures of chaotic alignment). If the weapon already has an alignment, this feat has no effect on it.",
     "prerequisites": [
-      "any lawful alignment",
+      {
+        "type": "alignment",
+        "legality": ["lawful"],
+        "goodness": "*"
+      },
       "Smite anarchy class feature"
     ]
   },
@@ -3942,7 +3962,11 @@
     "isSkillTrick": false,
     "benefit": "If the character already has innate spell resistance, he gains a +2 profane bonus to his existing spell resistance score.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "275": {
@@ -4637,7 +4661,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on Fortitude saving throws against disease. You also gain a +1 bonus on saving throws against spells or other effects created by evil creatures.",
     "prerequisites": [
-      "Nonevil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      }
     ]
   },
   "325": {
@@ -4758,7 +4786,11 @@
         "id": "39"
       },
       "ability to cast any summon monster spell",
-      "Nonevil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      }
     ]
   },
   "333": {
@@ -5189,7 +5221,11 @@
     "benefit": "You can use any druid spell that normally targets animals against vermin as well. A mindless vermin is considered to have an Intelligence score of 2 when dealing with you and can be charmed, calmed, or targeted by wild empathy or similar abilities. In addition, you can use your summon nature's ally spells to summon vermin. Add the following monsters to the list of creatures you can summon using the appropriate summon nature's ally spell. 1st Level - Monstrous centipede, Medium, Monstrous scorpion, Small , Monstrous spider, Small. 2nd Level - Giant ant, worker , Monstrous centipede, Large; Monstrous scorpion, Medium; Monstrous spider, Medium; Spider swarm. 3rd Level - Giant ant, queen , Giant ant, soldier ; Monstrous centipede, Huge ; Monstrous spider, Large. 4th Level - Giant praying mantis; Giant wasp ; Locust swarm; Monstrous scorpion, Large. 5th Level - Centipede swarm,; Carrion crawler; Giant stag beetle. 6th Level - Monstrous centipede, Gargantuan; Monstrous scorpion, Huge. 7th Level - Hellwasp swarm; Monstrous spider, Gargantuan. 8th Level - Monstrous centipede, Colossal; Monstrous scorpion, Gargantuan. 9th Level - Monstrous scorpion, Colossal; Monstrous spider, Colossal.",
     "prerequisites": [
       "Ability to spontaneously cast summon nature's ally",
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "366": {
@@ -6623,7 +6659,11 @@
     "isSkillTrick": false,
     "benefit": "A spell you modify with this feat gains the good descriptor. Furthermore, if the spell deals damage, half that damage (rounded down) results from divine power and can't be reduced by resistance or immunity to energy-based attacks. For example, if a consecrated lightning bolt cast by a 7th-level wizard deals 24 points of damage, 12 points of that is electricity damage and the other 12 points is not. Thus, a nongood creature immune to electricity still takes 12 points of damage if it fails its Reflex save. A consecrated spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "458": {
@@ -6633,7 +6673,11 @@
     "isSkillTrick": false,
     "benefit": "A spell you modify with this feat gains the good descriptor. Furthermore, if the spell deals damage, half of the damage (rounded down) results directly from divine power and is therefore not subject to be reduced by resistance or immunity to energy-based attacks. For example, a consecratedfirestorm spell cast by a 16th-level cleric deals 16d6 points of damage, half of which isfiredamage and half of which is sheer divine power. Thus, creatures immune tofirestill take damage. The consecrated spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "459": {
@@ -6643,7 +6687,11 @@
     "isSkillTrick": false,
     "benefit": "This feat adds the good descriptor to a spell-like ability. Furthermore, if the ability deals damage, half that damage (rounded down) results from divine power and can't be reduced by resistance or immunity to energy-based attacks. For example, if a consecrated lightning bolt from an avoral deals 31 points of damage, 16 points of that is electricity damage and the other 15 points is not. Thus, a nongood creature immune to electricity still takes 15 points of damage if it fails its Reflex save. Each of your spell-like abilities can be consecrated three times per day, though this feat does not allow you to exceed your normal usage limit for any ability. Thus, if a tulani eladrin chooses to consecrate its chain lightning ability, it can use a consecrated chain lightning up to three times that day. Thereafter, it could use its chain lightning ability again normally (since it can use chain lightning at will), or it could consecrate another of its spell-like abilities, such as meteor swarm.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "460": {
@@ -6663,7 +6711,11 @@
     "bookId": "3",
     "isSkillTrick": false,
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "462": {
@@ -6917,7 +6969,11 @@
     "special": "Your magical research has taken its toll on your mind. When you acquire this feat, your Wisdom score is immediately reduced by 2 points. Restorative spells (such as <em>restoration</em> or <em>greater restoration</em>) do not reverse this Wisdom loss.",
     "benefit": "Add a +1 bonus to the DC for all sorcerer and wizard spells you cast. You get a +1 bonus on all caster level checks to overcome spell resistance with your sorcerer and wizard spells.",
     "prerequisites": [
-      "non-good alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      },
       "Sorcerer or wizard level 3rd"
     ]
   },
@@ -6929,7 +6985,11 @@
     "special": "A character may take this feat multiple times, choosing a different spell each time.",
     "benefit": "This feat adds the evil descriptor to a spell. Furthermore, if the spell deals damage, half of the damage is unholy damage. For example, a corrupted fireball cast by a 6th-level wizard deals 6d6 points of damage: 3d6 points of fire damage and 3d6 points of unholy damage. Thus, creatures immune to fire still potentially take 3d6 points of damage. The corrupted spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "484": {
@@ -6939,7 +6999,11 @@
     "isSkillTrick": false,
     "benefit": "This feat adds the evil descriptor to a spell. Furthermore, if the spell deals damage, half of the damage (rounded down) results directly from divine power and is therefore not subject to be reduced by resistance or immunity to energy-based attacks. The corrupted spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "485": {
@@ -6950,7 +7014,11 @@
     "special": "A character can take this feat multiple times, choosing a different spell each time. This feat originally appeared in Book of Vile Darkness and has been revised for D&amp;amp;D v.3.5",
     "benefit": "This feat adds the evil descriptor to one damaging spell you can cast. You must choose the spell at the time you select the feat. If the spell deals damage, half of the damage is unholy damage. For example, a corrupted fi reball cast by a 6th-level wizard deals 6d6 points of damage: 3d6 points offiredamage and 3d6 points of unholy damage. Thus, creatures immune tofirestill potentially take 3d6 points of damage.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "486": {
@@ -6960,7 +7028,11 @@
     "isSkillTrick": false,
     "benefit": "You add +1 to the DC for all saving throws against any spells you cast that have a corrupt component.",
     "prerequisites": [
-      "Any nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "487": {
@@ -6971,7 +7043,11 @@
     "special": "This feat can be taken multiple times. Each time it is taken, the creature can apply it to each of its spell-like abilities three additional times per day.",
     "benefit": "This feat adds the evil descriptor to a spell-like ability. Furthermore, if the spell-like ability deals damage, half of that damage (rounded down) is unholy damage. For example, if a corrupted fireball from a pit fiend deals a total of 35 points of damage, half of that amount (18 points) is fire damage and the other half (17 points) is unholy damage.Nonevil creatures immune to fire still take the 17 points of unholy damage. Each of a creature's spell-like abilities can be corrupted three times per day, though the feat does not allow the creature to exceed its normal usage limit for any ability. Thus, if a pit fiend chooses to corrupt its fireball ability, it can use a corrupted fireball up to three times that day. Thereafter, it could use its fireball ability again normally (since it can use fireball at will), or it could corrupt another of its spell-like abilities, such as meteor swarm.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "488": {
@@ -8794,7 +8870,11 @@
         "score": "WIS",
         "value": 13
       },
-      "any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "611": {
@@ -9151,7 +9231,11 @@
         "type": "feats",
         "id": "3567"
       },
-      "Evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "633": {
@@ -9166,7 +9250,11 @@
         "type": "feats",
         "id": "3567"
       },
-      "Evil alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      },
       {
         "type": "size",
         "value": "medium"
@@ -9184,7 +9272,11 @@
         "type": "feats",
         "id": "3567"
       },
-      "Evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "635": {
@@ -9198,7 +9290,11 @@
         "type": "feats",
         "id": "3567"
       },
-      "Evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "636": {
@@ -10094,7 +10190,11 @@
     "special": "This feat can only be taken once. A character who takes this feat cannot also take the <a href=\"/feats/champions-of-ruin--27/scion-of-sorrow--2522/\">Scion of Sorrow</a> or <a href=\"/feats/champions-of-ruin--27/thrall-to-demon--2908/\">Thrall to Demon</a> feat.",
     "benefit": "Once per day, while performing an evil act, you can call upon your diabolic patron to add a +1 luck bonus to any one attack roll, saving throw, ability check, skill check, or level check.",
     "prerequisites": [
-      "Lawful evil alignment"
+      {
+        "type": "alignment",
+        "legality": ["lawful"],
+        "goodness": ["evil"]
+      }
     ]
   },
   "697": {
@@ -10105,7 +10205,11 @@
     "benefit": "You may spend two turn undead attempts when you turn undead instead of one. If you do then you get destroy the undead instead of turning them.",
     "prerequisites": [
       "Ability to turn or rebuke undead",
-      "good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "698": {
@@ -10444,7 +10548,11 @@
     "benefit": "You can spend one of your turn undead attempts as a standard action to channel your god's outrage, condemning all evil outsiders within 30 feet. Such creatures must make a Will save (DC 10 + 1/2 your character level + your Cha modifi er) or become shaken for a number of rounds equal to your Charisma modifi er (minimum 1 round).",
     "prerequisites": [
       "Ability to turn undead",
-      "good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "723": {
@@ -14393,7 +14501,11 @@
     "benefit": "Your spells are infused with positive energy. An energized spell deals an extra 50% damage to undead creatures, but deals 50% less damage to nonundead creatures and to objects. An energized spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
       "must not have the ability to rebuke undead",
-      "Nonevil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      }
     ]
   },
   "988": {
@@ -14620,7 +14732,11 @@
     "benefit": "Your spells are infused with negative energy. An enervated spell deals an extra 50% damage to living creatures, but deals 50% less damage to constructs, undead, and objects. An enervated spell uses up a spell slot two levels higher than the spell's actual level.",
     "prerequisites": [
       "must not have the ability to turn undead",
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1005": {
@@ -14639,7 +14755,11 @@
         "score": "CHA",
         "value": 15
       },
-      "non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1006": {
@@ -17963,7 +18083,11 @@
     "benefit": "Instead of calling a normal animal companion, you can call a feral animal companion that foams at the mouth. Any creature harmed by the animal's bite attack must succeed on a DC 15 Fortitude save or contract red ache (see Dungeon Master's Guide page 292). The disease has no harmful effect on the feral animal. In addition, your feral animal companion gains a +2 bonus to Strength and Constitution. Attempts by others to infl uence your feral animal companion with Handle Animal checks take a -10 penalty.",
     "prerequisites": [
       "Animal companion class feature",
-      "evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "1250": {
@@ -17998,7 +18122,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +3 bonus on Will saving throws against enchantment effects.",
     "prerequisites": [
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "1253": {
@@ -18016,7 +18144,11 @@
         "type": "level",
         "value": 9
       },
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "1254": {
@@ -18030,7 +18162,11 @@
         "type": "feats",
         "id": "1252"
       },
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "1255": {
@@ -18048,7 +18184,11 @@
         "type": "level",
         "value": 6
       },
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "1256": {
@@ -18062,7 +18202,11 @@
         "type": "feats",
         "id": "1252"
       },
-      "Nonlawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","chaotic"],
+        "goodness": "*"
+      }
     ]
   },
   "1257": {
@@ -18135,7 +18279,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on Fortitude saving throws against poison. You also gain a +1 bonus on saving throws against spells or other effects created by good creatures.",
     "prerequisites": [
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1261": {
@@ -18145,7 +18293,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +4 bonus on Fortitude saving throws against poison. You also gain a +1 bonus on saving throws against spells or other effects produced by good creatures.",
     "prerequisites": [
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1262": {
@@ -18163,7 +18315,11 @@
         "type": "level",
         "value": 9
       },
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1263": {
@@ -18177,7 +18333,11 @@
         "type": "feats",
         "id": "1260"
       },
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1264": {
@@ -18195,7 +18355,11 @@
         "type": "level",
         "value": 6
       },
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1265": {
@@ -18209,7 +18373,11 @@
         "type": "feats",
         "id": "1260"
       },
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1266": {
@@ -18228,7 +18396,11 @@
         "id": "39"
       },
       "ability to cast any summon monster spell",
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1267": {
@@ -20920,7 +21092,11 @@
         "type": "feats",
         "id": "486"
       },
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1453": {
@@ -23286,7 +23462,11 @@
     "isSkillTrick": false,
     "benefit": "Any weapon you wield is treated as a holy weapon (it deals +2d6 points of damage against creatures of evil alignment). This ability doesn't stack with similar abilities (for instance, if the weapon is already a holy weapon). In addition, the weapon is considered blessed, which means it has special effects on certain creatures.",
     "prerequisites": [
-      "any good alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      },
       "Smite evil class feature"
     ]
   },
@@ -23297,7 +23477,11 @@
     "isSkillTrick": false,
     "benefit": "Any weapon you wield is treated as a holy weapon (it deals +2d6 points of damage against creatures of evil alignment). This ability doesn't stack with similar abilities (for instance, if the weapon is already a holy weapon). In addition, the weapon is considered blessed, which means it has special effects on certain creatures.",
     "prerequisites": [
-      "any good alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      },
       "Smite evil class feature"
     ]
   },
@@ -23378,7 +23562,11 @@
         "score": "CHA",
         "value": 17
       },
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "1610": {
@@ -30558,7 +30746,11 @@
     "isSkillTrick": false,
     "benefit": "Add +2 to the DC for all saving throws against any of the character's spells that have the evil descriptor",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2093": {
@@ -30569,7 +30761,11 @@
     "special": "This feat originally appeared in Book of Vile Darkness and has been revised for D&amp;amp;D v.3.5.",
     "benefit": "Add +1 to the DC for all saving throws against any of your spells that have the evil descriptor.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2094": {
@@ -33592,7 +33788,11 @@
         "type": "bab",
         "value": 4
       },
-      "any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2292": {
@@ -33826,7 +34026,11 @@
     "benefit": "You can shape soulmelds with the necrocarnum descriptor regardless of your alignment. You gain a +1 profane bonus on the save DCs of your necrocarnum soulmelds.",
     "prerequisites": [
       "Ability to shape soulmelds",
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "2310": {
@@ -33916,7 +34120,11 @@
       },
       "ability to rebuke or command undead",
       "able to cast infl ict critical wounds",
-      "any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2317": {
@@ -33933,7 +34141,11 @@
       },
       "ability to cast inflict critical wounds",
       "ability to rebuke or command undead",
-      "any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2318": {
@@ -34089,7 +34301,11 @@
     "benefit": "Add Hide and Move Silently to your list of druid class skills.",
     "prerequisites": [
       "ability to spontaneously cast summon nature's ally",
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "2329": {
@@ -34792,7 +35008,11 @@
         "saveType": "will",
         "value": 4
       },
-      "Nonchaotic alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral","lawful"],
+        "goodness": "*"
+      }
     ]
   },
   "2379": {
@@ -37438,7 +37658,11 @@
     "benefit": "As a standard action, you can spend one of your rebuke attempts to bathe all undead creatures within 60 feet in divine energy, granting them a +1 profane bonus to Armor Class for 1 minute.",
     "prerequisites": [
       "Ability to rebuke undead",
-      "evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2559": {
@@ -38278,7 +38502,11 @@
     "isSkillTrick": false,
     "benefit": "You do not gain taint.",
     "prerequisites": [
-      "Any non-evil alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      },
       "no taint"
     ]
   },
@@ -38289,7 +38517,11 @@
     "isSkillTrick": false,
     "benefit": "A spell you modify with this feat gains the good descriptor. Furthermore, if the spell deals damage, neutral creatures take half damage, or one-quarter with a successful saving throw (if allowed), while good creatures take no damage at all. Evil outsiders affected by the spell take extra damage: The spell's damage is increased by one die type (each 1d6 becomes 1d8, each 1d8 becomes 2d6, and so on, using the same progression as weapons increasing in size). For example, a purified lightning bolt cast by a 7th-level wizard deals 7d6 points of electricity damage to evil creatures, half damage to neutral creatures, and no damage at all to good creatures caught in its path. Evil outsiders (except ones immune to electricity) take 7d8 points of damage. A purified spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "2618": {
@@ -38310,7 +38542,11 @@
     "isSkillTrick": false,
     "benefit": "This feat adds the good descriptor to a spell-like ability. Furthermore, if the ability deals damage, neutral creatures take half damage, or one-quarter with a successful saving throw (if allowed), while good creatures take no damage at all. Evil outsiders affected by the ability take extra damage: The ability's damage is increased by one die type (each 1d6 becomes 1d8, each 1d8 becomes 2d6, and so on, using the same progression as weapons increasing in size). For example purified lightning bolt cast by an avoral deals 8d6 points of electricity damage to evil creatures, half damage to neutral creatures, and no damage at all to good creatures caught in its path. Evil outsiders (except ones immune to electricity) take 8d8 points of damage. Each of your spell-like abilities can be purified three times per day, though this feat does not allow you to exceed your normal usage limit for any ability. Thus, if a tulani eladrin chooses to purify its chain lightning ability, it can use a purified chain lightning up to three times that day. Thereafter, it could use its chain lightning ability again normally (since it can use chain lightning at will), or it could purify another of its spell-like abilities, such as meteor swarm.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "2620": {
@@ -39718,7 +39954,11 @@
     "isSkillTrick": false,
     "benefit": "A raise dead, reincarnate, or resurrection spell cannot return to life a creature killed by a reaping spell, and a true resurrection spell has only a 50% chance of succeeding. A reaping spell that fails to kill the target has no additional effect. A reaping spell uses up a spell slot three levels higher than the spell's actual level",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "2714": {
@@ -40737,7 +40977,11 @@
         "score": "WIS",
         "value": 19
       },
-      "any lawful alignment"
+      {
+        "type": "alignment",
+        "legality": ["lawful"],
+        "goodness": "*"
+      }
     ]
   },
   "2782": {
@@ -40815,7 +41059,11 @@
         "type": "skills",
         "id": "39"
       },
-      "Good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "2786": {
@@ -40849,7 +41097,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +1 bonus on saving throws against poison and disease. If you deal damage to a vermin that has not already dealt damage to you or to one of your allies, this benefit ends immediately. Ritual of the Timeless Soul You have been blessed by the faerie lords of Thelanis in a ritual of the Greensinger sect, and you temporarily slip from time's grasp. Prerequisite: Chaotic alignment. Benefit: You are immune to any harmful effects of flowing time due to planar travel (such as a journey to Thelanis, the Faerie Court). Time &amp;quot;lost&amp;quot; due to planar effects never catches up with you. (If the duration of this effect expires while you are still on a plane that experiences flowing time, any further time spent on that plane has the normal effect upon you.) If you deal damage to a fey that has not already dealt damage to you or to one of your allies, this benefit ends immediately.",
     "prerequisites": [
-      "Non-good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "2789": {
@@ -40873,7 +41125,11 @@
     "isSkillTrick": false,
     "benefit": "You don't take any penalty on Tumble or Move Silently checks made in areas of undergrowth, and you treat such squares as if they were normal terrain rather than difficult terrain (see page 87 of the Dungeon Master's Guide). Heavy undergrowth, as well as other forms of difficult terrain, affects your movement normally. If you deal damage to an animal or plant that has not already dealt damage to you or to one of your allies, this benefit ends immediately.",
     "prerequisites": [
-      "Non-evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      }
     ]
   },
   "2791": {
@@ -41746,7 +42002,11 @@
     "special": "This feat can only be taken once. A character who takes this feat cannot also take the <a href=\"/feats/champions-of-ruin--27/disciple-of-darkness--626/\">Disciple of Darkness</a> or <a href=\"/feats/champions-of-ruin--27/thrall-to-demon--2908/\">Thrall to Demon</a> feat.",
     "benefit": "Once per day, while performing an evil act, you can call upon your fi endish patron to add a +1 luck bonus to any one attack roll, saving throw, ability check, skill check, or level check.",
     "prerequisites": [
-      "Neutral evil alignment"
+      {
+        "type": "alignment",
+        "legality": ["neutral"],
+        "goodness": ["evil"]
+      }
     ]
   },
   "2855": {
@@ -44718,7 +44978,11 @@
     "special": "The +2 increase also applies to the Difficulty Class for a possessing fiend to Hide from your good spells such as detect evil or magic circle against evil (as detailed in the Book of Vile Darkness).",
     "benefit": "Add +2 to the Difficulty Class for all saving throws against your spells with the good descriptor.",
     "prerequisites": [
-      "Any good alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["good"]
+      }
     ]
   },
   "3062": {
@@ -45424,7 +45688,11 @@
         "id": "39"
       },
       "able to cast any cure wounds spell",
-      "nonevil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "good"]
+      }
     ]
   },
   "3115": {
@@ -45483,7 +45751,11 @@
         "value": 13
       },
       "able to cast any infl ict wounds spell",
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3118": {
@@ -48431,7 +48703,11 @@
         "type": "feats",
         "id": "3323"
       },
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3321": {
@@ -48445,7 +48721,11 @@
         "type": "feats",
         "id": "3323"
       },
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3322": {
@@ -48459,7 +48739,11 @@
         "type": "feats",
         "id": "3323"
       },
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3323": {
@@ -48469,7 +48753,11 @@
     "isSkillTrick": false,
     "benefit": "You are healed by negative energy and harmed by positive energy as if you were an undead creature. This feat gives no other penalties or benefi ts of the undead type.",
     "prerequisites": [
-      "Nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3324": {
@@ -48578,7 +48866,11 @@
     "special": "To keep this feat, a character must demonstrate periodic acts of kindness and mercy. A DM can revoke this feat if the character fails to act in an appropriately confl icted manner.",
     "benefit": "Although you are evil and spells such as detect evil reveal your true alignment, you have a 50% chance of ignoring any effect that specifi cally targets or damages evil creatures.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "3331": {
@@ -49748,7 +50040,11 @@
         "type": "level",
         "value": 6
       },
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3416": {
@@ -49873,7 +50169,11 @@
     "isSkillTrick": false,
     "benefit": "Any weapon you wield is treated as an unholy weapon (it deals +2d6 points of damage against creatures of good alignment). This ability doesn't stack with similar abilities (for instance, if the weapon is already an unholy weapon).",
     "prerequisites": [
-      "any evil alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      },
       "Smite good class feature"
     ]
   },
@@ -49884,7 +50184,11 @@
     "isSkillTrick": false,
     "benefit": "Any weapon you wield is treated as a unholy weapon (it deals +2d6 points of damage against creatures of good alignment). This ability doesn't stack with similar abilities (for instance, if the weapon is already an unholy weapon).",
     "prerequisites": [
-      "any evil alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      },
       "Smite good class feature"
     ]
   },
@@ -50285,7 +50589,11 @@
     "isSkillTrick": false,
     "benefit": "You do not register as evil to detect evil spells, spell-like abilities, or supernatural abilities unless the aura power (see the detect evil spell, Player's Handbook page 218) of the detector exceeds your own. For example, the aura power of a paladin 7/blackguard 1 is moderate, so a good-aligned cleric would need to be 9th level to detect his evil nature. This feat provides no benefi t against attempts to smite evil or spells such as holy smite or holy word. You are evil, you simply do not register as such to most detect evil attempts.",
     "prerequisites": [
-      "Any evil alignment",
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      },
       "cannot worship an evil god",
       "not an outsider"
     ]
@@ -50355,7 +50663,11 @@
       "ability to acquire a new animal companion",
       "Druid level 3rd",
       "minimum level requirement (see below)",
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3460": {
@@ -50371,7 +50683,11 @@
         "id": "365"
       },
       "Druid level 5th",
-      "nongood alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["neutral", "evil"]
+      }
     ]
   },
   "3461": {
@@ -50687,7 +51003,11 @@
     "special": "A character may take this feat multiple times, choosing a different spell each time.",
     "benefit": "This feat adds the evil descriptor to a spell. Furthermore, if the spell deals damage, half of the damage dealt is vile damage. For example, a violated lightning bolt cast by an 8th-level wizard deals 8d6 points of damage: 4d6 points of electricity damage and 4d6 points of vile electricity damage (but creatures immune to electricity take no damage). A violated spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": [
-      "Any evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "3483": {
@@ -51796,7 +52116,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a +3 bonus on Intimidate checks.",
     "prerequisites": [
-      "Evil alignment"
+      {
+        "type": "alignment",
+        "legality": "*",
+        "goodness": ["evil"]
+      }
     ]
   },
   "3569": {
