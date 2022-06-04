@@ -993,7 +993,7 @@
       "Any good alignment",
       {
         "type": "level",
-        "value": "3rd"
+        "value": 3
       }
     ]
   },
@@ -3822,7 +3822,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       }
     ]
   },
@@ -10976,7 +10976,7 @@
       "Ability to project two different draconic auras",
       {
         "type": "level",
-        "value": "12th"
+        "value": 12
       }
     ]
   },
@@ -10989,7 +10989,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "12th"
+        "value": 12
       },
       "ability to project two different draconic auras"
     ]
@@ -17608,7 +17608,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "Human or half-human"
     ]
@@ -17823,7 +17823,7 @@
       },
       {
         "type": "level",
-        "value": "9th"
+        "value": 9
       },
       "Nonlawful alignment"
     ]
@@ -17855,7 +17855,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "Nonlawful alignment"
     ]
@@ -17954,7 +17954,7 @@
       },
       {
         "type": "level",
-        "value": "9th"
+        "value": 9
       },
       "Non-good alignment"
     ]
@@ -17986,7 +17986,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "Non-good alignment"
     ]
@@ -20782,7 +20782,7 @@
       },
       {
         "type": "level",
-        "value": "17th"
+        "value": 17
       },
       "learn and perform the associated greater legacy ritual of the chosen item"
     ]
@@ -28675,7 +28675,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5th"
+        "value": 5
       },
       "learn and perform the associated least legacy ritual of the chosen item"
     ]
@@ -28990,7 +28990,7 @@
       },
       {
         "type": "level",
-        "value": "11th"
+        "value": 11
       },
       "learn and perform the associated lesser legacy ritual of the chosen item"
     ]
@@ -30165,7 +30165,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "any luck feat"
     ]
@@ -34167,7 +34167,7 @@
       " CON 17",
       {
         "type": "level",
-        "value": "18th"
+        "value": 18
       }
     ]
   },
@@ -34186,7 +34186,7 @@
       },
       {
         "type": "level",
-        "value": "18th"
+        "value": 18
       }
     ]
   },
@@ -34204,7 +34204,7 @@
       },
       {
         "type": "level",
-        "value": "21st"
+        "value": 21
       }
     ]
   },
@@ -34223,7 +34223,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       }
     ]
   },
@@ -34242,7 +34242,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       }
     ]
   },
@@ -34261,7 +34261,7 @@
       },
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       }
     ]
   },
@@ -34280,7 +34280,7 @@
       },
       {
         "type": "level",
-        "value": "12th"
+        "value": 12
       }
     ]
   },
@@ -34299,7 +34299,7 @@
       },
       {
         "type": "level",
-        "value": "12th"
+        "value": 12
       }
     ]
   },
@@ -34318,7 +34318,7 @@
       },
       {
         "type": "level",
-        "value": "12th"
+        "value": 12
       }
     ]
   },
@@ -34354,7 +34354,7 @@
       },
       {
         "type": "level",
-        "value": "24th"
+        "value": 24
       }
     ]
   },
@@ -37304,7 +37304,7 @@
       },
       {
         "type": "level",
-        "value": "3rd"
+        "value": 3
       },
       "Human or half-human"
     ]
@@ -46361,7 +46361,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "Deep gnome"
     ]
@@ -48572,7 +48572,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6th"
+        "value": 6
       },
       "completion of a bonding ritual"
     ]
