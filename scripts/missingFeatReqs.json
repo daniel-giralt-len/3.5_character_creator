@@ -334,9 +334,6 @@
   "Netherese Battle Curse",
   "Precocious Apprentice"
  ],
- "deity Boccob": [
-  "Arcane Insight"
- ],
  "Ability to cast arcane spells or use spelllike abilities (including invocations)": [
   "Arcane mastery"
  ],
@@ -2303,9 +2300,6 @@
  "Ethran. REGION: Rashemen": [
   "Draw From The Land"
  ],
- "deity Hextor": [
-  "Dread Tyranny"
- ],
  "Human (Rashemen)": [
   "Dreadful Wrath"
  ],
@@ -2769,9 +2763,6 @@
   "Initiate of Loviatar",
   "Initiate of Tiamat "
  ],
- "deity Kord": [
-  "Eternal Strength"
- ],
  "Female": [
   "Ethran",
   "Ethran"
@@ -3005,9 +2996,6 @@
   "Law Inviolate",
   "Servant of the Fallen",
   "Whispered Secrets"
- ],
- "deity Fharlanghn": [
-  "Far Horizons"
  ],
  "ability to use wild shape": [
   "Fast Wild Shape",
@@ -4082,9 +4070,6 @@
  "Outsider": [
   "Infernal Bargainer"
  ],
- "deity Aasterinian": [
-  "Initiate of Aasterinian "
- ],
  "Cleric or Paladin 4th": [
   "Initiate of Amaunator"
  ],
@@ -4110,13 +4095,7 @@
  "patron deity Arvoreen": [
   "Initiate of Arvoreen"
  ],
- "deity Astilabor": [
-  "Initiate of Astilabor "
- ],
  "Cleric level 3rd. dragonblood subtype": [
-  "Initiate of Bahamut "
- ],
- "deity Bahamut": [
   "Initiate of Bahamut "
  ],
  "patron deity Baravar Cloakshadow": [
@@ -4131,12 +4110,6 @@
  "patron deity Eilistraee": [
   "Initiate of Eilistraee"
  ],
- "deity Fa 1 azure": [
-  "Initiate of Falazure "
- ],
- "deity Garyx": [
-  "Initiate of Garyx "
- ],
  "patron deity Ghaunadaur": [
   "Initiate of Ghaunadaur"
  ],
@@ -4145,9 +4118,6 @@
  ],
  "patron deity Gruumsh": [
   "Initiate of Gruumsh"
- ],
- "deity Hlal": [
-  "Initiate of Hlal "
  ],
  "ranger 4th": [
   "Initiate of Horus-Re"
@@ -4161,14 +4131,8 @@
  "patron deity Ilmater": [
   "Initiate of Ilmater"
  ],
- "deity lo": [
-  "Initiate of Io "
- ],
  "patron deity Kossuth": [
   "Initiate of Kossuth"
- ],
- "deity Lendys": [
-  "Initiate of Lendys "
  ],
  "patron deity Loviatar": [
   "Initiate of Loviatar"
@@ -4201,9 +4165,6 @@
  "Cleric level": [
   "Initiate of Tamara"
  ],
- "deity Tamara": [
-  "Initiate of Tamara"
- ],
  "Cleric or Blackguard 3rd": [
   "Initiate of Tchazzar"
  ],
@@ -4230,9 +4191,6 @@
  ],
  "Selune": [
   "Initiate of the Holy Realm"
- ],
- "deity Tiamat": [
-  "Initiate of Tiamat "
  ],
  "patron deity Torm": [
   "Initiate of Torm"
@@ -4434,9 +4392,6 @@
  ],
  "Reach (Large size or larger)": [
   "Large and in Charge"
- ],
- "deity St. Cuthbert": [
-  "Law Inviolate"
  ],
  "must be lawful": [
   "Law Inviolate"
@@ -5317,9 +5272,6 @@
  ],
  "Any Mark of Scribing": [
   "Quill of Sivis"
- ],
- "deity Pelor": [
-  "Radiant Fire"
  ],
  "faerie ?re as a spell-like ability": [
   "Radiant Flicker"
@@ -6356,9 +6308,6 @@
  "One of the following: skirmish ability": [
   "Undo Resistance"
  ],
- "deity Wee Jas": [
-  "Undying Fate"
- ],
  "Smite good class feature": [
   "Unholy Strike",
   "Unholy Strike"
@@ -6490,9 +6439,6 @@
  ],
  "Martial Weapon Profi ciency (longsword)": [
   "Whirling Steel Strike"
- ],
- "deity Vecna": [
-  "Whispered Secrets"
  ],
  "One White Raven stance": [
   "White Raven Defense"

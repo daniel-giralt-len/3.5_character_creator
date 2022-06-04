@@ -1289,7 +1289,11 @@
         "type": "feats",
         "id": "3343"
       },
-      "arcane caster level 6th"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 6
+      }
     ]
   },
   "97": {
@@ -1345,7 +1349,11 @@
         "type": "skills",
         "id": "51"
       },
-      "arcane caster level 1st"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 1
+      }
     ]
   },
   "101": {
@@ -1505,7 +1513,11 @@
         "type": "feats",
         "id": "3343"
       },
-      "arcane caster level 3rd"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 3
+      }
     ]
   },
   "113": {
@@ -2765,7 +2777,11 @@
     "isSkillTrick": false,
     "benefit": "Each time you cast a spell that requires a target to make a saving throw, that target gains a battle magic tactics token after the spell resolves. A creature gains a token whether the creature succeeds or fails, but a creature that avoids a spell through spell esistance does not gain a token. Each battle magic token imposes a cumulative -1 Penalty on saving throws against the spells of spellcasters who have this feat. At the end of the round all battle magic tactics tokens dissapear.",
     "prerequisites": [
-      "Arcane caster level 3rd",
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 3
+      },
       "Spellcraft 6 Ranks"
     ]
   },
@@ -5805,7 +5821,11 @@
         "type": "classes",
         "id": "976"
       },
-      "arcane caster level 1st"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 1
+      }
     ]
   },
   "423": {
@@ -33106,7 +33126,11 @@
         "type": "skills",
         "id": "33"
       },
-      "arcane caster level 1st"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 1
+      }
     ]
   },
   "2324": {
@@ -33481,7 +33505,11 @@
         "type": "skills",
         "id": "27"
       },
-      "arcane caster level 3rd"
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 3
+      }
     ]
   },
   "2355": {
@@ -36277,7 +36305,11 @@
     "special": "You can take this feat only as a 1st-level character.",
     "benefit": "Choose one 2nd-level spell from a school of magic you have access to. You gain an extra 2nd-level spell slot that must be used initially to cast only the chosen spell. Until your level is high enough to allow you to cast 2nd-level spells, you must succeed on a DC 8 caster level check to successfully cast this spell; if you fail, the spell is miscast to no effect. Your caster level with the chosen spell is your normal caster level, even if this level is insufficient to cast the spell under normal circumstances. When you become able to cast 2nd-level spells, you lose the benefit described above but retain the extra 2nd-level spell slot, which you can use to prepare or spontaneously cast a spell of 2nd level or lower as you normally would. Finally, you gain a +2 bonus on all Spellcraft checks.",
     "prerequisites": [
-      "arcane caster level 1st",
+      {
+        "type": "classes",
+        "value": "arcane caster",
+        "level": 1
+      },
       "Spellcasting ability (Int or Cha) 15"
     ]
   },
