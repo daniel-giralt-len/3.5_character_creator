@@ -881,7 +881,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5"
+        "value": 5
       },
       {
         "type": "classes",
@@ -1265,7 +1265,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -1386,7 +1386,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -2014,7 +2014,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "2"
+        "value": 2
       },
       {
         "type": "classes",
@@ -2044,7 +2044,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "2"
+        "value": 2
       },
       {
         "type": "classes",
@@ -2965,7 +2965,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -3061,7 +3061,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       "any two luck feats"
     ]
@@ -3120,7 +3120,7 @@
       },
       {
         "type": "level",
-        "value": "3"
+        "value": 3
       },
       {
         "type": "classes",
@@ -4517,7 +4517,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -5418,7 +5418,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -5815,7 +5815,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -6062,7 +6062,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -6950,7 +6950,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "11"
+        "value": 11
       },
       {
         "type": "classes",
@@ -10224,7 +10224,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "3"
+        "value": 3
       },
       {
         "type": "classes",
@@ -11053,7 +11053,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -11071,7 +11071,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -11089,7 +11089,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -11338,7 +11338,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "9"
+        "value": 9
       },
       "Speak Language (Draconic)"
     ]
@@ -12491,7 +12491,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       "any two luck feats"
     ]
@@ -14029,7 +14029,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -14712,7 +14712,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "21"
+        "value": 21
       },
       "ability to manifest powers of the normal maximum power level in at least one psionic class"
     ]
@@ -14819,7 +14819,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "21"
+        "value": 21
       },
       "ability to manifest powers of the normal maximum power level in at least one psionic class"
     ]
@@ -16363,7 +16363,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "4"
+        "value": 4
       },
       {
         "type": "classes",
@@ -16451,7 +16451,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "3"
+        "value": 3
       },
       {
         "type": "classes",
@@ -20401,7 +20401,7 @@
       },
       {
         "type": "level",
-        "value": "17"
+        "value": 17
       },
       "learn and perform the associated greater legacy ritual of the chosen item"
     ]
@@ -21415,7 +21415,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5"
+        "value": 5
       },
       {
         "type": "classes",
@@ -22357,7 +22357,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5"
+        "value": 5
       },
       {
         "type": "classes",
@@ -24387,7 +24387,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "21"
+        "value": 21
       },
       "ability to manifest powers of the normal maximum power level in at least one psionic class"
     ]
@@ -24457,7 +24457,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "21"
+        "value": 21
       },
       "four metapsionic feats",
       "Psicraft 30 ranks"
@@ -26017,7 +26017,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -28198,7 +28198,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5"
+        "value": 5
       },
       "learn and perform the associated least legacy ritual of the chosen item"
     ]
@@ -28505,7 +28505,7 @@
       },
       {
         "type": "level",
-        "value": "11"
+        "value": 11
       },
       "learn and perform the associated lesser legacy ritual of the chosen item"
     ]
@@ -28683,7 +28683,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "4"
+        "value": 4
       },
       {
         "type": "classes",
@@ -28988,7 +28988,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -29025,7 +29025,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -29265,7 +29265,7 @@
       },
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       {
         "type": "classes",
@@ -29810,7 +29810,7 @@
       },
       {
         "type": "level",
-        "value": "7"
+        "value": 7
       },
       {
         "type": "classes",
@@ -31247,7 +31247,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -31268,7 +31268,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -33277,7 +33277,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -33298,7 +33298,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -33331,7 +33331,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -33349,7 +33349,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -33371,7 +33371,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -36840,7 +36840,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "21"
+        "value": 21
       },
       {
         "type": "score",
@@ -38506,7 +38506,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "5"
+        "value": 5
       },
       {
         "type": "classes",
@@ -38561,7 +38561,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -39392,7 +39392,7 @@
       },
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -40677,7 +40677,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "10"
+        "value": 10
       },
       {
         "type": "classes",
@@ -41218,7 +41218,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -43731,7 +43731,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
@@ -43882,7 +43882,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "9"
+        "value": 9
       },
       {
         "type": "classes",
@@ -46733,7 +46733,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       "any luck feat"
     ]
@@ -48569,7 +48569,7 @@
       },
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       "nongood alignment"
     ]
@@ -49066,7 +49066,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "9"
+        "value": 9
       },
       {
         "type": "classes",
@@ -49715,7 +49715,7 @@
       },
       {
         "type": "level",
-        "value": "6"
+        "value": 6
       },
       {
         "type": "classes",
@@ -50291,7 +50291,7 @@
       },
       {
         "type": "level",
-        "value": "18"
+        "value": 18
       },
       {
         "type": "classes",
@@ -50561,7 +50561,7 @@
     "prerequisites": [
       {
         "type": "level",
-        "value": "1"
+        "value": 1
       },
       {
         "type": "classes",
