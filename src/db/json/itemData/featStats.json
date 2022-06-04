@@ -351,7 +351,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an acid spell of 2nd level or higher available to cast, you can throw an orb of acid as a ranged touch attack. The attack has a range of 5 feet per level of the highest-level acid spell you have available to cast and deals 1d6 points of damage per level of that acid spell. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting acid spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "27": {
@@ -1216,7 +1219,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a water spell of 3rd level or higher available to cast, you can breathe normally in both air and water. This supernatural quality requires no activation. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting water spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "92": {
@@ -3198,7 +3204,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a 3rd-level or higher force spell available to cast, you can surround a melee weapon or a single piece of ammunition with a thin field of force. Activating this ability is a swift action; you must touch the weapon to be affected as part of the action. The next attack made with that weapon, if taken before the end of your next turn, deals an extra 1 point of damage per level of the highest-level force spell you have available to cast. Furthermore, that weapon ignores the miss chance normally granted to an incorporeal creature. If the next attack with that weapon misses, this benefit is lost. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting force spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "230": {
@@ -3869,7 +3878,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an air spell of 5th level or higher available to cast, you can fly up to 30 feet (perfect maneuverability) as a move action once per round. You must begin and end this flight solidly supported, or you fall. You can't use this ability if you wear heavy armor or carry a heavy load. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting air spells.",
     "prerequisites": [
-      "Ability to cast 5th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 5
+      }
     ]
   },
   "280": {
@@ -5284,7 +5296,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a sonic spell of 3rd level or higher available to cast, you can deliver a melee touch attack as a standard action. This attack deals 1d6 points of sonic damage per level of the highest-level sonic spell you have available to cast. Additionally, the subject must succeed on a Fortitude save or be deafened for 1 round. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting sonic spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "383": {
@@ -5624,7 +5639,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an earth spell of 2nd level or higher available to cast, you can spend a standard action to reduce the speed of any land bound creature within 30 feet of you. The creature's normal land speed, as well as its burrow and climb speeds, decrease by 5 feet per level of the highest level earth spell you have available to cast, to a minimum speed of 5 feet. This effect lasts for 1 round. A successful Fortitude save negates this effect and renders the target immune to the feat's effect for 24 hours. Creatures currently swimming or flying are immune to this effect. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting earth spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "408": {
@@ -6658,7 +6676,10 @@
         "type": "skills",
         "id": "33"
       },
-      "ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "477": {
@@ -9647,7 +9668,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a teleportation spell of 4th level or higher available to cast, you can spend a standard action to teleport yourself and carried objects up to your heavy load a distance of 5 feet per level of the highest-level teleportation spell you have available to cast. You can teleport only to a location that you can see (including one you are currently scrying). You can't bring along another creature (except for a familiar). As a secondary benefit, you gain a +1 competence bonus to your caster level when casting teleportation spells.",
     "prerequisites": [
-      "Ability to cast 4th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 4
+      }
     ]
   },
   "683": {
@@ -9657,7 +9681,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a conjuration (summoning) spell of 3rd level higher available to cast, you can transport small items directly into your hand as a standard action. You must have line of sight to an item you wish to transport in this way, and it must be unattended. This ability works at a range of up to 5 feet per level of the highest-level summoning spell you have available to cast, and the item can weigh up to 2 pounds per level of that spell. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting conjuration (summoning) spells",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "684": {
@@ -12402,7 +12429,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a water spell of 4th level or higher available to cast, you can use a standard action to transform a small portion of the air in a living creature's lungs to water, making it difficult for the creature to breathe. The subject must be within 30 feet. The target becomes exhausted for 1 round; if it succeeds on a Fortitude save, it is instead fatigued for 1 round. Whether or not a targeted creature successfully saves, it is immune to any further uses of your drowning glance for 24 hours. Creatures that can breathe water (or who don't breathe) are immune to this effect. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting water spells.",
     "prerequisites": [
-      "Ability to cast 4th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 4
+      }
     ]
   },
   "873": {
@@ -16847,7 +16877,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a glamer spell of 3rd level or higher available to cast, you can alter your appearance as the spell disguise self, except that the duration lasts 1 minute per level of the glamer spell. This illusory transformation requires a full-round action to activate. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting glamer spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "1198": {
@@ -17795,7 +17828,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a fire spell of 2nd level or higher available to cast, you can spend a standard action to create a 5-foot-radius burst of fire at a range of 30 feet. This burst deals ld6 points of fire damage per level of the highest level fire spell you have available to cast. A successful Reflex save halves the damage. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting fire spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "1268": {
@@ -22412,7 +22448,10 @@
     "isSkillTrick": false,
     "benefit": "You can spend action points to spontaneously apply the effect of any metamagic feat you know to a spell as you are casting it, with no change to the spell's level or casting time. The cost in action points to use this feat is equal to the spell slot adjustment normally required to use the metamagic feat in question. For example, applying the effect of Empower Spell (spell slot two levels higher than normal) to one of your spells using this feat costs 2 action points. If you have another ability that affects the spell slot adjustment of a metamagic feat, use that value instead of the normal spell slot adjustment when using this feat, to a minimum of 1 action point.",
     "prerequisites": [
-      "ability to cast 2nd-level spells",
+      {
+        "type": "spellcasting",
+        "level": 2
+      },
       "Any metamagic feat"
     ]
   },
@@ -22781,7 +22820,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a 4th-level or higher War domain spell available to cast, you gain a bonus on your weapon damage rolls equal to the level of the highest-level War spell you have available to cast. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting force spells.",
     "prerequisites": [
-      "Ability to cast 4th-level spells",
+      {
+        "type": "spellcasting",
+        "level": 4
+      },
       "access to the War domain"
     ]
   },
@@ -22991,7 +23033,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an air spell of 2nd level or higher available to cast, you can attempt to knock a single creature within 30 feet back with a blast of wind. This requires a standard action and functions much like a bull rush; roll 1d20 + the level of the highest-level air spell you have available to cast opposed by your opponent's Strength check. If you succeed, you push the creature back 5 feet. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting air spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "1623": {
@@ -25979,7 +26024,10 @@
         "score": "CON",
         "value": 13
       },
-      "ability to cast 1st-level spells"
+      {
+        "type": "spellcasting",
+        "level": 1
+      }
     ]
   },
   "1818": {
@@ -27247,7 +27295,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a force spell of 3rd level or higher available to cast, you can use a standard action to hurl a tiny needle-shaped projectile created from pure force. This attack requires a successful ranged attack roll (not a ranged touch attack), and the dart has a range of 5 feet per level of the force spell. The needle deals 1d4 points of damage per level of the highest-level force spell you have available. Because it is composed of force, the needle can strike incorporeal creatures. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting force spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "1907": {
@@ -29562,7 +29613,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an abjuration spell of 3rd level or higher available to cast, you can attempt to interrupt another character's spellcasting with a tiny burst of magic. As an immediate action, you can force any character within 30 feet currently casting a spell to make a Concentration check (DC 15 + the level of the highest-level abjuration spell you have available to cast); if the check fails, the spell's save DC and caster level are reduced by 2 (to a minimum caster level of 1st). As a secondary benefit, you gain a +1 competence bonus to your caster level when casting abjuration spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "2074": {
@@ -29625,7 +29679,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a divination spell of 3rd level or higher available to cast, you can sense magical auras (as if you had cast detect magic). The range of your detection is equal to 5 feet per level of the highest-level divination spell you have available to cast. Activating or concentrating on this ability requires a standard action. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting divination spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "2078": {
@@ -31463,7 +31520,10 @@
         "score": "CON",
         "value": 13
       },
-      "ability to cast 1st-level spells",
+      {
+        "type": "spellcasting",
+        "level": 1
+      },
       "any metamagic feat"
     ]
   },
@@ -31871,7 +31931,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a polymorph spell of 4th level or higher available to cast, you can spend a swift action to grant yourself one of the following BENEFITS:: Might: +2 bonus on melee damage rolls. Mobility: +2 competence bonus on Balance, Climb, Jump, and Swim checks. Savagery: Primary claw attack dealing 1d6 points of damage (assuming Medium size). Speed: +5-foot enhancement bonus to any one movement mode you already possess. Vigor: Temporary hit points equal to your HD. The chosen benefit lasts for a number of rounds equal to the level of the highest-level polymorph spell you have available to cast. If you activate this feat a second time while a previous benefit is still in effect, the first benefit ends immediately. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting polymorph spells. See page 91 for details on the new polymorph subschool of spells.",
     "prerequisites": [
-      "Ability to cast 4th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 4
+      }
     ]
   },
   "2229": {
@@ -31996,7 +32059,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have any restoration spell or another conjuration (healing) spell that cures ability damage available to cast, you can confer temporary ability points on yourself or to an ally. As a standard action, you can create 2 points + 1 point per level of the highest-level such spell you have available to cast. These ability points can be applied to any single damaged ability, raising it to a maximum of its starting score. Temporary ability points granted in this way disappear after 10 minutes, returning the subject to its previous damaged state unless some other effect restores the lost ability points first. You can use this effect on the same individual as many times as you wish. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting conjuration (healing) spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "2238": {
@@ -32829,7 +32895,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an abjuration spell of 5th level or higher available to cast, you can make another creature's spellcasting harmful to itself. Use of this feat requires a melee touch attack that does not provoke attacks of opportunity. As a standard action, with a successful touch you can infuse another creature with baneful magic for a number of rounds equal to the level of the highest-level abjuration spell you have available. A successful Will save reduces this duration to 1 round. For the duration of the effect, each time the target completes the casting of a spell, it takes damage equal to the level of the abjuration spell that determined the effect's duration. Since the spell's casting has already been completed, this doesn't count as damage dealt during casting. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting abjuration spells.",
     "prerequisites": [
-      "Ability to cast 5th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 5
+      }
     ]
   },
   "2294": {
@@ -36797,7 +36866,10 @@
         "type": "skills",
         "id": "27"
       },
-      "ability to cast 2nd-level spells",
+      {
+        "type": "spellcasting",
+        "level": 2
+      },
       "Speak Language (Draconic)"
     ]
   },
@@ -41535,7 +41607,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a darkness spell of 2nd level or higher available to cast, you can obscure the vision of a subject within 30 feet as a standard action. If the subject fails a Will save, it treats all other creatures and objects as though they had concealment and takes a -5 penalty on Spot checks for 1 round. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting darkness spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "2905": {
@@ -42583,7 +42658,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a necromancy spell of 3rd level or higher available to cast, any living creature you hit with a melee touch attack becomes sickened for a number of rounds equal to the level of the highest-level necromancy spell you have available to cast. The subject can reduce this duration to 1 round with a successful Fortitude save. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting necromancy spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "2969": {
@@ -43591,7 +43669,10 @@
     "isSkillTrick": false,
     "benefit": "Once per day per two spellcaster levels, you can cast a divine spell as an arcane spell, or vice versa. This enables you to bypass arcane spell failure due to armor, or gain additional benefit from spell that functions differently for a divine caster instead of an arcane caster, such as true seeing or magic weapon. Spells changed with this feat are often confusing to whose who haven't studied Mulan magic. Spellcasters who don't have this feat suffer a -4 penalty on attempts to counterspell or dispel this spell, and they must succeed at a caster level check (DC 11 + spell level) to detect the spell with detect magic. The actual source of the spell's power doesn't change, nor does its means of preparation. You are merely weaving the strands of magic together in an unconventional way that makes the spell behave somewhat differently.",
     "prerequisites": [
-      "ability to cast 2nd-level spells",
+      {
+        "type": "spellcasting",
+        "level": 2
+      },
       "Mulan human"
     ]
   },
@@ -44482,7 +44563,10 @@
     "isSkillTrick": false,
     "benefit": "When preparing your spells for the day, you can leave your domain slots open. You can then choose, when the situation arises, to cast any of the domain spells you could normally have prepared for a given level. However, you are still limited to one domain spell per level per day.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells",
+      {
+        "type": "spellcasting",
+        "level": 3
+      },
       "access to two or more cleric domains"
     ]
   },
@@ -45902,7 +45986,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a summoning spell of 4th level or higher available to cast, you can summon a Small elemental (air, earth, fire, or water; your choice) within a range of 30 feet. The elemental acts as if summoned by a summon monster spell (PH 285). The duration of the summoning is equal to 1 round per level of the highest-level conjuration (summoning) spell you have available to cast. You can have only one summoned elemental from this feat at a time; if you use the ability a second time, the first elemental disappears. Also, you must remain close to the elemental you summon. If at the end of your turn you are more than 30 feet from the elemental, it disappears. If you have a conjuration (summoning) spell of 6th level or higher available to cast, you can summon a Medium elemental instead. If you have a conjuration (summoning) spell of 8th level or higher available to cast, you can summon a Large elemental instead. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting conjuration (summoning) I spells.",
     "prerequisites": [
-      "Ability to cast 4th-level spells"
+      {
+        "type": "spellcasting",
+        "level": 4
+      }
     ]
   },
   "3213": {
@@ -45978,7 +46065,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a light spell of 2nd level or higher available to cast, you can take a swift action to grant yourself the ability to see normally in any conditions of illumination (shadowy illumination, darkness, and magical shadow or darkness). The range of this vision is 10 feet per level of the highest-level light spell you have available to cast, and the effect lasts for 1 round. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting light spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "3219": {
@@ -47613,7 +47703,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an enchantment spell of 3rd level or higher available to cast, you can cloud the mind of a creature within 30 feet as a standard action. The target takes a -2 penalty on its next single attack roll or Reflex saving throw. If the target makes no attacks or Reflex saves within a number of rounds equal to the level of the highest-level enchantment spell you have available to cast, the effect ends. Multiple uses of this feat don't stack. This is an enchantment (compulsion), mind-affecting effect. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting enchantment spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "3334": {
@@ -47651,7 +47744,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a conjuration (healing) spell of 2nd level or higher available to cast, you can spend a standard action to touch a target creature and heal 3 points of damage per level of the highest-level conjuration (healing) spell you have available to cast. You can use this ability only on a target that has been reduced to one-half or fewer of its total hit points. The effect ends once you've healed the subject up to half its normal maximum hit points. This ability has no effect on creatures that can't be healed by cure spells. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting conjuration (healing) spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "3337": {
@@ -48529,7 +48625,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a 3rd-level or higher darkness spell available to cast, shadows and darkness appear to obey your will. As a standard action, you can direct these shadows to obscure the vision of one foe within 30 feet. If your target fails a Will save, its attacks have a miss chance equal to 5% per level of the highest-level darkness spell you have available to cast. This effect lasts until the beginning of your next action. Creatures that do not rely on sight are unaffected by this effect, and those with Blind-Fight or similar abilities can fight as they normally would. As a secondary benefit, you gain darkvision out to 10 feet. If you already have darkvision, its range increases by 10 feet.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "3403": {
@@ -50806,7 +50905,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have an air spell of 3rd level or higher available to cast, you can spend an immediate action to alter slightly the course of an arrow, crossbow bolt, spear, or other ranged weapon already in flight. You can't change the weapon's target, but you can apply a +2 bonus or -2 penalty on its attack roll. You and the target can be no farther apart than 10 feet per level of the highest-level air spell you have available, since the guidance occurs at the end of the weapon's flight. This feat works only on thrown or projectile weapons; it can't affect spells, powers, energy attacks, or the like. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting air spells.",
     "prerequisites": [
-      "Ability to cast 3rd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 3
+      }
     ]
   },
   "3571": {
@@ -50951,7 +51053,10 @@
     "isSkillTrick": false,
     "benefit": "As long as you have a cold spell of 2nd level or higher available to cast, you can create a 15-foot cone-shaped burst of cold. This cone deals 1d4 points of cold damage per level of the highest-level cold spell you have available to cast. A successful Reflex save halves the damage. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting cold spells.",
     "prerequisites": [
-      "Ability to cast 2nd-level spells"
+      {
+        "type": "spellcasting",
+        "level": 2
+      }
     ]
   },
   "3581": {

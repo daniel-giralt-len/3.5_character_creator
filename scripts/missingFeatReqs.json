@@ -530,15 +530,6 @@
  "Craft (gemcutting) skill": [
   "Attune Gem"
  ],
- "caster level 5th": [
-  "Attune Magical Weapon",
-  "Craft Aboleth Glyph",
-  "Deathless Fleshgrafter",
-  "Eldeen Plantgrafter",
-  "Elemental Grafter",
-  "Razing Strike",
-  "Spell Drain"
- ],
  "Alchemy 24 ranks": [
   "Augmented Alchemy"
  ],
@@ -692,13 +683,6 @@
  "Spellcraft 6 Ranks": [
   "Battle Mage Tactics"
  ],
- "caster level 1st": [
-  "Battlecaster Defense",
-  "Grell Alchemy",
-  "Magic of the Land",
-  "Node Store",
-  "Smiting Spell"
- ],
  "Combat Casting or warmage edge": [
   "Battlecaster Offense"
  ],
@@ -733,9 +717,6 @@
   "Maiming Strike",
   "Sadistic Reward"
  ],
- "caster level 6th": [
-  "Beloved of Demons"
- ],
  "Knowledge (the planes) 6 ranks": [
   "Beloved of Demons"
  ],
@@ -746,12 +727,6 @@
   "Better Lucky than Good ",
   "Dumb Luck "
  ],
- "caster level 9th": [
-  "Bind Elemental",
-  "Craft Scepter",
-  "Familiar Concentration",
-  "Wand Mastery"
- ],
  "Craft Wondrous Item": [
   "Bind Elemental",
   "Craft Construct",
@@ -760,9 +735,6 @@
   "Craft Epic Wondrous Item",
   "Improved Flight Item",
   "Portal Master"
- ],
- "caster level 7th": [
-  "Black Lore of Moil"
  ],
  "Ability to channel negative energy": [
   "Blackwater Invocation"
@@ -991,12 +963,6 @@
   "Breathing Link",
   "Highborn Drow",
   "Highborn Drow"
- ],
- "Caster level 3rd": [
-  "Brew Potion",
-  "Craft Wondrous Item ",
-  "Extra Spell",
-  "Wand Surge"
  ],
  "member of the Broken Ones monk order": [
   "Broken One's Sacrifice"
@@ -1482,9 +1448,6 @@
   "Expanded Knowledge",
   "Scribe Tattoo"
  ],
- "Caster level 11th": [
-  "Craft Contingent Spell"
- ],
  "Manifester level 9th+": [
   "Craft Crystal Capacitor"
  ],
@@ -1498,12 +1461,6 @@
  "Manifester level 5th": [
   "Craft Dorje",
   "Craft Psionic Arms and Armor"
- ],
- "Caster level 5th": [
-  "Craft Magic Arms and Armor",
-  "Craft Rune Circle",
-  "Craft Wand",
-  "Spontaneous Casting"
  ],
  "Manifester level 12th": [
   "Craft Psicrown"
@@ -1519,16 +1476,6 @@
  ],
  "psionic powers)": [
   "Craft Psionic Seal"
- ],
- "Caster level 9th": [
-  "Craft Rod"
- ],
- "Caster level 6th": [
-  "Craft Skull Talisman"
- ],
- "Caster level 12th": [
-  "Craft Staff",
-  "Forge Ring"
  ],
  "Spellcaster Level 1+": [
   "Craft Talisman"
@@ -2564,9 +2511,6 @@
   "Final Strike",
   "Improved Energy Resistance"
  ],
- "caster level 3rd": [
-  "Energy Gestalt"
- ],
  "must not have the ability to turn undead": [
   "Enervate Spell"
  ],
@@ -2621,13 +2565,6 @@
  ],
  "Ability to gain a familiar": [
   "Enspell Familiar"
- ],
- "Caster level 1st": [
-  "Enspell Familiar",
-  "Mother Cyst",
-  "Scribe Scroll",
-  "Shadow Trickster",
-  "Spell Rehearsal"
  ],
  "Elemental Envoy*": [
   "Envoy Cognizance"
@@ -2736,9 +2673,6 @@
   "Eschew Materials",
   "Eschew Materials",
   "Twin Spell"
- ],
- "Caster level 10th": [
-  "Etch Schema"
  ],
  "Cleric level 5th": [
   "Eternal Strength",
@@ -2895,19 +2829,12 @@
  "Swordsage level 1st": [
   "Extra Readied Maneuver"
  ],
- "caster level 12th": [
-  "Extra Rings",
-  "Spell Stowaway"
- ],
  "two other shifter feats": [
   "Extra Shifter Trait",
   "Extra Shifter Trait",
   "Extra Shifter Trait",
   "Shifter Defense",
   "Shifter Defense"
- ],
- "Caster level 4th": [
-  "Extra Slot"
  ],
  "Spellcaster Level 4th": [
   "Extra Slot"
@@ -5264,10 +5191,6 @@
   "Rampaging Bull Rush",
   "Reckless Rage",
   "Stone Rage"
- ],
- "caster level 4th": [
-  "Ranged Spell Specialization",
-  "Touch Spell Specialization"
  ],
  "Quicken Spell or Quicken Spell-Like Ability": [
   "Rapid Breath"
