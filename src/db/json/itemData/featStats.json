@@ -3766,7 +3766,11 @@
         "score": "WIS",
         "value": 21
       },
-      "ability to cast 9th-level divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      }
     ]
   },
   "269": {
@@ -10644,7 +10648,11 @@
         "score": "WIS",
         "value": 21
       },
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "alignment matching chosen component",
       "domain of chosen alignment",
       "Improved Alignment-Based Casting"
@@ -15118,7 +15126,11 @@
         "id": "36"
       },
       "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
     ]
   },
@@ -15147,7 +15159,11 @@
         "id": "36"
       },
       "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
     ]
   },
@@ -15176,7 +15192,11 @@
         "id": "36"
       },
       "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks",
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks"
     ]
   },
@@ -22477,7 +22497,11 @@
     "isSkillTrick": false,
     "benefit": "When preparing or readying your spells for the day. you can sacrifice one spell slot ofthe highestlevel divine spell you can cast to gain 1 temporary action point. You cannot gain more than 1 action point per day in this way. If you don't use this action point before you next prepare or ready spells, it disappears.",
     "prerequisites": [
-      "Ability to cast 2nd-level divine spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "divine"
+      }
     ]
   },
   "1580": {
@@ -23395,7 +23419,11 @@
     "special": "This benefit overrides (does not stack with) the granted powers of the Chaos, Evil, Good, and Law domains. You may select this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different alignment-based domain to which you have access.",
     "benefit": "Select an alignment-based domain (Chaos, I Evil, Good, or Law) to which you have access. You cast spells with that alignment descriptor at +3 caster level.",
     "prerequisites": [
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "Access to domain of Chaos",
       "alignment must match domain chosen",
       "Evil",
@@ -23411,7 +23439,11 @@
     "special": "This benefit overrides (does not stack with) the granted powers of the Chaos, Evil, Good, and Law domains. You may select this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different alignment-based domain to which you have access.",
     "benefit": "Select an alignment-based domain (Chaos, I Evil, Good, or Law) to which you have access. You cast spells with that alignment descriptor at +3 caster level.",
     "prerequisites": [
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "Access to domain of Chaos",
       "alignment must match domain chosen",
       "Evil",
@@ -23427,7 +23459,11 @@
     "special": "This benefit overrides (does not stack with) the granted powers of the Chaos, Evil, Good, and Law domains. You may select this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different alignment-based domain to which you have access.",
     "benefit": "Select an alignment-based domain (Chaos, I Evil, Good, or Law) to which you have access. You cast spells with that alignment descriptor at +3 caster level.",
     "prerequisites": [
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "Access to domain of Chaos",
       "alignment must match domain chosen",
       "Evil",
@@ -23443,7 +23479,11 @@
     "special": "This benefit overrides (does not stack with) the granted powers of the Chaos, Evil, Good, and Law domains. You may select this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different alignment-based domain to which you have access.",
     "benefit": "Select an alignment-based domain (Chaos, I Evil, Good, or Law) to which you have access. You cast spells with that alignment descriptor at +3 caster level.",
     "prerequisites": [
-      "ability to cast 9th-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      },
       "Access to domain of Chaos",
       "alignment must match domain chosen",
       "Evil",
@@ -26504,7 +26544,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, as a swift action (see the Swift and Immediate Actions sidebar, page 21), you can cast any cure spell you have prepared, or you can spontaneously cast an inflict spell. In addition, you add the following spells to your divine spellcaster list. If you have more than one divine spellcasting class before taking this feat, you must decide to which class's spell list to add the spells. 2nd Battle Line: Creates an area of doom on the battlefield. 3rd Bloodspear: Makes one spear into a wounding weapon. 5th Pocket Cave: Creates an extradimensional space where you and your allies can hide. 6th Eyebite: Target becomes panicked, sickened, and comatose. 7th Waves of Exhaustion: Several targets become exhausted.",
     "prerequisites": [
-      "ability to cast 2nd-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "divine"
+      },
       "Orc or half-orc",
       "patron deity Gruumsh"
     ]
@@ -29548,7 +29592,11 @@
     "isSkillTrick": false,
     "benefit": "You gain a bonus 1st-level divine spell per day. If you have moderate depravity, then you also gain a 2nd-level divine spell per day. If you have severe depravity, then you also gain a 3rd-level divine spell per day. However, it takes twice as long for you to pray for your spells each day.",
     "prerequisites": [
-      "Ability to cast 1st-level divine spells",
+      {
+        "type": "spellcasting",
+        "level": 1,
+        "spellType": "divine"
+      },
       "mild depravity"
     ]
   },
@@ -44255,7 +44303,11 @@
         "score": "WIS",
         "value": 25
       },
-      "ability to cast 9th-level divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      }
     ]
   },
   "3085": {
@@ -44629,7 +44681,11 @@
         "score": "WIS",
         "value": 25
       },
-      "ability to cast 9th-level divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": "divine"
+      }
     ]
   },
   "3113": {
