@@ -66,17 +66,6 @@
  "teleport": [
   "Accurate Jaunt"
  ],
- "Ability to cast 2nd-level spells": [
-  "Acidic Splatter",
-  "Clutch of Earth",
-  "Fiery Burst",
-  "Hurricane Breath",
-  "Mitigate Suffering",
-  "Shadow Veil",
-  "Sunlight Eyes",
-  "Touch of Healing",
-  "Winter's Blast"
- ],
  "Ability to lay on hands": [
   "Action Healing",
   "Touch of Silver"
@@ -285,21 +274,6 @@
   "Bear Fang",
   "High Sword Low Axe"
  ],
- "Ability to cast 3rd-level spells": [
-  "Aquatic Breath",
-  "Blade of Force",
-  "Clap of Thunder",
-  "Dimensional Reach",
-  "Face-Changer",
-  "Invisible Needle",
-  "Magic Disruption",
-  "Magic Sensitive",
-  "Sickening Grasp",
-  "Spontaneous Domains",
-  "Touch of Distraction",
-  "Umbral Shroud",
-  "Wind-Guided Arrows"
- ],
  "bardic music": [
   "Arcane Accompaniment",
   "Battle Dancer",
@@ -382,10 +356,6 @@
  "planetouched (Chessenta)": [
   "Arcane Schooling",
   "Knifefighter"
- ],
- "Ability to cast 3rd-level arcane spells": [
-  "Arcane Strike",
-  "Power in the Blood"
  ],
  "ability to cast arcane spells": [
   "Arcane Thesis",
@@ -530,20 +500,6 @@
  "Craft (gemcutting) skill": [
   "Attune Gem"
  ],
- "Alchemy 24 ranks": [
-  "Augmented Alchemy"
- ],
- "ability to cast 9th-level arcane or divine spells": [
-  "Automatic Quicken Spell",
-  "Automatic Quicken Spell",
-  "Automatic Silent Spell",
-  "Automatic Silent Spell",
-  "Automatic Still Spell",
-  "Automatic Still Spell",
-  "Ignore Material Components",
-  "Intensify Spell",
-  "Multispell"
- ],
  "dragon type": [
   "Awaken Frightful Presence",
   "Awaken Spell Resistance",
@@ -680,9 +636,6 @@
  "Ability to ignore arcane spell failure chance from armor": [
   "Battle Caster"
  ],
- "Spellcraft 6 Ranks": [
-  "Battle Mage Tactics"
- ],
  "Combat Casting or warmage edge": [
   "Battlecaster Offense"
  ],
@@ -716,9 +669,6 @@
   "Improved Alignment-Based Casting (Law)",
   "Maiming Strike",
   "Sadistic Reward"
- ],
- "Knowledge (the planes) 6 ranks": [
-  "Beloved of Demons"
  ],
  "Power Attack.": [
   "Beloved of Demons"
@@ -886,19 +836,6 @@
  "able to cast 9th-level divine spells": [
   "Bonus Domain"
  ],
- "ability to cast 9th-level divine spells": [
-  "Bonus Domain",
-  "Divine Spell Penetration",
-  "Epic Spellcasting (Arcana)",
-  "Epic Spellcasting (Nature)",
-  "Epic Spellcasting (Religion)",
-  "Improved Alignment-Based Casting (Chaos)",
-  "Improved Alignment-Based Casting (Evil)",
-  "Improved Alignment-Based Casting (Good)",
-  "Improved Alignment-Based Casting (Law)",
-  "Spellcasting Prodigy",
-  "Spontaneous Domain Access"
- ],
  "Ability to shape fi ve soulmelds": [
   "Bonus Soulmeld"
  ],
@@ -920,10 +857,6 @@
   "Touch of Benevolence",
   "Veil of Cyric",
   "Violate Spell"
- ],
- "Ability to cast 5th-level spells": [
-  "Borne Aloft",
-  "Mystic Backlash"
  ],
  "devil": [
   "Brand of the Nine Hells"
@@ -1062,15 +995,6 @@
   "Celestial Summoning Specialist",
   "Energize Spell"
  ],
- "Ability to cast 2nd-level arcane spells": [
-  "Celestial Light",
-  "Dragon Sight",
-  "Fey's Fate",
-  "Friend of the Earth",
-  "Lawful Discipline",
-  "Master Spellthief ",
-  "Mind Weapon"
- ],
  "Paladin level 4th": [
   "Celestial Mount"
  ],
@@ -1150,9 +1074,6 @@
  ],
  "profi cient with chakram": [
   "Chakram Ricochet"
- ],
- "ability to cast 4thlevel spells": [
-  "Channel Charge"
  ],
  "legacy ability with a daily use limit": [
   "Channel Legacy",
@@ -1369,9 +1290,6 @@
  "animal companion class feature or special mount class feature": [
   "Coordinated Strike"
  ],
- "ability to cast 3rd-level spells": [
-  "Cormanthyran Moon Magic"
- ],
  "Gully dwarf": [
   "Cornered Rat"
  ],
@@ -1498,9 +1416,6 @@
  "spellcaster level 3rd": [
   "Create Infusion",
   "Tattoo Magic"
- ],
- "Wilderness Lore 4 ranks": [
-  "Create Infusion"
  ],
  "longsword": [
   "Crescent Moon",
@@ -1705,10 +1620,6 @@
  "five or more favored enemies (as ranger class feature)": [
   "Death of Enemies"
  ],
- "Wilderness Lore 30 ranks": [
-  "Death of Enemies",
-  "Legendary Tracker"
- ],
  "Aereni elf": [
   "Deathless Fleshgrafter"
  ],
@@ -1814,13 +1725,6 @@
  ],
  "Aura ability": [
   "Dilate Aura"
- ],
- "Ability to cast 4th-level spells": [
-  "Dimensional Jaunt",
-  "Drowning Glance",
-  "Holy Warrior",
-  "Minor Shapeshift",
-  "Summon Elemental"
  ],
  "Ability to wild shape into a Huge animal": [
   "Diminutive Wild Shape",
@@ -2392,9 +2296,6 @@
  "Sneak Attack +4d6": [
   "Eldritch Erosion "
  ],
- "Knowledge (arcana) 1 rank": [
-  "Eldritch Erosion "
- ],
  "Elemental mastery class feature (see the wu jen class in Complete Arcane)": [
   "Elemental Adept"
  ],
@@ -2592,9 +2493,6 @@
  "patron deity who does not accept clerics with the chosen component": [
   "Epic Devotion"
  ],
- "30 ranks": [
-  "Epic Dodge"
- ],
  "defensive roll": [
   "Epic Dodge"
  ],
@@ -2645,16 +2543,6 @@
  ],
  "Greater Spell Penetration*": [
   "Epic Spell Penetration"
- ],
- "ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks": [
-  "Epic Spellcasting (Arcana)",
-  "Epic Spellcasting (Nature)",
-  "Epic Spellcasting (Religion)"
- ],
- "ability to cast 9th-level divine spells. OR Spellcraft 24 ranks": [
-  "Epic Spellcasting (Arcana)",
-  "Epic Spellcasting (Nature)",
-  "Epic Spellcasting (Religion)"
  ],
  "Spellfi re Wielder": [
   "Epic Spellfire Wielder"
@@ -3273,9 +3161,6 @@
  "Divine grace class ability": [
   "Gift of Grace"
  ],
- "Ability to cast 2nd-level Arcane spells": [
-  "Githyanki Battlecaster"
- ],
  "Githyanki": [
   "Githyanki Battlecaster",
   "Githyanki Charm",
@@ -3315,9 +3200,6 @@
  "rage or frenzy ability": [
   "Gnoll Ferocity",
   "Instantaneous Rage"
- ],
- "and Tumble 9 ranks": [
-  "Gnome Tunnel Acrobatics"
  ],
  "Mulhorand region": [
   "Godsight"
@@ -3569,14 +3451,6 @@
  "such as an animal companion": [
   "Heroic Companion"
  ],
- "Ability to cast 2nd-level divine spells": [
-  "Heroic Devotion"
- ],
- "ability to cast 2nd-level spells": [
-  "Heroic Metamagic",
-  "Prophecy's Shaper",
-  "Southern Magician"
- ],
  "This feat can only be taken at 1st level": [
   "Hidden Talent"
  ],
@@ -3813,9 +3687,6 @@
  "four metapsionic feats": [
   "Improved Metapsionics"
  ],
- "Psicraft 30 ranks": [
-  "Improved Metapsionics"
- ],
  "Three or more natural weapons": [
   "Improved Multiattack",
   "Improved Multiattack"
@@ -3952,10 +3823,6 @@
  "No essentia pool": [
   "Incarnum Resistance"
  ],
- "ability to cast 1st-level spells": [
-  "Incarnum Spellshaping",
-  "Midnight Metamagic"
- ],
  "greater rage class feature": [
   "Incite Rage",
   "Mighty Rage"
@@ -4023,9 +3890,6 @@
  ],
  "patron deity Ghaunadaur": [
   "Initiate of Ghaunadaur"
- ],
- "ability to cast 2nd-level divine spells": [
-  "Initiate of Gruumsh"
  ],
  "patron deity Gruumsh": [
   "Initiate of Gruumsh"
@@ -4210,9 +4074,6 @@
   "Killoren Ancient",
   "Killoren Destroyer",
   "Killoren Hunter"
- ],
- "Ability to cast 3rd- level arcane spells": [
-  "Kin Mastery"
  ],
  "Any bloodline feat": [
   "Kin Mastery",
@@ -4436,16 +4297,10 @@
  "Lycanthrope": [
   "Lycanthropic Spell"
  ],
- "Ability to cast 1st-level divine spells": [
-  "Mad Faith"
- ],
  "Maenad": [
   "Maenad Deafening Scream",
   "Maenad Fury",
   "Maenad Scream"
- ],
- "Spellcraft 2 Ranks": [
-  "Mage Slayer"
  ],
  "Dwarf (Oldonnar or Underdark [Darklands])": [
   "Magic In The Blood"
@@ -4595,9 +4450,6 @@
  ],
  "steal spell": [
   "Master Spellthief "
- ],
- "Spellcraft or Psicraft 9 ranks": [
-  "Mastery of Dreams"
  ],
  "Any two metashadow teats": [
   "Maximize Mystery"
@@ -5050,9 +4902,6 @@
  "ability to spontaneously cast 3rd-level spells": [
   "Practical Metamagic"
  ],
- "Psicraft 4 ranks": [
-  "Practiced Manifester"
- ],
  "Ability to sneak attacks": [
   "Precise Strike"
  ],
@@ -5149,9 +4998,6 @@
  ],
  "Will save bonus ++4": [
   "Psychic Warfare"
- ],
- "Knowledge (psionics) 8 ranks": [
-  "Psymbiot"
  ],
  "profi cient with bludgeoning melee weapon": [
   "Pulverize Foe"
@@ -5520,14 +5366,12 @@
  "Combat Manifesting": [
   "Shielded Manifesting"
  ],
- "swiftwing trait. Balance 4 ranks": [
-  "Shifter Acrobatics"
- ],
- "Shifter with the cliffwalk": [
+ "swiftwing trait": [
   "Shifter Acrobatics",
   "Shifter Agility"
  ],
- "swiftwing trait": [
+ "Shifter with the cliffwalk": [
+  "Shifter Acrobatics",
   "Shifter Agility"
  ],
  "Shifter with the longtooth or razorclaw trait": [
@@ -5640,9 +5484,6 @@
  ],
  "Woodland stride ability": [
   "Snowrunner"
- ],
- "Spellcraft 5 Ranks": [
-  "Somatic Weaponry"
  ],
  "inspire competence ability": [
   "Song of the Heart"
@@ -5758,9 +5599,6 @@
  "trample special attack": [
   "Stamp"
  ],
- "Climb 8 ranks and Jump 8 ranks": [
-  "Steady Mountaineer"
- ],
  "Exposure to ghoul touch or vampiric touch spell": [
   "Stench of the Dead"
  ],
@@ -5794,9 +5632,6 @@
  ],
  "urdunnir": [
   "Stoneshaper"
- ],
- "Ability to cast 3rd level spells": [
-  "Storm Bolt"
  ],
  "Proficiency with an Iron Heart preferred weapon (bastard sword": [
   "Stormguard Warrior"

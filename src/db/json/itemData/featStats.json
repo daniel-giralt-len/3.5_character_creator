@@ -769,7 +769,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted him access to this feat, he gains no additional spells known at those spell levels. This restriction does not apply if he learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Obscuring mist<br />2nd&#8212;Gust of wind<br />3rd&#8212;Wind wall<br />4th&#8212;Shout<br />5th&#8212;Telekinesis<br />6th&#8212;Control winds<br />7th&#8212;Ethereal jaunt<br />8th&#8212;Summon Monster <span class=\"caps\">VIII</span> (elementals and outsiders with the air subtype only)<br />9th&#8212;Freedom",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "59": {
@@ -937,7 +941,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Benefit: Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st&#8212;Color spray<br />2nd&#8212;Tasha's hideous laughter<br />3rd&#8212;Rage<br />4th&#8212;Confusion<br />5th&#8212;Mind fog<br />6th&#8212;Mislead<br />7th&#8212;Prismaticspray<br />8th&#8212;Maze<br />9th&#8212;Weird",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "72": {
@@ -1422,7 +1430,11 @@
     "isSkillTrick": false,
     "benefit": "Each day, you can use one or more of your spell slots to prepare spells you know, usually for the purpose of applying a metamagic feat to the spell--but without an increase in its casting time. Preparing a spell uses a spell slot of the appropriate level, and once prepared, that slot can't be used for anything else until the prepared spell is cast.",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "105": {
@@ -1442,7 +1454,11 @@
     "isSkillTrick": false,
     "benefit": "Each day, you can use one or more of your spell slots to prepare spells you know. (Usually, you do this in order to apply a metamagic feat to the spell.) Thereafter, you can cast that spell as a standard action even if you apply a metamagic feat to the spell as you cast it. Preparing a spell uses a slot of the appropriate level. Once the spell is prepared, you can't use that spell slot for anything else until you cast the prepared spell.",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "107": {
@@ -2494,7 +2510,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st-Detect chaos<br />2nd&#8212;Locate object<br />3rd&#8212;Magic circle against chaos<br />4th&#8212;Locate creature<br />5th&#8212;Dismissal<br />6th&#8212;True seeing<br />7th&#8212;Forcecage<br />8th&#8212;Discern location<br />9th&#8212;Dominate monster",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "175": {
@@ -4549,7 +4569,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted her access to this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Protection from evil 2nd&#8212;Daylight<br />3rd&#8212;Magic circle against evil 4th&#8212;Rainbow pattern 5th&#8212;Dismissal<br />6th&#8212;Guards and wards<br />7th&#8212;Sequester<br />8th&#8212;Sunburst<br />9th&#8212;Summon monster IX (good outsiders only)",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "323": {
@@ -11140,7 +11164,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted him access to this feat, he gains no additional spells known at those spell levels. This restriction does not apply if he learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Comprehend languages<br />2nd&#8212;Darkvision<br />3rd&#8212;-Protectionfrom elements<br />4th&#8212;Fear<br />5th&#8212;Mindfog<br />6th&#8212;True seeing<br />7th&#8212;Vision<br />8th&#8212;Mind blank<br />9th&#8212;Dominate monster",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "780": {
@@ -12936,7 +12964,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted her access to this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Enlarge person <br />2nd&#8212;Shatter<br />3rd&#8212;Keen edge<br />4th&#8212;Stone shape<br />5th&#8212;Transmute mud to rock<br />6th&#8212;Move earth<br />7th&#8212;Statue<br />8th&#8212;Ironbody<br />9th&#8212;Summon monster IX (elementals and outsiders with the earth subtype only)",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "899": {
@@ -17797,7 +17829,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this<br />list in the class that granted him access to this feat, he gains no additional spells known at those spell levels. This restriction does not apply if he learned any of these spells as a member of another spellcasting class.",
     "benefit": "Benefit: Your ancestry grants you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Detect secret doors<br />2nd&#8212;Glitterdust<br />3rd&#8212;Tongues<br />4th&#8212;Hallucinatory terrain<br />5th&#8212;Seeming<br />6th&#8212;Mislead<br />7th&#8212;Sequester<br />8th&#8212;Otto's irresistible dance<br />9th&#8212;Wail of the banshee",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "1252": {
@@ -17918,7 +17954,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted her access to this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Protection from good<br />2nd&#8212;Darkness<br />3rd&#8212;Sepia snake sigil<br />4th&#8212;Bestow curse<br />5th&#8212;Nightmare<br />6th&#8212;Mislead<br />7th&#8212;Insanity<br />8th&#8212;Maze<br />9th&#8212;Imprisonment",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "1260": {
@@ -18171,7 +18211,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted him access to this feat, he gains no additional spells known at those spell levels. This restriction does not apply if he learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Hypnotism<br />2nd&#8212;Pyrotechnics<br />3rd&#8212;Tongues*<br />4th&#8212;Fire shield<br />5th&#8212;Cloudkill**<br />6th&#8212;Summon monster VI (elementals and outsiders with the fire subtype only)<br />7th&#8212;Delayed blast fireball<br />8th&#8212;Sunburst<br />9th&#8212;Meteor swarm*The subject's tongue resembles a tongue of flame.**The fog produced has a smoky smell and quality.",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "1276": {
@@ -23386,7 +23430,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Benefit Your ancestry gives you a bonus spell known at each spell level, starting at first, from the following list<br />1st&#8212;Hypnotism<br />2nd&#8212;Detect thoughts<br />3rd&#8212;Suggestion<br />4th&#8212;Confusion<br />5th&#8212;Feeblemind<br />6th&#8212;Mass suggestion<br />7th&#8212;Insanity<br />8th&#8212;Mind blank<br />9th&#8212;Dominate monster",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "1633": {
@@ -33463,7 +33511,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st&#8212;Causefear<br />2nd&#8212;Ghoul touch<br />3rd&#8212;Vampiric touch<br />4th&#8212;Contagion<br />5th&#8212;Dominate person<br />6th&#8212;Eyebite<br />7th&#8212;Control undead<br />8th&#8212;Trap the soul<br />9th&#8212;Wail of the banshee",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "2311": {
@@ -35030,7 +35082,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st&#8212;Obscuring mist<br />2nd&#8212;Darkness<br />3rd&#8212;Nondetection<br />4th&#8212;Evard's black tentacles<br />5th&#8212;Shadow evocation<br />6th&#8212;Shadow walk<br />7th&#8212;Plane shift<br />8th&#8212;Greater shadow evocation<br />9th&#8212;Etherealness",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "2416": {
@@ -35832,7 +35888,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Benefit: Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st&#8212;Endure elements<br />2nd&#8212;False life<br />3rd&#8212;Water breathing<br />4th&#8212;Minor creation<br />5th&#8212;Transmute rock to mud<br />6th&#8212;Control water<br />7th&#8212;Control weather<br />8th&#8212;Control plants<br />9th&#8212;Imprisonment",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "2469": {
@@ -41722,7 +41782,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class to which she applies this feat, she gains no additional spells known at those spell levels. This restriction does not apply if she learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, from the following list.<br />1st&#8212;Causefear<br />2nd&#8212;Hypnotic pattern<br />3rd&#8212;Sepia snake sigil<br />4th&#8212;Phantasmal Killer<br />5th&#8212;Dominate person<br />6th&#8212;Repulsion<br />7th&#8212;Power word blind<br />8th&#8212;Power word stun<br />9th&#8212;Power word kill",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "2886": {
@@ -50610,7 +50674,11 @@
     "special": "If a character takes this feat any time after 1st level and has already learned any of the spells on this list in the class that granted him access to this feat, he gains no additional spells known at those spell levels. This restriction does not apply if he learned any of these spells as a member of another spellcasting class.",
     "benefit": "Your ancestry gives you a bonus spell known at each spell level, starting at 1st, according to the following list.<br />1st&#8212;Expeditious retreat<br />2nd&#8212;Fog cloud<br />3rd&#8212;Waterbreathing<br />4th&#8212;Quench<br />5th&#8212;Transmute rock to mud<br />6th&#8212;Otiluke'sfreezing sphere<br />7th&#8212;Control weather<br />8th&#8212;Summon monster <span class=\"caps\">VIII</span> (elementals and outsiders with the water subtype)<br />9th&#8212;Elemental swarm (water elementals only)",
     "prerequisites": [
-      "Ability to cast arcane spells without preparation"
+      {
+        "type": "spellcasting",
+        "special": "no preparation",
+        "spellType": "arcane"
+      }
     ]
   },
   "3517": {
