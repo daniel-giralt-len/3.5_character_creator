@@ -11,6 +11,7 @@ import Skills from './Skills'
 import Bab from './Bab'
 
 import raceStats from '../db/json/itemData/raceStats.json'
+import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import getCharacterSkillData from '../functions/getCharacterSkillData';
@@ -91,7 +92,13 @@ function CharacterSheet({
         const maxFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
         const classSkillsData = getCharacterSkillData(classes, modifiers, raceData)
-        
+        const fullCharacter = {
+            ...character,
+            bonuses,
+        }
+        const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
+
+
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
         const onNameChange = name => onCreationChange({ ...character, name })
@@ -150,6 +157,7 @@ function CharacterSheet({
                     bab={bonuses.bab}
                 />
                 <Feats 
+                    character={fullCharacter}
                     feats={selectedFeats}
                     translate={translate}
                     onFeatsChange={onFeatsChange}

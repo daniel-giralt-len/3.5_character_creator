@@ -30,15 +30,15 @@ const AlignmentItem = styled.div`
 `
 
 const alignments = [
-    {name: 'lawful good', object: {legality: 'lawful', goodness: 'good'}},
-    {name: 'lawful neutral', object: {legality: 'lawful', goodness: 'neutral'}},
-    {name: 'lawful evil', object: {legality: 'lawful', goodness: 'evil'}},
-    {name: 'neutral good', object: {legality: 'neutral', goodness: 'good'}},
+    {name: 'lawful good',     object: {legality: 'lawful',  goodness: 'good'}},
+    {name: 'lawful neutral',  object: {legality: 'lawful',  goodness: 'neutral'}},
+    {name: 'lawful evil',     object: {legality: 'lawful',  goodness: 'evil'}},
+    {name: 'neutral good',    object: {legality: 'neutral', goodness: 'good'}},
     {name: 'neutral neutral', object: {legality: 'neutral', goodness: 'neutral'}},
-    {name: 'neutral evil', object: {legality: 'neutral', goodness: 'evil'}},
-    {name: 'chaotic good', object: {legality: 'chaotic', goodness: 'good'}},
+    {name: 'neutral evil',    object: {legality: 'neutral', goodness: 'evil'}},
+    {name: 'chaotic good',    object: {legality: 'chaotic', goodness: 'good'}},
     {name: 'chaotic neutral', object: {legality: 'chaotic', goodness: 'neutral'}},
-    {name: 'chaotic evil', object: {legality: 'chaotic', goodness: 'evil'}},
+    {name: 'chaotic evil',    object: {legality: 'chaotic', goodness: 'evil'}},
 ]
 
 const compareAlignments = (a,b) => (a.legality === b.legality) && (a.goodness === b.goodness)

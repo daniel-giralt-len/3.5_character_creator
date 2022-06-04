@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import dbs from '../db/json/dbs.json'
+import findInDb from "../functions/findInDb";
 import { SquareButton, Text, SidewaysBlackLabel } from '../sharedComponents';
 
 const FeatsLayout = styled.ul`
@@ -40,6 +40,18 @@ function FeatItem({
     )
 }
 
+const renderFeats = ({feats, handleDelete}) => {
+    return Object
+            .keys(feats)
+            .map((id) => {
+                return (<FeatItem
+                    key={id}
+                    feat={findInDb('feats', id)}
+                    onDelete={handleDelete}
+                />)
+            })
+}
+
 function Feats({
     feats = {},
     translate,
@@ -56,12 +68,7 @@ function Feats({
                 name={translate('feats')} subtitle={`${usedFeats}/${maxFeats}`}
                 warning={areFeatsOverBudget}
             />
-            {Object.keys(feats)
-                .map((id) => (<FeatItem
-                    key={id}
-                    feat={dbs.feats.find(c=>id === c.id)}
-                    onDelete={handleDelete}
-            />))}
+            {renderFeats({feats, handleDelete})}
         </FeatsLayout>
     );
 }
