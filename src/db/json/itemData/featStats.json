@@ -300,7 +300,11 @@
         "id": "62"
       },
       "ability to spontaneously cast 1st-level spells",
-      "any metamagic feat",
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      },
       "Dragonblood subtype"
     ]
   },
@@ -4832,7 +4836,11 @@
     "isSkillTrick": false,
     "benefit": "Any spell that specifies a single target and has a range greater than touch can be chained so as to affect that primary target normally, then arc to a number of secondary targets equal to your caster level (maximum 20). Each arc affects one secondary target chosen by you, all of which must be within 30 feet of the primary target, and none of which can be affected more than once. You can choose to affect fewer secondary targets than the maximum. If the chained spell deals damage, the secondary targets each take half as much damage as the primary target (rounded down) and can attempt Reflex saving throws for half damage (whether the spell allows the original target a save or not). For spells that don't deal damage, the save DCs against arcing effects are reduced by 4. For example, if a 10th-level wizard normally casts cause fear at DC 14, a chained cause fear could target a goblin chieftain at DC 14 and up to ten of his nearby guards at DC 10. A chained spell uses up a spell slot three levels higher than the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "340": {
@@ -6746,7 +6754,11 @@
     "special": "For each additional caster with this feat casting the same cooperative spell simultaneously, the spell's save DC and the bonus on the caster level check both increase by 1. When more than two spellcasters cooperatively cast a spell, each must be adjacent to at least two other casters involved in the casting. For example, two wizards and two sorcerers standing in a circle all have Cooperative Spell. The fi rst three in the initiative order ready an action to cast fi reball, casting the spell when the fourth does. The base DC of the spell's save is equal to the highest save DC among the cooperative casters (as determined by relevant ability scores, other feats, special abilities, or items) +4 (+2 for the fi rst cooperative caster and +1 for each of the other two). As well, whoever has the highest caster level determines the base caster level check, which gains a +3 bonus (+1 for each cooperative caster).",
     "benefit": "While the two of you are adjacent, you and another spellcaster with the Cooperative Spell feat can simultaneously cast the same spell at the same time in the round. Add +2 to the save DC of cooperatively cast spells and +1 to caster level checks to beat the target's spell resistance (if any), using the higher base DC and level check of either caster. A cooperative spell uses up a spell slot of the same level as the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "472": {
@@ -9305,7 +9317,11 @@
     "isSkillTrick": false,
     "benefit": "When casting a spell, you set a delay of 1 to 5 rounds before it takes effect. The delay time cannot be changed once set; the spell activates just before your turn on the round you designate. Only area, personal, and touch spells can be affected by this feat. Any decisions you would make about the spell (including attack rolls, designating targets, or determining or shaping an area) are decided when the spell is cast, with any of its effects (including damage and saving throws) decided when the spell triggers. If conditions change during the delay period in ways that would make the spell impossible to cast (the target you designate moves beyond the spell's range, for example), the spell fails. During the delay period, a delayed spell can be dispelled normally, and it can be detected in the area or on the target (as applicable). A delayed spell uses up a spell slot three levels higher than the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "645": {
@@ -14501,7 +14517,11 @@
         "type": "skills",
         "id": "27"
       },
-      "any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "1000": {
@@ -22872,7 +22892,11 @@
         "type": "spellcasting",
         "level": 2
       },
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "1582": {
@@ -27871,7 +27895,11 @@
     "isSkillTrick": false,
     "benefit": "You can modify any spell you cast so that it carries no visual manifestation. All other aspects of the spell, including range, area, targets, and damage remain the same. Note that this feat has no bearing on any components required to cast the enhanced spell, so the spell's source might still be apparent, depending on the situation, despite its effects being unseen. For example, fireball cast by someone with this feat could be made invisible in the moment of its detonation, but everyone in the area would still feel the full effect (including the heat), and any flammable materials ignited by the explosion would still burn visibly with nonmagical fire. Those with detect magic, see invisibility, or true seeing spells or effects active at the time of the casting will see whatever visual manifestations typically accompany the spell: A spell modified using the Invisible Spell feat uses a spell slot of the spell's normal level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "1908": {
@@ -31992,7 +32020,11 @@
         "type": "skills",
         "id": "68"
       },
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2194": {
@@ -32139,7 +32171,11 @@
         "type": "spellcasting",
         "level": 1
       },
-      "any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2203": {
@@ -34246,7 +34282,11 @@
         "type": "skills",
         "id": "27"
       },
-      "any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2347": {
@@ -37020,7 +37060,11 @@
         "id": "62"
       },
       "ability to spontaneously cast 3rd-level spells",
-      "any metamagic feat",
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      },
       "Dragonblood subtype"
     ]
   },
@@ -40166,7 +40210,11 @@
     "isSkillTrick": false,
     "benefit": "A repeated spell is automatically cast again at the beginning of your turn in the following round. No matter where you might have moved in the previous round, the second spell originates from the same location and affects the same area as the original spell. If the original spell designates a ranged target, the repeated spell affects the same target if it is within 30 feet of its original position; otherwise, the second spell fails. Touch range spells cannot be affected by this feat. A repeated spell uses up a spell slot three levels higher than the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2746": {
@@ -40285,7 +40333,11 @@
         "type": "skills",
         "id": "62"
       },
-      "any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2755": {
@@ -41388,7 +41440,11 @@
     "special": "Your sanctum is a particular site, building, or structure previously designated by you, and no larger than 20 feet/level in diameter. The designated area must be a site where you have spent a cumulative period of at least three months. Though a sanctum can be designated within a larger structure, its special advantages do not apply beyond the maximum area. Once designated, it takes seven days for a site to become a sanctum, and if you designate a new area to be your sanctum, the benefits of the old one immediately fade..",
     "benefit": "A sanctum spell has an effective spell level 1 higher than its normal level if cast in your sanctum (see below), but if not cast in the sanctum, the spell has an effective spell level 1 lower than normal. All effects dependent on spell level (including save DCs) are calculated according to the adjusted level. A sanctum spell uses a spell slot of the spell's normal level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2837": {
@@ -41837,7 +41893,11 @@
     "isSkillTrick": false,
     "benefit": "You can modify an area spell by changing the area's shape to either a cylinder (10-foot radius, 30 feet high), a 40-foot cone, four 10-foot cubes, a ball (20-foot-radius spread), or a 120-foot line. The sculpted spell works normally in all respects except for its shape. For example, a lightning bolt whose area is changed to a ball deals the same amount of damage, but affects a 20-foot-radius spread.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "2869": {
@@ -45226,7 +45286,11 @@
     "isSkillTrick": false,
     "benefit": "You can cause any ray spell tofireone additional ray beyond the number normally allowed. The additional ray requires a separate ranged touch attack roll to hit and deals damage as normal. It can be fi red at the same target as the fi rst ray or at a different target, but all rays must be aimed at targets within 30 feet of each other and fi red simultaneously. A split ray spell uses a spell slot two levels higher than the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3110": {
@@ -46473,7 +46537,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, you can apply the effect of the Empower Spell feat to any spell you cast without increasing the level of the spell or specially preparing it ahead of time. You can still use Empower Spell normally if you have it",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3193": {
@@ -46483,7 +46551,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, you may apply the Empower Spell feat to any spell you cast, without increasing the level of the spell or specially preparing it ahead of time. You may still use the Empower Spell feat normally, if you have it.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3194": {
@@ -46531,7 +46603,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, you can apply the effect of the Maximize Spell feat to any spell you cast without increasing the level of the spell or specially preparing it ahead of time. You can still use Maximize Spell normally if you have it.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3199": {
@@ -46541,7 +46617,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, you may apply the Maximize Spell feat to any spell you cast, without increasing the level of the spell or specially preparing it ahead of time. You may still use the Maximize Spell feat normally, if you have it.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3200": {
@@ -49145,7 +49225,11 @@
     "isSkillTrick": false,
     "benefit": "Casting a twinned spell causes the spell to take effect twice in the same area or on the same target simultaneously. Any variable characteristics (including attack rolls) or decisions you would make about the spell (including target and area), are applied to both spells, with affected creatures receiving all the effects of each spell individually (including getting two saving throws if applicable). A spell whose effects wouldn't stack if it was cast twice under normal circumstances will create redundant effects if successfully twinned (see Combining Magical Effects, page 171 of the Player's Handbook). For example, a twinned charm person doesn't create a more potent or long-lasting effect, but any ally of the target would have to succeed on two dispel attempts in order to free the target from the charm. As with other metamagic feats, twinning a spell does not affect its vulnerability to counterspelling, so a single successful counterspell negates both instances of a twinned spell. A twinned spell uses up a spell slot four levels higher than the spell's actual level.",
     "prerequisites": [
-      "Any metamagic feat"
+      {
+        "type": "feats",
+        "featType": "metamagic",
+        "id": "*"
+      }
     ]
   },
   "3387": {
