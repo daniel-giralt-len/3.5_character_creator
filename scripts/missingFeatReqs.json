@@ -31,14 +31,6 @@
  "ability to spontaneously cast 1st-level spells": [
   "Accelerate Metamagic"
  ],
- "any metamagic feat": [
-  "Accelerate Metamagic",
-  "Energy Substitution",
-  "Midnight Metamagic",
-  "Nonlethal Substitution",
-  "Practical Metamagic",
-  "Residual Magic"
- ],
  "Dragonblood subtype": [
   "Accelerate Metamagic",
   "Armor of Scales ",
@@ -148,30 +140,6 @@
   "Half-Dragon Form ",
   "Hidden Strength"
  ],
- "Base Fortitude save bonus +2": [
-  "Altitude Adaptation",
-  "Cold Endurance",
-  "Improved Toughness",
-  "Improved Toughness",
-  "Improved Toughness",
-  "Improved Toughness",
-  "Improved Toughness"
- ],
- "Base Fortitude save +2": [
-  "Altitude Adaptation",
-  "Cold Endurance",
-  "Heat Endurance",
-  "Rapid Swimming",
-  "Silver Blood"
- ],
- "Nonlawful alignment": [
-  "Anarchic Heritage",
-  "Fey Heritage",
-  "Fey Legacy",
-  "Fey Power",
-  "Fey Presence",
-  "Fey Skin"
- ],
  "region of origin Valenar": [
   "Ancestral Guidance",
   "Bladebearer of the Valenar",
@@ -179,17 +147,6 @@
   "Bladebearer of Valenar",
   "Spirit of the Stallion",
   "Valenar Trample"
- ],
- "Any good alignment": [
-  "Ancestral Relic",
-  "Avenging Strike",
-  "Consecrate Spell",
-  "Consecrate Spell",
-  "Consecrate Spell Like Ability",
-  "Consecrate Spell-Like Ability",
-  "Purify Spell",
-  "Purify Spell-like Ability",
-  "Spell Focus (Good)"
  ],
  "Illuskan human": [
   "Ancestral Spirit",
@@ -337,10 +294,6 @@
  "specialist wizard level 10th": [
   "Arcane Transfiguration"
  ],
- "Dark knowledge": [
-  "Archivist of Nature",
-  "Draconic Archivist"
- ],
  "Damaran or Illuskan human. Regions: Damara": [
   "Arctic Adaptation",
   "Jotunbrud"
@@ -362,13 +315,6 @@
  ],
  "Access to Cold or Winter cleric domain": [
   "Arctic Priest"
- ],
- "Huge size": [
-  "Area Attack",
-  "Blowhard",
-  "Dust Cloud",
-  "Fling Enemy",
-  "Stamp"
  ],
  "Proficiency with selected armor type": [
   "Armor Specialization"
@@ -510,17 +456,9 @@
  "orc (the Moonsea or Underdark [Northdark])": [
   "Axethrower"
  ],
- "Nonchaotic alignment": [
-  "Axiomatic Heritage",
-  "Ordered Chaos"
- ],
  "Ki strike (lawful)": [
   "Axiomatic Strike",
   "Sanctify Ki Strike"
- ],
- "any lawful alignment": [
-  "Axiomatic Strike",
-  "Righteous Strike"
  ],
  "Smite anarchy class feature": [
   "Axiomatic Strike"
@@ -797,19 +735,6 @@
  "proficiency with Talenta boomerang or Xen'drik boomerang": [
   "Boomerang Ricochet"
  ],
- "Any evil alignment": [
-  "Boost Spell Resistance",
-  "Corrupt Spell",
-  "Corrupt Spell",
-  "Corrupt Spell",
-  "Corrupt Spell-Like Ability",
-  "Malign Spell Focus",
-  "Malign Spell Focus",
-  "Reaping Spell",
-  "Touch of Benevolence",
-  "Veil of Cyric",
-  "Violate Spell"
- ],
  "devil": [
   "Brand of the Nine Hells"
  ],
@@ -834,20 +759,11 @@
  "undead": [
   "Breath of Unlife"
  ],
- "Base Will save +2": [
-  "Breathing Link",
-  "Highborn Drow"
- ],
  "aquatic elf or water genasi": [
   "Breathing Link"
  ],
  "Aquatic elf or water genasi": [
   "Breathing Link"
- ],
- "base Will save +2": [
-  "Breathing Link",
-  "Highborn Drow",
-  "Highborn Drow"
  ],
  "member of the Broken Ones monk order": [
   "Broken One's Sacrifice"
@@ -929,7 +845,7 @@
   "Outsider Wings (Celestial)",
   "Outsider Wings (Fiendish)"
  ],
- "Reflex": [
+ "reflexes": [
   "Celestial Bloodline",
   "Outsider Wings (Celestial)",
   "Outsider Wings (Fiendish)"
@@ -941,11 +857,6 @@
   "Celestial Familiar",
   "Exalted Companion",
   "Vermin Companion"
- ],
- "Nonevil alignment": [
-  "Celestial Heritage",
-  "Celestial Summoning Specialist",
-  "Energize Spell"
  ],
  "Paladin level 4th": [
   "Celestial Mount"
@@ -983,23 +894,6 @@
  ],
  "Cleric level 1st. worshiper of the Sovereign Host or one of its deities": [
   "Ceremonial Empowerment"
- ],
- "Any metamagic feat": [
-  "Chain Spell",
-  "Cooperative Spell",
-  "Delay Spell",
-  "Heroic Metamagic",
-  "Invisible Spell ",
-  "Metamagic Spell Trigger",
-  "Repeat Spell",
-  "Sanctum Spell",
-  "Sculpt Spell",
-  "Split Ray",
-  "Sudden Empower",
-  "Sudden Empower",
-  "Sudden Maximize",
-  "Sudden Maximize",
-  "Twin Spell"
  ],
  "Any other metamagic feat": [
   "Chain Spell",
@@ -1073,16 +967,6 @@
   "Child of the Swamps",
   "Indomitable Discipline"
  ],
- "nongood alignment": [
-  "Child of Winter",
-  "Greater Corrupt Spell Focus",
-  "Horrific Appearance",
-  "Necrocarnum Acolyte",
-  "Spontaneous Wounder",
-  "Undead Leadership",
-  "Vermin Companion",
-  "Vermin Shape"
- ],
  "ability to cast divine spells": [
   "Chondathan Missionary",
   "Eldritch Linguist"
@@ -1117,10 +1001,6 @@
  ],
  "two White Raven maneuvers": [
   "Clarion Commander"
- ],
- "Small or Medium size": [
-  "Clever Wrestling",
-  "Clever Wrestling"
  ],
  "Small or Medium-size": [
   "Clever Wrestling"
@@ -1249,15 +1129,8 @@
  "Spontaneous arcane or divine caster": [
   "Corrupt Arcana"
  ],
- "non-good alignment": [
-  "Corrupt Arcane Studies",
-  "Enervating Touch"
- ],
  "Sorcerer or wizard level 3rd": [
   "Corrupt Arcane Studies"
- ],
- "Any nongood alignment": [
-  "Corrupt Spell Focus"
  ],
  "Regions: Amn": [
   "Cosmopolitan"
@@ -1430,16 +1303,6 @@
   "Daring Outlaw ",
   "Daring Warrior"
  ],
- "Base Will save bonus +5": [
-  "Dark Speech"
- ],
- "Base Will save +5": [
-  "Dark Speech",
-  "Insane Defiance"
- ],
- "Will save bonus +5": [
-  "Dark Speech"
- ],
  "Dwarf ( the G alena M ountains": [
   "Dauntless"
  ],
@@ -1586,25 +1449,10 @@
   "Starspawn",
   "Waterspawn"
  ],
- "any good alignment": [
-  "Defender of the Homeland",
-  "Holy Strike",
-  "Holy Strike"
- ],
  "Watchful spirit class feature (see the wu jen class in Complete Arcane)": [
   "Defending Spirit ",
   "Hasty Spirit",
   "Vengeful Spirit"
- ],
- "Evil alignment": [
-  "Deformity (Skin)",
-  "Deformity (Tall)",
-  "Deformity (Teeth)",
-  "Deformity (Tongue)",
-  "Willing Deformity"
- ],
- "Medium size": [
-  "Deformity (Tall)"
  ],
  "Desert terrain type": [
   "Desert Dweller"
@@ -1636,9 +1484,6 @@
  ],
  "Pact with devil": [
   "Devil's Favor"
- ],
- "base Fortitude save +3": [
-  "Devil's Stamina"
  ],
  "One Devoted Spirit maneuver": [
   "Devoted Bulwark"
@@ -1697,9 +1542,6 @@
  "Lurk augment class feature (page 14)": [
   "Dire Stun"
  ],
- "Lawful evil alignment": [
-  "Disciple of Darkness"
- ],
  "Ability to turn or rebuke undead": [
   "Disciple of the Sun",
   "Divine Accuracy",
@@ -1739,10 +1581,6 @@
   "Quicken Turning",
   "Quicken Turning",
   "Quicken Turning"
- ],
- "good alignment": [
-  "Disciple of the Sun",
-  "Divine Censure"
  ],
  "Chitine (Underdark [Yathchol])": [
   "Discipline"
@@ -1805,9 +1643,6 @@
  ],
  "two Setting Sun maneuvers": [
   "Distant Horizon"
- ],
- "Base Reflex save bonus +4": [
-  "Dive For Cover"
  ],
  "Half-human": [
   "Diverse Background"
@@ -1921,9 +1756,6 @@
  ],
  "Flurry of blows class feature": [
   "Double Steel Strike"
- ],
- "Base Will save +4": [
-  "Draconian Breath Weapon"
  ],
  "Draconian": [
   "Draconian Breath Weapon",
@@ -2174,10 +2006,6 @@
  "Improved Grapple or improved grab": [
   "Earth's Embrace"
  ],
- "Medium or smaller size": [
-  "Easy Escape",
-  "Giantbane"
- ],
  "ability to prepare spells": [
   "Echoing Spell "
  ],
@@ -2234,11 +2062,6 @@
  ],
  "Elemental mastery class feature (see the wu jen class in Complete Arcane)": [
   "Elemental Adept"
- ],
- "Base Fortitude save +4": [
-  "Elemental Bloodline",
-  "Silver Fang",
-  "Stone Slide"
  ],
  "genasi (air": [
   "Elemental Bloodline"
@@ -2350,16 +2173,6 @@
  ],
  "must not have the ability to turn undead": [
   "Enervate Spell"
- ],
- "Nongood alignment": [
-  "Enervate Spell",
-  "Fiendish Heritage",
-  "Fiendish Summoning Specialist",
-  "Nightbringer Initiate",
-  "Tomb-Born Fortitude",
-  "Tomb-Born Resilience",
-  "Tomb-Born Vitality",
-  "Tomb-Tainted Soul"
  ],
  "Psychic enervation class feature": [
   "Enervation Endurance",
@@ -2613,9 +2426,6 @@
  "pseudopod": [
   "Extended Reach"
  ],
- "Small or larger size": [
-  "Extended Reach"
- ],
  "Don Mantle*": [
   "Extra Aura"
  ],
@@ -2742,9 +2552,6 @@
  "ability to wild shape into a dire animal": [
   "Fast Wild Shape"
  ],
- "Base Fortitude save bonus +5": [
-  "Faster Healing"
- ],
  "church": [
   "Favored"
  ],
@@ -2827,35 +2634,11 @@
  "Animal companion class feature": [
   "Feral Animal Companion"
  ],
- "evil alignment": [
-  "Feral Animal Companion",
-  "Profane Outburst"
- ],
  "Any Mark of Handling": [
   "Feral Mark"
  ],
- "Base Fortitude save +1": [
-  "Fiendish Bloodline"
- ],
- "Base Reflex save +1": [
-  "Fiendish Bloodline"
- ],
- "Base Will save +1": [
-  "Fiendish Bloodline"
- ],
  "tanarukk": [
   "Fiendish Bloodline"
- ],
- "Non-good alignment": [
-  "Fiendish Heritage",
-  "Fiendish Legacy",
-  "Fiendish Power",
-  "Fiendish Presence",
-  "Fiendish Resistance",
-  "Ritual of Blight's Embrace"
- ],
- "Base Will save +7": [
-  "Filthy Outburst"
  ],
  "Acid": [
   "Final Strike"
@@ -3043,10 +2826,6 @@
  "member of the Harmonious Order (see page 101)": [
   "From Smite to Song"
  ],
- "Base Fortitude save bonus +6": [
-  "Frozen Wild Shape",
-  "Improved Cold Endurance"
- ],
  "human (Cormyr": [
   "Furious Charge"
  ],
@@ -3078,10 +2857,6 @@
  ],
  "Swallow whole": [
   "Gape of the Serpent"
- ],
- "base Will save +3": [
-  "Gestalt Anchor",
-  "Gestalt Anchor"
  ],
  "Any host feat* or kalashtar": [
   "Gestalt Anchor"
@@ -3200,10 +2975,6 @@
   "Greater Legacy",
   "Greater Legacy"
  ],
- "Animal or magical beast; Large size": [
-  "Greater Mighty Roar",
-  "Mighty Roar"
- ],
  "improved grab special attack": [
   "Greater Multigrab",
   "Multigrab",
@@ -3226,10 +2997,6 @@
  ],
  "manifester level 12th": [
   "Greater Power Specialization"
- ],
- "Medium or larger size": [
-  "Greater Powerful charge",
-  "Powerful Charge"
  ],
  "Medium or larger": [
   "Greater Powerful charge",
@@ -3341,9 +3108,6 @@
  ],
  "Spell-like abilities or ability to cast arcane or divine spells": [
   "Heads Up"
- ],
- "Base Will save +3": [
-  "Healing Flames"
  ],
  "fire genasi or tanarukk. Fire Size Example Hit Points Healed. Fine ----------- Tindertwig ------ 1. Diminutive ---- Torch ------------ 1d3. Tiny ----------- Small campfire -- 1d6. Small ---------- Large campfire - 2d6. Medium-size - Forge ------------ 3d": [
   "Healing Flames"
@@ -3523,9 +3287,6 @@
   "Improved Death Attack",
   "Mortifying Attack"
  ],
- "Base Will save +8": [
-  "Improved Draconian Breath Weapon"
- ],
  "ability to wild shape into an elemental": [
   "Improved Elemental Wild Shape",
   "Improved Elemental Wild Shape"
@@ -3581,9 +3342,6 @@
  ],
  "Uldra": [
   "Improved Frosty Touch"
- ],
- "Base Fortitude save +6": [
-  "Improved Heat Endurance"
  ],
  "Craft Construct or craft homunculus class feature": [
   "Improved Homunculus"
@@ -4394,9 +4152,6 @@
   "Mental Leap",
   "Psionic Charge"
  ],
- "Base Will save bonus +2": [
-  "Mental Resistance"
- ],
  "8 Ranks in at least two of the four skills associated with your Mentor Category": [
   "Mentor"
  ],
@@ -4588,13 +4343,6 @@
  "Shapechanger subtype": [
   "Mutable Body"
  ],
- "any evil alignment": [
-  "Mutilator",
-  "Negative Energy Burst",
-  "Negative Energy Burst",
-  "Unholy Strike",
-  "Unholy Strike"
- ],
  "gaze attack": [
   "Narrowed Gaze",
   "Narrowed Gaze",
@@ -4666,10 +4414,6 @@
  ],
  " CON 17": [
   "Open Greater Chakra (Throat)"
- ],
- "base Will save +4": [
-  "Ordered Chaos",
-  "Skilled Pact Making"
  ],
  "Any Mark of Passage": [
   "Orien Battle Stride"
@@ -4929,9 +4673,6 @@
  "profi cient with bludgeoning melee weapon": [
   "Pulverize Foe"
  ],
- "Any non-evil alignment": [
-  "Pure Soul"
- ],
  "no taint": [
   "Pure Soul"
  ],
@@ -4989,9 +4730,6 @@
   "Rapid Reload"
  ],
  "natural swim speed": [
-  "Rapid Swimming"
- ],
- "base Fortitude save +2": [
   "Rapid Swimming"
  ],
  "Natural swim speed": [
@@ -5067,14 +4805,8 @@
  "Rage class ability": [
   "Righteous Wrath"
  ],
- "Good alignment": [
-  "Ritual Blessing"
- ],
  "Must not be capable of casting arcane spells": [
   "Ritual of Arcane Opposition"
- ],
- "Non-evil alignment": [
-  "Ritual of the Woodland Bond"
  ],
  "Rock gnome": [
   "Rock Gnome Trickster"
@@ -5148,9 +4880,6 @@
  ],
  "Ability to use wild shape to become a wolf. Wis 11": [
   "Scent"
- ],
- "Neutral evil alignment": [
-  "Scion of Sorrow"
  ],
  "two Desert Wind maneuvers": [
   "Scorching Sirocco"
@@ -5484,9 +5213,6 @@
  "able to cast any cure wounds spell": [
   "Spontaneous Healer"
  ],
- "nonevil alignment": [
-  "Spontaneous Healer"
- ],
  "ability to cast the maximum normal spell level of at least one spellcasting class": [
   "Spontaneous Spell"
  ],
@@ -5528,9 +5254,6 @@
  ],
  "proficiency with any pick": [
   "Stone Breaker"
- ],
- "Base Fortitude save +3": [
-  "Stone Colossus"
  ],
  "one Stone Dragon maneuver": [
   "Stone Power"
@@ -5667,9 +5390,6 @@
  ],
  "Marsh terrain": [
   "Swamp Stalker"
- ],
- "Small size": [
-  "Swarmfighting"
  ],
  "Size Small": [
   "Swarmfighting"
@@ -6121,9 +5841,6 @@
  "fly speed 20 ft.": [
   "Wingstorm"
  ],
- "Large size": [
-  "Wingstorm"
- ],
  "fly speed 20": [
   "Wingstorm"
  ],
@@ -6150,9 +5867,6 @@
  ],
  "Star elf (Sildeyuir) or Volodni (the Forest of Lethyr)": [
   "Woodwise"
- ],
- "base Will save bonus +5": [
-  "Words of Creation"
  ],
  "Worshiper of the Sovereign Host": [
   "Worldly Focus"

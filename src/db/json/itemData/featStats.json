@@ -8524,7 +8524,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "588": {
@@ -11175,7 +11178,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "765": {
@@ -15278,7 +15284,10 @@
         "score": "CHA",
         "value": 25
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1044": {
@@ -16834,7 +16843,10 @@
     "special": "A character can gain this feat multiple times.",
     "benefit": "You can use bardic music four extra times per day.",
     "prerequisites": [
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1157": {
@@ -22114,7 +22126,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1511": {
@@ -22532,7 +22547,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1540": {
@@ -23328,7 +23346,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1595": {
@@ -27876,7 +27897,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1888": {
@@ -29021,7 +29045,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1971": {
@@ -29035,7 +29062,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1972": {
@@ -32031,7 +32061,10 @@
         "type": "skills",
         "id": "62"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2177": {
@@ -33715,7 +33748,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2287": {
@@ -33730,7 +33766,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2288": {
@@ -33749,7 +33788,10 @@
         "score": "CHA",
         "value": 25
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2289": {
@@ -39229,7 +39271,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2668": {
@@ -39432,7 +39477,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2679": {
@@ -39870,7 +39918,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2708": {
@@ -40572,7 +40623,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2751": {
@@ -44611,7 +44665,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature",
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      },
       "inspire competence ability"
     ]
   },
@@ -44638,7 +44695,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "3036": {
@@ -47214,7 +47274,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "3218": {
@@ -47974,7 +48037,10 @@
         "type": "feats",
         "id": "1567"
       },
-      "Bardic music class feature",
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      },
       "Tethyrian human"
     ]
   },
@@ -52176,7 +52242,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music class feature"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "3572": {
