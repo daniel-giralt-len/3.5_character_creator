@@ -1486,7 +1486,11 @@
     "isSkillTrick": false,
     "benefit": "When you activate this feat (a free action that does not provoke an attack of opportunity), you can channel arcane energy into a melee weapon, your unarmed strike, or natural weapons. You must sacrifice one of your spells for the day (of 1st level or higher) to do this, but you gain a bonus on all your attack rolls for 1 round equal to the level of the spell sacrificed, as well as extra damage equal to 1d4 points x the level of the spell sacrificed. The bonus you add to your attack rolls from this feat cannot be greater than your base attack bonus.",
     "prerequisites": [
-      "Ability to cast 3rd-level arcane spells",
+      {
+        "type": "spellcasting",
+        "level": 3,
+        "spellType": "arcane"
+      },
       {
         "type": "bab",
         "value": 4
@@ -2124,7 +2128,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "157": {
@@ -2143,7 +2151,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "158": {
@@ -2162,7 +2174,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "159": {
@@ -2181,7 +2197,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "160": {
@@ -2200,7 +2220,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "161": {
@@ -2219,7 +2243,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "162": {
@@ -4517,7 +4545,11 @@
         "type": "feats",
         "id": "321"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "326": {
@@ -11550,7 +11582,11 @@
         "type": "feats",
         "id": "779"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "814": {
@@ -17686,7 +17722,11 @@
         "type": "feats",
         "id": "1251"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "1258": {
@@ -19059,7 +19099,11 @@
         "type": "feats",
         "id": "898"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "1349": {
@@ -19610,7 +19654,11 @@
     "special": "A Fighter or Wizard may select this feat as a bonus feat for those classes",
     "benefit": "The creature ignores arcane spellfailiure from any kind of light armor it wears.If it wears medium or heavy armor, or caries a shield, it has the normal arcane spell failiure chance.",
     "prerequisites": [
-      "Ability to cast 2nd-level Arcane spells",
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      },
       {
         "type": "bab",
         "value": 3
@@ -23117,7 +23165,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells",
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      },
       "Eschew Materials*"
     ]
   },
@@ -27190,7 +27242,11 @@
         "type": "skills",
         "id": "62"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "1897": {
@@ -28278,7 +28334,11 @@
         "type": "feats",
         "id": "174"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "1977": {
@@ -30651,7 +30711,11 @@
     "isSkillTrick": false,
     "benefit": "Your spellthief levels stack with levels of other arcane spellcaster classes (that is, levels of any class that grants arcane spellcasting other than the spellthief) for the purpose of determining what level of spell you can steal. For example, a 4th-level spellthief/4th-level wizard could steal spells of up to 4th level, as if he were an 8th-level spellthief. Your spellthief and arcane spellcaster levels also stack when determining your caster level for all arcane spells. The character described above would have a caster level of 8th for both his spellthief spells and his wizard spells. In addition, you do not incur a chance of arcane spell failure for arcane spells cast or stolen from other classes, but only if you are wearing light armor. You incur the normal arcane spell failure chance when wearing medium or heavy armor or when using a shield.",
     "prerequisites": [
-      "Ability to cast 2nd-level arcane spells",
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      },
       "steal spell"
     ]
   },
@@ -31870,7 +31934,11 @@
         "type": "feats",
         "id": "1632"
       },
-      "Ability to cast 2nd-level arcane spells"
+      {
+        "type": "spellcasting",
+        "level": 2,
+        "spellType": "arcane"
+      }
     ]
   },
   "2225": {
@@ -32598,7 +32666,11 @@
         "type": "feats",
         "id": "2642"
       },
-      "ability to cast 9th-level arcane or divine spells"
+      {
+        "type": "spellcasting",
+        "level": 9,
+        "spellType": ["arcane", "divine"]
+      }
     ]
   },
   "2276": {
@@ -36113,7 +36185,11 @@
     "isSkillTrick": false,
     "benefit": "You may cast one additional spell per day, over and above your allotment for the class that qualified you for your base bloodline feat. The additional spell must be one granted by that bloodline feat.",
     "prerequisites": [
-      "Ability to cast 3rd-level arcane spells",
+      {
+        "type": "spellcasting",
+        "level": 3,
+        "spellType": "arcane"
+      },
       "Any bloodline feat"
     ]
   },
