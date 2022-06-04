@@ -1363,7 +1363,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Boccob"
+      {
+        "type": "deities",
+        "value": "Boccob"
+      }
     ]
   },
   "102": {
@@ -12053,7 +12056,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Hextor"
+      {
+        "type": "deities",
+        "value": "Hextor"
+      }
     ]
   },
   "854": {
@@ -15229,7 +15235,10 @@
         "value": 13
       },
       "Cleric level 5th",
-      "deity Kord"
+      {
+        "type": "deities",
+        "value": "Kord"
+      }
     ]
   },
   "1082": {
@@ -16923,7 +16932,10 @@
     "benefit": "Add Climb, Jump, and Swim to your list of cleric class skills. Furthermore, you always know the direction of north from your current position. You cannot use this extraordinary ability in any environment where &quot;north&quot; does not exist. In addition, you may add the following spells to your cleric spell list: 1st Expeditious Retreat: Your speed increases by 30 ft. 3rd Leomund's Tiny Hut: Creates shelter for ten creatures. 5th Overland Flight: You fly at a speed of 40 ft. and can hustle over long distances. 6th Shadow Walk: Step into shadow to travel rapidly.",
     "prerequisites": [
       "Cleric level 1st",
-      "deity Fharlanghn"
+      {
+        "type": "deities",
+        "value": "Fharlanghn"
+      }
     ]
   },
   "1212": {
@@ -26089,7 +26101,10 @@
         "type": "classes",
         "id": "130"
       },
-      "deity Aasterinian",
+      {
+        "type": "deities",
+        "value": "Aasterinian"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26147,7 +26162,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Astilabor",
+      {
+        "type": "deities",
+        "value": "Astilabor"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26159,7 +26177,10 @@
     "benefit": "Once per day, you can smite evil (as the paladin class feature, PH 44), using your cleric level as your paladin level. If you have the ability to smite evil from another class. your cleric levels and levels in that class stack for the purpose of determining the extra damage dealt by your smite evil ability. If you are a dragonborn (see Races of the Dragon), you can instead smite evil twice per day. In addition, you add the following spells to your cleric spell list. 1st Feather Fall: Objects or creatures fall slowly. 3rd Wingblast: Create wings that can transform into a gust of wind or obscuring mist. 5th Lord of the Sky: Gain flight and one use of lightning bolt; slow airborne creatures. 7th Aspect of the Platinum Dragon: Take the form of an aspect of Bahamut.",
     "prerequisites": [
       "Cleric level 3rd. dragonblood subtype",
-      "deity Bahamut"
+      {
+        "type": "deities",
+        "value": "Bahamut"
+      }
     ]
   },
   "1842": {
@@ -26204,7 +26225,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Fa 1 azure",
+      {
+        "type": "deities",
+        "value": "Fa 1 azure"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26216,7 +26240,10 @@
     "benefit": "Once per day, you can apply the effect of the Empower Spell metamagic feat to any fire spell you cast without adjusting level of spell that you can affect with this ability is equal to one-third your caster level. In addition, you add the following spells to your cleric spell list. 2nd Flaming Sphere: Create rolling ball of fire that deals 2d6 damage and lasts 1 round/level. 4th Ferocity of Sanguine Rage: Gain bonus on melee damage rolls and one use of true strike. 6th Dragonshape, Lesser: Take the form of a Large red dragon. 7th Haze of Smoldering Stone: Volcanic stones deal 4d6 bludgeoning and 8d6 fire damage in a 60-foot cone.",
     "prerequisites": [
       "Cleric level 5th",
-      "deity Garyx",
+      {
+        "type": "deities",
+        "value": "Garyx"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26258,7 +26285,10 @@
     "benefit": "Three times per day, you can add your caster level as a bonus on any Escape Artist check or any grapple check made to avoid or escape a grapple. You must choose to use this ability before you roll the check. if you have the bardic music class feature, you can use your bardic music one additional time per day. In addition, you add the following spells to your cleric spell list. 2nd Tasha's Hideous Laughter: Subject loses actions for 1 round/level. 3rd Dragonshape, Least: Take the form of a Pseudodragon. 6th Heroism, Greater: Cain +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp. 8th Mind of the Labyrinth: Confuse enemies who try to affect your mind, dominate one such attacker.",
     "prerequisites": [
       "Cleric level 5th",
-      "deity Hlal",
+      {
+        "type": "deities",
+        "value": "Hlal"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26307,7 +26337,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity lo",
+      {
+        "type": "deities",
+        "value": "lo"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26344,7 +26377,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Lendys",
+      {
+        "type": "deities",
+        "value": "Lendys"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26428,7 +26464,10 @@
     "benefit": "When you cast a <em>cure</em> spell on a good-aligned creature, you add the spell's level to the damage healed. For example, if you cast <em>cure moderate wounds</em>, it heals the standard 2d8 + caster level points of damage, plus an extra 2 points of damage.",
     "prerequisites": [
       "Cleric level",
-      "deity Tamara",
+      {
+        "type": "deities",
+        "value": "Tamara"
+      },
       "dragonblood subtype"
     ]
   },
@@ -26475,7 +26514,10 @@
     "benefit": "Add Intimidate to your list of cleric class skills. When you make a melee attack against a creature that is shaken, frightened, or panicked, you deal an extra ld6 points of damage. In addition, you add the following spells to your cleric spell list. 1st Charm Person: Make one person your friend. 4th Curse of the Elemental Lords: Bestow a curse on enemies, making them more susceptible to your energy damage. 5th Dominate Person: Control humanoid telepathically. 7th Glorious Master of the Elements: Channel acid, cold. electricity, or fire damage into ranged touch attacks. 8th Aspect of the Chromatic Dragon: Take the form of an aspect of Tiamat.",
     "prerequisites": [
       "Cleric level 5th",
-      "deity Tiamat",
+      {
+        "type": "deities",
+        "value": "Tiamat"
+      },
       "dragonblood subtype"
     ]
   },
@@ -28035,7 +28077,10 @@
     "benefit": "Your natural weapons, as well as any weapons you wield, are treated as lawful-aligned for the purpose of overcoming damage reduction. In addition, you may add the following spells to your cleric spell list: 1st Color Spray: Knocks unconscious, blinds, and/or stuns 1d6 weak creatures. 2nd Daze Monster: Living creature of 6 HD or less loses next action. 3rd Suggestion: Compels subject to follow stated course of action. 5th Passwall: Creates passage through wood or stone wall. 6th Suggestion, Mass: As suggestion, plus one subject/ level. 8th Power Word Stun: Stuns creature with 150 hp or less.",
     "prerequisites": [
       "Cleric level 1st",
-      "deity St. Cuthbert",
+      {
+        "type": "deities",
+        "value": "St. Cuthbert"
+      },
       "must be lawful"
     ]
   },
@@ -37856,7 +37901,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Pelor"
+      {
+        "type": "deities",
+        "value": "Pelor"
+      }
     ]
   },
   "2662": {
@@ -48595,7 +48643,10 @@
         "type": "classes",
         "value": ["130", "131", "132", "133"]
       },
-      "deity Wee Jas"
+      {
+        "type": "deities",
+        "value": "Wee Jas"
+      }
     ]
   },
   "3423": {
@@ -50305,7 +50356,10 @@
     "benefit": "Add Listen and Spot to your list of cleric class skills. Furthermore, you automatically become aware of any attempt to observe you by means of a divination (scrying) spell or effect. This extraordinary ability does not enable you to discern the scrier, the type of scrying device or spell used, or the scrier's location. In addition, you may add the following spells to your cleric spell list: 1st Disguise Self: Changes your appearance. 2nd Darkvision: See 60 ft. in total darkness. 3rd Glibness: You gain +30 on Bluff checks and your lies can escape magical discernment. 4th Arcane Eye: Invisible floating eye moves 30 ft./round. 5th Prying Eyes: 1d4 +1/level floating eyes scout for you. 6th Analyze DweomerF: Reveals magical aspects of subject. 8th Mind Blank: Subject is immune to mental/emotional magic and scrying.",
     "prerequisites": [
       "Cleric level 1st",
-      "deity Vecna"
+      {
+        "type": "deities",
+        "value": "Vecna"
+      }
     ]
   },
   "3551": {
