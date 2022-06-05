@@ -10,6 +10,10 @@ const checkClasses = (p,c) => {
     return c.classes.includes(p.id)
 }
 
+const checkAlignments = ({legality, goodness},c) => {
+    return (legality === '*' || legality.includes(c.alignment.legality)) && (goodness === '*' || goodness.includes(c.alignment.goodness))    
+}
+
 const prerequisiteChecks = {
     races: (p, c) => false,
     feats: (p, c) => c.feats.includes(p.id),
@@ -20,7 +24,7 @@ const prerequisiteChecks = {
     language: (p, c) => false,
     classes: checkClasses,
     spellcasting: (p, c) => false,
-    alignment: (p, c) => false,
+    alignment: checkAlignments,
     saveBaseBonus: (p, c) => false,
     classAbility: (p, c) => false,
     size: (p, c) => false,
