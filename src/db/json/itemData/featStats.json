@@ -1417,7 +1417,7 @@
       },
       {
         "type": "deities",
-        "value": "Boccob"
+        "value": "boccob"
       }
     ]
   },
@@ -2093,7 +2093,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -2123,7 +2123,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -7251,7 +7251,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -10659,7 +10659,7 @@
       },
       {
         "type": "classes",
-        "value": "Divine caster"
+        "value": "divine caster"
       },
       "Ability to turn or rebuke undead"
     ]
@@ -12539,7 +12539,7 @@
       },
       {
         "type": "deities",
-        "value": "Hextor"
+        "value": "hextor"
       }
     ]
   },
@@ -14532,7 +14532,7 @@
       },
       {
         "type": "classes",
-        "value": "Abjurer"
+        "value": "abjurer"
       }
     ]
   },
@@ -15883,7 +15883,7 @@
       "Cleric level 5th",
       {
         "type": "deities",
-        "value": "Kord"
+        "value": "kord"
       }
     ]
   },
@@ -17007,7 +17007,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -17099,7 +17099,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -17605,7 +17605,7 @@
       "Cleric level 1st",
       {
         "type": "deities",
-        "value": "Fharlanghn"
+        "value": "fharlanghn"
       }
     ]
   },
@@ -27075,7 +27075,7 @@
       },
       {
         "type": "deities",
-        "value": "Aasterinian"
+        "value": "aasterinian"
       },
       "dragonblood subtype"
     ]
@@ -27141,7 +27141,7 @@
       },
       {
         "type": "deities",
-        "value": "Astilabor"
+        "value": "astilabor"
       },
       "dragonblood subtype"
     ]
@@ -27156,7 +27156,7 @@
       "Cleric level 3rd. dragonblood subtype",
       {
         "type": "deities",
-        "value": "Bahamut"
+        "value": "bahamut"
       }
     ]
   },
@@ -27209,7 +27209,7 @@
       },
       {
         "type": "deities",
-        "value": "Fa 1 azure"
+        "value": "fa 1 azure"
       },
       "dragonblood subtype"
     ]
@@ -27224,7 +27224,7 @@
       "Cleric level 5th",
       {
         "type": "deities",
-        "value": "Garyx"
+        "value": "garyx"
       },
       "dragonblood subtype"
     ]
@@ -27278,7 +27278,7 @@
       "Cleric level 5th",
       {
         "type": "deities",
-        "value": "Hlal"
+        "value": "hlal"
       },
       "dragonblood subtype"
     ]
@@ -27385,7 +27385,7 @@
       },
       {
         "type": "deities",
-        "value": "Lendys"
+        "value": "lendys"
       },
       "dragonblood subtype"
     ]
@@ -27472,7 +27472,7 @@
       "Cleric level",
       {
         "type": "deities",
-        "value": "Tamara"
+        "value": "tamara"
       },
       "dragonblood subtype"
     ]
@@ -27522,7 +27522,7 @@
       "Cleric level 5th",
       {
         "type": "deities",
-        "value": "Tiamat"
+        "value": "tiamat"
       },
       "dragonblood subtype"
     ]
@@ -28973,7 +28973,7 @@
       },
       {
         "type": "level",
-        "value": "DC"
+        "value": "dc"
       },
       "the kuo-toa autimatically hits with one of its extra attacks if its first attack hits. A kuo-toa that has this feat uses its Hit Dice"
     ]
@@ -29121,7 +29121,7 @@
       "Cleric level 1st",
       {
         "type": "deities",
-        "value": "St. Cuthbert"
+        "value": "st. cuthbert"
       },
       "must be lawful"
     ]
@@ -32346,7 +32346,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -32367,7 +32367,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -34447,7 +34447,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -34468,7 +34468,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -34501,7 +34501,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -34519,7 +34519,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -34541,7 +34541,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -39168,7 +39168,7 @@
       },
       {
         "type": "deities",
-        "value": "Pelor"
+        "value": "pelor"
       }
     ]
   },
@@ -39761,7 +39761,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -40668,7 +40668,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       }
     ]
   },
@@ -42540,7 +42540,7 @@
       },
       {
         "type": "classes",
-        "value": "Divine Spellcaste"
+        "value": "divine caster"
       },
       "Dragon with 12 level of the Dragon Ascendant (from draconomicon) prestige class as a patron deity"
     ]
@@ -50224,7 +50224,7 @@
       },
       {
         "type": "deities",
-        "value": "Wee Jas"
+        "value": "wee jas"
       }
     ]
   },
@@ -51295,7 +51295,7 @@
       },
       {
         "type": "classes",
-        "value": "Spellcaster"
+        "value": "caster"
       },
       "rebuke undead"
     ]
@@ -51978,7 +51978,7 @@
       "Cleric level 1st",
       {
         "type": "deities",
-        "value": "Vecna"
+        "value": "vecna"
       }
     ]
   },

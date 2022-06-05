@@ -1,4 +1,14 @@
 import featStats from '../db/json/itemData/featStats.json'
+import casterTypes from '../db/json/castersList.json'
+
+const checkClasses = (p,c) => {
+    if(p.value === 'abjurer') { return c.classes.some(({name})=>name.includes('abjurer')) }
+    //TODO generate a castersList that works with this
+    if(p.value === 'arcane caster') { return casterTypes.arcane.includes(p.value) }
+    if(p.value === 'divine caster') { return casterTypes.divine.includes(p.value) }
+    if(p.value === 'caster') { return [...casterTypes.arcane, ...casterTypes.divine].includes(p.value) }
+    return c.classes.includes(p.id)
+}
 
 const prerequisiteChecks = {
     races: (p, c) => false,
@@ -8,7 +18,7 @@ const prerequisiteChecks = {
     bab: (p, c) => false,
     level: (p, c) => false,
     language: (p, c) => false,
-    classes: (p, c) => false,
+    classes: checkClasses,
     spellcasting: (p, c) => false,
     alignment: (p, c) => false,
     saveBaseBonus: (p, c) => false,
@@ -51,6 +61,7 @@ const checkFeatsPrerequisites = (character) => {
             ...rest,
             prerequisites: prerequisites.map(p => isPrerequisiteFullfilled(p, queriableCharacter))
         }))
+    console.log(out)
     return out
 }
 
