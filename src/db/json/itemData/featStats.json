@@ -974,7 +974,10 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -1022,7 +1025,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       },
       {
         "type": "level",
@@ -1310,7 +1315,10 @@
         "type": "classes",
         "value": "arcane caster"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "96": {
@@ -1760,7 +1768,7 @@
         "type": "bab",
         "value": 4
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -1774,7 +1782,7 @@
     "benefit": "If you hit with a sneak attack, you may choose to forgo +1d6 points of extra sneak attack damage to deliver a wound that won't stop bleeding. Each wound so infl icted does an additional 1 point of damage per round. Wounds from multiple arterial strikes result in cumulative blood loss--that is, two successful arterial strikes do an additional 2 points of damage per round. Blood loss, whether from one such wound or several, stops when the victim receives one successful Heal check, any cure spell, or any other form of magical healing. Creatures not subject to sneak attacks are immune to this effect.",
     "prerequisites": [
       "Base attack +4",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -1888,7 +1896,7 @@
         "type": "feats",
         "id": "1809"
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -2351,7 +2359,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -2570,7 +2580,10 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["neutral","lawful"],
+        "legality": [
+          "neutral",
+          "lawful"
+        ],
         "goodness": "*"
       }
     ]
@@ -2598,7 +2611,9 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["lawful"],
+        "legality": [
+          "lawful"
+        ],
         "goodness": "*"
       },
       "Smite anarchy class feature"
@@ -2879,7 +2894,10 @@
         "type": "bab",
         "value": 2
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "200": {
@@ -3965,7 +3983,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -4496,7 +4516,10 @@
     "benefit": "As a swift action before casting a spell, you can attempt a Perform check (DC 15 + the level of the spell you intend to cast). If you succeed, you can sacrifice one of your daily uses of bardic music to increase the save DC of the next enchantment or illusion spell you cast in the same round by 2. If the Perform check fails, you still lose one daily use of bardic music but gain no benefit. You can apply Captivating Melody only to spells cast by the same class that grants you your bardic music ability. For instance, if you are a multiclass bard/wizard, you can apply this feat to bard spells, but not to spells you cast as a wizard.",
     "prerequisites": [
       "ability to cast arcane spells",
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "313": {
@@ -4664,7 +4687,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       }
     ]
   },
@@ -4789,7 +4815,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       }
     ]
   },
@@ -4985,7 +5014,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "347": {
@@ -5224,7 +5256,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -5586,7 +5621,10 @@
       },
       {
         "type": "size",
-        "value": ["small","medium"]
+        "value": [
+          "small",
+          "medium"
+        ]
       }
     ]
   },
@@ -5617,7 +5655,10 @@
       },
       {
         "type": "size",
-        "value": ["small","medium"]
+        "value": [
+          "small",
+          "medium"
+        ]
       }
     ]
   },
@@ -6662,7 +6703,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -6676,7 +6719,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -6690,7 +6735,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -6714,7 +6761,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -6972,7 +7021,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       },
       "Sorcerer or wizard level 3rd"
     ]
@@ -6988,7 +7040,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -7002,7 +7056,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -7017,7 +7073,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -7031,7 +7089,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -7046,7 +7107,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -7649,7 +7712,7 @@
     "benefit": "You take a -2 penalty on saving throws against fear effects. However, when making a sneak attack, you deal an extra 1 point of damage per character level.",
     "prerequisites": [
       "cannot be immune to fear",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -8876,7 +8939,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -9237,7 +9302,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -9256,7 +9323,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       },
       {
         "type": "size",
@@ -9278,7 +9347,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -9296,7 +9367,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -9364,7 +9437,7 @@
         "score": "INT",
         "value": 13
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -9507,7 +9580,7 @@
     "special": "You trade feints for finesse and find it difficult to hide your more malicious intentions; consequently, you take a -2 penalty on Bluff checks.",
     "benefit": "When you make a successful sneak attack, you can reroll a number of sneak attack damage dice equal to the number of Abyssal heritor feats you possess. You must take the results of the rerolled dice.",
     "prerequisites": [
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -9874,7 +9947,7 @@
     "benefit": "When you successfully use your sneak attack ability and your smite evil ability against the same foe in a single attack, you can potentially daze your foe. An opponent affected by both abilities must make a Will saving throw (DC 10 + 1/2 your character level + your Cha modifier) or be dazed for 1 round. In addition, you can multiclass freely between the paladin and rogue classes. You must still remain lawful good in order to retain your paladin abilities and take paladin levels. You still face the normal XP penalties for having multiple classes more than one level apart.",
     "prerequisites": [
       "Smite evil",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -9887,7 +9960,10 @@
     "isSkillTrick": false,
     "benefit": "If you have levels in paladin and bard, those levels stack for the purpose of determining the bonus damage dealt by your smite evil ability and determining the number of times per day that you can use your bardic music. This feat does not allow additional daily uses of smite evil or bardic music abilities beyond what your class levels would normally allow. In addition, you can multiclass freely between the paladin and bard classes and may even gain additional bard levels regardless of your lawful alignment. You must still remain lawful good in order to retain your paladin abilities and take paladin levels. You still face the normal XP penalties for having multiple classes more than one level apart.",
     "prerequisites": [
-      "Bardic music",
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      },
       "smite evil."
     ]
   },
@@ -10195,8 +10271,12 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["lawful"],
-        "goodness": ["evil"]
+        "legality": [
+          "lawful"
+        ],
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -10211,7 +10291,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -10297,7 +10379,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "705": {
@@ -10311,7 +10396,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "706": {
@@ -10554,7 +10642,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -12239,7 +12329,10 @@
         "score": "CHA",
         "value": 11
       },
-      "bardic music",
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      },
       "dragonblood subtype"
     ]
   },
@@ -12258,7 +12351,7 @@
       },
       "dragonblood subtype",
       "one of these class features: skirmish",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       },
@@ -13473,7 +13566,12 @@
       },
       {
         "type": "size",
-        "value": ["small","medium","tiny","fine"]
+        "value": [
+          "small",
+          "medium",
+          "tiny",
+          "fine"
+        ]
       }
     ]
   },
@@ -14385,7 +14483,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "977": {
@@ -14510,7 +14611,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       }
     ]
   },
@@ -14741,7 +14845,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -14764,7 +14871,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -16664,7 +16774,14 @@
       "pseudopod",
       {
         "type": "size",
-        "value": ["small","medium","large","huge","colossal","gargantuan"]
+        "value": [
+          "small",
+          "medium",
+          "large",
+          "huge",
+          "colossal",
+          "gargantuan"
+        ]
       }
     ]
   },
@@ -16832,7 +16949,10 @@
     "special": "You can gain this feat multiple times. Its effects stack.",
     "benefit": "You can use your bardic music four extra times per day.",
     "prerequisites": [
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1156": {
@@ -16857,7 +16977,10 @@
     "special": "A deity can gain this feat multiple times, adding another four uses of bardic music each time.",
     "benefit": "The deity can use its bardic music four extra times per day.",
     "prerequisites": [
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1158": {
@@ -18098,7 +18221,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -18136,7 +18261,10 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -18158,7 +18286,10 @@
       },
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -18176,7 +18307,10 @@
       },
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -18198,7 +18332,10 @@
       },
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -18216,7 +18353,10 @@
       },
       {
         "type": "alignment",
-        "legality": ["neutral","chaotic"],
+        "legality": [
+          "neutral",
+          "chaotic"
+        ],
         "goodness": "*"
       }
     ]
@@ -18294,7 +18434,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18308,7 +18451,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18330,7 +18476,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18348,7 +18497,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18370,7 +18522,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18388,7 +18543,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -18411,7 +18569,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -20154,7 +20315,12 @@
       },
       {
         "type": "size",
-        "value": ["small","medium","tiny","fine"]
+        "value": [
+          "small",
+          "medium",
+          "tiny",
+          "fine"
+        ]
       }
     ]
   },
@@ -21107,7 +21273,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -21266,7 +21435,10 @@
       },
       {
         "type": "creatureType",
-        "value": ["animal", "magical beast"]
+        "value": [
+          "animal",
+          "magical beast"
+        ]
       }
     ]
   },
@@ -21487,7 +21659,13 @@
       },
       {
         "type": "size",
-        "value": ["medium","large","huge","colossal","gargantuan"]
+        "value": [
+          "medium",
+          "large",
+          "huge",
+          "colossal",
+          "gargantuan"
+        ]
       }
     ]
   },
@@ -21984,7 +22162,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1500": {
@@ -22111,7 +22292,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1510": {
@@ -22368,7 +22552,7 @@
         "type": "bab",
         "value": 4
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -22382,7 +22566,7 @@
     "benefit": "If you hit with a sneak attack, you may choose to forgo +2d6 of your sneak attack damage to reduce your opponent's land speed by half. Other forms of movement (fl y, burrow, and so forth) aren't affected. The speed reduction ends when the target receives healing (a successful Heal check, any cure spell, or other magical healing) or after 24 hours, whichever comes fi rst. A hamstring attack does not slow creatures that are immune to sneak attack damage or those that have either no legs at all or more than four legs. It takes two successful hamstring attacks to affect a quadruped.",
     "prerequisites": [
       "Base attack +4",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -22565,7 +22749,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1541": {
@@ -23486,7 +23673,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       },
       "Smite evil class feature"
     ]
@@ -23501,7 +23690,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       },
       "Smite evil class feature"
     ]
@@ -23586,7 +23777,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -26880,7 +27074,7 @@
         "value": 13
       },
       "sudden strike class feature",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -27915,7 +28109,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1889": {
@@ -28226,7 +28423,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "1913": {
@@ -29829,7 +30029,10 @@
     "isSkillTrick": false,
     "benefit": "If you use bardic music to inspire courage, inspire greatness, or inspire heroics, the effect lasts for 1 minute after an inspired ally stops hearing you play.",
     "prerequisites": [
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2020": {
@@ -30333,7 +30536,10 @@
         "id": "51"
       },
       "ability to spontaneously cast 2nd-level arcane spells",
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2062": {
@@ -30779,7 +30985,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -30794,7 +31002,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -32281,7 +32491,10 @@
     "benefit": "When you spontaneously cast an arcane spell that is enhanced by a metamagic feat, you can spend a number of uses of your bardic music ability equal to the number of extra levels that the metamagic feat imposes on the spell rather than raising the spell's effective level. Applying metamagic spontaneously using this method increases the casting time of the spell normally. You cannot use the Metamagic Song feat to add metamagic feats that would make the spell's effective level higher than the highest level of spell that you can cast normally.",
     "prerequisites": [
       "Any two metamagic feats",
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2193": {
@@ -32569,7 +32782,10 @@
       },
       {
         "type": "creatureType",
-        "value": ["animal", "magical beast"]
+        "value": [
+          "animal",
+          "magical beast"
+        ]
       }
     ]
   },
@@ -32911,7 +33127,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "2232": {
@@ -33833,7 +34052,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -34071,7 +34292,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -34165,7 +34389,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -34186,7 +34412,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -34346,7 +34574,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -35052,7 +35283,10 @@
       },
       {
         "type": "alignment",
-        "legality": ["neutral","lawful"],
+        "legality": [
+          "neutral",
+          "lawful"
+        ],
         "goodness": "*"
       }
     ]
@@ -37297,7 +37531,13 @@
       },
       {
         "type": "size",
-        "value": ["medium","large","huge","colossal","gargantuan"]
+        "value": [
+          "medium",
+          "large",
+          "huge",
+          "colossal",
+          "gargantuan"
+        ]
       }
     ]
   },
@@ -37703,7 +37943,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -38547,7 +38789,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       },
       "no taint"
     ]
@@ -38562,7 +38807,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -38587,7 +38834,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -39804,7 +40053,7 @@
         "value": "caster",
         "level": 5
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -40008,7 +40257,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -41033,7 +41284,9 @@
       },
       {
         "type": "alignment",
-        "legality": ["lawful"],
+        "legality": [
+          "lawful"
+        ],
         "goodness": "*"
       }
     ]
@@ -41116,7 +41369,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -41154,7 +41409,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -41182,7 +41440,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       }
     ]
   },
@@ -41537,7 +41798,7 @@
     "isSkillTrick": false,
     "benefit": "When you use your sneak attack ability against an evil creature, roll d8s for your sneak attack dice (instead of d6s) and your sneak attack damage is considered good-aligned for purposes of overcoming damage reduction.",
     "prerequisites": [
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -41963,7 +42224,7 @@
     "isSkillTrick": false,
     "benefit": "While you are in a wild shape, any time you make a successful grapple check to damage a creature with which you are already grappling, you can add your sneak attack damage as well. Creatures not subject to sneak attacks don't take this extra damage.",
     "prerequisites": [
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       },
@@ -42058,8 +42319,12 @@
     "prerequisites": [
       {
         "type": "alignment",
-        "legality": ["neutral"],
-        "goodness": ["evil"]
+        "legality": [
+          "neutral"
+        ],
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -43873,7 +44138,7 @@
     "isSkillTrick": false,
     "benefit": "You can use one of the daily uses of your silence spell-like ability to turn a sneak attack into a silencing strike. You must declare the use of this feat before you make your attack roll. If you hit your target with a melee attack and successfully deal sneak attack damage, a fi eld of supernatural silence also surrounds the target. The effect of this fi eld of silence is identical to that of the spell of the same name, except that there is no saving throw to resist this effect. The silence lasts for a number of rounds equal to your character level. You can dismiss the fi eld as a standard action.",
     "prerequisites": [
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       },
@@ -44809,7 +45074,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "3045": {
@@ -45041,7 +45309,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["good"]
+        "goodness": [
+          "good"
+        ]
       }
     ]
   },
@@ -45751,7 +46021,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "good"]
+        "goodness": [
+          "neutral",
+          "good"
+        ]
       }
     ]
   },
@@ -45814,7 +46087,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -45958,7 +46234,7 @@
         "type": "bab",
         "value": 6
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -45975,7 +46251,7 @@
         "type": "bab",
         "value": 6
       },
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       }
@@ -46864,7 +47140,10 @@
         "type": "skills",
         "id": "51"
       },
-      "bardic music"
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      }
     ]
   },
   "3188": {
@@ -48772,7 +49051,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -48790,7 +49072,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -48808,7 +49093,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -48822,7 +49110,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -48935,7 +49226,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -50109,7 +50402,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -50195,7 +50491,7 @@
     "benefit": "If you successfully deal sneak attack damage with a cold iron weapon, you reduce the target's spell resistance by 1 point per die of sneak attack damage. Multiple uses of this feat stack. Undo Resistance can reduce a target's spell resistance to 0, but not below 0. Spell resistance reduced in this manner returns to normal 1 hour after the last sneak attack.",
     "prerequisites": [
       "One of the following: skirmish ability",
-    {
+      {
         "type": "classAbility",
         "value": "sneak attack"
       },
@@ -50238,7 +50534,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       },
       "Smite good class feature"
     ]
@@ -50253,7 +50551,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       },
       "Smite good class feature"
     ]
@@ -50658,7 +50958,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       },
       "cannot worship an evil god",
       "not an outsider"
@@ -50732,7 +51034,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -50752,7 +51057,10 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["neutral", "evil"]
+        "goodness": [
+          "neutral",
+          "evil"
+        ]
       }
     ]
   },
@@ -51072,7 +51380,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
@@ -51466,7 +51776,10 @@
         "type": "skills",
         "id": "51"
       },
-      "Bardic music",
+      {
+        "type": "classAbility",
+        "value": "bardic music"
+      },
       "Evasion"
     ]
   },
@@ -52185,7 +52498,9 @@
       {
         "type": "alignment",
         "legality": "*",
-        "goodness": ["evil"]
+        "goodness": [
+          "evil"
+        ]
       }
     ]
   },
