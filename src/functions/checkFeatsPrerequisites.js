@@ -15,7 +15,7 @@ const prerequisiteChecks = {
     feats: (p, c) => c.feats.includes(p.id),
     skills: (p, c) => false,
     score: (p, c) => false,
-    bab: (p, c) => false,
+    bab: (p, c) => c.bonuses.bab >= p.value,
     level: (p, c) => false,
     language: (p, c) => false,
     classes: checkClasses,
@@ -39,7 +39,7 @@ const isPrerequisiteFullfilled = (p, character) => {
     }
     const out = {...p}
     if(!Object.keys(prerequisiteChecks).includes(out.type)){
-        console.error('unknown type for prerequisite', out)
+        console.warn('unknown type for prerequisite', out)
         out.fullfilled = 'unknown'
         return out
     }
