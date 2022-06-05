@@ -3,15 +3,20 @@ const onlyUnique = (value, index, self) => self.indexOf(value) === index;
 
 const getCharacterSkillData = (classes = [], modifiers = {}, race) => {
     const out = classes
-        .map(id=>classStats[id])
+        .map(id=>({id, ...classStats[id]}))
         .reduce((acc, c, i) => {
-            let levelScore = c['skill points'].base + modifiers[c['skill points'].score]
+            let skillPointData = c['skill points']
+            if(!skillPointData){
+                console.warn('no skill point data for class', c.id, c.name)
+                skillPointData = {}
+            }
+            let levelScore = skillPointData.base + modifiers[skillPointData.score]
             if(race.name === 'human') levelScore += 1
             levelScore = Math.max(levelScore, 0)
             if(i===0) levelScore *= 4
 
             return {
-                skills: [...(acc.skills||[]), ...c['class skills']], 
+                skills: [...(acc.skills||[]), ...c['class skills']||[]], 
                 points: (acc.points||0) + levelScore
             }
         }, {})

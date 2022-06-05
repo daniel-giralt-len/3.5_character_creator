@@ -11,8 +11,13 @@ const calculateMaxFeats = ({raceData = {}, classes = []}) => {
     const levelsInEveryClass = {}
     classes.forEach(id => {
         levelsInEveryClass[id] = (levelsInEveryClass[id] || 0) + 1
-        const advancement = (classStats[id].advancement.find(a=>a.level === levelsInEveryClass[id]) || {})
-        if(advancement.special.includes('bonus feat')) nFeats += 1
+        const advancementList = (classStats[id].advancement)
+        if(!advancementList){
+            console.warn('no advancements in class', id)
+        }else{
+            const advancement = (advancementList.find(a=>a.level === levelsInEveryClass[id]) || {})
+            if(advancement.special.includes('bonus feat')) nFeats += 1
+        }
     })
 
     return nFeats

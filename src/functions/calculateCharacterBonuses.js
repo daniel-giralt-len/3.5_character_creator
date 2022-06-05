@@ -19,11 +19,16 @@ const calculateCharacterBonuses = ({raceData = {}, classes = {}}) => {
 
     Object.entries(levelsInEveryClass)
         .forEach(([id, level]) => {
-            const advancement = (classStats[id].advancement.find(a=>a.level === level) || {})
-            out.bab += (advancement.bab || 0)
-            out.fortitude += (advancement.fort || 0)
-            out.reflex += (advancement.ref || 0)
-            out.will += (advancement.will || 0)
+            const advancementList = (classStats[id].advancement)
+            if(!advancementList){
+                console.warn('no advancements in class', id)
+            }else{
+                const advancement = advancementList.find(a=>a.level === level) || {}
+                out.bab += (advancement.bab || 0)
+                out.fortitude += (advancement.fort || 0)
+                out.reflex += (advancement.ref || 0)
+                out.will += (advancement.will || 0)
+            }
         })
 
     return out
