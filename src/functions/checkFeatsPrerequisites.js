@@ -15,7 +15,7 @@ const checkAlignments = ({legality, goodness},c) => {
 }
 
 const prerequisiteChecks = {
-    races: (p, c) => false,
+    races: (p, c) => c.races === p.id,
     feats: (p, c) => c.feats.includes(p.id),
     skills: (p, c) => false,
     score: (p, c) => false,

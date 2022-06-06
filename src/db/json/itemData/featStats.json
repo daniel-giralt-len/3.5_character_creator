@@ -8,24 +8,29 @@
     "prerequisites": [
       "Dragonmarked race (human",
       {
-        "type": "races",
-        "id": "8"
-      },
-      {
-        "type": "races",
-        "id": "9"
-      },
-      {
-        "type": "races",
-        "id": "11"
-      },
-      {
-        "type": "races",
-        "id": "18"
-      },
-      {
-        "type": "races",
-        "id": "13"
+        "type": "oneOf",
+        "choices": [
+          {
+            "type": "races",
+            "id": "8"
+          },
+          {
+            "type": "races",
+            "id": "9"
+          },
+          {
+            "type": "races",
+            "id": "11"
+          },
+          {
+            "type": "races",
+            "id": "18"
+          },
+          {
+            "type": "races",
+            "id": "13"
+          }
+        ]
       },
       "half-orc)"
     ]
