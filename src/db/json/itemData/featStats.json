@@ -302,7 +302,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to spontaneously cast 1st-level spells",
       {
@@ -391,7 +391,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -405,7 +405,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -835,7 +835,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "bab",
@@ -1166,7 +1166,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -1238,7 +1238,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -1384,7 +1384,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "able to cast arcane spells",
       "alignment matches your deity's alignment"
@@ -1989,11 +1989,11 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       }
     ]
   },
@@ -2204,7 +2204,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2230,7 +2230,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2256,7 +2256,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2282,7 +2282,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2308,7 +2308,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2334,7 +2334,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -2734,7 +2734,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -2800,7 +2800,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       },
       "five or more favored enemies"
     ]
@@ -2993,7 +2993,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "bab",
@@ -4967,7 +4967,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       },
       {
         "type": "spellcasting",
@@ -5550,7 +5550,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -6135,7 +6135,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -6645,7 +6645,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -6693,7 +6693,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       "Small or smaller"
     ]
@@ -7176,7 +7176,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       "Wild shape"
     ]
@@ -7388,7 +7388,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -7409,7 +7409,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -7430,7 +7430,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -7447,7 +7447,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "Craft Wondrous Item"
     ]
@@ -7859,7 +7859,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       }
     ]
   },
@@ -7872,7 +7872,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -9435,7 +9435,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       {
         "type": "score",
@@ -9461,7 +9461,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       {
         "type": "score",
@@ -9748,7 +9748,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -10111,7 +10111,7 @@
       },
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       },
       {
         "type": "races",
@@ -10235,7 +10235,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -10525,7 +10525,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       {
         "type": "score",
@@ -12386,7 +12386,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": "60"
       },
       {
         "type": "score",
@@ -12538,7 +12538,7 @@
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": "60"
       },
       {
         "type": "score",
@@ -12567,7 +12567,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": "60"
       }
     ]
   },
@@ -13610,7 +13610,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to prepare spells"
     ]
@@ -13723,7 +13723,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "Item creation feat to be selected"
     ]
@@ -13745,7 +13745,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "bab",
@@ -13763,7 +13763,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "bab",
@@ -13840,7 +13840,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -14414,7 +14414,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "abiliry to speak uttera nces"
     ]
@@ -14921,7 +14921,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "metamagic effect class ability"
     ]
@@ -15086,7 +15086,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances"
     ]
@@ -15171,7 +15171,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "Combat Refl exes",
       "I mproved I nitiative",
@@ -15256,7 +15256,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -15594,7 +15594,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -15655,7 +15655,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -15716,7 +15716,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -16544,7 +16544,7 @@
       },
       {
         "type": "skills",
-        "id": "65"
+        "id": "64"
       }
     ]
   },
@@ -16731,7 +16731,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances"
     ]
@@ -17379,7 +17379,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -17653,7 +17653,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -19195,7 +19195,7 @@
       },
       {
         "type": "skills",
-        "id": "65"
+        "id": "64"
       }
     ]
   },
@@ -19309,7 +19309,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances"
     ]
@@ -19529,7 +19529,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -19643,7 +19643,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -20312,7 +20312,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "bab",
@@ -22777,7 +22777,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       "Wild shape"
     ]
@@ -24025,7 +24025,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -24612,7 +24612,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "cooperative metamagic class feature"
     ]
@@ -25347,7 +25347,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -25541,7 +25541,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "Four metamagic feats"
     ]
@@ -26378,7 +26378,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "Epic Skill Focus (Spellcraft)",
       "snatch spell class ability"
@@ -26490,7 +26490,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to call spells from a spellpool"
     ]
@@ -26689,7 +26689,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": "64"
       }
     ]
   },
@@ -26702,7 +26702,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": "64"
       }
     ]
   },
@@ -28228,7 +28228,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -29474,7 +29474,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -29633,7 +29633,7 @@
       },
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       },
       {
         "type": "score",
@@ -30631,7 +30631,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "bab",
@@ -30648,7 +30648,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "bab",
@@ -30684,7 +30684,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       }
     ]
   },
@@ -30754,7 +30754,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "classes",
@@ -30793,7 +30793,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31668,7 +31668,7 @@
       },
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       }
     ]
   },
@@ -31780,7 +31780,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31797,7 +31797,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31814,7 +31814,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31831,7 +31831,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31848,7 +31848,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31869,7 +31869,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31918,7 +31918,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31939,7 +31939,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31960,7 +31960,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -31977,7 +31977,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -31998,7 +31998,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -32023,7 +32023,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -32040,7 +32040,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -32061,7 +32061,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -32082,7 +32082,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -32099,7 +32099,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -32206,7 +32206,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -32274,7 +32274,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "classAbility",
@@ -32511,7 +32511,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       },
       {
         "type": "feats",
@@ -33105,7 +33105,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       }
     ]
   },
@@ -33439,7 +33439,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       },
       {
         "type": "bab",
@@ -34182,7 +34182,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": "63"
       }
     ]
   },
@@ -34629,7 +34629,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -35379,7 +35379,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "spellcaster who uses the Weave"
     ]
@@ -36073,7 +36073,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to cast the spell to be made permanent"
     ]
@@ -36867,7 +36867,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -37620,7 +37620,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to spontaneously cast 3rd-level spells",
       {
@@ -37687,7 +37687,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -37701,7 +37701,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -38993,7 +38993,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -39010,7 +39010,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -39056,7 +39056,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": "64"
       }
     ]
   },
@@ -39327,7 +39327,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances"
     ]
@@ -39574,7 +39574,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -39789,7 +39789,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to spontaneously cast spells"
     ]
@@ -40314,7 +40314,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40329,7 +40329,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40344,7 +40344,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40359,7 +40359,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40374,7 +40374,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40477,7 +40477,7 @@
       },
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       }
     ]
   },
@@ -40494,7 +40494,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -40937,7 +40937,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "feats",
@@ -42116,7 +42116,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -42155,7 +42155,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -42455,7 +42455,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -42662,7 +42662,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -43611,7 +43611,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "feats",
@@ -43846,7 +43846,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "skills",
@@ -44081,7 +44081,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       {
         "type": "score",
@@ -44487,7 +44487,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -45418,7 +45418,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -45500,7 +45500,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "classes",
@@ -45601,7 +45601,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "score",
@@ -45983,7 +45983,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "score",
@@ -46043,7 +46043,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       "ability to cast the maximum normal spell level of at least one spellcasting class"
     ]
@@ -46108,7 +46108,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       }
     ]
   },
@@ -46297,7 +46297,7 @@
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       },
       {
         "type": "score",
@@ -46468,7 +46468,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -48064,7 +48064,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -48515,7 +48515,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": "61"
       }
     ]
   },
@@ -48622,7 +48622,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -49554,7 +49554,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       "ability to find traps as a rogue"
     ]
@@ -49781,7 +49781,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       }
     ]
   },
@@ -49810,7 +49810,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -49828,7 +49828,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -50052,7 +50052,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -50317,7 +50317,7 @@
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": "62"
       },
       {
         "type": "score",
@@ -50468,7 +50468,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       },
       "Small or smaller"
     ]
@@ -50707,7 +50707,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -50824,7 +50824,7 @@
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak three utterances"
     ]
@@ -50839,7 +50839,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "ability to speak two utterances"
     ]
@@ -50854,7 +50854,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": "65"
       },
       "Truename Trainin ability to speak four utterances"
     ]
@@ -51659,7 +51659,7 @@
       },
       {
         "type": "skills",
-        "id": "67"
+        "id": "66"
       }
     ]
   },
@@ -51737,7 +51737,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "68"
+        "id": "67"
       }
     ]
   },
@@ -52216,7 +52216,7 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "70"
+        "id": "69"
       },
       "proficiency with the whip"
     ]
