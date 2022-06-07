@@ -19,6 +19,8 @@ const checkSaves = (p, c) => {
     return (c.bonuses[p.saveType] + c.modifiers[saveToModifier[p.saveType]]) >= p.value
 }
 
+const checkOneOf = (p, c) => p.choices.some(pi => isPrerequisiteFullfilled(pi, c).fullfilled === true)
+
 const prerequisiteChecks = {
     races: (p, c) => c.races === p.id,
     feats: (p, c) => c.feats.includes(p.id),
@@ -33,9 +35,9 @@ const prerequisiteChecks = {
     saveBaseBonus: checkSaves,
     classAbility: (p, c) => false,
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
-    deities: (p, c) => false,
-    creatureType: (p, c) => false,
-    oneOf: (p, c) =>false
+    deities: () => 'unknown',
+    creatureType: () => false,
+    oneOf: checkOneOf
 }
 
 const isPrerequisiteFullfilled = (p, character) => {
