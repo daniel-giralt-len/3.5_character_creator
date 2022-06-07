@@ -1,7 +1,7 @@
 const fs = require('fs')
 //oh god.
 
-const a = 2;
+const a = 4;
 const jsonDescPath = './src/db/json/itemData/featDescription.json'
 const jsonStatsPath = './src/db/json/itemData/featStats.json'
 
@@ -111,5 +111,39 @@ if(a===2){
                 prerequisites: parsePrerequisites(feat.prerequisites)
             }
         }),{})
+    fs.writeFileSync(jsonStatsPath, JSON.stringify(newJson,null,2))
+}
+
+if(a===4){
+    const json = require('.'+jsonDescPath)
+    const stats = require('.'+jsonStatsPath)
+    const skillz = require('../src/db/json/skills.json')
+    const fixRanks = html => {
+        const prerequisiteRegex = RegExp(`<h[0-9]>Prerequisite.*?</h[0-9]><p>(.*?)</p>`,'i')
+        return (
+                (html.match(prerequisiteRegex) || [])[1] || ''
+            )
+            .split(/, ?/)
+            .filter(v=>v&&v!=='')
+            .map(p => {
+                const anchorRegex = new RegExp(/<a(?:.*?)>(.*?)<\/a>.*?([0-9]+) ranks/g)
+                const match = anchorRegex.exec(p)
+                if(!match){return}
+                const name = match[1].toLowerCase(), rank = parseInt(match[2])
+                console.log(name, rank)
+                return {type: 'skill', id: skillz.find(s=>s.name===name).id, value: rank}
+            }).filter(v=>v)
+
+    }
+
+    const newJson = json.reduce((acc, {id, html}) => {
+        return {
+            ...acc,
+            [id]: {
+                ...stats[id],
+                prerequisites: [...fixRanks(html), ...stats[id].prerequisites]
+            }
+        }
+    },{})
     fs.writeFileSync(jsonStatsPath, JSON.stringify(newJson,null,2))
 }

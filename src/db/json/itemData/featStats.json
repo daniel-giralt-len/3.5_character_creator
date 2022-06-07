@@ -57,7 +57,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 6
       },
       {
         "type": "feats",
@@ -218,7 +219,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 5
       },
       {
         "type": "score",
@@ -302,7 +304,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       },
       "ability to spontaneously cast 1st-level spells",
       {
@@ -334,12 +337,13 @@
     "benefit": "During your turn, designate an opponent within reach to whom you have dealt damage during this encounter using an unarmed strike. You can spend a standard action to confound and distract your chosen foe with a constant fl ood of distracting mock attacks. While doing this leaves you open to attacks (applying a -2 penalty to your Armor Class), your foe may take only a single standard action or move action on his next turn. If you move away (or are otherwise no longer conscious and adjacent to your foe) before your chosen foe's next turn, he may act normally.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1809"
+        "type": "skills",
+        "id": 43,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "43"
+        "type": "feats",
+        "id": "1809"
       },
       {
         "type": "score",
@@ -391,7 +395,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 12
       }
     ]
   },
@@ -405,7 +410,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 12
       }
     ]
   },
@@ -714,11 +720,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 1
       },
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 1
       }
     ]
   },
@@ -830,12 +838,13 @@
     "benefit": "When you deal sneak attack or sudden strike damage, you can sacrifice 1d6 points of this extra damage to bestow a &#8212;2 penalty on one of the target's three saving throws (your choice) for 1 round.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3524"
+        "type": "skills",
+        "id": 61,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "3524"
       },
       {
         "type": "bab",
@@ -1166,7 +1175,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 5
       }
     ]
   },
@@ -1230,15 +1240,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "3"
+        "id": 3,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 5
       }
     ]
   },
@@ -1305,12 +1318,13 @@
     "benefit": "As a swift action, you can expend a prepared spell or a spell slot to extend the duration of your bardic music ability after you stop performing. You extend the duration a number of rounds equal to the level of the spell used in this manner. This extension is in addition to the normal duration of the effect after you stop your performance. You can expend only one spell slot to extend the duration of your bardic music. The slot can come from any of your arcane caster classes, not just bard. This has no effect on bardic music or similar abilities with a duration of instantaneous or permanent.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "100"
+        "type": "skills",
+        "id": 51,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "100"
       },
       {
         "type": "level",
@@ -1380,11 +1394,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       },
       "able to cast arcane spells",
       "alignment matches your deity's alignment"
@@ -1399,7 +1415,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 4
       },
       {
         "type": "classes",
@@ -1566,7 +1583,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 9
       },
       "ability to cast arcane spells"
     ]
@@ -1675,7 +1693,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "Dragonblood subtype"
     ]
@@ -1952,7 +1971,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "14"
+        "id": 14,
+        "value": 5
       }
     ]
   },
@@ -1980,20 +2000,23 @@
     "benefit": "You can attempt to track a creature normally, even through the featureless wastes of the Astral Plane (base Survival DC 25). In addition, when standing at the location (on any plane) from which a creature departed by means of a teleportation spell or effect, you can determine its destination with a successful DC 30 Survival check. If you have your own means of teleportation, you can then teleport to that location as though you had viewed it once.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 11
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 8
+      },
+      {
+        "type": "skills",
+        "id": 63,
+        "value": 10
+      },
+      {
         "type": "feats",
         "id": "3346"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
-      },
-      {
-        "type": "skills",
-        "id": "63"
       }
     ]
   },
@@ -2076,7 +2099,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       }
     ]
   },
@@ -2089,7 +2113,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 4
       }
     ]
   },
@@ -2168,7 +2193,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 24
       },
       {
         "type": "score",
@@ -2199,12 +2225,13 @@
     "benefit": "You can cast all 0-level and 1st-level spells as quickened spells without using higherlevel spell slots. The normal limit to the number of quickened spells you can cast per round applies. Spells with a casting time of more than 1 full round can't be quickened.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2642"
+        "type": "skills",
+        "id": 61,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "2642"
       },
       {
         "type": "spellcasting",
@@ -2225,12 +2252,13 @@
     "benefit": "You may cast all 0-, 1st-, 2nd-, and 3rd-level spells as quickened spells without using higher-level spell slots. The normal limit to the number of quickened spells you may cast per round applies. Spells with a casting time of more than 1 full round can't be quickened.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2642"
+        "type": "skills",
+        "id": 61,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "2642"
       },
       {
         "type": "spellcasting",
@@ -2251,12 +2279,13 @@
     "benefit": "You can cast all 0-, 1st-, 2nd-, and 3rd-level spells as silent spells without using higher-level spell slots.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2975"
+        "type": "skills",
+        "id": 61,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "2975"
       },
       {
         "type": "spellcasting",
@@ -2277,12 +2306,13 @@
     "benefit": "You may cast all 0-, 1st-, 2nd-, and 3rd-level spells as silent spells without using higher-level spell slots.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2975"
+        "type": "skills",
+        "id": 61,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "2975"
       },
       {
         "type": "spellcasting",
@@ -2303,12 +2333,13 @@
     "benefit": "You can cast all 0-, 1st-, 2nd-, and 3rd-level spells as stilled spells without using higher-level spell slots.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3143"
+        "type": "skills",
+        "id": 61,
+        "value": 27
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "3143"
       },
       {
         "type": "spellcasting",
@@ -2329,12 +2360,13 @@
     "benefit": "You may cast all 0-, 1st-, 2nd-, and 3rd-level spells as stilled spells without using higher-level spell slots.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3143"
+        "type": "skills",
+        "id": 61,
+        "value": 27
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "3143"
       },
       {
         "type": "spellcasting",
@@ -2734,7 +2766,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 12
       }
     ]
   },
@@ -2800,7 +2833,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": 63,
+        "value": 24
       },
       "five or more favored enemies"
     ]
@@ -2873,12 +2907,13 @@
     "benefit": "While casting a spell, you gain a +2 dodge bonus to your Armor Class. The bonus lasts until the beginning of your next turn. You cannot make attacks of opportunity while claiming the dodge bonus from this feat.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "430"
+        "type": "skills",
+        "id": 8,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "430"
       },
       {
         "type": "score",
@@ -2993,7 +3028,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       },
       {
         "type": "bab",
@@ -3075,12 +3111,13 @@
     "benefit": "As the druid's animal companion ability, except that when you use animal friendship, the spell also applies to beasts. Despite the greater intelligence of beasts, companion beasts will not submit to tasks (or perform &quot;tricks&quot;) that animals cannot accomplish. At most, you can have beast and animal companions whose combined HD are not more than twice your caster level.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "212"
+        "type": "skills",
+        "id": 36,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "212"
       },
       "wild shape 6/day"
     ]
@@ -3119,7 +3156,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 24
       },
       "wild shape 6/day"
     ]
@@ -3346,7 +3384,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 1
       },
       {
         "type": "bab",
@@ -3524,7 +3563,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "46"
+        "id": 46,
+        "value": 4
       },
       "Wild shape class feature"
     ]
@@ -4033,12 +4073,13 @@
     "benefit": "When you cast a spell with either the electricity descriptor or the sonic descriptor that deals hit point damage, you can declare that spell to be a spell of the three thunders, with half its damage dealt as electricity damage and half dealt as sonic damage. In addition, the spell concludes with a mighty thunderclap that stuns all creatures that take damage from the spell for 1 round unless they succeed on a Fortitude save, then knocks stunned creatures prone unless they succeed on a Reflex save (both saves at the same DC as the base spell). Channeling the three thunders is costly, though, and you are automatically dazed for 1 round after doing so. A three thunders spell uses a spell slot of the spell's normal level. In addition, its descriptor changes to include both energy types--for example, a lightning bolt of the three thunders is an evocation [electricity, sonic] spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "998"
+        "type": "skills",
+        "id": 36,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "998"
       }
     ]
   },
@@ -4122,11 +4163,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 4
       }
     ]
   },
@@ -4139,7 +4182,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 6
       }
     ]
   },
@@ -4810,11 +4854,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       },
       "ability to cast any summon monster spell",
       {
@@ -4967,7 +5013,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": 67,
+        "value": 5
       },
       {
         "type": "spellcasting",
@@ -5013,11 +5060,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 9
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -5322,7 +5371,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       "Bardic music."
     ]
@@ -5433,16 +5483,17 @@
     "benefit": "While in melee with the focus of your Dodge feat and using the Circle Student feat, you gain the benefits of the Circle Student feat against all the foes you threaten, and you do not suffer the normal penalty to your AC against their attacks. When attacked by creature you do not threaten, you still suffer a &#8212;2 penalty to your AC against those attacks. Note that your dodge bonus from the Dodge feat still applies only to the focus of that feat.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 8,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "378"
       },
       {
         "type": "feats",
         "id": "759"
-      },
-      {
-        "type": "skills",
-        "id": "8"
       },
       {
         "type": "bab",
@@ -5459,12 +5510,13 @@
     "benefit": "By focusing your perceptions on only one opponent, you reap benefits at the cost of your ability to defend against the attacks of others. When in melee with the foe you designate as the focus of your Dodge feat, you may choose to gain an additional +1 dodge bonus to your Armor Class from attacks made by that creature and a +1 competence bonus on attack rolls against that foe. Unfortunately, during that round you take a -2 penalty to your AC against attacks by any other creature.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "759"
+        "type": "skills",
+        "id": 8,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "759"
       },
       {
         "type": "bab",
@@ -5550,7 +5602,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 12
       }
     ]
   },
@@ -5591,11 +5644,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "13"
+        "id": 13,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "50"
+        "id": 50,
+        "value": 5
       }
     ]
   },
@@ -5769,11 +5824,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 10
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 2
       }
     ]
   },
@@ -6079,7 +6136,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "26"
+        "id": 26,
+        "value": 5
       }
     ]
   },
@@ -6131,11 +6189,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 9
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 9
       }
     ]
   },
@@ -6400,7 +6460,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "59"
+        "id": 59,
+        "value": 4
       },
       {
         "type": "bab",
@@ -6434,15 +6495,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 8
       }
     ]
   },
@@ -6637,15 +6701,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 1
       },
       {
         "type": "skills",
-        "id": "60"
+        "id": 60,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 1
       }
     ]
   },
@@ -6688,12 +6755,13 @@
     "benefit": "This feat allows you to perform any of the following three maneuvers. Knee Striker: To use this maneuver, you must first move into a square occupied by a foe at least two size categories larger than you. On the next round, the foe is automatically considered flat-footed against your attacks, and you gain a +4 bonus on any roll you make to confirm a critical hit. Underfoot Defense: To use this maneuver, you must first move into a square occupied by a foe at least two size categories larger than you. On any succeeding round in which you remain in the foe's square and fight defensively, use total defense, or use Combat Expertise (minimum -1 penalty on attack rolls), any melee or ranged attack made against you has a 50% chance to strike the foe whose square you occupy instead. This chance does not apply to attacks made by the creature whose square you occupy. Unsteady Footing: To use this maneuver, you must first move into a square occupied by a foe at least two size categories larger than you. On the next round, you can use a standard action to attempt to trip your foe without provoking attacks of opportunity. If your touch attack to initiate the trip attack succeeds, you can attempt a Strength or Dexterity check (your choice) opposed by your foe's Strength or Dexterity check (as normal) to trip your foe. Your foe may not add any bonus on his Strength or Dexterity check to avoid the trip that he would gain from his size. If your trip check fails, your opponent may not attempt to trip you. If you have Improved Trip, you can follow a successful trip attempt with an immediate melee attack.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3419"
+        "type": "skills",
+        "id": 66,
+        "value": 10
       },
       {
-        "type": "skills",
-        "id": "66"
+        "type": "feats",
+        "id": "3419"
       },
       "Small or smaller"
     ]
@@ -6920,7 +6988,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 5
       },
       "animal companion class feature or special mount class feature"
     ]
@@ -6948,7 +7017,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 4
       },
       {
         "type": "spellcasting",
@@ -6965,7 +7035,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 8
       }
     ]
   },
@@ -7176,7 +7247,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 2
       },
       "Wild shape"
     ]
@@ -7237,7 +7309,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 4
       }
     ]
   },
@@ -7341,12 +7414,13 @@
     "benefit": "You can forge a weapon out of Kuni crystal, if you meet the other prerequisites for doing so (<a href=\"/spells/players-handbook-v35--6/holy-smite--2621/\"><em>holy smite</em></a> or <a href=\"/spells/oriental-adventures--96/jade-strike--2073/\"><em>jade strike</em></a> and <a href=\"/spells/players-handbook-v35--6/daylight--2601/\"><em>daylight</em></a>). You must first create the weapon, using the rules for the <a href=\"/skills/craft/\">Craft</a> skill in the <em>Player's Handbook</em> (a Kuni crystal weapon adds 400 gp to the listed weapon price and has a DC of 20). Then you must enhance the weapon, which takes one day for each 1,000 gp in the price of its magical features. To enhance a weapon, you must spend 1/25 of its features' total price in XP and use up raw materials costing half this total price. See Chapter 8: Magic Items for details of Kuni crystal weapons' cost and abilities.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "512"
+        "type": "skills",
+        "id": 10,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "10"
+        "type": "feats",
+        "id": "512"
       },
       "Spellcaster Level 7+"
     ]
@@ -7379,16 +7453,18 @@
     "benefit": "You can craft magic arms and armor which exceed the normal limits for such items (as stated in the DUNGEON MASTER's Guide). For instance, you could craft a magic sword with an enhancement bonus of greater than +5, with a total effective enhancement bonus greater than +10, or that required prerequisite spells of higher than 9th level. See Chapter 4: Epic Magic Items for examples of epic magic arms and armor.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 27,
+        "value": 28
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 28
+      },
+      {
         "type": "feats",
         "id": "512"
-      },
-      {
-        "type": "skills",
-        "id": "27"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -7400,16 +7476,18 @@
     "benefit": "You can craft rods that exceed the normal limits for such items (as stated in this book and in the DUNGEON MASTER's Guide). For instance, you could craft a rod with an enhancement bonus greater than +5 or a rod with prerequisite spells of higher than 9th level. See Chapter 4: Epic Magic Items for examples of epic rods.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 27,
+        "value": 32
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 32
+      },
+      {
         "type": "feats",
         "id": "521"
-      },
-      {
-        "type": "skills",
-        "id": "27"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -7421,16 +7499,18 @@
     "benefit": "You can craft staffs that exceed the normal limits for such items (as stated in this book and in the DUNGEON MASTER's Guide). For instance, you could craft a staff that cast spells greater than 9th level, or a staff with an enhancement bonus greater than +5. See Chapter 4: Epic Magic Items for examples of epic staffs.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 27,
+        "value": 35
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 35
+      },
+      {
         "type": "feats",
         "id": "525"
-      },
-      {
-        "type": "skills",
-        "id": "27"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -7443,11 +7523,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 26
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 26
       },
       "Craft Wondrous Item"
     ]
@@ -7476,7 +7558,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 6
       }
     ]
   },
@@ -7489,7 +7572,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 6
       }
     ]
   },
@@ -7502,7 +7586,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 6
       }
     ]
   },
@@ -7608,7 +7693,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 4
       },
       {
         "type": "classes",
@@ -7814,12 +7900,13 @@
     "benefit": "The Crowd Tactics feat enables the use of three tactical maneuvers. You only gain these benefits if the crowd is indifferent or friendly.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "759"
+        "type": "skills",
+        "id": 20,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "20"
+        "type": "feats",
+        "id": "759"
       }
     ]
   },
@@ -7859,7 +7946,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": 67,
+        "value": 4
       }
     ]
   },
@@ -7872,7 +7960,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 4
       }
     ]
   },
@@ -7925,7 +8014,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 9
       },
       "evasion"
     ]
@@ -8001,12 +8091,13 @@
     "benefit": "While engaged in combat, you may attempt to use the Sleight of Hand skill to pickpocket an enemy without provoking an attack of opportunity. This feat allows you to disguise your Sleight of Hand attempts as combat maneuvers.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1809"
+        "type": "skills",
+        "id": 60,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "60"
+        "type": "feats",
+        "id": "1809"
       }
     ]
   },
@@ -8080,7 +8171,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 1
       },
       {
         "type": "bab",
@@ -8097,12 +8189,13 @@
     "benefit": "Dancing with Shadows enables the use of three tactical maneuvers. You can only benefi t from one of these maneuvers in any given round. Flowing Motion, Still Mind: To use this maneuver, you must use the Combat Expertise feat (taking a penalty of at least -2 on your attack rolls) or fi ght defensively for 1 round. Starting on your next turn, you gain a +2 bonus on Will saves that lasts as long as you continue to use Combat Expertise or fi ght defensively, plus 1 round thereafter. Graceful Lunge: To use this maneuver, you must use Combat Expertise (taking a penalty of at least -2 on your attack rolls) or fight defensively for 1 round. In the next round, you gain a bonus on your first melee attack roll equal to the dodge bonus to AC granted by Combat Expertise or fighting defensively in the previous round. Lingering Defense: To use this m a n e u v e r , you must use the Combat Ex per t ise fe at (t a king a penalty of at least -2 on your attack rolls) or fight defensively for 2 consecutive rounds. In the next round, you continue to receive the same dodge bonus to AC gained from Combat Expertise or fighting defensively, but you take no penalty on attack rolls.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2409"
+        "type": "skills",
+        "id": 51,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "2409"
       },
       {
         "type": "bab",
@@ -8590,7 +8683,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 24
       },
       {
         "type": "classAbility",
@@ -8727,7 +8821,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       },
       "Aereni elf",
       {
@@ -8969,7 +9064,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 2
       }
     ]
   },
@@ -9430,12 +9526,13 @@
     "benefit": "As a standard action, you can attempt to find a weak point in a visible target's armor. This requires a Spot check against a DC equal to your target's Armor Class. If you succeed, your next attack against that target (which must be made no later than your next turn) ignores the target's armor bonus and natural armor bonus to AC (including any enhancement bonuses to armor or natural armor). Other AC bonuses still apply normally. If you use a ranged weapon to deliver the attack, your opponent must be within 30 feet of you in order for you to benefit from this feat.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "434"
+        "type": "skills",
+        "id": 62,
+        "value": 10
       },
       {
-        "type": "skills",
-        "id": "62"
+        "type": "feats",
+        "id": "434"
       },
       {
         "type": "score",
@@ -9456,12 +9553,13 @@
     "benefit": "As a standard action, you can attempt to find a weak point in a visible target's armor. This requires a Spot check against a DC equal to your target's Armor Class. If you succeed, your next attack against that target (which must be made no later than your next turn) ignores the target's armor bonus and natural armor bonus to AC (including any enhancement bonuses to armor or natural armor). Other AC bonuses still apply normally. ",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "434"
+        "type": "skills",
+        "id": 62,
+        "value": 10
       },
       {
-        "type": "skills",
-        "id": "62"
+        "type": "feats",
+        "id": "434"
       },
       {
         "type": "score",
@@ -9485,7 +9583,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 1
       }
     ]
   },
@@ -9744,11 +9843,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 5
       }
     ]
   },
@@ -9838,12 +9939,13 @@
     "benefit": "You can generate an aura of fear for 1 round as a swift action. All living creatures within 10 feet must succeed on a Will save (DC 10 + 1/2 your HD + your Cha modifier) or become shaken for 1d3 rounds. Multiple exposures to the same aura have no additional effect. The aura lasts for 1 round. You can use this ability a number of times per day equal to the total number of devil-touched feats you have selected, including this one.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "667"
+        "type": "skills",
+        "id": 23,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "23"
+        "type": "feats",
+        "id": "667"
       },
       {
         "type": "score",
@@ -10107,11 +10209,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 1
       },
       {
         "type": "skills",
-        "id": "63"
+        "id": 63,
+        "value": 1
       },
       {
         "type": "races",
@@ -10129,7 +10233,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 1
       },
       {
         "type": "races",
@@ -10235,7 +10340,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 4
       }
     ]
   },
@@ -10382,7 +10488,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -10399,7 +10506,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 12
       },
       {
         "type": "classAbility",
@@ -10416,7 +10524,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 12
       },
       "Bardic music ability"
     ]
@@ -10473,7 +10582,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 5
       }
     ]
   },
@@ -10516,16 +10626,17 @@
     "benefit": "You may throw or fire a ranged weapon at any target within line of sight, with no penalty for range.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 62,
+        "value": 20
+      },
+      {
         "type": "feats",
         "id": "1212"
       },
       {
         "type": "feats",
         "id": "2478"
-      },
-      {
-        "type": "skills",
-        "id": "62"
       },
       {
         "type": "score",
@@ -10565,12 +10676,13 @@
     "benefit": "The Disturbing Visage feat enables the use of three tactical maneuvers. Creatures immune to mind-affecting spells and abilities cannot be affected by this feat; regardless of the outcome of the opposed check, a creature can be affected only once by each of these maneuvers in a 24-hour period. Cringe: You change your features to appear weak and unworthy of an opponent's best efforts. To use this maneuver, you must use your minor change shape ability and take the total defense action in the same turn. You then make a Bluff check as a free action. From the end of your turn until the beginning of your next turn, any opponent that attempts to make a melee attack against you must make a Sense Motive check opposed by your Bluff check result. Failure means that the opponent takes a -5 penalty on weapon damage rolls (minimum 1 point) against you for 1 minute. Taunt: You change your features to mock an opponent. To use this maneuver, you must use your minor change shape ability to mimic the features of a selected target creature, who must be no more than 10 feet from you, must have missed you with a melee or ranged attack in the previous round, and is a humanoid, monstrous humanoid, or giant. You then make a Bluff check as a free action, opposed by the selected creature's Sense Motive check. If your check is successful, your foe takes a -2 penalty on attack rolls for 1 minute. Unnerve: You change your features to become a more terrifying foe. To use this maneuver, you must hit the target creature with a melee attack and use your minor change shape ability in the same round. You then make a Bluff check as a free action, opposed by a Sense Motive check from the foe you hit. If your check is successful, your foe takes a -2 penalty to AC for 1 minute.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2625"
+        "type": "skills",
+        "id": 6,
+        "value": 6
       },
       {
-        "type": "skills",
-        "id": "6"
+        "type": "feats",
+        "id": "2625"
       },
       {
         "type": "score",
@@ -10767,12 +10879,13 @@
     "benefit": "Whenever you are the target of a divine spell, you gain a +2 bonus on saving throws to resist the spell. If the spell does not allow a saving throw, you can make a Will save against the spell's DC as if it allowed a save. If you succeed, you negate the effect of the spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1910"
+        "type": "skills",
+        "id": 39,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "39"
+        "type": "feats",
+        "id": "1910"
       }
     ]
   },
@@ -11267,11 +11380,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 8
       },
       {
         "type": "classAbility",
@@ -11964,7 +12079,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 2
       },
       "Speak Language (Draconic)"
     ]
@@ -12016,7 +12132,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 8
       },
       {
         "type": "score",
@@ -12064,7 +12181,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 2
       },
       {
         "type": "bab",
@@ -12085,7 +12203,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 15
       },
       "ability to spontaneously cast 1st-level arcane spells",
       {
@@ -12116,7 +12235,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 4
       },
       "Dragonblood subtype",
       "Speak Language (Draconic)"
@@ -12147,12 +12267,13 @@
     "benefit": "You may use wild shape to change into a dragon (black, blue, green, red, white, brass, bronze, copper, gold, or silver). The size limitation is the same as your limitation on animal size. You gain all extraordinary and supernatural abilities of the dragon whose form you take.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "212"
+        "type": "skills",
+        "id": 36,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "212"
       },
       {
         "type": "score",
@@ -12171,7 +12292,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 15
       },
       {
         "type": "score",
@@ -12249,7 +12371,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 2
       }
     ]
   },
@@ -12386,7 +12509,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "60"
+        "id": 71,
+        "value": 1
       },
       {
         "type": "score",
@@ -12530,15 +12654,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 6
       },
       {
         "type": "skills",
-        "id": "60"
+        "id": 71,
+        "value": 1
       },
       {
         "type": "score",
@@ -12567,7 +12694,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "60"
+        "id": 71,
+        "value": 1
       }
     ]
   },
@@ -12748,15 +12876,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 3
       },
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 3
       },
       {
         "type": "skills",
-        "id": "38"
+        "id": 38,
+        "value": 3
       }
     ]
   },
@@ -12908,11 +13039,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "31"
+        "id": 31,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 2
       }
     ]
   },
@@ -13567,7 +13700,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "15"
+        "id": 15,
+        "value": 8
       },
       {
         "type": "size",
@@ -13597,7 +13731,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 6
       }
     ]
   },
@@ -13610,7 +13745,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 12
       },
       "ability to prepare spells"
     ]
@@ -13719,11 +13855,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       },
       "Item creation feat to be selected"
     ]
@@ -13736,16 +13874,17 @@
     "benefit": "When you strike a creature with a magic staff, you gain a bonus on damage rolls equal to +1 per 10 charges remaining in the staff (rounded up).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 2
+      },
+      {
         "type": "feats",
         "id": "3525"
       },
       {
         "type": "feats",
         "id": "3397"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       },
       {
         "type": "bab",
@@ -13763,7 +13902,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 6
       },
       {
         "type": "bab",
@@ -13821,7 +13961,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 4
       },
       {
         "type": "classes",
@@ -13840,7 +13981,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 9
       }
     ]
   },
@@ -13947,7 +14089,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 1
       },
       {
         "type": "feats",
@@ -13976,7 +14119,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       },
       {
         "type": "classes",
@@ -14013,7 +14157,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 3
       },
       {
         "type": "score",
@@ -14044,7 +14189,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       }
     ]
   },
@@ -14058,7 +14204,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       }
     ]
   },
@@ -14072,7 +14219,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       }
     ]
   },
@@ -14086,7 +14234,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       }
     ]
   },
@@ -14177,7 +14326,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 12
       },
       {
         "type": "score",
@@ -14414,7 +14564,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       },
       "abiliry to speak uttera nces"
     ]
@@ -14444,6 +14595,11 @@
     "benefit": "Your unarmed damage increases by one die type, as if you were one size category larger than you are.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 6,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "1809"
       },
@@ -14466,10 +14622,6 @@
       {
         "type": "feats",
         "id": "1941"
-      },
-      {
-        "type": "skills",
-        "id": "6"
       }
     ]
   },
@@ -14481,12 +14633,13 @@
     "benefit": "As you cast a spell of the enchantment school, you may spend one daily use of your bardic music ability to increase the caster level and saving throw DC of that spell by 1. These bonuses stack with those provided by other feats, such as Spell Focus.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3058"
+        "type": "skills",
+        "id": 51,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "3058"
       },
       {
         "type": "classAbility",
@@ -14668,12 +14821,13 @@
     "benefit": "Choose one type of energy: acid, cold, electricity, fire, or sonic. You can modify a spell with an energy designator to add an equal amount of the chosen type of energy. The altered spell works normally in all respects except the type of damage dealt (see sidebar). Thus, an acid fireball cast at 6th level deals 6d6 fire damage and 6d6 acid damage (roll each set of dice separately). The damage cap for a spell cast using this feat remains the same as the base spell but counts separately for each type of energy. So an acid fireball cast at 10th level or higher deals 10d6 fire damage and 10d6 acid damage. Even opposed types of energy, such as fire and cold, can be combined using this feat. An admixed spell uses up a spell slot four levels higher than the spell's actual level.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "998"
+        "type": "skills",
+        "id": 27,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "998"
       },
       "one other metamagic feat"
     ]
@@ -14688,7 +14842,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "able to cast at least one spell of each of these energy types: acid",
       "and fire",
@@ -14769,7 +14924,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "feats",
@@ -14788,7 +14944,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -14803,7 +14960,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -14818,7 +14976,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -14833,7 +14992,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -14912,16 +15072,18 @@
     "benefit": "You can change any variables of a persistent spell effect that is already in place (except its point of origin or the spell's center of effect) as if you were casting the spell yourself, even if you can't normally cast that spell. For example, you can change the radius of a ring-shaped wall of fi re, but you cannot change its point of origin. You can substitute your own caster level for the spell's original caster level if you choose. You can also shape the effect as you desire within the parameters of the spell. As with the metamagic effect ability, you must be adjacent to or within the spell effect and make a Spellcraft check--in this case against a DC equal to 30 + (3 Ã— the spell's level). You can use this ability and your metamagic effect ability a total number of times per day equal to 5 + your Intelligence modifi er. Like metamagic effect, using this ability is a full-round action that provokes attacks of opportunity.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 27,
+        "value": 30
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 30
+      },
+      {
         "type": "feats",
         "id": "2987"
-      },
-      {
-        "type": "skills",
-        "id": "27"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       },
       "metamagic effect class ability"
     ]
@@ -15086,7 +15248,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       },
       "ability to speak utterances"
     ]
@@ -15134,7 +15297,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 1
       },
       "Elemental Envoy*"
     ]
@@ -15171,7 +15335,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 30
       },
       "Combat Refl exes",
       "I mproved I nitiative",
@@ -15256,7 +15421,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 30
       },
       {
         "type": "score",
@@ -15392,7 +15558,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 30
       },
       {
         "type": "score",
@@ -15594,19 +15761,23 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 24
       },
       {
         "type": "oneOf",
@@ -15655,19 +15826,23 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 24
       },
       {
         "type": "oneOf",
@@ -15716,19 +15891,23 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 24
       },
       {
         "type": "oneOf",
@@ -15776,12 +15955,13 @@
     "benefit": "For the purpose of determining your limit of stored spellfi re energy levels, treat your Constitution score as if it were 4 points higher than it is.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "978"
+        "type": "skills",
+        "id": 8,
+        "value": 20
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "978"
       },
       "Spellfi re Wielder"
     ]
@@ -15895,7 +16075,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "15"
+        "id": 15,
+        "value": 8
       }
     ]
   },
@@ -16527,7 +16708,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "53"
+        "id": 53,
+        "value": 8
       }
     ]
   },
@@ -16539,12 +16721,13 @@
     "benefit": "You can hold your breath for 3 rounds per point of Constitution. You gain a +4 bonus on Constitution checks made to continue holding your breath. On a successful Swim check, you swim your land speed (as a full-round action) or half your land speed (as a move action). Your natural swim speed increases by 10 feet, if you have a swim speed.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "978"
+        "type": "skills",
+        "id": 64,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "64"
+        "type": "feats",
+        "id": "978"
       }
     ]
   },
@@ -16731,7 +16914,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       },
       "ability to speak utterances"
     ]
@@ -17366,7 +17550,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 15
       }
     ]
   },
@@ -17379,7 +17564,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 15
       }
     ]
   },
@@ -17393,7 +17579,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 9
       }
     ]
   },
@@ -17406,7 +17593,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       }
     ]
   },
@@ -17552,11 +17740,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 6
       },
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 6
       }
     ]
   },
@@ -17645,15 +17835,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "60"
+        "id": 60,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 8
       }
     ]
   },
@@ -18121,7 +18314,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       {
         "type": "score",
@@ -18564,11 +18758,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       },
       "ability to cast any summon monster spell",
       {
@@ -18988,12 +19184,13 @@
     "benefit": "If you draw a light weapon and make a melee attack with it in the same round, you catch your opponent fl at-footed (for the purpose of this attack only). You may use this feat only once per round and once per opponent during any single combat encounter.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2627"
+        "type": "skills",
+        "id": 60,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "60"
+        "type": "feats",
+        "id": "2627"
       },
       {
         "type": "score",
@@ -19010,12 +19207,13 @@
     "benefit": "If you draw a light weapon and make a melee attack with it in the same round, you catch your opponent fl at-footed (for the purpose of this attack only). You can use this feat only once per round and once per opponent during any single combat encounter.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2627"
+        "type": "skills",
+        "id": 60,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "60"
+        "type": "feats",
+        "id": "2627"
       },
       {
         "type": "score",
@@ -19191,11 +19389,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "64"
+        "id": 64,
+        "value": 4
       }
     ]
   },
@@ -19207,16 +19407,17 @@
     "benefit": "When fighting unarmed and using the charge action, you deal an extra 1d12 points of damage with your unarmed attack.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 25,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "1809"
       },
       {
         "type": "feats",
         "id": "2507"
-      },
-      {
-        "type": "skills",
-        "id": "25"
       },
       {
         "type": "score",
@@ -19233,16 +19434,17 @@
     "benefit": "When fighting unarmed and using the charge action, you deal double damage with your unarmed attack.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 25,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "2507"
       },
       {
         "type": "feats",
         "id": "1809"
-      },
-      {
-        "type": "skills",
-        "id": "25"
       },
       {
         "type": "score",
@@ -19309,7 +19511,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       },
       "ability to speak utterances"
     ]
@@ -19323,7 +19526,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 2
       },
       {
         "type": "races",
@@ -19500,6 +19704,16 @@
     "benefit": "You gain a +10 competence bonus on <a href=\"/skills/balance/\">Balance</a>, <a href=\"/skills/jump/\">Jump</a>, and <a href=\"/skills/tumble/\">Tumble</a> checks.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 25,
+        "value": 5
+      },
+      {
+        "type": "skills",
+        "id": 66,
+        "value": 5
+      },
+      {
         "type": "feats",
         "id": "1809"
       },
@@ -19522,14 +19736,6 @@
       {
         "type": "feats",
         "id": "620"
-      },
-      {
-        "type": "skills",
-        "id": "25"
-      },
-      {
-        "type": "skills",
-        "id": "66"
       }
     ]
   },
@@ -19634,16 +19840,18 @@
     "benefit": "You can forge magic rings that exceed the normal limits for such items (as stated in this book and in the DUNGEON MASTER's Guide). For instance, you could craft a ring of protection that granted a deflection bonus of greater than +5 or an item that required prerequisite spells of higher than 9th level. See Chapter 4: Epic Magic Items for examples of epic rings.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 27,
+        "value": 35
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 35
+      },
+      {
         "type": "feats",
         "id": "1334"
-      },
-      {
-        "type": "skills",
-        "id": "27"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -19877,7 +20085,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 9
       },
       {
         "type": "score",
@@ -19917,7 +20126,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 3
       },
       "member of the Harmonious Order (see page 101)"
     ]
@@ -20043,7 +20253,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 4
       }
     ]
   },
@@ -20240,7 +20451,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 8
       }
     ]
   },
@@ -20312,7 +20524,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       },
       {
         "type": "bab",
@@ -20465,7 +20678,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 5
       },
       "Githyanki"
     ]
@@ -20541,12 +20755,13 @@
     "benefit": "The Gloom Razor feat enables the use of three tactical options.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2894"
+        "type": "skills",
+        "id": 20,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "20"
+        "type": "feats",
+        "id": "2894"
       },
       {
         "type": "bab",
@@ -20619,7 +20834,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "31"
+        "id": 31,
+        "value": 2
       },
       {
         "type": "skills",
@@ -20777,7 +20993,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 10
       }
     ]
   },
@@ -20790,7 +21007,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 10
       }
     ]
   },
@@ -20803,7 +21021,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 10
       }
     ]
   },
@@ -20827,7 +21046,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 10
       },
       "Yuan-ti"
     ]
@@ -20939,16 +21159,18 @@
     "benefit": "If you are in command of a vessel, you can use the aid another action to assist all other persons on board who are performing the same action in the current round--for example, making an attack, making Profession (siege engineer) checks, making Profession (sailor) checks, and so forth. Commanding the vessel in combat is a move action for you.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 32,
+        "value": 7
+      },
+      {
+        "type": "skills",
+        "id": 53,
+        "value": 7
+      },
+      {
         "type": "feats",
         "id": "1977"
-      },
-      {
-        "type": "skills",
-        "id": "32"
-      },
-      {
-        "type": "skills",
-        "id": "53"
       }
     ]
   },
@@ -22165,7 +22387,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 10
       },
       {
         "type": "classAbility",
@@ -22182,7 +22405,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 10
       },
       "Bardic music ability"
     ]
@@ -22231,7 +22455,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "31"
+        "id": 31,
+        "value": 3
       },
       {
         "type": "score",
@@ -22282,7 +22507,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 8
       }
     ]
   },
@@ -22295,7 +22521,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 30
       },
       {
         "type": "classAbility",
@@ -22313,7 +22540,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 30
       },
       {
         "type": "classAbility",
@@ -22464,7 +22692,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 3
       },
       {
         "type": "score",
@@ -22734,7 +22963,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -22752,7 +22982,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -22777,7 +23008,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 4
       },
       "Wild shape"
     ]
@@ -22924,7 +23156,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 5
       }
     ]
   },
@@ -22937,7 +23170,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 1
       },
       {
         "type": "score",
@@ -22964,12 +23198,13 @@
     "benefit": "As a move action that does not provoke attacks of opportunity, you can attempt a DC 25 Listen check. If successful, you can pinpoint the location of all foes within 30 feet, as long as you have line of effect to them. This benefit does not eliminate the normal miss chance for fighting foes with concealment, but it ensures that you can target the correct square with your attacks. If you are deafened or within an area of silence, you can't use this feat. If an invisible or hidden opponent is attempting to move silently, your Listen check is opposed by your opponent's Move Silently check, but your opponent gains a +15 bonus on this check. This feat does not work against perfectly silent opponents, such as incorporeal creatures.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "240"
+        "type": "skills",
+        "id": 46,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "46"
+        "type": "feats",
+        "id": "240"
       }
     ]
   },
@@ -22982,7 +23217,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 3
       },
       "any draconic feat",
       "Dragonblood subtype"
@@ -23230,16 +23466,17 @@
     "benefit": "You gain the extraplanar subtype. Your native plane is now the Nine Hells of Baator, and you can select <br />one of the following infernal gifts.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 9
+      },
+      {
         "type": "feats",
         "id": "1089"
       },
       {
         "type": "feats",
         "id": "3525"
-      },
-      {
-        "type": "skills",
-        "id": "43"
       },
       "Evil"
     ]
@@ -23366,12 +23603,13 @@
     "benefit": "After you have used the Sleight of Hand skill to successfully conceal a weapon (PH 81), you can draw that weapon as a move action instead of a standard action. An opponent that was unaware of the concealed weapon is treated as flat-footed against the first attack you make in that turn.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2627"
+        "type": "skills",
+        "id": 60,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "60"
+        "type": "feats",
+        "id": "2627"
       }
     ]
   },
@@ -23531,12 +23769,13 @@
     "benefit": "You can use song or poetics to hinder enemy spellcasters within a 30-foot spread from you. To successfully cast a spell within this area, a spellcaster must make a Concentration check as if she were casting defensively, and all such checks have a penalty equal to half your level. You can choose to exclude any characters from this effect (usually your allies). You may sing, play, or recite a hindering song while taking other mundane actions, but not magical ones (see the bard's inspire courage ability for more details). You may keep up the hindering song for a maximum of 10 rounds. Using the hindering song counts as one of your uses of song or poetics for the day.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "587"
+        "type": "skills",
+        "id": 51,
+        "value": 27
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "587"
       },
       {
         "type": "classAbility",
@@ -23977,7 +24216,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 6
       },
       "Bardic music ability"
     ]
@@ -24025,7 +24265,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 25
       },
       {
         "type": "spellcasting",
@@ -24229,7 +24470,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 8
       },
       {
         "type": "score",
@@ -24423,7 +24665,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 4
       },
       "Soul binding"
     ]
@@ -24506,12 +24749,13 @@
     "benefit": "You get a bonus equal to 1/2 your caster level on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "430"
+        "type": "skills",
+        "id": 8,
+        "value": 25
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "430"
       }
     ]
   },
@@ -24523,12 +24767,13 @@
     "benefit": "You don't incur attacks of opportunity for casting spells when threatened.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "430"
+        "type": "skills",
+        "id": 8,
+        "value": 25
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "430"
       }
     ]
   },
@@ -24599,6 +24844,11 @@
     "benefit": "You can use your cooperative metamagic ability to apply the Silent Spell, Still Spell, or Quicken Spell feats to your ally's spell. If you apply the Quicken Spell feat to the spell, both your action and the caster's are free actions. You must still ready an action to use this ability when your ally begins casting, but you can ready a different standard action as well. In addition, you can use your cooperative metamagic ability an extra two times per day.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 30
+      },
+      {
         "type": "feats",
         "id": "2975"
       },
@@ -24609,10 +24859,6 @@
       {
         "type": "feats",
         "id": "2642"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       },
       "cooperative metamagic class feature"
     ]
@@ -24738,7 +24984,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 4
       }
     ]
   },
@@ -25157,7 +25404,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 6
       },
       "Craft Wondrous Item"
     ]
@@ -25342,12 +25590,13 @@
     "benefit": "As Heighten Spell, but there is no limit to the level to which you can heighten the spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1567"
+        "type": "skills",
+        "id": 61,
+        "value": 20
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "1567"
       }
     ]
   },
@@ -25360,7 +25609,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 6
       },
       "Craft Construct or craft homunculus class feature"
     ]
@@ -25541,7 +25791,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 30
       },
       "Four metamagic feats"
     ]
@@ -25587,16 +25838,17 @@
     "benefit": "The penalty you take when using a ranged weapon if your mount is taking a double move is eliminated, and the penalty for using a ranged weapon when your mount is running is lessened from -4 to - 2. You can attack at any time during your mount's move.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 56,
+        "value": 1
+      },
+      {
         "type": "feats",
         "id": "2254"
       },
       {
         "type": "feats",
         "id": "2256"
-      },
-      {
-        "type": "skills",
-        "id": "56"
       }
     ]
   },
@@ -26374,11 +26626,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 40
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 40
       },
       "Epic Skill Focus (Spellcraft)",
       "snatch spell class ability"
@@ -26486,11 +26740,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 30
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 30
       },
       "ability to call spells from a spellpool"
     ]
@@ -26689,7 +26945,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": 64,
+        "value": 6
       }
     ]
   },
@@ -26702,7 +26959,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": 64,
+        "value": 6
       }
     ]
   },
@@ -27620,7 +27878,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 3
       },
       "Cleric or paladin 4th",
       "patron deity Milil"
@@ -27939,12 +28198,13 @@
     "benefit": "You can inscribe runes that exceed the normal limits (see Runcaster prestige class). For instance, you could inscribe a rune with a spell greater than 9th level, or a rune with a caster level greater than 20th. Even this feat does not allow you to inscribe a rune with an epic spell (see Chapter 2: Epic Spells in the Epic Level Handbook). Such magic defi es the power of the written word and thus cannot be scribed into runic form.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1877"
+        "type": "skills",
+        "id": 10,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "10"
+        "type": "feats",
+        "id": "1877"
       },
       {
         "type": "score",
@@ -28094,7 +28354,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 30
       },
       {
         "type": "classAbility",
@@ -28112,7 +28373,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 8
       },
       {
         "type": "classAbility",
@@ -28130,7 +28392,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 7
       }
     ]
   },
@@ -28219,16 +28482,17 @@
     "benefit": "All variable, numeric effects of an intensified spell are maximized, then doubled. An intensified spell deals twice maximum damage, cures twice the maximum number of hit points, affects twice the maximum number of targets, and so forth, as appropriate. For example, an intensified horrid wilting spell would deal 16 points of damage per caster level (up to a maximum of 400 points of damage at 25th level). Saving throws and opposed rolls (such as the one you make when you cast dispel magic) are not affected. An intensified spell uses up a spell slot seven levels higher than the spell's actual level. You can't combine the effects of this feat with any other feat that affects the variable, numeric effects of a spell, such as Empower Spell or Maximize Spell.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 30
+      },
+      {
         "type": "feats",
         "id": "961"
       },
       {
         "type": "feats",
         "id": "2170"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       },
       {
         "type": "spellcasting",
@@ -28270,7 +28534,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 4
       }
     ]
   },
@@ -28422,11 +28687,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 12
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 12
       },
       {
         "type": "classAbility",
@@ -28565,12 +28832,13 @@
     "benefit": "You gain a +2 bonus on saves to resist gaining negative levels or to remove them. If the effect that bestowed a negative level allows a Fortitude save to remove it, you can choose to attempt it after only 1 hour. (You can also choose to wait the usual amount of time before attempting the save).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1436"
+        "type": "skills",
+        "id": 33,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "33"
+        "type": "feats",
+        "id": "1436"
       }
     ]
   },
@@ -28583,7 +28851,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 8
       },
       "ability to cast arcane spells"
     ]
@@ -28769,16 +29038,17 @@
     "benefit": "When you make a Listen check, you might learn more than normal about a source of noise.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 46,
+        "value": 6
+      },
+      {
         "type": "feats",
         "id": "62"
       },
       {
         "type": "feats",
         "id": "2987"
-      },
-      {
-        "type": "skills",
-        "id": "46"
       }
     ]
   },
@@ -28965,16 +29235,17 @@
     "benefit": "When riding monstrous vermin, you do not need to make any rolls or checks to remain mounted if your mount travels across walls or ceilings (though if you take damage when on a wall or ceiling, the DC of the check to remain mounted is 10 rather than 5).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 56,
+        "value": 1
+      },
+      {
         "type": "feats",
         "id": "2256"
       },
       {
         "type": "feats",
         "id": "3461"
-      },
-      {
-        "type": "skills",
-        "id": "56"
       }
     ]
   },
@@ -29123,7 +29394,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "26"
+        "id": 26,
+        "value": 5
       }
     ]
   },
@@ -29248,7 +29520,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 25
       },
       {
         "type": "classAbility",
@@ -29265,7 +29538,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 25
       },
       {
         "type": "classAbility",
@@ -29371,12 +29645,13 @@
     "benefit": "If you cover at least 10 feet of horizontal distance with your jump, and you end your jump in a square from which you threaten your target, you deal +100% the normal bonus damage from your use of the Power Attack feat. This attack must follow all the normal rules for using the Jump skill and for making a charge, except that you ignore rough terrain in any squares you jump over.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2507"
+        "type": "skills",
+        "id": 25,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "25"
+        "type": "feats",
+        "id": "2507"
       }
     ]
   },
@@ -29389,7 +29664,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 4
       }
     ]
   },
@@ -29402,11 +29678,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       }
     ]
   },
@@ -29470,11 +29748,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 24
       },
       {
         "type": "score",
@@ -29502,11 +29782,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 12
       },
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 24
       },
       {
         "type": "score",
@@ -29524,11 +29806,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 12
       },
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 24
       },
       {
         "type": "score",
@@ -29545,16 +29829,17 @@
     "benefit": "Multiply the number of followers of each level that you can lead by 10. Thus, a Leadership score of 25 would allow you to lead 1,350 1st-level followers, 130 2ndlevel followers, and so forth. This has no effect on cohorts.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 12,
+        "value": 30
+      },
+      {
         "type": "feats",
         "id": "1044"
       },
       {
         "type": "feats",
         "id": "1977"
-      },
-      {
-        "type": "skills",
-        "id": "12"
       },
       {
         "type": "score",
@@ -29573,7 +29858,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 24
       }
     ]
   },
@@ -29586,7 +29872,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 24
       }
     ]
   },
@@ -29599,7 +29886,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 24
       }
     ]
   },
@@ -29612,7 +29900,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 24
       }
     ]
   },
@@ -29624,16 +29913,18 @@
     "benefit": "You can track creatures across water, underwater, or through the air by the minute disturbances they make and traces of their passage. This benefit adds the surfaces of water, underwater, and air to the list of surfaces found under the Track feat in the Player's Handbook: Surface DC. Water -------- 60. Underwater - 80. Air ----------- 120.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 36,
+        "value": 30
+      },
+      {
+        "type": "skills",
+        "id": 63,
+        "value": 30
+      },
+      {
         "type": "feats",
         "id": "3346"
-      },
-      {
-        "type": "skills",
-        "id": "36"
-      },
-      {
-        "type": "skills",
-        "id": "63"
       },
       {
         "type": "score",
@@ -29650,12 +29941,13 @@
     "benefit": "You can track creatures across water, underwater, or through the air by the minute disturbances they make and traces of their passage. This adds the surfaces of water, underwater, and air to the list of surfaces found under the Track feat in the Player's Handbook. Surface ....... DC. Water ........... 60. Underwater . 80. Air .............. 120.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3346"
+        "type": "skills",
+        "id": 36,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "3346"
       },
       {
         "type": "score",
@@ -29678,12 +29970,13 @@
     "benefit": "You gain a +10 bonus on all grapple checks.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1809"
+        "type": "skills",
+        "id": 15,
+        "value": 15
       },
       {
-        "type": "skills",
-        "id": "15"
+        "type": "feats",
+        "id": "1809"
       },
       {
         "type": "score",
@@ -29892,11 +30185,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "49"
+        "id": 49,
+        "value": 2
       },
       {
         "type": "score",
@@ -30103,7 +30398,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "46"
+        "id": 46,
+        "value": 5
       }
     ]
   },
@@ -30294,12 +30590,13 @@
     "benefit": "You can turn spells with the cold descriptor into uttercold spells. Half the damage dealt by an uttercold spell is cold damage, and the other half is negative energy damage. The spell's saving throw remains unchanged, but creatures can apply cold resistance or immunity to cold only to the cold portion of the damage. An undead creature can be healed by the negative energy damage of an uttercold spell, though if it doesn't have resistance to cold, the effects of damage and healing cancel each other out. An uttercold spell uses a spell slot of the spell's normal level.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "998"
+        "type": "skills",
+        "id": 43,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "43"
+        "type": "feats",
+        "id": "998"
       },
       "ability to cast a spell with the cold descriptor"
     ]
@@ -30538,7 +30835,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       "ability to spontaneously cast 2nd-level arcane spells",
       {
@@ -30555,12 +30853,13 @@
     "benefit": "The Mad Alchemist feat grants you access to three special tactical maneuvers. Distracting Blast: If you ready an action to throw a thunderstone at the square an opponent occupies, you can disrupt his actions. The sudden bang from the stone's detonation ruins your foe's concentration, possibly spoiling his attack or his attempt to cast a spell. If the target of this blast was casting a spell when you threw the thunderstone, he must make a Concentration check opposed by your Craft (alchemy) check. If you succeed on this check, his spell is ruined. If the target was not casting a spell, he must make a Will save opposed by your Craft (alchemy) check or take a -2 penalty on attack rolls, checks, and saves until the beginning of your next turn. Fiery Blaze: To use this maneuver, you must fi rst strike a creature with a container of lantern oil or alchemist's fi re. On your next turn, you must strike the creature with a spell or weapon attack that dealsfiredamage. If you do so, the creature takes an extra 1d6 points offiredamage and catches onfireif it is not already in fl ames. Tanglefoot Defense: By tearing open a tanglefoot bag and spreading its contents across an area, you can create a vexing barrier that hinders an opponent's approach. As a standard action, you can transform a single square of clear terrain into diffi cult terrain through the use of a tanglefoot bag. This effect persists for 10 minutes before the tanglefoot bag loses its potency.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1505"
+        "type": "skills",
+        "id": 10,
+        "value": 6
       },
       {
-        "type": "skills",
-        "id": "10"
+        "type": "feats",
+        "id": "1505"
       }
     ]
   },
@@ -30631,7 +30930,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 2
       },
       {
         "type": "bab",
@@ -30648,7 +30948,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 2
       },
       {
         "type": "bab",
@@ -30684,7 +30985,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": 67,
+        "value": 1
       }
     ]
   },
@@ -30746,15 +31048,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 5
       },
       {
         "type": "classes",
@@ -30785,15 +31090,18 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "3"
+        "id": 3,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 12
       }
     ]
   },
@@ -30844,7 +31152,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 27
       },
       {
         "type": "score",
@@ -30862,12 +31171,13 @@
     "benefit": "You can use your normal wild shape ability to take the form of a magical beast. The size limitation is the same as your limitation on animal size. You gain all supernatural abilities of the magical beast whose form you take.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "212"
+        "type": "skills",
+        "id": 36,
+        "value": 27
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "212"
       },
       {
         "type": "score",
@@ -31033,7 +31343,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 4
       },
       "Fly speed"
     ]
@@ -31047,11 +31358,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 3
       },
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 6
       }
     ]
   },
@@ -31087,7 +31400,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       },
       {
         "type": "level",
@@ -31630,11 +31944,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 9
       },
       {
         "type": "skills",
-        "id": "14"
+        "id": 14,
+        "value": 9
       },
       {
         "type": "score",
@@ -31659,16 +31975,17 @@
     "benefit": "Once per day as a free action, you can treat your character level as if it were one higher for determining which legacy abilities you can use. You do not pay any new personal costs associated with the increased level, but you cannot access any abilities for which you have not met the prerequisites. For example, a 10th-level character gains no benefit from this feat, since she has not yet gained the Lesser Legacy feat required to use legacy abilities of 11th level or higher. This effect lasts for 1 hour or until you activate a legacy ability with a daily use limit, whichever comes first.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 67,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "344"
       },
       {
         "type": "feats",
         "id": "1982"
-      },
-      {
-        "type": "skills",
-        "id": "67"
       }
     ]
   },
@@ -31691,7 +32008,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "12"
+        "id": 12,
+        "value": 9
       },
       {
         "type": "score",
@@ -31738,7 +32056,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 5
       }
     ]
   },
@@ -31775,12 +32094,13 @@
     "benefit": "When you activate a staff, you can expend a spell slot instead of using a charge. The spell slot must be one you have not used for the day, though you can lose a prepared spell to emulate a staff charge (but you cannot lose prepared spells from a specialty school). The spell slot expended must be equal to or higher in level than the specifi c spell stored in the staff (including any level-increasing metamagic enhancements). You cannot emulate a charge for a staff power or ability that does not match a specifi c spell. For example, you can use this feat to lose a prepared 3rd-level spell to activate lightning bolt from a staff of power, but you can't lose a spell to double the staff's melee damage because that power doesn't match a specifi c spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "525"
+        "type": "skills",
+        "id": 61,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "525"
       }
     ]
   },
@@ -31792,12 +32112,13 @@
     "benefit": "When you activate a staff, you can substitute a spell slot instead of using a charge. The spell slot must be one you have not used for the day, though you may lose a prepared spell to emulate a wand charge (you may not lose prepared spells from your school of specialty, if any). The spell slot lost must be equal to or higher in level than the specific spell stored in the staff, including any levelincreasing metamagic enhancements. You cannot emulate a charge for a staff function that does not match a specific spell. For example, you might want to save the charges on your staff of power because you do not want to go to the trouble of crafting another when the charges run out, and also because it allows you more options--you can memorize more utilitarian spells, trusting to the offensive power of your staff if conflict arises. You can use this feat to lose a 3rd-level prepared slot in order to active lightning bolt from the staff, but you can't use this feat to emulate a charge used for doubling the staff's melee damage (because that power doesn't match a specific spell).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "525"
+        "type": "skills",
+        "id": 61,
+        "value": 15
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "525"
       }
     ]
   },
@@ -31809,12 +32130,13 @@
     "benefit": "When you activate a wand, you can expend a spell slot instead of using a charge. The spell slot must be one you have not used for the day, though you can lose a prepared spell to emulate a wand charge (but you cannot lose prepared spells from a specialty school). The spell slot expended must be equal to or higher in level than the spell stored in the wand (including any level-increasing metamagic enhancements).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "529"
+        "type": "skills",
+        "id": 61,
+        "value": 15
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "529"
       }
     ]
   },
@@ -31826,12 +32148,13 @@
     "benefit": "When you activate a wand, you can substitute a spell slot instead of using a charge. The spell slot must be one you have not used for the day, though you may lose a prepared spell to emulate a wand charge (you may not lose prepared spells from your school of specialty, if any). The spell slot lost must be equal to or higher in level than the spell stored in the wand, including any levelincreasing metamagic enhancements. For example, if lightning bolt is on your class list and you find a wand of lightning bolt with 3 charges, you can expend unused spell slots instead of charges, thus extending the life of the wand.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "529"
+        "type": "skills",
+        "id": 61,
+        "value": 15
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "529"
       }
     ]
   },
@@ -31844,11 +32167,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 6
       }
     ]
   },
@@ -31860,16 +32185,18 @@
     "benefit": "You can spontaneously apply the effect of the Maximize Spell metamagic feat to any cure or inflict spell you cast. Doing this has no effect on the spell's level or casting time.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 6
+      },
+      {
         "type": "feats",
         "id": "2170"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -31882,7 +32209,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 4
       },
       {
         "type": "oneOf",
@@ -31909,16 +32237,18 @@
     "benefit": "You can spontaneously apply the effect of the Extend Spell metamagic feat to any enchantment spell you cast. Doing this has no effect on the spell's level or casting time.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 6
+      },
+      {
         "type": "feats",
         "id": "1135"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -31930,16 +32260,18 @@
     "benefit": "You can spontaneously apply the effect of the Enlarge Spell metamagic feat to any spell you cast that has the cold descriptor or the fire descriptor. Doing this has no effect on the spell's level or casting time.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "1020"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -31951,16 +32283,18 @@
     "benefit": "Whenever you summon a celestial or fiendish creature with a spell, spell-like ability, or magic item, you can choose instead to summon a pseudonatural version of that creature (see the pseudonatural template in Complete Arcane, reproduced in abbreviated form below). When you use this ability, you must succeed on a caster level check (DC 15 + spell level) to avoid opening a small temporary rift to Xoriat, which affects the spell as if it were cast on a plane with the wild magic trait (roll d% on the table on page 150 in the Dungeon Master's Guide to determine the effect). Pseudonatural Creature: Change type to outsider. SA true strike 1/day, S Q alternate form, damage reduction, resistance to acid and electricity, spell resistance; Int minimum 3. Alternate Form (Su): Take form of grotesque tentacled mass as standard action; statistics remain as normal but attacks take --1 morale penalty. Damage Reduction (Su): DR 5/magic (HD 4-11) or DR 10/magic(HD 12+). Resistance to Acid and Electricity (Ex): Resistance 5 (HD 1--7), 10 (HD 8-11), or 15 (HD 12+). Spell Resistance (Ex): SR 10 + HD (maximum 25).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 9
+      },
+      {
         "type": "feats",
         "id": "1910"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -31972,16 +32306,18 @@
     "benefit": "Any time you cast a spell that grants its target a fly speed or improves its fly speed (without altering its form), you can spontaneously apply the effect of the Extend Spell metamagic feat to that spell. Doing this has no effect on the spell's level or casting time. Examples of such spells from the Player's Handbook include fly, overland flight, and haste (if cast on a creature with a fly speed). It does not apply to spells that grant a fly speed by altering the creature's form, such as gaseous form, polymorph, and wind walk, nor would it work on air walk, ethereal jaunt, levitate, or reverse gravity (since these spells, while they allow movement through the air, do not grant a fly speed).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 6
+      },
+      {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
         "type": "feats",
         "id": "1135"
-      },
-      {
-        "type": "skills",
-        "id": "61"
-      },
-      {
-        "type": "skills",
-        "id": "43"
       }
     ]
   },
@@ -31993,16 +32329,18 @@
     "benefit": "Any time you cast a spell that creates, enhances, or mimics a weapon (such as flame blade, keen edge, or Mordenkainen's sword) or excites hostile emotions (such as rage, heroism, or antipathy), you can spontaneously apply the effect of the Extend Spell metamagic feat to that spell. Doing this has no effect on the spell's level or casting time.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 6
+      },
+      {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
         "type": "feats",
         "id": "1135"
-      },
-      {
-        "type": "skills",
-        "id": "61"
-      },
-      {
-        "type": "skills",
-        "id": "43"
       }
     ]
   },
@@ -32014,16 +32352,18 @@
     "benefit": "Whenever you slay a c r e a t u r e with a spell that has the death descriptor, you can attempt a caster level check (DC 10 + slain creature's HD) as a free action to transform the slain creature's spirit into a ghost under your control. (See the ghost template in the Monster Manual for details.) If the check succeeds, the ghost appears in the slain creature's space at the beginning of your next t u r n and acts immediately. It follows your spoken commands (even if you don't share a language), even attacking its former allies if you so choose. It remains present for a number of rounds equal to your caster level (or until you are slain, whichever comes first). While the ghost is present, the corpse can't be returned to life by any means. You can't have more than one ghost present simultaneously with this feat. If you create a second ghost while your first ghost is still present, you can choose which one remains (the other disappears, its soul freed from your control).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 6
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 12
+      },
+      {
         "type": "feats",
         "id": "3058"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -32036,11 +32376,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 6
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 12
       }
     ]
   },
@@ -32052,16 +32394,18 @@
     "benefit": "Three times per day, you can spontaneously apply the Quicken Spell metamagic feat to any conjuration (teleportation) spell you cast. Doing this has no effect on the spell's level and can be done even by spontaneous Spellcasters; however, it reduces your caster level for the spell by 9 (which likely reduces the number of other creatures you can affect with the spell).",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 6
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 12
+      },
+      {
         "type": "feats",
         "id": "2642"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -32073,16 +32417,18 @@
     "benefit": "When you cast a spell that summons one or more creatures noted as an inhabitant of Lamannia (see page 97 of the EBERRON Campaign Setting), you can spontaneously apply the effect of the Extend Spell metamagic feat to that spell. Doing this has no effect on the spell's level or casting time.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 43,
+        "value": 2
+      },
+      {
+        "type": "skills",
+        "id": 61,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "1135"
-      },
-      {
-        "type": "skills",
-        "id": "43"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -32095,11 +32441,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 2
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       }
     ]
   },
@@ -32181,6 +32529,16 @@
     "benefit": "The saving throw DC of your stunning attack and other pressure-point attacks is increased by 2. You also gain <a href=\"/feats/players-handbook-v35--6/weapon-focus--3105/\">Weapon Focus</a> as a bonus feat; you must already have proficiency with the weapon and you must select one of the following weapons for the feat to apply to: bastard sword, dagger, shortsword, spear, quarterstaff, or heavy mace.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 25,
+        "value": 6
+      },
+      {
+        "type": "skills",
+        "id": 66,
+        "value": 6
+      },
+      {
         "type": "feats",
         "id": "1809"
       },
@@ -32199,14 +32557,6 @@
       {
         "type": "feats",
         "id": "1203"
-      },
-      {
-        "type": "skills",
-        "id": "25"
-      },
-      {
-        "type": "skills",
-        "id": "66"
       }
     ]
   },
@@ -32270,11 +32620,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       },
       {
         "type": "classAbility",
@@ -32343,7 +32695,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 6
       },
       {
         "type": "score",
@@ -32362,7 +32715,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       },
       {
         "type": "score",
@@ -32511,7 +32865,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": 67,
+        "value": 15
       },
       {
         "type": "feats",
@@ -32740,12 +33095,13 @@
     "benefit": "You gain a +10 competence bonus on Jump checks. If you intentionally jump down from a height, a successful Jump check (DC 15) lets you take damage as if you had fallen 20 feet less than you actually did.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2240"
+        "type": "skills",
+        "id": 25,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "25"
+        "type": "feats",
+        "id": "2240"
       },
       {
         "type": "score",
@@ -33105,7 +33461,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       }
     ]
   },
@@ -33125,12 +33482,13 @@
     "benefit": "As you cast an illusion spell, you can spend one daily use of your bardic music ability to increase the caster level and the saving throw DC of that spell by 1. These bonuses stack with those provided by other feats, such as Spell Focus.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3058"
+        "type": "skills",
+        "id": 51,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "3058"
       },
       {
         "type": "classAbility",
@@ -33258,7 +33616,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 8
       }
     ]
   },
@@ -33385,7 +33744,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "60"
+        "id": 60,
+        "value": 12
       }
     ]
   },
@@ -33398,7 +33758,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       },
       {
         "type": "classes",
@@ -33416,11 +33777,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 2
       },
       {
         "type": "score",
@@ -33439,7 +33802,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": 63,
+        "value": 5
       },
       {
         "type": "bab",
@@ -33464,12 +33828,13 @@
     "benefit": "The penalty you take when using a ranged weapon while mounted is halved: -2 instead of -4 if your mount is taking a double move, and -4 instead of -8 if your mount is running (see Mounted Combat, page 157).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       }
     ]
   },
@@ -33481,12 +33846,13 @@
     "benefit": "You gain a +10 bonus on <a href=\"/skills/concentration/\">Concentration</a> checks to cast spells while mounted",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       }
     ]
   },
@@ -33499,7 +33865,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 1
       }
     ]
   },
@@ -33512,12 +33879,13 @@
     "benefit": "If you are mounted, you and your mount get a +4 dodge bonus to Armor Class against attacks of opportunity provoked when your mount moves out of a threatened square. A condition that makes you or your mount lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. Dodge bonuses stack with each other, unlike most types of bonuses.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       }
     ]
   },
@@ -33970,7 +34338,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 12
       },
       {
         "type": "classAbility",
@@ -33988,7 +34357,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -34005,7 +34375,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 30
       },
       {
         "type": "score",
@@ -34027,7 +34398,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 11
       },
       "bard level 9th"
     ]
@@ -34147,7 +34519,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 6
       }
     ]
   },
@@ -34182,7 +34555,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "63"
+        "id": 63,
+        "value": 5
       }
     ]
   },
@@ -34452,7 +34826,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 5
       },
       {
         "type": "score",
@@ -34471,7 +34846,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 5
       },
       {
         "type": "score",
@@ -34514,12 +34890,13 @@
     "benefit": "By giving up an arcane spell slot or prepared spell before making an attack roll, you can perform a battle curse as a melee attack. You gain a bonus on the attack roll equal to the level of the spell or spell slot so sacrifi ced. If your attack hits, the target must succeed on a Will save (DC 10 + level of spell or slot expended + your Cha modifi er) or take a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 1 minute. The effects of multiple battle curses don't stack, and any foe that successfully resists your battle curse cannot be affected by it again for 24 hours. Any effect that dispels or removes a curse eliminates the battle curse. Your caster level equals your character level for this purpose.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2507"
+        "type": "skills",
+        "id": 33,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "33"
+        "type": "feats",
+        "id": "2507"
       },
       {
         "type": "classes",
@@ -34537,7 +34914,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 8
       }
     ]
   },
@@ -34608,7 +34986,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 5
       }
     ]
   },
@@ -34629,7 +35008,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 8
       }
     ]
   },
@@ -34827,7 +35207,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "feats",
@@ -34845,7 +35226,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -34913,7 +35295,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 4
       },
       {
         "type": "classes",
@@ -34931,7 +35314,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "31"
+        "id": 31,
+        "value": 4
       },
       "two or more eyes"
     ]
@@ -34995,7 +35379,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "53"
+        "id": 53,
+        "value": 5
       }
     ]
   },
@@ -35243,7 +35628,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "50"
+        "id": 50,
+        "value": 12
       }
     ]
   },
@@ -35375,11 +35761,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 5
       },
       "spellcaster who uses the Weave"
     ]
@@ -35735,7 +36123,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "member of the Companions of the Noble Heart (see page 100)"
     ]
@@ -35836,7 +36225,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 5
       },
       {
         "type": "races",
@@ -36073,7 +36463,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 25
       },
       "ability to cast the spell to be made permanent"
     ]
@@ -36223,12 +36614,13 @@
     "benefit": "Choose any planar touchstone for which you have previously fulfilled the higher-order recharge condition (see page 154); this is now your personal touch stone. Each time you visit your touchstone from now on, you gain double the number of uses of the higher-order ability when you fulfill the recharge condition. You may continue to visit other touchstone sites and gain the standard number of higher-order uses with each visit to those sites (and you lose the higher-order uses left unused at your personal site, unless you have taken Planar Touchstone enough times to allow you to keep the higher-order uses of more than one planar touch stone simultaneously).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2464"
+        "type": "skills",
+        "id": 43,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "43"
+        "type": "feats",
+        "id": "2464"
       },
       "a portable object of at least 250 gp value native to a chosen planar touchstone plane"
     ]
@@ -36574,7 +36966,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       }
     ]
   },
@@ -36598,7 +36991,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 2
       }
     ]
   },
@@ -36612,7 +37006,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       }
     ]
   },
@@ -36635,7 +37030,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 5
       },
       "Ability to ac quire a new familiar",
       "compatible alignment",
@@ -36652,7 +37048,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "43"
+        "id": 43,
+        "value": 8
       },
       "Portable object of at least 250 gp value native to any designated planar touchstone site"
     ]
@@ -36795,12 +37192,13 @@
     "benefit": "You can use your normal wild shape ability to take the form of a plant. The size limitation is the same as your limitation on animal size.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "212"
+        "type": "skills",
+        "id": 36,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "212"
       },
       "wild shape 6/day"
     ]
@@ -36867,7 +37265,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 8
       }
     ]
   },
@@ -36881,7 +37280,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 4
       },
       "Poison use"
     ]
@@ -36959,12 +37359,13 @@
     "benefit": "Choose a type of poison (contact, ingested, inhaled, or injury) for which you have selected the Poison Expert feat. The initial and secondary damage dealt by poisons of this type that you create and use increases by 1 point per die of damage (or by 1 point, if it deals a fixed amount of damage). For example, lich dust used by a character with Poison Master (ingested) would deal initial damage of 2d6+2 Str and secondary damage of 1d6+1 Con plus 1d6+1 Str. If a poison doesn't deal damage, this feat has no effect.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2480"
+        "type": "skills",
+        "id": 10,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "10"
+        "type": "feats",
+        "id": "2480"
       },
       "Poison use"
     ]
@@ -37620,7 +38021,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 8
       },
       "ability to spontaneously cast 3rd-level spells",
       {
@@ -37687,7 +38089,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       }
     ]
   },
@@ -37701,7 +38104,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       }
     ]
   },
@@ -38045,12 +38449,13 @@
     "benefit": "While in prophetic favor (see Dragon Prophesier), you can activate a wand or staff that you created as a swift action (as long as the item's normal activation time is no greater than a standard action).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       "Craft Wand or Craft Staff",
       "Speak Language (Draconic)"
@@ -38064,12 +38469,13 @@
     "benefit": "While in prophetic favor (see Dragon Prophesier), your base land speed increases by 10 feet. In addition, if you end your turn at least 10 feet away from where you started your turn, you gain a +1 insight bonus to AC until the start of your next turn. While in prophetic favor, you also gain a +2 insight bonus on Balance, Climb, and Move Silently checks.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       {
         "type": "bab",
@@ -38086,12 +38492,13 @@
     "benefit": "When you enter prophetic favor (see Dragon Prophesier), you gain 1 temporary action point. When you use this action point, your prophetic favor ends even if its duration has not yet elapsed. If you don't use this action point during your prophetic favor, it disappears when your prophetic favor ends.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       "Speak Language (Draconic)"
     ]
@@ -38104,12 +38511,13 @@
     "benefit": "While psionically focused and in prophetic favor (see Dragon Prophesier), you can lessen the damage dealt by a potentially lethal attack. Any time an attack would reduce your hit points to -10 or fewer, you can expend your psionic focus to instead be reduced to 0 hp. Doing this also ends your prophetic favor. This feat cannot protect you from an effect that slays you without reducing your hit points to -10.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       "Speak Language (Draconic)"
     ]
@@ -38122,12 +38530,13 @@
     "benefit": "While in prophetic favor (see Dragon Prophesier), you can empower one spell per round without any adjustment to the level or casting time of the spell. You can't empower any spell of the highest spell level you can cast (for example, a 3rd-level wizard can't empower 2nd-level spells).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       {
         "type": "spellcasting",
@@ -38144,12 +38553,13 @@
     "benefit": "While in prophetic favor (see Dragon Prophesier), you can quicken one cure wounds or infl ict wounds spell per round (see below) without any adjustment to the level of the spell. You can use this ability even on spontaneously cast spells. If you are capable of spontaneously casting cure wounds spells, you can use this feat to quicken any cure wounds spell. If you are capable of spontaneously casting inflict wounds spells, you can use this feat to quicken any inflict wounds spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       "ability to spontaneously cast cure wounds or infl ict wounds spells",
       "Speak Language (Draconic)"
@@ -38163,12 +38573,13 @@
     "benefit": "While in prophetic favor (see Dragon Prophesier), you gain a +1d6 insight bonus on melee damage rolls made against flat-footed living opponents, or living opponents you are flanking. Creatures with immunity to critical hits or sneak attacks have immunity to this extra damage.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "811"
+        "type": "skills",
+        "id": 27,
+        "value": 2
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "811"
       },
       {
         "type": "bab",
@@ -38496,7 +38907,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 7
       },
       {
         "type": "score",
@@ -38706,7 +39118,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 6
       },
       "Will save bonus ++4"
     ]
@@ -38976,7 +39389,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "15"
+        "id": 15,
+        "value": 12
       }
     ]
   },
@@ -38989,11 +39403,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "46"
+        "id": 46,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 5
       }
     ]
   },
@@ -39006,11 +39422,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "46"
+        "id": 46,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 5
       }
     ]
   },
@@ -39056,7 +39474,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "64"
+        "id": 64,
+        "value": 5
       }
     ]
   },
@@ -39327,7 +39746,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 12
       },
       "ability to speak utterances"
     ]
@@ -39523,7 +39943,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 25
       },
       {
         "type": "classAbility",
@@ -39565,16 +39986,17 @@
     "benefit": "When you miss with a spell or spell-like ability ranged attack against a target within 30 feet, you can spend a swift action to reroll the attack with a -5 penalty. You can use this ability three times per day.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 4
+      },
+      {
         "type": "feats",
         "id": "2478"
       },
       {
         "type": "feats",
         "id": "3525"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -39729,7 +40151,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 25
       },
       {
         "type": "classAbility",
@@ -39747,7 +40170,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 15
       },
       "Meldshaper level 12th"
     ]
@@ -39789,7 +40213,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 12
       },
       "ability to spontaneously cast spells"
     ]
@@ -39802,12 +40227,13 @@
     "benefit": "Once per day, you can bind a vestige as a full-round action.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1121"
+        "type": "skills",
+        "id": 23,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "23"
+        "type": "feats",
+        "id": "1121"
       },
       "Soul binding"
     ]
@@ -39989,7 +40415,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       },
       {
         "type": "score",
@@ -40165,12 +40592,13 @@
     "benefit": "You can begin a countersong at any time, even when it isn't your turn (much like a wizard who has readied a counterspell action), though you don't have to ready an action to do so. Thus, you could use the countersong as a reaction to a sonic or language-dependent magical attack. You can't use Reactive Countersong at the same time you are using another bardic music ability (though you could stop the other bardic music ability to begin Reactive Countersong if so desired).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "442"
+        "type": "skills",
+        "id": 51,
+        "value": 30
       },
       {
-        "type": "skills",
-        "id": "51"
+        "type": "feats",
+        "id": "442"
       },
       {
         "type": "classAbility",
@@ -40295,12 +40723,13 @@
     "benefit": "Choose a specifi c chakra, such as hands. Once per day, you can unbind one of your soulmelds currently occupying and bound to that chakra and immediately bind another soulmeld to that chakra. The soulmeld to be newly bound must already be shaped and must also be occupying that chakra. This process requires a full-round action and provokes attacks of opportunity.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "767"
+        "type": "skills",
+        "id": 27,
+        "value": 15
       },
       {
-        "type": "skills",
-        "id": "27"
+        "type": "feats",
+        "id": "767"
       },
       "Meldshaper level 12th"
     ]
@@ -40314,7 +40743,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40329,7 +40759,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40344,7 +40775,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40359,7 +40791,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40374,7 +40807,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 6
       },
       "ability to speak utterances",
       "must know your own personal truename"
@@ -40472,12 +40906,13 @@
     "benefit": "By expending an additional charge, you can use a wand as if its caster level was 2 higher than its normal level, changing all the spell's level-dependent effects. For example, by expending 2 charges at once, a wand of magic missile (created at caster level 3rd) can be used at caster level 5th, fi ring three missiles instead of two. You can expend only 1 extra charge at a time using this feat.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "529"
+        "type": "skills",
+        "id": 67,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "67"
+        "type": "feats",
+        "id": "529"
       }
     ]
   },
@@ -40490,11 +40925,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "59"
+        "id": 59,
+        "value": 3
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 3
       }
     ]
   },
@@ -40595,11 +41032,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "3"
+        "id": 3,
+        "value": 1
       },
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 1
       }
     ]
   },
@@ -40877,7 +41316,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 8
       },
       {
         "type": "classAbility",
@@ -40894,7 +41334,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 12
       },
       "Bardic music ability"
     ]
@@ -40937,7 +41378,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 12
       },
       {
         "type": "feats",
@@ -41123,12 +41565,13 @@
     "benefit": "Whenever you deal a critical hit using a melee weapon with which you are proficient, your opponent must succeed on a Will save (DC 10 + 1/2 your character level + your Cha modifier) or cower for 1 round. A monk's unarmed strike is considered a melee weapon for purposes of this feat.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2507"
+        "type": "skills",
+        "id": 23,
+        "value": 7
       },
       {
-        "type": "skills",
-        "id": "23"
+        "type": "feats",
+        "id": "2507"
       },
       {
         "type": "score",
@@ -41245,12 +41688,13 @@
     "benefit": "When you are mounted and use the charge action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your mount do not provoke an attack of opportunity from the opponent that you attack.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       }
     ]
   },
@@ -41369,7 +41813,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       {
         "type": "alignment",
@@ -41389,7 +41834,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "Orc or half-orc"
     ]
@@ -41522,6 +41968,16 @@
     "benefit": "The Roof-Jumper feat enables the use of the following tactical maneuvers. You cannot benefit from more than one maneuver in the same round. Death from Above: You do substantial damage if you deliberately leap down to attack a foe beneath you. You must drop at least 20 feet. You must roll to hit; this qualifies as a charge attack, with all relevant bonuses and penalties. If you hit, you deal damage as normal, plus an extra ld6 points for every 10 feet of distance beyond the first 10 feet; thus, a drop of 30 feet causes an extra 2d6 points of damage. You still take whatever damage you would normally take from the fall, but you can reduce the falling damage with a successful Jump check or Tumble check. You cannot use any ability to slow your fall (such as the monk's slow fall ability, or the feather fall spell) whi le attacking in this manner. Urban Acrobatics: You can make use of windowsills, awnings, lampposts, and similar features of the city when leaping or falling from buildings. If you deliberately jump downward within arm's reach of a wall or similar vertical surface, you can move yourself sideways along the wall. traveling up to 5 feet horizontally for every 10 feet you fall. If you accidentally fall, you can move 5 feet horizontally for every 20 feet you fall. You can move up to your full movement horizontally in this fashion (so long as the wall is wide enough), even if that distance, plus your falling distance, exceeds your normal movement rate.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 5,
+        "value": 7
+      },
+      {
+        "type": "skills",
+        "id": 25,
+        "value": 7
+      },
+      {
         "type": "feats",
         "id": "759"
       },
@@ -41532,14 +41988,6 @@
       {
         "type": "feats",
         "id": "2796"
-      },
-      {
-        "type": "skills",
-        "id": "5"
-      },
-      {
-        "type": "skills",
-        "id": "25"
       }
     ]
   },
@@ -41551,20 +41999,22 @@
     "benefit": "The Roofwalker feat enables the use of three tactical maneuvers.<br /><br />Fleet of Feet: You can walk across a precarious surface more quickly than normal. You can move at your full speed without taking a - 5 penalty on your Balance check.<br /><br />Graceful Drop: If you intentionally jump from a height, you take less damage than you would if you fell. If you succeed on a Jump check when jumping down (PH 77), you take falling damage as if you had dropped 20 fewer feet than you actually did.<br /><br />Master of the Roof: You know how to use the slopes to your advantage. You gain a +1 dodge bonus to AC against any opponent who is at a different elevation from you.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 5,
+        "value": 5
+      },
+      {
+        "type": "skills",
+        "id": 25,
+        "value": 5
+      },
+      {
         "type": "feats",
         "id": "759"
       },
       {
         "type": "feats",
         "id": "2240"
-      },
-      {
-        "type": "skills",
-        "id": "5"
-      },
-      {
-        "type": "skills",
-        "id": "25"
       }
     ]
   },
@@ -41576,20 +42026,22 @@
     "benefit": "The Roofwalker feat enables the use of three tactical maneuvers.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 5,
+        "value": 5
+      },
+      {
+        "type": "skills",
+        "id": 25,
+        "value": 5
+      },
+      {
         "type": "feats",
         "id": "759"
       },
       {
         "type": "feats",
         "id": "2240"
-      },
-      {
-        "type": "skills",
-        "id": "5"
-      },
-      {
-        "type": "skills",
-        "id": "25"
       }
     ]
   },
@@ -41720,7 +42172,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 8
       },
       "ability to turn undead"
     ]
@@ -41963,7 +42416,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "53"
+        "id": 53,
+        "value": 4
       }
     ]
   },
@@ -42098,12 +42552,13 @@
     "benefit": "As a standard action, you can quickly camoufl age yourself in any area of ash, dust, loose earth, or sand that is at least 1 inch deep. In areas with 1 to 11 inches of appropriate loose soil, you gain a +4 bonus on Hide checks. In areas with 12 inches or more of appropriate loose soil, you instead gain a +10 bonus on Hide checks. You must still have cover or concealment to make a Hide check, as described on page 76 of the Player's Handbook",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2842"
+        "type": "skills",
+        "id": 20,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "20"
+        "type": "feats",
+        "id": "2842"
       }
     ]
   },
@@ -42116,7 +42571,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 4
       },
       {
         "type": "score",
@@ -42150,12 +42606,13 @@
     "benefit": "In any round when you fi rst move at least 10 feet using your Tumble skill in an area covered in a layer of at least 1 inch of ash, dust, loose earth, or sand, you can take a standard action to hurl a spray of sand into the eyes of all creatures in a 5-foot-radius burst. Those within the area must make Fortitude saving throws (DC 10 + 1/2 your character level + your Wis modifi er) or be blinded for 1 round.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2839"
+        "type": "skills",
+        "id": 66,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "66"
+        "type": "feats",
+        "id": "2839"
       },
       {
         "type": "score",
@@ -42382,7 +42839,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 5
       },
       {
         "type": "score",
@@ -42416,7 +42874,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 5
       },
       {
         "type": "score",
@@ -42451,11 +42910,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 24
       },
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       }
     ]
   },
@@ -42591,11 +43052,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "14"
+        "id": 14,
+        "value": 5
       }
     ]
   },
@@ -42658,11 +43121,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 30
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 30
       },
       {
         "type": "score",
@@ -42876,7 +43341,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 5
       },
       "shadowcaster level 1st"
     ]
@@ -42957,11 +43423,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 12
       },
       {
         "type": "skills",
-        "id": "49"
+        "id": 49,
+        "value": 12
       }
     ]
   },
@@ -43195,7 +43663,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 4
       },
       "animal companion class feature",
       "rage class feature"
@@ -43273,12 +43742,13 @@
     "benefit": "When using an unarmed strike to attempt to break an object with sudden force (rather than by dealing normal damage), make a Concentration check rather than a Strength check. The break DC remains the same. Using Shattering Strike is a full-round action that incurs attacks of opportunity. You can't use Shattering Strike to escape bonds (unless you are so bound as to allow you to make an unarmed strike against your bindings, such as when you are bound by a length of chain).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "1067"
+        "type": "skills",
+        "id": 8,
+        "value": 25
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "1067"
       },
       "ki strike +3"
     ]
@@ -43559,12 +44029,13 @@
     "benefit": "As long as you have a light shield, heavy shield, or tower shield ready, you do not provoke attacks of opportunity for casting spells in combat.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "430"
+        "type": "skills",
+        "id": 8,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "430"
       },
       "Shield Profi ciency"
     ]
@@ -43578,7 +44049,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 5
       },
       "Combat Manifesting",
       "Shield Profi ciency"
@@ -43607,11 +44079,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 4
       },
       {
         "type": "feats",
@@ -43804,11 +44278,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "49"
+        "id": 49,
+        "value": 4
       },
       "wildhunt trait",
       "Shifter with longstride",
@@ -43824,11 +44300,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "53"
+        "id": 53,
+        "value": 3
       },
       {
         "type": "races",
@@ -43846,11 +44324,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "53"
+        "id": 53,
+        "value": 2
       }
     ]
   },
@@ -44028,11 +44508,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "20"
+        "id": 20,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 5
       }
     ]
   },
@@ -44072,16 +44554,17 @@
     "benefit": "Once per round, when you make an attack of opportunity, you may take a 5- foot step after you attack. This 5-foot step doesn't count against your limit of one 5-foot step per round or against any movement you take on your turn.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 66,
+        "value": 8
+      },
+      {
         "type": "feats",
         "id": "759"
       },
       {
         "type": "feats",
         "id": "2240"
-      },
-      {
-        "type": "skills",
-        "id": "66"
       },
       {
         "type": "score",
@@ -44443,7 +44926,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "must not be of the dragonblood subtype",
       "must not have any draconic feats"
@@ -44465,12 +44949,13 @@
     "benefit": "If a creature makes a touch attack against you to initiate a grapple, you can sacrifice one of your attacks of opportunity as an immediate action to make an Escape Artist check. You must use the check result in place of your touch Armor Class, even if the result is lower.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "442"
+        "type": "skills",
+        "id": 15,
+        "value": 9
       },
       {
-        "type": "skills",
-        "id": "15"
+        "type": "feats",
+        "id": "442"
       }
     ]
   },
@@ -44483,11 +44968,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "15"
+        "id": 15,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       }
     ]
   },
@@ -44839,7 +45326,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 6
       },
       "Bardic music ability"
     ]
@@ -44881,11 +45369,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 8
       },
       {
         "type": "skills",
-        "id": "12"
+        "id": 12,
+        "value": 5
       }
     ]
   },
@@ -44933,7 +45423,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 6
       },
       {
         "type": "classAbility",
@@ -44963,7 +45454,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 6
       },
       {
         "type": "classAbility",
@@ -45026,7 +45518,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 4
       },
       {
         "type": "score",
@@ -45077,7 +45570,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -45244,7 +45738,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 5
       }
     ]
   },
@@ -45405,6 +45900,11 @@
     "benefit": "Whenever you are allowed an attack of opportunity, you may cast (and attack with) a touch spell as your attack of opportunity. This incurs attacks of opportunity just as if you had cast the spell normally.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 61,
+        "value": 25
+      },
+      {
         "type": "feats",
         "id": "430"
       },
@@ -45415,10 +45915,6 @@
       {
         "type": "feats",
         "id": "2642"
-      },
-      {
-        "type": "skills",
-        "id": "61"
       }
     ]
   },
@@ -45463,7 +45959,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 2
       },
       "specialist wizard level 1st"
     ]
@@ -45500,7 +45997,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 24
       },
       {
         "type": "classes",
@@ -45601,7 +46099,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 30
       },
       {
         "type": "score",
@@ -45658,12 +46157,13 @@
     "benefit": "As a full-round action, you can cast a melee touch attack spell, attack with the spell, and make an offhand attack with your gnome quickrazor.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "430"
+        "type": "skills",
+        "id": 8,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "8"
+        "type": "feats",
+        "id": "430"
       },
       "Exotic Weapon Profi ciency (gnome quickrazor)",
       "Two- Weapon Fighting"
@@ -45818,12 +46318,13 @@
     "benefit": "When mounted and using the charge action, you deal double damage with a melee weapon (or triple damage with a lance).",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2779"
+        "type": "skills",
+        "id": 56,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2779"
       }
     ]
   },
@@ -45983,7 +46484,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 30
       },
       {
         "type": "score",
@@ -46020,7 +46522,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "able to cast any cure wounds spell",
       {
@@ -46043,7 +46546,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 25
       },
       "ability to cast the maximum normal spell level of at least one spellcasting class"
     ]
@@ -46057,7 +46561,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "36"
+        "id": 36,
+        "value": 4
       },
       {
         "type": "score",
@@ -46081,7 +46586,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       {
         "type": "score",
@@ -46108,7 +46614,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 12
       }
     ]
   },
@@ -46188,16 +46695,17 @@
     "benefit": "Whenever you confirm a critical hit with a melee attack that deals bludgeoning or nonlethal damage for which you have the Improved Critical feat your opponent must make a Fortitude save (DC 10 + 1/2 your level + your Strength modifier) or be stunned for one round.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 19,
+        "value": 3
+      },
+      {
         "type": "feats",
         "id": "1669"
       },
       {
         "type": "feats",
         "id": "2507"
-      },
-      {
-        "type": "skills",
-        "id": "19"
       },
       {
         "type": "score",
@@ -46292,12 +46800,13 @@
     "benefit": "When you use a spell or spell-like ability to summon a creature native to a plane that has a planar touchstone site to which you have forged a link (see the Planar Touchstone feat), you imbue the creature with exceptional resilience. The creature gains a +4 bonus to its Armor Class and on saving throws for the duration of the summoning effect. Furthermore, the duration of the summoning effect that brought the creature is doubled. (Effects with a duration of concentration, instantaneous, or permanent are not affected.) For example, a cleric who has used his Planar Touchstone feat to forge a link between himself and Empyrea Mere (a touchstone located on the Seven Mounting Heavens of Celestia) grants these bonuses to any creature he summons from Celestia, such as a hound archon.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2464"
+        "type": "skills",
+        "id": 61,
+        "value": 5
       },
       {
-        "type": "skills",
-        "id": "61"
+        "type": "feats",
+        "id": "2464"
       },
       {
         "type": "score",
@@ -46387,7 +46896,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 8
       }
     ]
   },
@@ -46468,7 +46978,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 4
       }
     ]
   },
@@ -47106,7 +47617,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -47120,7 +47632,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       },
       "Any other metamagic feat"
     ]
@@ -47143,7 +47656,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 10
       },
       {
         "type": "classAbility",
@@ -47160,7 +47674,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 10
       },
       "Bardic music ability"
     ]
@@ -47196,12 +47711,13 @@
     "benefit": "If an opponent provokes an attack of opportunity from you, you can draw a weapon that you have successfully concealed using Sleight of Hand (PH 81) as an immediate action to deliver the attack of opportunity with that weapon. That opponent is treated as flat-footed against the attack with the concealed weapon.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2627"
+        "type": "skills",
+        "id": 60,
+        "value": 8
       },
       {
-        "type": "skills",
-        "id": "60"
+        "type": "feats",
+        "id": "2627"
       }
     ]
   },
@@ -47556,7 +48072,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 4
       },
       {
         "type": "classAbility",
@@ -47697,7 +48214,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 2
       }
     ]
   },
@@ -48039,7 +48557,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 12
       }
     ]
   },
@@ -48064,7 +48583,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 7
       }
     ]
   },
@@ -48233,12 +48753,13 @@
     "benefit": "Choose a particular dinosaur mount that you are familiar with. You gain a +4 insight bonus on Ride checks made in conjunction with that mount. In addition, as long as you are mounted on that creature, both you and your mount gain a +1 insight bonus to AC and on Reflex saves.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 6
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       },
       {
         "type": "races",
@@ -48357,16 +48878,18 @@
     "benefit": "Your levels in the psionic class you selected for Monastic Traning stack with your monk levels to determine your AC bonus, flurry of blows attacks, and unarmed damage from the monk class.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 4,
+        "value": 5
+      },
+      {
+        "type": "skills",
+        "id": 8,
+        "value": 5
+      },
+      {
         "type": "feats",
         "id": "2242"
-      },
-      {
-        "type": "skills",
-        "id": "4"
-      },
-      {
-        "type": "skills",
-        "id": "8"
       },
       "ability to manifest 1st level powers"
     ]
@@ -48425,11 +48948,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 1
       },
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 1
       },
       "Spellcaster Level 3rd+"
     ]
@@ -48515,7 +49040,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "61"
+        "id": 61,
+        "value": 15
       }
     ]
   },
@@ -48551,7 +49077,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 25
       },
       "rage 5/day"
     ]
@@ -48565,7 +49092,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 25
       },
       "rage 5/day"
     ]
@@ -48579,7 +49107,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "23"
+        "id": 23,
+        "value": 4
       },
       {
         "type": "classAbility",
@@ -48596,6 +49125,11 @@
     "isSkillTrick": false,
     "benefit": "Once per day, you can make yourself unmovable. You automatically win an opposed Strength check when an opponent attempts to bull rush you. A creature with the improved grab ability must move into your space to grapple you, since it cannot pull you into its space. No spell or other effect can force you to move. If you become frightened or panicked, you suffer the full effect of the fear but do not run away. You cannot move, even to make a 5-foot step, while this ability is in effect. This ability lasts for 1 round per level, but you can end it at any time.",
     "prerequisites": [
+      {
+        "type": "skills",
+        "id": 66,
+        "value": 6
+      },
       {
         "type": "feats",
         "id": "1809"
@@ -48619,10 +49153,6 @@
       {
         "type": "feats",
         "id": "1448"
-      },
-      {
-        "type": "skills",
-        "id": "66"
       }
     ]
   },
@@ -49003,7 +49533,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 8
       }
     ]
   },
@@ -49373,7 +49904,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "35"
+        "id": 35,
+        "value": 8
       },
       "in place of the material components",
       "possession of a touchstone key (a portable object native to the touchstone's area and worth at least 250 gp). To forge a link between yourself and the touchstone",
@@ -49457,7 +49989,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "56"
+        "id": 56,
+        "value": 1
       }
     ]
   },
@@ -49533,11 +50066,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "31"
+        "id": 31,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "28"
+        "id": 28,
+        "value": 1
       }
     ]
   },
@@ -49550,11 +50085,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "58"
+        "id": 58,
+        "value": 25
       },
       {
         "type": "skills",
-        "id": "62"
+        "id": 62,
+        "value": 25
       },
       "ability to find traps as a rogue"
     ]
@@ -49647,12 +50184,13 @@
     "benefit": "When you employ a heavy lance in a mounted charge, you can choose to use your mount's Strength score instead of your own for determining your damage bonus. For example, if you are a human fighter with a strength score of 14 mounted on a heavy warhorse (Strength 18), you would deal 1d8+4 damage with your lance instead of 1d8+2 damage. You deal double damage for using the lance in a charge, as normal.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "2256"
+        "type": "skills",
+        "id": 56,
+        "value": 1
       },
       {
-        "type": "skills",
-        "id": "56"
+        "type": "feats",
+        "id": "2256"
       }
     ]
   },
@@ -49712,7 +50250,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "10"
+        "id": 10,
+        "value": 6
       }
     ]
   },
@@ -49781,7 +50320,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       }
     ]
   },
@@ -49810,7 +50350,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       }
     ]
   },
@@ -49824,11 +50365,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "6"
+        "id": 6,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 4
       }
     ]
   },
@@ -50048,11 +50591,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       }
     ]
   },
@@ -50308,16 +50853,17 @@
     "benefit": "When throwing or shooting a ranged weapon, you can ignore any cover bonus to the target's AC (up to a maximum of nine-tenths cover) or any miss chance conferred by the target's concealment (up to a maximum of nine-tenths concealment). If the target has total concealment or total cover, the AC bonus or miss chance applies normally.",
     "prerequisites": [
       {
+        "type": "skills",
+        "id": 62,
+        "value": 20
+      },
+      {
         "type": "feats",
         "id": "2478"
       },
       {
         "type": "feats",
         "id": "2540"
-      },
-      {
-        "type": "skills",
-        "id": "62"
       },
       {
         "type": "score",
@@ -50398,7 +50944,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 1
       },
       {
         "type": "level",
@@ -50468,7 +51015,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 10
       },
       "Small or smaller"
     ]
@@ -50615,7 +51163,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "8"
+        "id": 8,
+        "value": 1
       },
       "one Diamond Mind strike"
     ]
@@ -50703,11 +51252,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "5"
+        "id": 5,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       }
     ]
   },
@@ -50759,7 +51310,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "35"
+        "id": 35,
+        "value": 2
       }
     ]
   },
@@ -50819,12 +51371,13 @@
     "benefit": "You learn one lst-level utterance Irom the Lexicon of the Crafted Tool.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "3374"
+        "type": "skills",
+        "id": 65,
+        "value": 12
       },
       {
-        "type": "skills",
-        "id": "65"
+        "type": "feats",
+        "id": "3374"
       },
       "ability to speak three utterances"
     ]
@@ -50839,7 +51392,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 9
       },
       "ability to speak two utterances"
     ]
@@ -50854,7 +51408,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "65"
+        "id": 65,
+        "value": 15
       },
       "Truename Trainin ability to speak four utterances"
     ]
@@ -50913,7 +51468,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 6
       }
     ]
   },
@@ -50944,7 +51500,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 4
       },
       {
         "type": "score",
@@ -51079,11 +51636,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 4
       },
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       {
         "type": "races",
@@ -51099,12 +51658,13 @@
     "benefit": "You can use your normal wild shape ability to take the form of a vermin. The size limitation is the same as your limitation on animal size.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "212"
+        "type": "skills",
+        "id": 36,
+        "value": 24
       },
       {
-        "type": "skills",
-        "id": "36"
+        "type": "feats",
+        "id": "212"
       },
       "wild shape 6/day"
     ]
@@ -51161,7 +51721,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 5
       }
     ]
   },
@@ -51221,7 +51782,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "33"
+        "id": 33,
+        "value": 1
       },
       {
         "type": "bab",
@@ -51655,11 +52217,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 12
       },
       {
         "type": "skills",
-        "id": "66"
+        "id": 66,
+        "value": 5
       }
     ]
   },
@@ -51672,11 +52236,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "7"
+        "id": 7,
+        "value": 5
       },
       {
         "type": "skills",
-        "id": "25"
+        "id": 25,
+        "value": 5
       }
     ]
   },
@@ -51721,10 +52287,6 @@
     "benefit": "You excel in using your words and wit to make your way in the world. This feat grants you three separate abilities. Canny Merchant: You can make a Diplomacy check to track down an item that is normally too expensive to be purchased in the town or settlement where you are currently located. The DC of this check is 10 + (the item's gp cost minus the community's gp limit, divided by 1,000). If this check succeeds, you learn of a merchant who can supply the item to you. You must still purchase it as normal. Intuitive Communication: When you are faced with a creature whose language you do not understand, you can attempt to communicate with it by making a successful Sense Motive check. This check requires that you spend at least 1 minute listening to the creature and watching its gestures and demeanor. The check's base DC is 20. If the creature is not the same type as you, the DC is 30. With a successful check, you learn the basic gist of the creature's speech. This ability gives you no special talent to speak the creature's tongue. Social Agility: You can temporarily alter a creature's attitude toward you. You can use Bluff against an unfriendly or less hostile creature in the same way you use Diplomacy. Using Bluff in this manner is a standard action that takes no special penalties. The target's attitude remains changed for 1 minute. After this time, it becomes one grade more hostile than where it started for 10 minutes.",
     "prerequisites": [
       "Halfling or 4 ranks in Bluff",
-      {
-        "type": "skills",
-        "id": "12"
-      },
       "and Sense Motive"
     ]
   },
@@ -51737,7 +52299,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "67"
+        "id": 67,
+        "value": 4
       }
     ]
   },
@@ -51779,7 +52342,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 9
       },
       {
         "type": "classAbility",
@@ -52216,7 +52780,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "69"
+        "id": 69,
+        "value": 5
       },
       "proficiency with the whip"
     ]
@@ -52560,7 +53125,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "51"
+        "id": 51,
+        "value": 5
       },
       {
         "type": "classAbility",
@@ -52907,7 +53473,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "39"
+        "id": 39,
+        "value": 4
       },
       "Speak Language (Draconic)"
     ]
@@ -52943,12 +53510,13 @@
     "benefit": "When affected by this feat, a spell that deals damage to a creature also inflicts a bleeding wound that does not heal normally. On each subsequent round, the victim loses 1 hit point at the beginning of your turn. The continuing hit point loss can be stopped with a <a href=\"/skills/heal/\">Heal</a> check (DC equal to the spell's save DC, or the save DC it would otherwise have in the case of a spell with no save), a <em>cure</em> spell, or a <em>heal</em> spell.",
     "prerequisites": [
       {
-        "type": "feats",
-        "id": "961"
+        "type": "skills",
+        "id": 33,
+        "value": 4
       },
       {
-        "type": "skills",
-        "id": "33"
+        "type": "feats",
+        "id": "961"
       }
     ]
   },
@@ -52971,11 +53539,13 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "19"
+        "id": 19,
+        "value": 10
       },
       {
         "type": "skills",
-        "id": "27"
+        "id": 27,
+        "value": 5
       }
     ]
   },
@@ -53131,7 +53701,8 @@
     "prerequisites": [
       {
         "type": "skills",
-        "id": "18"
+        "id": 18,
+        "value": 8
       }
     ]
   }
