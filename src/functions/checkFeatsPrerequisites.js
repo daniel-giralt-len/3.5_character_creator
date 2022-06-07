@@ -32,7 +32,7 @@ const prerequisiteChecks = {
     alignment: checkAlignments,
     saveBaseBonus: checkSaves,
     classAbility: (p, c) => false,
-    size: (p, c) => false,
+    size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
     deities: (p, c) => false,
     creatureType: (p, c) => false,
     oneOf: (p, c) =>false

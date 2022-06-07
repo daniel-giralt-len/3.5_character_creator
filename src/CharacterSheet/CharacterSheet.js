@@ -95,7 +95,8 @@ function CharacterSheet({
         const fullCharacter = {
             ...character,
             bonuses,
-            modifiers
+            modifiers,
+            raceData
         }
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
 
