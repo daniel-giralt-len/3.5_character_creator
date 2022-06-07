@@ -95,6 +95,7 @@ function CharacterSheet({
         const fullCharacter = {
             ...character,
             bonuses,
+            modifiers
         }
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
 

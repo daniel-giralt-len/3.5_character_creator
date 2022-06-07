@@ -14,6 +14,11 @@ const checkAlignments = ({legality, goodness},c) => {
     return (legality === '*' || legality.includes(c.alignment.legality)) && (goodness === '*' || goodness.includes(c.alignment.goodness))    
 }
 
+const checkSaves = (p, c) => {
+    const saveToModifier = {fortitude: 'CON', reflex: 'DEX', will: 'WIS'}
+    return (c.bonuses[p.saveType] + c.modifiers[saveToModifier[p.saveType]]) >= p.value
+}
+
 const prerequisiteChecks = {
     races: (p, c) => c.races === p.id,
     feats: (p, c) => c.feats.includes(p.id),
@@ -25,7 +30,7 @@ const prerequisiteChecks = {
     classes: checkClasses,
     spellcasting: (p, c) => false,
     alignment: checkAlignments,
-    saveBaseBonus: (p, c) => false,
+    saveBaseBonus: checkSaves,
     classAbility: (p, c) => false,
     size: (p, c) => false,
     deities: (p, c) => false,
