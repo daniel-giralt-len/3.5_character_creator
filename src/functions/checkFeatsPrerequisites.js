@@ -35,8 +35,8 @@ const prerequisiteChecks = {
     saveBaseBonus: checkSaves,
     classAbility: (p, c) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
-    deities: () => 'unimplemented',
-    creatureType: () => 'unimplemented',
+    deities: () => 'unknown',
+    creatureType: () => 'unknown',
     oneOf: checkOneOf
 }
 
