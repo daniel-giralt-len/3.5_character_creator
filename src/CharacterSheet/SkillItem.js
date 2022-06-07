@@ -32,6 +32,7 @@ const SkillItem = ({
     isClass,
     isTrainedOnly,
     name,
+    id,
     nRanks=0,
     scoreName,
     modifierValue,
@@ -62,9 +63,9 @@ const SkillItem = ({
             value={nRanks}
             name={name}
             id={name}
-            max={500}
+            max={999}
             min={0}
-            onChange={e => onRankChange(name, e.target.value)}
+            onChange={e => onRankChange(id, e.target.value)}
         />
     </>)
 }

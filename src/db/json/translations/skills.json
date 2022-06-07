@@ -39,15 +39,15 @@
         "knowledge (nobility and royalty)": "Saber (Nobleza y Realeza)",
         "knowledge (psionics)": "Saber (Psiónico)",
         "knowledge (religion)": "Saber (Religión)",
-        "knowledge (Shadowlands)": "Saber (Shadowlands)",
+        "knowledge (shadowlands)": "Saber (Shadowlands)",
         "knowledge (spirits)": "Saber (Espíritus)",
         "knowledge (tactics)": "Saber (Tácticas)",
         "knowledge (the planes)": "Saber (Los Planos)",
-        "knowledge (War)": "Saber (Guerra)",
+        "knowledge (war)": "Saber (Guerra)",
         "knowledge (weaponry)": "Saber (Armas)",
         "listen": "Escuchar",
-        "lucid Dreaming": "Sueño Lúcido",
-        "martial Lore": "Conocimiento Marcial",
+        "lucid dreaming": "Sueño Lúcido",
+        "martial lore": "Conocimiento Marcial",
         "move silently": "Moverse Sigilosamente",
         "open lock": "Abrir Cerradura",
         "perform": "Interpretar",
@@ -69,7 +69,8 @@
         "use magic device": "Usar Objeto Mágico",
         "use psionic device": "Usar Objeto Psiónico",
         "use rope": "Uso de Cuerdas",
-        "wilderness lore": "Conocimiento Salvaje"
+        "wilderness lore": "Conocimiento Salvaje",
+        "speak language": "Hablar Idioma"
     },
     "ca": {
         "alchemy": "Alquimia",
@@ -111,15 +112,15 @@
         "knowledge (nobility and royalty)": "Saber (Noblesa y Reialesa)",
         "knowledge (psionics)": "Saber (Psiónic)",
         "knowledge (religion)": "Saber (Religió)",
-        "knowledge (Shadowlands)": "Saber (Ombraterra)",
+        "knowledge (shadowlands)": "Saber (Ombraterra)",
         "knowledge (spirits)": "Saber (Esperits)",
         "knowledge (tactics)": "Saber (Tàctiques)",
         "knowledge (the planes)": "Saber (Planar)",
-        "knowledge (War)": "Saber (Guerra)",
+        "knowledge (war)": "Saber (Guerra)",
         "knowledge (weaponry)": "Saber (Armes)",
         "listen": "Escoltar",
-        "lucid Dreaming": "Somni Lúcid",
-        "martial Lore": "Coneixement Marcial",
+        "lucid dreaming": "Somni Lúcid",
+        "martial lore": "Coneixement Marcial",
         "move silently": "Moure's amb Sigil",
         "open lock": "Obrir Pany",
         "perform": "Interpretar",
@@ -141,6 +142,7 @@
         "use magic device": "Emprar Objecte Màgic",
         "use psionic device": "Emprar Objecte Psiónic",
         "use rope": "Ús de Cordes",
-        "wilderness lore": "Coneixement Feréstec"
+        "wilderness lore": "Coneixement Feréstec",
+        "speak language": "Parlar Idioma"
     }
 }

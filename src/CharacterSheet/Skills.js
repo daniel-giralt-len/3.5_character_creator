@@ -42,11 +42,10 @@ function Skills({
     }){
         const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
         const maxSkillPoints = classSkillsData.points || 0
-
-        const handleSkillChange = (name,rank) => {
+        const handleSkillChange = (id,rank) => {
             const nRanks = parseInt(rank)
             if(nRanks < 0 || nRanks > maxPointsPerSkill) return
-            const newSkills = {...skills, [name]:{...skills[name], nRanks: parseInt(rank)}}
+            const newSkills = {...skills, [id]:{...skills[id], nRanks: parseInt(rank)}}
             const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
             if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return
             onSkillChange(newSkills)
@@ -71,13 +70,14 @@ function Skills({
                     <Text small centered>{translate('ranks')}</Text>
                     {
                         refinedSkillsData.map(skill =>{
-                            const data = skills[skill.name] || {}
+                            const data = skills[skill.id] || {}
                             const scoreName = skill['key ability']
                             return (<SkillItem
                                 key={skill.name}
-                                isClass={classSkillsData.skills.includes(skill.name)}
+                                isClass={classSkillsData.skills.includes(skill.id)}
                                 isTrainedOnly={skill['trained only']}
                                 armorCheckPenalty={skill['armor check penalty']}
+                                id={skill.id}
                                 name={skill.name}
                                 nRanks={data.nRanks}
                                 scoreName={scoreName}

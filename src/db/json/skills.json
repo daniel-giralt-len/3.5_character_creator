@@ -274,7 +274,7 @@
   },
   {
     "id": 40,
-    "name": "knowledge (Shadowlands)",
+    "name": "knowledge (shadowlands)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
@@ -302,7 +302,7 @@
   },
   {
     "id": 44,
-    "name": "knowledge (War)",
+    "name": "knowledge (war)",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
@@ -323,14 +323,14 @@
   },
   {
     "id": 47,
-    "name": "lucid Dreaming",
+    "name": "lucid dreaming",
     "key ability": "WIS",
     "trained only": true,
     "armor check penalty": false
   },
   {
     "id": 48,
-    "name": "martial Lore",
+    "name": "martial lore",
     "key ability": "INT",
     "trained only": true,
     "armor check penalty": false
@@ -487,6 +487,13 @@
     "name": "wilderness lore",
     "key ability": "WIS",
     "trained only": false,
+    "armor check penalty": false
+  },
+  {
+    "id": 71,
+    "name": "speak language",
+    "key ability": "INT",
+    "trained only": true,
     "armor check penalty": false
   }
 ]

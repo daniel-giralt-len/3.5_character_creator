@@ -42,7 +42,7 @@ function CharacterCreatorPage() {
       showDisallowed: false 
     })
   }
-  const [isSelectorOpen, setIsSelectorOpen] = useState(false)
+  const [isSelectorOpen, setIsSelectorOpen] = useState(true)
   const [selectorItem, setSelectorItem] = useState('races')
   
   const translate = getTranslator(language)

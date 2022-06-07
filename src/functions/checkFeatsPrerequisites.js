@@ -17,7 +17,7 @@ const checkAlignments = ({legality, goodness},c) => {
 const prerequisiteChecks = {
     races: (p, c) => c.races === p.id,
     feats: (p, c) => c.feats.includes(p.id),
-    skills: (p, c) => false,
+    skills: (p, c) => c.skills[p.id] && (c.skills[p.id].nRanks >= (p.value || 0)),
     score: (p, c) => false,
     bab: (p, c) => c.bonuses.bab >= p.value,
     level: (p, c) => false,
@@ -65,6 +65,7 @@ const checkFeatsPrerequisites = (character) => {
             ...rest,
             prerequisites: prerequisites.map(p => isPrerequisiteFullfilled(p, queriableCharacter))
         }))
+    console.log(queriableCharacter)
     console.log(out)
     return out
 }
