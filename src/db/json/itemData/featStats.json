@@ -20806,7 +20806,7 @@
     "prerequisites": [
       {
         "type": "language",
-        "id": "18"
+        "id": 18
       },
       "rage or frenzy ability"
     ]
@@ -38598,7 +38598,7 @@
       "Ability to speak a divine language (Abyssal",
       {
         "type": "language",
-        "id": "5"
+        "id": 5
       },
       "druidic",
       "infernal as appropriate)",

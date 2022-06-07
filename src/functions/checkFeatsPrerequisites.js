@@ -26,7 +26,7 @@ const prerequisiteChecks = {
     score: (p, c) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
     bab: (p, c) => c.bonuses.bab >= p.value,
     level: (p, c) => c.classes.length >= p.value,
-    language: (p, c) => false,
+    language: (p, c) => c.language[p.id] === true,
     classes: checkClasses,
     spellcasting: (p, c) => false,
     alignment: checkAlignments,
