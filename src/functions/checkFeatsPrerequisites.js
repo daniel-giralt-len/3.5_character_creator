@@ -20,7 +20,7 @@ const prerequisiteChecks = {
     skills: (p, c) => c.skills[p.id] && (c.skills[p.id].nRanks >= (p.value || 0)),
     score: (p, c) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
     bab: (p, c) => c.bonuses.bab >= p.value,
-    level: (p, c) => false,
+    level: (p, c) => c.classes.length >= p.value,
     language: (p, c) => false,
     classes: checkClasses,
     spellcasting: (p, c) => false,
