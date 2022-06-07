@@ -30,13 +30,13 @@ const prerequisiteChecks = {
     level: (p, c) => c.classes.length >= p.value,
     language: (p, c) => c.language[p.id] === true,
     classes: checkClasses,
-    spellcasting: (p, c) => false,
+    spellcasting: (p, c) => 'unimplemented',
     alignment: checkAlignments,
     saveBaseBonus: checkSaves,
-    classAbility: (p, c) => false,
+    classAbility: (p, c) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
-    deities: () => 'unknown',
-    creatureType: () => false,
+    deities: () => 'unimplemented',
+    creatureType: () => 'unimplemented',
     oneOf: checkOneOf
 }
 

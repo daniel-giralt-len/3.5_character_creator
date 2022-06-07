@@ -13,6 +13,7 @@ import Bab from './Bab'
 import raceStats from '../db/json/itemData/raceStats.json'
 import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
+import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import getCharacterSkillData from '../functions/getCharacterSkillData';
 import getModifiersFromScores from '../functions/getModifiersFromScores'
@@ -96,7 +97,8 @@ function CharacterSheet({
             ...character,
             bonuses,
             modifiers,
-            raceData
+            raceData,
+            classAbilities: getCharacterClassAbilities({classes})
         }
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
 
