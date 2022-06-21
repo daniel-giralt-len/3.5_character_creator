@@ -20,7 +20,7 @@ function ClassesDisplay({
     translate,
     handleClassChange
 }) {
-    if(classes.length === 0) return
+    if(classes.length === 0) return (<ClassesLayout> <Header name={translate('classes')} /> </ClassesLayout>)
 
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
