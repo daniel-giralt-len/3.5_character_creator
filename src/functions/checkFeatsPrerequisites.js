@@ -72,8 +72,6 @@ const checkFeatsPrerequisites = (character) => {
             ...rest,
             prerequisites: prerequisites.map(p => isPrerequisiteFullfilled(p, queriableCharacter))
         }))
-    console.log(queriableCharacter)
-    console.log(out)
     return out
 }
 

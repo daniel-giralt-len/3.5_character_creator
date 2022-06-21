@@ -1,0 +1,74 @@
+{
+  "4": [{"targetId": "38"}],
+  "6": [
+    {"targetId": "12"},
+    {"targetId": "14", "specification": "to act in character"},
+    {"targetId": "23"},
+    {"targetId": "60"}
+  ],
+  "8": [{"targetId": "4"}],
+  "10": [
+    {"targetId": "3", "specification": "involving the craft"}
+  ],
+  "11": [
+    {"targetId": "68", "specification": "involving scrolls"}
+  ],
+  "15": [
+    {"targetId": "70", "specification": "involving bindings"}
+  ],
+  "18": [
+    {"targetId": "56"},
+    {"targetId": null, "specification": "wild empathy (druid)"}
+  ],
+  "25": [{"targetId": "67"}],
+  "27": [{"targetId": "62"}],
+  "28": [
+    {"targetId": "58", "specification": "involving secret doors and similar compartments"}
+  ],
+  "31": [
+    {"targetId": "64", "specification": "when underground"}
+  ],
+  "32": [
+    {"targetId": "64", "specification": "to keep from getting lost or for avoiding hazards"}
+  ],
+  "33": [
+    {"targetId": null, "specification": "bardic knowledge (bard)"}
+  ],
+  "35": [{"targetId": "17"}],
+  "36": [
+    {"targetId": "64", "specification": "in above-ground natural environments"}
+  ],
+  "37": [{"targetId": "12"}],
+  "38": [{"targetId": "54"}],
+  "39": [
+    {"targetId": null, "specification": "to turn or rebuke undead"}
+  ],
+  "43": [
+    {"targetId": "64", "specification": "when on other planes"}
+  ],
+  "54": [
+    {"targetId": "69", "specification": "involving power stones"}
+  ],
+  "58": [
+    {"targetId": "64", "specification": "when following tracks"}
+  ],
+  "59": [{"targetId": "12"}],
+  "62": [
+    {"targetId": "68", "specification": "involving scrolls"}
+  ],
+  "64": [{"targetId": "36"}],
+  "67": [
+    {"targetId": "5"},
+    {"targetId": "25"}
+  ],
+  "68": [
+    {"targetId": "62", "specification": "to decipher scrolls"}
+  ],
+  "69": [
+    {"targetId": "54", "specification": "to address power stones"}
+  ],
+  "70": [
+    {"targetId": "7", "specification": "involving ropes"},
+    {"targetId": "15", "specification": "involving ropes"}
+  ]
+}

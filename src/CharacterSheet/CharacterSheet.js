@@ -9,6 +9,7 @@ import Alignment from './Alignment'
 import ClassesDetail from './ClassesDetail'
 import Skills from './Skills'
 import Bab from './Bab'
+import Languages from './Languages'
 
 import raceStats from '../db/json/itemData/raceStats.json'
 import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
@@ -17,6 +18,7 @@ import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
 import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
 import getCharacterSkillData from '../functions/getCharacterSkillData';
 import getModifiersFromScores from '../functions/getModifiersFromScores'
+import getMaxKnownLanguages from '../functions/getMaxKnownLanguages'
 
 const CharacterSheetLayout = styled.section`
     display: grid;
@@ -41,7 +43,7 @@ const CharacterSheetLayout = styled.section`
         "feats skills"
         "classes skills"
         "skilltricks skills"
-        ". skills";
+        "languages skills";
     @media (max-width: 700px) {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto;
@@ -78,7 +80,8 @@ function CharacterSheet({
             races,
             name,
             skills,
-            alignment
+            alignment,
+            language
         } = character
 
         const nLevels = classes.length
@@ -102,6 +105,9 @@ function CharacterSheet({
         }
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
 
+        const nKnownLanguages = Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
+        const maxKnownLanguages = getMaxKnownLanguages(fullCharacter)
+
 
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
@@ -110,6 +116,7 @@ function CharacterSheet({
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
+        const onLanguagesChange = language => onCreationChange({...character, language})
         const onAlignmentChange = alignment => onCreationChange({...character, alignment})
 
         return(
@@ -173,6 +180,13 @@ function CharacterSheet({
                     classes={classes}
                     translate={translate}
                     handleClassChange={onClassChange}
+                />
+                <Languages
+                    languages={language}
+                    translate={translate}
+                    maxLanguages={maxKnownLanguages}
+                    usedLanguages={nKnownLanguages}
+                    onLanguagesChange={onLanguagesChange}
                 />
             </CharacterSheetLayout>
         )
