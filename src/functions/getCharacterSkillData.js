@@ -11,7 +11,7 @@ const getCharacterSkillData = (classes = [], modifiers = {}, race) => {
                 skillPointData = {}
             }
             let levelScore = skillPointData.base + modifiers[skillPointData.score]
-            if(race.name === 'human') levelScore += 1
+            if(race.name.toLowerCase() === 'human') levelScore += 1
             levelScore = Math.max(levelScore, 0)
             if(i===0) levelScore *= 4
 
