@@ -13,7 +13,7 @@ const NameLayout = styled.div`
 `
 
 function Name({
-    enabled,
+    disabled,
     name,
     translate,
     onNameChange,
@@ -22,7 +22,7 @@ function Name({
     return(
         <NameLayout>
             <TextInput
-                disabled={!enabled}
+                disabled={disabled}
                 onChange={e => onNameChange(e.target.value)}
                 rows={1}
                 value={name}

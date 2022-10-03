@@ -27,6 +27,10 @@ const AlignmentItem = styled.div`
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    ${({disabled}) => disabled && `
+    pointer-events: none;
+    background: #c4c4c4;
+    `}
 `
 
 const alignments = [
@@ -43,14 +47,18 @@ const alignments = [
 
 const compareAlignments = (a,b) => (a.legality === b.legality) && (a.goodness === b.goodness)
 
-const Alignment = ({alignment,
+const Alignment = ({
+    alignment,
+    disabled,
     onAlignmentChange,
-    translate}) => (
+    translate
+}) => (
         <AlignmentWrapper>
             <AlignmentTable>
                 {alignments
                     .map(({name, object}) => (
                         <AlignmentItem
+                            disabled={disabled}
                             onClick={() => onAlignmentChange(object)}
                             key={name}
                         >

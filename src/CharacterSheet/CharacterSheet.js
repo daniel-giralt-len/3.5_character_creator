@@ -86,6 +86,7 @@ function CharacterSheet({
             language
         } = selectedLevel
 
+        const isSelectedLevel0 = selectedLevelIndex === 0
         const raceData = (raceStats[races] || {})
 /* 
         const nLevels = classes.length
@@ -125,7 +126,7 @@ function CharacterSheet({
         return(
             <CharacterSheetLayout>
                 <Name
-                    enabled={selectedLevelIndex === 0}
+                    disabled={!isSelectedLevel0}
                     name={name}
                     translate={translate}
                     onNameChange={onNameChange}
@@ -135,17 +136,20 @@ function CharacterSheet({
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                {/* <ClassNames
+                {/* 
+                <ClassNames
                     classes={classes}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
+                */}
                 <Alignment
                     alignment={alignment}
                     onAlignmentChange={onAlignmentChange}
                     translate={translate}
+                    disabled={!isSelectedLevel0}
                 />
-                <Scores
+                {/*<Scores
                     scores={scores}
                     bonuses={bonuses}
                     modifiers={modifiers}
@@ -191,7 +195,8 @@ function CharacterSheet({
                     maxLanguages={maxKnownLanguages}
                     usedLanguages={nKnownLanguages}
                     onLanguagesChange={onLanguagesChange}
-                /> */}
+                /> 
+                */}
             </CharacterSheetLayout>
         )
 }
