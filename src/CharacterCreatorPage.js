@@ -7,6 +7,7 @@ import Selector from './Selector/Selector'
 import Header from './Header'
 
 import characterBase from './db/json/characterBase.json'
+import characterByLevelBase from './db/json/characterByLevelBase.json'
 import corpus44 from './db/json/corpuses/44.json'
 import corpusAny from './db/json/corpuses/any.json'
 import dbs from './db/json/dbs.json'
@@ -32,9 +33,9 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 function CharacterCreatorPage() {
-  const [cookies, setCookie] = useCookies(['character','corpus', 'filters'])
-  const {character, selectedCorpus, language, filters} = cookies
-  if(!character || Object.keys(character).length === 0) setCookie('character', characterBase)
+  const [cookies, setCookie] = useCookies(['characterLevels','corpus', 'filters'])
+  const {characterLevels, selectedCorpus, language, filters} = cookies
+  if(!characterLevels || Object.keys(characterLevels).length === 0) setCookie('characterLevels', characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
   if(!language) setCookie('language', 'es')
   if(!filters) {
@@ -44,9 +45,14 @@ function CharacterCreatorPage() {
   }
   const [isSelectorOpen, setIsSelectorOpen] = useState(true)
   const [selectorItem, setSelectorItem] = useState('races')
+  const [selectedCharacterLevel, setSelectedCharacterLevel] = useState(characterLevels.length-1)
   
   const translate = getTranslator(language)
-  const handleCreationChange = newCreation => setCookie('character', newCreation)
+  const handleCreationChange = newCreation => {
+    const newCharacterLevels = [...characterLevels]
+    newCharacterLevels[selectedCharacterLevel] = newCreation
+    setCookie('characterLevels', newCharacterLevels)
+  }
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
@@ -73,7 +79,8 @@ function CharacterCreatorPage() {
     />
     <LeftWrapper>
       <CharacterSheet
-        character={character}
+        selectedLevel={characterLevels[selectedCharacterLevel]}
+        selectedLevelIndex={selectedCharacterLevel}
         onCreationChange={handleCreationChange}
         translate={translate}
         onChangeSelectorTab={handleChangeSelectorTab}
@@ -85,7 +92,7 @@ function CharacterCreatorPage() {
         <Selector 
           openTab={selectorItem}
           onChangeTab={handleChangeSelectorTab}
-          creation={character}
+          creation={characterLevels[selectedCharacterLevel]}
           corpus={usedCorpus}
           corpuses={corpuses}
           onCorpusChange={handleCorpusChange}

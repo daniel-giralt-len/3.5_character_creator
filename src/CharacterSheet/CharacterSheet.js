@@ -68,6 +68,8 @@ const SkilltricksLayout = styled.div`
 
 function CharacterSheet({
         character,
+        selectedLevel,
+        selectedLevelIndex,
         translate,
         onCreationChange,
         onChangeSelectorTab,
@@ -82,10 +84,11 @@ function CharacterSheet({
             skills,
             alignment,
             language
-        } = character
+        } = selectedLevel
 
-        const nLevels = classes.length
         const raceData = (raceStats[races] || {})
+/* 
+        const nLevels = classes.length
         const bonuses = calculateCharacterBonuses({raceData, classes})
         const modifiers = getModifiersFromScores(scores, bonuses)
 
@@ -107,11 +110,11 @@ function CharacterSheet({
 
         const nKnownLanguages = Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
         const maxKnownLanguages = getMaxKnownLanguages(fullCharacter)
-
+ */
 
         const handleCharacterChange = scores => onCreationChange({...character, scores})
         
-        const onNameChange = name => onCreationChange({ ...character, name })
+        const onNameChange = name => onCreationChange({ ...selectedLevel, name })
         const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onClassChange = classes => onCreationChange({...character, classes})
@@ -122,6 +125,7 @@ function CharacterSheet({
         return(
             <CharacterSheetLayout>
                 <Name
+                    enabled={selectedLevelIndex === 0}
                     name={name}
                     translate={translate}
                     onNameChange={onNameChange}
@@ -131,7 +135,7 @@ function CharacterSheet({
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                <ClassNames
+                {/* <ClassNames
                     classes={classes}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
@@ -187,7 +191,7 @@ function CharacterSheet({
                     maxLanguages={maxKnownLanguages}
                     usedLanguages={nKnownLanguages}
                     onLanguagesChange={onLanguagesChange}
-                />
+                /> */}
             </CharacterSheetLayout>
         )
 }

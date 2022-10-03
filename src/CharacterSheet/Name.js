@@ -13,14 +13,20 @@ const NameLayout = styled.div`
 `
 
 function Name({
+    enabled,
     name,
     translate,
-    onNameChange
+    onNameChange,
 }){
     
     return(
         <NameLayout>
-            <TextInput onChange={e => onNameChange(e.target.value)} value={name} rows={1} />
+            <TextInput
+                disabled={!enabled}
+                onChange={e => onNameChange(e.target.value)}
+                rows={1}
+                value={name}
+            />
             <Text small>{translate('character name')}</Text>
         </NameLayout>
     )
