@@ -1,5 +1,6 @@
 import levelBase from '../db/json/characterByLevelBase.json'
 import getMaxKnownLanguages from '../functions/getMaxKnownLanguages'
+import raceStats from '../db/json/itemData/raceStats.json'
 
 const mergeLanguages = (a={},b={}) => {
     return Array.from(
@@ -26,7 +27,6 @@ const calculateLevelData = (acc, level) => {
         //so getMaxKnownLanguages work
         modifiers: {},
         skills: {},
-        raceData: {},
 
         /* classAbilities,
         bonuses,
@@ -35,15 +35,11 @@ const calculateLevelData = (acc, level) => {
         scores
         skilltricks */
     }
-    const secondPassData = {
-        nKnownLanguages: Object.entries(levelData.language).filter(([_,k])=>k).map(([l])=>l).length,
-        maxKnownLanguages: getMaxKnownLanguages(levelData),
-    }
+    levelData.raceData = raceStats[levelData.races] || {}
+    levelData.nKnownLanguages = Object.entries(levelData.language).filter(([_,k])=>k).map(([l])=>l).length
+    levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
 
-    return {
-        ...levelData,
-        ...secondPassData
-    }
+    return levelData
 }
 
 const getCumulativeLevels = (character, levelRevisionStart) => {

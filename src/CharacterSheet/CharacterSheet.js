@@ -11,7 +11,6 @@ import Skills from './Skills'
 import Bab from './Bab'
 import Languages from './Languages'
 
-import raceStats from '../db/json/itemData/raceStats.json'
 import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
@@ -85,11 +84,11 @@ function CharacterSheet({
             language,
             nKnownLanguages,
             maxKnownLanguages,
+            raceData,
         } = currentLevelData
 
 
         const isSelectedLevel0 = selectedLevelIndex === 0
-        const raceData = (raceStats[races] || {})
 /* 
         const nLevels = classes.length
         const bonuses = calculateCharacterBonuses({raceData, classes})
