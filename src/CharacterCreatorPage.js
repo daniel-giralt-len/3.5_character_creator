@@ -7,12 +7,12 @@ import Selector from './Selector/Selector'
 import Header from './Header'
 
 import characterBase from './db/json/characterBase.json'
-import characterByLevelBase from './db/json/characterByLevelBase.json'
 import corpus44 from './db/json/corpuses/44.json'
 import corpusAny from './db/json/corpuses/any.json'
 import dbs from './db/json/dbs.json'
 
 import getTranslator from './functions/getTranslator'
+import getCumulativeLevels from './functions/getCumulativeLevels'
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -43,15 +43,21 @@ function CharacterCreatorPage() {
       showDisallowed: false 
     })
   }
+
   const [isSelectorOpen, setIsSelectorOpen] = useState(true)
   const [selectorItem, setSelectorItem] = useState('races')
   const [selectedCharacterLevel, setSelectedCharacterLevel] = useState(characterLevels.length-1)
-  
+  const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
+
   const translate = getTranslator(language)
-  const handleCreationChange = newCreation => {
+  const handleCreationChange = creationChanges => {
     const newCharacterLevels = [...characterLevels]
-    newCharacterLevels[selectedCharacterLevel] = newCreation
+    newCharacterLevels[selectedCharacterLevel] = {
+      ...newCharacterLevels[selectedCharacterLevel],
+      ...creationChanges
+    }
     setCookie('characterLevels', newCharacterLevels)
+    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
   }
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
@@ -79,7 +85,7 @@ function CharacterCreatorPage() {
     />
     <LeftWrapper>
       <CharacterSheet
-        selectedLevel={characterLevels[selectedCharacterLevel]}
+        currentLevelData={fullCharacterDataByLevel[selectedCharacterLevel]}
         selectedLevelIndex={selectedCharacterLevel}
         onCreationChange={handleCreationChange}
         translate={translate}

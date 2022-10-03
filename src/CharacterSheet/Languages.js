@@ -41,8 +41,7 @@ function LanguageItem({
 }
 
 const renderLanguages = ({languages, handleDelete}) => {
-    return Object
-            .keys(languages)
+    return languages
             .map((id) => {
                 return (<LanguageItem
                     key={id}
@@ -61,6 +60,7 @@ function Languages({
 }) {
     const handleDelete = id => onLanguagesChange({...languages, [id]: false})
     const areLanguagesOverBudget = usedLanguages>maxLanguages
+    const selectedLanguages = Object.entries(languages).filter(([k,v])=>v).map(([k])=>k)
 
     return (
         <LanguagesLayout warning={areLanguagesOverBudget}>
@@ -68,7 +68,7 @@ function Languages({
                 name={translate('languages')} subtitle={`${usedLanguages}/${maxLanguages}`}
                 warning={areLanguagesOverBudget}
             />
-            {renderLanguages({languages, handleDelete})}
+            {renderLanguages({languages: selectedLanguages, handleDelete})}
         </LanguagesLayout>
     );
 }
