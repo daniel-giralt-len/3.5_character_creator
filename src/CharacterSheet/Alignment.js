@@ -29,7 +29,7 @@ const AlignmentItem = styled.div`
     cursor: pointer;
     ${({disabled}) => disabled && `
     pointer-events: none;
-    background: #c4c4c4;
+    background: #34000020;
     `}
 `
 
