@@ -7,7 +7,6 @@ const AlignmentWrapper = styled.div`
     grid-area: alignment;
 `
 
-
 const AlignmentTable = styled.ul`
     display: grid;
     align-content: center;

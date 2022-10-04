@@ -78,7 +78,8 @@
         "when following tracks": "When following tracks",
         "to decipher scrolls": "To decipher scrolls",
         "to address power stones": "To address power stones",
-        "involving ropes": "Involving ropes"
+        "involving ropes": "Involving ropes",
+        "base level": "Base"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -154,7 +155,8 @@
         "when following tracks": "Siguiendo rastros",
         "to decipher scrolls": "Descifrando pergaminos",
         "to address power stones": "Refiriéndose a piedras de poder",
-        "involving ropes": "Relacionado con cuerdas"
+        "involving ropes": "Relacionado con cuerdas",
+        "base level": "Base"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -230,6 +232,7 @@
         "when following tracks": "Seguint rastres",
         "to decipher scrolls": "Desxifrant pergamins",
         "to address power stones": "Referint-se a pedres de poder",
-        "involving ropes": "Relacionat amb cordes"
+        "involving ropes": "Relacionat amb cordes",
+        "base level": "Base"
     }
 }

@@ -18,10 +18,10 @@ const ClassesLayout = styled.li`
 function ClassesDisplay({
     classes = [],
     translate,
-    handleClassChange
+    handleClassChange,
+    onSelectedLevelChange,
+    selectedLevelIndex,
 }) {
-    if(classes.length === 0) return (<ClassesLayout> <Header name={translate('classes')} /> </ClassesLayout>)
-
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
         const out = [...classes]
@@ -37,22 +37,34 @@ function ClassesDisplay({
     }
     const handleDelete = position => handleClassChange(classes.filter((_,i)=>i!==position))
 
+    const canDuplicate = classes.length < 20
+
     return (
         <ClassesLayout>
             <Header name={translate('classes')} />
             <Text small centered>{translate('level')}</Text>
             <Text small centered>{translate('class')}</Text>
             <Text small />
+            <ClassDetailItem 
+                position={0}
+                classData={{name: translate('base level')}}
+                onSelectedLevelChange={()=>onSelectedLevelChange(0)}
+                isSelected={selectedLevelIndex === 0}
+                canDuplicate={false}
+            />
             {classes
                 .map((id,i) => (<ClassDetailItem
                     key={`${i+1}-${id}`}
-                    position={i}
+                    position={i+1}
                     classData={dbs.classes.find(c=>id === c.id)}
-                    classStats={classStats[id]}
                     onReorder={handleReorder}
                     onDuplication={handleDuplication}
                     onDelete={handleDelete}
-                    nLevels={classes.length}
+                    onSelectedLevelChange={()=>onSelectedLevelChange(i+1)}
+                    isSelected={selectedLevelIndex === i+1}
+                    canDuplicate={canDuplicate}
+                    isFirstLevel={i === 0}
+                    isLastLevel={i === classes.length - 1}
             />))
             }
         </ClassesLayout>

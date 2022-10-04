@@ -12,6 +12,7 @@ import corpus44 from './db/json/corpuses/44.json'
 import corpusAny from './db/json/corpuses/any.json'
 import dbs from './db/json/dbs.json'
 
+import clampInteger from './functions/clampInteger'
 import getTranslator from './functions/getTranslator'
 import getCumulativeLevels from './functions/getCumulativeLevels'
 
@@ -53,7 +54,7 @@ function CharacterCreatorPage() {
 
   const [isSelectorOpen, setIsSelectorOpen] = useState(true)
   const [selectorItem, setSelectorItem] = useState('races')
-  const [selectedCharacterLevel, setSelectedCharacterLevel] = useState(characterLevels.length-1)
+  const [selectedCharacterLevel, setSelectedCharacterLevel] = useState((characterLevels||[]).length-1)
   const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
   const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
 
@@ -79,7 +80,6 @@ function CharacterCreatorPage() {
   }
   const handleClassChange = newClassList => {
     const newCharacterLevels = [characterLevels[0]] //index 0 is the virtual level 0 (with race stuff)
-    let newSelectedCharacterLevel = selectedCharacterLevel
     for(let i=0; i < newClassList.length; i++){
       const newLevel = {
         ...(characterLevels[i+1] || characterByLevelBase),
@@ -87,10 +87,7 @@ function CharacterCreatorPage() {
       }
       newCharacterLevels.push(newLevel)
     }
-    console.log(newClassList, newCharacterLevels)
-    if(selectedCharacterLevel > newCharacterLevels.length-1){
-      newSelectedCharacterLevel = newCharacterLevels.length-1
-    }
+    const newSelectedCharacterLevel = clampInteger(selectedCharacterLevel, 0, newCharacterLevels.length-1)
     setCookie('characterLevels', newCharacterLevels)
     setSelectedCharacterLevel(newSelectedCharacterLevel)
     setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, newSelectedCharacterLevel))
@@ -102,6 +99,7 @@ function CharacterCreatorPage() {
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
+  const handleSelectedLevelChange = i => setSelectedCharacterLevel(i)
 
   const handleChangeSelectorTab = item => {
     setIsSelectorOpen(true)
@@ -126,13 +124,14 @@ function CharacterCreatorPage() {
     <LeftWrapper>
       <CharacterSheet
         currentLevelData={fullCharacterDataByLevel[selectedCharacterLevel]}
-        selectedLevelIndex={selectedCharacterLevel}
+        fullClassList={fullCharacterDataByLevel[fullCharacterDataByLevel.length-1].classes}
         onCreationChange={handleCreationChange}
         onClassChange={handleClassChange}
         translate={translate}
         onChangeSelectorTab={handleChangeSelectorTab}
+        onSelectedLevelChange={handleSelectedLevelChange}
+        selectedLevelIndex={selectedCharacterLevel}
         usedCorpus={usedCorpus}
-        fullClassList={fullCharacterDataByLevel[fullCharacterDataByLevel.length-1].classes}
       />
     </LeftWrapper>
     <RightWrapper>

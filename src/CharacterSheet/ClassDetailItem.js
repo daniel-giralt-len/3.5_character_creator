@@ -14,28 +14,41 @@ function ClassDetailItem({
     onReorder,
     onDuplication,
     onDelete,
-    nLevels,
+    onSelectedLevelChange,
+    isSelected,
+    canDuplicate = false,
+    isFirstLevel = false,
+    isLastLevel = false,
 }){
-    const isLevel20 = nLevels === 20
     const {name} = classData
-    const level = position+1
+    const level = position
     return (
         <>
-            <Text centered>{level}</Text>
-            <VerticallyAlignedText small>{name}</VerticallyAlignedText>
+            <Text
+                centered
+                onClick={onSelectedLevelChange}
+            >
+                {isSelected ? `>${level}<` : level}
+            </Text>
+            <VerticallyAlignedText
+                small
+                onClick={onSelectedLevelChange}
+            >
+                {name}
+            </VerticallyAlignedText>
             <div>
-                {!isLevel20 && (<SquareButton onClick={() => onDuplication(position)}>
+                {onDuplication && canDuplicate && (<SquareButton onClick={() => onDuplication(position-1)}>
                     <ButtonText>D</ButtonText>
                 </SquareButton>)}
-                <SquareButton onClick={() => onDelete(position)}>
+                {onDelete && <SquareButton onClick={() => onDelete(position-1)}>
                     <ButtonText>-</ButtonText>
-                </SquareButton>
-                <SquareButton onClick={() => onReorder(position, 'up')} disabled={position === 0}>
+                </SquareButton>}
+                {onReorder && <SquareButton onClick={() => onReorder(position-1, 'up')} disabled={isFirstLevel}>
                     <ButtonText>^</ButtonText>
-                </SquareButton>
-                <SquareButton onClick={() => onReorder(position, 'down')} disabled={position === (nLevels-1)}>
+                </SquareButton>}
+                {onReorder && <SquareButton onClick={() => onReorder(position-1, 'down')} disabled={isLastLevel}>
                     <ButtonText>v</ButtonText>
-                </SquareButton>
+                </SquareButton>}
             </div>
         </>
     )

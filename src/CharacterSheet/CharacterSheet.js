@@ -72,6 +72,7 @@ function CharacterSheet({
         onClassChange,
         onCreationChange,
         onChangeSelectorTab,
+        onSelectedLevelChange,
         usedCorpus,
         fullClassList,
     }){
@@ -187,6 +188,8 @@ function CharacterSheet({
                     classes={fullClassList}
                     translate={translate}
                     handleClassChange={onClassChange}
+                    onSelectedLevelChange={onSelectedLevelChange}
+                    selectedLevelIndex={selectedLevelIndex}
                 />
                 <Languages
                     languages={language}
