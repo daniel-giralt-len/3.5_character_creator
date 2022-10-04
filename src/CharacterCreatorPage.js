@@ -7,6 +7,7 @@ import Selector from './Selector/Selector'
 import Header from './Header'
 
 import characterBase from './db/json/characterBase.json'
+import characterByLevelBase from './db/json/characterByLevelBase.json'
 import corpus44 from './db/json/corpuses/44.json'
 import corpusAny from './db/json/corpuses/any.json'
 import dbs from './db/json/dbs.json'
@@ -32,6 +33,12 @@ const ContentWrapper = styled.div`
 const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
+const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel) => {
+  const selectorReadableCharacterLevel = characterLevels[selectedCharacterLevel]
+  selectorReadableCharacterLevel.classes = characterLevels.map(l=>l.class).filter(v=>v)
+  return selectorReadableCharacterLevel
+}
+
 function CharacterCreatorPage() {
   const [cookies, setCookie] = useCookies(['characterLevels','corpus', 'filters'])
   const {characterLevels, selectedCorpus, language, filters} = cookies
@@ -48,17 +55,50 @@ function CharacterCreatorPage() {
   const [selectorItem, setSelectorItem] = useState('races')
   const [selectedCharacterLevel, setSelectedCharacterLevel] = useState(characterLevels.length-1)
   const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
+  const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
 
   const translate = getTranslator(language)
-  const handleCreationChange = creationChanges => {
+  const handleCreationChange = (creationChanges, isClasses) => {
     const newCharacterLevels = [...characterLevels]
+    if(isClasses){
+      const newlySelectedClass = creationChanges.classes[creationChanges.classes.length-1]
+      const newLevel = {
+        ...characterByLevelBase,
+        class: newlySelectedClass
+      }
+      newCharacterLevels.push(newLevel)
+    }else{
     newCharacterLevels[selectedCharacterLevel] = {
       ...newCharacterLevels[selectedCharacterLevel],
       ...creationChanges
+      }
     }
     setCookie('characterLevels', newCharacterLevels)
     setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
+    setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, selectedCharacterLevel))
   }
+  const handleClassChange = newClassList => {
+    const newCharacterLevels = [characterLevels[0]] //index 0 is the virtual level 0 (with race stuff)
+    let newSelectedCharacterLevel = selectedCharacterLevel
+    for(let i=0; i < newClassList.length; i++){
+      const newLevel = {
+        ...(characterLevels[i+1] || characterByLevelBase),
+        class: newClassList[i]
+      }
+      newCharacterLevels.push(newLevel)
+    }
+    console.log(newClassList, newCharacterLevels)
+    if(selectedCharacterLevel > newCharacterLevels.length-1){
+      newSelectedCharacterLevel = newCharacterLevels.length-1
+    }
+    setCookie('characterLevels', newCharacterLevels)
+    setSelectedCharacterLevel(newSelectedCharacterLevel)
+    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, newSelectedCharacterLevel))
+    setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, newSelectedCharacterLevel))
+  }
+  /*TODO: useEffect(()=>{
+    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
+  }, [cookies])*/
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
@@ -88,9 +128,11 @@ function CharacterCreatorPage() {
         currentLevelData={fullCharacterDataByLevel[selectedCharacterLevel]}
         selectedLevelIndex={selectedCharacterLevel}
         onCreationChange={handleCreationChange}
+        onClassChange={handleClassChange}
         translate={translate}
         onChangeSelectorTab={handleChangeSelectorTab}
         usedCorpus={usedCorpus}
+        fullClassList={fullCharacterDataByLevel[fullCharacterDataByLevel.length-1].classes}
       />
     </LeftWrapper>
     <RightWrapper>
@@ -98,7 +140,7 @@ function CharacterCreatorPage() {
         <Selector 
           openTab={selectorItem}
           onChangeTab={handleChangeSelectorTab}
-          creation={characterLevels[selectedCharacterLevel]}
+          creation={selectorReadableLevel}
           corpus={usedCorpus}
           corpuses={corpuses}
           onCorpusChange={handleCorpusChange}

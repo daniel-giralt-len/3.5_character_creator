@@ -23,6 +23,10 @@ const calculateLevelData = (acc, level) => {
         races: acc.races || level.races,
         class: level.class,
         language: mergeLanguages(acc.language, level.language),
+        classes: [
+            ...acc.classes || [],
+            level.class
+        ].filter(v=>v), //filter to remove lvl 0 which has no class
 
         //so getMaxKnownLanguages work
         modifiers: {},
@@ -43,13 +47,12 @@ const calculateLevelData = (acc, level) => {
 }
 
 const getCumulativeLevels = (character, levelRevisionStart) => {
-    console.log('in',character)
     let accumulatedLevelsList = []
-    for(let levelIndex = levelRevisionStart; levelIndex <= character.length-1; levelIndex++){
+    for(let levelIndex = 0/* levelRevisionStart */; levelIndex <= character.length-1; levelIndex++){ //for the moment, recalculate all levels, we can optimize later
         const accumulatedData = accumulatedLevelsList[levelIndex-1] || {}
         accumulatedLevelsList.push(calculateLevelData(accumulatedData, character[levelIndex]))
     }
-    console.log('out',accumulatedLevelsList)
+    console.log('in',character,' ---- out',accumulatedLevelsList)
     return accumulatedLevelsList
 }
 export default getCumulativeLevels

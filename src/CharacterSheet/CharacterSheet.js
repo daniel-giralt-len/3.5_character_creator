@@ -69,13 +69,14 @@ function CharacterSheet({
         currentLevelData,
         selectedLevelIndex,
         translate,
+        onClassChange,
         onCreationChange,
         onChangeSelectorTab,
-        usedCorpus
+        usedCorpus,
+        fullClassList,
     }){
         const {
             scores,
-            classes,
             feats,
             races,
             name,
@@ -86,7 +87,6 @@ function CharacterSheet({
             maxKnownLanguages,
             raceData,
         } = currentLevelData
-
 
         const isSelectedLevel0 = selectedLevelIndex === 0
 /* 
@@ -116,7 +116,6 @@ function CharacterSheet({
         const onNameChange = name => onCreationChange({ name })
         const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
         const onSkillChange = skills => onCreationChange({...character, skills})
-        const onClassChange = classes => onCreationChange({...character, classes})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })
         const onAlignmentChange = alignment => onCreationChange({ alignment })
@@ -183,12 +182,12 @@ function CharacterSheet({
                     usedFeats={usedFeats}
                 />
                 <SkilltricksLayout />
+                */}
                 <ClassesDetail
-                    classes={classes}
+                    classes={fullClassList}
                     translate={translate}
                     handleClassChange={onClassChange}
                 />
-                */}
                 <Languages
                     languages={language}
                     translate={translate}
