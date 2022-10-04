@@ -134,13 +134,11 @@ function CharacterSheet({
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                {/* 
                 <ClassNames
-                    classes={classes}
+                    classes={fullClassList}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                */}
                 <Alignment
                     alignment={alignment}
                     onAlignmentChange={onAlignmentChange}
