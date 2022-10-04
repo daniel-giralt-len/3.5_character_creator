@@ -180,8 +180,8 @@ function CharacterSheet({
                     maxFeats={maxFeats}
                     usedFeats={usedFeats}
                 />
-                <SkilltricksLayout />
                 */}
+                <SkilltricksLayout />
                 <ClassesDetail
                     classes={fullClassList}
                     translate={translate}
