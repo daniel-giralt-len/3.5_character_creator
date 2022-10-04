@@ -78,6 +78,8 @@ function CharacterSheet({
     }){
         const {
             scores,
+            bonuses,
+            modifiers,
             feats,
             races,
             name,
@@ -145,7 +147,6 @@ function CharacterSheet({
                     translate={translate}
                     disabled={!isSelectedLevel0}
                 />
-                {/*
                 <Scores
                     scores={scores}
                     bonuses={bonuses}
@@ -153,6 +154,7 @@ function CharacterSheet({
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />
+                {/*
                 <Saves
                     bonuses={bonuses}
                     modifiers={modifiers}
