@@ -149,12 +149,12 @@ function CharacterSheet({
                     translate={translate}
                     onScoreChange={onScoreChange}
                 />
-                {/*
                 <Saves
                     bonuses={bonuses}
                     modifiers={modifiers}
                     translate={translate}
                 /> 
+                {/*
                 <Skills
                     modifiers={modifiers}
                     skills={skills}
