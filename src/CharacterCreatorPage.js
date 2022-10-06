@@ -59,7 +59,7 @@ function CharacterCreatorPage() {
   const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
 
   const translate = getTranslator(language)
-  const handleCreationChange = (creationChanges, isClasses) => {
+  const handleCreationChange = (creationChanges, isClasses, isScores) => {
     const newCharacterLevels = [...characterLevels]
     if(isClasses){
       const newlySelectedClass = creationChanges.classes[creationChanges.classes.length-1]
@@ -68,15 +68,19 @@ function CharacterCreatorPage() {
         class: newlySelectedClass
       }
       newCharacterLevels.push(newLevel)
+    }else if(isScores){
+      const { score, value } = creationChanges
+      console.log(score, value, newCharacterLevels[selectedCharacterLevel].scores)
+      newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else{
-    newCharacterLevels[selectedCharacterLevel] = {
-      ...newCharacterLevels[selectedCharacterLevel],
-      ...creationChanges
+      newCharacterLevels[selectedCharacterLevel] = {
+        ...newCharacterLevels[selectedCharacterLevel],
+        ...creationChanges
+        }
       }
-    }
-    setCookie('characterLevels', newCharacterLevels)
-    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
-    setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, selectedCharacterLevel))
+      setCookie('characterLevels', newCharacterLevels)
+      setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
+      setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, selectedCharacterLevel))
   }
   const handleClassChange = newClassList => {
     const newCharacterLevels = [characterLevels[0]] //index 0 is the virtual level 0 (with race stuff)

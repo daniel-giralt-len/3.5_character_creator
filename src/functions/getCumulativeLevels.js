@@ -31,11 +31,10 @@ const calculateLevelData = (acc, level) => {
             ...acc.classes || [],
             level.class
         ].filter(v=>v), //filter to remove lvl 0 which has no class
-        scores: abilityScores
-            .reduce((scoresAcc, k) => ({
-                ...scoresAcc,
-                [k]: (acc[k]||0) + (level[k]||0)
-            }), {}),
+        scores: {
+            current: {...level.scores},
+            previous: {...(acc.scores||{}).added || {} }
+        },
 
         //so getMaxKnownLanguages work
         skills: {},
@@ -47,11 +46,19 @@ const calculateLevelData = (acc, level) => {
         scores
         skilltricks */
     }
+    levelData.scores.added = abilityScores
+        .reduce((scoresAcc, k) => {
+            const addedScore = ((levelData.scores.previous||{})[k]||0) + ((levelData.scores.current||{})[k]||0)
+            return {
+                ...scoresAcc,
+                [k]: addedScore
+            }
+        }, {})
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
         classes: levelData.classes
     })
-    levelData.modifiers = getModifiersFromScores(levelData.scores, levelData.bonuses)
+    levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
     levelData.raceData = raceStats[levelData.races] || {}
     levelData.nKnownLanguages = Object.entries(levelData.language).filter(([_,k])=>k).map(([l])=>l).length
     levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
@@ -60,6 +67,7 @@ const calculateLevelData = (acc, level) => {
 }
 
 const getCumulativeLevels = (character, levelRevisionStart) => {
+    console.log(character)
     let accumulatedLevelsList = []
     for(let levelIndex = 0/* levelRevisionStart */; levelIndex <= character.length-1; levelIndex++){ //for the moment, recalculate all levels, we can optimize later
         const accumulatedData = accumulatedLevelsList[levelIndex-1] || {}

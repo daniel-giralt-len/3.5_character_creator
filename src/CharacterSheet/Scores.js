@@ -33,6 +33,10 @@ function Scores({
         onScoreChange,
         modifiers
     }){
+        const {
+            current,
+            added
+        } = scores
         return(
                 <ScoresLayout>
                     <Text small>{translate('name')}</Text>
@@ -41,7 +45,7 @@ function Scores({
                     <Text small>{translate('base')}</Text>
                     <Text small>{translate('race')}</Text>
                     {Object
-                        .entries(scores)
+                        .entries(added)
                         .map(([id, value]) => (
                             <Fragment key={id}>
                                 <BlackLabel
@@ -58,7 +62,7 @@ function Scores({
                                     underline
                                     type="number"
                                     step="1"
-                                    value={value}
+                                    value={current[id]}
                                     name={id}
                                     id={id}
                                     max={50}

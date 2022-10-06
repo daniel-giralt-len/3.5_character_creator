@@ -114,10 +114,8 @@ function CharacterSheet({
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
  */
 
-        const handleCharacterChange = scores => onCreationChange({...character, scores})
-        
         const onNameChange = name => onCreationChange({ name })
-        const onScoreChange = (score, value) => handleCharacterChange({ ...scores, [score]: parseInt(value) })
+        const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, false, true)
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })
