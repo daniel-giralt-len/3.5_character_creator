@@ -33,9 +33,9 @@ function LanguageItem({
             <Text>
                 {language.name}
             </Text>
-            <SquareButton onClick={() => onDelete(language.id)}>
+            {onDelete && (<SquareButton onClick={() => onDelete(language.id)}>
                 -
-            </SquareButton>
+            </SquareButton>)}
         </LanguageLayout>
     )
 }
@@ -57,6 +57,7 @@ function Languages({
     maxLanguages,
     usedLanguages,
     onLanguagesChange,
+    automaticLanguages,
 }) {
     const handleDelete = id => onLanguagesChange({...languages, [id]: false})
     const areLanguagesOverBudget = usedLanguages>maxLanguages
@@ -68,6 +69,7 @@ function Languages({
                 name={translate('languages')} subtitle={`${usedLanguages}/${maxLanguages}`}
                 warning={areLanguagesOverBudget}
             />
+            {renderLanguages({languages: automaticLanguages})}
             {renderLanguages({languages: selectedLanguages, handleDelete})}
         </LanguagesLayout>
     );

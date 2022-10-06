@@ -192,6 +192,7 @@ function CharacterSheet({
                     maxLanguages={maxKnownLanguages}
                     usedLanguages={nKnownLanguages}
                     onLanguagesChange={onLanguagesChange}
+                    automaticLanguages={raceData['automatic languages'] || []}
                 /> 
             </CharacterSheetLayout>
         )

@@ -445,7 +445,9 @@
     "level adjustment": 0,
     "space": 5,
     "reach": 5,
-    "automatic languages": [],
+    "automatic languages": [
+      "6"
+    ],
     "bonus languages": [],
     "bonus feats": 1
   },

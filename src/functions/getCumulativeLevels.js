@@ -16,6 +16,8 @@ const mergeLanguages = (a={},b={}) => {
     }),{})
 }
 
+const countLanguages = language => Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
+
 const abilityScores = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
 
 const calculateLevelData = (acc, level) => {
@@ -60,7 +62,7 @@ const calculateLevelData = (acc, level) => {
         classes: levelData.classes
     })
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
-    levelData.nKnownLanguages = Object.entries(levelData.language).filter(([_,k])=>k).map(([l])=>l).length
+    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
     levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
 
     return levelData
