@@ -71,6 +71,8 @@ function CharacterCreatorPage() {
     }else if(type==='scores'){
       const { score, value } = creationChanges
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
+    }else if(type==='races'){
+      newCharacterLevels[0].races = creationChanges.races
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],

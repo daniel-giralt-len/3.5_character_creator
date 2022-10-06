@@ -82,7 +82,7 @@ function Selector({
     onCreationChange({
       ...creation,
       [type]: list
-    }, 'classes') //this flag is useful for the character sheet, as we need to change its structure based on class
+    }, type) //this flag is useful for the character sheet, as we need to change its structure based on class
   }
 
   return (
