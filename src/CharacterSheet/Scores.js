@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import { Fragment } from 'react'
 
 import {
-    CounterInput,
-    Text,
     BlackLabel,
+    CounterInput,
+    ReadOnlyInput,
+    Text,
 } from '../sharedComponents'
 
 const ScoresLayout = styled.ul`
@@ -35,6 +36,7 @@ function Scores({
     }){
         const {
             current,
+            previous,
             added
         } = scores
         return(
@@ -58,17 +60,22 @@ function Scores({
                                 <Text bold box>
                                     {value+bonuses[id]}
                                 </Text>
-                                <CounterInput 
-                                    underline
-                                    type="number"
-                                    step="1"
-                                    value={current[id]}
-                                    name={id}
-                                    id={id}
-                                    max={50}
-                                    min={0}
-                                    onChange={e => onScoreChange(id, e.target.value)}
-                                />
+                                <div>
+                                    <ReadOnlyInput>
+                                        {previous[id]||0}+
+                                    </ReadOnlyInput>
+                                    <CounterInput 
+                                        underline
+                                        type="number"
+                                        step="1"
+                                        value={current[id]}
+                                        name={id}
+                                        id={id}
+                                        max={50}
+                                        min={0}
+                                        onChange={e => onScoreChange(id, e.target.value)}
+                                    />
+                                </div>
                                 <span>
                                     {bonuses[id]}
                                 </span>
