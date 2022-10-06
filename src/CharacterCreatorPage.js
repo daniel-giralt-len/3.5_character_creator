@@ -1,5 +1,5 @@
 import { useCookies } from 'react-cookie'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
 import CharacterSheet from './CharacterSheet'
@@ -78,8 +78,6 @@ function CharacterCreatorPage() {
         }
       }
       setCookie('characterLevels', newCharacterLevels)
-      setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
-      setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, selectedCharacterLevel))
   }
   const handleClassChange = newIndicesList => {
     const newCharacterLevels = [
@@ -87,14 +85,13 @@ function CharacterCreatorPage() {
       ...newIndicesList.map(index => characterLevels[index+1])
     ]
     const newSelectedCharacterLevel = clampInteger(selectedCharacterLevel, 0, newCharacterLevels.length-1)
-    setCookie('characterLevels', newCharacterLevels)
     setSelectedCharacterLevel(newSelectedCharacterLevel)
-    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, newSelectedCharacterLevel))
-    setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, newSelectedCharacterLevel))
+    setCookie('characterLevels', newCharacterLevels)
   }
-  /*TODO: useEffect(()=>{
-    setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
-  }, [cookies])*/
+  useEffect(()=>{
+    setFullCharacterDataByLevel(getCumulativeLevels(characterLevels, selectedCharacterLevel))
+    setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
+  }, [cookies, characterLevels, selectedCharacterLevel])
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
