@@ -54,12 +54,12 @@ const calculateLevelData = (acc, level) => {
                 [k]: addedScore
             }
         }, {})
+    levelData.raceData = raceStats[levelData.races] || {}
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
         classes: levelData.classes
     })
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
-    levelData.raceData = raceStats[levelData.races] || {}
     levelData.nKnownLanguages = Object.entries(levelData.language).filter(([_,k])=>k).map(([l])=>l).length
     levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
 
