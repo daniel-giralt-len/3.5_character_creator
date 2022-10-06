@@ -115,7 +115,7 @@ function CharacterSheet({
  */
 
         const onNameChange = name => onCreationChange({ name })
-        const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, false, true)
+        const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, 'scores')
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })

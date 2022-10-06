@@ -59,16 +59,16 @@ function CharacterCreatorPage() {
   const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
 
   const translate = getTranslator(language)
-  const handleCreationChange = (creationChanges, isClasses, isScores) => {
+  const handleCreationChange = (creationChanges, type) => {
     const newCharacterLevels = [...characterLevels]
-    if(isClasses){
+    if(type==='classes'){
       const newlySelectedClass = creationChanges.classes[creationChanges.classes.length-1]
       const newLevel = {
         ...characterByLevelBase,
         class: newlySelectedClass
       }
       newCharacterLevels.push(newLevel)
-    }else if(isScores){
+    }else if(type==='scores'){
       const { score, value } = creationChanges
       console.log(score, value, newCharacterLevels[selectedCharacterLevel].scores)
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
