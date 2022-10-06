@@ -71,12 +71,8 @@ function CharacterCreatorPage() {
     }else if(type==='scores'){
       const { score, value } = creationChanges
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
-    }else if(type==='races'){
-      newCharacterLevels[0].races = creationChanges.races
-    }else if(type==='alignment'){
-      newCharacterLevels[0].alignment = creationChanges.alignment
-    }else if(type==='name'){
-      newCharacterLevels[0].name = creationChanges.name
+    }else if(['races', 'alignment', 'name'].includes(type)){ //these can only be applied to base level
+      newCharacterLevels[0][type] = creationChanges[type]
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],
