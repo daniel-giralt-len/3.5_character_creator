@@ -91,7 +91,6 @@ function CharacterSheet({
             raceData,
         } = currentLevelData
 
-        const isSelectedLevel0 = selectedLevelIndex === 0
 /* 
         const nLevels = classes.length
         const bonuses = calculateCharacterBonuses({raceData, classes})
@@ -114,7 +113,7 @@ function CharacterSheet({
         const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
  */
 
-        const onNameChange = name => onCreationChange({ name })
+        const onNameChange = name => onCreationChange({ name }, 'name')
         const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, 'scores')
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onFeatsChange = feats => onCreationChange({...character, feats})
@@ -124,7 +123,6 @@ function CharacterSheet({
         return(
             <CharacterSheetLayout>
                 <Name
-                    disabled={!isSelectedLevel0}
                     name={name}
                     translate={translate}
                     onNameChange={onNameChange}

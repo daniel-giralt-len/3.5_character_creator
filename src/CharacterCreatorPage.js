@@ -75,6 +75,8 @@ function CharacterCreatorPage() {
       newCharacterLevels[0].races = creationChanges.races
     }else if(type==='alignment'){
       newCharacterLevels[0].alignment = creationChanges.alignment
+    }else if(type==='name'){
+      newCharacterLevels[0].name = creationChanges.name
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],
