@@ -153,7 +153,11 @@ function CharacterSheet({
                     bonuses={bonuses}
                     modifiers={modifiers}
                     translate={translate}
-                /> 
+                />
+                <Bab
+                    translate={translate}
+                    bab={bonuses.bab}
+                />
                 {/*
                 <Skills
                     modifiers={modifiers}
@@ -164,10 +168,6 @@ function CharacterSheet({
                     maxPointsPerSkill={3+nLevels}
                     permittedSkills={usedCorpus.skills}
                     extraSkills={usedCorpus.extraSkills}
-                />
-                <Bab
-                    translate={translate}
-                    bab={bonuses.bab}
                 />
                 <Feats 
                     character={fullCharacter}
