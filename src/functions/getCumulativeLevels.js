@@ -67,7 +67,6 @@ const calculateLevelData = (acc, level) => {
 }
 
 const getCumulativeLevels = (character, levelRevisionStart) => {
-    console.log(character)
     let accumulatedLevelsList = []
     for(let levelIndex = 0/* levelRevisionStart */; levelIndex <= character.length-1; levelIndex++){ //for the moment, recalculate all levels, we can optimize later
         const accumulatedData = accumulatedLevelsList[levelIndex-1] || {}

@@ -22,20 +22,25 @@ function ClassesDisplay({
     onSelectedLevelChange,
     selectedLevelIndex,
 }) {
+    const indices = Array(classes.length).fill().map((_,i)=>i)
     const handleReorder = (position, direction) => {
         const d = direction === 'up' ? -1 : +1
-        const out = [...classes]
+        const out = [...indices]
         const c = out[position]
         out[position] = out[position+d]
         out[position+d] = c
         handleClassChange(out)
     }
     const handleDuplication = position => {
-        const out = [...classes]
+        const out = [...indices]
         out.splice(position,0,out[position])
         handleClassChange(out)
     }
-    const handleDelete = position => handleClassChange(classes.filter((_,i)=>i!==position))
+    const handleDelete = position => {
+        const out = [...indices]
+        out.splice(position,1)
+        handleClassChange(out)
+    }
 
     const canDuplicate = classes.length < 20
 

@@ -70,7 +70,6 @@ function CharacterCreatorPage() {
       newCharacterLevels.push(newLevel)
     }else if(type==='scores'){
       const { score, value } = creationChanges
-      console.log(score, value, newCharacterLevels[selectedCharacterLevel].scores)
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
@@ -82,15 +81,11 @@ function CharacterCreatorPage() {
       setFullCharacterDataByLevel(getCumulativeLevels(newCharacterLevels, selectedCharacterLevel))
       setSelectorReadableLevel(generateSelectorReadableLevel(newCharacterLevels, selectedCharacterLevel))
   }
-  const handleClassChange = newClassList => {
-    const newCharacterLevels = [characterLevels[0]] //index 0 is the virtual level 0 (with race stuff)
-    for(let i=0; i < newClassList.length; i++){
-      const newLevel = {
-        ...(characterLevels[i+1] || characterByLevelBase),
-        class: newClassList[i]
-      }
-      newCharacterLevels.push(newLevel)
-    }
+  const handleClassChange = newIndicesList => {
+    const newCharacterLevels = [
+      characterLevels[0], //index 0 is the virtual level 0 (with race stuff)
+      ...newIndicesList.map(index => characterLevels[index+1])
+    ]
     const newSelectedCharacterLevel = clampInteger(selectedCharacterLevel, 0, newCharacterLevels.length-1)
     setCookie('characterLevels', newCharacterLevels)
     setSelectedCharacterLevel(newSelectedCharacterLevel)
