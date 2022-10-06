@@ -73,6 +73,8 @@ function CharacterCreatorPage() {
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else if(type==='races'){
       newCharacterLevels[0].races = creationChanges.races
+    }else if(type==='alignment'){
+      newCharacterLevels[0].alignment = creationChanges.alignment
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],

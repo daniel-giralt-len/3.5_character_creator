@@ -119,7 +119,7 @@ function CharacterSheet({
         const onSkillChange = skills => onCreationChange({...character, skills})
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })
-        const onAlignmentChange = alignment => onCreationChange({ alignment })
+        const onAlignmentChange = alignment => onCreationChange({ alignment }, 'alignment')
 
         return(
             <CharacterSheetLayout>
@@ -143,7 +143,6 @@ function CharacterSheet({
                     alignment={alignment}
                     onAlignmentChange={onAlignmentChange}
                     translate={translate}
-                    disabled={!isSelectedLevel0}
                 />
                 <Scores
                     scores={scores}

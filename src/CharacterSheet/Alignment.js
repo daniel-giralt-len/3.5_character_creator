@@ -48,7 +48,6 @@ const compareAlignments = (a,b) => (a.legality === b.legality) && (a.goodness ==
 
 const Alignment = ({
     alignment,
-    disabled,
     onAlignmentChange,
     translate
 }) => (
@@ -57,7 +56,6 @@ const Alignment = ({
                 {alignments
                     .map(({name, object}) => (
                         <AlignmentItem
-                            disabled={disabled}
                             onClick={() => onAlignmentChange(object)}
                             key={name}
                         >
