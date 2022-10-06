@@ -85,6 +85,8 @@ function Selector({
     }, type) //this flag is useful for the character sheet, as we need to change its structure based on class
   }
 
+  let selectedItems = creation[openTab] || []
+
   return (
     <div>
         <Navigation>
@@ -108,7 +110,7 @@ function Selector({
         </Navigation>
         <ItemBrowser
           onCreationChange={list => handleCreationChange(openTab, list)}
-          selected={creation[openTab] || []} //default is for character in rulebooks and editions
+          selectedItems={selectedItems} //default is for character in rulebooks and editions
           items={dbs[openTab]}
           permittedCorpus={corpus}
           itemType={openTab}
