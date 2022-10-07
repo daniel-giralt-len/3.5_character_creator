@@ -1,5 +1,5 @@
 import classStats from '../db/json/itemData/classStats.json'
-const onlyUnique = (value, index, self) => self.indexOf(value) === index;
+import onlyUnique from './filterOnlyUnique'
 
 const getCharacterSkillData = (classes = [], modifiers = {}, race) => {
     const out = classes
