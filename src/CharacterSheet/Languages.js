@@ -66,7 +66,7 @@ function Languages({
     return (
         <LanguagesLayout warning={areLanguagesOverBudget}>
             <Header
-                name={translate('languages')} subtitle={`${usedLanguages}/${maxLanguages}`}
+                name={translate('language')} subtitle={`${usedLanguages}/${maxLanguages}`}
                 warning={areLanguagesOverBudget}
             />
             {renderLanguages({languages: automaticLanguages})}
