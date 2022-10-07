@@ -36,6 +36,7 @@ const SkillItem = ({
     label,
     id,
     nRanks=0,
+    nPoints=0,
     scoreName,
     modifierValue,
     onPointsChange,
@@ -56,13 +57,13 @@ const SkillItem = ({
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
-        <Text box centered>{modifierValue+nRanks}</Text>
+        <Text box centered>{modifierValue+Math.floor(nRanks)}</Text>
         <Text small centered underline>{nRanks > 0 ? `${modifierValue}+${nRanks}` : modifierValue}</Text>
         <CounterInput 
             underline
             type="number"
             step="1"
-            value={nRanks}
+            value={nPoints}
             name={name}
             id={name}
             max={999}

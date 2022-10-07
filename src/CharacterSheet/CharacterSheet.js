@@ -109,7 +109,7 @@ function CharacterSheet({
 
         const onNameChange = name => onCreationChange({ name }, 'name')
         const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, 'scores')
-        const onSkillChange = skills => onCreationChange({...character, skills})
+        const onSkillChange = ({id, points}) => onCreationChange({id, points}, 'skillPoints')
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })
         const onAlignmentChange = alignment => onCreationChange({ alignment }, 'alignment')
@@ -159,7 +159,6 @@ function CharacterSheet({
                     classSkills={classSkills}
                     translate={translate}
                     onSkillChange={onSkillChange}
-                    maxRanksPerSkill={skillRanks.maxPerSkill}
                     permittedSkills={usedCorpus.skills}
                     extraSkills={usedCorpus.extraSkills}
                 />

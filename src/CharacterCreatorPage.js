@@ -74,6 +74,11 @@ function CharacterCreatorPage() {
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else if(['races', 'alignment', 'name'].includes(type)){ //these can only be applied to base level
       newCharacterLevels[0][type] = creationChanges[type]
+    }else if(type==='skillPoints'){
+      const {id, points} = creationChanges
+      const clampedPoints = clampInteger(points, 0, 100) //TODO: 100 to maxPoints
+      console.log(points, clampedPoints)
+      newCharacterLevels[selectedCharacterLevel].skillPoints[id] = clampedPoints
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],

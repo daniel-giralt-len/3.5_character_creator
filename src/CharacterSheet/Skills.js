@@ -37,24 +37,17 @@ function Skills({
         skillRanks,
         classSkills,
         onSkillChange,
-        maxRanksPerSkill,
         permittedSkills,
         extraSkills
     }){
-        const handleSkillChange = (id,rank) => {
-            /* const nRanks = parseInt(rank)
-            if(nRanks < 0 || nRanks > maxRanksPerSkill) return
-            const newSkills = {...skills, [id]:{...skills[id], nRanks: parseInt(rank)}}
-            const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
-            if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return
-            onSkillChange(newSkills) */
-        }
+        const handleSkillChange = (id, points) => onSkillChange({id, points: parseInt(points)})
         
         const refinedSkillsData = skillsData
                 .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id)) //remove skills not allowed in the corpus
                 .concat(...extraSkills)
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
+
         return(
                 <SkillsLayout>
                     <HeaderWrapper
