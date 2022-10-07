@@ -1,6 +1,6 @@
 import classStats from '../db/json/itemData/classStats.json'
 
-const getAvailableSkillPoints = ({classId, nLevel, modifiers = {}, raceData = ''}) => {
+const getAvailableSkillPoints = ({classId, nLevel, modifiers = {}, raceData = {}}) => {
     if(!classId) return 0
     const classData = classStats[classId]
     const skillPointData = classData['skill points']
@@ -10,7 +10,7 @@ const getAvailableSkillPoints = ({classId, nLevel, modifiers = {}, raceData = ''
     }
 
     let levelRanks = skillPointData.base + modifiers[skillPointData.score]
-    if(raceData.name.toLowerCase() === 'human') levelRanks += 1
+    if((raceData.name||'').toLowerCase() === 'human') levelRanks += 1
     if(nLevel === 1) levelRanks *= 4
     levelRanks = Math.max(levelRanks, 0) //even if INT is negative, there cannot be negative ranks
 
