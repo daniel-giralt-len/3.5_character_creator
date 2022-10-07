@@ -1,10 +1,9 @@
+import onlyUnique from "../filterOnlyUnique"
+
 const mergePreviousAndCurrent = (a={},b={}, mergeMethod) => {
-    return Array.from(
-        new Set([
-            ...Object.keys(a),
-            ...Object.keys(b)
-        ])
-    ).reduce((acc, k) => ({
+    return [ ...Object.keys(a), ...Object.keys(b) ]
+    .filter(onlyUnique)
+    .reduce((acc, k) => ({
         ...acc,
         [k]: mergeMethod(a[k], b[k])
     }),{})
