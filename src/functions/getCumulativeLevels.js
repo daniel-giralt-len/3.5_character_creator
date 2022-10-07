@@ -10,7 +10,7 @@ import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCur
 const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>(va||0)+(vb||0))
 
-const countLanguages = language => Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
+const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
 
 const abilityScores = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
 
