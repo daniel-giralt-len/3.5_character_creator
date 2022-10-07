@@ -1,6 +1,6 @@
 import classStats from '../db/json/itemData/classStats.json'
 
-const getAvailableSkillRanks = ({classId, nLevel, modifiers = {}, raceData = ''}) => {
+const getAvailableSkillPoints = ({classId, nLevel, modifiers = {}, raceData = ''}) => {
     if(!classId) return 0
     const classData = classStats[classId]
     const skillPointData = classData['skill points']
@@ -16,5 +16,5 @@ const getAvailableSkillRanks = ({classId, nLevel, modifiers = {}, raceData = ''}
 
     return levelRanks
 }
-export default getAvailableSkillRanks
+export default getAvailableSkillPoints
 
