@@ -63,9 +63,9 @@ function Skills({
                     />
                     <Text small centered>{translate('class')}</Text>
                     <Text small centered>{translate('name')}</Text>
-                    <Text small centered>{translate('total')}</Text>
-                    <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
+                    <Text small centered>{translate('base')}</Text>
+                    <Text small centered>{translate('points')}</Text>
                     {
                         refinedSkillsData.map(skill =>{
                             const scoreName = skill['key ability']
