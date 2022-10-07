@@ -161,11 +161,12 @@ function CharacterSheet({
                 {/*
                 <Skills
                     modifiers={modifiers}
-                    skills={skills}
-                    classSkillsList={[]}
+                    skillPoints={skillPoints.added}
+                    skillRanks={skillRanks.added}
+                    classSkillsList={classSkills}
                     translate={translate}
                     onSkillChange={onSkillChange}
-                    maxPointsPerSkill={skills.maxRanks}
+                    maxPointsPerSkill={skillRanks.maxPerSkill}
                     permittedSkills={usedCorpus.skills}
                     extraSkills={usedCorpus.extraSkills}
                 />

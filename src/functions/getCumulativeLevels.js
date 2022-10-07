@@ -35,7 +35,13 @@ const calculateLevelData = (acc, level, nLevel) => {
         skillRanks: {
             current: {...level.skillRanks || {}},
             previous: {...(acc.skillRanks|| {}).added || {} },
-            maxRanks: nLevel+3,
+            maxPerSkill: nLevel+3,
+            nAvailable: {
+                previous: ((acc.skillRanks||{}).nAvailable||{}).added || 0,
+            }
+        },
+        skillPoints: {
+
         },
 
         //so getMaxKnownLanguages work
@@ -59,19 +65,14 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.classSkills = getClassSkills(levelData.classes)
     levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
 
-    levelData.skillRanks.available = {
-        previous: ((acc.skillRanks||{}).available||{}).added || 0,
-        current: getAvailableSkillRanks({
-            classId: levelData.class,
-            nLevel,
-            raceData: levelData.raceData,
-            modifiers: levelData.modifiers,
-        })
-    }
-    levelData.skillRanks.available.added = levelData.skillRanks.available.previous + levelData.skillRanks.available.current            
+    levelData.skillRanks.nAvailable.current = getAvailableSkillRanks({
+        classId: levelData.class,
+        nLevel,
+        raceData: levelData.raceData,
+        modifiers: levelData.modifiers,
+    })
+    levelData.skillRanks.nAvailable.added = levelData.skillRanks.nAvailable.previous + levelData.skillRanks.nAvailable.current            
 
-    console.log(nLevel, levelData.skillRanks.available)
-    
     levelData.skillPoints = {}/* calculateSkillPoints({
         ranks: levelData.skillRanks,
         
