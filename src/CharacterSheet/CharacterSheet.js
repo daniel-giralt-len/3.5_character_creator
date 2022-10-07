@@ -35,8 +35,8 @@ const CharacterSheetLayout = styled.section`
         "scores skills"
         "saves skills"
         "bab skills"
-        "feats skills"
         "classes skills"
+        "feats skills"
         "skilltricks skills"
         "languages skills";
     @media (max-width: 700px) {
