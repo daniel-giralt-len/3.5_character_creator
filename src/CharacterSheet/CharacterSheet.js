@@ -14,9 +14,6 @@ import Languages from './Languages'
 import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
-import calculateCharacterBonuses from "../functions/calculateCharacterBonuses";
-import getCharacterSkillData from '../functions/getCharacterSkillData';
-import getModifiersFromScores from '../functions/getModifiersFromScores'
 
 const CharacterSheetLayout = styled.section`
     display: grid;
@@ -83,7 +80,9 @@ function CharacterSheet({
             feats,
             races,
             name,
-            skills,
+            classSkills,
+            skillPoints,
+            skillRanks,
             alignment,
             language,
             nKnownLanguages,
@@ -92,17 +91,12 @@ function CharacterSheet({
         } = currentLevelData
 
 /* 
-        const nLevels = classes.length
-        const bonuses = calculateCharacterBonuses({raceData, classes})
-        const modifiers = getModifiersFromScores(scores, bonuses)
-
         const selectedFeats = Object
             .entries(feats)
             .filter(([_, selected])=>selected)
             .reduce((acc,[id])=>({...acc,[id]:true}),{})
         const maxFeats = calculateMaxFeats({raceData, classes})
         const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
-        const classSkillsData = getCharacterSkillData(classes, modifiers, raceData)
         const fullCharacter = {
             ...character,
             bonuses,
