@@ -6,15 +6,14 @@ import calculateCharacterBonuses from './calculateCharacterBonuses'
 import getClassSkills from './getClassSkills'
 
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
+import getAvailableSkillRanks from './getAvailableSkillRanks'
+
+const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 
 const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
-const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
-
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
-
-const abilityScores = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
 
 const calculateLevelData = (acc, level, nLevel) => {
     const levelData = {
@@ -59,12 +58,30 @@ const calculateLevelData = (acc, level, nLevel) => {
     
     levelData.classSkills = getClassSkills(levelData.classes)
     levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
+
+    levelData.skillRanks.available = {
+        previous: ((acc.skillRanks||{}).available||{}).added || 0,
+        current: getAvailableSkillRanks({
+            classId: levelData.class,
+            nLevel,
+            raceData: levelData.raceData,
+            modifiers: levelData.modifiers,
+        })
+    }
+    levelData.skillRanks.available.added = levelData.skillRanks.available.previous + levelData.skillRanks.available.current            
+
+    console.log(nLevel, levelData.skillRanks.available)
+    
     levelData.skillPoints = {}/* calculateSkillPoints({
         ranks: levelData.skillRanks,
         
     }) */
 
-    levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
+    levelData.maxKnownLanguages = getMaxKnownLanguages({
+        modifiers: levelData.modifiers,
+        raceData: levelData.raceData,
+        skills: levelData.skills,
+    })
 
     return levelData
 }
