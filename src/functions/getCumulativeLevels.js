@@ -7,6 +7,7 @@ import getClassSkills from './getClassSkills'
 
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 import getAvailableSkillRanks from './getAvailableSkillRanks'
+import convertSkillRanksToPoints from './convertSkillRanksToPoints'
 
 const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 
@@ -41,7 +42,7 @@ const calculateLevelData = (acc, level, nLevel) => {
             }
         },
         skillPoints: {
-
+            previous: {...(acc.skillPoints|| {}).added || {} },
         },
 
         //so getMaxKnownLanguages work
@@ -51,8 +52,12 @@ const calculateLevelData = (acc, level, nLevel) => {
         feats
         skilltricks */
     }
+
+
     levelData.raceData = raceStats[levelData.races] || {}
+
     levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
+
 
     levelData.scores.added = mergeScores(levelData.scores.current, levelData.scores.previous)
     
@@ -60,24 +65,28 @@ const calculateLevelData = (acc, level, nLevel) => {
         raceData: levelData.raceData,
         classes: levelData.classes
     })
+   
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
     
-    levelData.classSkills = getClassSkills(levelData.classes)
-    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
 
+    levelData.classSkills = getClassSkills(levelData.classes)
+    
+    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
     levelData.skillRanks.nAvailable.current = getAvailableSkillRanks({
         classId: levelData.class,
         nLevel,
         raceData: levelData.raceData,
         modifiers: levelData.modifiers,
     })
-    levelData.skillRanks.nAvailable.added = levelData.skillRanks.nAvailable.previous + levelData.skillRanks.nAvailable.current            
+    levelData.skillRanks.nAvailable.added = levelData.skillRanks.nAvailable.previous + levelData.skillRanks.nAvailable.current
 
-    levelData.skillPoints = {}/* calculateSkillPoints({
-        ranks: levelData.skillRanks,
-        
-    }) */
+    levelData.skillPoints.current = convertSkillRanksToPoints({
+        ranks: levelData.skillRanks.added,
+        classSkills: levelData.classSkills,
+    })          
+    levelData.skillPoints.added = levelData.skillPoints.previous + levelData.skillPoints.current
 
+    
     levelData.maxKnownLanguages = getMaxKnownLanguages({
         modifiers: levelData.modifiers,
         raceData: levelData.raceData,
