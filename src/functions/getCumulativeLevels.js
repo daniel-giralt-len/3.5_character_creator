@@ -90,7 +90,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.maxKnownLanguages = getMaxKnownLanguages({
         modifiers: levelData.modifiers,
         raceData: levelData.raceData,
-        skills: levelData.skills,
+        skillPoints: levelData.skillPoints,
     })
 
     return levelData
