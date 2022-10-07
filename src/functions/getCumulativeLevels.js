@@ -15,6 +15,7 @@ const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
 const mergeSkillPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
+const countSkillPoints = points => Object.values(points).reduce((acc,n)=>acc+n,0)
 
 const calculateLevelData = (acc, level, nLevel) => {
     const levelData = {
@@ -38,6 +39,9 @@ const calculateLevelData = (acc, level, nLevel) => {
             previous: {...(acc.skillPoints|| {}).added || {} },
             nAvailable: {
                 previous: ((acc.skillPoints||{}).nAvailable||{}).added || 0,
+            },
+            nUsed: {
+                previous: ((acc.skillPoints||{}).nUsed||{}).added || 0,
             }
         },
         skillRanks: {
@@ -79,6 +83,9 @@ const calculateLevelData = (acc, level, nLevel) => {
         modifiers: levelData.modifiers,
     })
     levelData.skillPoints.nAvailable.added = levelData.skillPoints.nAvailable.previous + levelData.skillPoints.nAvailable.current
+    
+    levelData.skillPoints.nUsed.current = countSkillPoints((level.skillPoints||{}).current||{})
+    levelData.skillPoints.nUsed.added = levelData.skillPoints.nUsed.previous + levelData.skillPoints.nUsed.current
 
     levelData.skillRanks.current = convertSkillPointsToRanks({
         ranks: levelData.skillPoints.added,

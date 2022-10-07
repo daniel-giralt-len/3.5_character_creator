@@ -31,24 +31,23 @@ const SkillsLayout = styled.ul`
 `
 
 function Skills({
-        skills,
-        modifiers,
         translate,
-        classSkillsData,
+        modifiers,
+        skillPoints,
+        skillRanks,
+        classSkills,
         onSkillChange,
-        maxPointsPerSkill,
+        maxRanksPerSkill,
         permittedSkills,
         extraSkills
     }){
-        const nUsedSkillPoints = Object.values(skills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
-        const maxSkillPoints = classSkillsData.points || 0
         const handleSkillChange = (id,rank) => {
-            const nRanks = parseInt(rank)
-            if(nRanks < 0 || nRanks > maxPointsPerSkill) return
+            /* const nRanks = parseInt(rank)
+            if(nRanks < 0 || nRanks > maxRanksPerSkill) return
             const newSkills = {...skills, [id]:{...skills[id], nRanks: parseInt(rank)}}
             const newNUsedSkillPoints =  Object.values(newSkills).reduce((acc, {nRanks})=>(acc+nRanks), 0)
             if(newNUsedSkillPoints < 0 || newNUsedSkillPoints > maxSkillPoints) return
-            onSkillChange(newSkills)
+            onSkillChange(newSkills) */
         }
         
         const refinedSkillsData = skillsData
@@ -61,20 +60,20 @@ function Skills({
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
-                        subtitle={`${nUsedSkillPoints}/${maxSkillPoints}`}
+                        subtitle={`${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`}
                     />
                     <Text small centered>{translate('class')}</Text>
                     <Text small centered>{translate('name')}</Text>
                     <Text small centered>{translate('total')}</Text>
                     <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
-                    {
+                    {/* 
                         refinedSkillsData.map(skill =>{
-                            const data = skills[skill.id] || {}
+                            const data = skillRanks[skill.id] || {}
                             const scoreName = skill['key ability']
                             return (<SkillItem
                                 key={skill.name}
-                                isClass={classSkillsData.skills.includes(skill.id)}
+                                isClass={classSkills.skills.includes(skill.id)}
                                 isTrainedOnly={skill['trained only']}
                                 armorCheckPenalty={skill['armor check penalty']}
                                 id={skill.id}
@@ -86,7 +85,7 @@ function Skills({
                                 translate={translate}
                             />)
                         })
-                    }
+                     */}
                 </SkillsLayout>
         )
 }
