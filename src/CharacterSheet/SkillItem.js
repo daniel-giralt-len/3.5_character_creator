@@ -31,6 +31,7 @@ const NameWrapper = styled.div`
 const SkillItem = ({
     isClass,
     isTrainedOnly,
+    armorCheckPenalty,
     name,
     label,
     id,
@@ -50,7 +51,7 @@ const SkillItem = ({
         </CheckboxWrapper>
         <NameWrapper>
             <div>
-                <SkillName small>{label}</SkillName>
+                <SkillName small>{`${label}${armorCheckPenalty?'*':''}`}</SkillName>
                 {isTrainedOnly && <Text small>▉</Text>}
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
