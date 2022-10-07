@@ -70,8 +70,8 @@ function Skills({
                                 id={skill.id}
                                 name={skill.name}
                                 label={skill.translatedName}
-                                nRanks={skillRanks[skill.id] || 0}
-                                nPoints={skillPoints.added[skill.id] || 0}
+                                ranks={skillRanks}
+                                points={skillPoints}
                                 scoreName={scoreName}
                                 modifierValue={modifiers[scoreName]}
                                 onPointsChange={handleSkillChange}

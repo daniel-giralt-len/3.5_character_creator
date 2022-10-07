@@ -155,7 +155,7 @@ function CharacterSheet({
                 <Skills
                     modifiers={modifiers}
                     skillPoints={skillPoints}
-                    skillRanks={skillRanks.added}
+                    skillRanks={skillRanks}
                     classSkills={classSkills}
                     translate={translate}
                     onSkillChange={onSkillChange}

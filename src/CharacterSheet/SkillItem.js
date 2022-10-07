@@ -35,13 +35,15 @@ const SkillItem = ({
     name,
     label,
     id,
-    nRanks=0,
-    nPoints=0,
+    ranks,
+    points,
     scoreName,
     modifierValue,
     onPointsChange,
     translate
 })=>{
+
+    const baseSectionText = `${modifierValue}${ranks.added[id] ? `+${ranks.added[id]}` : ''}`
 
     return (<>
         <CheckboxWrapper>
@@ -57,13 +59,13 @@ const SkillItem = ({
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
-        <Text box centered>{modifierValue+Math.floor(nRanks)}</Text>
-        <Text small centered underline>{nRanks > 0 ? `${modifierValue}+${nRanks}` : modifierValue}</Text>
+        <Text box centered>{modifierValue+Math.floor(ranks.added[id]||0)}</Text>
+        <Text small centered underline>{baseSectionText}</Text>
         <CounterInput 
             underline
             type="number"
             step="1"
-            value={nPoints}
+            value={points.current[id]}
             name={name}
             id={name}
             max={999}
