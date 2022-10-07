@@ -8,7 +8,9 @@ import getClassSkills from './getClassSkills'
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 
 const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
-const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>(va||0)+(vb||0))
+const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
+const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
+const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
 
@@ -47,14 +49,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.raceData = raceStats[levelData.races] || {}
     levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
 
-    levelData.scores.added = abilityScores
-        .reduce((scoresAcc, k) => {
-            const addedScore = ((levelData.scores.previous||{})[k]||0) + ((levelData.scores.current||{})[k]||0)
-            return {
-                ...scoresAcc,
-                [k]: addedScore
-            }
-        }, {})
+    levelData.scores.added = mergeScores(levelData.scores.current, levelData.scores.previous)
     
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
