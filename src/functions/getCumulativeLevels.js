@@ -5,29 +5,10 @@ import getModifiersFromScores from './getModifiersFromScores'
 import calculateCharacterBonuses from './calculateCharacterBonuses'
 import getClassSkills from './getClassSkills'
 
-const mergeLanguages = (a={},b={}) => {
-    return Array.from(
-        new Set([
-            ...Object.keys(a),
-            ...Object.keys(b)
-        ])
-    ).reduce((acc, k) => ({
-        ...acc,
-        [k]: a[k] || b[k]
-    }),{})
-}
+import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 
-const mergeSkillRanks = (a={},b={}) => {
-    return Array.from(
-        new Set([
-            ...Object.keys(a),
-            ...Object.keys(b)
-        ])
-    ).reduce((acc, k) => ({
-        ...acc,
-        [k]: (a[k] || 0) + (b[k] || 0)
-    }),{})
-}
+const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
+const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>(va||0)+(vb||0))
 
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
 
