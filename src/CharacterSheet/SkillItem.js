@@ -32,14 +32,15 @@ const SkillItem = ({
     isClass,
     isTrainedOnly,
     name,
+    label,
     id,
     nRanks=0,
     scoreName,
     modifierValue,
-    onRankChange,
+    onPointsChange,
     translate
 })=>{
-    const calculatedRanks = parseInt(isClass ? nRanks : nRanks/2)
+
     return (<>
         <CheckboxWrapper>
             <SkillClassCheckbox
@@ -49,13 +50,13 @@ const SkillItem = ({
         </CheckboxWrapper>
         <NameWrapper>
             <div>
-                <SkillName small>{translate(name, 'skills')}</SkillName>
+                <SkillName small>{label}</SkillName>
                 {isTrainedOnly && <Text small>▉</Text>}
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
-        <Text box centered>{modifierValue+calculatedRanks}</Text>
-        <Text small centered underline>{modifierValue}</Text>
+        <Text box centered>{modifierValue+nRanks}</Text>
+        <Text small centered underline>{nRanks > 0 ? `${modifierValue}+${nRanks}` : modifierValue}</Text>
         <CounterInput 
             underline
             type="number"
@@ -65,7 +66,7 @@ const SkillItem = ({
             id={name}
             max={999}
             min={0}
-            onChange={e => onRankChange(id, e.target.value)}
+            onChange={e => onPointsChange(id, e.target.value)}
         />
     </>)
 }

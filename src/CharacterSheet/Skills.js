@@ -51,11 +51,10 @@ function Skills({
         }
         
         const refinedSkillsData = skillsData
-                .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id))
+                .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id)) //remove skills not allowed in the corpus
                 .concat(...extraSkills)
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
-
         return(
                 <SkillsLayout>
                     <HeaderWrapper
@@ -67,25 +66,26 @@ function Skills({
                     <Text small centered>{translate('total')}</Text>
                     <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
-                    {/* 
+                    {
                         refinedSkillsData.map(skill =>{
-                            const data = skillRanks[skill.id] || {}
                             const scoreName = skill['key ability']
                             return (<SkillItem
                                 key={skill.name}
-                                isClass={classSkills.skills.includes(skill.id)}
+                                isClass={classSkills.includes(skill.id)}
                                 isTrainedOnly={skill['trained only']}
                                 armorCheckPenalty={skill['armor check penalty']}
                                 id={skill.id}
                                 name={skill.name}
-                                nRanks={data.nRanks}
+                                label={skill.translatedName}
+                                nRanks={skillRanks[skill.id] || 0}
+                                nPoints={skillPoints.added[skill.id] || 0}
                                 scoreName={scoreName}
                                 modifierValue={modifiers[scoreName]}
-                                onRankChange={handleSkillChange}
+                                onPointsChange={handleSkillChange}
                                 translate={translate}
                             />)
                         })
-                     */}
+                     }
                 </SkillsLayout>
         )
 }
