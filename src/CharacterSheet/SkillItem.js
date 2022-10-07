@@ -66,7 +66,7 @@ const SkillItem = ({
             underline
             type="number"
             step="1"
-            value={points.current[id]}
+            value={points.current[id] || 0}
             name={name}
             id={name}
             max={999}
