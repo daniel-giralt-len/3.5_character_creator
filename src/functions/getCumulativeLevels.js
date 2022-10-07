@@ -3,6 +3,7 @@ import getMaxKnownLanguages from '../functions/getMaxKnownLanguages'
 import raceStats from '../db/json/itemData/raceStats.json'
 import getModifiersFromScores from './getModifiersFromScores'
 import calculateCharacterBonuses from './calculateCharacterBonuses'
+import getClassSkills from './getClassSkills'
 
 const mergeLanguages = (a={},b={}) => {
     return Array.from(
@@ -65,6 +66,9 @@ const calculateLevelData = (acc, level, nLevel) => {
         scores
         skilltricks */
     }
+    levelData.raceData = raceStats[levelData.races] || {}
+    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
+
     levelData.scores.added = abilityScores
         .reduce((scoresAcc, k) => {
             const addedScore = ((levelData.scores.previous||{})[k]||0) + ((levelData.scores.current||{})[k]||0)
@@ -73,15 +77,20 @@ const calculateLevelData = (acc, level, nLevel) => {
                 [k]: addedScore
             }
         }, {})
-    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
     
-    levelData.raceData = raceStats[levelData.races] || {}
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
         classes: levelData.classes
     })
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
-    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
+    
+    levelData.classSkills = getClassSkills(levelData.classes)
+    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
+    levelData.skillPoints = {}/* calculateSkillPoints({
+        ranks: levelData.skillRanks,
+        
+    }) */
+
     levelData.maxKnownLanguages = getMaxKnownLanguages(levelData)
 
     return levelData
