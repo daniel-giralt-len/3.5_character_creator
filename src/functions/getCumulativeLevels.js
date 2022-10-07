@@ -89,7 +89,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.skillPoints.nUsed.added = levelData.skillPoints.nUsed.previous + levelData.skillPoints.nUsed.current
 
     levelData.skillRanks.current = convertSkillPointsToRanks({
-        ranks: levelData.skillPoints.added || {},
+        ranks: levelData.skillPoints.current || {},
         classSkills: levelData.classSkills || [],
     })          
     levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)

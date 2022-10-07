@@ -38,9 +38,11 @@ function Skills({
         classSkills,
         onSkillChange,
         permittedSkills,
-        extraSkills
+        extraSkills,
+        selectedLevelIndex
     }){
         const handleSkillChange = (id, points) => onSkillChange({id, points: parseInt(points)})
+        const isChangeable = selectedLevelIndex !== 0
         
         const refinedSkillsData = skillsData
                 .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id)) //remove skills not allowed in the corpus
@@ -76,6 +78,7 @@ function Skills({
                                 modifierValue={modifiers[scoreName]}
                                 onPointsChange={handleSkillChange}
                                 translate={translate}
+                                enabled={isChangeable}
                             />)
                         })
                      }

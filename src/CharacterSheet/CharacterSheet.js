@@ -161,6 +161,7 @@ function CharacterSheet({
                     onSkillChange={onSkillChange}
                     permittedSkills={usedCorpus.skills}
                     extraSkills={usedCorpus.extraSkills}
+                    selectedLevelIndex={selectedLevelIndex}
                 />
                 {/*
                 <Feats 

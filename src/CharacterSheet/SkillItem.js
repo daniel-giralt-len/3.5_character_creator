@@ -40,7 +40,8 @@ const SkillItem = ({
     scoreName,
     modifierValue,
     onPointsChange,
-    translate
+    translate,
+    enabled
 })=>{
 
     const baseSectionText = `${modifierValue}${ranks.added[id] ? `+${ranks.added[id]}` : ''}`
@@ -71,6 +72,7 @@ const SkillItem = ({
             max={999}
             min={0}
             onChange={e => onPointsChange(id, e.target.value)}
+            disabled={!enabled}
         />
     </>)
 }
