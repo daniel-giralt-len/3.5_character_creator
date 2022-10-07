@@ -16,11 +16,23 @@ const mergeLanguages = (a={},b={}) => {
     }),{})
 }
 
+const mergeSkillRanks = (a={},b={}) => {
+    return Array.from(
+        new Set([
+            ...Object.keys(a),
+            ...Object.keys(b)
+        ])
+    ).reduce((acc, k) => ({
+        ...acc,
+        [k]: (a[k] || 0) + (b[k] || 0)
+    }),{})
+}
+
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).map(([l])=>l).length
 
 const abilityScores = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
 
-const calculateLevelData = (acc, level) => {
+const calculateLevelData = (acc, level, nLevel) => {
     const levelData = {
         ...acc,
         ...level,
@@ -36,6 +48,11 @@ const calculateLevelData = (acc, level) => {
         scores: {
             current: {...level.scores},
             previous: {...(acc.scores||{}).added || {} }
+        },
+        skillRanks: {
+            current: {...level.skillRanks || {}},
+            previous: {...(acc.skillRanks|| {}).added || {} },
+            maxRanks: nLevel+3,
         },
 
         //so getMaxKnownLanguages work
@@ -56,6 +73,8 @@ const calculateLevelData = (acc, level) => {
                 [k]: addedScore
             }
         }, {})
+    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
+    
     levelData.raceData = raceStats[levelData.races] || {}
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
@@ -69,12 +88,13 @@ const calculateLevelData = (acc, level) => {
 }
 
 const getCumulativeLevels = (character, levelRevisionStart) => {
+    console.log('in',character)
     let accumulatedLevelsList = []
     for(let levelIndex = 0/* levelRevisionStart */; levelIndex <= character.length-1; levelIndex++){ //for the moment, recalculate all levels, we can optimize later
         const accumulatedData = accumulatedLevelsList[levelIndex-1] || {}
-        accumulatedLevelsList.push(calculateLevelData(accumulatedData, character[levelIndex]))
+        accumulatedLevelsList.push(calculateLevelData(accumulatedData, character[levelIndex], levelIndex))
     }
-    console.log('in',character,' ---- out',accumulatedLevelsList)
+    console.log('out',accumulatedLevelsList)
     return accumulatedLevelsList
 }
 export default getCumulativeLevels
