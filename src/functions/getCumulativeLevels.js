@@ -41,10 +41,7 @@ const calculateLevelData = (acc, level, nLevel) => {
         skills: {},
 
         /* classAbilities,
-        bonuses,
         feats
-        saves
-        scores
         skilltricks */
     }
     levelData.raceData = raceStats[levelData.races] || {}
