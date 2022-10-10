@@ -4,18 +4,22 @@ import raceStats from '../db/json/itemData/raceStats.json'
 import getModifiersFromScores from './getModifiersFromScores'
 import calculateCharacterBonuses from './calculateCharacterBonuses'
 import getClassSkills from './getClassSkills'
+import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
 
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 import getAvailableSkillPoints from './getAvailableSkillPoints'
 import convertSkillPointsToRanks from './convertSkillPointsToRanks'
 import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
+import onlyUnique from './filterOnlyUnique'
 
 const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
+const orMergeMethod = (va,vb)=>va||vb
 
-const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,(va,vb)=>va||vb)
+const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,orMergeMethod)
 const mergeSkillPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
+const mergeClassSkills = (a,b) => [...a, ...b].filter(onlyUnique)
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
 const countSkillPoints = points => Object.values(points).reduce((acc,n)=>acc+n,0)
 
@@ -36,6 +40,10 @@ const calculateLevelData = (acc, level, nLevel) => {
         ].filter(v=>v), //filter to remove lvl 0 which has no class
         scores: getRevisionBasedObject(level, acc, 'scores', mergeScores),
         skillPoints: getRevisionBasedObject(level, acc, 'skillPoints', mergeSkillPoints),
+        classSkills: getRevisionBasedObject(level, acc, 'classSkills', mergeClassSkills, {
+            defaultPrevious: [],
+            getCurrent: () => getLevelClassSkills(level.class)
+        })
 
         /* classAbilities,
         feats
@@ -52,8 +60,6 @@ const calculateLevelData = (acc, level, nLevel) => {
    
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
     
-    levelData.classSkills = getClassSkills(levelData.classes)
-
     levelData.skillPoints.nAvailable = getRevisionBasedObject(level, acc, ['skillPoints','nAvailable'], getAddedBySum,
     {
         defaultPrevious: 0,

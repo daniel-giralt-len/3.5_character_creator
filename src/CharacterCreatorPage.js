@@ -80,7 +80,6 @@ function CharacterCreatorPage() {
       console.log(points, clampedPoints)
       newCharacterLevels[selectedCharacterLevel].skillPoints[id] = clampedPoints
       //TODO: half ranks are not calculated well
-      //TODO: used points are not calculated
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],
