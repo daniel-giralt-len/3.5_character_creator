@@ -33,10 +33,7 @@ const calculateLevelData = (acc, level, nLevel) => {
             level.class
         ].filter(v=>v), //filter to remove lvl 0 which has no class
         scores: getRevisionBasedObject(level, acc, 'scores', mergeScores),
-        skillPoints: {
-            current: level.skillPoints || {},
-            previous: (acc.skillPoints|| {}).added || {},
-        },
+        skillPoints: getRevisionBasedObject(level, acc, 'skillPoints', mergeSkillPoints),
 
         /* classAbilities,
         feats
@@ -57,8 +54,6 @@ const calculateLevelData = (acc, level, nLevel) => {
     
 
     levelData.classSkills = getClassSkills(levelData.classes)
-    
-    levelData.skillPoints.added = mergeSkillPoints(levelData.skillPoints.current, levelData.skillPoints.previous)
 
     levelData.skillPoints.nAvailable = getRevisionBasedObject(level, acc, ['skillPoints','nAvailable'], 
     (previous, current) => previous + current,
