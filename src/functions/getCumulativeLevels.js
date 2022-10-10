@@ -43,8 +43,6 @@ const calculateLevelData = (acc, level, nLevel) => {
 
     levelData.raceData = raceStats[levelData.races] || {}
 
-    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
-
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
         classes: levelData.classes
@@ -52,7 +50,6 @@ const calculateLevelData = (acc, level, nLevel) => {
    
     levelData.modifiers = getModifiersFromScores(levelData.scores.added, levelData.bonuses)
     
-
     levelData.classSkills = getClassSkills(levelData.classes)
 
     levelData.skillPoints.nAvailable = getRevisionBasedObject(level, acc, ['skillPoints','nAvailable'], 
@@ -69,7 +66,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.skillPoints.nUsed = getRevisionBasedObject(level, acc, ['skillPoints','nUsed'], 
     (previous, current) => previous + current, {
         defaultPrevious: 0,
-        getCurrent: () => countSkillPoints((level.skillPoints||{}).current||{})
+        getCurrent: () => countSkillPoints(levelData.skillPoints.current||{})
     })
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
@@ -80,12 +77,13 @@ const calculateLevelData = (acc, level, nLevel) => {
     })
     levelData.skillRanks.maxPerSkill = nLevel+3
 
+    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
     levelData.maxKnownLanguages = getMaxKnownLanguages({
         modifiers: levelData.modifiers,
         raceData: levelData.raceData,
         skillRanks: levelData.skillRanks,
     })
-
+    
     return levelData
 }
 
