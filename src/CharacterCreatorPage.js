@@ -64,7 +64,7 @@ function CharacterCreatorPage() {
 
   const [isSelectorOpen, setIsSelectorOpen] = useState(true)
   const [selectorItem, setSelectorItem] = useState('races')
-  const [selectedCharacterLevel, setSelectedCharacterLevel] = useState((characterLevels||[]).length-1)
+  const [selectedCharacterLevel, setSelectedCharacterLevel] = useState((characterLevels).length-1)
   const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
   const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
 
