@@ -1,15 +1,16 @@
-import levelBase from '../db/json/characterByLevelBase.json'
-import getMaxKnownLanguages from '../functions/getMaxKnownLanguages'
-import raceStats from '../db/json/itemData/raceStats.json'
-import getModifiersFromScores from './getModifiersFromScores'
 import calculateCharacterBonuses from './calculateCharacterBonuses'
-import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
-
-import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
-import getAvailableSkillPoints from './getAvailableSkillPoints'
 import convertSkillPointsToRanks from './convertSkillPointsToRanks'
-import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
+import getAvailableSkillPoints from './getAvailableSkillPoints'
+import getMaxKnownLanguages from './getMaxKnownLanguages'
+import getModifiersFromScores from './getModifiersFromScores'
 import onlyUnique from './filterOnlyUnique'
+
+import levelBase from '../db/json/characterByLevelBase.json'
+import raceStats from '../db/json/itemData/raceStats.json'
+
+import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
+import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
+import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 
 const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 const orMergeMethod = (va,vb)=>va||vb
