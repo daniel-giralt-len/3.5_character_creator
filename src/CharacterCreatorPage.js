@@ -35,7 +35,7 @@ const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
 const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel) => {
-  const selectorReadableCharacterLevel = characterLevels[selectedCharacterLevel]
+  const selectorReadableCharacterLevel = characterLevels[selectedCharacterLevel] || {}
   selectorReadableCharacterLevel.classes = characterLevels.map(l=>l.class).filter(v=>v)
   selectorReadableCharacterLevel.races = characterLevels[0].races
   return selectorReadableCharacterLevel
@@ -83,10 +83,20 @@ function CharacterCreatorPage() {
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else if(['races', 'alignment', 'name'].includes(type)){ //these can only be applied to base level
       newCharacterLevels[0][type] = creationChanges[type]
+    }else if(type==='skilltricks'){
+      if(selectedCharacterLevel === 0){ return } //cannot select them at level 0
+      /*
+      - meet the prerequisite 
+      - expend 2 skill points.
+      - You can't learn more than one skill trick at any given level, 
+      - your total skill tricks cannot exceed one-half your character level (rounded up).
+      - Certain feats and prestige class features allow a character to exceed these limits.
+      */
+      const { skilltricks } = creationChanges
+      newCharacterLevels[selectedCharacterLevel].skillTrick = skilltricks
     }else if(type==='skillPoints'){
       const {id, points} = creationChanges
-      const clampedPoints = clampInteger(points, 0, 100) //TODO: 100 to maxPoints
-      console.log(points, clampedPoints)
+      const clampedPoints = clampInteger(points, 0, 999) //TODO: 100 to maxPoints
       newCharacterLevels[selectedCharacterLevel].skillPoints[id] = clampedPoints
     }else{
       newCharacterLevels[selectedCharacterLevel] = {

@@ -14,6 +14,7 @@ import Languages from './Languages'
 import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
+import SkillTricks from './SkillTricks'
 
 const CharacterSheetLayout = styled.section`
     display: grid;
@@ -37,8 +38,7 @@ const CharacterSheetLayout = styled.section`
         "bab skills"
         "classes skills"
         "feats skills"
-        "skilltricks skills"
-        "languages skills";
+        "languages skilltricks";
     @media (max-width: 700px) {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto;
@@ -78,7 +78,6 @@ function CharacterSheet({
             bonuses,
             modifiers,
             feats,
-            races,
             name,
             classSkills,
             skillPoints,
@@ -88,6 +87,7 @@ function CharacterSheet({
             nKnownLanguages,
             maxKnownLanguages,
             raceData,
+            skillTricks,
         } = currentLevelData
 
 /* 
@@ -173,7 +173,10 @@ function CharacterSheet({
                     usedFeats={usedFeats}
                 />
                 */}
-                <SkilltricksLayout />
+                <SkillTricks
+                    skillTricks={skillTricks}
+                    translate={translate}
+                />
                 <ClassesDetail
                     classes={fullClassList}
                     translate={translate}
