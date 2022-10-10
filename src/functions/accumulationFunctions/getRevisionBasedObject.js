@@ -1,6 +1,6 @@
 const getValFromNest = (obj, keys)=>{
     if(!Array.isArray(keys)) { return obj[keys] }
-    return keys.reduce((subObj, key) => subObj[key], obj);
+    return keys.reduce((subObj, key) => (subObj||{})[key], obj);
 }
 
 const getRevisionBasedObject = (

@@ -36,9 +36,6 @@ const calculateLevelData = (acc, level, nLevel) => {
         skillPoints: {
             current: level.skillPoints || {},
             previous: (acc.skillPoints|| {}).added || {},
-            nAvailable: {
-                previous: ((acc.skillPoints||{}).nAvailable||{}).added || 0,
-            },
             nUsed: {
                 previous: ((acc.skillPoints||{}).nUsed||{}).added || 0,
             }
@@ -69,16 +66,22 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.classSkills = getClassSkills(levelData.classes)
     
     levelData.skillPoints.added = mergeSkillPoints(levelData.skillPoints.current, levelData.skillPoints.previous)
-    levelData.skillPoints.nAvailable.current = getAvailableSkillPoints({
-        classId: levelData.class,
-        nLevel,
-        raceData: levelData.raceData,
-        modifiers: levelData.modifiers,
+
+    levelData.skillPoints.nAvailable = getRevisionBasedObject(level, acc, ['skillPoints','nAvailable'], 
+    (previous, current) => previous + current,
+    {
+        defaultPrevious: 0,
+        getCurrent: () => getAvailableSkillPoints({
+            classId: levelData.class,
+            nLevel,
+            raceData: levelData.raceData,
+            modifiers: levelData.modifiers,
+        }),
     })
-    levelData.skillPoints.nAvailable.added = levelData.skillPoints.nAvailable.previous + levelData.skillPoints.nAvailable.current
     
     levelData.skillPoints.nUsed.current = countSkillPoints((level.skillPoints||{}).current||{})
     levelData.skillPoints.nUsed.added = levelData.skillPoints.nUsed.previous + levelData.skillPoints.nUsed.current
+
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
         getCurrent: () => convertSkillPointsToRanks({
