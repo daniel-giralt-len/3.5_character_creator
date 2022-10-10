@@ -8,6 +8,7 @@ import getClassSkills from './getClassSkills'
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 import getAvailableSkillPoints from './getAvailableSkillPoints'
 import convertSkillPointsToRanks from './convertSkillPointsToRanks'
+import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
 
 const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 
@@ -31,10 +32,10 @@ const calculateLevelData = (acc, level, nLevel) => {
             ...acc.classes || [],
             level.class
         ].filter(v=>v), //filter to remove lvl 0 which has no class
-        scores: {
-            current: level.scores,
-            previous: (acc.scores||{}).added || {}
-        },
+        scores: getRevisionBasedObject(
+            level, acc, 'scores', 
+            {getAdded: mergeScores}
+        ),
         skillPoints: {
             current: level.skillPoints || {},
             previous: (acc.skillPoints|| {}).added || {},
@@ -60,9 +61,6 @@ const calculateLevelData = (acc, level, nLevel) => {
 
     levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
 
-
-    levelData.scores.added = mergeScores(levelData.scores.current, levelData.scores.previous)
-    
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
         classes: levelData.classes
