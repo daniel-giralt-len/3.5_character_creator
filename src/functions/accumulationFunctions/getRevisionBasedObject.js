@@ -1,20 +1,27 @@
+const getValFromNest = (obj, keys)=>{
+    if(!Array.isArray(keys)) { return obj[keys] }
+    return keys.reduce((subObj, key) => subObj[key], obj);
+}
+
 const getRevisionBasedObject = (
     level = {},
     accumulatedLevelData = {},
-    attributeName = '',
+    keys,
     getAdded = () => {},
-    {
+    options = {}
+) => {
+    const {
         defaultCurrent = {},
         defaultPrevious = {},
         getCurrent,
         getPrevious,
-    }) => {
+    } = options
     const current = getCurrent 
         ? getCurrent() 
-        : level[attributeName] || defaultCurrent
+        : getValFromNest(level, keys) || defaultCurrent
     const previous =  getPrevious 
         ? getPrevious()
-        :(accumulatedLevelData[attributeName] || {}).added || defaultPrevious
+        :(getValFromNest(accumulatedLevelData, keys) || {}).added || defaultPrevious
     const added = getAdded(current, previous)
     return { current, previous, added }
 }
