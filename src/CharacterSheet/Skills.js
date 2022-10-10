@@ -51,13 +51,17 @@ function Skills({
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
+        const isAnySingleSkillOverBudget = Object.values(skillRanks.added).some(nRanks => nRanks > skillRanks.maxPerSkill)
+
         return(
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
                         subtitle={`${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`}
                         warning={isOverallOverbudget}
-                    />
+                    >
+                        {`${translate('max ranks')}: ${skillRanks.maxPerSkill}`}
+                    </HeaderWrapper>
                     <Text small centered>{translate('class')}</Text>
                     <Text small centered>{translate('name')}</Text>
                     <Text small centered>{translate('ranks')}</Text>

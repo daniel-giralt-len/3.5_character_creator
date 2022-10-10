@@ -83,10 +83,11 @@ const Text = ({children='', className, ...rest}) => (<TextWrapper
     </TextWrapper>
 )
 
-const BlackLabel = ({name='', subtitle='', className})=>(
+const BlackLabel = ({name='', subtitle='', children, className})=>(
     <BlackLabelWrapper className={className}>
         <Text bold>{name.toString().toUpperCase()}</Text>
         {subtitle && (<Text small>{subtitle.toString().toUpperCase()}</Text>)}
+        {children && (<Text small>{children}</Text>)}
     </BlackLabelWrapper>
 )
 
