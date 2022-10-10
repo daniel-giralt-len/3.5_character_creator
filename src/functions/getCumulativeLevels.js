@@ -76,8 +76,8 @@ const calculateLevelData = (acc, level, nLevel) => {
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
         getCurrent: () => convertSkillPointsToRanks({
-            ranks: levelData.skillPoints.current || {},
-            classSkills: levelData.classSkills || [],
+            ranks: levelData.skillPoints.current,
+            classSkills: levelData.classSkills.added,
         })
     })
     levelData.skillRanks.maxPerSkill = nLevel+3
