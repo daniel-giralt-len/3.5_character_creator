@@ -21,6 +21,11 @@ const boldText = `
 font-weight: 900;
 font-size: 1.3em;`
 
+const warningStyle = `
+color: #ff4444;
+font-weight: bold;
+background: #ff000033;`
+
 const SquareButton = styled.button`${boxed}`
 
 const TextInput = styled.textarea`
@@ -46,6 +51,7 @@ const CounterInput = styled.input`
     ${({centered}) => centered ? fullCenteredText : ''}
     ${({box}) => box ? boxed : ''}
     ${({underline}) => underline ? underlined : ''}
+    ${({warning}) => warning ? warningStyle : ''};
 `
 
 const ReadOnlyInput = styled.span`
@@ -66,6 +72,7 @@ const TextWrapper = styled.div`
     ${({centered}) => centered ? fullCenteredText : ''}
     ${({box}) => box ? boxed : ''}
     ${({underline}) => underline ? underlined : ''}
+    ${({warning}) => warning ? warningStyle : ''};
 `
 
 const Text = ({children='', className, ...rest}) => (<TextWrapper

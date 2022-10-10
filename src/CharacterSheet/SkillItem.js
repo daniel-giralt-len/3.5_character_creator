@@ -41,7 +41,8 @@ const SkillItem = ({
     modifierValue,
     onPointsChange,
     translate,
-    enabled
+    enabled,
+    isSkillOverBudget
 })=>{
 
     const baseSectionText = `${modifierValue}${ranks.added[id] ? `+${ranks.added[id]}` : ''}`
@@ -55,14 +56,15 @@ const SkillItem = ({
         </CheckboxWrapper>
         <NameWrapper>
             <div>
-                <SkillName small>{`${label}${armorCheckPenalty?'*':''}`}</SkillName>
+                <SkillName small warning={isSkillOverBudget}>{`${label}${armorCheckPenalty?'*':''}`}</SkillName>
                 {isTrainedOnly && <Text small>▉</Text>}
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
-        <Text box centered>{modifierValue+Math.floor(ranks.added[id]||0)}</Text>
-        <Text small centered underline>{baseSectionText}</Text>
+        <Text warning={isSkillOverBudget} box centered>{modifierValue+Math.floor(ranks.added[id]||0)}</Text>
+        <Text warning={isSkillOverBudget} small centered underline>{baseSectionText}</Text>
         <CounterInput 
+            warning={isSkillOverBudget}
             underline
             type="number"
             step="1"

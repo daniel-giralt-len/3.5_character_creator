@@ -66,6 +66,7 @@ function Skills({
                     {
                         refinedSkillsData.map(skill =>{
                             const scoreName = skill['key ability']
+                            const isSkillOverBudget = skillRanks.added[skill.id] > skillRanks.maxPerSkill
                             return (<SkillItem
                                 key={skill.name}
                                 isClass={classSkills.includes(skill.id)}
@@ -81,6 +82,7 @@ function Skills({
                                 onPointsChange={handleSkillChange}
                                 translate={translate}
                                 enabled={isChangeable}
+                                isSkillOverBudget={isSkillOverBudget}
                             />)
                         })
                      }
