@@ -17,12 +17,7 @@ const LanguageLayout = styled.li`
     align-items: center;
 `
 
-const Header = styled(SidewaysBlackLabel)`
-    ${({warning}) => warning ? `
-    color: #ff4444;
-    font-weight: bold;
-    ` : ''};
-`
+const Header = SidewaysBlackLabel
     
 function LanguageItem({
     language,

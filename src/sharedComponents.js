@@ -87,6 +87,10 @@ const SidewaysBlackLabel = styled(BlackLabel)`
     height: 2em;
     flex-direction: row;
     justify-content: space-around;
+    ${({warning}) => warning ? `
+    color: #ff4444;
+    font-weight: bold;
+    ` : ''};
 `
 
 const MissingItemWrapper = styled(TextInput)`

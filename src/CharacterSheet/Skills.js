@@ -43,6 +43,7 @@ function Skills({
     }){
         const handleSkillChange = (id, points) => onSkillChange({id, points: parseInt(points)})
         const isChangeable = selectedLevelIndex !== 0
+        const isOverallOverbudget = skillPoints.nUsed.added > skillPoints.nAvailable.added
         
         const refinedSkillsData = skillsData
                 .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id)) //remove skills not allowed in the corpus
@@ -55,6 +56,7 @@ function Skills({
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
                         subtitle={`${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`}
+                        warning={isOverallOverbudget}
                     />
                     <Text small centered>{translate('class')}</Text>
                     <Text small centered>{translate('name')}</Text>
