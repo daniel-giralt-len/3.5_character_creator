@@ -36,13 +36,6 @@ const calculateLevelData = (acc, level, nLevel) => {
         skillPoints: {
             current: level.skillPoints || {},
             previous: (acc.skillPoints|| {}).added || {},
-            nUsed: {
-                previous: ((acc.skillPoints||{}).nUsed||{}).added || 0,
-            }
-        },
-        skillRanks: {
-            previous: (acc.skillRanks|| {}).added || {},
-            maxPerSkill: nLevel+3,
         },
 
         /* classAbilities,
@@ -78,10 +71,11 @@ const calculateLevelData = (acc, level, nLevel) => {
             modifiers: levelData.modifiers,
         }),
     })
-    
-    levelData.skillPoints.nUsed.current = countSkillPoints((level.skillPoints||{}).current||{})
-    levelData.skillPoints.nUsed.added = levelData.skillPoints.nUsed.previous + levelData.skillPoints.nUsed.current
-
+    levelData.skillPoints.nUsed = getRevisionBasedObject(level, acc, ['skillPoints','nUsed'], 
+    (previous, current) => previous + current, {
+        defaultPrevious: 0,
+        getCurrent: () => countSkillPoints((level.skillPoints||{}).current||{})
+    })
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
         getCurrent: () => convertSkillPointsToRanks({
