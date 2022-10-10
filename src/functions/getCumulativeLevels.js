@@ -32,10 +32,7 @@ const calculateLevelData = (acc, level, nLevel) => {
             ...acc.classes || [],
             level.class
         ].filter(v=>v), //filter to remove lvl 0 which has no class
-        scores: getRevisionBasedObject(
-            level, acc, 'scores', 
-            {getAdded: mergeScores}
-        ),
+        scores: getRevisionBasedObject(level, acc, 'scores', mergeScores),
         skillPoints: {
             current: level.skillPoints || {},
             previous: (acc.skillPoints|| {}).added || {},
@@ -83,11 +80,13 @@ const calculateLevelData = (acc, level, nLevel) => {
     levelData.skillPoints.nUsed.current = countSkillPoints((level.skillPoints||{}).current||{})
     levelData.skillPoints.nUsed.added = levelData.skillPoints.nUsed.previous + levelData.skillPoints.nUsed.current
 
-    levelData.skillRanks.current = convertSkillPointsToRanks({
-        ranks: levelData.skillPoints.current || {},
-        classSkills: levelData.classSkills || [],
-    })          
-    levelData.skillRanks.added = mergeSkillRanks(levelData.skillRanks.current, levelData.skillRanks.previous)
+    levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
+        getCurrent: () => convertSkillPointsToRanks({
+            ranks: levelData.skillPoints.current || {},
+            classSkills: levelData.classSkills || [],
+        })
+    })
+    levelData.skillRanks.maxPerSkill = nLevel+3
 
     levelData.maxKnownLanguages = getMaxKnownLanguages({
         modifiers: levelData.modifiers,

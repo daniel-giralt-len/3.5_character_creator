@@ -2,13 +2,19 @@ const getRevisionBasedObject = (
     level = {},
     accumulatedLevelData = {},
     attributeName = '',
+    getAdded = () => {},
     {
-        defaultLevelAttribute = {},
-        defaultAccumulatedLevelDataAttribute = {},
-        getAdded = () => {}
+        defaultCurrent = {},
+        defaultPrevious = {},
+        getCurrent,
+        getPrevious,
     }) => {
-    const current = level[attributeName] || {}
-    const previous = (accumulatedLevelData[attributeName] || {}).added || {}
+    const current = getCurrent 
+        ? getCurrent() 
+        : level[attributeName] || defaultCurrent
+    const previous =  getPrevious 
+        ? getPrevious()
+        :(accumulatedLevelData[attributeName] || {}).added || defaultPrevious
     const added = getAdded(current, previous)
     return { current, previous, added }
 }
