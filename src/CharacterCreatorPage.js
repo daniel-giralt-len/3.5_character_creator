@@ -79,6 +79,8 @@ function CharacterCreatorPage() {
       const clampedPoints = clampInteger(points, 0, 100) //TODO: 100 to maxPoints
       console.log(points, clampedPoints)
       newCharacterLevels[selectedCharacterLevel].skillPoints[id] = clampedPoints
+      //TODO: half ranks are not calculated well
+      //TODO: used points are not calculated
     }else{
       newCharacterLevels[selectedCharacterLevel] = {
         ...newCharacterLevels[selectedCharacterLevel],
