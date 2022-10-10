@@ -50,9 +50,6 @@ const calculateLevelData = (acc, level, nLevel) => {
             maxPerSkill: nLevel+3,
         },
 
-        //so getMaxKnownLanguages work
-        skills: {},
-
         /* classAbilities,
         feats
         skilltricks */
