@@ -3,7 +3,6 @@ import getMaxKnownLanguages from '../functions/getMaxKnownLanguages'
 import raceStats from '../db/json/itemData/raceStats.json'
 import getModifiersFromScores from './getModifiersFromScores'
 import calculateCharacterBonuses from './calculateCharacterBonuses'
-import getClassSkills from './getClassSkills'
 import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
 
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
