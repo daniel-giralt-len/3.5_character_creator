@@ -42,9 +42,18 @@ const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel) 
 }
 
 function CharacterCreatorPage() {
-  const [cookies, setCookie] = useCookies(['characterLevels','corpus', 'filters'])
-  const {characterLevels, selectedCorpus, language, filters} = cookies
-  if(!characterLevels || Object.keys(characterLevels).length === 0) setCookie('characterLevels', characterBase)
+  const [cookies, setCookie] = useCookies(['corpus', 'filters',
+   'lvl0','lvl1','lvl2','lvl3','lvl4',
+   'lvl5','lvl6','lvl7','lvl8','lvl9',
+   'lvl10','lvl11','lvl12','lvl13','lvl14',
+   'lvl15','lvl16','lvl17','lvl18','lvl19',
+   'lvl20',
+  ])
+  const setLevels = levels => Array(21).fill().forEach((_,index) => setCookie(`lvl${index}`, levels[index] || ''))
+  const {selectedCorpus, language, filters} = cookies
+  const {lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20, } = cookies
+  const characterLevels = [lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20].filter(f=>f)
+  if(!lvl0 || Object.keys(characterLevels).length === 0) setLevels(characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')
   if(!language) setCookie('language', 'es')
   if(!filters) {
@@ -85,7 +94,7 @@ function CharacterCreatorPage() {
         ...creationChanges
         }
       }
-      setCookie('characterLevels', newCharacterLevels)
+      setLevels(newCharacterLevels)
   }
   const handleClassChange = newIndicesList => {
     const newCharacterLevels = [
@@ -94,12 +103,13 @@ function CharacterCreatorPage() {
     ]
     const newSelectedCharacterLevel = clampInteger(selectedCharacterLevel, 0, newCharacterLevels.length-1)
     setSelectedCharacterLevel(newSelectedCharacterLevel)
-    setCookie('characterLevels', newCharacterLevels)
+    setLevels(newCharacterLevels)
   }
   useEffect(()=>{
     setFullCharacterDataByLevel(getCumulativeLevels(characterLevels, selectedCharacterLevel))
     setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
-  }, [cookies, characterLevels, selectedCharacterLevel])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cookies, selectedCharacterLevel, lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20])
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
