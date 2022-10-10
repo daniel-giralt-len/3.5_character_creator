@@ -32,12 +32,12 @@ const calculateLevelData = (acc, level, nLevel) => {
             level.class
         ].filter(v=>v), //filter to remove lvl 0 which has no class
         scores: {
-            current: {...level.scores},
-            previous: {...(acc.scores||{}).added || {} }
+            current: level.scores,
+            previous: (acc.scores||{}).added || {}
         },
         skillPoints: {
-            current: {...level.skillPoints || {}},
-            previous: {...(acc.skillPoints|| {}).added || {} },
+            current: level.skillPoints || {},
+            previous: (acc.skillPoints|| {}).added || {},
             nAvailable: {
                 previous: ((acc.skillPoints||{}).nAvailable||{}).added || 0,
             },
