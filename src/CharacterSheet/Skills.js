@@ -51,9 +51,7 @@ function Skills({
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
-        const isAnySingleSkillOverBudget = Object.values(skillRanks.added).some(nRanks => nRanks > skillRanks.maxPerSkill)
-
-        return(
+        return (
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}

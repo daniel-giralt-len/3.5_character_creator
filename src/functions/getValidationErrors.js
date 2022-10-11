@@ -1,10 +1,21 @@
 const validateLevel = ({
     nKnownLanguages,
     maxKnownLanguages,
+    skillPoints,
+    skillRanks
 }, nLevel) => {
     return {
         language: {
             overBudget: nKnownLanguages > maxKnownLanguages
+        },
+        skills: {
+            total: skillPoints.nUsed.added > skillPoints.nAvailable.added,
+            single: Object
+                .entries(skillRanks.added)
+                .reduce((acc, [id, ranks]) => ({
+                    ...acc,
+                    [id]: ranks > skillRanks.maxPerSkill
+                }), {})
         }
     }
 }
