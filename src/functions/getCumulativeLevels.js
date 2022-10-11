@@ -88,7 +88,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     })
     levelData.skillRanks.maxPerSkill = nLevel+3
 
-    levelData.nKnownLanguages = countLanguages(levelData.language) + countLanguages(levelData.raceData['automatic languages'] || {})
+    levelData.nKnownLanguages = countLanguages(levelData.language)
     levelData.maxKnownLanguages = getMaxKnownLanguages({
         modifiers: levelData.modifiers,
         raceData: levelData.raceData,
