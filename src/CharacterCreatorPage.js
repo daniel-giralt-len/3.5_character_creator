@@ -15,6 +15,7 @@ import dbs from './db/json/dbs.json'
 import clampInteger from './functions/clampInteger'
 import getTranslator from './functions/getTranslator'
 import getCumulativeLevels from './functions/getCumulativeLevels'
+import getValidationErrors from './functions/getValidationErrors'
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -68,6 +69,7 @@ function CharacterCreatorPage() {
   const [selectedCharacterLevel, setSelectedCharacterLevel] = useState((characterLevels).length-1)
   const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
   const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
+  const [validationErrors, setValidationErrors] = useState(getValidationErrors(fullCharacterDataByLevel))
 
   const translate = getTranslator(language)
   const handleCreationChange = (creationChanges, type) => {
@@ -118,6 +120,7 @@ function CharacterCreatorPage() {
   useEffect(()=>{
     setFullCharacterDataByLevel(getCumulativeLevels(characterLevels, selectedCharacterLevel))
     setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
+    setValidationErrors(getValidationErrors(fullCharacterDataByLevel))
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cookies, selectedCharacterLevel, lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20])
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
