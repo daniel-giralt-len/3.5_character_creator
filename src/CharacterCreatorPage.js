@@ -38,6 +38,7 @@ const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel) 
   const selectorReadableCharacterLevel = characterLevels[selectedCharacterLevel] || {}
   selectorReadableCharacterLevel.classes = characterLevels.map(l=>l.class).filter(v=>v)
   selectorReadableCharacterLevel.races = characterLevels[0].races
+  selectorReadableCharacterLevel.skilltricks = characterLevels.map(l=>l.skillTricks).filter(v=>v).reduce((acc,id)=>({...acc, [id]: true}),{})
   return selectorReadableCharacterLevel
 }
 
