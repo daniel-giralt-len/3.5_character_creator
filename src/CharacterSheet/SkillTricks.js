@@ -26,7 +26,7 @@ function SkillTrickItem({
     return (
         <SkillTrickLayout>
             <Text>
-                {skillTrick.name}
+                {/* {skillTrick.name} */}
             </Text>
             {onDelete && (<SquareButton onClick={() => onDelete(skillTrick.id)}>
                 -

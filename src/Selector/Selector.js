@@ -62,7 +62,7 @@ function Selector({
     races: {isExclusive: true},
     classes: {},
     feats: {},
-    skilltricks: {},
+    skilltricks: {isExclusive: true },
     language: {},
     rulebooks: {},
     editions: {},

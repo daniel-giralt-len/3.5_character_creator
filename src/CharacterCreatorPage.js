@@ -92,8 +92,7 @@ function CharacterCreatorPage() {
       - your total skill tricks cannot exceed one-half your character level (rounded up).
       - Certain feats and prestige class features allow a character to exceed these limits.
       */
-      const { skilltricks } = creationChanges
-      newCharacterLevels[selectedCharacterLevel].skillTrick = skilltricks
+      newCharacterLevels[selectedCharacterLevel].skillTricks = creationChanges.skilltricks
     }else if(type==='skillPoints'){
       const {id, points} = creationChanges
       const clampedPoints = clampInteger(points, 0, 999) //TODO: 100 to maxPoints
