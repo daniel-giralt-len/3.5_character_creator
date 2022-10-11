@@ -1,10 +1,10 @@
-const rankToPoints = (n, isClassSkill) => isClassSkill ? n : n/2
+const pointsToRanks = (n, isClassSkill) => isClassSkill ? n : n/2
 
 const convertSkillPointsToRanks = ({ranks, classSkills}) =>  Object
     .entries(ranks)
-    .reduce((acc, [id, nRanks]) => ({
+    .reduce((acc, [id, nPoints]) => ({
         ...acc,
-        [id]: rankToPoints(nRanks, classSkills.includes(id))
+        [id]: pointsToRanks(nPoints, classSkills.includes(parseInt(id)))
     }), {})
 
 export default convertSkillPointsToRanks
