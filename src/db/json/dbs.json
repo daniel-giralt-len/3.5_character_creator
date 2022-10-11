@@ -7148,12 +7148,6 @@
       "book": "94"
     },
     {
-      "id": "29",
-      "name": "Acrobatic Backstab",
-      "link": "/feats/complete-scoundrel--60/acrobatic-backstab--3275/",
-      "book": "15"
-    },
-    {
       "id": "30",
       "name": "Acrobatic Strike",
       "link": "/feats/players-handbook-ii--80/acrobatic-strike--27/",
@@ -7808,12 +7802,6 @@
       "book": "23"
     },
     {
-      "id": "139",
-      "name": "Assume Quirk",
-      "link": "/feats/complete-scoundrel--60/assume-quirk--3276/",
-      "book": "15"
-    },
-    {
       "id": "140",
       "name": "Assume Supernatural Ability",
       "link": "/feats/savage-species--47/assume-supernatural-ability--133/",
@@ -8082,12 +8070,6 @@
       "name": "Azure Wild Shape",
       "link": "/feats/magic-of-incarnum--74/azure-wild-shape--171/",
       "book": "59"
-    },
-    {
-      "id": "185",
-      "name": "Back on Your Feet",
-      "link": "/feats/complete-scoundrel--60/back-your-feet--3277/",
-      "book": "15"
     },
     {
       "id": "186",
@@ -9278,12 +9260,6 @@
       "book": "102"
     },
     {
-      "id": "384",
-      "name": "Clarity of Vision",
-      "link": "/feats/complete-scoundrel--60/clarity-vision--3278/",
-      "book": "15"
-    },
-    {
       "id": "385",
       "name": "Claws of the Beast ",
       "link": "/feats/fiendish-codex-i-hordes-of-the-abyss--66/claws-of-the-beast--352/",
@@ -9294,12 +9270,6 @@
       "name": "Cleave",
       "link": "/feats/players-handbook-v35--6/cleave--354/",
       "book": "74"
-    },
-    {
-      "id": "387",
-      "name": "Clever Improviser",
-      "link": "/feats/complete-scoundrel--60/clever-improviser--3279/",
-      "book": "15"
     },
     {
       "id": "388",
@@ -9500,12 +9470,6 @@
       "book": "48"
     },
     {
-      "id": "421",
-      "name": "Collector of Stories",
-      "link": "/feats/complete-scoundrel--60/collector-stories--3280/",
-      "book": "15"
-    },
-    {
       "id": "422",
       "name": "Collegiate Wizard",
       "link": "/feats/complete-arcane--55/collegiate-wizard--382/",
@@ -9692,12 +9656,6 @@
       "book": "77"
     },
     {
-      "id": "453",
-      "name": "Conceal Spellcasting",
-      "link": "/feats/complete-scoundrel--60/conceal-spellcasting--3281/",
-      "book": "15"
-    },
-    {
       "id": "454",
       "name": "Concussion Attack",
       "link": "/feats/complete-scoundrel--60/concussion-attack--413/",
@@ -9834,12 +9792,6 @@
       "name": "Cormanthyran Moon Magic",
       "link": "/feats/lost-empires-of-faerun--30/cormanthyran-moon-magic--431/",
       "book": "55"
-    },
-    {
-      "id": "477",
-      "name": "Corner Perch",
-      "link": "/feats/complete-scoundrel--60/corner-perch--3282/",
-      "book": "15"
     },
     {
       "id": "478",
@@ -11234,12 +11186,6 @@
       "book": "54"
     },
     {
-      "id": "710",
-      "name": "Dismount Attack",
-      "link": "/feats/complete-scoundrel--60/dismount-attack--3283/",
-      "book": "15"
-    },
-    {
       "id": "711",
       "name": "Disrupting Spell",
       "link": "/feats/fiendish-codex-ii-tyrants-of-the-nine-hells--67/disrupting-spell--639/",
@@ -12440,12 +12386,6 @@
       "book": "88"
     },
     {
-      "id": "911",
-      "name": "Easy Escape",
-      "link": "/feats/complete-scoundrel--60/easy-escape--3284/",
-      "book": "15"
-    },
-    {
       "id": "912",
       "name": "Easygoing",
       "link": "/feats/unearthed-arcana--90/easygoing--803/",
@@ -13400,12 +13340,6 @@
       "book": "19"
     },
     {
-      "id": "1072",
-      "name": "Escape Attack",
-      "link": "/feats/complete-scoundrel--60/escape-attack--3285/",
-      "book": "15"
-    },
-    {
       "id": "1073",
       "name": "Eschew Materials",
       "link": "/feats/deities-and-demigods--39/eschew-materials--948/",
@@ -14102,12 +14036,6 @@
       "book": "81"
     },
     {
-      "id": "1189",
-      "name": "Extreme Leap",
-      "link": "/feats/complete-scoundrel--60/extreme-leap--3286/",
-      "book": "15"
-    },
-    {
       "id": "1190",
       "name": "Eye of Medani",
       "link": "/feats/dragonmarked--7/eye-of-medani--1059/",
@@ -14202,12 +14130,6 @@
       "name": "False Pretenses",
       "link": "/feats/unearthed-arcana--90/false-pretenses--1071/",
       "book": "106"
-    },
-    {
-      "id": "1206",
-      "name": "False Theurgy",
-      "link": "/feats/complete-scoundrel--60/false-theurgy--3287/",
-      "book": "15"
     },
     {
       "id": "1207",
@@ -16016,12 +15938,6 @@
       "book": "12"
     },
     {
-      "id": "1508",
-      "name": "Group Fake-Out",
-      "link": "/feats/complete-scoundrel--60/group-fake-out--3288/",
-      "book": "15"
-    },
-    {
       "id": "1509",
       "name": "Group Inspiration",
       "link": "/feats/complete-adventurer--54/group-inspiration--1324/",
@@ -16280,12 +16196,6 @@
       "book": "79"
     },
     {
-      "id": "1552",
-      "name": "Healing Hands",
-      "link": "/feats/complete-scoundrel--60/healing-hands--3289/",
-      "book": "15"
-    },
-    {
       "id": "1553",
       "name": "Healing Soul",
       "link": "/feats/magic-of-incarnum--74/healing-soul--1357/",
@@ -16470,12 +16380,6 @@
       "name": "Hibernate",
       "link": "/feats/dragon-compendium--109/hibernate--3368/",
       "book": "20"
-    },
-    {
-      "id": "1584",
-      "name": "Hidden Blade",
-      "link": "/feats/complete-scoundrel--60/hidden-blade--3290/",
-      "book": "15"
     },
     {
       "id": "1585",
@@ -18848,12 +18752,6 @@
       "book": "73"
     },
     {
-      "id": "1980",
-      "name": "Leaping Climber",
-      "link": "/feats/complete-scoundrel--60/leaping-climber--3291/",
-      "book": "15"
-    },
-    {
       "id": "1981",
       "name": "Least Dragonmark",
       "link": "/feats/eberron-campaign-setting--12/least-dragonmark--1743/",
@@ -19116,12 +19014,6 @@
       "name": "Lion's Pounce",
       "link": "/feats/complete-divine--56/lions-pounce--1781/",
       "book": "12"
-    },
-    {
-      "id": "2026",
-      "name": "Listen to This",
-      "link": "/feats/complete-scoundrel--60/listen--3292/",
-      "book": "15"
     },
     {
       "id": "2027",
@@ -19428,12 +19320,6 @@
       "name": "Magic Sensitive",
       "link": "/feats/complete-mage--58/magic-sensitive--1826/",
       "book": "13"
-    },
-    {
-      "id": "2078",
-      "name": "Magical Appraisal",
-      "link": "/feats/complete-scoundrel--60/magical-appraisal--3293/",
-      "book": "15"
     },
     {
       "id": "2079",
@@ -20456,12 +20342,6 @@
       "book": "5"
     },
     {
-      "id": "2249",
-      "name": "Mosquito's Bite",
-      "link": "/feats/complete-scoundrel--60/mosquitos-bite--3294/",
-      "book": "15"
-    },
-    {
       "id": "2250",
       "name": "Mother Cyst",
       "link": "/feats/libris-mortis-the-book-of-the-dead--71/mother-cyst--1984/",
@@ -20906,12 +20786,6 @@
       "book": "55"
     },
     {
-      "id": "2324",
-      "name": "Never Outnumbered",
-      "link": "/feats/complete-scoundrel--60/never-outnumbered--3295/",
-      "book": "15"
-    },
-    {
       "id": "2325",
       "name": "Night Haunt",
       "link": "/feats/complete-arcane--55/night-haunt--2054/",
@@ -20942,22 +20816,10 @@
       "book": "52"
     },
     {
-      "id": "2330",
-      "name": "Nimble Charge",
-      "link": "/feats/complete-scoundrel--60/nimble-charge--3296/",
-      "book": "15"
-    },
-    {
       "id": "2331",
       "name": "Nimble Fingers",
       "link": "/feats/players-handbook-v35--6/nimble-fingers--2059/",
       "book": "74"
-    },
-    {
-      "id": "2332",
-      "name": "Nimble Stand",
-      "link": "/feats/complete-scoundrel--60/nimble-stand--3297/",
-      "book": "15"
     },
     {
       "id": "2333",
@@ -21204,12 +21066,6 @@
       "name": "Open Soul Chakra",
       "link": "/feats/magic-of-incarnum--74/open-soul-chakra--2096/",
       "book": "59"
-    },
-    {
-      "id": "2374",
-      "name": "Opening Tap",
-      "link": "/feats/complete-scoundrel--60/opening-tap--3298/",
-      "book": "15"
     },
     {
       "id": "2375",
@@ -21834,12 +21690,6 @@
       "name": "Point Blank Shot",
       "link": "/feats/players-handbook-v35--6/point-blank-shot--2185/",
       "book": "74"
-    },
-    {
-      "id": "2479",
-      "name": "Point it Out",
-      "link": "/feats/complete-scoundrel--60/point-it-out--3299/",
-      "book": "15"
     },
     {
       "id": "2480",
@@ -22730,12 +22580,6 @@
       "book": "74"
     },
     {
-      "id": "2628",
-      "name": "Quick Escape",
-      "link": "/feats/complete-scoundrel--60/quick-escape--3300/",
-      "book": "15"
-    },
-    {
       "id": "2629",
       "name": "Quick Reconnoiter",
       "link": "/feats/complete-adventurer--54/quick-reconnoiter--2318/",
@@ -22758,12 +22602,6 @@
       "name": "Quick Staff",
       "link": "/feats/complete-warrior--61/quick-staff--2321/",
       "book": "16"
-    },
-    {
-      "id": "2633",
-      "name": "Quick Swimmer",
-      "link": "/feats/complete-scoundrel--60/quick-swimmer--3301/",
-      "book": "15"
     },
     {
       "id": "2634",
@@ -24206,12 +24044,6 @@
       "book": "85"
     },
     {
-      "id": "2874",
-      "name": "Second Impression",
-      "link": "/feats/complete-scoundrel--60/second-impression--3302/",
-      "book": "15"
-    },
-    {
       "id": "2875",
       "name": "Second Slam",
       "link": "/feats/races-of-eberron--10/second-slam--2541/",
@@ -24764,12 +24596,6 @@
       "book": "49"
     },
     {
-      "id": "2967",
-      "name": "Shrouded Dance",
-      "link": "/feats/complete-scoundrel--60/shrouded-dance--3303/",
-      "book": "15"
-    },
-    {
       "id": "2968",
       "name": "Sickening Grasp",
       "link": "/feats/complete-mage--58/sickening-grasp--2619/",
@@ -24956,12 +24782,6 @@
       "book": "34"
     },
     {
-      "id": "2999",
-      "name": "Slipping Past",
-      "link": "/feats/complete-scoundrel--60/slipping-past--3305/",
-      "book": "15"
-    },
-    {
       "id": "3000",
       "name": "Slow (flaw)",
       "link": "/feats/unearthed-arcana--90/slow-flaw--2648/",
@@ -25130,12 +24950,6 @@
       "book": "77"
     },
     {
-      "id": "3029",
-      "name": "Social Recovery",
-      "link": "/feats/complete-scoundrel--60/social-recovery--3304/",
-      "book": "15"
-    },
-    {
       "id": "3030",
       "name": "Solid Visage",
       "link": "/feats/ghostwalk--94/solid-visage--3579/",
@@ -25290,12 +25104,6 @@
       "name": "Speed of Thought",
       "link": "/feats/expanded-psionics-handbook--65/speed-of-thought--2691/",
       "book": "35"
-    },
-    {
-      "id": "3056",
-      "name": "Speedy Ascent",
-      "link": "/feats/complete-scoundrel--60/speedy-ascent--3306/",
-      "book": "15"
     },
     {
       "id": "3057",
@@ -25662,12 +25470,6 @@
       "name": "Spontaneous Wounder",
       "link": "/feats/complete-divine--56/spontaneous-wounder--2748/",
       "book": "12"
-    },
-    {
-      "id": "3118",
-      "name": "Spot the Weak Point",
-      "link": "/feats/complete-scoundrel--60/spot-weak-point--3307/",
-      "book": "15"
     },
     {
       "id": "3119",
@@ -26102,12 +25904,6 @@
       "book": "103"
     },
     {
-      "id": "3191",
-      "name": "Sudden Draw",
-      "link": "/feats/complete-scoundrel--60/sudden-draw--3308/",
-      "book": "15"
-    },
-    {
       "id": "3192",
       "name": "Sudden Empower",
       "link": "/feats/complete-arcane--55/sudden-empower--2813/",
@@ -26454,12 +26250,6 @@
       "name": "Swift Call",
       "link": "/feats/complete-champion--57/swift-call--2867/",
       "book": "11"
-    },
-    {
-      "id": "3250",
-      "name": "Swift Concentration",
-      "link": "/feats/complete-scoundrel--60/swift-concentration--3309/",
-      "book": "15"
     },
     {
       "id": "3251",
@@ -26858,12 +26648,6 @@
       "book": "102"
     },
     {
-      "id": "3317",
-      "name": "Timely Misdirection",
-      "link": "/feats/complete-scoundrel--60/timely-misdirection--3310/",
-      "book": "15"
-    },
-    {
       "id": "3318",
       "name": "Tireless",
       "link": "/feats/players-guide-to-faerun--22/tireless--2925/",
@@ -27212,12 +26996,6 @@
       "book": "94"
     },
     {
-      "id": "3376",
-      "name": "Tumbling Crawl",
-      "link": "/feats/complete-scoundrel--60/tumbling-crawl--3311/",
-      "book": "15"
-    },
-    {
       "id": "3377",
       "name": "Tumbling Feint",
       "link": "/feats/players-handbook-ii--80/tumbling-feint--2981/",
@@ -27318,12 +27096,6 @@
       "name": "Twist the Knife",
       "link": "/feats/exemplars-of-evil--64/twist-knife--3696/",
       "book": "34"
-    },
-    {
-      "id": "3394",
-      "name": "Twisted Charge",
-      "link": "/feats/complete-scoundrel--60/twisted-charge--3312/",
-      "book": "15"
     },
     {
       "id": "3395",
@@ -27576,12 +27348,6 @@
       "name": "Unyielding Bond of Soul",
       "link": "/feats/faiths-of-eberron--8/unyielding-bond-of-soul--3033/",
       "book": "41"
-    },
-    {
-      "id": "3437",
-      "name": "Up the Hill",
-      "link": "/feats/complete-scoundrel--60/up-the-hill--3313/",
-      "book": "15"
     },
     {
       "id": "3438",
@@ -27962,18 +27728,6 @@
       "book": "106"
     },
     {
-      "id": "3501",
-      "name": "Walk the Walls",
-      "link": "/feats/complete-scoundrel--60/walk-walls--3314/",
-      "book": "15"
-    },
-    {
-      "id": "3502",
-      "name": "Wall Jumper",
-      "link": "/feats/complete-scoundrel--60/wall-jumper--3315/",
-      "book": "15"
-    },
-    {
       "id": "3503",
       "name": "Wand Mastery",
       "link": "/feats/eberron-campaign-setting--12/wand-mastery--3085/",
@@ -28230,12 +27984,6 @@
       "name": "Weapon Supremacy",
       "link": "/feats/players-handbook-ii--80/weapon-supremacy--3125/",
       "book": "73"
-    },
-    {
-      "id": "3546",
-      "name": "Whip Climber",
-      "link": "/feats/complete-scoundrel--60/whip-climber--3316/",
-      "book": "15"
     },
     {
       "id": "3547",
