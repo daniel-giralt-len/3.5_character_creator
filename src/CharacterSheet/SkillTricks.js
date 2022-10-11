@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import findInDb from "../functions/findInDb";
+import skillTrickDb from "../db/json/itemData/skilltrickStats.json";
 import { SquareButton, Text, SidewaysBlackLabel } from '../sharedComponents';
 
 const SkillTricksLayout = styled.ul`
@@ -26,7 +26,7 @@ function SkillTrickItem({
     return (
         <SkillTrickLayout>
             <Text>
-                {/* {skillTrick.name} */}
+                {skillTrick.name}
             </Text>
             {onDelete && (<SquareButton onClick={() => onDelete(skillTrick.id)}>
                 -
@@ -40,7 +40,7 @@ const renderSkillTricks = ({skillTricks, handleDelete}) => {
             .map((id) => {
                 return (<SkillTrickItem
                     key={id}
-                    skillTrick={findInDb('feats', id)}
+                    skillTrick={skillTrickDb[id]}
                     onDelete={handleDelete}
                 />)
             })

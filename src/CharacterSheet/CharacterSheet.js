@@ -174,7 +174,7 @@ function CharacterSheet({
                 />
                 */}
                 <SkillTricks
-                    skillTricks={skillTricks}
+                    skillTricks={skillTricks.added}
                     translate={translate}
                 />
                 <ClassesDetail
