@@ -386,20 +386,6 @@
     "benefit": "You get a +2 bonus on all Jump and Tumble checks.",
     "prerequisites": []
   },
-  "29": {
-    "name": "Acrobatic Backstab",
-    "link": "/feats/complete-scoundrel--60/acrobatic-backstab--3275/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Tumble check to move through an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 12
-      }
-    ]
-  },
   "30": {
     "name": "Acrobatic Strike",
     "link": "/feats/players-handbook-ii--80/acrobatic-strike--27/",
@@ -1962,20 +1948,6 @@
       }
     ]
   },
-  "139": {
-    "name": "Assume Quirk",
-    "link": "/feats/complete-scoundrel--60/assume-quirk--3276/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When impersonating a particular individual, you can eliminate the normal Spot bonus granted to a viewer familiar with that individual (PH 73). The effect extends to all viewers.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 14,
-        "value": 5
-      }
-    ]
-  },
   "140": {
     "name": "Assume Supernatural Ability",
     "link": "/feats/savage-species--47/assume-supernatural-ability--133/",
@@ -2755,20 +2727,6 @@
         "value": 13
       },
       "wild shape class feature"
-    ]
-  },
-  "185": {
-    "name": "Back on Your Feet",
-    "link": "/feats/complete-scoundrel--60/back-your-feet--3277/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 12
-      }
     ]
   },
   "186": {
@@ -5593,20 +5551,6 @@
       "two White Raven maneuvers"
     ]
   },
-  "384": {
-    "name": "Clarity of Vision",
-    "link": "/feats/complete-scoundrel--60/clarity-vision--3278/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a swift action, you can attempt a DC 20 Spot check. If successful, you focus your vision so clearly that you can pinpoint the location of invisible creatures within 30 feet. This clarity lasts until the end of your turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 62,
-        "value": 12
-      }
-    ]
-  },
   "385": {
     "name": "Claws of the Beast ",
     "link": "/feats/fiendish-codex-i-hordes-of-the-abyss--66/claws-of-the-beast--352/",
@@ -5632,25 +5576,6 @@
         "type": "score",
         "score": "STR",
         "value": 13
-      }
-    ]
-  },
-  "387": {
-    "name": "Clever Improviser",
-    "link": "/feats/complete-scoundrel--60/clever-improviser--3279/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When making a Disable Device or Open Lock check without using thieves' tools, you ignore the normal &#8212;2 penalty.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 13,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 50,
-        "value": 5
       }
     ]
   },
@@ -6124,20 +6049,6 @@
         "type": "score",
         "score": "CON",
         "value": 13
-      }
-    ]
-  },
-  "421": {
-    "name": "Collector of Stories",
-    "link": "/feats/complete-scoundrel--60/collector-stories--3280/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you attempt a trained Knowledge check to identify a creature or to learn its special powers or vulnerabilities, you gain a +5 competence bonus on the check.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 26,
-        "value": 5
       }
     ]
   },
@@ -6692,30 +6603,6 @@
       }
     ]
   },
-  "453": {
-    "name": "Conceal Spellcasting",
-    "link": "/feats/complete-scoundrel--60/conceal-spellcasting--3281/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can cast a spell without revealing that you are doing so. Make a Sleight of Hand check as part of the action used to cast the spell, opposed by the Spot checks of onlookers. If you are successful, an observer can't tell that you're casting a spell. That observer cannot make an attack of opportunity against you for casting, nor can it attempt to counter your spell.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 8,
-        "value": 1
-      },
-      {
-        "type": "skills",
-        "id": 60,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 61,
-        "value": 1
-      }
-    ]
-  },
   "454": {
     "name": "Concussion Attack",
     "link": "/feats/complete-scoundrel--60/concussion-attack--413/",
@@ -7023,20 +6910,6 @@
       {
         "type": "spellcasting",
         "level": 3
-      }
-    ]
-  },
-  "477": {
-    "name": "Corner Perch",
-    "link": "/feats/complete-scoundrel--60/corner-perch--3282/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Climb check to ascend or descend either a &quot;chimney,&quot; where you can brace against opposite walls, or a corner where you can brace against perpendicular walls (PH 69), you can suspend yourself momentarily. Until the end of your next turn, you can use your hands freely for any other purpose (including attacking) without risk of falling. At the end of your next turn, you fall from the wall unless you succeed on a Climb check against the normal DC + 5 (made as a move action) or you have succeeded on another Climb check to move up or down the wall as normal.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 7,
-        "value": 8
       }
     ]
   },
@@ -10573,20 +10446,6 @@
       "beholder with functional antimagic ability"
     ]
   },
-  "710": {
-    "name": "Dismount Attack",
-    "link": "/feats/complete-scoundrel--60/dismount-attack--3283/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If your mount has moved at least 10 feet in this round and you succeed on a fast dismount (Ride, PH 80), you can use a standard action to attack an adjacent opponent as if you had charged that opponent.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 56,
-        "value": 5
-      }
-    ]
-  },
   "711": {
     "name": "Disrupting Spell",
     "link": "/feats/fiendish-codex-ii-tyrants-of-the-nine-hells--67/disrupting-spell--639/",
@@ -13691,29 +13550,6 @@
       "size Large or larger"
     ]
   },
-  "911": {
-    "name": "Easy Escape",
-    "link": "/feats/complete-scoundrel--60/easy-escape--3284/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If your opponent is larger than Medium, you gain a circumstance bonus on your Escape Artist check to escape a grapple or pin. The size of the bonus depends on your opponent's size, according to the following table.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 15,
-        "value": 8
-      },
-      {
-        "type": "size",
-        "value": [
-          "small",
-          "medium",
-          "tiny",
-          "fine"
-        ]
-      }
-    ]
-  },
   "912": {
     "name": "Easygoing",
     "link": "/feats/unearthed-arcana--90/easygoing--803/",
@@ -16066,20 +15902,6 @@
     "benefit": "You gain a +4 bonus on all Will saving throws.",
     "prerequisites": []
   },
-  "1072": {
-    "name": "Escape Attack",
-    "link": "/feats/complete-scoundrel--60/escape-attack--3285/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you escape a grapple, you can make a single melee attack with a light weapon as a swift action against the opponent that was grappling you. The opponent is considered flat-footed against this attack. You must have the weapon in hand at the beginning of your turn in order to use this trick.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 15,
-        "value": 8
-      }
-    ]
-  },
   "1073": {
     "name": "Eschew Materials",
     "link": "/feats/deities-and-demigods--39/eschew-materials--948/",
@@ -17584,20 +17406,6 @@
       }
     ]
   },
-  "1189": {
-    "name": "Extreme Leap",
-    "link": "/feats/complete-scoundrel--60/extreme-leap--3286/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you make a horizontal jump of at least 10 feet during your turn, you can spend a swift action to move an additional 10 feet on that turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 25,
-        "value": 5
-      }
-    ]
-  },
   "1190": {
     "name": "Eye of Medani",
     "link": "/feats/dragonmarked--7/eye-of-medani--1059/",
@@ -17824,30 +17632,6 @@
     "benefit": "When you succeed on a save against a charm or compulsion effect, the character trying to charm or compel you believes that you failed your save. You can play along voluntarily if you wish to. If the charm or compulsion involves telepathic commands, you continue to receive them, although you aren't obligated to follow them.",
     "prerequisites": [
       "Exposure to charm or dominate spell"
-    ]
-  },
-  "1206": {
-    "name": "False Theurgy",
-    "link": "/feats/complete-scoundrel--60/false-theurgy--3287/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a swift action when casting a spell, you can adjust the spell's verbal and somatic components to mimic those of another spell of your choice of the same level. Any creature using Spellcraft or any other means to identify the spell you're casting believes it to be the other spell instead.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 6,
-        "value": 8
-      },
-      {
-        "type": "skills",
-        "id": 60,
-        "value": 8
-      },
-      {
-        "type": "skills",
-        "id": 61,
-        "value": 8
-      }
     ]
   },
   "1207": {
@@ -22498,20 +22282,6 @@
       "Ability to wild shape"
     ]
   },
-  "1508": {
-    "name": "Group Fake-Out",
-    "link": "/feats/complete-scoundrel--60/group-fake-out--3288/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can use Bluff to feint in combat (PH 68) against more than one opponent. Make one Bluff check opposed by separate Sense Motive checks for each opponent. For each opponent after the first that you wish to affect, you take a cumulative &#8212;2 penalty on your Bluff check.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 6,
-        "value": 8
-      }
-    ]
-  },
   "1509": {
     "name": "Group Inspiration",
     "link": "/feats/complete-adventurer--54/group-inspiration--1324/",
@@ -23147,20 +22917,6 @@
       "fire genasi or tanarukk. Fire Size Example Hit Points Healed. Fine ----------- Tindertwig ------ 1. Diminutive ---- Torch ------------ 1d3. Tiny ----------- Small campfire -- 1d6. Small ---------- Large campfire - 2d6. Medium-size - Forge ------------ 3d"
     ]
   },
-  "1552": {
-    "name": "Healing Hands",
-    "link": "/feats/complete-scoundrel--60/healing-hands--3289/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Heal check made to stabilize a dying character, that character also heals 1d6 points of damage.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 19,
-        "value": 5
-      }
-    ]
-  },
   "1553": {
     "name": "Healing Soul",
     "link": "/feats/magic-of-incarnum--74/healing-soul--1357/",
@@ -23592,24 +23348,6 @@
         "type": "score",
         "score": "CON",
         "value": 13
-      }
-    ]
-  },
-  "1584": {
-    "name": "Hidden Blade",
-    "link": "/feats/complete-scoundrel--60/hidden-blade--3290/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "After you have used the Sleight of Hand skill to successfully conceal a weapon (PH 81), you can draw that weapon as a move action instead of a standard action. An opponent that was unaware of the concealed weapon is treated as flat-footed against the first attack you make in that turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 60,
-        "value": 5
-      },
-      {
-        "type": "feats",
-        "id": "2627"
       }
     ]
   },
@@ -29669,25 +29407,6 @@
       }
     ]
   },
-  "1980": {
-    "name": "Leaping Climber",
-    "link": "/feats/complete-scoundrel--60/leaping-climber--3291/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you begin a climb by making a Jump check as a swift action, you can add the vertical distance of your jump to the distance climbed in that round. Treat the Jump check as being made with a running start even if you didn't move at least 20 feet.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 7,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 25,
-        "value": 5
-      }
-    ]
-  },
   "1981": {
     "name": "Least Dragonmark",
     "link": "/feats/eberron-campaign-setting--12/least-dragonmark--1743/",
@@ -30389,20 +30108,6 @@
       "Ability to wild shape"
     ]
   },
-  "2026": {
-    "name": "Listen to This",
-    "link": "/feats/complete-scoundrel--60/listen--3292/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "Whenever you make a successful Listen check to hear a noise, you can describe that sound any time up to 1 hour later with such clarity that any individuals hearing the description are treated as if they had heard the sound themselves.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 46,
-        "value": 5
-      }
-    ]
-  },
   "2027": {
     "name": "Live my Nightmare",
     "link": "/feats/unearthed-arcana--90/live-my-nightmare--1782/",
@@ -31078,30 +30783,6 @@
       {
         "type": "spellcasting",
         "level": 3
-      }
-    ]
-  },
-  "2078": {
-    "name": "Magical Appraisal",
-    "link": "/feats/complete-scoundrel--60/magical-appraisal--3293/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you succeed by 5 or more on a Spellcraft check to determine the school of magic of the aura surrounding a magic item (by casting <a href=\"/spells/players-handbook-v35--6/detect-magic--2489/\">detect magic</a>), you can then spend 1 minute concentrating to also learn the properties of the item, as if you had cast <a href=\"/spells/players-handbook-v35--6/identify--2502/\">identify</a>.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 3,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 27,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 61,
-        "value": 12
       }
     ]
   },
@@ -33735,20 +33416,6 @@
       "Death attack class feature"
     ]
   },
-  "2249": {
-    "name": "Mosquito's Bite",
-    "link": "/feats/complete-scoundrel--60/mosquitos-bite--3294/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you use a light weapon to hit a flat-footed opponent, you can choose to have the opponent not realize that it has been hit until the start of your next turn. Instead, that opponent reacts as if you had attacked and missed.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 60,
-        "value": 12
-      }
-    ]
-  },
   "2250": {
     "name": "Mother Cyst",
     "link": "/feats/libris-mortis-the-book-of-the-dead--71/mother-cyst--1984/",
@@ -34905,20 +34572,6 @@
       }
     ]
   },
-  "2324": {
-    "name": "Never Outnumbered",
-    "link": "/feats/complete-scoundrel--60/never-outnumbered--3295/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you use Intimidate to demoralize an opponent (PH 76), you can affect all enemies within 10 feet that can see you, rather than only a single enemy you threaten. Each enemy rolls a separate modified level check to oppose your Intimidate check, but the skill check otherwise works as normal.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 23,
-        "value": 8
-      }
-    ]
-  },
   "2325": {
     "name": "Night Haunt",
     "link": "/feats/complete-arcane--55/night-haunt--2054/",
@@ -34977,20 +34630,6 @@
       }
     ]
   },
-  "2330": {
-    "name": "Nimble Charge",
-    "link": "/feats/complete-scoundrel--60/nimble-charge--3296/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can run or charge across a difficult surface without needing to make a Balance check (PH 67).",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 5,
-        "value": 5
-      }
-    ]
-  },
   "2331": {
     "name": "Nimble Fingers",
     "link": "/feats/players-handbook-v35--6/nimble-fingers--2059/",
@@ -34998,20 +34637,6 @@
     "isSkillTrick": false,
     "benefit": "You get a +2 bonus on all Disable Device checks and Open Lock checks.",
     "prerequisites": []
-  },
-  "2332": {
-    "name": "Nimble Stand",
-    "link": "/feats/complete-scoundrel--60/nimble-stand--3297/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can stand up from prone without provoking attacks of opportunity.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 8
-      }
-    ]
   },
   "2333": {
     "name": "Nimbus of Light",
@@ -35616,20 +35241,6 @@
       {
         "type": "level",
         "value": 24
-      }
-    ]
-  },
-  "2374": {
-    "name": "Opening Tap",
-    "link": "/feats/complete-scoundrel--60/opening-tap--3298/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a swift action, you can make an Open Lock check with a &#8212;10 penalty by tapping a lock with a hard, blunt object such as the pommel of a weapon. You don't take any additional penalty for making the check without thieves' tools.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 50,
-        "value": 12
       }
     ]
   },
@@ -37255,20 +36866,6 @@
     "special": "A fighter may select Point Blank Shot as one of his fighter bonus feats (see page 38).",
     "benefit": "You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.",
     "prerequisites": []
-  },
-  "2479": {
-    "name": "Point it Out",
-    "link": "/feats/complete-scoundrel--60/point-it-out--3299/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you make a successful Spot check, you can spend an immediate action to grant a single ally a free Spot check to see the same thing (with a +2 circumstance bonus). Your ally must be within 30 feet of you and able to see or hear you to benefit from this effect.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 62,
-        "value": 8
-      }
-    ]
   },
   "2480": {
     "name": "Poison Expert ",
@@ -39380,20 +38977,6 @@
       }
     ]
   },
-  "2628": {
-    "name": "Quick Escape",
-    "link": "/feats/complete-scoundrel--60/quick-escape--3300/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "This trick has two options, either of which can be used once per encounter.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 15,
-        "value": 12
-      }
-    ]
-  },
   "2629": {
     "name": "Quick Reconnoiter",
     "link": "/feats/complete-adventurer--54/quick-reconnoiter--2318/",
@@ -39462,20 +39045,6 @@
       {
         "type": "feats",
         "id": "3525"
-      }
-    ]
-  },
-  "2633": {
-    "name": "Quick Swimmer",
-    "link": "/feats/complete-scoundrel--60/quick-swimmer--3301/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Swim check to move at least 10 feet, you can move an extra 10 feet as part of that action.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 64,
-        "value": 5
       }
     ]
   },
@@ -43043,25 +42612,6 @@
     "benefit": "A searing spell is so hot that it ignores the resistance to fire of creatures affected by the spell, and affected creatures with immunity to fire still take half damage. This feat can be applied only to spells with the fire descriptor. Creatures with the cold subtype take double damage from a searing spell. Creatures affected by a searing spell are still entitled to whatever saving throw the spell normally allows. A searing spell uses up a spell slot one level higher than the spell's actual level.",
     "prerequisites": []
   },
-  "2874": {
-    "name": "Second Impression",
-    "link": "/feats/complete-scoundrel--60/second-impression--3302/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If an observer sees through your disguise with a successful Spot check, you can (as an immediate action) attempt a Bluff check to convince him that he's mistaken. Use the observer's Spot check result as the DC for your Bluff check; if you succeed, the observer ignores the evidence of his own senses in favor of what your disguise attempts to show.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 6,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 14,
-        "value": 5
-      }
-    ]
-  },
   "2875": {
     "name": "Second Slam",
     "link": "/feats/races-of-eberron--10/second-slam--2541/",
@@ -44499,25 +44049,6 @@
       }
     ]
   },
-  "2967": {
-    "name": "Shrouded Dance",
-    "link": "/feats/complete-scoundrel--60/shrouded-dance--3303/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a move action, you can attempt a DC 20 Hide check. If you succeed, you have concealment until the start of your next turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 20,
-        "value": 8
-      },
-      {
-        "type": "skills",
-        "id": 51,
-        "value": 5
-      }
-    ]
-  },
   "2968": {
     "name": "Sickening Grasp",
     "link": "/feats/complete-mage--58/sickening-grasp--2619/",
@@ -44959,25 +44490,6 @@
       }
     ]
   },
-  "2999": {
-    "name": "Slipping Past",
-    "link": "/feats/complete-scoundrel--60/slipping-past--3305/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a swift action, you can ignore the additional movement movement cost and penalty on attack rolls and to AC when squeezing through a narrow space (PH 148). The benefit lasts until the start of your next turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 15,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 5
-      }
-    ]
-  },
   "3000": {
     "name": "Slow (flaw)",
     "link": "/feats/unearthed-arcana--90/slow-flaw--2648/",
@@ -45360,25 +44872,6 @@
       }
     ]
   },
-  "3029": {
-    "name": "Social Recovery",
-    "link": "/feats/complete-scoundrel--60/social-recovery--3304/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If your Diplomacy check to influence an NPC's attitude fails, you can spend another full round talking to the <span class=\"caps\">NPC</span>, then make a Bluff check with a &#8212;10 penalty. Use the result of this check in place of the Diplomacy check result, except that it can't improve the NPC's attitude by more than one step.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 6,
-        "value": 8
-      },
-      {
-        "type": "skills",
-        "id": 12,
-        "value": 5
-      }
-    ]
-  },
   "3030": {
     "name": "Solid Visage",
     "link": "/feats/ghostwalk--94/solid-visage--3579/",
@@ -45726,20 +45219,6 @@
         "type": "score",
         "score": "WIS",
         "value": 13
-      }
-    ]
-  },
-  "3056": {
-    "name": "Speedy Ascent",
-    "link": "/feats/complete-scoundrel--60/speedy-ascent--3306/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Climb check to move at least 10 feet, you can move an extra 10 feet as part of that action.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 7,
-        "value": 5
       }
     ]
   },
@@ -46602,20 +46081,6 @@
           "neutral",
           "evil"
         ]
-      }
-    ]
-  },
-  "3118": {
-    "name": "Spot the Weak Point",
-    "link": "/feats/complete-scoundrel--60/spot-weak-point--3307/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "As a standard action, you can attempt a Spot check to find a weakness in your opponent's defenses. The DC of this check equals the opponent's AC. If the check succeeds, your next attack against that opponent (which must be made no later than your next turn) is treated as a touch attack.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 62,
-        "value": 12
       }
     ]
   },
@@ -47703,24 +47168,6 @@
       "Special attack"
     ]
   },
-  "3191": {
-    "name": "Sudden Draw",
-    "link": "/feats/complete-scoundrel--60/sudden-draw--3308/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If an opponent provokes an attack of opportunity from you, you can draw a weapon that you have successfully concealed using Sleight of Hand (PH 81) as an immediate action to deliver the attack of opportunity with that weapon. That opponent is treated as flat-footed against the attack with the concealed weapon.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 60,
-        "value": 8
-      },
-      {
-        "type": "feats",
-        "id": "2627"
-      }
-    ]
-  },
   "3192": {
     "name": "Sudden Empower",
     "link": "/feats/complete-arcane--55/sudden-empower--2813/",
@@ -48546,20 +47993,6 @@
     "benefit": "You can call your special mount as a swift action. NORMAL: Calling a special mount is a full-round action.",
     "prerequisites": [
       "Special mount class feature"
-    ]
-  },
-  "3250": {
-    "name": "Swift Concentration",
-    "link": "/feats/complete-scoundrel--60/swift-concentration--3309/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can maintain concentration on a spell or similar effect as a swift action.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 8,
-        "value": 12
-      }
     ]
   },
   "3251": {
@@ -49524,20 +48957,6 @@
       "shift (such as the shifter ability from the EBERRON campaign setting or the bloodclaw master prestige class feature; see page 96)"
     ]
   },
-  "3317": {
-    "name": "Timely Misdirection",
-    "link": "/feats/complete-scoundrel--60/timely-misdirection--3310/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you succeed on a Bluff check to feint in combat (PH 68), your opponent can't make any attacks of opportunity against you until the start of its next turn. This effect is in addition to the normal benefits of a successful feint.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 6,
-        "value": 8
-      }
-    ]
-  },
   "3318": {
     "name": "Tireless",
     "link": "/feats/players-guide-to-faerun--22/tireless--2925/",
@@ -50341,20 +49760,6 @@
     "benefit": "You gain a +2 bonus on all Diplomacy and Gather Information checks.",
     "prerequisites": []
   },
-  "3376": {
-    "name": "Tumbling Crawl",
-    "link": "/feats/complete-scoundrel--60/tumbling-crawl--3311/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "By succeeding on a DC 15 Tumble check, you can crawl 5 feet as a move action without provoking attacks of opportunity. Crawling normally provokes attacks of opportunity from any attackers who threaten you at any point during your crawl (PH 142).",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 5
-      }
-    ]
-  },
   "3377": {
     "name": "Tumbling Feint",
     "link": "/feats/players-handbook-ii--80/tumbling-feint--2981/",
@@ -50579,25 +49984,6 @@
         "value": "sneak attack",
         "diceAmount": 2,
         "diceType": "d6"
-      }
-    ]
-  },
-  "3394": {
-    "name": "Twisted Charge",
-    "link": "/feats/complete-scoundrel--60/twisted-charge--3312/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "When you charge, you can make one turn of up to 90 degrees during your movement. You can't move more than your speed as part of this charge. All other restrictions on charges still apply, and you must have line of sight to the opponent at the start of your turn.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 5,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 5
       }
     ]
   },
@@ -51242,25 +50628,6 @@
     "special": "If you have selected outsider as your favored enemy, your bonus on saving throws is instead equal to your favored enemv bonus against outsiders.",
     "benefit": "&amp;quot;lou gain a +2 bonus on saves against the extraordinary or supernatural abilities of outsiders.",
     "prerequisites": []
-  },
-  "3437": {
-    "name": "Up the Hill",
-    "link": "/feats/complete-scoundrel--60/up-the-hill--3313/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can move up a steep slope or stairs at your normal speed instead of at half speed. This effect lasts for 1 round.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 5,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 5
-      }
-    ]
   },
   "3438": {
     "name": "Up the Walls",
@@ -52208,44 +51575,6 @@
     "benefit": "You take a -1 penalty to Armor Class",
     "prerequisites": []
   },
-  "3501": {
-    "name": "Walk the Walls",
-    "link": "/feats/complete-scoundrel--60/walk-walls--3314/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can move up a wall without making a Climb check. Each 5 feet of vertical movement costs you 4 squares of movement, and you must begin and end your turn on a horizontal surface.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 7,
-        "value": 12
-      },
-      {
-        "type": "skills",
-        "id": 66,
-        "value": 5
-      }
-    ]
-  },
-  "3502": {
-    "name": "Wall Jumper",
-    "link": "/feats/complete-scoundrel--60/wall-jumper--3315/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "If you have succeeded on a Climb check to ascend or descend a wall during this or your previous turn, you can leap horizontally from that wall as if you had a running start.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 7,
-        "value": 5
-      },
-      {
-        "type": "skills",
-        "id": 25,
-        "value": 5
-      }
-    ]
-  },
   "3503": {
     "name": "Wand Mastery",
     "link": "/feats/eberron-campaign-setting--12/wand-mastery--3085/",
@@ -52769,21 +52098,6 @@
       },
       "Weapon Proficiency with with selected weapon",
       "Weapon Mastery with damage type of selected weapon"
-    ]
-  },
-  "3546": {
-    "name": "Whip Climber",
-    "link": "/feats/complete-scoundrel--60/whip-climber--3316/",
-    "bookId": "15",
-    "isSkillTrick": true,
-    "benefit": "You can use a whip as a makeshift grappling hook, lashing it around a protrusion or other firm, weightbearing object in order to climb a wall or swing across a chasm. You make Climb checks using the whip as if it were a normal rope. Using this feat requires a Use Rope check as normal for securing a grappling hook (PH 86) but takes only a move action.",
-    "prerequisites": [
-      {
-        "type": "skills",
-        "id": 69,
-        "value": 5
-      },
-      "proficiency with the whip"
     ]
   },
   "3547": {
