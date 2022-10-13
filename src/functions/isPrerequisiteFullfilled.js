@@ -51,7 +51,4 @@ const isPrerequisiteFullfilled = (p, levelData) => {
     return prerequisiteValidations[p.type](p, levelData)
 }
 
-const filterUnfulfilledPrerequisites = (prerequisites, fullLevelData) => prerequisites
-    .filter(prerequisite => !isPrerequisiteFullfilled(prerequisite, fullLevelData))
-
-export default filterUnfulfilledPrerequisites
+export default isPrerequisiteFullfilled

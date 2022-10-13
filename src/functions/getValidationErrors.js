@@ -1,5 +1,5 @@
 import skilltrickStats from '../db/json/itemData/skilltrickStats.json'
-import filterUnfulfilledPrerequisites from './filterUnfulfilledPrerequisites';
+import isPrerequisiteFulfilled from './isPrerequisiteFullfilled';
 
 const validateLevel = (levelData, nLevel) => {
     const {
@@ -31,7 +31,8 @@ const validateLevel = (levelData, nLevel) => {
             .reduce((acc,{id})=>({
                 ...acc,
                 [id]: {
-                    unfullfilledPrerequisites: filterUnfulfilledPrerequisites(skilltrickStats[id].prerequisites||[], levelData)
+                    unfullfilledPrerequisites: (skilltrickStats[id].prerequisites||[])
+                        .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
                 }
             }),{})
     }
