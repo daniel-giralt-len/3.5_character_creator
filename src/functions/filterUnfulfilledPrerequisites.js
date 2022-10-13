@@ -22,7 +22,7 @@ const checkOneOf = (p, c) => p.choices.some(pi => isPrerequisiteFullfilled(pi, c
 
 const prerequisiteValidations = {
     // races: (p, c) => c.races === p.id,
-    // feats: (p, c) => c.feats.includes(p.id),
+    feats: (p, c) => c.feats && c.feats[p.id],
     skills: (p, c) => c.skillRanks.added[p.id] && (c.skillRanks.added[p.id]) >= (p.value || 0),
     // score: (p, c) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
     // bab: (p, c) => c.bonuses.bab >= p.value,
