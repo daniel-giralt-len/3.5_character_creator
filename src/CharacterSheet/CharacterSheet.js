@@ -57,10 +57,6 @@ const CharacterSheetLayout = styled.section`
     }
 `
 
-const SkilltricksLayout = styled.div`
-    grid-area: skilltricks;
-`
-
 function CharacterSheet({
         character,
         currentLevelData,
