@@ -6,18 +6,20 @@ const SkillTricksLayout = styled.ul`
     grid-area: skilltricks;
     padding: 0;
     margin: 0;
-    ${({warning}) => warning ? `
-    background: #ff000033;
-    ` : ''};
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "level name buttons";
+    grid-template-columns: 1fr 4fr 1fr;
 `
 
-const SkillTrickLayout = styled.li`
+const SkillTrickItemLayout = styled.li`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 `
 
-const Header = SidewaysBlackLabel
+const Header = styled(SidewaysBlackLabel)`grid-area: header`
     
 function SkillTrickItem({
     skillTrick,
@@ -26,18 +28,25 @@ function SkillTrickItem({
     nLevel,
     selectedLevelIndex
 }){
+    const isSkillTrickSelected = nLevel === selectedLevelIndex
     return (
-        <SkillTrickLayout>
+        <>
+        <SkillTrickItemLayout>
             <Text warning={errors.unfullfilledPrerequisites.length > 0}>
-                {nLevel}
+                {isSkillTrickSelected ? `>${nLevel}<` : nLevel}
             </Text>
+            </SkillTrickItemLayout>
+            <SkillTrickItemLayout>
             <Text warning={errors.unfullfilledPrerequisites.length > 0}>
-                {skillTrick.name}
+                {isSkillTrickSelected ? `>${skillTrick.name}` : skillTrick.name}
             </Text>
-            {onDelete && nLevel === selectedLevelIndex && (<SquareButton onClick={() => onDelete(nLevel)}>
+            </SkillTrickItemLayout>
+            <div>
+            {onDelete && isSkillTrickSelected && (<SquareButton onClick={() => onDelete(nLevel)}>
                 -
             </SquareButton>)}
-        </SkillTrickLayout>
+            </div>
+        </>
     )
 }
 
@@ -45,7 +54,7 @@ const renderSkillTricks = ({skillTricks, errors, handleDelete, selectedLevelInde
     return skillTricks
             .map(({id, nLevel}) => {
                 return (<SkillTrickItem
-                    key={id}
+                    key={`${id}-${nLevel}`}
                     skillTrick={skillTrickDb[id]}
                     nLevel={nLevel}
                     onDelete={handleDelete}
@@ -76,6 +85,9 @@ function SkillTricks({
                 name={translate('skilltricks')}
                 //warning={areLanguagesOverBudget}
             />
+            <Text small centered>{translate('level')}</Text>
+            <Text small centered>{translate('class')}</Text>
+            <Text small />
             {renderSkillTricks({skillTricks, handleDelete, errors, selectedLevelIndex})}
         </SkillTricksLayout>
     );
