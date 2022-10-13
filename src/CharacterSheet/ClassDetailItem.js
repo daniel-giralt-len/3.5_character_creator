@@ -19,6 +19,7 @@ function ClassDetailItem({
     canDuplicate = false,
     isFirstLevel = false,
     isLastLevel = false,
+    errors = {}
 }){
     const {name} = classData
     const level = position
@@ -27,14 +28,16 @@ function ClassDetailItem({
             <Text
                 centered
                 onClick={onSelectedLevelChange}
+                warning={errors.anyError}
             >
                 {isSelected ? `>${level}<` : level}
             </Text>
             <VerticallyAlignedText
                 small
                 onClick={onSelectedLevelChange}
+                warning={errors.anyError}
             >
-                {name}
+                {isSelected ? `>${name}` : name}
             </VerticallyAlignedText>
             <div>
                 {onDuplication && canDuplicate && (<SquareButton onClick={() => onDuplication(position-1)}>

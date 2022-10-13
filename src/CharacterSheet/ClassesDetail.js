@@ -21,6 +21,7 @@ function ClassesDisplay({
     handleClassChange,
     onSelectedLevelChange,
     selectedLevelIndex,
+    errors
 }) {
     const indices = Array(classes.length).fill().map((_,i)=>i)
     const handleReorder = (position, direction) => {
@@ -70,6 +71,7 @@ function ClassesDisplay({
                     canDuplicate={canDuplicate}
                     isFirstLevel={i === 0}
                     isLastLevel={i === classes.length - 1}
+                    errors={errors[i+1]}
             />))
             }
         </ClassesLayout>

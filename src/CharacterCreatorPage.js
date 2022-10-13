@@ -155,6 +155,7 @@ function CharacterCreatorPage() {
         currentLevelData={fullCharacterDataByLevel[selectedCharacterLevel]}
         currentLevelErrors={validationErrors[selectedCharacterLevel]}
         fullClassList={fullCharacterDataByLevel[fullCharacterDataByLevel.length-1].classes}
+        classErrorList={validationErrors.map(({level})=>({...level}))}
         onCreationChange={handleCreationChange}
         onClassChange={handleClassChange}
         translate={translate}

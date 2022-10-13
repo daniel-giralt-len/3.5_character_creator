@@ -69,6 +69,7 @@ function CharacterSheet({
         onSelectedLevelChange,
         usedCorpus,
         fullClassList,
+        classErrorList
     }){
         const {
             scores,
@@ -181,6 +182,7 @@ function CharacterSheet({
                     handleClassChange={onClassChange}
                     onSelectedLevelChange={onSelectedLevelChange}
                     selectedLevelIndex={selectedLevelIndex}
+                    errors={classErrorList}
                 />
                 <Languages
                     languages={language}

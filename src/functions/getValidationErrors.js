@@ -4,20 +4,27 @@ const validateLevel = ({
     skillPoints,
     skillRanks
 }, nLevel) => {
-    return {
+    let anyError = false
+    const val = e => {
+        anyError = anyError || e;
+        return e;
+    }
+    const out = {
         language: {
-            overBudget: nKnownLanguages > maxKnownLanguages
+            overBudget: val(nKnownLanguages > maxKnownLanguages)
         },
         skills: {
-            isTotalOverbudget: skillPoints.nUsed.added > skillPoints.nAvailable.added,
+            isTotalOverbudget: val(skillPoints.nUsed.added > skillPoints.nAvailable.added),
             isOverBudget: Object
                 .entries(skillRanks.added)
                 .reduce((acc, [id, ranks]) => ({
                     ...acc,
-                    [id]: ranks > skillRanks.maxPerSkill
+                    [id]: val(ranks > skillRanks.maxPerSkill)
                 }), {})
         }
     }
+    out.level = { anyError }
+    return out
 }
 
 const debugGetValidationErrors = true
