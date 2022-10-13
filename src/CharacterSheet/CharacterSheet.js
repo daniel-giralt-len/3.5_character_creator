@@ -178,6 +178,7 @@ function CharacterSheet({
                     translate={translate}
                     errors={currentLevelErrors.skillTricks}
                     onSkillRemove={handleSkillRemoving}
+                    selectedLevelIndex={selectedLevelIndex}
                 />
                 <ClassesDetail
                     classes={fullClassList}
