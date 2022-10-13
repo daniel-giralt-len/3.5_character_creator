@@ -23,9 +23,13 @@ function SkillTrickItem({
     skillTrick,
     onDelete,
     errors,
+    nLevel,
 }){
     return (
         <SkillTrickLayout>
+            <Text warning={errors.unfullfilledPrerequisites.length > 0}>
+                {nLevel}
+            </Text>
             <Text warning={errors.unfullfilledPrerequisites.length > 0}>
                 {skillTrick.name}
             </Text>
@@ -38,10 +42,11 @@ function SkillTrickItem({
 
 const renderSkillTricks = ({skillTricks, errors, handleDelete}) => {
     return skillTricks
-            .map((id) => {
+            .map(({id, nLevel}) => {
                 return (<SkillTrickItem
                     key={id}
                     skillTrick={skillTrickDb[id]}
+                    nLevel={nLevel}
                     onDelete={handleDelete}
                     errors={errors[id]}
                 />)
@@ -49,18 +54,18 @@ const renderSkillTricks = ({skillTricks, errors, handleDelete}) => {
 }
 
 function SkillTricks({
-    skillTricks = {},
+    skillTricks = [],
     translate,
     maxSkillTricks,
     usedSkillTricks,
     usedSkillPoints,
     onLanguagesChange,
     automaticLanguages,
-    errors
+    errors,
+    onSkillRemove
 }) {
-    //const handleDelete = id => onLanguagesChange({...languages, [id]: false})
+    const handleDelete = id => onSkillRemove()
     //const areLanguagesOverBudget = usedLanguages>maxLanguages
-    const selectedSkillTricks = Object.values(skillTricks).map(k=>k)
 
     return (
         <SkillTricksLayout>
@@ -68,7 +73,7 @@ function SkillTricks({
                 name={translate('skilltricks')}
                 //warning={areLanguagesOverBudget}
             />
-            {renderSkillTricks({skillTricks: selectedSkillTricks, errors})}
+            {renderSkillTricks({skillTricks, handleDelete, errors})}
         </SkillTricksLayout>
     );
 }

@@ -18,7 +18,7 @@ const orMergeMethod = (va,vb)=>va||vb
 const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,orMergeMethod)
 const mergeSkillPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
-const mergeSkillTricks = (c,p) => ([...p, c]).filter(v=>v)
+const mergeSkillTricks = (c,p,nLevel) => (c ? [...p, {id: c, nLevel}] : p).filter(v=>v)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeClassSkills = (a,b) => [...a, ...b].filter(onlyUnique)
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
@@ -45,7 +45,7 @@ const calculateLevelData = (acc, level, nLevel) => {
             defaultPrevious: [],
             getCurrent: () => getLevelClassSkills(level.class)
         }),
-        skillTricks: getRevisionBasedObject(level, acc, 'skillTricks', mergeSkillTricks,{
+        skillTricks: getRevisionBasedObject(level, acc, 'skillTricks', (c,p)=>mergeSkillTricks(c,p,nLevel),{
             defaultPrevious: [],
             defaultCurrent: null,
         }),

@@ -28,7 +28,7 @@ const validateLevel = (levelData, nLevel) => {
                 }), {}),
         },
         skillTricks: skillTricks.added
-            .reduce((acc,id)=>({
+            .reduce((acc,{id})=>({
                 ...acc,
                 [id]: {
                     unfullfilledPrerequisites: filterUnfulfilledPrerequisites(skilltrickStats[id].prerequisites||[], levelData)

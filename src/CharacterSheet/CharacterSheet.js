@@ -111,6 +111,7 @@ function CharacterSheet({
         const onFeatsChange = feats => onCreationChange({...character, feats})
         const onLanguagesChange = language => onCreationChange({ language })
         const onAlignmentChange = alignment => onCreationChange({ alignment }, 'alignment')
+        const handleSkillRemoving = () => onCreationChange({skilltricks: null}, 'skilltrick')
 
         return(
             <CharacterSheetLayout>
@@ -176,6 +177,7 @@ function CharacterSheet({
                     skillTricks={skillTricks.added}
                     translate={translate}
                     errors={currentLevelErrors.skillTricks}
+                    onSkillRemove={handleSkillRemoving}
                 />
                 <ClassesDetail
                     classes={fullClassList}
