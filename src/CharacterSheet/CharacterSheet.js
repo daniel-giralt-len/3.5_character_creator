@@ -175,6 +175,7 @@ function CharacterSheet({
                 <SkillTricks
                     skillTricks={skillTricks.added}
                     translate={translate}
+                    errors={currentLevelErrors.skillTricks}
                 />
                 <ClassesDetail
                     classes={fullClassList}

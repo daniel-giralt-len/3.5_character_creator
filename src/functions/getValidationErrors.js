@@ -27,7 +27,7 @@ const validateLevel = (levelData, nLevel) => {
                     [id]: val(ranks > skillRanks.maxPerSkill)
                 }), {}),
         },
-        skilltricks: skillTricks.added
+        skillTricks: skillTricks.added
             .reduce((acc,id)=>({
                 ...acc,
                 [id]: {

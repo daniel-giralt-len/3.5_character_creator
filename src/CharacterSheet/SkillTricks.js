@@ -22,10 +22,11 @@ const Header = SidewaysBlackLabel
 function SkillTrickItem({
     skillTrick,
     onDelete,
+    errors,
 }){
     return (
         <SkillTrickLayout>
-            <Text>
+            <Text warning={errors.unfullfilledPrerequisites.length > 0}>
                 {skillTrick.name}
             </Text>
             {onDelete && (<SquareButton onClick={() => onDelete(skillTrick.id)}>
@@ -35,13 +36,14 @@ function SkillTrickItem({
     )
 }
 
-const renderSkillTricks = ({skillTricks, handleDelete}) => {
+const renderSkillTricks = ({skillTricks, errors, handleDelete}) => {
     return skillTricks
             .map((id) => {
                 return (<SkillTrickItem
                     key={id}
                     skillTrick={skillTrickDb[id]}
                     onDelete={handleDelete}
+                    errors={errors[id]}
                 />)
             })
 }
@@ -54,6 +56,7 @@ function SkillTricks({
     usedSkillPoints,
     onLanguagesChange,
     automaticLanguages,
+    errors
 }) {
     //const handleDelete = id => onLanguagesChange({...languages, [id]: false})
     //const areLanguagesOverBudget = usedLanguages>maxLanguages
@@ -65,7 +68,7 @@ function SkillTricks({
                 name={translate('skilltricks')}
                 //warning={areLanguagesOverBudget}
             />
-            {renderSkillTricks({skillTricks: selectedSkillTricks})}
+            {renderSkillTricks({skillTricks: selectedSkillTricks, errors})}
         </SkillTricksLayout>
     );
 }
