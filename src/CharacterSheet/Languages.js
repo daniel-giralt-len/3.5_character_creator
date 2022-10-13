@@ -53,16 +53,16 @@ function Languages({
     usedLanguages,
     onLanguagesChange,
     automaticLanguages,
+    errors
 }) {
     const handleDelete = id => onLanguagesChange({...languages, [id]: false})
-    const areLanguagesOverBudget = usedLanguages>maxLanguages
     const selectedLanguages = Object.entries(languages).filter(([k,v])=>v).map(([k])=>k)
 
     return (
-        <LanguagesLayout warning={areLanguagesOverBudget}>
+        <LanguagesLayout warning={errors.overBudget}>
             <Header
                 name={translate('language')} subtitle={`${usedLanguages}/${maxLanguages}`}
-                warning={areLanguagesOverBudget}
+                warning={errors.overBudget}
             />
             {renderLanguages({languages: automaticLanguages})}
             {renderLanguages({languages: selectedLanguages, handleDelete})}

@@ -189,6 +189,7 @@ function CharacterSheet({
                     usedLanguages={nKnownLanguages}
                     onLanguagesChange={onLanguagesChange}
                     automaticLanguages={raceData['automatic languages'] || []}
+                    errors={currentLevelErrors.language}
                 /> 
             </CharacterSheetLayout>
         )
