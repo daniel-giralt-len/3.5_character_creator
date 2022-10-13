@@ -64,6 +64,7 @@ const SkilltricksLayout = styled.div`
 function CharacterSheet({
         character,
         currentLevelData,
+        currentLevelErrors,
         selectedLevelIndex,
         translate,
         onClassChange,
@@ -162,6 +163,7 @@ function CharacterSheet({
                     permittedSkills={usedCorpus.skills}
                     extraSkills={usedCorpus.extraSkills}
                     selectedLevelIndex={selectedLevelIndex}
+                    errors={currentLevelErrors.skills}
                 />
                 {/*
                 <Feats 

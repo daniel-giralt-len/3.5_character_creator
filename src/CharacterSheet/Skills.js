@@ -39,11 +39,11 @@ function Skills({
         onSkillChange,
         permittedSkills,
         extraSkills,
-        selectedLevelIndex
+        selectedLevelIndex,
+        errors
     }){
         const handleSkillChange = (id, points) => onSkillChange({id, points: parseInt(points)})
         const isChangeable = selectedLevelIndex !== 0
-        const isOverallOverbudget = skillPoints.nUsed.added > skillPoints.nAvailable.added
         
         const refinedSkillsData = skillsData
                 .filter(({id})=>permittedSkills === '*' || permittedSkills.includes(id)) //remove skills not allowed in the corpus
@@ -56,7 +56,7 @@ function Skills({
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
                         subtitle={`${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`}
-                        warning={isOverallOverbudget}
+                        warning={errors.isTotalOverbudget}
                     >
                         {`${translate('max ranks')}: ${skillRanks.maxPerSkill}`}
                     </HeaderWrapper>
@@ -68,7 +68,6 @@ function Skills({
                     {
                         refinedSkillsData.map(skill =>{
                             const scoreName = skill['key ability']
-                            const isSkillOverBudget = skillRanks.added[skill.id] > skillRanks.maxPerSkill
                             return (<SkillItem
                                 key={skill.name}
                                 isClass={classSkills.includes(skill.id)}
@@ -84,7 +83,7 @@ function Skills({
                                 onPointsChange={handleSkillChange}
                                 translate={translate}
                                 enabled={isChangeable}
-                                isSkillOverBudget={isSkillOverBudget}
+                                isSkillOverBudget={errors.isOverBudget[skill.id]}
                             />)
                         })
                      }

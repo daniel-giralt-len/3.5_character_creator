@@ -120,9 +120,11 @@ function CharacterCreatorPage() {
   useEffect(()=>{
     setFullCharacterDataByLevel(getCumulativeLevels(characterLevels, selectedCharacterLevel))
     setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
-    setValidationErrors(getValidationErrors(fullCharacterDataByLevel))
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cookies, selectedCharacterLevel, lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20])
+  useEffect(()=>{
+    setValidationErrors(getValidationErrors(fullCharacterDataByLevel))
+  }, [fullCharacterDataByLevel])
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
@@ -151,6 +153,7 @@ function CharacterCreatorPage() {
     <LeftWrapper>
       <CharacterSheet
         currentLevelData={fullCharacterDataByLevel[selectedCharacterLevel]}
+        currentLevelErrors={validationErrors[selectedCharacterLevel]}
         fullClassList={fullCharacterDataByLevel[fullCharacterDataByLevel.length-1].classes}
         onCreationChange={handleCreationChange}
         onClassChange={handleClassChange}
