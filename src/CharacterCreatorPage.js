@@ -96,6 +96,8 @@ function CharacterCreatorPage() {
       - Certain feats and prestige class features allow a character to exceed these limits.
       */
       newCharacterLevels[selectedCharacterLevel].skillTricks = creationChanges.skilltricks
+    }else if(type==='removeSkillTrick'){
+      newCharacterLevels[creationChanges.nLevel].skillTricks = null
     }else if(type==='skillPoints'){
       const {id, points} = creationChanges
       const clampedPoints = clampInteger(points, 0, 999) //TODO: 100 to maxPoints
