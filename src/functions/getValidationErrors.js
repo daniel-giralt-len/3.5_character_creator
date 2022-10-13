@@ -1,9 +1,14 @@
-const validateLevel = ({
-    nKnownLanguages,
-    maxKnownLanguages,
-    skillPoints,
-    skillRanks
-}, nLevel) => {
+import skilltrickStats from '../db/json/itemData/skilltrickStats.json'
+import filterUnfulfilledPrerequisites from './filterUnfulfilledPrerequisites';
+
+const validateLevel = (levelData, nLevel) => {
+    const {
+        nKnownLanguages,
+        maxKnownLanguages,
+        skillPoints,
+        skillRanks,
+        skillTricks,
+    } = levelData
     let anyError = false
     const val = e => {
         anyError = anyError || e;
@@ -20,8 +25,15 @@ const validateLevel = ({
                 .reduce((acc, [id, ranks]) => ({
                     ...acc,
                     [id]: val(ranks > skillRanks.maxPerSkill)
-                }), {})
-        }
+                }), {}),
+        },
+        skilltricks: skillTricks.added
+            .reduce((acc,id)=>({
+                ...acc,
+                [id]: {
+                    unfullfilledPrerequisites: filterUnfulfilledPrerequisites(skilltrickStats[id].prerequisites||[], levelData)
+                }
+            }),{})
     }
     out.level = { anyError }
     return out
