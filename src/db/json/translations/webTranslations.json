@@ -83,7 +83,8 @@
         "involving ropes": "Involving ropes",
         "base level": "Base",
         "max ranks": "Max Ranks",
-        "skillItemOverbudget": "Max ranks are {maxRanks} but you have {boughtRank}"
+        "error skill over budget": "Max ranks are {maxRanks} but you have {boughtRank}",
+        "error skill total over budget": "You spent {spentPoints} points but only have {maxPoints}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -164,7 +165,8 @@
         "involving ropes": "Relacionado con cuerdas",
         "base level": "Base",
         "max ranks": "Rangos Máx.",
-        "skillItemOverbudget": "Tienes {boughtRank} rangos pero el máximo es {maxRanks}"
+        "error skill over budget": "Tienes {boughtRank} rangos pero el máximo es {maxRanks}",
+        "error skill total over budget": "Has gastado {spentPoints} puntos pero solo tienes {maxPoints}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -245,6 +247,7 @@
         "involving ropes": "Relacionat amb cordes",
         "base level": "Base",
         "max ranks": "Rangs màx.",
-        "error skill over budget": "Tens {boughtRank} rangs pero el màxim és {maxRanks}"
+        "error skill over budget": "Tens {boughtRank} rangs pero el màxim és {maxRanks}",
+        "error skill total over budget": "Has gastat {spentPoints} punts pero només en tens {maxPoints}"
     }
 }

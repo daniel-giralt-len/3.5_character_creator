@@ -88,12 +88,13 @@ const Text = ({children='', className, ...rest}) => (<TextWrapper
     </TextWrapper>
 )
 
-const BlackLabel = ({name='', subtitles=[], className, warning})=>(
+const BlackLabel = ({name='', subtitles=[], className, warning, children})=>(
     <BlackLabelWrapper className={className} warning={warning}>
         <Text bold>{name.toString().toUpperCase()}</Text>
         {subtitles.map((subtitle,key)=>(<Text key={key} small>
             {subtitle.toString().toUpperCase()}
         </Text>))}
+        {children}
     </BlackLabelWrapper>
 )
 
@@ -137,7 +138,7 @@ const ErrorTooltipWrapper = styled(Text)`
 `
 
 const ErrorTooltip = ({message}) => (
-    <ErrorTooltipWrapper bold data-tip={message}>
+    <ErrorTooltipWrapper data-tip={message}>
         Ø
     </ErrorTooltipWrapper>
 )

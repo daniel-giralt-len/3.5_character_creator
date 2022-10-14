@@ -4,7 +4,8 @@ import SkillItem from './SkillItem'
 
 import {
     Text,
-    SidewaysBlackLabel
+    SidewaysBlackLabel,
+    ErrorTooltip
 } from '../sharedComponents'
 
 const HeaderWrapper = styled(SidewaysBlackLabel)`
@@ -51,16 +52,25 @@ function Skills({
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
+        const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip 
+            message={translate('error skill total over budget', undefined, {
+                spentPoints: skillPoints.nUsed.added,
+                maxPoints: skillPoints.nAvailable.added
+            })}
+        />)
+
         return (
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
                         subtitles={[
                             `${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`,
-                            `${translate('max ranks')}: ${skillRanks.maxPerSkill}`
+                            `${translate('max ranks')}: ${skillRanks.maxPerSkill}`,
                         ]}
                         warning={errors.isTotalOverBudget}
-                    />
+                    >
+                        {OverallErrorMessage}
+                    </HeaderWrapper>
                     <Text small centered/>
                     <Text small centered>{translate('name')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
