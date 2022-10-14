@@ -19,7 +19,7 @@ const SkillTrickItemLayout = styled.li`
     align-items: center;
 `
 
-const Header = styled(SidewaysBlackLabel)`grid-area: header`
+const Header = styled(SidewaysBlackLabel)`grid-area: header;`
     
 function SkillTrickItem({
     skillTrick,
@@ -73,19 +73,18 @@ function SkillTricks({
     skillPointsUsed
 }) {
     const handleDelete = nLevel => onSkillRemove(nLevel)
-    //const areLanguagesOverBudget = usedLanguages>maxLanguages
 
     return (
         <SkillTricksLayout>
             <Header
                 name={translate('skilltricks')}
                 subtitle={`${skillPointsUsed} ${translate('points')}`}
-                //warning={areLanguagesOverBudget}
+                warning={errors.isTotalOverBudget}
             />
             <Text small centered>{translate('level')}</Text>
             <Text small centered>{translate('class')}</Text>
             <Text small />
-            {renderSkillTricks({skillTricks, handleDelete, errors, selectedLevelIndex})}
+            {renderSkillTricks({skillTricks, handleDelete, errors: errors.singularErrors, selectedLevelIndex})}
         </SkillTricksLayout>
     );
 }

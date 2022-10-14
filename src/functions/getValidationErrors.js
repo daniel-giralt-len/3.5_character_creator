@@ -19,7 +19,7 @@ const validateLevel = (levelData, nLevel) => {
             overBudget: val(nKnownLanguages > maxKnownLanguages)
         },
         skills: {
-            isTotalOverbudget: val(skillPoints.nUsed.added > skillPoints.nAvailable.added),
+            isTotalOverBudget: val(skillPoints.nUsed.added > skillPoints.nAvailable.added),
             isOverBudget: Object
                 .entries(skillRanks.added)
                 .reduce((acc, [id, ranks]) => ({
@@ -27,14 +27,18 @@ const validateLevel = (levelData, nLevel) => {
                     [id]: val(ranks > skillRanks.maxPerSkill)
                 }), {}),
         },
-        skillTricks: skillTricks.added
-            .reduce((acc,{id})=>({
-                ...acc,
-                [id]: {
-                    unfullfilledPrerequisites: (skilltrickStats[id].prerequisites||[])
-                        .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
-                }
-            }),{})
+        skillTricks: {
+            // - your total skill tricks cannot exceed one-half your character level (rounded up).
+            isTotalOverBudget: val(Math.ceil(nLevel/2) < skillTricks.added.length),
+            singularErrors: skillTricks.added
+                .reduce((acc,{id})=>({
+                    ...acc,
+                    [id]: {
+                        unfullfilledPrerequisites: (skilltrickStats[id].prerequisites||[])
+                            .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData))),
+                    }
+                }),{})
+        }
     }
     out.level = { anyError }
     return out
