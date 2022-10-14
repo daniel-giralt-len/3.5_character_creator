@@ -100,9 +100,9 @@ function CharacterCreatorPage() {
     }else if(type==='skilltricks'){
       if(selectedCharacterLevel === 0){ return } //cannot select them at level 0
       /*
-      - meet the prerequisite 
-      - expend 2 skill points.
-      - You can't learn more than one skill trick at any given level, 
+      + meet the prerequisite 
+      + expend 2 skill points.
+      + You can't learn more than one skill trick at any given level, 
       - your total skill tricks cannot exceed one-half your character level (rounded up).
       - Certain feats and prestige class features allow a character to exceed these limits.
       */

@@ -67,14 +67,10 @@ const renderSkillTricks = ({skillTricks, errors, handleDelete, selectedLevelInde
 function SkillTricks({
     skillTricks = [],
     translate,
-    maxSkillTricks,
-    usedSkillTricks,
-    usedSkillPoints,
-    onLanguagesChange,
-    automaticLanguages,
     errors,
     onSkillRemove,
-    selectedLevelIndex
+    selectedLevelIndex,
+    skillPointsUsed
 }) {
     const handleDelete = nLevel => onSkillRemove(nLevel)
     //const areLanguagesOverBudget = usedLanguages>maxLanguages
@@ -83,6 +79,7 @@ function SkillTricks({
         <SkillTricksLayout>
             <Header
                 name={translate('skilltricks')}
+                subtitle={`${skillPointsUsed} ${translate('points')}`}
                 //warning={areLanguagesOverBudget}
             />
             <Text small centered>{translate('level')}</Text>

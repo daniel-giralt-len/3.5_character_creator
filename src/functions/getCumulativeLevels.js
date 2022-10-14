@@ -12,6 +12,8 @@ import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
 import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
 import mergePreviousAndCurrent from './accumulationFunctions/mergePreviousAndCurrent'
 
+const skillPointsPerSkillTrick = 2
+
 const addMergeMethod = (va,vb)=>(va||0)+(vb||0)
 const orMergeMethod = (va,vb)=>va||vb
 
@@ -55,6 +57,7 @@ const calculateLevelData = (acc, level, nLevel) => {
         skilltricks */
     }
 
+    levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
 
     levelData.raceData = raceStats[levelData.races] || {}
 
@@ -77,7 +80,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     })
     levelData.skillPoints.nUsed = getRevisionBasedObject(level, acc, ['skillPoints','nUsed'], getAddedBySum, {
         defaultPrevious: 0,
-        getCurrent: () => countSkillPoints(levelData.skillPoints.current||{})
+        getCurrent: () => countSkillPoints(levelData.skillPoints.current||{}) + levelData.skillTricks.pointsUsed
     })
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {

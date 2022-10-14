@@ -175,6 +175,7 @@ function CharacterSheet({
                 */}
                 <SkillTricks
                     skillTricks={skillTricks.added}
+                    skillPointsUsed={skillTricks.pointsUsed}
                     translate={translate}
                     errors={currentLevelErrors.skillTricks}
                     onSkillRemove={handleSkillRemoving}
