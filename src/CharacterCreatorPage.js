@@ -45,7 +45,7 @@ const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel, 
       .reduce((acc,id)=>({...acc, [id]: true}),
         ((fullCharacterDataByLevel[selectedCharacterLevel]||{}).language||{})
       ),
-    skilltricks: ((fullCharacterDataByLevel[selectedCharacterLevel]||{}).skilltricks||{})
+    skilltricks: (((fullCharacterDataByLevel[selectedCharacterLevel]||{}).skilltricks||{}).added||[])
       .reduce((acc,{id})=>({...acc,[id]:true}),{})
     
   }

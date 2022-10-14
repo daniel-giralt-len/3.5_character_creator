@@ -11,11 +11,12 @@ const BaseItemWrapper = styled.div`
     background: #ff000033`: ''};
     
     box-shadow: 0px 0px 1px 0px #340000;
-    ${({isSelected}) => isSelected ? 'border: 2px solid #aafd81' : ''};
+    ${({isSelected}) => isSelected ? 'border: 2px solid #aafd81;' : ''}
 
     ${({hoverable})=>hoverable?`&:hover { 
         box-shadow: 0 0 3px 0px #340000; 
     }`:''}
+    ${({wasAlreadySelected}) => wasAlreadySelected ? 'background-color: #cfcfcf;' : ''}
 
     display: flex;
     align-content: space-around;
@@ -57,6 +58,7 @@ function BaseItem ({
         isAllowed={isAllowed} 
         isSelected={isSelected}
         isForbidden={isForbidden}
+        wasAlreadySelected={wasAlreadySelected}
         hoverable={isAddable && !canBeAddedMultipleTimes}
         onClick={(isAddable && !canBeAddedMultipleTimes) ? onSelectItem : undefined}
     >
