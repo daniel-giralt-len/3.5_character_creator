@@ -41,9 +41,13 @@ const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel, 
   selectorReadableCharacterLevel.races = characterLevels[0].races
   selectorReadableCharacterLevel.skilltricks = characterLevels.map(l=>l.skillTricks).filter(v=>v).reduce((acc,id)=>({...acc, [id]: true}),{})
   selectorReadableCharacterLevel.alreadySelected = {
-    language: [
-      ...((fullCharacterDataByLevel[0].raceData||{})['automatic languages']||[]),
-    ].reduce((acc,id)=>({...acc, [id]: true}),((fullCharacterDataByLevel[selectedCharacterLevel]||{}).language||{}))
+    language: ((fullCharacterDataByLevel[0].raceData||{})['automatic languages']||[])
+      .reduce((acc,id)=>({...acc, [id]: true}),
+        ((fullCharacterDataByLevel[selectedCharacterLevel]||{}).language||{})
+      ),
+    skilltricks: ((fullCharacterDataByLevel[selectedCharacterLevel]||{}).skilltricks||{})
+      .reduce((acc,{id})=>({...acc,[id]:true}),{})
+    
   }
   console.log(selectorReadableCharacterLevel.alreadySelected)
   return selectorReadableCharacterLevel
