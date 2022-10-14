@@ -16,10 +16,17 @@ const itemTranslations = {
 }
 
 const getTranslator = (language = 'en') => {
-    const translate = (strIn, itemType) => {
+    const translate = (strIn, itemType, variablesToReplace = []) => {
         const translations = itemTranslations[itemType] ? itemTranslations[itemType][language] : webTranslations[language]
         const str = strIn.toLowerCase()
-        return ((translations && translations[str]) || (webTranslations['*'] && webTranslations['*'][str]) || strIn)
+        const translatedStr = (
+            (translations && translations[str]) 
+            || (webTranslations['*'] && webTranslations['*'][str]) 
+            || strIn
+        )
+        const strWithVariables = Object.entries(variablesToReplace)
+            .reduce((str, [k,v]) => str.replace(`{${k}}`, v), translatedStr)
+        return strWithVariables
     }
     return translate
 }

@@ -43,10 +43,16 @@ const SkillItem = ({
     onPointsChange,
     translate,
     enabled,
-    isSkillOverBudget
+    isSkillOverBudget,
+    maxRanks
 })=>{
 
     const baseSectionText = `${modifierValue}${ranks.added[id] ? `+${ranks.added[id]}` : ''}`
+    const nRanks = ranks.added[id]||0
+
+    const ErrorDisplay = isSkillOverBudget ? (<ErrorTooltip 
+        message={translate(`error skill over budget`, undefined, {maxRanks, boughtRank: nRanks})}
+    />) : (<div/>)
 
     return (<>
         <CheckboxWrapper>
@@ -62,7 +68,7 @@ const SkillItem = ({
             </div>
             <SkillName small>{`(${translate(scoreName)})`}</SkillName>
         </NameWrapper>
-        <Text warning={isSkillOverBudget} box centered>{modifierValue+Math.floor(ranks.added[id]||0)}</Text>
+        <Text warning={isSkillOverBudget} box centered>{modifierValue+Math.floor(nRanks)}</Text>
         <Text warning={isSkillOverBudget} small centered underline>{baseSectionText}</Text>
         <CounterInput 
             warning={isSkillOverBudget}
@@ -77,7 +83,7 @@ const SkillItem = ({
             onChange={e => onPointsChange(id, e.target.value)}
             disabled={!enabled}
         />
-        {isSkillOverBudget ? (<ErrorTooltip message='Too many points' />) : (<div/>)}
+        {ErrorDisplay}
     </>)
 }
 

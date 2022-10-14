@@ -86,6 +86,7 @@ function Skills({
                                 translate={translate}
                                 enabled={isChangeable}
                                 isSkillOverBudget={errors.isOverBudget[skill.id]}
+                                maxRanks={skillRanks.maxPerSkill}
                             />)
                         })
                      }

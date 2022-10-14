@@ -82,7 +82,8 @@
         "to address power stones": "To address power stones",
         "involving ropes": "Involving ropes",
         "base level": "Base",
-        "max ranks": "Max Ranks"
+        "max ranks": "Max Ranks",
+        "skillItemOverbudget": "Max ranks are {maxRanks} but you have {boughtRank}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -162,7 +163,8 @@
         "to address power stones": "Refiriéndose a piedras de poder",
         "involving ropes": "Relacionado con cuerdas",
         "base level": "Base",
-        "max ranks": "Rangos Máx."
+        "max ranks": "Rangos Máx.",
+        "skillItemOverbudget": "Tienes {boughtRank} rangos pero el máximo es {maxRanks}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -242,6 +244,7 @@
         "to address power stones": "Referint-se a pedres de poder",
         "involving ropes": "Relacionat amb cordes",
         "base level": "Base",
-        "max ranks": "Rangs màx."
+        "max ranks": "Rangs màx.",
+        "error skill over budget": "Tens {boughtRank} rangs pero el màxim és {maxRanks}"
     }
 }
