@@ -41,7 +41,7 @@ function Saves({
                         [['fortitude', 'CON'], ['reflex', 'DEX'], ['will', 'WIS']].map(([name, score])=> (<Fragment key={name}>
                             <BlackLabel
                                 name={translate(name)}
-                                subtitle={`(${translate(`${score}_long`)})`}
+                                subtitles={[`(${translate(`${score}_long`)})`]}
                             />
                             <Text bold box>{bonuses[name]+modifiers[score]}</Text>
                             <Text>{bonuses[name]}</Text>

@@ -65,7 +65,8 @@ function Feats({
     return (
         <FeatsLayout warning={areFeatsOverBudget}>
             <Header
-                name={translate('feats')} subtitle={`${usedFeats}/${maxFeats}`}
+                name={translate('feats')}
+                subtitles={[`${usedFeats}/${maxFeats}`]}
                 warning={areFeatsOverBudget}
             />
             {renderFeats({feats, handleDelete})}

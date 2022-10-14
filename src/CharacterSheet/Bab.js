@@ -15,7 +15,7 @@ const Bab = ({
     <BabLayout>
         <BlackLabel
             name={translate('bab')}
-            subtitle={translate('base attack power')}
+            subtitles={[translate('base attack power')]}
         />
         <div/>
         <Text bold centered box>

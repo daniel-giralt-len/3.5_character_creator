@@ -62,7 +62,7 @@ function CharacterCreatorPage() {
   ])
   const setLevels = levels => Array(21).fill().forEach((_,index) => setCookie(`lvl${index}`, levels[index] || ''))
   const {selectedCorpus, language, filters} = cookies
-  const {lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20, } = cookies
+  const { lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20, } = cookies
   const characterLevels = [lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20].filter(f=>f)
   if(!lvl0 || Object.keys(characterLevels).length === 0) setLevels(characterBase)
   if(!selectedCorpus) setCookie('selectedCorpus', 'c44')

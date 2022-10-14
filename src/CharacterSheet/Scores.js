@@ -52,7 +52,7 @@ function Scores({
                             <Fragment key={id}>
                                 <BlackLabel
                                     name={translate(id)}
-                                    subtitle={translate(`${id}_long`)}
+                                    subtitles={[translate(`${id}_long`)]}
                                 />
                                 <div >
                                     {modifiers[id]}

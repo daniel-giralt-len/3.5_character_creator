@@ -64,6 +64,10 @@ const BlackLabelWrapper = styled.div`
     color: #FFF;
     flex-direction: column;
     padding: 2px 8px;
+    ${({warning}) => warning ? `
+    color: #ff4444;
+    font-weight: bold;
+    ` : ''};
 `
 
 const TextWrapper = styled.div`
@@ -83,11 +87,10 @@ const Text = ({children='', className, ...rest}) => (<TextWrapper
     </TextWrapper>
 )
 
-const BlackLabel = ({name='', subtitle='', children, className})=>(
-    <BlackLabelWrapper className={className}>
+const BlackLabel = ({name='', subtitles=[], className, warning})=>(
+    <BlackLabelWrapper className={className} warning={warning}>
         <Text bold>{name.toString().toUpperCase()}</Text>
-        {subtitle && (<Text small>{subtitle.toString().toUpperCase()}</Text>)}
-        {children && (<Text small>{children}</Text>)}
+        {subtitles.map(subtitle=>(<Text small>{subtitle.toString().toUpperCase()}</Text>))}
     </BlackLabelWrapper>
 )
 
@@ -95,10 +98,7 @@ const SidewaysBlackLabel = styled(BlackLabel)`
     height: 2em;
     flex-direction: row;
     justify-content: space-around;
-    ${({warning}) => warning ? `
-    color: #ff4444;
-    font-weight: bold;
-    ` : ''};
+    
 `
 
 const MissingItemWrapper = styled(TextInput)`

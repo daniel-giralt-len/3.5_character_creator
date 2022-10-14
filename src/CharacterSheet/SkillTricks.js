@@ -78,7 +78,7 @@ function SkillTricks({
         <SkillTricksLayout>
             <Header
                 name={translate('skilltricks')}
-                subtitle={`${skillPointsUsed} ${translate('points')}`}
+                subtitles={[`${skillPointsUsed} ${translate('points')}`]}
                 warning={errors.isTotalOverBudget}
             />
             <Text small centered>{translate('level')}</Text>

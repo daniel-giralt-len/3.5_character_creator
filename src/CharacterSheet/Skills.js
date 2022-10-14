@@ -55,11 +55,12 @@ function Skills({
                 <SkillsLayout>
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
-                        subtitle={`${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`}
+                        subtitles={[
+                            `${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`,
+                            `${translate('max ranks')}: ${skillRanks.maxPerSkill}`
+                        ]}
                         warning={errors.isTotalOverBudget}
-                    >
-                        {`${translate('max ranks')}: ${skillRanks.maxPerSkill}`}
-                    </HeaderWrapper>
+                    />
                     <Text small centered>{translate('class')}</Text>
                     <Text small centered>{translate('name')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
