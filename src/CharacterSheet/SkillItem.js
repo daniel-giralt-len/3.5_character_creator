@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {
     boxed,
     CounterInput,
+    ErrorTooltip,
     Text
 } from '../sharedComponents'
 
@@ -76,6 +77,7 @@ const SkillItem = ({
             onChange={e => onPointsChange(id, e.target.value)}
             disabled={!enabled}
         />
+        {isSkillOverBudget ? (<ErrorTooltip message='Too many points' />) : (<div/>)}
     </>)
 }
 

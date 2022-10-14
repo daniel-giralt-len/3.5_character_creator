@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import Name from './Name'
 import Race from './Race'
 import Scores from './Scores'

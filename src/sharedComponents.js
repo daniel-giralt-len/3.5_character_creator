@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import ReactTooltip from 'react-tooltip';
 
 const fullCenteredText = `display: flex;
 align-items: center;
@@ -90,7 +91,9 @@ const Text = ({children='', className, ...rest}) => (<TextWrapper
 const BlackLabel = ({name='', subtitles=[], className, warning})=>(
     <BlackLabelWrapper className={className} warning={warning}>
         <Text bold>{name.toString().toUpperCase()}</Text>
-        {subtitles.map(subtitle=>(<Text small>{subtitle.toString().toUpperCase()}</Text>))}
+        {subtitles.map((subtitle,key)=>(<Text key={key} small>
+            {subtitle.toString().toUpperCase()}
+        </Text>))}
     </BlackLabelWrapper>
 )
 
@@ -126,19 +129,16 @@ const SelectedButton = styled.button`
 
 const ErrorTooltipWrapper = styled(Text)`
     color: #ff4444;
-    border-radius: 300px;
     font-size: 1.2em;
     text-align:center;
-    width: 1.5em;
-    height: 1.5em;
     &:hover { 
-        background: #ff000033;
+        color: inherit;
     }
 `
 
-const ErrorTooltip = ({children: tooltipMessage}) => (
-    <ErrorTooltipWrapper bold data-tip={tooltipMessage}>
-        ֎
+const ErrorTooltip = ({message}) => (
+    <ErrorTooltipWrapper bold data-tip={message}>
+        Ø
     </ErrorTooltipWrapper>
 )
 

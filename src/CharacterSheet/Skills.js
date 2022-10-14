@@ -19,8 +19,8 @@ const SkillsLayout = styled.ul`
 
     display: grid;
     grid-template-areas: 
-        "header header header header header"
-        "class name total ranks score";
+        "header header header header header header"
+        "class name total ranks score error";
     grid-row-gap: 2px;
     grid-column-gap: 5px;
 
@@ -61,11 +61,12 @@ function Skills({
                         ]}
                         warning={errors.isTotalOverBudget}
                     />
-                    <Text small centered>{translate('class')}</Text>
+                    <Text small centered/>
                     <Text small centered>{translate('name')}</Text>
                     <Text small centered>{translate('ranks')}</Text>
                     <Text small centered>{translate('base')}</Text>
                     <Text small centered>{translate('points')}</Text>
+                    <Text small centered/>
                     {
                         refinedSkillsData.map(skill =>{
                             const scoreName = skill['key ability']

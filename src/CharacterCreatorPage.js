@@ -1,6 +1,7 @@
 import { useCookies } from 'react-cookie'
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import ReactTooltip from 'react-tooltip'
 
 import CharacterSheet from './CharacterSheet'
 import Selector from './Selector/Selector'
@@ -156,7 +157,9 @@ function CharacterCreatorPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cookies, selectedCharacterLevel, lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20])
 
+  useEffect(()=>ReactTooltip.rebuild())
   return (<ContentWrapper>
+    <ReactTooltip/>
     <Header
       handleChangeTranslations={handleChangeTranslations}
       translate={translate}
