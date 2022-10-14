@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import CharacterCreatorPage from './CharacterCreatorPage'
 import CorpusCreatorPage from './CorpusCreatorPage'
+import {ErrorTooltip} from './sharedComponents';
+import ReactTooltip from 'react-tooltip';
 
 const GlobalStyle = createGlobalStyle`
   html, button, input, textarea {
@@ -32,6 +34,7 @@ const App = () => (
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
     <GlobalStyle />
+    <ReactTooltip/>
     <Router>
       <Routes>
         <Route path="/corpus" element={<CorpusCreatorPage />} />

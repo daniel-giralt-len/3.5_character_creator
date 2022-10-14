@@ -124,6 +124,24 @@ const SelectedButton = styled.button`
   ` : ''}
 `
 
+const ErrorTooltipWrapper = styled(Text)`
+    color: #ff4444;
+    border-radius: 300px;
+    font-size: 1.2em;
+    text-align:center;
+    width: 1.5em;
+    height: 1.5em;
+    &:hover { 
+        background: #ff000033;
+    }
+`
+
+const ErrorTooltip = ({children: tooltipMessage}) => (
+    <ErrorTooltipWrapper bold data-tip={tooltipMessage}>
+        ֎
+    </ErrorTooltipWrapper>
+)
+
 export {
     fullCenteredText,
     border,
@@ -139,5 +157,6 @@ export {
     MissingItem,
     smallText,
     SidewaysBlackLabel,
-    SelectedButton
+    SelectedButton,
+    ErrorTooltip
 }
