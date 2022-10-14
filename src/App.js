@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -32,12 +32,12 @@ const App = () => (
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;0,900;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
     <GlobalStyle />
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route path="/corpus" element={<CorpusCreatorPage />} />
         <Route path="/" element={<CharacterCreatorPage/>} />
+        <Route path="/corpus" element={<CorpusCreatorPage />} />
       </Routes>
-    </Router>
+    </HashRouter>
   </>
 )
 
