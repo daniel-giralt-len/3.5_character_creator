@@ -35,11 +35,17 @@ const ContentWrapper = styled.div`
 const LeftWrapper = styled.div`grid-area: left;`
 const RightWrapper = styled.div`grid-area: right;`
 
-const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel) => {
+const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel, fullCharacterDataByLevel) => {
   const selectorReadableCharacterLevel = {...characterLevels[selectedCharacterLevel]}
   selectorReadableCharacterLevel.classes = characterLevels.map(l=>l.class).filter(v=>v)
   selectorReadableCharacterLevel.races = characterLevels[0].races
   selectorReadableCharacterLevel.skilltricks = characterLevels.map(l=>l.skillTricks).filter(v=>v).reduce((acc,id)=>({...acc, [id]: true}),{})
+  selectorReadableCharacterLevel.alreadySelected = {
+    language: [
+      ...((fullCharacterDataByLevel[0].raceData||{})['automatic languages']||[]),
+    ].reduce((acc,id)=>({...acc, [id]: true}),((fullCharacterDataByLevel[selectedCharacterLevel]||{}).language||{}))
+  }
+  console.log(selectorReadableCharacterLevel.alreadySelected)
   return selectorReadableCharacterLevel
 }
 
@@ -68,7 +74,7 @@ function CharacterCreatorPage() {
   const [selectorItem, setSelectorItem] = useState('races')
   const [selectedCharacterLevel, setSelectedCharacterLevel] = useState((characterLevels).length-1)
   const [fullCharacterDataByLevel, setFullCharacterDataByLevel] = useState(getCumulativeLevels(characterLevels, selectedCharacterLevel))
-  const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
+  const [selectorReadableLevel, setSelectorReadableLevel] = useState(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel, fullCharacterDataByLevel))
   const [validationErrors, setValidationErrors] = useState(getValidationErrors(fullCharacterDataByLevel))
 
   const translate = getTranslator(language)
@@ -142,7 +148,7 @@ function CharacterCreatorPage() {
   useEffect(()=>{
     const newFullCharacterDataByLevel = getCumulativeLevels(characterLevels, selectedCharacterLevel)
     setFullCharacterDataByLevel(getCumulativeLevels(characterLevels, selectedCharacterLevel))
-    setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel))
+    setSelectorReadableLevel(generateSelectorReadableLevel(characterLevels, selectedCharacterLevel, fullCharacterDataByLevel))
     setValidationErrors(getValidationErrors(newFullCharacterDataByLevel))
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cookies, selectedCharacterLevel, lvl0, lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9, lvl10, lvl11, lvl12, lvl13, lvl14, lvl15, lvl16, lvl17, lvl18, lvl19, lvl20])
@@ -186,6 +192,7 @@ function CharacterCreatorPage() {
           translate={translate}
           onCreationChange={handleCreationChange}
           onFilterChange={handleFilterChange}
+          alreadySelectedCreation={selectorReadableLevel.alreadySelected}
       />
       </>)}
     </RightWrapper>

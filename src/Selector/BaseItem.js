@@ -45,9 +45,10 @@ function BaseItem ({
     isExclusive,
     disabled,
     isLevel20,
-    canBeAddedMultipleTimes
+    canBeAddedMultipleTimes,
+    wasAlreadySelected
 }) {
-    const isAddable = !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
+    const isAddable = !wasAlreadySelected && !disabled && isAllowed && !(isExclusive && isSelected) && !isLevel20
     const { name, book } = item
 
     const bookDataName = (findInDb('rulebooks', book) || {}).name

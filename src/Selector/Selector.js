@@ -55,7 +55,8 @@ function Selector({
   onFilterChange,
   corpuses,
   onCorpusChange,
-  selectedCorpus
+  selectedCorpus,
+  alreadySelectedCreation = {},
 }) {
 
   const pages = {
@@ -119,6 +120,7 @@ function Selector({
           disabled={openPage.disabled}
           userFilters={filters}
           translate={translate}
+          alreadySelectedItems={alreadySelectedCreation[openTab]}
         />
     </div>
   );

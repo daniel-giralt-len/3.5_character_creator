@@ -13,7 +13,8 @@ function renderItems({
     isCorpus,
     isExclusive,
     disabled,
-    isLevel20
+    isLevel20,
+    alreadySelectedItems
 }) {
     const canBeAddedMultipleTimes = !isCorpus && itemType === 'classes'
 
@@ -31,9 +32,10 @@ function renderItems({
         .map(item => (<BaseItem
             key={item.id}
             item={item}
+            wasAlreadySelected={alreadySelectedItems[item.id]}
             isSelected={isSelected(item.id)}
             isForbidden={isForbidden(item.id)}
-            isSelectable={!isSelected(item.id) || (itemType==='classes')}
+            isSelectable={!alreadySelectedItems[item.id] && (!isSelected(item.id) || (itemType==='classes'))}
             onSelectItem={() => onSelectItem(item.id, selectedList)}
             isAllowed={isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
@@ -46,6 +48,7 @@ function renderItems({
 function ItemBrowser({
     items,
     selectedItems,
+    alreadySelectedItems = {},
     onCreationChange,
     permittedCorpus,
     itemType,
@@ -99,6 +102,7 @@ function ItemBrowser({
             {renderItems({
                 items: filteredItems,
                 selectedList: selectedItems,
+                alreadySelectedItems,
                 onSelectItem: handleCreationItemSelection,
                 permittedCorpus,
                 itemType,
