@@ -40,7 +40,7 @@ const validateLevel = (levelData, nLevel) => {
     return out
 }
 
-const debugGetValidationErrors = 0
+const debugGetValidationErrors = 1
 const getValidationErrors = (accumulatedLevels) => {
     if(debugGetValidationErrors) { console.log('in',accumulatedLevels) }
     let errorsByLevel = []

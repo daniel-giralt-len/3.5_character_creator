@@ -49,7 +49,6 @@ const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel, 
       .reduce((acc,{id})=>({...acc,[id]:true}),{})
     
   }
-  console.log(selectorReadableCharacterLevel.alreadySelected)
   return selectorReadableCharacterLevel
 }
 
