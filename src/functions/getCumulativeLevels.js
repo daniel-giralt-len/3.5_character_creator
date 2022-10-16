@@ -63,7 +63,7 @@ const calculateLevelData = (acc, level, nLevel) => {
 
     const cumulativeClassLevelData = groupClassesByLevels(levelData.classes)
         .map(c => ({...c, stats: (classStats[c.id] || {})}))
-        
+
     levelData.classAbilities = cumulativeClassLevelData
         .map(c => {
             const availableAdvancements = (c.stats.advancement || []).slice(0, c.count)
@@ -75,7 +75,8 @@ const calculateLevelData = (acc, level, nLevel) => {
         })
         .reduce((acc, abilities)=>([...acc, ...abilities]), [])
         .sort()
-        .reduce((acc,ability) => ({...acc, [ability]: acc[ability]||0 + 1}), {})
+        .filter(v=>v && v!=='')
+        .reduce((acc,ability) => ({...acc, [ability]: (acc[ability]||0) + 1}), {})
 
 
     levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
