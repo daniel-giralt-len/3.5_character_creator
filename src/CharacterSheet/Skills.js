@@ -52,10 +52,10 @@ function Skills({
                 .map(s => ({...s, translatedName: translate(s.name, 'skills')}))
                 .sort((a,b) => a.translatedName.localeCompare(b.translatedName))
 
-        const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip 
+        const OverallErrorMessage = errors.isLevelOverBudget && (<ErrorTooltip 
             message={translate('error skill total over budget', undefined, {
-                spentPoints: skillPoints.nUsed.added,
-                maxPoints: skillPoints.nAvailable.added
+                spentPoints: skillPoints.nUsed.current,
+                maxPoints: skillPoints.nAvailable.current
             })}
         />)
 
@@ -64,10 +64,10 @@ function Skills({
                     <HeaderWrapper
                         name={translate('skills').toUpperCase()}
                         subtitles={[
-                            `${skillPoints.nUsed.added}/${skillPoints.nAvailable.added}`,
+                            `${skillPoints.nUsed.current}/${skillPoints.nAvailable.current} (${skillPoints.nAvailable.added})`,
                             `${translate('max ranks')}: ${skillRanks.maxPerSkill}`,
                         ]}
-                        warning={errors.isTotalOverBudget}
+                        warning={errors.isLevelOverBudget}
                     >
                         {OverallErrorMessage}
                     </HeaderWrapper>

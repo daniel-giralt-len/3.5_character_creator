@@ -19,7 +19,7 @@ const validateLevel = (levelData, nLevel) => {
             overBudget: val(nKnownLanguages > maxKnownLanguages)
         },
         skills: {
-            isTotalOverBudget: val(skillPoints.nUsed.added > skillPoints.nAvailable.added),
+            isLevelOverBudget: val(skillPoints.nUsed.current > skillPoints.nAvailable.current),
             isOverBudget: Object
                 .entries(skillRanks.added)
                 .reduce((acc, [id, ranks]) => ({
