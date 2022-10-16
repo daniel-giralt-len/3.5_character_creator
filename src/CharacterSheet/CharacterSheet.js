@@ -16,6 +16,7 @@ import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
 import calculateMaxFeats from "../functions/calculateMaxFeats";
 import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
 import SkillTricks from './SkillTricks'
+import ClassAbilities from './ClassAbilities'
 
 const CharacterSheetLayout = styled.section`
     display: grid;
@@ -38,6 +39,7 @@ const CharacterSheetLayout = styled.section`
         "scores skills"
         "saves skills"
         "bab skills"
+        "class-skills skills"
         "feats skills"
         "languages skilltricks";
     @media (max-width: 700px) {
@@ -152,6 +154,7 @@ function CharacterSheet({
                     translate={translate}
                     bab={bonuses.bab}
                 />
+                <ClassAbilities />
                 <Skills
                     modifiers={modifiers}
                     skillPoints={skillPoints}

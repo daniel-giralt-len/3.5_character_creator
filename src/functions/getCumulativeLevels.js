@@ -1,12 +1,15 @@
 import calculateCharacterBonuses from './calculateCharacterBonuses'
 import convertSkillPointsToRanks from './convertSkillPointsToRanks'
 import getAvailableSkillPoints from './getAvailableSkillPoints'
+import groupClassesByLevels from './groupClassesByLevels.js'
 import getMaxKnownLanguages from './getMaxKnownLanguages'
 import getModifiersFromScores from './getModifiersFromScores'
 import onlyUnique from './filterOnlyUnique'
 
 import levelBase from '../db/json/characterByLevelBase.json'
 import raceStats from '../db/json/itemData/raceStats.json'
+import classStats from '../db/json/itemData/classStats.json'
+
 
 import getLevelClassSkills from './accumulationFunctions/getLevelClassSkills'
 import getRevisionBasedObject from './accumulationFunctions/getRevisionBasedObject'
@@ -57,6 +60,22 @@ const calculateLevelData = (acc, level, nLevel) => {
         skilltricks */
     }
 
+    const cumulativeClassLevels = groupClassesByLevels(levelData.classes)
+    levelData.classAbilities = cumulativeClassLevels
+        .map(c => {
+            const stats = classStats[c.id]
+            const availableAdvancements = stats.advancement.slice(0, c.count)
+            const classAbilities = availableAdvancements.reduce((acc,{special})=>([
+                ...acc, 
+                ...(Array.isArray(special) ? special : [special])
+            ]),[])
+            return classAbilities
+        })
+        .reduce((acc, abilities)=>([...acc, ...abilities]), [])
+        .sort()
+        .reduce((acc,ability) => ({...acc, [ability]: acc[ability]||0 + 1}), {})
+
+
     levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
 
     levelData.raceData = raceStats[levelData.races] || {}
@@ -104,7 +123,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     return levelData
 }
 
-const debugGetCumulativeLevel = 0
+const debugGetCumulativeLevel = 1
 const getCumulativeLevels = (character, levelRevisionStart) => {
     if(debugGetCumulativeLevel) { console.log('in',character) }
     let accumulatedLevelsList = []
