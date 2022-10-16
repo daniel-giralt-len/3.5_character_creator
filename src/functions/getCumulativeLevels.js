@@ -37,6 +37,7 @@ const mergeClassAbilities = (nu, old) => {
 
 }
 const mergeClassSkills = (a,b) => [...a, ...b].filter(onlyUnique)
+const mergeFeatSlots = ({nLevel, nSlots}, old) => ({...old, [nLevel]: nSlots})
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
 const countSkillPoints = points => Object.values(points).reduce((acc,n)=>acc+n,0)
 
@@ -80,15 +81,25 @@ const calculateLevelData = (acc, level, nLevel) => {
             getCurrent: () => {
                 const currentClassGrouping = groupedClassLevelData.find(({id}) => id === levelData.class) || {}
                 const currentAdvancement = ((currentClassGrouping.stats||{}).advancement || [])[currentClassGrouping.count-1] || {}
-                const abilities = currentAdvancement.special || []
+                const abilities = (currentAdvancement.special || [])
+                    .map(a=>a.toLowerCase())
                 return (Array.isArray(abilities) ? abilities : [abilities])
             }
     })
-   
 
     levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
 
     levelData.raceData = raceStats[levelData.races] || {}
+
+    levelData.featSlots = getRevisionBasedObject(level, acc, 'featSlots', mergeFeatSlots, {
+        getCurrent: () => {
+            let nSlots = 0
+            if (nLevel === 1) { nSlots += (levelData.raceData||{})['bonus feats'] || 0; }
+            if (nLevel > 0 && (nLevel === 1 || nLevel % 3 === 0)) { nSlots += 1 }
+            if (levelData.classAbilities.current.includes('bonus feat')) { nSlots += 1 }
+            return {nLevel, nSlots}
+        }
+    })
 
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,
