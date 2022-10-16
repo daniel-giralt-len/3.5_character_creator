@@ -33,11 +33,11 @@ const CharacterSheetLayout = styled.section`
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "name race"
-        "class-names alignment"
+        "classes alignment"
+        "classes skills"
         "scores skills"
         "saves skills"
         "bab skills"
-        "classes skills"
         "feats skills"
         "languages skilltricks";
     @media (max-width: 700px) {
@@ -126,11 +126,11 @@ function CharacterSheet({
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                <ClassNames
+                {/* <ClassNames
                     classes={fullClassList}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
-                />
+                /> */}
                 <Alignment
                     alignment={alignment}
                     onAlignmentChange={onAlignmentChange}
