@@ -22,6 +22,7 @@ const orMergeMethod = (va,vb)=>va||vb
 
 const mergeLanguages = (a,b) => mergePreviousAndCurrent(a,b,orMergeMethod)
 const mergeSkillPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
+const mergeSkillTricksPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillTricks = (c,p,nLevel) => (c ? [...p, {id: c, nLevel}] : p).filter(v=>v)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
@@ -87,7 +88,10 @@ const calculateLevelData = (acc, level, nLevel) => {
             }
     })
 
-    levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
+    levelData.skillTricks.pointsUsed = getRevisionBasedObject(level, acc, ['skillTricks', 'pointsUsed'], getAddedBySum, {
+        defaultPrevious: 0,
+        getCurrent: () => levelData.skillTricks.current === null ? 0 : skillPointsPerSkillTrick
+    })
 
     levelData.raceData = raceStats[levelData.races] || {}
 
@@ -122,7 +126,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     })
     levelData.skillPoints.nUsed = getRevisionBasedObject(level, acc, ['skillPoints','nUsed'], getAddedBySum, {
         defaultPrevious: 0,
-        getCurrent: () => countSkillPoints(levelData.skillPoints.current||{}) + levelData.skillTricks.pointsUsed
+        getCurrent: () => countSkillPoints(levelData.skillPoints.current||{}) + levelData.skillTricks.pointsUsed.current
     })
 
     levelData.skillRanks = getRevisionBasedObject(level, acc, 'skillRanks', mergeSkillRanks, {
