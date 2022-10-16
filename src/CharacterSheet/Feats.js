@@ -18,6 +18,8 @@ function Feats({
     featSlots = [],
     totalSlots,
     translate,
+    selectedLevelIndex,
+
 }) {
     return (
         <FeatsLayout>
@@ -28,8 +30,8 @@ function Feats({
             <Text small>{translate('level')}</Text>
             <Text small>{translate('name')}</Text>
             {featSlots.map(({level}) => (<>
-                <Text>{level}</Text>
-                <Text>—</Text>
+                <Text info={selectedLevelIndex===level}>{level}</Text>
+                <Text info={selectedLevelIndex===level}>—</Text>
             </>))}
         </FeatsLayout>
     );

@@ -155,7 +155,7 @@ function CharacterSheet({
                     featSlots={featSlots.added}
                     totalSlots={featSlots.total}
                     translate={translate}
-                    onFeatsChange={onFeatsChange}
+                    selectedLevelIndex={selectedLevelIndex}
                 />
                 <SkillTricks
                     skillTricks={skillTricks.added}
