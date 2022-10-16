@@ -13,8 +13,8 @@ const AlignmentTable = styled.ul`
     justify-content: center;
 
     grid-template-columns: repeat(3, auto);
-    grid-row-gap: 16px;
-    grid-column-gap: 16px;
+    grid-row-gap: 0.5em;
+    grid-column-gap: 0.5em;
 
     padding: 0;
     margin: 0
