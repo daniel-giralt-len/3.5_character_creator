@@ -25,6 +25,17 @@ const mergeSkillPoints = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillRanks = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
 const mergeSkillTricks = (c,p,nLevel) => (c ? [...p, {id: c, nLevel}] : p).filter(v=>v)
 const mergeScores = (a,b) => mergePreviousAndCurrent(a,b,addMergeMethod)
+const mergeClassAbilities = (nu, old) => {
+    const out = {...old}
+    nu.forEach(name => {
+        out[name] = (out[name]||0) + 1
+    })
+    return Object.entries(out)
+        .filter(([name])=>name && name!== '')
+        .sort(([name1], [name2])=>name1.localeCompare(name2))
+        .reduce((acc,[name,count])=>({...acc, [name]:count}),{})
+
+}
 const mergeClassSkills = (a,b) => [...a, ...b].filter(onlyUnique)
 const countLanguages = language => Object.entries(language).filter(([_,k])=>k).length
 const countSkillPoints = points => Object.values(points).reduce((acc,n)=>acc+n,0)
@@ -61,23 +72,19 @@ const calculateLevelData = (acc, level, nLevel) => {
     }
 
 
-    const cumulativeClassLevelData = groupClassesByLevels(levelData.classes)
+    const groupedClassLevelData = groupClassesByLevels(levelData.classes)
         .map(c => ({...c, stats: (classStats[c.id] || {})}))
 
-    levelData.classAbilities = cumulativeClassLevelData
-        .map(c => {
-            const availableAdvancements = (c.stats.advancement || []).slice(0, c.count)
-            const classAbilities = availableAdvancements.reduce((acc,{special})=>([
-                ...acc, 
-                ...(Array.isArray(special) ? special : [special])
-            ]),[])
-            return classAbilities
-        })
-        .reduce((acc, abilities)=>([...acc, ...abilities]), [])
-        .sort()
-        .filter(v=>v && v!=='')
-        .reduce((acc,ability) => ({...acc, [ability]: (acc[ability]||0) + 1}), {})
-
+    levelData.classAbilities = getRevisionBasedObject(level, acc, 'classAbilities', mergeClassAbilities, {
+            defaultPrevious: [],
+            getCurrent: () => {
+                const currentClassGrouping = groupedClassLevelData.find(({id}) => id === levelData.class) || {}
+                const currentAdvancement = ((currentClassGrouping.stats||{}).advancement || [])[currentClassGrouping.count-1] || {}
+                const abilities = currentAdvancement.special || []
+                return (Array.isArray(abilities) ? abilities : [abilities])
+            }
+    })
+   
 
     levelData.skillTricks.pointsUsed = levelData.skillTricks.added.length * skillPointsPerSkillTrick
 

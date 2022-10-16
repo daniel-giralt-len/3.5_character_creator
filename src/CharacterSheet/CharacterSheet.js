@@ -156,7 +156,7 @@ function CharacterSheet({
                     bab={bonuses.bab}
                 />
                 <ClassAbilities
-                    classAbilities={classAbilities}
+                    classAbilities={classAbilities.added}
                     translate={translate}
                 />
                 <Skills
