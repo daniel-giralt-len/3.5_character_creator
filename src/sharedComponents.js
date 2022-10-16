@@ -27,6 +27,14 @@ color: #ff4444;
 font-weight: bold;
 background: #ff000033;`
 
+const clickableStyle = `
+    cursor: pointer;
+`
+
+const infoStyle= `
+    background: #fff90033;
+`
+
 const SquareButton = styled.button`${boxed}`
 
 const TextInput = styled.textarea`
@@ -77,7 +85,9 @@ const TextWrapper = styled.div`
     ${({centered}) => centered ? fullCenteredText : ''}
     ${({box}) => box ? boxed : ''}
     ${({underline}) => underline ? underlined : ''}
-    ${({warning}) => warning ? warningStyle : ''};
+    ${({warning}) => warning ? warningStyle : ''}
+    ${({clickable}) => clickable ? clickableStyle : ''}
+    ${({info}) => info ? infoStyle : ''}
 `
 
 const Text = ({children='', className, ...rest}) => (<TextWrapper
@@ -107,9 +117,9 @@ const SidewaysBlackLabel = styled(BlackLabel)`
 
 const MissingItemWrapper = styled(TextInput)`
     ${underlined}
-    background: #fff90033;
+    ${infoStyle}
     font-size: 0.9em;
-    cursor: pointer;
+    ${clickableStyle}
 }`
 
 

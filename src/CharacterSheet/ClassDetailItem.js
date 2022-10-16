@@ -29,6 +29,8 @@ function ClassDetailItem({
                 centered
                 onClick={onSelectedLevelChange}
                 warning={errors.anyError}
+                clickable
+                info={isSelected}
             >
                 {isSelected ? `>${level}<` : level}
             </Text>
@@ -36,6 +38,8 @@ function ClassDetailItem({
                 small
                 onClick={onSelectedLevelChange}
                 warning={errors.anyError}
+                clickable
+                info={isSelected}
             >
                 {isSelected ? `>${name}` : name}
             </VerticallyAlignedText>
