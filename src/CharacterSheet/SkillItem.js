@@ -51,7 +51,10 @@ const SkillItem = ({
     const nRanks = ranks.added[id]||0
 
     const ErrorDisplay = isSkillOverBudget ? (<ErrorTooltip 
-        message={translate(`error skill over budget`, undefined, {maxRanks, boughtRank: nRanks})}
+        message={translate(`error skill over budget`, undefined, {
+            maxRanks: (isClass ? maxRanks.isClass : maxRanks.isNotClass), 
+            boughtRank: nRanks
+        })}
     />) : (<div/>)
 
     return (<>

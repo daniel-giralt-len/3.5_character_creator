@@ -8,6 +8,7 @@ const validateLevel = (levelData, nLevel) => {
         skillPoints,
         skillRanks,
         skillTricks,
+        classSkills,
     } = levelData
     let anyError = false
     const val = e => {
@@ -24,7 +25,7 @@ const validateLevel = (levelData, nLevel) => {
                 .entries(skillRanks.added)
                 .reduce((acc, [id, ranks]) => ({
                     ...acc,
-                    [id]: val(ranks > skillRanks.maxPerSkill)
+                    [id]: val(ranks > (classSkills.added.includes(id) ? skillRanks.maxPerSkill.isClass : skillRanks.maxPerSkill.isNotClass))
                 }), {}),
         },
         skillTricks: {

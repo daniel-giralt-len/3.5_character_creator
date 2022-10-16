@@ -65,7 +65,7 @@ function Skills({
                         name={translate('skills').toUpperCase()}
                         subtitles={[
                             `${skillPoints.nUsed.current}/${skillPoints.nAvailable.current} (${skillPoints.nAvailable.added})`,
-                            `${translate('max ranks')}: ${skillRanks.maxPerSkill}`,
+                            `${translate('max ranks')}: ${skillRanks.maxPerSkill.isClass}`,
                         ]}
                         warning={errors.isLevelOverBudget}
                     >
