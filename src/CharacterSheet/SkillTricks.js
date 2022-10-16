@@ -32,12 +32,18 @@ function SkillTrickItem({
     return (
         <>
         <SkillTrickItemLayout>
-            <Text warning={errors.unfullfilledPrerequisites.length > 0}>
+            <Text
+                warning={errors.unfullfilledPrerequisites.length > 0}
+                info={selectedLevelIndex === nLevel}
+            >
                 {isSkillTrickSelected ? `>${nLevel}<` : nLevel}
             </Text>
             </SkillTrickItemLayout>
             <SkillTrickItemLayout>
-            <Text warning={errors.unfullfilledPrerequisites.length > 0}>
+            <Text
+                warning={errors.unfullfilledPrerequisites.length > 0}
+                info={selectedLevelIndex === nLevel}
+            >
                 {isSkillTrickSelected ? `>${skillTrick.name}` : skillTrick.name}
             </Text>
             </SkillTrickItemLayout>
