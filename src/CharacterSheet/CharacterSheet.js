@@ -12,9 +12,6 @@ import Skills from './Skills'
 import Bab from './Bab'
 import Languages from './Languages'
 
-import checkFeatsPrerequisites from "../functions/checkFeatsPrerequisites";
-import calculateMaxFeats from "../functions/calculateMaxFeats";
-import getCharacterClassAbilities from '../functions/getCharacterClassAbilities'
 import SkillTricks from './SkillTricks'
 import ClassAbilities from './ClassAbilities'
 
@@ -78,7 +75,7 @@ function CharacterSheet({
             scores,
             bonuses,
             modifiers,
-            feats,
+            featSlots,
             name,
             classSkills,
             skillPoints,
@@ -91,23 +88,6 @@ function CharacterSheet({
             skillTricks,
             classAbilities,
         } = currentLevelData
-
-/* 
-        const selectedFeats = Object
-            .entries(feats)
-            .filter(([_, selected])=>selected)
-            .reduce((acc,[id])=>({...acc,[id]:true}),{})
-        const maxFeats = calculateMaxFeats({raceData, classes})
-        const usedFeats = (Object.values(selectedFeats).filter(v=>v)||[]).length
-        const fullCharacter = {
-            ...character,
-            bonuses,
-            modifiers,
-            raceData,
-            classAbilities: getCharacterClassAbilities({classes})
-        }
-        const prerequisiteList = checkFeatsPrerequisites(fullCharacter)
- */
 
         const onNameChange = name => onCreationChange({ name }, 'name')
         const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, 'scores')
@@ -171,16 +151,12 @@ function CharacterSheet({
                     selectedLevelIndex={selectedLevelIndex}
                     errors={currentLevelErrors.skills}
                 />
-                {/*
                 <Feats 
-                    character={fullCharacter}
-                    feats={selectedFeats}
+                    featSlots={featSlots.added}
+                    totalSlots={featSlots.total}
                     translate={translate}
                     onFeatsChange={onFeatsChange}
-                    maxFeats={maxFeats}
-                    usedFeats={usedFeats}
                 />
-                */}
                 <SkillTricks
                     skillTricks={skillTricks.added}
                     skillPointsUsed={skillTricks.pointsUsed}
