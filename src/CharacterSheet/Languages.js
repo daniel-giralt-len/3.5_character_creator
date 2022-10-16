@@ -62,7 +62,10 @@ function Languages({
         <LanguagesLayout warning={errors.overBudget}>
             <Header
                 name={translate('language')}
-                subtitles={[`${usedLanguages}/${maxLanguages}`]}
+                subtitles={[
+                    `${usedLanguages}/${maxLanguages}`,
+                    automaticLanguages.length > 0 && `(+${automaticLanguages.length} ${translate('racials')})`
+                ].filter(v=>v)}
                 warning={errors.overBudget}
             />
             {renderLanguages({languages: automaticLanguages})}

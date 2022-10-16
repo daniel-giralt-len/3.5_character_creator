@@ -84,7 +84,8 @@
         "base level": "Base",
         "max ranks": "Max Ranks",
         "error skill over budget": "Max ranks are {maxRanks} but you have {boughtRank}",
-        "error skill total over budget": "You spent {spentPoints} points but only have {maxPoints}"
+        "error skill total over budget": "You spent {spentPoints} points but only have {maxPoints}",
+        "racials": "Racials"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -166,7 +167,8 @@
         "base level": "Base",
         "max ranks": "Rangos Máx.",
         "error skill over budget": "Tienes {boughtRank} rangos pero el máximo es {maxRanks}",
-        "error skill total over budget": "Has gastado {spentPoints} puntos pero solo tienes {maxPoints}"
+        "error skill total over budget": "Has gastado {spentPoints} puntos pero solo tienes {maxPoints}",
+        "racials": "Raciales"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -248,6 +250,7 @@
         "base level": "Base",
         "max ranks": "Rangs màx.",
         "error skill over budget": "Tens {boughtRank} rangs pero el màxim és {maxRanks}",
-        "error skill total over budget": "Has gastat {spentPoints} punts pero només en tens {maxPoints}"
+        "error skill total over budget": "Has gastat {spentPoints} punts pero només en tens {maxPoints}",
+        "racials": "Racials"
     }
 }
