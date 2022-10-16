@@ -20,7 +20,7 @@ const ClassAbilities = ({
             <Header name={translate('abilities')}/>
             {Object.entries(classAbilities)
                 .map(([name, count])=>(
-                    <Text>
+                    <Text small>
                         {`${name} (${count})`}
                     </Text>
                 ))}
