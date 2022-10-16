@@ -60,11 +60,13 @@ const calculateLevelData = (acc, level, nLevel) => {
         skilltricks */
     }
 
-    const cumulativeClassLevels = groupClassesByLevels(levelData.classes)
-    levelData.classAbilities = cumulativeClassLevels
+
+    const cumulativeClassLevelData = groupClassesByLevels(levelData.classes)
+        .map(c => ({...c, stats: (classStats[c.id] || {})}))
+        
+    levelData.classAbilities = cumulativeClassLevelData
         .map(c => {
-            const stats = classStats[c.id]
-            const availableAdvancements = stats.advancement.slice(0, c.count)
+            const availableAdvancements = (c.stats.advancement || []).slice(0, c.count)
             const classAbilities = availableAdvancements.reduce((acc,{special})=>([
                 ...acc, 
                 ...(Array.isArray(special) ? special : [special])

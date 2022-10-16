@@ -89,6 +89,7 @@ function CharacterSheet({
             maxKnownLanguages,
             raceData,
             skillTricks,
+            classAbilities,
         } = currentLevelData
 
 /* 
@@ -154,7 +155,10 @@ function CharacterSheet({
                     translate={translate}
                     bab={bonuses.bab}
                 />
-                <ClassAbilities />
+                <ClassAbilities
+                    classAbilities={classAbilities}
+                    translate={translate}
+                />
                 <Skills
                     modifiers={modifiers}
                     skillPoints={skillPoints}
