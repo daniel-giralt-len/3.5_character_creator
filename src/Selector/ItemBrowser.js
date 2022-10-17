@@ -4,6 +4,8 @@ import getItemRegex from '../functions/getItemRegex';
 import isItemAllowed from '../functions/isItemAllowed';
 import ItemSearchBar from './ItemSearchBar';
 
+const multiselectableTypes = ['classes', 'feats']
+
 function renderItems({
     items,
     selectedList,
@@ -16,7 +18,7 @@ function renderItems({
     isLevel20,
     alreadySelectedItems
 }) {
-    const canBeAddedMultipleTimes = !isCorpus && itemType === 'classes'
+    const canBeAddedMultipleTimes = !isCorpus && multiselectableTypes.includes(itemType)
 
     let isSelected, isForbidden = () => false;
     if(isCorpus){
@@ -35,7 +37,7 @@ function renderItems({
             wasAlreadySelected={alreadySelectedItems[item.id]}
             isSelected={isSelected(item.id)}
             isForbidden={isForbidden(item.id)}
-            isSelectable={!alreadySelectedItems[item.id] && (!isSelected(item.id) || (itemType==='classes'))}
+            isSelectable={!alreadySelectedItems[item.id] && (!isSelected(item.id) || multiselectableTypes.includes(itemType))}
             onSelectItem={() => onSelectItem(item.id, selectedList)}
             isAllowed={isItemAllowed({isCorpus, corpus: permittedCorpus, item, itemType})}
             isExclusive={isExclusive}
@@ -81,7 +83,7 @@ function ItemBrowser({
             }
             return onCreationChange(out)
         }else{
-            if(itemType === 'classes'){
+            if(multiselectableTypes.includes(itemType)){
                 const out = [...selectedList, id]
                 return onCreationChange(out)
             }

@@ -98,6 +98,12 @@ function CharacterCreatorPage() {
       newCharacterLevels[selectedCharacterLevel].scores[score] = value
     }else if(['races', 'alignment', 'name'].includes(type)){ //these can only be applied to base level
       newCharacterLevels[0][type] = creationChanges[type]
+    }else if(type==='feats'){
+      const {feats} = creationChanges
+      if(fullCharacterDataByLevel[selectedCharacterLevel].featSlots.total.current < feats.length){
+        return
+      }
+      newCharacterLevels[selectedCharacterLevel].feats = feats
     }else if(type==='skilltricks'){
       if(selectedCharacterLevel === 0){ return } //cannot select them at level 0
       /*

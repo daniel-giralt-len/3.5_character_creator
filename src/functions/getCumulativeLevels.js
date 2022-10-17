@@ -67,10 +67,6 @@ const calculateLevelData = (acc, level, nLevel) => {
             defaultPrevious: [],
             defaultCurrent: null,
         }),
-
-        /* classAbilities,
-        feats
-        skilltricks */
     }
 
 
@@ -102,10 +98,13 @@ const calculateLevelData = (acc, level, nLevel) => {
             if (nLevel === 1) { nSlots += (levelData.raceData||{})['bonus feats'] || 0; }
             if (nLevel > 0 && (nLevel === 1 || nLevel % 3 === 0)) { nSlots += 1 }
             if (levelData.classAbilities.current.includes('bonus feat')) { nSlots += 1 }
-            return Array(nSlots).fill({level: nLevel})
+            return Array(nSlots).fill().map((_,i)=>({level: nLevel, id: level.feats[i]}))
         }
     })
-    levelData.featSlots.total = levelData.featSlots.added.length
+    levelData.featSlots.total = {
+        current: levelData.featSlots.current.length,
+        added: levelData.featSlots.added.length
+    }
 
     levelData.bonuses = calculateCharacterBonuses({
         raceData: levelData.raceData,

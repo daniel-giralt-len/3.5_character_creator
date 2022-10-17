@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Text, SidewaysBlackLabel } from '../sharedComponents';
 import { Fragment } from 'react';
+import featStats from '../db/json/itemData/featStats.json'
 
 const Header = styled(SidewaysBlackLabel)`grid-area: header;`
 
@@ -26,13 +27,15 @@ function Feats({
         <FeatsLayout>
             <Header
                 name={translate('feats')}
-                subtitles={[`(${totalSlots})`]}
+                subtitles={[`${totalSlots.current} (${totalSlots.added})`]}
             />
             <Text small>{translate('level')}</Text>
             <Text small>{translate('name')}</Text>
-            {featSlots.map(({level}, i) => (<Fragment key={i}>
+            {featSlots.map(({level, id}, i) => (<Fragment key={i}>
                 <Text info={selectedLevelIndex===level}>{level}</Text>
-                <Text info={selectedLevelIndex===level}>—</Text>
+                <Text info={selectedLevelIndex===level}>
+                    {featStats[id] ? translate((featStats[id]||{}).name||'', 'feats') : '—'}
+                </Text>
             </Fragment>))}
         </FeatsLayout>
     );
