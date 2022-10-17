@@ -14,7 +14,9 @@ const prerequisiteValidations = {
         })
     },
     // score: (p, t) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
-    // bab: (p, t) => c.bonuses.bab >= p.value,
+    bab: (p, t) => t('bab prerequisites', undefined, {
+        bab: p.value,
+    }),
     // level: (p, t) => c.classes.length >= p.value,
     // language: (p, t) => c.language[p.id] === true,
     // classes: checkClasses,
