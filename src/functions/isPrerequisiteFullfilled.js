@@ -26,7 +26,7 @@ const prerequisiteValidations = {
     skills: (p, c) => c.skillRanks.added[p.id] && (c.skillRanks.added[p.id]) >= (p.value || 0),
     score: (p, c) => (c.scores.added[p.score] + c.bonuses[p.score]) >= p.value,
     bab: (p, c) => c.bonuses.bab >= p.value,
-    // level: (p, c) => c.classes.length >= p.value,
+    level: (p, c) => c.nLevel >= p.value,
     // language: (p, c) => c.language[p.id] === true,
     // classes: checkClasses,
     // spellcasting: (p, c) => 'unimplemented',

@@ -94,7 +94,8 @@
         "feat prerequisites": "Tthe {featName} feat",
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "{raceName} race",
-        "score prerequisites": "{type} of {total}"
+        "score prerequisites": "{type} of {total}",
+        "level prerequisites": "Level {nLevel}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -186,7 +187,8 @@
         "feat prerequisites": "La dote {featName}",
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "Raza {raceName}",
-        "score prerequisites": "{total} en {type}"
+        "score prerequisites": "{total} en {type}",
+        "level prerequisites": "Nivel {nLevel}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -278,6 +280,7 @@
         "feat prerequisites": "La dot {featName}",
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "Raça {raceName}",
-        "score prerequisites": "{total} a {type}"
+        "score prerequisites": "{total} a {type}",
+        "level prerequisites": "Nivell {nLevel}"
     }
 }

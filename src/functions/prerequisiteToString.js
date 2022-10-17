@@ -23,7 +23,9 @@ const prerequisiteValidations = {
     bab: (p, t) => t('bab prerequisites', undefined, {
         bab: p.value,
     }),
-    // level: (p, t) => c.classes.length >= p.value,
+    level: (p, t) => t('level prerequisites', undefined, {
+        nLevel: p.value
+    }),
     // language: (p, t) => c.language[p.id] === true,
     // classes: checkClasses,
     // spellcasting: (p, t) => 'unimplemented',
