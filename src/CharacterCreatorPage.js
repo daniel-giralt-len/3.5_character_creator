@@ -224,53 +224,6 @@ function CharacterCreatorPage() {
       </>)}
     </RightWrapper>
   </ContentWrapper>)
-/* 
-  return (
-    <div>
-      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&display=swap" rel="stylesheet"></link>
-      <GlobalStyle />
-      <Header
-        handleCreationSwitch={handleCreationSwitch}
-        handleChangeTranslations={handleChangeTranslations}
-        translate={translate}
-        isCorpus={isCorpus}
-        selectedLanguage={language}
-      />
-      <ContentWrapper>
-        <LeftWrapper>
-          {isCharacter && (
-            <CorpusSelector 
-              corpuses={corpuses}
-              translate={translate}
-              onCorpusChange={handleCorpusChange}
-              selectedCorpus={selectedCorpus}
-            />
-          )}
-          <Creator 
-            creation={usedCreation}
-            corpus={usedCorpus}
-            isCorpus={isCorpus}
-            dbs={dbs}
-            filters={filters}
-            translate={translate}
-            onCreationChange={handleCreationChange}
-            onFilterChange={handleFilterChange}
-          />
-        </LeftWrapper>
-        <RightWrapper>
-          <CreationDisplay
-            isCharacter={!isCorpus}
-            creation={usedCreation}
-            dbs={dbs}
-            translate={translate}
-            handleCreationChange={handleCreationChange}
-          />
-        </RightWrapper>
-      </ContentWrapper>
-    </div>
-  ); */
 }
 
 export default CharacterCreatorPage;
