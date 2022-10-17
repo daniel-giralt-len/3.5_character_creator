@@ -80,7 +80,10 @@ const prerequisiteValidations = {
         })
         return `${msg} ${notImplementedYet}`
     },
-    // oneOf: checkOneOf
+    oneOf: (p, t) => {
+        const subStrings = p.choices.map(pp => prerequisiteToString(pp,t)).join('<br/>')
+        return `<br/><br/>${t('oneOf prerequisites')}<br/>${subStrings}`
+    }
 }
 
 const prerequisiteToString = (p, translate) => {

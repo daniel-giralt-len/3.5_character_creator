@@ -110,7 +110,8 @@
         "any goodness": "Any goodness",
         "legality list prerequisite": "A legality from: {names}",
         "goodness list prerequisite": "A goodness from: {names}",
-        "creatureType prerequisites": "Be a creature of type: "
+        "creatureType prerequisites": "Be a creature of type: ",
+        "oneOf prerequisites": "One of these requirements:"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -218,7 +219,8 @@
         "any goodness": "Cualquier bondad",
         "legality list prerequisite": "Una legalidad entre: {names}",
         "goodness list prerequisite": "Una bondad entre: {names}",
-        "creatureType prerequisites": "Ser criatura de tipo: "
+        "creatureType prerequisites": "Ser criatura de tipo: ",
+        "oneOf prerequisites": "Uno de los requisitos siguientes:"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -326,6 +328,7 @@
         "any goodness": "Qualsevol bondat",
         "legality list prerequisite": "Una legalitat d'entre: {names}",
         "goodness list prerequisite": "Una bondat d'entre: {names}",
-        "creatureType prerequisites": "Ser criatura de tipus: "
+        "creatureType prerequisites": "Ser criatura de tipus: ",
+        "oneOf prerequisites": "Un dels requisits següents:"
     }
 }

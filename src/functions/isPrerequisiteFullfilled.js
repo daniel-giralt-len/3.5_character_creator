@@ -37,8 +37,8 @@ const prerequisiteValidations = {
     classAbility: (p, c) => Object.keys(c.classAbilities.added).includes(p.value),
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
     deities: (p, c) => false, //not implemented
-    creatureType: () => false //not implemented,
-    // oneOf: checkOneOf
+    creatureType: () => false, //not implemented
+    oneOf: checkOneOf
 }
 
 const isPrerequisiteFullfilled = (p, levelData) => {
