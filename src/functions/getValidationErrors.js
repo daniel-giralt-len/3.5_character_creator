@@ -1,5 +1,6 @@
 import skilltrickStats from '../db/json/itemData/skilltrickStats.json'
 import featStats from '../db/json/itemData/featStats.json'
+import classStats from '../db/json/itemData/classStats.json'
 import isPrerequisiteFulfilled from './isPrerequisiteFullfilled';
 
 const validateLevel = (levelData, nLevel) => {
@@ -11,6 +12,7 @@ const validateLevel = (levelData, nLevel) => {
         skillTricks,
         classSkills,
         featSlots,
+        class: classId
     } = levelData
     let anyError = false
     const val = e => {
@@ -45,13 +47,18 @@ const validateLevel = (levelData, nLevel) => {
         feats: featSlots.added
                 .map(({id}) => ((featStats[id]||{}).prerequisites||[])
                                     .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
-                    ).filter(v=>v)
+                    ).filter(v=>v),
+        class: Object
+            .entries((classStats[classId]||{}).requirements||{})
+            .map(([type, value])=>({type, value}))
+            .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
+            .filter(v=>v)
     }
     out.level = { anyError }
     return out
 }
 
-const debugGetValidationErrors = 0
+const debugGetValidationErrors = 1
 const getValidationErrors = (accumulatedLevels) => {
     if(debugGetValidationErrors) { console.log('in',accumulatedLevels) }
     let errorsByLevel = []

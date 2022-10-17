@@ -150,7 +150,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     return levelData
 }
 
-const debugGetCumulativeLevel = 1
+const debugGetCumulativeLevel = 0
 const getCumulativeLevels = (character, levelRevisionStart) => {
     if(debugGetCumulativeLevel) { console.log('in',character) }
     let accumulatedLevelsList = []
