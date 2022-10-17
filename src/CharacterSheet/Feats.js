@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Text, SidewaysBlackLabel } from '../sharedComponents';
+import { Fragment } from 'react';
 
 const Header = styled(SidewaysBlackLabel)`grid-area: header;`
 
@@ -29,10 +30,10 @@ function Feats({
             />
             <Text small>{translate('level')}</Text>
             <Text small>{translate('name')}</Text>
-            {featSlots.map(({level}) => (<>
+            {featSlots.map(({level}, i) => (<Fragment key={i}>
                 <Text info={selectedLevelIndex===level}>{level}</Text>
                 <Text info={selectedLevelIndex===level}>—</Text>
-            </>))}
+            </Fragment>))}
         </FeatsLayout>
     );
 }
