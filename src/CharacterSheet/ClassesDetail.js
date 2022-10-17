@@ -20,6 +20,7 @@ function ClassesDisplay({
     classes = [],
     translate,
     handleClassChange,
+    handleClassDuplication,
     onSelectedLevelChange,
     selectedLevelIndex,
     errors
@@ -31,11 +32,6 @@ function ClassesDisplay({
         const c = out[position]
         out[position] = out[position+d]
         out[position+d] = c
-        handleClassChange(out)
-    }
-    const handleDuplication = position => {
-        const out = [...indices]
-        out.splice(position,0,out[position])
         handleClassChange(out)
     }
     const handleDelete = position => {
@@ -65,7 +61,7 @@ function ClassesDisplay({
                     position={i+1}
                     classData={dbs.classes.find(c=>id === c.id)}
                     onReorder={handleReorder}
-                    onDuplication={handleDuplication}
+                    onDuplication={handleClassDuplication}
                     onDelete={handleDelete}
                     onSelectedLevelChange={()=>onSelectedLevelChange(i+1)}
                     isSelected={selectedLevelIndex === i+1}

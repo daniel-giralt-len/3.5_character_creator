@@ -142,6 +142,16 @@ function CharacterCreatorPage() {
     setLevels(newCharacterLevels)
   }
 
+  const handleClassDuplication = position => {
+    const newCharacterLevels = [...characterLevels]
+    const duplicatedLevel = {...characterLevels[position+1]} //+1 to account for lvl 0
+    duplicatedLevel.skillTricks = null
+    duplicatedLevel.feats = []
+    newCharacterLevels.splice(position+2,0, duplicatedLevel)
+    setSelectedCharacterLevel(position+2)
+    setLevels(newCharacterLevels)
+  }
+
   const handleCorpusChange = id => setCookie('selectedCorpus', id)
   const handleChangeTranslations = key => setCookie('language', key)
   const handleFilterChange = newFilters => setCookie('filters', newFilters)
@@ -185,6 +195,7 @@ function CharacterCreatorPage() {
         classErrorList={validationErrors.map(({level})=>({...level}))}
         onCreationChange={handleCreationChange}
         onClassChange={handleClassChange}
+        onClassDuplication={handleClassDuplication}
         translate={translate}
         onChangeSelectorTab={handleChangeSelectorTab}
         onSelectedLevelChange={handleSelectedLevelChange}

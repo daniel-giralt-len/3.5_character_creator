@@ -81,6 +81,7 @@ function CharacterSheet({
         selectedLevelIndex,
         translate,
         onClassChange,
+        onClassDuplication,
         onCreationChange,
         onChangeSelectorTab,
         onSelectedLevelChange,
@@ -188,6 +189,7 @@ function CharacterSheet({
                     classes={fullClassList}
                     translate={translate}
                     handleClassChange={onClassChange}
+                    handleClassDuplication={onClassDuplication}
                     onSelectedLevelChange={onSelectedLevelChange}
                     selectedLevelIndex={selectedLevelIndex}
                     errors={classErrorList}
