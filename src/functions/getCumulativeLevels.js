@@ -83,7 +83,7 @@ const calculateLevelData = (acc, level, nLevel) => {
                 const currentClassGrouping = groupedClassLevelData.find(({id}) => id === levelData.class) || {}
                 const currentAdvancement = ((currentClassGrouping.stats||{}).advancement || [])[currentClassGrouping.count-1] || {}
                 const abilities = (currentAdvancement.special || [])
-                    .map(a=>a.toLowerCase())
+                    .map(a=>a.toString().toLowerCase())
                 return (Array.isArray(abilities) ? abilities : [abilities])
             }
     })
