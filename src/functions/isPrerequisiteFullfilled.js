@@ -3,10 +3,12 @@ import casterTypes from '../db/json/castersList.json'
 const checkClasses = (p,c) => {
     if(p.value === 'abjurer') { return c.classes.some(({name})=>name.includes('abjurer')) }
     //TODO generate a castersList that works with this
-    if(p.value === 'arcane caster') { return casterTypes.arcane.includes(p.value) }
-    if(p.value === 'divine caster') { return casterTypes.divine.includes(p.value) }
-    if(p.value === 'caster') { return [...casterTypes.arcane, ...casterTypes.divine].includes(p.value) }
-    return c.classes.includes(p.id)
+    if(p.value === 'arcane caster') { return false }
+    if(p.value === 'divine caster') { return false }
+    if(p.value === 'caster') { return false }
+    if(p.id) { return c.classes.includes(p.id) }
+    const v = Array.isArray(p.value) ? p.value : [p.value]
+    return c.classes.some(cId => v.includes(cId))
 }
 
 const checkAlignments = ({legality, goodness},c) => {
@@ -28,7 +30,7 @@ const prerequisiteValidations = {
     bab: (p, c) => c.bonuses.bab >= p.value,
     level: (p, c) => c.nLevel >= p.value,
     language: (p, c) => c.language[p.id] === true,
-    // classes: checkClasses,
+    classes: checkClasses,
     // spellcasting: (p, c) => 'unimplemented',
     // alignment: checkAlignments,
     saveBaseBonus: checkSaves,

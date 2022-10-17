@@ -3,6 +3,23 @@ import featStats from '../db/json/itemData/featStats.json'
 import raceStats from '../db/json/itemData/raceStats.json'
 import findInDb from './findInDb.js'
 
+const classesToString = (p,t) => {
+    const getName = id => t(findInDb('classes', id.toString()).name)
+
+    if(p.value === 'abjurer') { return t('abjurer class prerequisite') }
+    if(p.value === 'arcane caster') { return t('arcane caster prerequisite', undefined, {nLevels: p.level || 1}) }
+    if(p.value === 'divine caster') { return t('divine caster prerequisite', undefined, {nLevels: p.level || 1}) }
+    if(p.value === 'caster') { return t('caster prerequisite', undefined, {nLevels: p.level || 1}) }
+    if(Array.isArray(p.value)){
+        return t('multiple class prerequisite', undefined, {
+            classes: p.value.map(getName).join(', ')
+        })
+    }
+    return t('single class prerequisite', undefined, {
+        className: getName(p.id||p.value)
+    })
+}
+
 const prerequisiteValidations = {
     races: (p, t) => t('race prerequisites', undefined, {
         raceName: t(raceStats[p.id].name, 'feats'),
@@ -31,7 +48,7 @@ const prerequisiteValidations = {
         const languageName = t(findInDb('language', p.id.toString()).name)
         return t('language prerequisites', undefined, {languageName})
     },
-    // classes: checkClasses,
+    classes: classesToString,
     // spellcasting: (p, t) => 'unimplemented',
     // alignment: checkAlignments,
     saveBaseBonus: (p, t) => t('save base bonus prerequisites', undefined, {

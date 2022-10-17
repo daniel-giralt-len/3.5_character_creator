@@ -97,7 +97,13 @@
         "score prerequisites": "{type} of {total}",
         "level prerequisites": "Level {nLevel}",
         "language prerequisites": "{languageName} language",
-        "save base bonus prerequisites": "+{total} to {name}"
+        "save base bonus prerequisites": "+{total} to {name}",
+        "abjurer class prerequisite": "Abjurer class",
+        "arcane caster prerequisite": "{nLevels} arcane caster levels (no check yet)",
+        "divine caster prerequisite": "{nLevels} divine caster levels (no check yet)",
+        "caster prerequisite": "{nLevels} caster levels (no check yet)",
+        "multiple class prerequisite": "One or more of: {classes}",
+        "single class prerequisite": "{className} class"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -192,7 +198,13 @@
         "score prerequisites": "{total} en {type}",
         "level prerequisites": "Nivel {nLevel}",
         "language prerequisites": "Idioma {languageName}",
-        "save base bonus prerequisites": "+{total} a la {name}"
+        "save base bonus prerequisites": "+{total} a la {name}",
+        "abjurer class prerequisite": "Clase de abjuración",
+        "arcane caster prerequisite": "{nLevels} niveles de lanzador de conjuros arcano (no se comprueba todavía)",
+        "divine caster prerequisite": "{nLevels} niveles de lanzador de conjuros divino (no se comprueba todavía)",
+        "caster prerequisite": "{nLevels} niveles de lanzador de conjuros (no se comprueba todavía)",
+        "multiple class prerequisite": "Una o más clases entre: {classes}",
+        "single class prerequisite": "Clase {className}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -287,6 +299,12 @@
         "score prerequisites": "{total} a {type}",
         "level prerequisites": "Nivell {nLevel}",
         "language prerequisites": "Idioma {languageName}",
-        "save base bonus prerequisites": "+{total} a la {name}"
+        "save base bonus prerequisites": "+{total} a la {name}",
+        "abjurer class prerequisite": "Classe d'abjuració",
+        "arcane caster prerequisite": "{nLevels} nivells de llançador de conjurs arcà (no es comprova encara)",
+        "divine caster prerequisite": "{nLevels} nivells de llançador de conjurs diví (no es comprova encara)",
+        "caster prerequisite": "{nLevels} nivells de llançador de conjurs (no es comprova encara)",
+        "multiple class prerequisite": "Una o més clases d'entre: {classes}",
+        "single class prerequisite": "Classe {className}"
     }
 }
