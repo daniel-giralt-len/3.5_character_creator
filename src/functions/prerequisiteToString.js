@@ -19,7 +19,9 @@ const prerequisiteValidations = {
     // alignment: checkAlignments,
     // saveBaseBonus: checkSaves,
     // classAbility: (p, t) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
-    //size: (p, t) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
+    size: (p, t) => t('size prerequisites', undefined, {
+        sizeList: p.value.map(v=>t(v,'sizes')).join(', ')
+    })
     // deities: () => 'unknown',
     // creatureType: () => 'unknown',
     // oneOf: checkOneOf

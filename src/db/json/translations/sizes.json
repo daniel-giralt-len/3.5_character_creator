@@ -1,0 +1,18 @@
+{
+    "es": {
+        "fine": "minúsculo",
+        "tiny": "diminuto",
+        "small": "pequeño",
+        "medium": "mediano",
+        "large": "grande",
+        "huge": "enorme"
+    },
+    "ca": {
+        "fine": "minúscul",
+        "tiny": "diminut",
+        "small": "petit",
+        "medium": "mitjà",
+        "large": "gran",
+        "huge": "enorme"
+    }
+}

@@ -89,7 +89,8 @@
         "racials": "Racials",
         "requisites not met": "Requisites not met",
         "abilities": "Abilities",
-        "skills prerequisites": "{nRanks} ranks in {skillName}"
+        "skills prerequisites": "{nRanks} ranks in {skillName}",
+        "size prerequisites": "You must be of size {sizeList}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -176,7 +177,8 @@
         "racials": "Raciales",
         "requisites not met": "Faltan requisitos",
         "abilities": "Habilidades",
-        "skills prerequisites": "{nRanks} rangos en {skillName}"
+        "skills prerequisites": "{nRanks} rangos en {skillName}",
+        "size prerequisites": "Debes ser de tamaño {sizeList}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -263,6 +265,7 @@
         "racials": "Racials",
         "requisites not met": "Falten requisits",
         "abilities": "Habilitats",
-        "skills prerequisites": "{nRanks} rangs a {skillName}"
+        "skills prerequisites": "{nRanks} rangs a {skillName}",
+        "size prerequisites": "Has de ser de tamany {sizeList}"
     }
 }

@@ -5,6 +5,7 @@ import rulebookTranslations from '../db/json/translations/rulebooks.json'
 import featTranslations from '../db/json/translations/feats.json'
 import classeTranslations from '../db/json/translations/classes.json'
 import skillTranslations from '../db/json/translations/skills.json'
+import sizesTranslations from '../db/json/translations/sizes.json'
 
 const itemTranslations = {
     races: raceTranslations,
@@ -12,7 +13,8 @@ const itemTranslations = {
     rulebooks: rulebookTranslations,
     feats: featTranslations,
     classes: classeTranslations,
-    skills: skillTranslations
+    skills: skillTranslations,
+    sizes: sizesTranslations,
 }
 
 const getTranslator = (language = 'en') => {
