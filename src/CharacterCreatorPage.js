@@ -159,7 +159,7 @@ function CharacterCreatorPage() {
 
   useEffect(()=>ReactTooltip.rebuild())
   return (<ContentWrapper>
-    <ReactTooltip/>
+    <ReactTooltip multiline/>
     <Header
       handleChangeTranslations={handleChangeTranslations}
       translate={translate}

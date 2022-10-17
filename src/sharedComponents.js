@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import ReactTooltip from 'react-tooltip';
 
 const fullCenteredText = `display: flex;
 align-items: center;

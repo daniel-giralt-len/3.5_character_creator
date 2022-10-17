@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import skillTrickDb from "../db/json/itemData/skilltrickStats.json";
+import prerequisiteToString from '../functions/prerequisiteToString';
 import { SquareButton, Text, SidewaysBlackLabel, ErrorTooltip } from '../sharedComponents';
 
 const SkillTricksLayout = styled.ul`
@@ -33,7 +34,7 @@ function SkillTrickItem({
     const isSkillTrickSelected = nLevel === selectedLevelIndex
 
     const PrerequisitesErrorMessage = hasErrors && (<ErrorTooltip 
-        message={`${translate('requisites not met')}:${JSON.stringify(errors.unfullfilledPrerequisites)}`}
+        message={`${translate('requisites not met')}:<br/>${errors.unfullfilledPrerequisites.map(p=>`- ${prerequisiteToString(p,translate)}`).join('<br/>')}`}
     />)
 
     return (

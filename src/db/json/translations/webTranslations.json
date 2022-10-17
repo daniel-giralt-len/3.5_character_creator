@@ -88,7 +88,8 @@
         "error skill tricks total over budget": "You have {selected} skill tricks but the maximum is {available}",
         "racials": "Racials",
         "requisites not met": "Requisites not met",
-        "abilities": "Abilities"
+        "abilities": "Abilities",
+        "skills prerequisites": "{nRanks} ranks in {skillName}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -174,7 +175,8 @@
         "error skill tricks total over budget": "Has elegido {selected} trucos de habilidad pero solo puedes tener {available}",
         "racials": "Raciales",
         "requisites not met": "Faltan requisitos",
-        "abilities": "Habilidades"
+        "abilities": "Habilidades",
+        "skills prerequisites": "{nRanks} rangos en {skillName}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -260,6 +262,7 @@
         "error skill tricks total over budget": "Has escollit {spentPoints} trucs d'habilitat però només en pots tenir {maxPoints}",
         "racials": "Racials",
         "requisites not met": "Falten requisits",
-        "abilities": "Habilitats"
+        "abilities": "Habilitats",
+        "skills prerequisites": "{nRanks} rangs a {skillName}"
     }
 }
