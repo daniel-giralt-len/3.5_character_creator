@@ -79,8 +79,9 @@ const prerequisiteValidations = {
 
 const prerequisiteToString = (p, translate) => {
     if(typeof p === 'string'){
+        const notImplementedYet = `(${translate('not implemented yet')})`
         console.warn('prerequisite is just a string', p)
-        return p
+        return `${translate(p)} ${notImplementedYet}`
     }
     if(!Object.keys(prerequisiteValidations).includes(p.type)){
         console.warn('unknown type for prerequisite', p)
