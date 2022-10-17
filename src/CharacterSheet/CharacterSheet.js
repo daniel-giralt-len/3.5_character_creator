@@ -157,6 +157,7 @@ function CharacterSheet({
                     translate={translate}
                     selectedLevelIndex={selectedLevelIndex}
                     onFeatsChange={onFeatsChange}
+                    errors={currentLevelErrors.feats}
                 />
                 <SkillTricks
                     skillTricks={skillTricks.added}

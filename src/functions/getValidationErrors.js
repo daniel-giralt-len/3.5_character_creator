@@ -1,4 +1,5 @@
 import skilltrickStats from '../db/json/itemData/skilltrickStats.json'
+import featStats from '../db/json/itemData/featStats.json'
 import isPrerequisiteFulfilled from './isPrerequisiteFullfilled';
 
 const validateLevel = (levelData, nLevel) => {
@@ -9,6 +10,7 @@ const validateLevel = (levelData, nLevel) => {
         skillRanks,
         skillTricks,
         classSkills,
+        featSlots,
     } = levelData
     let anyError = false
     const val = e => {
@@ -39,7 +41,11 @@ const validateLevel = (levelData, nLevel) => {
                             .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData))),
                     }
                 }),{})
-        }
+        },
+        feats: featSlots.added
+                .map(({id}) => (featStats[id].prerequisites||[])
+                                    .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
+                    )
     }
     out.level = { anyError }
     return out

@@ -48,6 +48,7 @@ const calculateLevelData = (acc, level, nLevel) => {
     const levelData = {
         ...acc,
         ...level,
+        nLevel,
         alignment: acc.alignment || level.alignment,
         name: acc.name || level.name,
         races: acc.races || level.races,

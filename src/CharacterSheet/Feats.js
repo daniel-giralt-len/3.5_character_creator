@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import { Text, SidewaysBlackLabel, SquareButton } from '../sharedComponents';
+import { Text, SidewaysBlackLabel, SquareButton, ErrorTooltip } from '../sharedComponents';
 import { Fragment } from 'react';
 import featStats from '../db/json/itemData/featStats.json'
+import prerequisiteToString from '../functions/prerequisiteToString';
 
 const Header = styled(SidewaysBlackLabel)`grid-area: header;`
 
@@ -16,12 +17,20 @@ const FeatsLayout = styled.ul`
     grid-template-columns: 1fr 4fr 1fr;
 `
 
+const FeatCellLayout = styled.li`
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+`
+
+
 function Feats({
     featSlots = [],
     totalSlots,
     translate,
     selectedLevelIndex,
-    onFeatsChange
+    onFeatsChange,
+    errors,
 }) {
     const onRemoveFeat = removedId => {
         const newLevelSlots = featSlots
@@ -40,17 +49,30 @@ function Feats({
             <Text small>{translate('level')}</Text>
             <Text small>{translate('name')}</Text>
             <Text small />
-            {featSlots.map(({level, id}, i) => (<Fragment key={i}>
-                <Text info={selectedLevelIndex===level}>{level}</Text>
-                <Text info={selectedLevelIndex===level}>
-                    {featStats[id] ? translate((featStats[id]||{}).name||'', 'feats') : '—'}
-                </Text>
-                <div>
-                    {selectedLevelIndex===level && (<SquareButton onClick={() => onRemoveFeat(id)}>
-                        -
-                    </SquareButton>)}
-                </div>
-            </Fragment>))}
+            {featSlots.map(({level, id}, i) => {
+
+                const isFeatOfselectedLevel = selectedLevelIndex===level
+                const hasErrors = errors[i].length > 0
+                
+                const ErrorComponent = hasErrors && (<ErrorTooltip
+                    message={`${translate('requisites not met')}:<br/>${errors[i].map(p=>`- ${prerequisiteToString(p,translate)}`).join('<br/>')}`}
+                />)
+                
+                return(<Fragment key={i}>
+                    <FeatCellLayout><Text warning={hasErrors} info={isFeatOfselectedLevel}>{level}</Text></FeatCellLayout>
+                    <FeatCellLayout>
+                        <Text warning={hasErrors} info={isFeatOfselectedLevel}>
+                            {featStats[id] ? translate((featStats[id]||{}).name||'', 'feats') : '—'}
+                        </Text>
+                        {ErrorComponent}
+                    </FeatCellLayout>
+                    <FeatCellLayout>
+                        {isFeatOfselectedLevel && (<SquareButton onClick={() => onRemoveFeat(id)}>
+                            -
+                        </SquareButton>)}
+                    </FeatCellLayout>
+                </Fragment>)
+            })}
         </FeatsLayout>
     );
 }
