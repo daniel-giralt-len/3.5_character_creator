@@ -16,7 +16,10 @@ const prerequisiteValidations = {
             nRanks: p.value,
         })
     },
-    // score: (p, t) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
+    score: (p, t) => t('score prerequisites', undefined, {
+        type: t(p.score),
+        total: p.value,
+    }),
     bab: (p, t) => t('bab prerequisites', undefined, {
         bab: p.value,
     }),

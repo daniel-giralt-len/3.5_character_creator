@@ -45,7 +45,7 @@ const validateLevel = (levelData, nLevel) => {
         feats: featSlots.added
                 .map(({id}) => ((featStats[id]||{}).prerequisites||[])
                                     .filter(prerequisite => val(!isPrerequisiteFulfilled(prerequisite, levelData)))
-                    )
+                    ).filter(v=>v)
     }
     out.level = { anyError }
     return out

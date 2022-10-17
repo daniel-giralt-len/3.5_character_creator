@@ -24,7 +24,7 @@ const prerequisiteValidations = {
     races: (p, c) => c.races === p.id,
     feats: (p, c) => c.feats && c.feats[p.id],
     skills: (p, c) => c.skillRanks.added[p.id] && (c.skillRanks.added[p.id]) >= (p.value || 0),
-    // score: (p, c) => (c.bonuses[p.score] + c.scores[p.score]) >= p.value,
+    score: (p, c) => (c.scores.added[p.score] + c.bonuses[p.score]) >= p.value,
     bab: (p, c) => c.bonuses.bab >= p.value,
     // level: (p, c) => c.classes.length >= p.value,
     // language: (p, c) => c.language[p.id] === true,
