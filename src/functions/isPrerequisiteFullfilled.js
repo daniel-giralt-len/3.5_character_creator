@@ -31,7 +31,7 @@ const prerequisiteValidations = {
     // classes: checkClasses,
     // spellcasting: (p, c) => 'unimplemented',
     // alignment: checkAlignments,
-    // saveBaseBonus: checkSaves,
+    saveBaseBonus: checkSaves,
     // classAbility: (p, c) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
     // deities: () => 'unknown',

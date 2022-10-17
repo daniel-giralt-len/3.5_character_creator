@@ -96,7 +96,8 @@
         "race prerequisites": "{raceName} race",
         "score prerequisites": "{type} of {total}",
         "level prerequisites": "Level {nLevel}",
-        "language prerequisites": "{languageName} language"
+        "language prerequisites": "{languageName} language",
+        "save base bonus prerequisites": "+{total} to {name}"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -190,7 +191,8 @@
         "race prerequisites": "Raza {raceName}",
         "score prerequisites": "{total} en {type}",
         "level prerequisites": "Nivel {nLevel}",
-        "language prerequisites": "Idioma {languageName}"
+        "language prerequisites": "Idioma {languageName}",
+        "save base bonus prerequisites": "+{total} a la {name}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -284,6 +286,7 @@
         "race prerequisites": "Raça {raceName}",
         "score prerequisites": "{total} a {type}",
         "level prerequisites": "Nivell {nLevel}",
-        "language prerequisites": "Idioma {languageName}"
+        "language prerequisites": "Idioma {languageName}",
+        "save base bonus prerequisites": "+{total} a la {name}"
     }
 }

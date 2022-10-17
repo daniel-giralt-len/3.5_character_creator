@@ -29,13 +29,15 @@ const prerequisiteValidations = {
     }),
     language: (p, t) => {
         const languageName = t(findInDb('language', p.id.toString()).name)
-        return t('language prerequisites', undefined, {languageName}
-    )
-},
+        return t('language prerequisites', undefined, {languageName})
+    },
     // classes: checkClasses,
     // spellcasting: (p, t) => 'unimplemented',
     // alignment: checkAlignments,
-    // saveBaseBonus: checkSaves,
+    saveBaseBonus: (p, t) => t('save base bonus prerequisites', undefined, {
+        name: t(p.saveType),
+        total: p.value,
+    }),
     // classAbility: (p, t) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
     size: (p, t) => t('size prerequisites', undefined, {
         sizeList: p.value.map(v=>t(v,'sizes')).join(', ')
