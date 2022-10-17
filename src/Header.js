@@ -1,16 +1,19 @@
 import webTranslations from './db/json/translations/webTranslations.json'
 import { SelectedButton } from './sharedComponents'
 import SelectorSwitch from './SelectorSwitch'
+import { noPrintStyle } from './sharedComponents'
 
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.header`
     grid-area: header;
     margin-bottom: 15px;
+    ${noPrintStyle}
 `
 
 const SelectorSwitchWrapper = styled.header`
     grid-area: header-selector;
+    ${noPrintStyle}
 `
 
 function Header({

@@ -5,14 +5,13 @@ import findInDb from '../functions/findInDb';
 import { 
     TextInput,
     MissingItem,
-    Text
+    Text,
+    onlyPrintStyle
 } from '../sharedComponents';
 
 const ClassNamesLayout = styled.div`
-    grid-area: class-names;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    grid-area: classes;
+    ${onlyPrintStyle}
 `
 
 function ClassNames({

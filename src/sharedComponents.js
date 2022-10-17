@@ -34,7 +34,13 @@ const infoStyle= `
     background: #fff90033;
 `
 
-const SquareButton = styled.button`${boxed}`
+const noPrintStyle = `@media print{ display: none; }`
+const onlyPrintStyle = `
+    display: none;
+    @media print{ display: inherit; }
+`
+
+const SquareButton = styled.button`${boxed}${noPrintStyle}`
 
 const TextInput = styled.textarea`
     resize: none;
@@ -76,6 +82,11 @@ const BlackLabelWrapper = styled.div`
     color: #ff4444;
     font-weight: bold;
     ` : ''};
+    @media print {
+        -webkit-print-color-adjust: exact !important;
+        -webkit-print-color-adjust:exact !important;
+        print-color-adjust:exact !important;
+    }
 `
 
 const TextWrapper = styled.div`
@@ -168,5 +179,8 @@ export {
     smallText,
     SidewaysBlackLabel,
     SelectedButton,
-    ErrorTooltip
+    ErrorTooltip,
+    
+    noPrintStyle,
+    onlyPrintStyle
 }

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import { 
+    noPrintStyle,
+    onlyPrintStyle,
     Text
 } from '../sharedComponents';
 
@@ -18,7 +20,10 @@ const AlignmentTable = styled.ul`
 
     padding: 0;
     margin: 0
+    ${noPrintStyle}
 `
+
+const PrintOnlyAlignment = styled(Text)`${onlyPrintStyle}`
 
 const AlignmentItem = styled.div`
     display: flex;
@@ -30,7 +35,10 @@ const AlignmentItem = styled.div`
     pointer-events: none;
     background: #34000020;
     `}
+    ${noPrintStyle}
 `
+
+const NoPrintText = styled(Text)`${noPrintStyle}`
 
 const alignments = [
     {name: 'lawful good',     object: {legality: 'lawful',  goodness: 'good'}},
@@ -66,7 +74,8 @@ const Alignment = ({
                     ))
                 }
             </AlignmentTable>
-            <Text small>{translate('alignment')}</Text>
+            <NoPrintText small>{translate('alignment')}</NoPrintText>
+            <PrintOnlyAlignment>{translate(alignments.find(a=>compareAlignments(alignment, a.object)).name)}</PrintOnlyAlignment>
         </AlignmentWrapper>
 )
 

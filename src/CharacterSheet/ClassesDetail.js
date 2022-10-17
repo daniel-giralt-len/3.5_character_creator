@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import classStats from '../db/json/itemData/classStats.json'
 import dbs from '../db/json/dbs.json'
-import { Text, BlackLabel } from '../sharedComponents';
+import { Text, BlackLabel, noPrintStyle } from '../sharedComponents';
 import ClassDetailItem from './ClassDetailItem';
 
 const Header = styled(BlackLabel)`grid-area: header`
@@ -13,6 +13,7 @@ const ClassesLayout = styled.li`
         "header header header"
         "level name buttons";
     grid-template-columns: 1fr 4fr 3fr;
+    ${noPrintStyle}
 `
 
 function ClassesDisplay({

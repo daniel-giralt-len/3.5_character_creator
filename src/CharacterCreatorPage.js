@@ -17,6 +17,7 @@ import clampInteger from './functions/clampInteger'
 import getTranslator from './functions/getTranslator'
 import getCumulativeLevels from './functions/getCumulativeLevels'
 import getValidationErrors from './functions/getValidationErrors'
+import { noPrintStyle } from './sharedComponents'
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -34,7 +35,10 @@ const ContentWrapper = styled.div`
   }
 `
 const LeftWrapper = styled.div`grid-area: left;`
-const RightWrapper = styled.div`grid-area: right;`
+const RightWrapper = styled.div`
+  grid-area: right;
+  ${noPrintStyle}
+`
 
 const generateSelectorReadableLevel = (characterLevels, selectedCharacterLevel, fullCharacterDataByLevel) => {
   const selectorReadableCharacterLevel = {...characterLevels[selectedCharacterLevel]}

@@ -23,7 +23,6 @@ const CharacterSheetLayout = styled.section`
     padding: 10px;
     border-radius: 2px;
 
-    
     grid-row-gap: 15px;
     grid-column-gap: 10px;
    
@@ -46,7 +45,7 @@ const CharacterSheetLayout = styled.section`
             "name"
             "alignment"
             "race"
-            "class-names"
+            "classes"
             "scores"
             "saves"
             "bab"
@@ -54,6 +53,24 @@ const CharacterSheetLayout = styled.section`
             "classes"
             "skilltricks"
             "skills";
+    }
+    @media print {
+        border: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        font-size: 0.75em;
+        grid-template-areas: 
+            "name race"
+            "classes skills"
+            "alignment skills"
+            "scores skills"
+            "saves skills"
+            "bab skills"
+            "class-skills skills"
+            "feats skills"
+            "languages skilltricks";
+        max-width: 100%
     }
 `
 
@@ -109,11 +126,11 @@ function CharacterSheet({
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
                 />
-                {/* <ClassNames
+                <ClassNames
                     classes={fullClassList}
                     translate={translate}
                     onChangeSelectorTab={onChangeSelectorTab}
-                /> */}
+                />
                 <Alignment
                     alignment={alignment}
                     onAlignmentChange={onAlignmentChange}
