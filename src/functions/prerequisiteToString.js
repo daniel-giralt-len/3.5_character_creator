@@ -52,7 +52,12 @@ const prerequisiteValidations = {
     },
     classes: classesToString,
     // spellcasting: (p, t) => 'unimplemented',
-    // alignment: checkAlignments,
+    alignment: ({legality, goodness}, t) => {
+        return [
+            (!legality || legality === '*') ? t('any legality') : t('legality list prerequisite', undefined, { names: legality.map(t).join(', ')}),
+            (!goodness || goodness === '*') ? t('any goodness') : t('goodness list prerequisite', undefined, { names: goodness.map(t).join(', ')}),
+        ].join('; ')
+    },
     saveBaseBonus: (p, t) => t('save base bonus prerequisites', undefined, {
         name: t(p.saveType),
         total: p.value,
