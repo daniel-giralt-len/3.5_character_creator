@@ -19,6 +19,9 @@ const validateLevel = (levelData, nLevel) => {
         anyError = anyError || e;
         return e;
     }
+
+    console.log(classSkills.added)
+    console.log(skillRanks.added)
     const out = {
         language: {
             overBudget: val(nKnownLanguages > maxKnownLanguages)
@@ -29,7 +32,7 @@ const validateLevel = (levelData, nLevel) => {
                 .entries(skillRanks.added)
                 .reduce((acc, [id, ranks]) => ({
                     ...acc,
-                    [id]: val(ranks > (classSkills.added.includes(id) ? skillRanks.maxPerSkill.isClass : skillRanks.maxPerSkill.isNotClass))
+                    [id]: val(ranks > (classSkills.added.includes(parseInt(id)) ? skillRanks.maxPerSkill.isClass : skillRanks.maxPerSkill.isNotClass))
                 }), {}),
         },
         skillTricks: {
