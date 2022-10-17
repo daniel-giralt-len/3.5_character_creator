@@ -75,7 +75,7 @@ const Alignment = ({
                 }
             </AlignmentTable>
             <NoPrintText small>{translate('alignment')}</NoPrintText>
-            <PrintOnlyAlignment>{translate(alignments.find(a=>compareAlignments(alignment, a.object)).name)}</PrintOnlyAlignment>
+            <PrintOnlyAlignment>{`${translate('alignment')}: ${translate(alignments.find(a=>compareAlignments(alignment, a.object)).name)}`}</PrintOnlyAlignment>
         </AlignmentWrapper>
 )
 
