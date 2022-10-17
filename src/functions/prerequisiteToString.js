@@ -73,7 +73,13 @@ const prerequisiteValidations = {
         })
         return `${msg} ${notImplementedYet}`
     },
-    // creatureType: () => 'unknown',
+    creatureType: (p, t) => {
+        const notImplementedYet = `(${t('not implemented yet')})`
+        const msg = t('creatureType prerequisites', undefined, {
+            types: p.value.map(t).join(', ')
+        })
+        return `${msg} ${notImplementedYet}`
+    },
     // oneOf: checkOneOf
 }
 
