@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import skillTrickDb from "../db/json/itemData/skilltrickStats.json";
-import { SquareButton, Text, SidewaysBlackLabel } from '../sharedComponents';
+import { SquareButton, Text, SidewaysBlackLabel, ErrorTooltip } from '../sharedComponents';
 
 const SkillTricksLayout = styled.ul`
     grid-area: skilltricks;
@@ -80,13 +80,22 @@ function SkillTricks({
 }) {
     const handleDelete = nLevel => onSkillRemove(nLevel)
 
+const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip 
+        message={translate('error skill tricks total over budget', undefined, {
+            selected: skillTricks.length,
+            available: Math.ceil(selectedLevelIndex/2)
+        })}
+    />)
+
     return (
         <SkillTricksLayout>
             <Header
                 name={translate('skilltricks')}
                 subtitles={[`${skillPointsUsed.current} ${translate('points')} (${skillPointsUsed.added})`]}
                 warning={errors.isTotalOverBudget}
-            />
+            >
+                {OverallErrorMessage}
+            </Header>
             <Text small centered>{translate('level')}</Text>
             <Text small centered>{translate('class')}</Text>
             <Text small />

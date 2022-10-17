@@ -85,6 +85,7 @@
         "max ranks": "Max Ranks",
         "error skill over budget": "Max ranks are {maxRanks} but you have {boughtRank}",
         "error skill total over budget": "You spent {spentPoints} points but only have {maxPoints}",
+        "error skill tricks total over budget": "You have {selected} skill tricks but the maximum is {available}",
         "racials": "Racials",
         "abilities": "Abilities"
     },
@@ -169,6 +170,7 @@
         "max ranks": "Rangos Máx.",
         "error skill over budget": "Tienes {boughtRank} rangos pero el máximo es {maxRanks}",
         "error skill total over budget": "Has gastado {spentPoints} puntos pero solo tienes {maxPoints}",
+        "error skill tricks total over budget": "Has elegido {selected} trucos de habilidad pero solo puedes tener {available}",
         "racials": "Raciales",
         "abilities": "Habilidades"
     },
@@ -253,6 +255,7 @@
         "max ranks": "Rangs màx.",
         "error skill over budget": "Tens {boughtRank} rangs pero el màxim és {maxRanks}",
         "error skill total over budget": "Has gastat {spentPoints} punts pero només en tens {maxPoints}",
+        "error skill tricks total over budget": "Has escollit {spentPoints} trucs d'habilitat però només en pots tenir {maxPoints}",
         "racials": "Racials",
         "abilities": "Habilitats"
     }
