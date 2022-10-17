@@ -34,7 +34,7 @@ const prerequisiteValidations = {
     // spellcasting: (p, c) => 'unimplemented',
     alignment: checkAlignments,
     saveBaseBonus: checkSaves,
-    // classAbility: (p, c) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
+    classAbility: (p, c) => Object.keys(c.classAbilities.added).includes(p.value),
     size: (p, c) => Array.isArray(p.value) ? p.value.includes(c.raceData.size) : p.value === c.raceData.size,
     deities: (p, c) => false, //not implemented
     // creatureType: () => 'unknown',
@@ -44,7 +44,7 @@ const prerequisiteValidations = {
 const isPrerequisiteFullfilled = (p, levelData) => {
     if(typeof p === 'string'){
         console.warn('prerequisite is just a string', p)
-        return true
+        return false
     }
     if(!Object.keys(prerequisiteValidations).includes(p.type)){
         console.warn('unknown type for prerequisite', p)

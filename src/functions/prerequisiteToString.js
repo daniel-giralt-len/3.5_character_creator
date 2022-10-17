@@ -62,7 +62,7 @@ const prerequisiteValidations = {
         name: t(p.saveType),
         total: p.value,
     }),
-    // classAbility: (p, t) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
+    classAbility: (p, t) => `${t(p.value)}${p.diceType ? ` (${p.diceAmount}${p.diceType} => ${t('not implemented yet')})`: ''}`,
     size: (p, t) => t('size prerequisites', undefined, {
         sizeList: p.value.map(v=>t(v,'sizes')).join(', ')
     }),
