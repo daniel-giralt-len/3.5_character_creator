@@ -95,7 +95,8 @@
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "{raceName} race",
         "score prerequisites": "{type} of {total}",
-        "level prerequisites": "Level {nLevel}"
+        "level prerequisites": "Level {nLevel}",
+        "language prerequisites": "{languageName} language"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -188,7 +189,8 @@
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "Raza {raceName}",
         "score prerequisites": "{total} en {type}",
-        "level prerequisites": "Nivel {nLevel}"
+        "level prerequisites": "Nivel {nLevel}",
+        "language prerequisites": "Idioma {languageName}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -281,6 +283,7 @@
         "bab prerequisites": "+{bab} B.A.B",
         "race prerequisites": "Raça {raceName}",
         "score prerequisites": "{total} a {type}",
-        "level prerequisites": "Nivell {nLevel}"
+        "level prerequisites": "Nivell {nLevel}",
+        "language prerequisites": "Idioma {languageName}"
     }
 }

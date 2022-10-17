@@ -1,6 +1,7 @@
 import skillsDb from '../db/json/skills.json'
 import featStats from '../db/json/itemData/featStats.json'
 import raceStats from '../db/json/itemData/raceStats.json'
+import findInDb from './findInDb.js'
 
 const prerequisiteValidations = {
     races: (p, t) => t('race prerequisites', undefined, {
@@ -26,7 +27,11 @@ const prerequisiteValidations = {
     level: (p, t) => t('level prerequisites', undefined, {
         nLevel: p.value
     }),
-    // language: (p, t) => c.language[p.id] === true,
+    language: (p, t) => {
+        const languageName = t(findInDb('language', p.id.toString()).name)
+        return t('language prerequisites', undefined, {languageName}
+    )
+},
     // classes: checkClasses,
     // spellcasting: (p, t) => 'unimplemented',
     // alignment: checkAlignments,
