@@ -92,7 +92,7 @@ function CharacterSheet({
         const onNameChange = name => onCreationChange({ name }, 'name')
         const onScoreChange = (score, value) => onCreationChange({ score, value: parseInt(value), }, 'scores')
         const onSkillChange = ({id, points}) => onCreationChange({id, points}, 'skillPoints')
-        const onFeatsChange = feats => onCreationChange({...character, feats})
+        const onFeatsChange = feats => onCreationChange({feats}, 'feats')
         const onLanguagesChange = language => onCreationChange({ language })
         const onAlignmentChange = alignment => onCreationChange({ alignment }, 'alignment')
         const handleSkillRemoving = nLevel => onCreationChange({nLevel}, 'removeSkillTrick')
@@ -156,6 +156,7 @@ function CharacterSheet({
                     totalSlots={featSlots.total}
                     translate={translate}
                     selectedLevelIndex={selectedLevelIndex}
+                    onFeatsChange={onFeatsChange}
                 />
                 <SkillTricks
                     skillTricks={skillTricks.added}
