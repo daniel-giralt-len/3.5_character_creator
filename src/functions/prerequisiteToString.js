@@ -1,8 +1,11 @@
-import skillsDb from "../db/json/skills.json";
+import skillsDb from '../db/json/skills.json'
+import featStats from '../db/json/itemData/featStats.json'
 
 const prerequisiteValidations = {
     // races: (p, t) => c.races === p.id,
-    //feats: (p, t) => c.feats && c.feats[p.id],
+    feats: (p, t) => t('feat prerequisites', undefined, {
+        featName: t(featStats[p.id].name, 'feats'),
+    }),
     skills: (p, t) => {
         const stats = skillsDb.find(({id})=>id===p.id)
         return t('skills prerequisites', undefined, {

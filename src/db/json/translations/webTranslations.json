@@ -90,7 +90,8 @@
         "requisites not met": "Requisites not met",
         "abilities": "Abilities",
         "skills prerequisites": "{nRanks} ranks in {skillName}",
-        "size prerequisites": "You must be of size {sizeList}"
+        "size prerequisites": "Of size {sizeList}",
+        "feat prerequisites": "Tthe {featName} feat"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -178,7 +179,8 @@
         "requisites not met": "Faltan requisitos",
         "abilities": "Habilidades",
         "skills prerequisites": "{nRanks} rangos en {skillName}",
-        "size prerequisites": "Debes ser de tamaño {sizeList}"
+        "size prerequisites": "De tamaño {sizeList}",
+        "feat prerequisites": "La dote {featName}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -266,6 +268,7 @@
         "requisites not met": "Falten requisits",
         "abilities": "Habilitats",
         "skills prerequisites": "{nRanks} rangs a {skillName}",
-        "size prerequisites": "Has de ser de tamany {sizeList}"
+        "size prerequisites": "De tamany {sizeList}",
+        "feat prerequisites": "La dot {featName}"
     }
 }
