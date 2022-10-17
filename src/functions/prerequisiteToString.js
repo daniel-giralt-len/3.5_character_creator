@@ -58,8 +58,10 @@ const prerequisiteValidations = {
     // classAbility: (p, t) => c.classAbilities.some(a=>a.toLowerCase().includes(p.value)),
     size: (p, t) => t('size prerequisites', undefined, {
         sizeList: p.value.map(v=>t(v,'sizes')).join(', ')
-    })
-    // deities: () => 'unknown',
+    }),
+    deities: (p, t) => t('deities prerequisites', undefined, {
+        deityName: t(p.value)
+    }),
     // creatureType: () => 'unknown',
     // oneOf: checkOneOf
 }

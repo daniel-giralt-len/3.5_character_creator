@@ -103,7 +103,8 @@
         "divine caster prerequisite": "{nLevels} divine caster levels (no check yet)",
         "caster prerequisite": "{nLevels} caster levels (no check yet)",
         "multiple class prerequisite": "One or more of: {classes}",
-        "single class prerequisite": "{className} class"
+        "single class prerequisite": "{className} class",
+        "deities prerequisites": "Adorar a {deityName} (no check yet)"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -204,7 +205,8 @@
         "divine caster prerequisite": "{nLevels} niveles de lanzador de conjuros divino (no se comprueba todavía)",
         "caster prerequisite": "{nLevels} niveles de lanzador de conjuros (no se comprueba todavía)",
         "multiple class prerequisite": "Una o más clases entre: {classes}",
-        "single class prerequisite": "Clase {className}"
+        "single class prerequisite": "Clase {className}",
+        "deities prerequisites": "Adorar a {deityName} (no se comprueba todavía)"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -305,6 +307,7 @@
         "divine caster prerequisite": "{nLevels} nivells de llançador de conjurs diví (no es comprova encara)",
         "caster prerequisite": "{nLevels} nivells de llançador de conjurs (no es comprova encara)",
         "multiple class prerequisite": "Una o més clases d'entre: {classes}",
-        "single class prerequisite": "Classe {className}"
+        "single class prerequisite": "Classe {className}",
+        "deities prerequisites": "Adorar a {deityName} (no es comprova encara)"
     }
 }
