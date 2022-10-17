@@ -92,7 +92,8 @@
         "skills prerequisites": "{nRanks} ranks in {skillName}",
         "size prerequisites": "Of size {sizeList}",
         "feat prerequisites": "Tthe {featName} feat",
-        "bab prerequisites": "+{bab} B.A.B"
+        "bab prerequisites": "+{bab} B.A.B",
+        "race prerequisites": "{raceName} race"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -182,7 +183,8 @@
         "skills prerequisites": "{nRanks} rangos en {skillName}",
         "size prerequisites": "De tamaño {sizeList}",
         "feat prerequisites": "La dote {featName}",
-        "bab prerequisites": "+{bab} B.A.B"
+        "bab prerequisites": "+{bab} B.A.B",
+        "race prerequisites": "Raza {raceName}"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -272,6 +274,7 @@
         "skills prerequisites": "{nRanks} rangs a {skillName}",
         "size prerequisites": "De tamany {sizeList}",
         "feat prerequisites": "La dot {featName}",
-        "bab prerequisites": "+{bab} B.A.B"
+        "bab prerequisites": "+{bab} B.A.B",
+        "race prerequisites": "Raça {raceName}"
     }
 }
