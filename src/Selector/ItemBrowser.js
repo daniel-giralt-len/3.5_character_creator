@@ -26,7 +26,7 @@ function renderItems({
         isForbidden = id => selectedList.forbidden.includes(id)
     }else{
         isSelected = id => (itemType === 'races' && selectedList === id)
-            || (itemType === 'classes' && Array.isArray(selectedList) && selectedList.find(i=>i === id))
+            || (multiselectableTypes.includes(itemType) && Array.isArray(selectedList) && selectedList.find(i=>i === id))
             || selectedList[id] === true
     }
 
