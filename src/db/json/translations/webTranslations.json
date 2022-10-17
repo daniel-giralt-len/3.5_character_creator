@@ -87,6 +87,7 @@
         "error skill total over budget": "You spent {spentPoints} points but only have {maxPoints}",
         "error skill tricks total over budget": "You have {selected} skill tricks but the maximum is {available}",
         "racials": "Racials",
+        "requisites not met": "Requisites not met",
         "abilities": "Abilities"
     },
     "es": {
@@ -172,6 +173,7 @@
         "error skill total over budget": "Has gastado {spentPoints} puntos pero solo tienes {maxPoints}",
         "error skill tricks total over budget": "Has elegido {selected} trucos de habilidad pero solo puedes tener {available}",
         "racials": "Raciales",
+        "requisites not met": "Faltan requisitos",
         "abilities": "Habilidades"
     },
     "ca": {
@@ -257,6 +259,7 @@
         "error skill total over budget": "Has gastat {spentPoints} punts pero només en tens {maxPoints}",
         "error skill tricks total over budget": "Has escollit {spentPoints} trucs d'habilitat però només en pots tenir {maxPoints}",
         "racials": "Racials",
+        "requisites not met": "Falten requisits",
         "abilities": "Habilitats"
     }
 }

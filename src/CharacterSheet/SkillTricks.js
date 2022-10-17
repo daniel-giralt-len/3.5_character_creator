@@ -15,7 +15,7 @@ const SkillTricksLayout = styled.ul`
 
 const SkillTrickItemLayout = styled.li`
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 `
 
@@ -26,37 +26,45 @@ function SkillTrickItem({
     onDelete,
     errors,
     nLevel,
+    translate,
     selectedLevelIndex
 }){
+    const hasErrors = errors.unfullfilledPrerequisites.length > 0
     const isSkillTrickSelected = nLevel === selectedLevelIndex
+
+    const PrerequisitesErrorMessage = hasErrors && (<ErrorTooltip 
+        message={`${translate('requisites not met')}:${JSON.stringify(errors.unfullfilledPrerequisites)}`}
+    />)
+
     return (
         <>
         <SkillTrickItemLayout>
             <Text
-                warning={errors.unfullfilledPrerequisites.length > 0}
+                warning={hasErrors}
                 info={selectedLevelIndex === nLevel}
             >
                 {isSkillTrickSelected ? `>${nLevel}<` : nLevel}
             </Text>
             </SkillTrickItemLayout>
             <SkillTrickItemLayout>
-            <Text
-                warning={errors.unfullfilledPrerequisites.length > 0}
-                info={selectedLevelIndex === nLevel}
-            >
-                {isSkillTrickSelected ? `>${skillTrick.name}` : skillTrick.name}
-            </Text>
+                <Text
+                    warning={hasErrors}
+                    info={selectedLevelIndex === nLevel}
+                >
+                    {isSkillTrickSelected ? `>${skillTrick.name}` : skillTrick.name}
+                </Text>
+                {PrerequisitesErrorMessage}
             </SkillTrickItemLayout>
             <div>
-            {onDelete && isSkillTrickSelected && (<SquareButton onClick={() => onDelete(nLevel)}>
-                -
-            </SquareButton>)}
+                {onDelete && isSkillTrickSelected && (<SquareButton onClick={() => onDelete(nLevel)}>
+                    -
+                </SquareButton>)}
             </div>
         </>
     )
 }
 
-const renderSkillTricks = ({skillTricks, errors, handleDelete, selectedLevelIndex}) => {
+const renderSkillTricks = ({skillTricks, errors, handleDelete, selectedLevelIndex, translate}) => {
     return skillTricks
             .map(({id, nLevel}) => {
                 return (<SkillTrickItem
@@ -66,6 +74,7 @@ const renderSkillTricks = ({skillTricks, errors, handleDelete, selectedLevelInde
                     onDelete={handleDelete}
                     errors={errors[id]}
                     selectedLevelIndex={selectedLevelIndex}
+                    translate={translate}
                 />)
             })
 }
@@ -80,7 +89,7 @@ function SkillTricks({
 }) {
     const handleDelete = nLevel => onSkillRemove(nLevel)
 
-const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip 
+    const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip 
         message={translate('error skill tricks total over budget', undefined, {
             selected: skillTricks.length,
             available: Math.ceil(selectedLevelIndex/2)
@@ -99,7 +108,7 @@ const OverallErrorMessage = errors.isTotalOverBudget && (<ErrorTooltip
             <Text small centered>{translate('level')}</Text>
             <Text small centered>{translate('class')}</Text>
             <Text small />
-            {renderSkillTricks({skillTricks, handleDelete, errors: errors.singularErrors, selectedLevelIndex})}
+            {renderSkillTricks({skillTricks, handleDelete, errors: errors.singularErrors, selectedLevelIndex, translate})}
         </SkillTricksLayout>
     );
 }
