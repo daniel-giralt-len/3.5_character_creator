@@ -99,12 +99,13 @@
         "language prerequisites": "{languageName} language",
         "save base bonus prerequisites": "+{total} to {name}",
         "abjurer class prerequisite": "Abjurer class",
-        "arcane caster prerequisite": "{nLevels} arcane caster levels (no check yet)",
-        "divine caster prerequisite": "{nLevels} divine caster levels (no check yet)",
-        "caster prerequisite": "{nLevels} caster levels (no check yet)",
+        "arcane caster prerequisite": "{nLevels} arcane caster levels",
+        "divine caster prerequisite": "{nLevels} divine caster levels",
+        "caster prerequisite": "{nLevels} caster levels",
         "multiple class prerequisite": "One or more of: {classes}",
         "single class prerequisite": "{className} class",
-        "deities prerequisites": "Adorar a {deityName} (no check yet)"
+        "deities prerequisites": "Adorar a {deityName}",
+        "not implemented yet": "no check yet"
     },
     "es": {
         "classes and levels": "Clases y Niveles",
@@ -201,12 +202,13 @@
         "language prerequisites": "Idioma {languageName}",
         "save base bonus prerequisites": "+{total} a la {name}",
         "abjurer class prerequisite": "Clase de abjuración",
-        "arcane caster prerequisite": "{nLevels} niveles de lanzador de conjuros arcano (no se comprueba todavía)",
-        "divine caster prerequisite": "{nLevels} niveles de lanzador de conjuros divino (no se comprueba todavía)",
-        "caster prerequisite": "{nLevels} niveles de lanzador de conjuros (no se comprueba todavía)",
+        "arcane caster prerequisite": "{nLevels} niveles de lanzador de conjuros arcano",
+        "divine caster prerequisite": "{nLevels} niveles de lanzador de conjuros divino",
+        "caster prerequisite": "{nLevels} niveles de lanzador de conjuros",
         "multiple class prerequisite": "Una o más clases entre: {classes}",
         "single class prerequisite": "Clase {className}",
-        "deities prerequisites": "Adorar a {deityName} (no se comprueba todavía)"
+        "deities prerequisites": "Adorar a {deityName}",
+        "not implemented yet": "no se comprueba todavía"
     },
     "ca": {
         "classes and levels": "Classes i Nivells",
@@ -303,11 +305,12 @@
         "language prerequisites": "Idioma {languageName}",
         "save base bonus prerequisites": "+{total} a la {name}",
         "abjurer class prerequisite": "Classe d'abjuració",
-        "arcane caster prerequisite": "{nLevels} nivells de llançador de conjurs arcà (no es comprova encara)",
-        "divine caster prerequisite": "{nLevels} nivells de llançador de conjurs diví (no es comprova encara)",
-        "caster prerequisite": "{nLevels} nivells de llançador de conjurs (no es comprova encara)",
+        "arcane caster prerequisite": "{nLevels} nivells de llançador de conjurs arcà",
+        "divine caster prerequisite": "{nLevels} nivells de llançador de conjurs diví",
+        "caster prerequisite": "{nLevels} nivells de llançador de conjurs",
         "multiple class prerequisite": "Una o més clases d'entre: {classes}",
         "single class prerequisite": "Classe {className}",
-        "deities prerequisites": "Adorar a {deityName} (no es comprova encara)"
+        "deities prerequisites": "Adorar a {deityName}",
+        "not implemented yet": "no es comprova encara"
     }
 }

@@ -3,13 +3,15 @@ import featStats from '../db/json/itemData/featStats.json'
 import raceStats from '../db/json/itemData/raceStats.json'
 import findInDb from './findInDb.js'
 
+
 const classesToString = (p,t) => {
+    const notImplementedYet = `(${t('not implemented yet')})`
     const getName = id => t(findInDb('classes', id.toString()).name)
 
-    if(p.value === 'abjurer') { return t('abjurer class prerequisite') }
-    if(p.value === 'arcane caster') { return t('arcane caster prerequisite', undefined, {nLevels: p.level || 1}) }
-    if(p.value === 'divine caster') { return t('divine caster prerequisite', undefined, {nLevels: p.level || 1}) }
-    if(p.value === 'caster') { return t('caster prerequisite', undefined, {nLevels: p.level || 1}) }
+    if(p.value === 'abjurer') { return `${t('abjurer class prerequisite')} ${notImplementedYet}` }
+    if(p.value === 'arcane caster') { return `${t('arcane caster prerequisite', undefined, {nLevels: p.level || 1})} ${notImplementedYet}` }
+    if(p.value === 'divine caster') { return `${t('divine caster prerequisite', undefined, {nLevels: p.level || 1})} ${notImplementedYet}` }
+    if(p.value === 'caster') { return `${t('caster prerequisite', undefined, {nLevels: p.level || 1})} ${notImplementedYet}` }
     if(Array.isArray(p.value)){
         return t('multiple class prerequisite', undefined, {
             classes: p.value.map(getName).join(', ')
@@ -59,9 +61,13 @@ const prerequisiteValidations = {
     size: (p, t) => t('size prerequisites', undefined, {
         sizeList: p.value.map(v=>t(v,'sizes')).join(', ')
     }),
-    deities: (p, t) => t('deities prerequisites', undefined, {
-        deityName: t(p.value)
-    }),
+    deities: (p, t) => {
+        const notImplementedYet = `(${t('not implemented yet')})`
+        const msg = t('deities prerequisites', undefined, {
+            deityName: t(p.value)
+        })
+        return `${msg} ${notImplementedYet}`
+    },
     // creatureType: () => 'unknown',
     // oneOf: checkOneOf
 }
